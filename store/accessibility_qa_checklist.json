@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedOn": "2026-05-11",
+  "status": "static_checks_ready_real_device_qa_missing",
+  "staticChecks": [
+    {
+      "id": "ios_accessibility_identifiers",
+      "platform": "ios",
+      "evidence": "Reader controls define accessibility identifiers and labels in Views.swift.",
+      "status": "present"
+    },
+    {
+      "id": "ios_reduce_motion",
+      "platform": "ios",
+      "evidence": "Reader uses accessibilityReduceMotion and reduced-motion pathways.",
+      "status": "present"
+    },
+    {
+      "id": "android_content_descriptions",
+      "platform": "android",
+      "evidence": "Compose reader and library surfaces use semantic labels/content descriptions where controls need them.",
+      "status": "needs_static_validator_coverage"
+    },
+    {
+      "id": "visual_layout_fit",
+      "platform": "ios_android",
+      "evidence": "tools/validate_visual_layout.py checks fit-safe art dimensions and smoke screenshots.",
+      "status": "present"
+    }
+  ],
+  "realDeviceChecksRequiredBeforeSubmission": [
+    "VoiceOver reader navigation",
+    "TalkBack reader navigation",
+    "Dynamic type or font scaling behavior",
+    "Reduced motion page-turn behavior",
+    "Color contrast on primary reader/paywall/library controls",
+    "Parent gate keyboard/screen-reader operability"
+  ],
+  "nonEvidenceWarning": "This checklist is not a completed accessibility QA run."
+}

@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "1.0.0",
+  "bookId": "book.gold_silver_axe",
+  "slug": "gold-axe-silver-axe",
+  "title": {
+    "ko": "금도끼 은도끼",
+    "en": "The Gold Axe and Silver Axe"
+  },
+  "characterSheetPrompt": "Create a production character sheet for The Gold Axe and Silver Axe in premium Korean watercolor, gouache, and soft ink. Show the humble woodcutter, gentle stream spirit, comic neighbor, old iron axe, gold axe, silver axe, pine forest, and jade pond motifs. Keep the style child-safe, honest, calm, and luminous.",
+  "mainCharacterDescriptions": [
+    {
+      "id": "woodcutter",
+      "description": "Humble Korean woodcutter with kind eyes, careful hands, and modest posture. He is hardworking but gentle.",
+      "recurringOutfitAndColors": "Patched cream jeogori, muted brown vest, indigo-gray work pants, straw shoes.",
+      "continuityNotes": "His old iron axe is plain, worn, and beloved; it should never look ornate."
+    },
+    {
+      "id": "stream_spirit",
+      "description": "Gentle mountain stream spirit with elder warmth, mist-soft edges, flowing jade and ivory robes, and water-reflection hair shapes. Not intimidating.",
+      "recurringOutfitAndColors": "Jade, ivory, pale silver, lotus-leaf green.",
+      "continuityNotes": "Appears with pond ripples, lotus leaves, and silver mist."
+    },
+    {
+      "id": "neighbor",
+      "description": "Comic Korean neighbor with eager eyebrows and restless hands. He is greedy in a funny way and capable of learning.",
+      "recurringOutfitAndColors": "Tidy but loud persimmon vest, darker pants, small hat slightly askew.",
+      "continuityNotes": "His posture shifts from grabby and leaning forward to embarrassed and softened."
+    },
+    {
+      "id": "pine_forest",
+      "description": "Recurring pine forest and jade pond environment that behaves like a quiet character.",
+      "recurringOutfitAndColors": "Deep pine green, jade water, mist ivory, mountain blue.",
+      "continuityNotes": "Use the same pond shape and pine silhouettes in every pond scene."
+    }
+  ],
+  "styleRules": [
+    "Gold and silver axes may glow but should not look like weapons.",
+    "Honesty theme should feel calm and warm, not punitive.",
+    "The stream spirit should be magical but gentle.",
+    "Use clear reflections and pond ripples for visual continuity.",
+    "Avoid luxury excess; the woodcutter's world is modest and beautiful."
+  ],
+  "forbiddenVisualElements": [
+    "Threatening weapon poses",
+    "Scary water spirit",
+    "Modern saws or machinery",
+    "Greed shown as grotesque caricature",
+    "Harsh punishment imagery",
+    "Overly shiny casino-like gold"
+  ],
+  "sceneContinuityNotes": [
+    "Keep the old iron axe visually distinct from gold and silver axes.",
+    "The pond should always read as the same place.",
+    "The woodcutter's outfit should remain patched but clean.",
+    "Neighbor scenes should be comic, never cruel.",
+    "Final scenes should show repair and humility through body language."
+  ],
+  "promptPrefix": "Global style bible shared-content/style/moonjar_style_bible.json. Reference character bible shared-content/characters/gold_silver_axe.character_bible.json. Maintain exact character designs, outfit colors, recurring objects, child-safe tone, and scene continuity for The Gold Axe and Silver Axe.",
+  "styleBible": "style/moonjar_style_bible.json",
+  "masterArtStylePrompt": "Illustrate 금도끼 은도끼 / The Gold Axe and Silver Axe as a premium Korean watercolor, gouache, and soft ink picture book with hanji texture, warm lantern light, deep indigo, moon ivory, persimmon, jade, lotus pink, and muted gold. Keep the mood culturally respectful, cozy, and bedtime-safe.",
+  "perCharacterVisualIdentity": [
+    {
+      "id": "woodcutter",
+      "identityLock": "Humble Korean woodcutter with kind eyes, careful hands, and modest posture. He is hardworking but gentle.",
+      "recurringOutfitAndColors": "Patched cream jeogori, muted brown vest, indigo-gray work pants, straw shoes.",
+      "continuityAnchor": "His old iron axe is plain, worn, and beloved; it should never look ornate."
+    },
+    {
+      "id": "stream_spirit",
+      "identityLock": "Gentle mountain stream spirit with elder warmth, mist-soft edges, flowing jade and ivory robes, and water-reflection hair shapes. Not intimidating.",
+      "recurringOutfitAndColors": "Jade, ivory, pale silver, lotus-leaf green.",
+      "continuityAnchor": "Appears with pond ripples, lotus leaves, and silver mist."
+    },
+    {
+      "id": "neighbor",
+      "identityLock": "Comic Korean neighbor with eager eyebrows and restless hands. He is greedy in a funny way and capable of learning.",
+      "recurringOutfitAndColors": "Tidy but loud persimmon vest, darker pants, small hat slightly askew.",
+      "continuityAnchor": "His posture shifts from grabby and leaning forward to embarrassed and softened."
+    },
+    {
+      "id": "pine_forest",
+      "identityLock": "Recurring pine forest and jade pond environment that behaves like a quiet character.",
+      "recurringOutfitAndColors": "Deep pine green, jade water, mist ivory, mountain blue.",
+      "continuityAnchor": "Use the same pond shape and pine silhouettes in every pond scene."
+    }
+  ],
+  "outfitRules": [
+    "Never change a main character outfit color within the same book unless the story explicitly calls for a transformation.",
+    "Use historically inspired Korean clothing shapes without turning them into costume caricature.",
+    "Children should keep the same hair shape, face shape, and outfit palette from scene to scene."
+  ],
+  "colorPalette": [
+    "deep indigo ink",
+    "moon ivory",
+    "warm hanji cream",
+    "persimmon",
+    "jade leaf",
+    "lotus pink",
+    "muted lantern gold"
+  ],
+  "facialExpressionRules": [
+    "Children can look curious, brave, surprised, sleepy, or relieved, but never terrified.",
+    "Adults should read as warm, practical, or gently concerned rather than panicked.",
+    "Tigers and magical figures should use round, comic, readable expressions for ages 3-8."
+  ],
+  "ageBodyProportionRules": [
+    "Children have childlike proportions: round cheeks, shorter limbs, smaller shoulders, and age-appropriate posture.",
+    "Adults have calm, grounded proportions and never glamour poses.",
+    "Animal characters should be soft-edged and expressive, not anatomically threatening."
+  ],
+  "doNotChangeRules": [
+    "Do not change recurring outfit colors, hair shapes, face shapes, or key props.",
+    "Do not introduce modern objects, logos, printed text, or Western fantasy costumes.",
+    "Do not make the visual tone darker than the child-safe retelling."
+  ],
+  "recurringObjectRules": [
+    "Keep important story props visually consistent after first appearance.",
+    "Use props as continuity anchors between scenes and in cover art.",
+    "When a prop becomes animated, preserve its color, scale, and silhouette."
+  ],
+  "negativePrompt": "photorealism, horror lighting, blood, injury, sharp claws, teeth emphasis, weapons, modern architecture, modern logos, text, watermark, distorted hands, inconsistent outfits, adult-like children",
+  "characterSheetAsset": "assets/generated-draft/images/character-sheets/gold-axe-silver-axe.png",
+  "characterArtManifest": "assets/manifests/character_art_manifest.json",
+  "characterConsistencyStatus": "generated_reviewed_story_specific_internal_demo",
+  "productionCharacterPackStatus": "generated_reviewed_internal_demo_not_commissioned_final",
+  "visualAnchorEvidence": {
+    "characterSheetAsset": "assets/generated-draft/images/character-sheets/gold-axe-silver-axe.png",
+    "sceneArtRenderer": "local_story_specific_svg_renderer",
+    "sceneArtModel": "moonjar_story_specific_painterly_svg_v3",
+    "storySpecificArt": true,
+    "placeholderLike": false
+  },
+  "characterDesignLocks": {
+    "figures": [
+      "woodcutter",
+      "mountain_spirit"
+    ],
+    "recurringProp": "axe_pair",
+    "environment": "mountain_spring",
+    "palette": [
+      "#263a55",
+      "#387e69",
+      "#f3d36a",
+      "#c8d8de",
+      "#9f6a3a"
+    ],
+    "doNotChange": [
+      "Keep figure silhouettes, palette, recurring prop, and environment motif stable across the book.",
+      "Do not replace story-specific art with abstract stripe/block placeholders.",
+      "Do not mark generated internal-demo art as commissioned_final."
+    ]
+  }
+}

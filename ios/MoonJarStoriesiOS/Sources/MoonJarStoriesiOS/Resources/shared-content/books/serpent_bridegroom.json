@@ -1,0 +1,3091 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "book.serpent_bridegroom",
+  "slug": "serpent-bridegroom",
+  "title": {
+    "ko": "구렁덩덩 신선비",
+    "en": "The Gentle Serpent Scholar"
+  },
+  "access": "premium",
+  "ageRange": "6-8",
+  "estimatedMinutes": 11,
+  "summary": "The youngest daughter chooses the gentle serpent scholar, keeps and breaks a promise, loses him, and journeys to restore trust after transformation.",
+  "coverAsset": "assets/books/serpent-bridegroom/cover.png",
+  "coverAssetStatus": "placeholder",
+  "characterBible": "characters/serpent_bridegroom.character_bible.json",
+  "narrationAudioStatus": "synthetic_draft",
+  "adaptationVersions": {
+    "default": "English-first bilingual semantic-authenticity repair draft",
+    "plannedAlternate": "External editor pass after children’s editorial and Korean-language review",
+    "note": "Generated repo-local repair draft; not external human final."
+  },
+  "sensitivityNotes": [
+    "The serpent is mysterious and gentle, not horror; promises and consent stay explicit.",
+    "Repaired by repo-local semantic authenticity pass; external children’s editor, Korean-language, cultural, and child-safety review remain required before final release."
+  ],
+  "themes": [
+    "consent",
+    "trust",
+    "promise",
+    "transformation",
+    "quest"
+  ],
+  "characters": [
+    "brave_bride",
+    "serpent_bridegroom",
+    "sister_helper",
+    "bamboo_room"
+  ],
+  "pages": [
+    {
+      "id": "serpent_bridegroom_001",
+      "pageNumber": 1,
+      "text": {
+        "enLittle": "Three sisters heard of a serpent bridegroom and stepped back.",
+        "enStandard": "In the bamboo courtyard, first, three sisters heard of a serpent bridegroom and stepped back. \"I will answer carefully,\" came the reply.",
+        "koLittle": "구렁이와 신선비가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "구렁이와 신선비가 있는 옛이야기 길에서 구렁이와 신선비가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "구렁이와 신선비가 있는 옛이야기 길에서 구렁이와 신선비가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the bamboo courtyard, first, three sisters heard of a serpent bridegroom and stepped back. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "구렁이와 신선비가 있는 옛이야기 길에서 구렁이와 신선비가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "구렁이",
+          "en": "serpent",
+          "romanization": "gureongi",
+          "definitionEn": "A large snake from the tale, shown gently.",
+          "definitionKo": "이야기 속 큰 뱀이지만 다정하게 그려요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "A careful word to keep.",
+          "definitionKo": "지키려고 하는 소중한 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "youngest daughter hears the serpent's proposal (strange proposal)",
+        "emotion": "cautious agency",
+        "pageTurnHook": "Then the next part of strange proposal will ask for a braver choice, and the story moves toward gentle marriage.",
+        "readAloudCue": "Read with cautious agency; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap bamboo courtyard."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/serpent_bridegroom.character_bible.json. Page 1 for 구렁덩덩 신선비 / The Gentle Serpent Scholar: bamboo courtyard; specific beat: three sisters heard of a serpent bridegroom and stepped back; emotional tone: cautious agency; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/serpent-bridegroom/page-001.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with cautious agency; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/serpent-bridegroom/ko/page-001.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/serpent-bridegroom/ambient/ambient-loop.wav",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_001/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_001/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_001/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_001/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_001/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_001/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "serpent_bridegroom_002",
+      "pageNumber": 2,
+      "text": {
+        "enLittle": "The youngest asked whether he spoke kindly before asking how he looked.",
+        "enStandard": "In the bamboo courtyard, next, the youngest asked whether he spoke kindly before asking how he looked. \"Then walk gently,\" the elder said.",
+        "koLittle": "약속 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "구렁이와 신선비가 있는 옛이야기 길에서 약속 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "구렁이와 신선비가 있는 옛이야기 길에서 약속 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the bamboo courtyard, next, the youngest asked whether he spoke kindly before asking how he looked. \"Then walk gently,\" the elder said.",
+      "narrationScript": "구렁이와 신선비가 있는 옛이야기 길에서 약속 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "신선비",
+          "en": "scholar bridegroom",
+          "romanization": "sinseonbi",
+          "definitionEn": "A refined magical scholar.",
+          "definitionKo": "신비롭고 점잖은 선비예요."
+        },
+        {
+          "ko": "변신",
+          "en": "transformation",
+          "romanization": "byeonsin",
+          "definitionEn": "Changing form.",
+          "definitionKo": "모습이 바뀌는 일이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "youngest daughter hears the serpent's proposal (strange proposal)",
+        "emotion": "cautious agency",
+        "pageTurnHook": "Then the next part of strange proposal will ask for a braver choice, and the story moves toward gentle marriage.",
+        "readAloudCue": "Read with cautious agency; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace bamboo courtyard."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/serpent_bridegroom.character_bible.json. Page 2 for 구렁덩덩 신선비 / The Gentle Serpent Scholar: bamboo courtyard; specific beat: the youngest asked whether he spoke kindly before asking how he looked; emotional tone: cautious agency; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/serpent-bridegroom/page-002.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with cautious agency; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/serpent-bridegroom/ko/page-002.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/serpent-bridegroom/ambient/ambient-loop.wav",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_002/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_002/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_002/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_002/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_002/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_002/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "serpent_bridegroom_003",
+      "pageNumber": 3,
+      "text": {
+        "enLittle": "The serpent bowed from a bamboo shadow without crossing her threshold.",
+        "enStandard": "In the bamboo courtyard, quietly, the serpent bowed from a bamboo shadow without crossing her threshold. \"I am still learning,\" the child answered.",
+        "koLittle": "구렁이를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "구렁이와 신선비가 있는 옛이야기 길에서 구렁이를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "구렁이와 신선비가 있는 옛이야기 길에서 구렁이를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the bamboo courtyard, quietly, the serpent bowed from a bamboo shadow without crossing her threshold. \"I am still learning,\" the child answered.",
+      "narrationScript": "구렁이와 신선비가 있는 옛이야기 길에서 구렁이를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "A careful word to keep.",
+          "definitionKo": "지키려고 하는 소중한 말이에요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "youngest daughter hears the serpent's proposal (strange proposal)",
+        "emotion": "cautious agency",
+        "pageTurnHook": "Then the next part of strange proposal will ask for a braver choice, and the story moves toward gentle marriage.",
+        "readAloudCue": "Read with cautious agency; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count bamboo courtyard."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/serpent_bridegroom.character_bible.json. Page 3 for 구렁덩덩 신선비 / The Gentle Serpent Scholar: bamboo courtyard; specific beat: the serpent bowed from a bamboo shadow without crossing her threshold; emotional tone: cautious agency; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/serpent-bridegroom/page-003.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with cautious agency; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/serpent-bridegroom/ko/page-003.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/serpent-bridegroom/ambient/ambient-loop.wav",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_003/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_003/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_003/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_003/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_003/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_003/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "serpent_bridegroom_004",
+      "pageNumber": 4,
+      "text": {
+        "enLittle": "She chose to listen because choice belonged to her.",
+        "enStandard": "In the bamboo courtyard, with the moon high, she chose to listen because choice belonged to her. \"Tell me the truth,\" someone said.",
+        "koLittle": "변신의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "구렁이와 신선비가 있는 옛이야기 길에서 변신의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "구렁이와 신선비가 있는 옛이야기 길에서 변신의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the bamboo courtyard, with the moon high, she chose to listen because choice belonged to her. \"Tell me the truth,\" someone said.",
+      "narrationScript": "구렁이와 신선비가 있는 옛이야기 길에서 변신의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "변신",
+          "en": "transformation",
+          "romanization": "byeonsin",
+          "definitionEn": "Changing form.",
+          "definitionKo": "모습이 바뀌는 일이에요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "youngest daughter hears the serpent's proposal (strange proposal)",
+        "emotion": "cautious agency",
+        "pageTurnHook": "Then the next part of strange proposal will ask for a braver choice, and the story moves toward gentle marriage.",
+        "readAloudCue": "Read with cautious agency; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold bamboo courtyard."
+      },
+      "refrain": "A promise has scales of light.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/serpent_bridegroom.character_bible.json. Page 4 for 구렁덩덩 신선비 / The Gentle Serpent Scholar: bamboo courtyard; specific beat: she chose to listen because choice belonged to her; emotional tone: cautious agency; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/serpent-bridegroom/page-004.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with cautious agency; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/serpent-bridegroom/ko/page-004.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/serpent-bridegroom/ambient/ambient-loop.wav",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_004/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_004/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_004/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_004/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_004/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_004/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "약속은 빛나는 비늘을 가졌어."
+    },
+    {
+      "id": "serpent_bridegroom_005",
+      "pageNumber": 5,
+      "text": {
+        "enLittle": "Three sisters heard of a serpent bridegroom and stepped back.",
+        "enStandard": "In the bamboo courtyard, before dawn, three sisters heard of a serpent bridegroom and stepped back. \"I will answer carefully,\" came the reply.",
+        "koLittle": "구렁이와 신선비가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "구렁이와 신선비가 있는 옛이야기 길에서 구렁이와 신선비가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "구렁이와 신선비가 있는 옛이야기 길에서 구렁이와 신선비가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the bamboo courtyard, before dawn, three sisters heard of a serpent bridegroom and stepped back. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "구렁이와 신선비가 있는 옛이야기 길에서 구렁이와 신선비가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "youngest daughter hears the serpent's proposal (strange proposal)",
+        "emotion": "cautious agency",
+        "pageTurnHook": "Then the next part of strange proposal will ask for a braver choice, and the story moves toward gentle marriage.",
+        "readAloudCue": "Read with cautious agency; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe bamboo courtyard."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/serpent_bridegroom.character_bible.json. Page 5 for 구렁덩덩 신선비 / The Gentle Serpent Scholar: bamboo courtyard; specific beat: three sisters heard of a serpent bridegroom and stepped back; emotional tone: cautious agency; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/serpent-bridegroom/page-005.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with cautious agency; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/serpent-bridegroom/ko/page-005.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/serpent-bridegroom/ambient/ambient-loop.wav",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_005/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_005/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_005/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_005/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_005/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_005/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "serpent_bridegroom_006",
+      "pageNumber": 6,
+      "text": {
+        "enLittle": "The serpent kept to a woven mat when she asked for space.",
+        "enStandard": "In the moonlit room, first, the serpent kept to a woven mat when she asked for space. \"I am still learning,\" the child answered.",
+        "koLittle": "신선비와 약속가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "신선비와 약속가 있는 옛이야기 길에서 신선비와 약속가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "신선비와 약속가 있는 옛이야기 길에서 신선비와 약속가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the moonlit room, first, the serpent kept to a woven mat when she asked for space. \"I am still learning,\" the child answered.",
+      "narrationScript": "신선비와 약속가 있는 옛이야기 길에서 신선비와 약속가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "they build trust with boundaries (gentle marriage)",
+        "emotion": "tender mystery",
+        "pageTurnHook": "Then the next part of gentle marriage will ask for a braver choice, and the story moves toward promise of skin.",
+        "readAloudCue": "Read with tender mystery; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open moonlit room."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/serpent_bridegroom.character_bible.json. Page 6 for 구렁덩덩 신선비 / The Gentle Serpent Scholar: moonlit room; specific beat: the serpent kept to a woven mat when she asked for space; emotional tone: tender mystery; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/serpent-bridegroom/page-006.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with tender mystery; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/serpent-bridegroom/ko/page-006.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/serpent-bridegroom/ambient/ambient-loop.wav",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_006/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_006/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_006/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_006/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_006/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_006/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "serpent_bridegroom_007",
+      "pageNumber": 7,
+      "text": {
+        "enLittle": "He recited poems about rain on bamboo leaves.",
+        "enStandard": "In the moonlit room, next, he recited poems about rain on bamboo leaves. \"Tell me the truth,\" someone said.",
+        "koLittle": "변신 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "신선비와 약속가 있는 옛이야기 길에서 변신 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "신선비와 약속가 있는 옛이야기 길에서 변신 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the moonlit room, next, he recited poems about rain on bamboo leaves. \"Tell me the truth,\" someone said.",
+      "narrationScript": "신선비와 약속가 있는 옛이야기 길에서 변신 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "they build trust with boundaries (gentle marriage)",
+        "emotion": "tender mystery",
+        "pageTurnHook": "Then the next part of gentle marriage will ask for a braver choice, and the story moves toward promise of skin.",
+        "readAloudCue": "Read with tender mystery; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose moonlit room."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/serpent_bridegroom.character_bible.json. Page 7 for 구렁덩덩 신선비 / The Gentle Serpent Scholar: moonlit room; specific beat: he recited poems about rain on bamboo leaves; emotional tone: tender mystery; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/serpent-bridegroom/page-007.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with tender mystery; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/serpent-bridegroom/ko/page-007.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/serpent-bridegroom/ambient/ambient-loop.wav",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_007/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_007/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_007/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_007/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_007/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_007/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "serpent_bridegroom_008",
+      "pageNumber": 8,
+      "text": {
+        "enLittle": "She placed a lamp where both could see each other's eyes.",
+        "enStandard": "In the moonlit room, quietly, she placed a lamp where both could see each other's eyes. \"I will answer carefully,\" came the reply.",
+        "koLittle": "신선비를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "신선비와 약속가 있는 옛이야기 길에서 신선비를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "신선비와 약속가 있는 옛이야기 길에서 신선비를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the moonlit room, quietly, she placed a lamp where both could see each other's eyes. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "신선비와 약속가 있는 옛이야기 길에서 신선비를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "they build trust with boundaries (gentle marriage)",
+        "emotion": "tender mystery",
+        "pageTurnHook": "Then the next part of gentle marriage will ask for a braver choice, and the story moves toward promise of skin.",
+        "readAloudCue": "Read with tender mystery; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag moonlit room."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/serpent_bridegroom.character_bible.json. Page 8 for 구렁덩덩 신선비 / The Gentle Serpent Scholar: moonlit room; specific beat: she placed a lamp where both could see each other's eyes; emotional tone: tender mystery; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/serpent-bridegroom/page-008.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with tender mystery; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/serpent-bridegroom/ko/page-008.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/serpent-bridegroom/ambient/ambient-loop.wav",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_008/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_008/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_008/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_008/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_008/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_008/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "serpent_bridegroom_009",
+      "pageNumber": 9,
+      "text": {
+        "enLittle": "Trust arrived slowly.",
+        "enStandard": "In the moonlit room, with the moon high, trust arrived slowly, like tea cooling. \"Then walk gently,\" the elder said.",
+        "koLittle": "구렁이의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "신선비와 약속가 있는 옛이야기 길에서 구렁이의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "신선비와 약속가 있는 옛이야기 길에서 구렁이의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the moonlit room, with the moon high, trust arrived slowly, like tea cooling. \"Then walk gently,\" the elder said.",
+      "narrationScript": "신선비와 약속가 있는 옛이야기 길에서 구렁이의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "구렁이",
+          "en": "serpent",
+          "romanization": "gureongi",
+          "definitionEn": "A large snake from the tale, shown gently.",
+          "definitionKo": "이야기 속 큰 뱀이지만 다정하게 그려요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "they build trust with boundaries (gentle marriage)",
+        "emotion": "tender mystery",
+        "pageTurnHook": "Then the next part of gentle marriage will ask for a braver choice, and the story moves toward promise of skin.",
+        "readAloudCue": "Read with tender mystery; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap moonlit room."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/serpent_bridegroom.character_bible.json. Page 9 for 구렁덩덩 신선비 / The Gentle Serpent Scholar: moonlit room; specific beat: trust arrived slowly, like tea cooling; emotional tone: tender mystery; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/serpent-bridegroom/page-009.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with tender mystery; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/serpent-bridegroom/ko/page-009.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/serpent-bridegroom/ambient/ambient-loop.wav",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_009/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_009/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_009/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_009/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_009/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_009/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "serpent_bridegroom_010",
+      "pageNumber": 10,
+      "text": {
+        "enLittle": "The serpent kept to a woven mat when she asked for space.",
+        "enStandard": "In the moonlit room, before dawn, the serpent kept to a woven mat when she asked for space. \"I am still learning,\" the child answered.",
+        "koLittle": "신선비와 약속가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "신선비와 약속가 있는 옛이야기 길에서 신선비와 약속가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "신선비와 약속가 있는 옛이야기 길에서 신선비와 약속가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the moonlit room, before dawn, the serpent kept to a woven mat when she asked for space. \"I am still learning,\" the child answered.",
+      "narrationScript": "신선비와 약속가 있는 옛이야기 길에서 신선비와 약속가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "신선비",
+          "en": "scholar bridegroom",
+          "romanization": "sinseonbi",
+          "definitionEn": "A refined magical scholar.",
+          "definitionKo": "신비롭고 점잖은 선비예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "they build trust with boundaries (gentle marriage)",
+        "emotion": "tender mystery",
+        "pageTurnHook": "Then the next part of gentle marriage will ask for a braver choice, and the story moves toward promise of skin.",
+        "readAloudCue": "Read with tender mystery; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace moonlit room."
+      },
+      "refrain": "A promise has scales of light.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/serpent_bridegroom.character_bible.json. Page 10 for 구렁덩덩 신선비 / The Gentle Serpent Scholar: moonlit room; specific beat: the serpent kept to a woven mat when she asked for space; emotional tone: tender mystery; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/serpent-bridegroom/page-010.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with tender mystery; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/serpent-bridegroom/ko/page-010.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/serpent-bridegroom/ambient/ambient-loop.wav",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_010/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_010/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_010/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_010/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_010/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_010/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "약속은 빛나는 비늘을 가졌어."
+    },
+    {
+      "id": "serpent_bridegroom_011",
+      "pageNumber": 11,
+      "text": {
+        "enLittle": "The serpent showed a shining skin and asked her not to burn or break it.",
+        "enStandard": "In the inner chamber, first, the serpent showed a shining skin and asked her not to burn or break it. \"I will answer carefully,\" came the reply.",
+        "koLittle": "약속와 변신가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "약속와 변신가 있는 옛이야기 길에서 약속와 변신가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "약속와 변신가 있는 옛이야기 길에서 약속와 변신가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the inner chamber, first, the serpent showed a shining skin and asked her not to burn or break it. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "약속와 변신가 있는 옛이야기 길에서 약속와 변신가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "구렁이",
+          "en": "serpent",
+          "romanization": "gureongi",
+          "definitionEn": "A large snake from the tale, shown gently.",
+          "definitionKo": "이야기 속 큰 뱀이지만 다정하게 그려요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "A careful word to keep.",
+          "definitionKo": "지키려고 하는 소중한 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "transformation depends on a promise (promise of skin)",
+        "emotion": "solemn wonder",
+        "pageTurnHook": "Then the next part of promise of skin will ask for a braver choice, and the story moves toward broken promise.",
+        "readAloudCue": "Read with solemn wonder; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count inner chamber."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/serpent_bridegroom.character_bible.json. Page 11 for 구렁덩덩 신선비 / The Gentle Serpent Scholar: inner chamber; specific beat: the serpent showed a shining skin and asked her not to burn or break it; emotional tone: solemn wonder; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/serpent-bridegroom/page-011.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with solemn wonder; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/serpent-bridegroom/ko/page-011.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/serpent-bridegroom/ambient/ambient-loop.wav",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_011/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_011/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_011/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_011/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_011/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_011/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "serpent_bridegroom_012",
+      "pageNumber": 12,
+      "text": {
+        "enLittle": "When he stepped from it.",
+        "enStandard": "In the inner chamber, next, when he stepped from it, a scholar stood where moonlight had pooled. \"Then walk gently,\" the elder said.",
+        "koLittle": "구렁이 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "약속와 변신가 있는 옛이야기 길에서 구렁이 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "약속와 변신가 있는 옛이야기 길에서 구렁이 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the inner chamber, next, when he stepped from it, a scholar stood where moonlight had pooled. \"Then walk gently,\" the elder said.",
+      "narrationScript": "약속와 변신가 있는 옛이야기 길에서 구렁이 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "신선비",
+          "en": "scholar bridegroom",
+          "romanization": "sinseonbi",
+          "definitionEn": "A refined magical scholar.",
+          "definitionKo": "신비롭고 점잖은 선비예요."
+        },
+        {
+          "ko": "변신",
+          "en": "transformation",
+          "romanization": "byeonsin",
+          "definitionEn": "Changing form.",
+          "definitionKo": "모습이 바뀌는 일이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "transformation depends on a promise (promise of skin)",
+        "emotion": "solemn wonder",
+        "pageTurnHook": "Then the next part of promise of skin will ask for a braver choice, and the story moves toward broken promise.",
+        "readAloudCue": "Read with solemn wonder; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold inner chamber."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/serpent_bridegroom.character_bible.json. Page 12 for 구렁덩덩 신선비 / The Gentle Serpent Scholar: inner chamber; specific beat: when he stepped from it, a scholar stood where moonlight had pooled; emotional tone: solemn wonder; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/serpent-bridegroom/page-012.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with solemn wonder; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/serpent-bridegroom/ko/page-012.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/serpent-bridegroom/ambient/ambient-loop.wav",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_012/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_012/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_012/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_012/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_012/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_012/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "serpent_bridegroom_013",
+      "pageNumber": 13,
+      "text": {
+        "enLittle": "She held the promise with both hands.",
+        "enStandard": "In the inner chamber, quietly, she held the promise with both hands. \"I am still learning,\" the child answered.",
+        "koLittle": "약속를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "약속와 변신가 있는 옛이야기 길에서 약속를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "약속와 변신가 있는 옛이야기 길에서 약속를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the inner chamber, quietly, she held the promise with both hands. \"I am still learning,\" the child answered.",
+      "narrationScript": "약속와 변신가 있는 옛이야기 길에서 약속를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "A careful word to keep.",
+          "definitionKo": "지키려고 하는 소중한 말이에요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "transformation depends on a promise (promise of skin)",
+        "emotion": "solemn wonder",
+        "pageTurnHook": "Then the next part of promise of skin will ask for a braver choice, and the story moves toward broken promise.",
+        "readAloudCue": "Read with solemn wonder; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe inner chamber."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/serpent_bridegroom.character_bible.json. Page 13 for 구렁덩덩 신선비 / The Gentle Serpent Scholar: inner chamber; specific beat: she held the promise with both hands; emotional tone: solemn wonder; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/serpent-bridegroom/page-013.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with solemn wonder; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/serpent-bridegroom/ko/page-013.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/serpent-bridegroom/ambient/ambient-loop.wav",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_013/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_013/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_013/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_013/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_013/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_013/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "serpent_bridegroom_014",
+      "pageNumber": 14,
+      "text": {
+        "enLittle": "Outside.",
+        "enStandard": "In the inner chamber, with the moon high, outside, jealous whispers scratched at the door. \"Tell me the truth,\" someone said.",
+        "koLittle": "신선비의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "약속와 변신가 있는 옛이야기 길에서 신선비의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "약속와 변신가 있는 옛이야기 길에서 신선비의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the inner chamber, with the moon high, outside, jealous whispers scratched at the door. \"Tell me the truth,\" someone said.",
+      "narrationScript": "약속와 변신가 있는 옛이야기 길에서 신선비의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "변신",
+          "en": "transformation",
+          "romanization": "byeonsin",
+          "definitionEn": "Changing form.",
+          "definitionKo": "모습이 바뀌는 일이에요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "transformation depends on a promise (promise of skin)",
+        "emotion": "solemn wonder",
+        "pageTurnHook": "Then the next part of promise of skin will ask for a braver choice, and the story moves toward broken promise.",
+        "readAloudCue": "Read with solemn wonder; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open inner chamber."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/serpent_bridegroom.character_bible.json. Page 14 for 구렁덩덩 신선비 / The Gentle Serpent Scholar: inner chamber; specific beat: outside, jealous whispers scratched at the door; emotional tone: solemn wonder; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/serpent-bridegroom/page-014.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with solemn wonder; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/serpent-bridegroom/ko/page-014.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/serpent-bridegroom/ambient/ambient-loop.wav",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_014/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_014/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_014/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_014/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_014/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_014/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "serpent_bridegroom_015",
+      "pageNumber": 15,
+      "text": {
+        "enLittle": "The serpent showed a shining skin and asked her not to burn or break it.",
+        "enStandard": "In the inner chamber, before dawn, the serpent showed a shining skin and asked her not to burn or break it. \"I will answer carefully,\" came the reply.",
+        "koLittle": "약속와 변신가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "약속와 변신가 있는 옛이야기 길에서 약속와 변신가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "약속와 변신가 있는 옛이야기 길에서 약속와 변신가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the inner chamber, before dawn, the serpent showed a shining skin and asked her not to burn or break it. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "약속와 변신가 있는 옛이야기 길에서 약속와 변신가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "transformation depends on a promise (promise of skin)",
+        "emotion": "solemn wonder",
+        "pageTurnHook": "Then the next part of promise of skin will ask for a braver choice, and the story moves toward broken promise.",
+        "readAloudCue": "Read with solemn wonder; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose inner chamber."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/serpent_bridegroom.character_bible.json. Page 15 for 구렁덩덩 신선비 / The Gentle Serpent Scholar: inner chamber; specific beat: the serpent showed a shining skin and asked her not to burn or break it; emotional tone: solemn wonder; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/serpent-bridegroom/page-015.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with solemn wonder; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/serpent-bridegroom/ko/page-015.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/serpent-bridegroom/ambient/ambient-loop.wav",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_015/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_015/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_015/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_015/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_015/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_015/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "serpent_bridegroom_016",
+      "pageNumber": 16,
+      "text": {
+        "enLittle": "Relatives frightened her with careless words until doubt grew sharp.",
+        "enStandard": "In the family courtyard, first, relatives frightened her with careless words until doubt grew sharp. \"I am still learning,\" the child answered.",
+        "koLittle": "변신와 구렁이가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "변신와 구렁이가 있는 옛이야기 길에서 변신와 구렁이가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "변신와 구렁이가 있는 옛이야기 길에서 변신와 구렁이가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the family courtyard, first, relatives frightened her with careless words until doubt grew sharp. \"I am still learning,\" the child answered.",
+      "narrationScript": "변신와 구렁이가 있는 옛이야기 길에서 변신와 구렁이가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "pressure causes the promise to break (broken promise)",
+        "emotion": "regretful tension",
+        "pageTurnHook": "Then the next part of broken promise will ask for a braver choice, and the story moves toward search quest.",
+        "readAloudCue": "Read with regretful tension; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag family courtyard."
+      },
+      "refrain": "A promise has scales of light.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/serpent_bridegroom.character_bible.json. Page 16 for 구렁덩덩 신선비 / The Gentle Serpent Scholar: family courtyard; specific beat: relatives frightened her with careless words until doubt grew sharp; emotional tone: regretful tension; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/serpent-bridegroom/page-016.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with regretful tension; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/serpent-bridegroom/ko/page-016.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/serpent-bridegroom/ambient/ambient-loop.wav",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_016/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_016/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_016/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_016/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_016/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_016/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "약속은 빛나는 비늘을 가졌어."
+    },
+    {
+      "id": "serpent_bridegroom_017",
+      "pageNumber": 17,
+      "text": {
+        "enLittle": "The serpent skin burned at the edge before she understood what she had done.",
+        "enStandard": "In the family courtyard, next, the serpent skin burned at the edge before she understood what she had done. \"Tell me the truth,\" someone said.",
+        "koLittle": "신선비 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "변신와 구렁이가 있는 옛이야기 길에서 신선비 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "변신와 구렁이가 있는 옛이야기 길에서 신선비 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the family courtyard, next, the serpent skin burned at the edge before she understood what she had done. \"Tell me the truth,\" someone said.",
+      "narrationScript": "변신와 구렁이가 있는 옛이야기 길에서 신선비 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "pressure causes the promise to break (broken promise)",
+        "emotion": "regretful tension",
+        "pageTurnHook": "Then the next part of broken promise will ask for a braver choice, and the story moves toward search quest.",
+        "readAloudCue": "Read with regretful tension; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap family courtyard."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/serpent_bridegroom.character_bible.json. Page 17 for 구렁덩덩 신선비 / The Gentle Serpent Scholar: family courtyard; specific beat: the serpent skin burned at the edge before she understood what she had done; emotional tone: regretful tension; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/serpent-bridegroom/page-017.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with regretful tension; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/serpent-bridegroom/ko/page-017.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/serpent-bridegroom/ambient/ambient-loop.wav",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_017/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_017/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_017/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_017/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_017/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_017/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "serpent_bridegroom_018",
+      "pageNumber": 18,
+      "text": {
+        "enLittle": "The scholar's face filled with hurt instead of anger.",
+        "enStandard": "In the family courtyard, quietly, the scholar's face filled with hurt instead of anger. \"I will answer carefully,\" came the reply.",
+        "koLittle": "변신를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "변신와 구렁이가 있는 옛이야기 길에서 변신를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "변신와 구렁이가 있는 옛이야기 길에서 변신를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the family courtyard, quietly, the scholar's face filled with hurt instead of anger. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "변신와 구렁이가 있는 옛이야기 길에서 변신를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "pressure causes the promise to break (broken promise)",
+        "emotion": "regretful tension",
+        "pageTurnHook": "Then the next part of broken promise will ask for a braver choice, and the story moves toward search quest.",
+        "readAloudCue": "Read with regretful tension; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace family courtyard."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/serpent_bridegroom.character_bible.json. Page 18 for 구렁덩덩 신선비 / The Gentle Serpent Scholar: family courtyard; specific beat: the scholar's face filled with hurt instead of anger; emotional tone: regretful tension; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/serpent-bridegroom/page-018.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with regretful tension; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/serpent-bridegroom/ko/page-018.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/serpent-bridegroom/ambient/ambient-loop.wav",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_018/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_018/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_018/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_018/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_018/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_018/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "serpent_bridegroom_019",
+      "pageNumber": 19,
+      "text": {
+        "enLittle": "He vanished along a road of pale scales.",
+        "enStandard": "In the family courtyard, with the moon high, he vanished along a road of pale scales. \"Then walk gently,\" the elder said.",
+        "koLittle": "약속의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "변신와 구렁이가 있는 옛이야기 길에서 약속의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "변신와 구렁이가 있는 옛이야기 길에서 약속의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the family courtyard, with the moon high, he vanished along a road of pale scales. \"Then walk gently,\" the elder said.",
+      "narrationScript": "변신와 구렁이가 있는 옛이야기 길에서 약속의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "구렁이",
+          "en": "serpent",
+          "romanization": "gureongi",
+          "definitionEn": "A large snake from the tale, shown gently.",
+          "definitionKo": "이야기 속 큰 뱀이지만 다정하게 그려요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "pressure causes the promise to break (broken promise)",
+        "emotion": "regretful tension",
+        "pageTurnHook": "Then the next part of broken promise will ask for a braver choice, and the story moves toward search quest.",
+        "readAloudCue": "Read with regretful tension; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count family courtyard."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/serpent_bridegroom.character_bible.json. Page 19 for 구렁덩덩 신선비 / The Gentle Serpent Scholar: family courtyard; specific beat: he vanished along a road of pale scales; emotional tone: regretful tension; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/serpent-bridegroom/page-019.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with regretful tension; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/serpent-bridegroom/ko/page-019.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/serpent-bridegroom/ambient/ambient-loop.wav",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_019/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_019/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_019/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_019/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_019/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_019/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "serpent_bridegroom_020",
+      "pageNumber": 20,
+      "text": {
+        "enLittle": "Relatives frightened her with careless words until doubt grew sharp.",
+        "enStandard": "In the family courtyard, before dawn, relatives frightened her with careless words until doubt grew sharp. \"I am still learning,\" the child answered.",
+        "koLittle": "변신와 구렁이가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "변신와 구렁이가 있는 옛이야기 길에서 변신와 구렁이가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "변신와 구렁이가 있는 옛이야기 길에서 변신와 구렁이가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the family courtyard, before dawn, relatives frightened her with careless words until doubt grew sharp. \"I am still learning,\" the child answered.",
+      "narrationScript": "변신와 구렁이가 있는 옛이야기 길에서 변신와 구렁이가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "신선비",
+          "en": "scholar bridegroom",
+          "romanization": "sinseonbi",
+          "definitionEn": "A refined magical scholar.",
+          "definitionKo": "신비롭고 점잖은 선비예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "pressure causes the promise to break (broken promise)",
+        "emotion": "regretful tension",
+        "pageTurnHook": "Then the next part of broken promise will ask for a braver choice, and the story moves toward search quest.",
+        "readAloudCue": "Read with regretful tension; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold family courtyard."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/serpent_bridegroom.character_bible.json. Page 20 for 구렁덩덩 신선비 / The Gentle Serpent Scholar: family courtyard; specific beat: relatives frightened her with careless words until doubt grew sharp; emotional tone: regretful tension; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/serpent-bridegroom/page-020.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with regretful tension; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/serpent-bridegroom/ko/page-020.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/serpent-bridegroom/ambient/ambient-loop.wav",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_020/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_020/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_020/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_020/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_020/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_020/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "serpent_bridegroom_021",
+      "pageNumber": 21,
+      "text": {
+        "enLittle": "She crossed reed fields asking every stream for the scholar's path.",
+        "enStandard": "In the mountain and river road, first, she crossed reed fields asking every stream for the scholar's path. \"I will answer carefully,\" came the reply.",
+        "koLittle": "구렁이와 신선비가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "구렁이와 신선비가 있는 옛이야기 길에서 구렁이와 신선비가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "구렁이와 신선비가 있는 옛이야기 길에서 구렁이와 신선비가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the mountain and river road, first, she crossed reed fields asking every stream for the scholar's path. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "구렁이와 신선비가 있는 옛이야기 길에서 구렁이와 신선비가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "구렁이",
+          "en": "serpent",
+          "romanization": "gureongi",
+          "definitionEn": "A large snake from the tale, shown gently.",
+          "definitionKo": "이야기 속 큰 뱀이지만 다정하게 그려요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "A careful word to keep.",
+          "definitionKo": "지키려고 하는 소중한 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "bride journeys to repair trust (search quest)",
+        "emotion": "determined sorrow",
+        "pageTurnHook": "Then the next part of search quest will ask for a braver choice, and the story moves toward restored trust.",
+        "readAloudCue": "Read with determined sorrow; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe mountain and river road."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/serpent_bridegroom.character_bible.json. Page 21 for 구렁덩덩 신선비 / The Gentle Serpent Scholar: mountain and river road; specific beat: she crossed reed fields asking every stream for the scholar's path; emotional tone: determined sorrow; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/serpent-bridegroom/page-021.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with determined sorrow; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/serpent-bridegroom/ko/page-021.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/serpent-bridegroom/ambient/ambient-loop.wav",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_021/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_021/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_021/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_021/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_021/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_021/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "serpent_bridegroom_022",
+      "pageNumber": 22,
+      "text": {
+        "enLittle": "An old woman gave her thread and said apologies must walk.",
+        "enStandard": "In the mountain and river road, next, an old woman gave her thread and said apologies must walk, not fly. \"Then walk gently,\" the elder said.",
+        "koLittle": "약속 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "구렁이와 신선비가 있는 옛이야기 길에서 약속 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "구렁이와 신선비가 있는 옛이야기 길에서 약속 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the mountain and river road, next, an old woman gave her thread and said apologies must walk, not fly. \"Then walk gently,\" the elder said.",
+      "narrationScript": "구렁이와 신선비가 있는 옛이야기 길에서 약속 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "신선비",
+          "en": "scholar bridegroom",
+          "romanization": "sinseonbi",
+          "definitionEn": "A refined magical scholar.",
+          "definitionKo": "신비롭고 점잖은 선비예요."
+        },
+        {
+          "ko": "변신",
+          "en": "transformation",
+          "romanization": "byeonsin",
+          "definitionEn": "Changing form.",
+          "definitionKo": "모습이 바뀌는 일이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "bride journeys to repair trust (search quest)",
+        "emotion": "determined sorrow",
+        "pageTurnHook": "Then the next part of search quest will ask for a braver choice, and the story moves toward restored trust.",
+        "readAloudCue": "Read with determined sorrow; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open mountain and river road."
+      },
+      "refrain": "A promise has scales of light.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/serpent_bridegroom.character_bible.json. Page 22 for 구렁덩덩 신선비 / The Gentle Serpent Scholar: mountain and river road; specific beat: an old woman gave her thread and said apologies must walk, not fly; emotional tone: determined sorrow; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/serpent-bridegroom/page-022.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with determined sorrow; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/serpent-bridegroom/ko/page-022.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/serpent-bridegroom/ambient/ambient-loop.wav",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_022/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_022/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_022/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_022/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_022/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_022/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "약속은 빛나는 비늘을 가졌어."
+    },
+    {
+      "id": "serpent_bridegroom_023",
+      "pageNumber": 23,
+      "text": {
+        "enLittle": "She mended torn bamboo screens for strangers on the way.",
+        "enStandard": "In the mountain and river road, quietly, she mended torn bamboo screens for strangers on the way. \"I am still learning,\" the child answered.",
+        "koLittle": "구렁이를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "구렁이와 신선비가 있는 옛이야기 길에서 구렁이를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "구렁이와 신선비가 있는 옛이야기 길에서 구렁이를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the mountain and river road, quietly, she mended torn bamboo screens for strangers on the way. \"I am still learning,\" the child answered.",
+      "narrationScript": "구렁이와 신선비가 있는 옛이야기 길에서 구렁이를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "A careful word to keep.",
+          "definitionKo": "지키려고 하는 소중한 말이에요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "bride journeys to repair trust (search quest)",
+        "emotion": "determined sorrow",
+        "pageTurnHook": "Then the next part of search quest will ask for a braver choice, and the story moves toward restored trust.",
+        "readAloudCue": "Read with determined sorrow; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose mountain and river road."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/serpent_bridegroom.character_bible.json. Page 23 for 구렁덩덩 신선비 / The Gentle Serpent Scholar: mountain and river road; specific beat: she mended torn bamboo screens for strangers on the way; emotional tone: determined sorrow; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/serpent-bridegroom/page-023.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with determined sorrow; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/serpent-bridegroom/ko/page-023.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/serpent-bridegroom/ambient/ambient-loop.wav",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_023/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_023/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_023/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_023/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_023/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_023/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "serpent_bridegroom_024",
+      "pageNumber": 24,
+      "text": {
+        "enLittle": "Each kindness made the scale road brighter.",
+        "enStandard": "In the mountain and river road, with the moon high, each kindness made the scale road brighter. \"Tell me the truth,\" someone said.",
+        "koLittle": "변신의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "구렁이와 신선비가 있는 옛이야기 길에서 변신의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "구렁이와 신선비가 있는 옛이야기 길에서 변신의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the mountain and river road, with the moon high, each kindness made the scale road brighter. \"Tell me the truth,\" someone said.",
+      "narrationScript": "구렁이와 신선비가 있는 옛이야기 길에서 변신의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "변신",
+          "en": "transformation",
+          "romanization": "byeonsin",
+          "definitionEn": "Changing form.",
+          "definitionKo": "모습이 바뀌는 일이에요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "bride journeys to repair trust (search quest)",
+        "emotion": "determined sorrow",
+        "pageTurnHook": "Then the next part of search quest will ask for a braver choice, and the story moves toward restored trust.",
+        "readAloudCue": "Read with determined sorrow; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag mountain and river road."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/serpent_bridegroom.character_bible.json. Page 24 for 구렁덩덩 신선비 / The Gentle Serpent Scholar: mountain and river road; specific beat: each kindness made the scale road brighter; emotional tone: determined sorrow; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/serpent-bridegroom/page-024.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with determined sorrow; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/serpent-bridegroom/ko/page-024.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/serpent-bridegroom/ambient/ambient-loop.wav",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_024/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_024/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_024/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_024/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_024/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_024/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "serpent_bridegroom_025",
+      "pageNumber": 25,
+      "text": {
+        "enLittle": "She crossed reed fields asking every stream for the scholar's path.",
+        "enStandard": "In the mountain and river road, before dawn, she crossed reed fields asking every stream for the scholar's path. \"I will answer carefully,\" came the reply.",
+        "koLittle": "구렁이와 신선비가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "구렁이와 신선비가 있는 옛이야기 길에서 구렁이와 신선비가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "구렁이와 신선비가 있는 옛이야기 길에서 구렁이와 신선비가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the mountain and river road, before dawn, she crossed reed fields asking every stream for the scholar's path. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "구렁이와 신선비가 있는 옛이야기 길에서 구렁이와 신선비가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "bride journeys to repair trust (search quest)",
+        "emotion": "determined sorrow",
+        "pageTurnHook": "Then the next part of search quest will ask for a braver choice, and the story moves toward restored trust.",
+        "readAloudCue": "Read with determined sorrow; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap mountain and river road."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/serpent_bridegroom.character_bible.json. Page 25 for 구렁덩덩 신선비 / The Gentle Serpent Scholar: mountain and river road; specific beat: she crossed reed fields asking every stream for the scholar's path; emotional tone: determined sorrow; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/serpent-bridegroom/page-025.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with determined sorrow; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/serpent-bridegroom/ko/page-025.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/serpent-bridegroom/ambient/ambient-loop.wav",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_025/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_025/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_025/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_025/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_025/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_025/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "serpent_bridegroom_026",
+      "pageNumber": 26,
+      "text": {
+        "enLittle": "An old woman gave her thread and said apologies must walk.",
+        "enStandard": "In the mountain and river road, after a pause, an old woman gave her thread and said apologies must walk, not fly. \"Then walk gently,\" the elder said.",
+        "koLittle": "약속 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "구렁이와 신선비가 있는 옛이야기 길에서 약속 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "구렁이와 신선비가 있는 옛이야기 길에서 약속 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the mountain and river road, after a pause, an old woman gave her thread and said apologies must walk, not fly. \"Then walk gently,\" the elder said.",
+      "narrationScript": "구렁이와 신선비가 있는 옛이야기 길에서 약속 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "bride journeys to repair trust (search quest)",
+        "emotion": "determined sorrow",
+        "pageTurnHook": "Then the next part of search quest will ask for a braver choice, and the story moves toward restored trust.",
+        "readAloudCue": "Read with determined sorrow; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace mountain and river road."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/serpent_bridegroom.character_bible.json. Page 26 for 구렁덩덩 신선비 / The Gentle Serpent Scholar: mountain and river road; specific beat: an old woman gave her thread and said apologies must walk, not fly; emotional tone: determined sorrow; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/serpent-bridegroom/page-026.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with determined sorrow; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/serpent-bridegroom/ko/page-026.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/serpent-bridegroom/ambient/ambient-loop.wav",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_026/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_026/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_026/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_026/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_026/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_026/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "serpent_bridegroom_027",
+      "pageNumber": 27,
+      "text": {
+        "enLittle": "She found him where a clear spring held the moon.",
+        "enStandard": "In the bamboo room at dawn, first, she found him where a clear spring held the moon. \"Tell me the truth,\" someone said.",
+        "koLittle": "신선비와 약속가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "신선비와 약속가 있는 옛이야기 길에서 신선비와 약속가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "신선비와 약속가 있는 옛이야기 길에서 신선비와 약속가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the bamboo room at dawn, first, she found him where a clear spring held the moon. \"Tell me the truth,\" someone said.",
+      "narrationScript": "신선비와 약속가 있는 옛이야기 길에서 신선비와 약속가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "they reunite through apology and consent (restored trust)",
+        "emotion": "hopeful repair",
+        "pageTurnHook": "Then the next part of restored trust will ask for a braver choice, and the story moves toward restored trust.",
+        "readAloudCue": "Read with hopeful repair; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count bamboo room at dawn."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/serpent_bridegroom.character_bible.json. Page 27 for 구렁덩덩 신선비 / The Gentle Serpent Scholar: bamboo room at dawn; specific beat: she found him where a clear spring held the moon; emotional tone: hopeful repair; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/serpent-bridegroom/page-027.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with hopeful repair; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/serpent-bridegroom/ko/page-027.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/serpent-bridegroom/ambient/ambient-loop.wav",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_027/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_027/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_027/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_027/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_027/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_027/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "serpent_bridegroom_028",
+      "pageNumber": 28,
+      "text": {
+        "enLittle": "Her apology named the broken promise without excuses.",
+        "enStandard": "In the bamboo room at dawn, next, her apology named the broken promise without excuses. \"I will answer carefully,\" came the reply.",
+        "koLittle": "변신 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "신선비와 약속가 있는 옛이야기 길에서 변신 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "신선비와 약속가 있는 옛이야기 길에서 변신 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the bamboo room at dawn, next, her apology named the broken promise without excuses. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "신선비와 약속가 있는 옛이야기 길에서 변신 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "they reunite through apology and consent (restored trust)",
+        "emotion": "hopeful repair",
+        "pageTurnHook": "Then the next part of restored trust will ask for a braver choice, and the story moves toward restored trust.",
+        "readAloudCue": "Read with hopeful repair; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold bamboo room at dawn."
+      },
+      "refrain": "A promise has scales of light.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/serpent_bridegroom.character_bible.json. Page 28 for 구렁덩덩 신선비 / The Gentle Serpent Scholar: bamboo room at dawn; specific beat: her apology named the broken promise without excuses; emotional tone: hopeful repair; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/serpent-bridegroom/page-028.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with hopeful repair; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/serpent-bridegroom/ko/page-028.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/serpent-bridegroom/ambient/ambient-loop.wav",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_028/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_028/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_028/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_028/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_028/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_028/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "약속은 빛나는 비늘을 가졌어."
+    },
+    {
+      "id": "serpent_bridegroom_029",
+      "pageNumber": 29,
+      "text": {
+        "enLittle": "He asked whether she still chose the difficult truth.",
+        "enStandard": "In the bamboo room at dawn, quietly, he asked whether she still chose the difficult truth. \"Then walk gently,\" the elder said.",
+        "koLittle": "신선비를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "신선비와 약속가 있는 옛이야기 길에서 신선비를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "신선비와 약속가 있는 옛이야기 길에서 신선비를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the bamboo room at dawn, quietly, he asked whether she still chose the difficult truth. \"Then walk gently,\" the elder said.",
+      "narrationScript": "신선비와 약속가 있는 옛이야기 길에서 신선비를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "구렁이",
+          "en": "serpent",
+          "romanization": "gureongi",
+          "definitionEn": "A large snake from the tale, shown gently.",
+          "definitionKo": "이야기 속 큰 뱀이지만 다정하게 그려요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "they reunite through apology and consent (restored trust)",
+        "emotion": "hopeful repair",
+        "pageTurnHook": "Then the next part of restored trust will ask for a braver choice, and the story moves toward restored trust.",
+        "readAloudCue": "Read with hopeful repair; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe bamboo room at dawn."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/serpent_bridegroom.character_bible.json. Page 29 for 구렁덩덩 신선비 / The Gentle Serpent Scholar: bamboo room at dawn; specific beat: he asked whether she still chose the difficult truth; emotional tone: hopeful repair; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/serpent-bridegroom/page-029.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with hopeful repair; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/serpent-bridegroom/ko/page-029.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/serpent-bridegroom/ambient/ambient-loop.wav",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_029/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_029/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_029/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_029/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_029/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_029/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "serpent_bridegroom_030",
+      "pageNumber": 30,
+      "text": {
+        "enLittle": "They returned only when both hearts answered yes.",
+        "enStandard": "In the bamboo room at dawn, with the moon high, they returned only when both hearts answered yes. \"I am still learning,\" the child answered.",
+        "koLittle": "구렁이의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "신선비와 약속가 있는 옛이야기 길에서 구렁이의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "신선비와 약속가 있는 옛이야기 길에서 구렁이의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the bamboo room at dawn, with the moon high, they returned only when both hearts answered yes. \"I am still learning,\" the child answered.",
+      "narrationScript": "신선비와 약속가 있는 옛이야기 길에서 구렁이의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "신선비",
+          "en": "scholar bridegroom",
+          "romanization": "sinseonbi",
+          "definitionEn": "A refined magical scholar.",
+          "definitionKo": "신비롭고 점잖은 선비예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "they reunite through apology and consent (restored trust)",
+        "emotion": "hopeful repair",
+        "pageTurnHook": "Then the next part of restored trust will ask for a braver choice, and the story moves toward restored trust.",
+        "readAloudCue": "Read with hopeful repair; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open bamboo room at dawn."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/serpent_bridegroom.character_bible.json. Page 30 for 구렁덩덩 신선비 / The Gentle Serpent Scholar: bamboo room at dawn; specific beat: they returned only when both hearts answered yes; emotional tone: hopeful repair; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/serpent-bridegroom/page-030.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with hopeful repair; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/serpent-bridegroom/ko/page-030.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/serpent-bridegroom/ambient/ambient-loop.wav",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_030/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_030/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_030/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_030/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_030/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_030/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "serpent_bridegroom_031",
+      "pageNumber": 31,
+      "text": {
+        "enLittle": "She found him where a clear spring held the moon.",
+        "enStandard": "In the bamboo room at dawn, before dawn, she found him where a clear spring held the moon. \"Tell me the truth,\" someone said.",
+        "koLittle": "신선비와 약속가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "신선비와 약속가 있는 옛이야기 길에서 신선비와 약속가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "신선비와 약속가 있는 옛이야기 길에서 신선비와 약속가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the bamboo room at dawn, before dawn, she found him where a clear spring held the moon. \"Tell me the truth,\" someone said.",
+      "narrationScript": "신선비와 약속가 있는 옛이야기 길에서 신선비와 약속가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "구렁이",
+          "en": "serpent",
+          "romanization": "gureongi",
+          "definitionEn": "A large snake from the tale, shown gently.",
+          "definitionKo": "이야기 속 큰 뱀이지만 다정하게 그려요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "A careful word to keep.",
+          "definitionKo": "지키려고 하는 소중한 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "they reunite through apology and consent (restored trust)",
+        "emotion": "hopeful repair",
+        "pageTurnHook": "Then the next part of restored trust will ask for a braver choice, and the story moves toward restored trust.",
+        "readAloudCue": "Read with hopeful repair; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose bamboo room at dawn."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/serpent_bridegroom.character_bible.json. Page 31 for 구렁덩덩 신선비 / The Gentle Serpent Scholar: bamboo room at dawn; specific beat: she found him where a clear spring held the moon; emotional tone: hopeful repair; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/serpent-bridegroom/page-031.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with hopeful repair; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/serpent-bridegroom/ko/page-031.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/serpent-bridegroom/ambient/ambient-loop.wav",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_031/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_031/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_031/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_031/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_031/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_031/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "serpent_bridegroom_032",
+      "pageNumber": 32,
+      "text": {
+        "enLittle": "Her apology named the broken promise without excuses.",
+        "enStandard": "In the bamboo room at dawn, after a pause, her apology named the broken promise without excuses. \"I will answer carefully,\" came the reply.",
+        "koLittle": "변신 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "신선비와 약속가 있는 옛이야기 길에서 변신 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "신선비와 약속가 있는 옛이야기 길에서 변신 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the bamboo room at dawn, after a pause, her apology named the broken promise without excuses. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "신선비와 약속가 있는 옛이야기 길에서 변신 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "신선비",
+          "en": "scholar bridegroom",
+          "romanization": "sinseonbi",
+          "definitionEn": "A refined magical scholar.",
+          "definitionKo": "신비롭고 점잖은 선비예요."
+        },
+        {
+          "ko": "변신",
+          "en": "transformation",
+          "romanization": "byeonsin",
+          "definitionEn": "Changing form.",
+          "definitionKo": "모습이 바뀌는 일이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "they reunite through apology and consent (restored trust)",
+        "emotion": "hopeful repair",
+        "pageTurnHook": "Then the next part of restored trust will ask for a braver choice, and the story moves toward restored trust.",
+        "readAloudCue": "Read with hopeful repair; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag bamboo room at dawn."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/serpent_bridegroom.character_bible.json. Page 32 for 구렁덩덩 신선비 / The Gentle Serpent Scholar: bamboo room at dawn; specific beat: her apology named the broken promise without excuses; emotional tone: hopeful repair; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/serpent-bridegroom/page-032.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with hopeful repair; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/serpent-bridegroom/ko/page-032.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/serpent-bridegroom/ambient/ambient-loop.wav",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_032/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_032/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_032/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_032/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_032/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/serpent-bridegroom/serpent_bridegroom_032/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    }
+  ]
+}

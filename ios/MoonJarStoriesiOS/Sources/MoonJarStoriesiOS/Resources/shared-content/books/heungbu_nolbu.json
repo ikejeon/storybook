@@ -1,0 +1,3115 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "book.heungbu_nolbu",
+  "slug": "heungbu-and-nolbu",
+  "title": {
+    "ko": "흥부와 놀부",
+    "en": "Heungbu and Nolbu",
+    "romanization": "Heungbuwa Nolbu"
+  },
+  "access": "free",
+  "ageRange": "4-8",
+  "estimatedMinutes": 11,
+  "summary": "A richer, comic retelling where Heungbu’s costly kindness heals a swallow, magical gourds open to a repeated song, and Nolbu learns repair before reward.",
+  "sensitivityNotes": [
+    "Sibling conflict is softened.",
+    "Consequences are comic and repair-focused.",
+    "No cruelty to animals."
+  ],
+  "themes": [
+    "kindness",
+    "siblings",
+    "generosity",
+    "repair"
+  ],
+  "characters": [
+    "heungbu",
+    "nolbu",
+    "swallow",
+    "family",
+    "gourd_vine"
+  ],
+  "pages": [
+    {
+      "id": "heungbu_nolbu_001",
+      "pageNumber": 1,
+      "text": {
+        "enLittle": "Heungbu shared. Nolbu shut his doors tight.",
+        "enStandard": "Two brothers lived in one village: Heungbu, whose bowl was small but whose door was open, and Nolbu, whose barns were full but whose shutters stayed shut.",
+        "koLittle": "흥부는 나누고, 놀부는 문을 꼭 닫았어요.",
+        "koStandard": "한 마을에 두 형제가 살았어요. 흥부는 그릇은 작아도 문은 열려 있었고, 놀부는 곳간은 가득해도 덧문은 꼭 닫혀 있었지요."
+      },
+      "koreanText": "한 마을에 두 형제가 살았어요. 흥부는 그릇은 작아도 문은 열려 있었고, 놀부는 곳간은 가득해도 덧문은 꼭 닫혀 있었지요.",
+      "englishText": "Two brothers lived in one village: Heungbu, whose bowl was small but whose door was open, and Nolbu, whose barns were full but whose shutters stayed shut.",
+      "narrationScript": "한 마을에 두 형제가 살았어요. 흥부는 그릇은 작아도 문은 열려 있었고, 놀부는 곳간은 가득해도 덧문은 꼭 닫혀 있었지요.",
+      "vocabulary": [
+        {
+          "ko": "이웃",
+          "en": "neighbor",
+          "romanization": "iut",
+          "definitionEn": "A person who lives nearby.",
+          "definitionKo": "가까이에 사는 사람이에요."
+        },
+        {
+          "ko": "착한 마음",
+          "en": "kindness",
+          "romanization": "chakan maeum",
+          "definitionEn": "A caring choice that helps someone.",
+          "definitionKo": "누군가를 도와주는 따뜻한 마음이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "contrast",
+        "emotion": "clear moral texture",
+        "pageTurnHook": "The brothers are different before anything happens. A small act of care is about to grow larger than the house.",
+        "readAloudCue": "Read with kind, hopeful, funny, and repair-focused; let generosity feel costly and joyful; keep pauses clear and musical. balanced contrast",
+        "childInteraction": "Tap each house."
+      },
+      "imagePrompt": "Two Korean village homes side by side, humble open door and wealthy closed shutters, warm folktale contrast Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with clear moral texture; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: balanced contrast",
+      "animation": {
+        "type": "villageIntro",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_001/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_001/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_001/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_001/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "villageIntro",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_001/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_001/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/heungbu-and-nolbu/page-001.png",
+      "imageSource": "assets/books/heungbu-and-nolbu/page-001.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/heungbu-and-nolbu/ko/page-001.wav",
+      "ambientAudio": "audio/books/heungbu-and-nolbu/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "heungbu_nolbu_002",
+      "pageNumber": 2,
+      "text": {
+        "enLittle": "Heungbu shared half a rice ball, even when it was all he had.",
+        "enStandard": "When a hungry neighbor came by and whispered, “Any crumb to spare?” Heungbu shared half a rice ball. It was not much. It was also all he had.",
+        "koLittle": "흥부는 가진 전부인 주먹밥 반쪽을 나누었어요.",
+        "koStandard": "배고픈 이웃이 찾아와 “부스러기라도 조금 있을까요?” 하고 속삭였어요. 흥부는 주먹밥 반쪽을 나누었지요. 많은 건 아니었어요. 하지만 그에게 있는 전부였답니다."
+      },
+      "koreanText": "배고픈 이웃이 찾아와 “부스러기라도 조금 있을까요?” 하고 속삭였어요. 흥부는 주먹밥 반쪽을 나누었지요. 많은 건 아니었어요. 하지만 그에게 있는 전부였답니다.",
+      "englishText": "When a hungry neighbor came by and whispered, “Any crumb to spare?” Heungbu shared half a rice ball. It was not much. It was also all he had.",
+      "narrationScript": "배고픈 이웃이 찾아와 “부스러기라도 조금 있을까요?” 하고 속삭였어요. 흥부는 주먹밥 반쪽을 나누었지요. 많은 건 아니었어요. 하지만 그에게 있는 전부였답니다.",
+      "vocabulary": [
+        {
+          "ko": "이웃",
+          "en": "neighbor",
+          "romanization": "iut",
+          "definitionEn": "A person who lives nearby.",
+          "definitionKo": "가까이에 사는 사람이에요."
+        },
+        {
+          "ko": "착한 마음",
+          "en": "kindness",
+          "romanization": "chakan maeum",
+          "definitionEn": "A caring choice that helps someone.",
+          "definitionKo": "누군가를 도와주는 따뜻한 마음이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "costly kindness",
+        "emotion": "tender sacrifice",
+        "pageTurnHook": "Kindness costs him something. A small act of care is about to grow larger than the house.",
+        "readAloudCue": "Read with kind, hopeful, funny, and repair-focused; let generosity feel costly and joyful; keep pauses clear and musical. soft emphasis on all",
+        "childInteraction": "Tap the half rice ball."
+      },
+      "imagePrompt": "Heungbu sharing half rice ball with neighbor, humble Korean home, children watching Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with tender sacrifice; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: soft emphasis on all",
+      "animation": {
+        "type": "sharedRice",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_002/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_002/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_002/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_002/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "sharedRice",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_002/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_002/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/heungbu-and-nolbu/page-002.png",
+      "imageSource": "assets/books/heungbu-and-nolbu/page-002.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/heungbu-and-nolbu/ko/page-002.wav",
+      "ambientAudio": "audio/books/heungbu-and-nolbu/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "heungbu_nolbu_003",
+      "pageNumber": 3,
+      "text": {
+        "enLittle": "Across the lane, Nolbu counted his jars.",
+        "enStandard": "Across the lane, Nolbu counted his jars. “If I open the door,” he muttered, “the wind might ask for a spoon.”",
+        "koLittle": "골목 건너편에서 놀부는 항아리를 세고 있었어요.",
+        "koStandard": "골목 건너편에서 놀부는 항아리를 세고 있었어요. “문을 열면 바람도 한 숟가락 달라 하겠지.” 그가 중얼거렸어요."
+      },
+      "koreanText": "골목 건너편에서 놀부는 항아리를 세고 있었어요. “문을 열면 바람도 한 숟가락 달라 하겠지.” 그가 중얼거렸어요.",
+      "englishText": "Across the lane, Nolbu counted his jars. “If I open the door,” he muttered, “the wind might ask for a spoon.”",
+      "narrationScript": "골목 건너편에서 놀부는 항아리를 세고 있었어요. “문을 열면 바람도 한 숟가락 달라 하겠지.” 그가 중얼거렸어요.",
+      "vocabulary": [
+        {
+          "ko": "한 숟가락",
+          "en": "one spoonful",
+          "romanization": "han sutgarak",
+          "definitionEn": "One scoop taken with a spoon.",
+          "definitionKo": "숟가락으로 뜬 한 번의 양이에요."
+        },
+        {
+          "ko": "이웃",
+          "en": "neighbor",
+          "romanization": "iut",
+          "definitionEn": "A person who lives nearby.",
+          "definitionKo": "가까이에 사는 사람이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "comic character",
+        "emotion": "closed-hearted humor",
+        "pageTurnHook": "Nolbu’s selfishness has a comic voice. A small act of care is about to grow larger than the house.",
+        "readAloudCue": "Read with kind, hopeful, funny, and repair-focused; let generosity feel costly and joyful; keep pauses clear and musical. dry mutter",
+        "childInteraction": "Tap the closed jars."
+      },
+      "imagePrompt": "Nolbu counting jars in full storehouse, comic guarded expression, closed shutters Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with closed-hearted humor; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: dry mutter",
+      "animation": {
+        "type": "closedDoor",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_003/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_003/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_003/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_003/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "closedDoor",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_003/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_003/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/heungbu-and-nolbu/page-003.png",
+      "imageSource": "assets/books/heungbu-and-nolbu/page-003.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/heungbu-and-nolbu/ko/page-003.wav",
+      "ambientAudio": "audio/books/heungbu-and-nolbu/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "heungbu_nolbu_004",
+      "pageNumber": 4,
+      "text": {
+        "enLittle": "Spring returned with a swallow.",
+        "enStandard": "Spring returned with a swallow. It circled Heungbu’s roof and sang as if the whole sky fit in its throat.",
+        "koLittle": "봄이 제비와 함께 돌아왔어요.",
+        "koStandard": "봄이 제비와 함께 돌아왔어요. 제비는 흥부네 지붕을 돌며 하늘을 목 안에 담은 듯 노래했지요."
+      },
+      "koreanText": "봄이 제비와 함께 돌아왔어요. 제비는 흥부네 지붕을 돌며 하늘을 목 안에 담은 듯 노래했지요.",
+      "englishText": "Spring returned with a swallow. It circled Heungbu’s roof and sang as if the whole sky fit in its throat.",
+      "narrationScript": "봄이 제비와 함께 돌아왔어요. 제비는 흥부네 지붕을 돌며 하늘을 목 안에 담은 듯 노래했지요.",
+      "vocabulary": [
+        {
+          "ko": "제비",
+          "en": "swallow",
+          "romanization": "jebi",
+          "definitionEn": "A small bird that often returns in spring.",
+          "definitionKo": "봄에 찾아오는 작고 빠른 새예요."
+        },
+        {
+          "ko": "착한 마음",
+          "en": "kindness",
+          "romanization": "chakan maeum",
+          "definitionEn": "A caring choice that helps someone.",
+          "definitionKo": "누군가를 도와주는 따뜻한 마음이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "arrival",
+        "emotion": "fresh delight",
+        "pageTurnHook": "A small bird enters the story. A small act of care is about to grow larger than the house.",
+        "readAloudCue": "Read with kind, hopeful, funny, and repair-focused; let generosity feel costly and joyful; keep pauses clear and musical. bright birdsong",
+        "childInteraction": "Tap the swallow circle."
+      },
+      "imagePrompt": "Swallow circling humble Korean roof in spring, family looking up, fresh blossoms Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with fresh delight; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: bright birdsong",
+      "animation": {
+        "type": "swallowCircle",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_004/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_004/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_004/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_004/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "swallowCircle",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_004/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_004/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/heungbu-and-nolbu/page-004.png",
+      "imageSource": "assets/books/heungbu-and-nolbu/page-004.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/heungbu-and-nolbu/ko/page-004.wav",
+      "ambientAudio": "audio/books/heungbu-and-nolbu/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "heungbu_nolbu_005",
+      "pageNumber": 5,
+      "text": {
+        "enLittle": "One windy afternoon, the swallow fell.",
+        "enStandard": "One windy afternoon, the swallow fell. Heungbu’s children gasped, and Heungbu cupped the tiny bird like a dropped song.",
+        "koLittle": "바람 센 어느 오후, 제비가 떨어졌어요.",
+        "koStandard": "바람 센 어느 오후, 제비가 떨어졌어요. 아이들이 숨을 삼켰고, 흥부는 떨어진 노래를 받치듯 작은 새를 두 손에 담았어요."
+      },
+      "koreanText": "바람 센 어느 오후, 제비가 떨어졌어요. 아이들이 숨을 삼켰고, 흥부는 떨어진 노래를 받치듯 작은 새를 두 손에 담았어요.",
+      "englishText": "One windy afternoon, the swallow fell. Heungbu’s children gasped, and Heungbu cupped the tiny bird like a dropped song.",
+      "narrationScript": "바람 센 어느 오후, 제비가 떨어졌어요. 아이들이 숨을 삼켰고, 흥부는 떨어진 노래를 받치듯 작은 새를 두 손에 담았어요.",
+      "vocabulary": [
+        {
+          "ko": "제비",
+          "en": "swallow",
+          "romanization": "jebi",
+          "definitionEn": "A small bird that often returns in spring.",
+          "definitionKo": "봄에 찾아오는 작고 빠른 새예요."
+        },
+        {
+          "ko": "착한 마음",
+          "en": "kindness",
+          "romanization": "chakan maeum",
+          "definitionEn": "A caring choice that helps someone.",
+          "definitionKo": "누군가를 도와주는 따뜻한 마음이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "care",
+        "emotion": "urgent tenderness",
+        "pageTurnHook": "The bird needs help. A small act of care is about to grow larger than the house.",
+        "readAloudCue": "Read with kind, hopeful, funny, and repair-focused; let generosity feel costly and joyful; keep pauses clear and musical. gentle urgency",
+        "childInteraction": "Tap the tiny wing."
+      },
+      "imagePrompt": "Heungbu carefully holding injured swallow, children concerned, no graphic injury Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with urgent tenderness; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: gentle urgency",
+      "animation": {
+        "type": "carefulCatch",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_005/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_005/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_005/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_005/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "carefulCatch",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_005/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_005/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/heungbu-and-nolbu/page-005.png",
+      "imageSource": "assets/books/heungbu-and-nolbu/page-005.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/heungbu-and-nolbu/ko/page-005.wav",
+      "ambientAudio": "audio/books/heungbu-and-nolbu/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "heungbu_nolbu_006",
+      "pageNumber": 6,
+      "text": {
+        "enLittle": "Heungbu used his last clean cloth for the bird’s leg.",
+        "enStandard": "Heungbu used his last clean cloth for the bird’s leg. “A guest is a guest,” he said, “even with wings.”",
+        "koLittle": "흥부는 마지막 깨끗한 천으로 제비 다리를 감싸 주었어요.",
+        "koStandard": "흥부는 마지막 깨끗한 천으로 제비 다리를 감싸 주었어요. “날개가 있어도 손님은 손님이지.” 그가 말했지요."
+      },
+      "koreanText": "흥부는 마지막 깨끗한 천으로 제비 다리를 감싸 주었어요. “날개가 있어도 손님은 손님이지.” 그가 말했지요.",
+      "englishText": "Heungbu used his last clean cloth for the bird’s leg. “A guest is a guest,” he said, “even with wings.”",
+      "narrationScript": "흥부는 마지막 깨끗한 천으로 제비 다리를 감싸 주었어요. “날개가 있어도 손님은 손님이지.” 그가 말했지요.",
+      "vocabulary": [
+        {
+          "ko": "제비",
+          "en": "swallow",
+          "romanization": "jebi",
+          "definitionEn": "A small bird that often returns in spring.",
+          "definitionKo": "봄에 찾아오는 작고 빠른 새예요."
+        },
+        {
+          "ko": "수건",
+          "en": "cloth scarf",
+          "romanization": "sugeon",
+          "definitionEn": "A cloth used for wrapping, carrying, or covering.",
+          "definitionKo": "물건을 싸거나 몸에 두르는 천이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "costly care",
+        "emotion": "generous warmth",
+        "pageTurnHook": "He spends what little he has. A small act of care is about to grow larger than the house.",
+        "readAloudCue": "Read with kind, hopeful, funny, and repair-focused; let generosity feel costly and joyful; keep pauses clear and musical. kind but plain",
+        "childInteraction": "Wrap the bandage gently."
+      },
+      "imagePrompt": "Heungbu bandaging swallow with clean cloth, humble room, children helping gently Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with generous warmth; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: kind but plain",
+      "animation": {
+        "type": "gentleBandage",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_006/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_006/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_006/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_006/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "gentleBandage",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_006/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_006/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/heungbu-and-nolbu/page-006.png",
+      "imageSource": "assets/books/heungbu-and-nolbu/page-006.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/heungbu-and-nolbu/ko/page-006.wav",
+      "ambientAudio": "audio/books/heungbu-and-nolbu/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "heungbu_nolbu_007",
+      "pageNumber": 7,
+      "text": {
+        "enLittle": "Day by day, the swallow grew stronger.",
+        "enStandard": "Day by day, the swallow grew stronger. On the morning it flew away, it dropped one seed into Heungbu’s palm.",
+        "koLittle": "날마다 제비는 힘을 되찾았어요.",
+        "koStandard": "날마다 제비는 힘을 되찾았어요. 다시 날아오른 아침, 제비는 흥부 손바닥에 씨앗 하나를 떨어뜨렸지요."
+      },
+      "koreanText": "날마다 제비는 힘을 되찾았어요. 다시 날아오른 아침, 제비는 흥부 손바닥에 씨앗 하나를 떨어뜨렸지요.",
+      "englishText": "Day by day, the swallow grew stronger. On the morning it flew away, it dropped one seed into Heungbu’s palm.",
+      "narrationScript": "날마다 제비는 힘을 되찾았어요. 다시 날아오른 아침, 제비는 흥부 손바닥에 씨앗 하나를 떨어뜨렸지요.",
+      "vocabulary": [
+        {
+          "ko": "제비",
+          "en": "swallow",
+          "romanization": "jebi",
+          "definitionEn": "A small bird that often returns in spring.",
+          "definitionKo": "봄에 찾아오는 작고 빠른 새예요."
+        },
+        {
+          "ko": "씨앗",
+          "en": "seed",
+          "romanization": "ssiat",
+          "definitionEn": "A tiny thing that can grow into a plant.",
+          "definitionKo": "식물로 자랄 수 있는 작은 알갱이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "gift",
+        "emotion": "quiet wonder",
+        "pageTurnHook": "The seed arrives. The seed and gourd song open the door to magic.",
+        "readAloudCue": "Read with kind, hopeful, funny, and repair-focused; let generosity feel costly and joyful; keep pauses clear and musical. soft wonder",
+        "childInteraction": "Tap the falling seed."
+      },
+      "imagePrompt": "Swallow dropping seed into Heungbu palm, morning light, children amazed Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with quiet wonder; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: soft wonder",
+      "animation": {
+        "type": "seedReturn",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_007/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_007/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_007/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_007/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "seedReturn",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_007/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_007/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/heungbu-and-nolbu/page-007.png",
+      "imageSource": "assets/books/heungbu-and-nolbu/page-007.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/heungbu-and-nolbu/ko/page-007.wav",
+      "ambientAudio": "audio/books/heungbu-and-nolbu/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "heungbu_nolbu_008",
+      "pageNumber": 8,
+      "text": {
+        "enLittle": "“Grow if you can,” Heungbu whispered to the small seed.",
+        "enStandard": "The seed was plain and small. “Grow if you can,” Heungbu whispered, planting it anyway, because small things had always known the way to his heart.",
+        "koLittle": "“자랄 수 있으면 자라 보렴.” 흥부가 속삭였어요.",
+        "koStandard": "씨앗은 평범하고 작았어요. “자랄 수 있으면 자라 보렴.” 흥부는 그렇게 속삭이며 씨앗을 심었지요. 작은 것들은 늘 그의 마음으로 가는 길을 알고 있었거든요."
+      },
+      "koreanText": "씨앗은 평범하고 작았어요. “자랄 수 있으면 자라 보렴.” 흥부는 그렇게 속삭이며 씨앗을 심었지요. 작은 것들은 늘 그의 마음으로 가는 길을 알고 있었거든요.",
+      "englishText": "The seed was plain and small. “Grow if you can,” Heungbu whispered, planting it anyway, because small things had always known the way to his heart.",
+      "narrationScript": "씨앗은 평범하고 작았어요. “자랄 수 있으면 자라 보렴.” 흥부는 그렇게 속삭이며 씨앗을 심었지요. 작은 것들은 늘 그의 마음으로 가는 길을 알고 있었거든요.",
+      "vocabulary": [
+        {
+          "ko": "씨앗",
+          "en": "seed",
+          "romanization": "ssiat",
+          "definitionEn": "A tiny thing that can grow into a plant.",
+          "definitionKo": "식물로 자랄 수 있는 작은 알갱이예요."
+        },
+        {
+          "ko": "착한 마음",
+          "en": "kindness",
+          "romanization": "chakan maeum",
+          "definitionEn": "A caring choice that helps someone.",
+          "definitionKo": "누군가를 도와주는 따뜻한 마음이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "faith",
+        "emotion": "hopeful patience",
+        "pageTurnHook": "A small gift is trusted. The seed and gourd song open the door to magic.",
+        "readAloudCue": "Read with kind, hopeful, funny, and repair-focused; let generosity feel costly and joyful; keep pauses clear and musical. lyrical quiet",
+        "childInteraction": "Tap the soil."
+      },
+      "imagePrompt": "Heungbu planting tiny seed beside humble house, children watering, spring soil Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with hopeful patience; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: lyrical quiet",
+      "animation": {
+        "type": "seedWater",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_008/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_008/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_008/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_008/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "seedWater",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_008/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_008/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/heungbu-and-nolbu/page-008.png",
+      "imageSource": "assets/books/heungbu-and-nolbu/page-008.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/heungbu-and-nolbu/ko/page-008.wav",
+      "ambientAudio": "audio/books/heungbu-and-nolbu/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "heungbu_nolbu_009",
+      "pageNumber": 9,
+      "text": {
+        "enLittle": "By morning, a vine had climbed the roof.",
+        "enStandard": "By morning, a vine had climbed the roof. By noon, leaves shaded the yard. By evening, round gourds rocked like moons.",
+        "koLittle": "아침엔 덩굴이 지붕을 올랐고, 낮엔 잎이 마당에 그늘을 만들었어요.",
+        "koStandard": "아침엔 덩굴이 지붕을 올랐고, 낮엔 잎이 마당에 그늘을 만들었어요. 저녁엔 둥근 박들이 달처럼 흔들렸지요."
+      },
+      "koreanText": "아침엔 덩굴이 지붕을 올랐고, 낮엔 잎이 마당에 그늘을 만들었어요. 저녁엔 둥근 박들이 달처럼 흔들렸지요.",
+      "englishText": "By morning, a vine had climbed the roof. By noon, leaves shaded the yard. By evening, round gourds rocked like moons.",
+      "narrationScript": "아침엔 덩굴이 지붕을 올랐고, 낮엔 잎이 마당에 그늘을 만들었어요. 저녁엔 둥근 박들이 달처럼 흔들렸지요.",
+      "vocabulary": [
+        {
+          "ko": "덩굴",
+          "en": "vine",
+          "romanization": "deonggul",
+          "definitionEn": "A climbing plant stem.",
+          "definitionKo": "길게 뻗어 올라가는 식물 줄기예요."
+        },
+        {
+          "ko": "박",
+          "en": "gourd",
+          "romanization": "bak",
+          "definitionEn": "A round plant fruit that can become bowls or containers.",
+          "definitionKo": "둥글게 자라 그릇처럼 쓸 수 있는 열매예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "magic growth",
+        "emotion": "delight",
+        "pageTurnHook": "The plant becomes magical. The seed and gourd song open the door to magic.",
+        "readAloudCue": "Read with kind, hopeful, funny, and repair-focused; let generosity feel costly and joyful; keep pauses clear and musical. rising three-beat rhythm",
+        "childInteraction": "Swipe the vine upward."
+      },
+      "imagePrompt": "Magical gourd vine climbing Korean roof, round gourds like moons, family amazed Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with delight; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: rising three-beat rhythm",
+      "animation": {
+        "type": "vineGrow",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_009/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_009/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_009/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_009/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "vineGrow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_009/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_009/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/heungbu-and-nolbu/page-009.png",
+      "imageSource": "assets/books/heungbu-and-nolbu/page-009.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/heungbu-and-nolbu/ko/page-009.wav",
+      "ambientAudio": "audio/books/heungbu-and-nolbu/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "heungbu_nolbu_010",
+      "pageNumber": 10,
+      "text": {
+        "enLittle": "Heungbu lifted his saw.",
+        "enStandard": "Heungbu lifted his saw. The children clapped the rhythm: “Saw, saw, little gourd — open your round door!”",
+        "koLittle": "흥부가 톱을 들었어요.",
+        "koStandard": "흥부가 톱을 들었어요. 아이들이 손뼉으로 장단을 맞췄지요. “슬근슬근 톱질하세, 둥근 박아 열려라!”"
+      },
+      "koreanText": "흥부가 톱을 들었어요. 아이들이 손뼉으로 장단을 맞췄지요. “슬근슬근 톱질하세, 둥근 박아 열려라!”",
+      "englishText": "Heungbu lifted his saw. The children clapped the rhythm: “Saw, saw, little gourd — open your round door!”",
+      "narrationScript": "흥부가 톱을 들었어요. 아이들이 손뼉으로 장단을 맞췄지요. “슬근슬근 톱질하세, 둥근 박아 열려라!”",
+      "refrain": "Saw, saw, little gourd — open your round door!",
+      "vocabulary": [
+        {
+          "ko": "톱",
+          "en": "saw",
+          "romanization": "top",
+          "definitionEn": "A tool with little teeth for cutting wood or gourds.",
+          "definitionKo": "작은 이가 있어 나무나 박을 자르는 도구예요."
+        },
+        {
+          "ko": "박",
+          "en": "gourd",
+          "romanization": "bak",
+          "definitionEn": "A round plant fruit that can become bowls or containers.",
+          "definitionKo": "둥글게 자라 그릇처럼 쓸 수 있는 열매예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "refrain",
+        "emotion": "anticipation",
+        "pageTurnHook": "The gourd song begins. The seed and gourd song open the door to magic.",
+        "readAloudCue": "Read with kind, hopeful, funny, and repair-focused; let generosity feel costly and joyful; keep pauses clear and musical. sing-song rhythm",
+        "childInteraction": "Tap the clapping hands."
+      },
+      "imagePrompt": "Family around first gourd with saw, children clapping, magical anticipation Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with anticipation; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: sing-song rhythm",
+      "animation": {
+        "type": "danceRhythm",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_010/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_010/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_010/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_010/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "danceRhythm",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_010/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_010/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/heungbu-and-nolbu/page-010.png",
+      "imageSource": "assets/books/heungbu-and-nolbu/page-010.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/heungbu-and-nolbu/ko/page-010.wav",
+      "ambientAudio": "audio/books/heungbu-and-nolbu/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "heungbu_nolbu_011",
+      "pageNumber": 11,
+      "text": {
+        "enLittle": "The first gourd opened with a sigh.",
+        "enStandard": "The first gourd opened with a sigh. Out poured rice, blankets, socks, and warm clothes that smelled of sunlight.",
+        "koLittle": "첫 번째 박이 후우 하고 열렸어요.",
+        "koStandard": "첫 번째 박이 후우 하고 열렸어요. 쌀과 이불과 버선과 햇빛 냄새 나는 따뜻한 옷들이 쏟아졌지요."
+      },
+      "koreanText": "첫 번째 박이 후우 하고 열렸어요. 쌀과 이불과 버선과 햇빛 냄새 나는 따뜻한 옷들이 쏟아졌지요.",
+      "englishText": "The first gourd opened with a sigh. Out poured rice, blankets, socks, and warm clothes that smelled of sunlight.",
+      "narrationScript": "첫 번째 박이 후우 하고 열렸어요. 쌀과 이불과 버선과 햇빛 냄새 나는 따뜻한 옷들이 쏟아졌지요.",
+      "vocabulary": [
+        {
+          "ko": "박",
+          "en": "gourd",
+          "romanization": "bak",
+          "definitionEn": "A round plant fruit that can become bowls or containers.",
+          "definitionKo": "둥글게 자라 그릇처럼 쓸 수 있는 열매예요."
+        },
+        {
+          "ko": "착한 마음",
+          "en": "kindness",
+          "romanization": "chakan maeum",
+          "definitionEn": "A caring choice that helps someone.",
+          "definitionKo": "누군가를 도와주는 따뜻한 마음이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "gift",
+        "emotion": "comforting abundance",
+        "pageTurnHook": "The first gift meets real needs. The gifts matter because Heungbu keeps sharing them.",
+        "readAloudCue": "Read with kind, hopeful, funny, and repair-focused; let generosity feel costly and joyful; keep pauses clear and musical. warm surprise",
+        "childInteraction": "Tap the blanket pile."
+      },
+      "imagePrompt": "First gourd opening with rice blankets socks warm clothes, golden magical light, Korean family joy Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with comforting abundance; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: warm surprise",
+      "animation": {
+        "type": "gourdGift",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_011/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_011/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_011/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_011/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "gourdGift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_011/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_011/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/heungbu-and-nolbu/page-011.png",
+      "imageSource": "assets/books/heungbu-and-nolbu/page-011.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/heungbu-and-nolbu/ko/page-011.wav",
+      "ambientAudio": "audio/books/heungbu-and-nolbu/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "heungbu_nolbu_012",
+      "pageNumber": 12,
+      "text": {
+        "enLittle": "The second gourd waited.",
+        "enStandard": "The second gourd waited. “Again!” cried the children. “Saw, saw, little gourd — open your round door!”",
+        "koLittle": "두 번째 박이 기다렸어요.",
+        "koStandard": "두 번째 박이 기다렸어요. “한 번 더!” 아이들이 외쳤지요. “슬근슬근 톱질하세, 둥근 박아 열려라!”"
+      },
+      "koreanText": "두 번째 박이 기다렸어요. “한 번 더!” 아이들이 외쳤지요. “슬근슬근 톱질하세, 둥근 박아 열려라!”",
+      "englishText": "The second gourd waited. “Again!” cried the children. “Saw, saw, little gourd — open your round door!”",
+      "narrationScript": "두 번째 박이 기다렸어요. “한 번 더!” 아이들이 외쳤지요. “슬근슬근 톱질하세, 둥근 박아 열려라!”",
+      "refrain": "Saw, saw, little gourd — open your round door!",
+      "vocabulary": [
+        {
+          "ko": "박",
+          "en": "gourd",
+          "romanization": "bak",
+          "definitionEn": "A round plant fruit that can become bowls or containers.",
+          "definitionKo": "둥글게 자라 그릇처럼 쓸 수 있는 열매예요."
+        },
+        {
+          "ko": "톱",
+          "en": "saw",
+          "romanization": "top",
+          "definitionEn": "A tool with little teeth for cutting wood or gourds.",
+          "definitionKo": "작은 이가 있어 나무나 박을 자르는 도구예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "refrain",
+        "emotion": "eager joy",
+        "pageTurnHook": "Children ask to repeat the song. The gifts matter because Heungbu keeps sharing them.",
+        "readAloudCue": "Read with kind, hopeful, funny, and repair-focused; let generosity feel costly and joyful; keep pauses clear and musical. invite child participation",
+        "childInteraction": "Tap the saw rhythm."
+      },
+      "imagePrompt": "Second gourd ready on vine, children singing, warm evening Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with eager joy; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: invite child participation",
+      "animation": {
+        "type": "danceRhythm",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_012/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_012/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_012/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_012/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "danceRhythm",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_012/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_012/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/heungbu-and-nolbu/page-012.png",
+      "imageSource": "assets/books/heungbu-and-nolbu/page-012.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/heungbu-and-nolbu/ko/page-012.wav",
+      "ambientAudio": "audio/books/heungbu-and-nolbu/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "heungbu_nolbu_013",
+      "pageNumber": 13,
+      "text": {
+        "enLittle": "Books, brushes, toys, and a tiny drum tumbled out.",
+        "enStandard": "Out came books, brushes, paper, toys, and a tiny drum that played dum, dum, dum by itself.",
+        "koLittle": "책과 붓과 장난감과 작은 북이 나왔어요.",
+        "koStandard": "박 속에서는 책과 붓과 종이와 장난감, 그리고 혼자 둥둥둥 울리는 작은 북이 나왔어요."
+      },
+      "koreanText": "박 속에서는 책과 붓과 종이와 장난감, 그리고 혼자 둥둥둥 울리는 작은 북이 나왔어요.",
+      "englishText": "Out came books, brushes, paper, toys, and a tiny drum that played dum, dum, dum by itself.",
+      "narrationScript": "박 속에서는 책과 붓과 종이와 장난감, 그리고 혼자 둥둥둥 울리는 작은 북이 나왔어요.",
+      "vocabulary": [
+        {
+          "ko": "박",
+          "en": "gourd",
+          "romanization": "bak",
+          "definitionEn": "A round plant fruit that can become bowls or containers.",
+          "definitionKo": "둥글게 자라 그릇처럼 쓸 수 있는 열매예요."
+        },
+        {
+          "ko": "착한 마음",
+          "en": "kindness",
+          "romanization": "chakan maeum",
+          "definitionEn": "A caring choice that helps someone.",
+          "definitionKo": "누군가를 도와주는 따뜻한 마음이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "gift",
+        "emotion": "playful wonder",
+        "pageTurnHook": "The gifts are joyful, not only practical. The gifts matter because Heungbu keeps sharing them.",
+        "readAloudCue": "Read with kind, hopeful, funny, and repair-focused; let generosity feel costly and joyful; keep pauses clear and musical. playful drum rhythm",
+        "childInteraction": "Tap the tiny drum."
+      },
+      "imagePrompt": "Magical gourd spilling books brushes paper toys and small drum, children delighted Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with playful wonder; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: playful drum rhythm",
+      "animation": {
+        "type": "toyJoy",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_013/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_013/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_013/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_013/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "toyJoy",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_013/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_013/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/heungbu-and-nolbu/page-013.png",
+      "imageSource": "assets/books/heungbu-and-nolbu/page-013.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/heungbu-and-nolbu/ko/page-013.wav",
+      "ambientAudio": "audio/books/heungbu-and-nolbu/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "heungbu_nolbu_014",
+      "pageNumber": 14,
+      "text": {
+        "enLittle": "Seeds, tools, and medicine came from the third gourd.",
+        "enStandard": "The third gourd opened to seeds, tools, medicine bundles, and a note shaped like a leaf: Share what grows.",
+        "koLittle": "세 번째 박에서는 씨앗과 도구와 약이 나왔어요.",
+        "koStandard": "세 번째 박에서는 씨앗과 연장과 약 꾸러미가 나왔어요. 잎사귀 모양 쪽지에는 이렇게 적혀 있었지요. 자라는 것은 나누어라."
+      },
+      "koreanText": "세 번째 박에서는 씨앗과 연장과 약 꾸러미가 나왔어요. 잎사귀 모양 쪽지에는 이렇게 적혀 있었지요. 자라는 것은 나누어라.",
+      "englishText": "The third gourd opened to seeds, tools, medicine bundles, and a note shaped like a leaf: Share what grows.",
+      "narrationScript": "세 번째 박에서는 씨앗과 연장과 약 꾸러미가 나왔어요. 잎사귀 모양 쪽지에는 이렇게 적혀 있었지요. 자라는 것은 나누어라.",
+      "vocabulary": [
+        {
+          "ko": "씨앗",
+          "en": "seed",
+          "romanization": "ssiat",
+          "definitionEn": "A tiny thing that can grow into a plant.",
+          "definitionKo": "식물로 자랄 수 있는 작은 알갱이예요."
+        },
+        {
+          "ko": "박",
+          "en": "gourd",
+          "romanization": "bak",
+          "definitionEn": "A round plant fruit that can become bowls or containers.",
+          "definitionKo": "둥글게 자라 그릇처럼 쓸 수 있는 열매예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "community gift",
+        "emotion": "purposeful abundance",
+        "pageTurnHook": "The magic asks to be shared. The gifts matter because Heungbu keeps sharing them.",
+        "readAloudCue": "Read with kind, hopeful, funny, and repair-focused; let generosity feel costly and joyful; keep pauses clear and musical. reverent, clear",
+        "childInteraction": "Tap the leaf note."
+      },
+      "imagePrompt": "Gourd opening with seeds tools medicine bundles, leaf-shaped blank-looking note motif without readable text, community supplies Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with purposeful abundance; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: reverent, clear",
+      "animation": {
+        "type": "sharedTreasure",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_014/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_014/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_014/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_014/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "sharedTreasure",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_014/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_014/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/heungbu-and-nolbu/page-014.png",
+      "imageSource": "assets/books/heungbu-and-nolbu/page-014.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/heungbu-and-nolbu/ko/page-014.wav",
+      "ambientAudio": "audio/books/heungbu-and-nolbu/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "heungbu_nolbu_015",
+      "pageNumber": 15,
+      "text": {
+        "enLittle": "So Heungbu shared.",
+        "enStandard": "So Heungbu shared. Rice went to empty bowls, blankets to cold shoulders, seeds to every yard that had room for hope.",
+        "koLittle": "그래서 흥부는 나누었어요.",
+        "koStandard": "그래서 흥부는 나누었어요. 쌀은 빈 그릇으로, 이불은 추운 어깨로, 씨앗은 희망을 심을 마당으로 갔지요."
+      },
+      "koreanText": "그래서 흥부는 나누었어요. 쌀은 빈 그릇으로, 이불은 추운 어깨로, 씨앗은 희망을 심을 마당으로 갔지요.",
+      "englishText": "So Heungbu shared. Rice went to empty bowls, blankets to cold shoulders, seeds to every yard that had room for hope.",
+      "narrationScript": "그래서 흥부는 나누었어요. 쌀은 빈 그릇으로, 이불은 추운 어깨로, 씨앗은 희망을 심을 마당으로 갔지요.",
+      "vocabulary": [
+        {
+          "ko": "착한 마음",
+          "en": "kindness",
+          "romanization": "chakan maeum",
+          "definitionEn": "A caring choice that helps someone.",
+          "definitionKo": "누군가를 도와주는 따뜻한 마음이에요."
+        },
+        {
+          "ko": "씨앗",
+          "en": "seed",
+          "romanization": "ssiat",
+          "definitionEn": "A tiny thing that can grow into a plant.",
+          "definitionKo": "식물로 자랄 수 있는 작은 알갱이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "sharing",
+        "emotion": "generous expansion",
+        "pageTurnHook": "The reward becomes community good. The gifts matter because Heungbu keeps sharing them.",
+        "readAloudCue": "Read with kind, hopeful, funny, and repair-focused; let generosity feel costly and joyful; keep pauses clear and musical. flowing list",
+        "childInteraction": "Drag gifts to neighbors."
+      },
+      "imagePrompt": "Heungbu sharing gifts with villagers, warm community feast, no luxury greed Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with generous expansion; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: flowing list",
+      "animation": {
+        "type": "sharedRice",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_015/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_015/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_015/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_015/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "sharedRice",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_015/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_015/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/heungbu-and-nolbu/page-015.png",
+      "imageSource": "assets/books/heungbu-and-nolbu/page-015.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/heungbu-and-nolbu/ko/page-015.wav",
+      "ambientAudio": "audio/books/heungbu-and-nolbu/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "heungbu_nolbu_016",
+      "pageNumber": 16,
+      "text": {
+        "enLittle": "Across the lane, Nolbu watched.",
+        "enStandard": "Across the lane, Nolbu watched. He did not see the bandage. He did not see the sharing. He saw only gourds.",
+        "koLittle": "골목 건너편에서 놀부가 보았어요.",
+        "koStandard": "골목 건너편에서 놀부가 보았어요. 그는 붕대를 보지 못했고, 나눔도 보지 못했어요. 오직 박만 보았지요."
+      },
+      "koreanText": "골목 건너편에서 놀부가 보았어요. 그는 붕대를 보지 못했고, 나눔도 보지 못했어요. 오직 박만 보았지요.",
+      "englishText": "Across the lane, Nolbu watched. He did not see the bandage. He did not see the sharing. He saw only gourds.",
+      "narrationScript": "골목 건너편에서 놀부가 보았어요. 그는 붕대를 보지 못했고, 나눔도 보지 못했어요. 오직 박만 보았지요.",
+      "vocabulary": [
+        {
+          "ko": "박",
+          "en": "gourd",
+          "romanization": "bak",
+          "definitionEn": "A round plant fruit that can become bowls or containers.",
+          "definitionKo": "둥글게 자라 그릇처럼 쓸 수 있는 열매예요."
+        },
+        {
+          "ko": "이웃",
+          "en": "neighbor",
+          "romanization": "iut",
+          "definitionEn": "A person who lives nearby.",
+          "definitionKo": "가까이에 사는 사람이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "misread",
+        "emotion": "comic greed",
+        "pageTurnHook": "Nolbu copies the wrong part. Nolbu is learning that copying kindness is not the same as being kind.",
+        "readAloudCue": "Read with kind, hopeful, funny, and repair-focused; let generosity feel costly and joyful; keep pauses clear and musical. pointed repetition",
+        "childInteraction": "Tap what Nolbu notices."
+      },
+      "imagePrompt": "Nolbu peering through shutters at gourds, missing kindness, comic greed Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with comic greed; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: pointed repetition",
+      "animation": {
+        "type": "eagerReach",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_016/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_016/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_016/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_016/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "eagerReach",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_016/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_016/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/heungbu-and-nolbu/page-016.png",
+      "imageSource": "assets/books/heungbu-and-nolbu/page-016.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/heungbu-and-nolbu/ko/page-016.wav",
+      "ambientAudio": "audio/books/heungbu-and-nolbu/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "heungbu_nolbu_017",
+      "pageNumber": 17,
+      "text": {
+        "enLittle": "He searched for a swallow.",
+        "enStandard": "He searched for a swallow. When one landed safely on his roof, he bowed too low and startled it into the sky.",
+        "koLittle": "놀부는 제비를 찾았어요.",
+        "koStandard": "놀부는 제비를 찾았어요. 제비 한 마리가 멀쩡히 지붕에 앉자, 놀부가 너무 크게 절하는 바람에 제비는 하늘로 놀라 날아갔지요."
+      },
+      "koreanText": "놀부는 제비를 찾았어요. 제비 한 마리가 멀쩡히 지붕에 앉자, 놀부가 너무 크게 절하는 바람에 제비는 하늘로 놀라 날아갔지요.",
+      "englishText": "He searched for a swallow. When one landed safely on his roof, he bowed too low and startled it into the sky.",
+      "narrationScript": "놀부는 제비를 찾았어요. 제비 한 마리가 멀쩡히 지붕에 앉자, 놀부가 너무 크게 절하는 바람에 제비는 하늘로 놀라 날아갔지요.",
+      "vocabulary": [
+        {
+          "ko": "제비",
+          "en": "swallow",
+          "romanization": "jebi",
+          "definitionEn": "A small bird that often returns in spring.",
+          "definitionKo": "봄에 찾아오는 작고 빠른 새예요."
+        },
+        {
+          "ko": "박",
+          "en": "gourd",
+          "romanization": "bak",
+          "definitionEn": "A round plant fruit that can become bowls or containers.",
+          "definitionKo": "둥글게 자라 그릇처럼 쓸 수 있는 열매예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "comic failed copying",
+        "emotion": "awkward humor",
+        "pageTurnHook": "He cannot force kindness. Nolbu is learning that copying kindness is not the same as being kind.",
+        "readAloudCue": "Read with kind, hopeful, funny, and repair-focused; let generosity feel costly and joyful; keep pauses clear and musical. comic bow",
+        "childInteraction": "Tap the startled swallow."
+      },
+      "imagePrompt": "Nolbu bowing dramatically to healthy swallow, bird startled flying away, no cruelty Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with awkward humor; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: comic bow",
+      "animation": {
+        "type": "startledBirds",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_017/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_017/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_017/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_017/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "startledBirds",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_017/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_017/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/heungbu-and-nolbu/page-017.png",
+      "imageSource": "assets/books/heungbu-and-nolbu/page-017.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/heungbu-and-nolbu/ko/page-017.wav",
+      "ambientAudio": "audio/books/heungbu-and-nolbu/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "heungbu_nolbu_018",
+      "pageNumber": 18,
+      "text": {
+        "enLittle": "At last a seed rolled from a market basket.",
+        "enStandard": "At last a seed rolled from a market basket. “Close enough,” said Nolbu. He planted it and watered it with impatient wishes.",
+        "koLittle": "마침내 장바구니에서 씨앗 하나가 굴러나왔어요.",
+        "koStandard": "마침내 장바구니에서 씨앗 하나가 굴러나왔어요. “비슷하군.” 놀부가 말했어요. 그는 그 씨앗에 조급한 소원을 물처럼 주었지요."
+      },
+      "koreanText": "마침내 장바구니에서 씨앗 하나가 굴러나왔어요. “비슷하군.” 놀부가 말했어요. 그는 그 씨앗에 조급한 소원을 물처럼 주었지요.",
+      "englishText": "At last a seed rolled from a market basket. “Close enough,” said Nolbu. He planted it and watered it with impatient wishes.",
+      "narrationScript": "마침내 장바구니에서 씨앗 하나가 굴러나왔어요. “비슷하군.” 놀부가 말했어요. 그는 그 씨앗에 조급한 소원을 물처럼 주었지요.",
+      "vocabulary": [
+        {
+          "ko": "씨앗",
+          "en": "seed",
+          "romanization": "ssiat",
+          "definitionEn": "A tiny thing that can grow into a plant.",
+          "definitionKo": "식물로 자랄 수 있는 작은 알갱이예요."
+        },
+        {
+          "ko": "장날",
+          "en": "market day",
+          "romanization": "jangnal",
+          "definitionEn": "A day when people gather to buy and sell food and goods.",
+          "definitionKo": "사람들이 물건을 사고파는 장이 서는 날이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "false shortcut",
+        "emotion": "comic impatience",
+        "pageTurnHook": "A questionable seed is planted. Nolbu is learning that copying kindness is not the same as being kind.",
+        "readAloudCue": "Read with kind, hopeful, funny, and repair-focused; let generosity feel costly and joyful; keep pauses clear and musical. dry humor",
+        "childInteraction": "Tap impatient watering."
+      },
+      "imagePrompt": "Nolbu planting random seed, overwatering, impatient expression, comic Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with comic impatience; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: dry humor",
+      "animation": {
+        "type": "impatientSeed",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_018/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_018/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_018/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_018/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "impatientSeed",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_018/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_018/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/heungbu-and-nolbu/page-018.png",
+      "imageSource": "assets/books/heungbu-and-nolbu/page-018.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/heungbu-and-nolbu/ko/page-018.wav",
+      "ambientAudio": "audio/books/heungbu-and-nolbu/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "heungbu_nolbu_019",
+      "pageNumber": 19,
+      "text": {
+        "enLittle": "Nolbu’s vine rustled like brooms clearing their throats.",
+        "enStandard": "A vine grew on Nolbu’s roof too, but its leaves rustled like brooms clearing their throats.",
+        "koLittle": "놀부의 박넝쿨은 빗자루처럼 바스락거렸어요.",
+        "koStandard": "놀부네 지붕에도 덩굴이 자랐어요. 그런데 잎사귀가 빗자루들이 목청을 가다듬는 소리처럼 사각거렸지요."
+      },
+      "koreanText": "놀부네 지붕에도 덩굴이 자랐어요. 그런데 잎사귀가 빗자루들이 목청을 가다듬는 소리처럼 사각거렸지요.",
+      "englishText": "A vine grew on Nolbu’s roof too, but its leaves rustled like brooms clearing their throats.",
+      "narrationScript": "놀부네 지붕에도 덩굴이 자랐어요. 그런데 잎사귀가 빗자루들이 목청을 가다듬는 소리처럼 사각거렸지요.",
+      "vocabulary": [
+        {
+          "ko": "덩굴",
+          "en": "vine",
+          "romanization": "deonggul",
+          "definitionEn": "A climbing plant stem.",
+          "definitionKo": "길게 뻗어 올라가는 식물 줄기예요."
+        },
+        {
+          "ko": "박",
+          "en": "gourd",
+          "romanization": "bak",
+          "definitionEn": "A round plant fruit that can become bowls or containers.",
+          "definitionKo": "둥글게 자라 그릇처럼 쓸 수 있는 열매예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "ominous comedy",
+        "emotion": "funny warning",
+        "pageTurnHook": "This magic sounds different. Nolbu is learning that copying kindness is not the same as being kind.",
+        "readAloudCue": "Read with kind, hopeful, funny, and repair-focused; let generosity feel costly and joyful; keep pauses clear and musical. rustly comic suspense",
+        "childInteraction": "Tap the broom-like leaves."
+      },
+      "imagePrompt": "Nolbu roof with strange vine, leaves shaped like broom bristles, comic warning Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with funny warning; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: rustly comic suspense",
+      "animation": {
+        "type": "vineGrow",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_019/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_019/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_019/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_019/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "vineGrow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_019/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_019/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/heungbu-and-nolbu/page-019.png",
+      "imageSource": "assets/books/heungbu-and-nolbu/page-019.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/heungbu-and-nolbu/ko/page-019.wav",
+      "ambientAudio": "audio/books/heungbu-and-nolbu/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "heungbu_nolbu_020",
+      "pageNumber": 20,
+      "text": {
+        "enLittle": "Nolbu sang too fast, and the gourd popped open.",
+        "enStandard": "Nolbu sang too fast: “Saw, saw, little gourd — open your round door!” The gourd popped open before he finished.",
+        "koLittle": "놀부가 너무 빨리 노래하자 박이 팡 열렸어요.",
+        "koStandard": "놀부는 너무 빨리 노래했어요. “슬근슬근 톱질하세, 둥근 박아 열려—” 말이 끝나기도 전에 박이 펑 열렸지요."
+      },
+      "koreanText": "놀부는 너무 빨리 노래했어요. “슬근슬근 톱질하세, 둥근 박아 열려—” 말이 끝나기도 전에 박이 펑 열렸지요.",
+      "englishText": "Nolbu sang too fast: “Saw, saw, little gourd — open your round door!” The gourd popped open before he finished.",
+      "narrationScript": "놀부는 너무 빨리 노래했어요. “슬근슬근 톱질하세, 둥근 박아 열려—” 말이 끝나기도 전에 박이 펑 열렸지요.",
+      "refrain": "Saw, saw, little gourd — open your round door!",
+      "vocabulary": [
+        {
+          "ko": "톱",
+          "en": "saw",
+          "romanization": "top",
+          "definitionEn": "A tool with little teeth for cutting wood or gourds.",
+          "definitionKo": "작은 이가 있어 나무나 박을 자르는 도구예요."
+        },
+        {
+          "ko": "박",
+          "en": "gourd",
+          "romanization": "bak",
+          "definitionEn": "A round plant fruit that can become bowls or containers.",
+          "definitionKo": "둥글게 자라 그릇처럼 쓸 수 있는 열매예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "refrain twist",
+        "emotion": "comic alarm",
+        "pageTurnHook": "The song goes wrong. Nolbu is learning that copying kindness is not the same as being kind.",
+        "readAloudCue": "Read with kind, hopeful, funny, and repair-focused; let generosity feel costly and joyful; keep pauses clear and musical. too fast, interrupted",
+        "childInteraction": "Tap the pop."
+      },
+      "imagePrompt": "Nolbu sawing gourd too fast, gourd popping open, comic surprise Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with comic alarm; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: too fast, interrupted",
+      "animation": {
+        "type": "comicGasp",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_020/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_020/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_020/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_020/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "comicGasp",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_020/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_020/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/heungbu-and-nolbu/page-020.png",
+      "imageSource": "assets/books/heungbu-and-nolbu/page-020.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/heungbu-and-nolbu/ko/page-020.wav",
+      "ambientAudio": "audio/books/heungbu-and-nolbu/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "heungbu_nolbu_021",
+      "pageNumber": 21,
+      "text": {
+        "enLittle": "Out flew brooms, cloths, soap, and buckets.",
+        "enStandard": "Out flew brooms, cloths, soap, and buckets. They scrubbed Nolbu’s dusty floors with heroic enthusiasm.",
+        "koLittle": "박 속에서 빗자루와 걸레와 비누와 양동이가 튀어나왔어요.",
+        "koStandard": "박 속에서 빗자루와 걸레와 비누와 양동이가 튀어나왔어요. 그것들은 놀부네 먼지 낀 마룻바닥을 영웅처럼 씻기 시작했지요."
+      },
+      "koreanText": "박 속에서 빗자루와 걸레와 비누와 양동이가 튀어나왔어요. 그것들은 놀부네 먼지 낀 마룻바닥을 영웅처럼 씻기 시작했지요.",
+      "englishText": "Out flew brooms, cloths, soap, and buckets. They scrubbed Nolbu’s dusty floors with heroic enthusiasm.",
+      "narrationScript": "박 속에서 빗자루와 걸레와 비누와 양동이가 튀어나왔어요. 그것들은 놀부네 먼지 낀 마룻바닥을 영웅처럼 씻기 시작했지요.",
+      "vocabulary": [
+        {
+          "ko": "박",
+          "en": "gourd",
+          "romanization": "bak",
+          "definitionEn": "A round plant fruit that can become bowls or containers.",
+          "definitionKo": "둥글게 자라 그릇처럼 쓸 수 있는 열매예요."
+        },
+        {
+          "ko": "착한 마음",
+          "en": "kindness",
+          "romanization": "chakan maeum",
+          "definitionEn": "A caring choice that helps someone.",
+          "definitionKo": "누군가를 도와주는 따뜻한 마음이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "comic consequence",
+        "emotion": "big slapstick",
+        "pageTurnHook": "The first repair gift attacks the mess. Nolbu is learning that copying kindness is not the same as being kind.",
+        "readAloudCue": "Read with kind, hopeful, funny, and repair-focused; let generosity feel costly and joyful; keep pauses clear and musical. energetic cleaning rhythm",
+        "childInteraction": "Swipe the broom."
+      },
+      "imagePrompt": "Magical brooms cloths soap buckets cleaning Nolbu house enthusiastically, slapstick safe Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with big slapstick; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: energetic cleaning rhythm",
+      "animation": {
+        "type": "cleaningSurprise",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_021/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_021/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_021/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_021/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "cleaningSurprise",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_021/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_021/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/heungbu-and-nolbu/page-021.png",
+      "imageSource": "assets/books/heungbu-and-nolbu/page-021.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/heungbu-and-nolbu/ko/page-021.wav",
+      "ambientAudio": "audio/books/heungbu-and-nolbu/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "heungbu_nolbu_022",
+      "pageNumber": 22,
+      "text": {
+        "enLittle": "The second gourd released ledgers, mirrors, and one very stern rice scoop.",
+        "enStandard": "The second gourd released ledgers, mirrors, and one very stern rice scoop. Every item pointed toward someone Nolbu had ignored.",
+        "koLittle": "두 번째 박에서는 장부와 거울과 아주 엄한 주걱 하나가 나왔어요.",
+        "koStandard": "두 번째 박에서는 장부와 거울과 아주 엄한 주걱 하나가 나왔어요. 물건마다 놀부가 모른 척했던 사람들을 가리켰지요."
+      },
+      "koreanText": "두 번째 박에서는 장부와 거울과 아주 엄한 주걱 하나가 나왔어요. 물건마다 놀부가 모른 척했던 사람들을 가리켰지요.",
+      "englishText": "The second gourd released ledgers, mirrors, and one very stern rice scoop. Every item pointed toward someone Nolbu had ignored.",
+      "narrationScript": "두 번째 박에서는 장부와 거울과 아주 엄한 주걱 하나가 나왔어요. 물건마다 놀부가 모른 척했던 사람들을 가리켰지요.",
+      "vocabulary": [
+        {
+          "ko": "박",
+          "en": "gourd",
+          "romanization": "bak",
+          "definitionEn": "A round plant fruit that can become bowls or containers.",
+          "definitionKo": "둥글게 자라 그릇처럼 쓸 수 있는 열매예요."
+        },
+        {
+          "ko": "이웃",
+          "en": "neighbor",
+          "romanization": "iut",
+          "definitionEn": "A person who lives nearby.",
+          "definitionKo": "가까이에 사는 사람이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "moral reveal",
+        "emotion": "comic discomfort",
+        "pageTurnHook": "Repair becomes specific. Nolbu is learning that copying kindness is not the same as being kind.",
+        "readAloudCue": "Read with kind, hopeful, funny, and repair-focused; let generosity feel costly and joyful; keep pauses clear and musical. stern but playful",
+        "childInteraction": "Tap the stern scoop."
+      },
+      "imagePrompt": "Magical household objects pointing Nolbu toward neighbors, comic moral lesson, no text Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with comic discomfort; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: stern but playful",
+      "animation": {
+        "type": "lessonGlow",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_022/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_022/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_022/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_022/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "lessonGlow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_022/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_022/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/heungbu-and-nolbu/page-022.png",
+      "imageSource": "assets/books/heungbu-and-nolbu/page-022.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/heungbu-and-nolbu/ko/page-022.wav",
+      "ambientAudio": "audio/books/heungbu-and-nolbu/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "heungbu_nolbu_023",
+      "pageNumber": 23,
+      "text": {
+        "enLittle": "Nolbu tried to hide behind a jar.",
+        "enStandard": "Nolbu tried to hide behind a jar. The jar rolled aside. Even his jars were tired of being closed.",
+        "koLittle": "놀부는 항아리 뒤에 숨으려 했어요.",
+        "koStandard": "놀부는 항아리 뒤에 숨으려 했어요. 항아리는 옆으로 데굴 굴렀지요. 항아리들도 닫혀 지내는 데 지쳤던 거예요."
+      },
+      "koreanText": "놀부는 항아리 뒤에 숨으려 했어요. 항아리는 옆으로 데굴 굴렀지요. 항아리들도 닫혀 지내는 데 지쳤던 거예요.",
+      "englishText": "Nolbu tried to hide behind a jar. The jar rolled aside. Even his jars were tired of being closed.",
+      "narrationScript": "놀부는 항아리 뒤에 숨으려 했어요. 항아리는 옆으로 데굴 굴렀지요. 항아리들도 닫혀 지내는 데 지쳤던 거예요.",
+      "vocabulary": [
+        {
+          "ko": "박",
+          "en": "gourd",
+          "romanization": "bak",
+          "definitionEn": "A round plant fruit that can become bowls or containers.",
+          "definitionKo": "둥글게 자라 그릇처럼 쓸 수 있는 열매예요."
+        },
+        {
+          "ko": "이웃",
+          "en": "neighbor",
+          "romanization": "iut",
+          "definitionEn": "A person who lives nearby.",
+          "definitionKo": "가까이에 사는 사람이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "comic exposure",
+        "emotion": "laughing accountability",
+        "pageTurnHook": "No hiding from repair. Nolbu is learning that copying kindness is not the same as being kind.",
+        "readAloudCue": "Read with kind, hopeful, funny, and repair-focused; let generosity feel costly and joyful; keep pauses clear and musical. playful aside",
+        "childInteraction": "Tap the rolling jar."
+      },
+      "imagePrompt": "Nolbu trying to hide behind jar, jar rolling aside, comic embarrassment Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with laughing accountability; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: playful aside",
+      "animation": {
+        "type": "comicWobble",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_023/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_023/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_023/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_023/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "comicWobble",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_023/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_023/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/heungbu-and-nolbu/page-023.png",
+      "imageSource": "assets/books/heungbu-and-nolbu/page-023.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/heungbu-and-nolbu/ko/page-023.wav",
+      "ambientAudio": "audio/books/heungbu-and-nolbu/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "heungbu_nolbu_024",
+      "pageNumber": 24,
+      "text": {
+        "enLittle": "For seven days, Nolbu repaired what he had ignored.",
+        "enStandard": "For seven days, Nolbu carried rice, patched roofs, returned tools, and opened his shutters before breakfast.",
+        "koLittle": "놀부는 이레 동안 외면했던 일을 고쳤어요.",
+        "koStandard": "이레 동안 놀부는 쌀을 나르고, 지붕을 고치고, 빌린 연장을 돌려주고, 아침밥 전에 덧문을 열었어요."
+      },
+      "koreanText": "이레 동안 놀부는 쌀을 나르고, 지붕을 고치고, 빌린 연장을 돌려주고, 아침밥 전에 덧문을 열었어요.",
+      "englishText": "For seven days, Nolbu carried rice, patched roofs, returned tools, and opened his shutters before breakfast.",
+      "narrationScript": "이레 동안 놀부는 쌀을 나르고, 지붕을 고치고, 빌린 연장을 돌려주고, 아침밥 전에 덧문을 열었어요.",
+      "vocabulary": [
+        {
+          "ko": "이웃",
+          "en": "neighbor",
+          "romanization": "iut",
+          "definitionEn": "A person who lives nearby.",
+          "definitionKo": "가까이에 사는 사람이에요."
+        },
+        {
+          "ko": "착한 마음",
+          "en": "kindness",
+          "romanization": "chakan maeum",
+          "definitionEn": "A caring choice that helps someone.",
+          "definitionKo": "누군가를 도와주는 따뜻한 마음이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "repair montage",
+        "emotion": "earned humility",
+        "pageTurnHook": "Change takes repeated work. Repair work opens the way back to laughter and family.",
+        "readAloudCue": "Read with kind, hopeful, funny, and repair-focused; let generosity feel costly and joyful; keep pauses clear and musical. steady counting rhythm",
+        "childInteraction": "Tap each repair job."
+      },
+      "imagePrompt": "Nolbu doing repair work around village, carrying rice, patching roof, returning tools Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with earned humility; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: steady counting rhythm",
+      "animation": {
+        "type": "carefulRepair",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_024/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_024/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_024/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_024/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "carefulRepair",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_024/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_024/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/heungbu-and-nolbu/page-024.png",
+      "imageSource": "assets/books/heungbu-and-nolbu/page-024.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/heungbu-and-nolbu/ko/page-024.wav",
+      "ambientAudio": "audio/books/heungbu-and-nolbu/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "heungbu_nolbu_025",
+      "pageNumber": 25,
+      "text": {
+        "enLittle": "On the eighth day, Heungbu came to help.",
+        "enStandard": "On the eighth day, Heungbu came to help. “You do not have to do it alone,” he said. Nolbu’s ears turned red.",
+        "koLittle": "여드레째 되는 날, 흥부가 도우러 왔어요.",
+        "koStandard": "여드레째 되는 날, 흥부가 도우러 왔어요. “혼자 하지 않아도 돼.” 흥부가 말했지요. 놀부의 귀가 빨개졌어요."
+      },
+      "koreanText": "여드레째 되는 날, 흥부가 도우러 왔어요. “혼자 하지 않아도 돼.” 흥부가 말했지요. 놀부의 귀가 빨개졌어요.",
+      "englishText": "On the eighth day, Heungbu came to help. “You do not have to do it alone,” he said. Nolbu’s ears turned red.",
+      "narrationScript": "여드레째 되는 날, 흥부가 도우러 왔어요. “혼자 하지 않아도 돼.” 흥부가 말했지요. 놀부의 귀가 빨개졌어요.",
+      "vocabulary": [
+        {
+          "ko": "착한 마음",
+          "en": "kindness",
+          "romanization": "chakan maeum",
+          "definitionEn": "A caring choice that helps someone.",
+          "definitionKo": "누군가를 도와주는 따뜻한 마음이에요."
+        },
+        {
+          "ko": "이웃",
+          "en": "neighbor",
+          "romanization": "iut",
+          "definitionEn": "A person who lives nearby.",
+          "definitionKo": "가까이에 사는 사람이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "brother arc",
+        "emotion": "awkward tenderness",
+        "pageTurnHook": "Heungbu helps even now. Repair work opens the way back to laughter and family.",
+        "readAloudCue": "Read with kind, hopeful, funny, and repair-focused; let generosity feel costly and joyful; keep pauses clear and musical. gentle brotherly voice",
+        "childInteraction": "Tap Nolbu’s red ears."
+      },
+      "imagePrompt": "Heungbu helping Nolbu repair fence, Nolbu embarrassed and moved, Korean village Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with awkward tenderness; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: gentle brotherly voice",
+      "animation": {
+        "type": "forgiveness",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_025/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_025/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_025/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_025/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "forgiveness",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_025/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_025/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/heungbu-and-nolbu/page-025.png",
+      "imageSource": "assets/books/heungbu-and-nolbu/page-025.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/heungbu-and-nolbu/ko/page-025.wav",
+      "ambientAudio": "audio/books/heungbu-and-nolbu/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "heungbu_nolbu_026",
+      "pageNumber": 26,
+      "text": {
+        "enLittle": "“I wanted your gourds,” Nolbu admitted.",
+        "enStandard": "“I wanted your gourds,” Nolbu admitted. “But I did not want your kindness until it started sweeping my floor.”",
+        "koLittle": "“네 박이 갖고 싶었어.” 놀부가 인정했어요.",
+        "koStandard": "“네 박이 갖고 싶었어.” 놀부가 인정했어요. “그런데 네 착한 마음은 내 마룻바닥을 쓸기 전까지 갖고 싶지 않았지.”"
+      },
+      "koreanText": "“네 박이 갖고 싶었어.” 놀부가 인정했어요. “그런데 네 착한 마음은 내 마룻바닥을 쓸기 전까지 갖고 싶지 않았지.”",
+      "englishText": "“I wanted your gourds,” Nolbu admitted. “But I did not want your kindness until it started sweeping my floor.”",
+      "narrationScript": "“네 박이 갖고 싶었어.” 놀부가 인정했어요. “그런데 네 착한 마음은 내 마룻바닥을 쓸기 전까지 갖고 싶지 않았지.”",
+      "vocabulary": [
+        {
+          "ko": "박",
+          "en": "gourd",
+          "romanization": "bak",
+          "definitionEn": "A round plant fruit that can become bowls or containers.",
+          "definitionKo": "둥글게 자라 그릇처럼 쓸 수 있는 열매예요."
+        },
+        {
+          "ko": "착한 마음",
+          "en": "kindness",
+          "romanization": "chakan maeum",
+          "definitionEn": "A caring choice that helps someone.",
+          "definitionKo": "누군가를 도와주는 따뜻한 마음이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "confession",
+        "emotion": "honest humor",
+        "pageTurnHook": "Nolbu understands what he missed. Repair work opens the way back to laughter and family.",
+        "readAloudCue": "Read with kind, hopeful, funny, and repair-focused; let generosity feel costly and joyful; keep pauses clear and musical. sheepish comic truth",
+        "childInteraction": "Tap the broom leaning nearby."
+      },
+      "imagePrompt": "Brothers talking honestly beside cleaned floor, magical broom resting, warm comic humility Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with honest humor; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: sheepish comic truth",
+      "animation": {
+        "type": "apologyBowl",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_026/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_026/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_026/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_026/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "apologyBowl",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_026/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_026/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/heungbu-and-nolbu/page-026.png",
+      "imageSource": "assets/books/heungbu-and-nolbu/page-026.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/heungbu-and-nolbu/ko/page-026.wav",
+      "ambientAudio": "audio/books/heungbu-and-nolbu/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "heungbu_nolbu_027",
+      "pageNumber": 27,
+      "text": {
+        "enLittle": "Heungbu laughed.",
+        "enStandard": "Heungbu laughed. Nolbu laughed too, though his laugh sounded rusty from being shut away.",
+        "koLittle": "흥부가 웃었어요.",
+        "koStandard": "흥부가 웃었어요. 놀부도 웃었지요. 오래 닫아 둔 탓인지 그의 웃음은 조금 녹슨 소리가 났어요."
+      },
+      "koreanText": "흥부가 웃었어요. 놀부도 웃었지요. 오래 닫아 둔 탓인지 그의 웃음은 조금 녹슨 소리가 났어요.",
+      "englishText": "Heungbu laughed. Nolbu laughed too, though his laugh sounded rusty from being shut away.",
+      "narrationScript": "흥부가 웃었어요. 놀부도 웃었지요. 오래 닫아 둔 탓인지 그의 웃음은 조금 녹슨 소리가 났어요.",
+      "vocabulary": [
+        {
+          "ko": "이웃",
+          "en": "neighbor",
+          "romanization": "iut",
+          "definitionEn": "A person who lives nearby.",
+          "definitionKo": "가까이에 사는 사람이에요."
+        },
+        {
+          "ko": "착한 마음",
+          "en": "kindness",
+          "romanization": "chakan maeum",
+          "definitionEn": "A caring choice that helps someone.",
+          "definitionKo": "누군가를 도와주는 따뜻한 마음이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "softening",
+        "emotion": "warm humor",
+        "pageTurnHook": "Nolbu’s heart opens audibly. Repair work opens the way back to laughter and family.",
+        "readAloudCue": "Read with kind, hopeful, funny, and repair-focused; let generosity feel costly and joyful; keep pauses clear and musical. laugh gently",
+        "childInteraction": "Tap the rusty laugh sparkle."
+      },
+      "imagePrompt": "Brothers laughing together, warm Korean courtyard, shutters open Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with warm humor; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: laugh gently",
+      "animation": {
+        "type": "friendlyLaugh",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_027/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_027/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_027/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_027/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "friendlyLaugh",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_027/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_027/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/heungbu-and-nolbu/page-027.png",
+      "imageSource": "assets/books/heungbu-and-nolbu/page-027.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/heungbu-and-nolbu/ko/page-027.wav",
+      "ambientAudio": "audio/books/heungbu-and-nolbu/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "heungbu_nolbu_028",
+      "pageNumber": 28,
+      "text": {
+        "enLittle": "Together, the brothers sang the gourd song slowly.",
+        "enStandard": "Together they opened the last gourd slowly, singing at the right pace: “Saw, saw, little gourd — open your round door.”",
+        "koLittle": "형제는 함께 박 노래를 천천히 불렀어요.",
+        "koStandard": "둘은 마지막 박을 천천히 열었어요. 이번엔 알맞은 장단으로 노래했지요. “슬근슬근 톱질하세, 둥근 박아 열려라.”"
+      },
+      "koreanText": "둘은 마지막 박을 천천히 열었어요. 이번엔 알맞은 장단으로 노래했지요. “슬근슬근 톱질하세, 둥근 박아 열려라.”",
+      "englishText": "Together they opened the last gourd slowly, singing at the right pace: “Saw, saw, little gourd — open your round door.”",
+      "narrationScript": "둘은 마지막 박을 천천히 열었어요. 이번엔 알맞은 장단으로 노래했지요. “슬근슬근 톱질하세, 둥근 박아 열려라.”",
+      "refrain": "Saw, saw, little gourd — open your round door!",
+      "vocabulary": [
+        {
+          "ko": "톱",
+          "en": "saw",
+          "romanization": "top",
+          "definitionEn": "A tool with little teeth for cutting wood or gourds.",
+          "definitionKo": "작은 이가 있어 나무나 박을 자르는 도구예요."
+        },
+        {
+          "ko": "박",
+          "en": "gourd",
+          "romanization": "bak",
+          "definitionEn": "A round plant fruit that can become bowls or containers.",
+          "definitionKo": "둥글게 자라 그릇처럼 쓸 수 있는 열매예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "refrain repair",
+        "emotion": "hopeful anticipation",
+        "pageTurnHook": "The song is restored. Repair work opens the way back to laughter and family.",
+        "readAloudCue": "Read with kind, hopeful, funny, and repair-focused; let generosity feel costly and joyful; keep pauses clear and musical. sing at a steady pace",
+        "childInteraction": "Tap the steady rhythm."
+      },
+      "imagePrompt": "Both brothers opening final gourd together carefully, family and neighbors nearby Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with hopeful anticipation; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: sing at a steady pace",
+      "animation": {
+        "type": "danceRhythm",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_028/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_028/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_028/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_028/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "danceRhythm",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_028/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_028/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/heungbu-and-nolbu/page-028.png",
+      "imageSource": "assets/books/heungbu-and-nolbu/page-028.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/heungbu-and-nolbu/ko/page-028.wav",
+      "ambientAudio": "audio/books/heungbu-and-nolbu/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "heungbu_nolbu_029",
+      "pageNumber": 29,
+      "text": {
+        "enLittle": "Lanterns, music, cakes, and a long table appeared.",
+        "enStandard": "Out came lanterns, music, seed cakes, and a table long enough for both houses and half the village.",
+        "koLittle": "등불과 음악과 떡과 긴 상이 나왔어요.",
+        "koStandard": "박 속에서 등불과 음악과 씨앗 과자와 긴 밥상이 나왔어요. 두 집과 마을 절반이 함께 앉을 만큼 길었지요."
+      },
+      "koreanText": "박 속에서 등불과 음악과 씨앗 과자와 긴 밥상이 나왔어요. 두 집과 마을 절반이 함께 앉을 만큼 길었지요.",
+      "englishText": "Out came lanterns, music, seed cakes, and a table long enough for both houses and half the village.",
+      "narrationScript": "박 속에서 등불과 음악과 씨앗 과자와 긴 밥상이 나왔어요. 두 집과 마을 절반이 함께 앉을 만큼 길었지요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤길을 밝히는 따뜻한 불빛이에요."
+        },
+        {
+          "ko": "씨앗",
+          "en": "seed",
+          "romanization": "ssiat",
+          "definitionEn": "A tiny thing that can grow into a plant.",
+          "definitionKo": "식물로 자랄 수 있는 작은 알갱이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "celebration",
+        "emotion": "joyous abundance",
+        "pageTurnHook": "The final gift is shared celebration. Repair work opens the way back to laughter and family.",
+        "readAloudCue": "Read with kind, hopeful, funny, and repair-focused; let generosity feel costly and joyful; keep pauses clear and musical. festive, musical",
+        "childInteraction": "Tap the lanterns."
+      },
+      "imagePrompt": "Magical gourd releasing lanterns music seed cakes long feast table, Korean village celebration Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with joyous abundance; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: festive, musical",
+      "animation": {
+        "type": "lanternProcession",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_029/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_029/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_029/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_029/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "lanternProcession",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_029/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_029/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/heungbu-and-nolbu/page-029.png",
+      "imageSource": "assets/books/heungbu-and-nolbu/page-029.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/heungbu-and-nolbu/ko/page-029.wav",
+      "ambientAudio": "audio/books/heungbu-and-nolbu/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "heungbu_nolbu_030",
+      "pageNumber": 30,
+      "text": {
+        "enLittle": "Nolbu opened his storehouse and said, “Come in.”",
+        "enStandard": "Nolbu opened his storehouse. “Come in,” he told the village. At first the door squeaked. Then it sighed, as if it had been waiting to be useful.",
+        "koLittle": "놀부는 곳간을 열고 “들어오세요.” 하고 말했어요.",
+        "koStandard": "놀부가 곳간을 열었어요. “들어오세요.” 그가 마을 사람들에게 말했지요. 처음엔 문이 끼익 울었고, 곧 쓸모 있게 되기를 기다렸다는 듯 후우 한숨을 쉬었어요."
+      },
+      "koreanText": "놀부가 곳간을 열었어요. “들어오세요.” 그가 마을 사람들에게 말했지요. 처음엔 문이 끼익 울었고, 곧 쓸모 있게 되기를 기다렸다는 듯 후우 한숨을 쉬었어요.",
+      "englishText": "Nolbu opened his storehouse. “Come in,” he told the village. At first the door squeaked. Then it sighed, as if it had been waiting to be useful.",
+      "narrationScript": "놀부가 곳간을 열었어요. “들어오세요.” 그가 마을 사람들에게 말했지요. 처음엔 문이 끼익 울었고, 곧 쓸모 있게 되기를 기다렸다는 듯 후우 한숨을 쉬었어요.",
+      "vocabulary": [
+        {
+          "ko": "착한 마음",
+          "en": "kindness",
+          "romanization": "chakan maeum",
+          "definitionEn": "A caring choice that helps someone.",
+          "definitionKo": "누군가를 도와주는 따뜻한 마음이에요."
+        },
+        {
+          "ko": "이웃",
+          "en": "neighbor",
+          "romanization": "iut",
+          "definitionEn": "A person who lives nearby.",
+          "definitionKo": "가까이에 사는 사람이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "transformation",
+        "emotion": "satisfying release",
+        "pageTurnHook": "Closed abundance finally moves. The final refrain lets children sing the moral instead of being told it.",
+        "readAloudCue": "Read with kind, hopeful, funny, and repair-focused; let generosity feel costly and joyful; keep pauses clear and musical. door creak then sigh",
+        "childInteraction": "Open the storehouse door."
+      },
+      "imagePrompt": "Nolbu opening storehouse, supplies being shared, warm sunlight, villagers grateful Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with satisfying release; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: door creak then sigh",
+      "animation": {
+        "type": "closedDoor",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_030/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_030/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_030/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_030/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "closedDoor",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_030/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_030/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/heungbu-and-nolbu/page-030.png",
+      "imageSource": "assets/books/heungbu-and-nolbu/page-030.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/heungbu-and-nolbu/ko/page-030.wav",
+      "ambientAudio": "audio/books/heungbu-and-nolbu/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "heungbu_nolbu_031",
+      "pageNumber": 31,
+      "text": {
+        "enLittle": "Heungbu kept sharing, and Nolbu learned to share sooner.",
+        "enStandard": "From then on, Heungbu still shared half when he had little, and Nolbu learned to share before his barns felt too full.",
+        "koLittle": "흥부는 계속 나누고, 놀부도 먼저 나누는 법을 배웠어요.",
+        "koStandard": "그 뒤로도 흥부는 적을 때 반을 나누었고, 놀부는 곳간이 너무 가득 차기 전에 나누는 법을 배웠어요."
+      },
+      "koreanText": "그 뒤로도 흥부는 적을 때 반을 나누었고, 놀부는 곳간이 너무 가득 차기 전에 나누는 법을 배웠어요.",
+      "englishText": "From then on, Heungbu still shared half when he had little, and Nolbu learned to share before his barns felt too full.",
+      "narrationScript": "그 뒤로도 흥부는 적을 때 반을 나누었고, 놀부는 곳간이 너무 가득 차기 전에 나누는 법을 배웠어요.",
+      "vocabulary": [
+        {
+          "ko": "착한 마음",
+          "en": "kindness",
+          "romanization": "chakan maeum",
+          "definitionEn": "A caring choice that helps someone.",
+          "definitionKo": "누군가를 도와주는 따뜻한 마음이에요."
+        },
+        {
+          "ko": "이웃",
+          "en": "neighbor",
+          "romanization": "iut",
+          "definitionEn": "A person who lives nearby.",
+          "definitionKo": "가까이에 사는 사람이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolution",
+        "emotion": "balanced warmth",
+        "pageTurnHook": "Both brothers have changed roles. The ending invites a quiet reread and one last echo of the refrain.",
+        "readAloudCue": "Read with kind, hopeful, funny, and repair-focused; let generosity feel costly and joyful; keep pauses clear and musical. calm summary",
+        "childInteraction": "Tap both open doors."
+      },
+      "imagePrompt": "Two brothers homes with both doors open, neighbors moving between, warm village Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with balanced warmth; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: calm summary",
+      "animation": {
+        "type": "sharedSunset",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_031/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_031/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_031/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_031/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "sharedSunset",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_031/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_031/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/heungbu-and-nolbu/page-031.png",
+      "imageSource": "assets/books/heungbu-and-nolbu/page-031.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/heungbu-and-nolbu/ko/page-031.wav",
+      "ambientAudio": "audio/books/heungbu-and-nolbu/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "heungbu_nolbu_032",
+      "pageNumber": 32,
+      "text": {
+        "enLittle": "Children still sang because kindness kept the beat.",
+        "enStandard": "And when gourds ripened on the roof, children still sang the old song, because some doors open best when kindness keeps the beat.",
+        "koLittle": "아이들은 착한 마음이 박자를 지켜 준다고 노래했어요.",
+        "koStandard": "그리고 지붕 위 박이 익을 때면 아이들은 여전히 그 노래를 불렀어요. 어떤 문은 착한 마음이 장단을 맞춰 줄 때 가장 잘 열리니까요."
+      },
+      "koreanText": "그리고 지붕 위 박이 익을 때면 아이들은 여전히 그 노래를 불렀어요. 어떤 문은 착한 마음이 장단을 맞춰 줄 때 가장 잘 열리니까요.",
+      "englishText": "And when gourds ripened on the roof, children still sang the old song, because some doors open best when kindness keeps the beat.",
+      "narrationScript": "그리고 지붕 위 박이 익을 때면 아이들은 여전히 그 노래를 불렀어요. 어떤 문은 착한 마음이 장단을 맞춰 줄 때 가장 잘 열리니까요.",
+      "refrain": "Saw, saw, little gourd — open your round door!",
+      "vocabulary": [
+        {
+          "ko": "박",
+          "en": "gourd",
+          "romanization": "bak",
+          "definitionEn": "A round plant fruit that can become bowls or containers.",
+          "definitionKo": "둥글게 자라 그릇처럼 쓸 수 있는 열매예요."
+        },
+        {
+          "ko": "착한 마음",
+          "en": "kindness",
+          "romanization": "chakan maeum",
+          "definitionEn": "A caring choice that helps someone.",
+          "definitionKo": "누군가를 도와주는 따뜻한 마음이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "closing",
+        "emotion": "musical wisdom",
+        "pageTurnHook": "The refrain closes with meaning. The ending invites a quiet reread and one last echo of the refrain.",
+        "readAloudCue": "Read with kind, hopeful, funny, and repair-focused; let generosity feel costly and joyful; keep pauses clear and musical. sing softly to end",
+        "childInteraction": "Tap the final gourd."
+      },
+      "imagePrompt": "Children singing under gourd vine, brothers smiling, moon jar seal, peaceful Korean village Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with musical wisdom; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: sing softly to end",
+      "animation": {
+        "type": "bedtimeGlow",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_032/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_032/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_032/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_032/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "bedtimeGlow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_032/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/heungbu-and-nolbu/heungbu_nolbu_032/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/heungbu-and-nolbu/page-032.png",
+      "imageSource": "assets/books/heungbu-and-nolbu/page-032.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/heungbu-and-nolbu/ko/page-032.wav",
+      "ambientAudio": "audio/books/heungbu-and-nolbu/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    }
+  ],
+  "coverAsset": "assets/books/heungbu-and-nolbu/cover.png",
+  "coverAssetStatus": "placeholder",
+  "characterBible": "characters/heungbu_nolbu.character_bible.json",
+  "narrationAudioStatus": "synthetic_draft"
+}

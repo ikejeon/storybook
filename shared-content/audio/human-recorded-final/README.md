@@ -1,0 +1,1 @@
+Final mastered human narration and approved sound assets go here. Manifest entries marked human_recorded_final must include reviewer, review date, cultural approval, child-safety approval, and production approval.

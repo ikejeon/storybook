@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedOn": "2026-05-11",
+  "status": "draft_not_submitted",
+  "appName": "Moon Jar Stories",
+  "subtitle": "Korean folktales for bedtime",
+  "primaryCategory": "Books",
+  "secondaryCategory": "Education",
+  "kidsCategoryCandidate": true,
+  "ageRatingTarget": "4+ or Kids Category pending policy review",
+  "descriptionDraft": "Moon Jar Stories is a calm bilingual storybook app for families reading Korean folktales together. Read in English-first mode, switch to Korean text, listen to packaged narration, and explore gentle picture-book scenes without ads, child accounts, child-facing links, or live generation in the child app.",
+  "keywordsDraft": ["Korean", "folktales", "storybook", "bilingual", "bedtime", "kids books"],
+  "screenshots": {
+    "status": "smoke_artifacts_exist_but_store_final_screenshots_missing",
+    "currentEvidence": [
+      ".agent/tmp/artifacts/ios-smoke-library.png",
+      ".agent/tmp/artifacts/ios-smoke-real-book-page3.png",
+      ".agent/tmp/artifacts/ios-smoke-reader-playback.png"
+    ],
+    "storeReady": false
+  },
+  "privacyPolicy": "docs/privacy_policy_draft.md",
+  "privacyPolicyStatus": "draft_not_final",
+  "subscriptionDisclosuresStatus": "draft_needed_after_real_store_products",
+  "submissionStatus": "blocked"
+}

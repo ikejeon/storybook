@@ -1,0 +1,2329 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "book.green_frog",
+  "slug": "green-frog",
+  "title": {
+    "ko": "청개구리 이야기",
+    "en": "The Green Frog"
+  },
+  "access": "premium",
+  "ageRange": "3-8",
+  "estimatedMinutes": 8,
+  "summary": "The contrary green frog ignores his mother, tries too late to obey, grieves by the stream, and remembers her whenever rain swells the bank.",
+  "coverAsset": "assets/books/green-frog/cover.png",
+  "coverAssetStatus": "placeholder",
+  "characterBible": "characters/green_frog.character_bible.json",
+  "narrationAudioStatus": "synthetic_draft",
+  "adaptationVersions": {
+    "default": "English-first bilingual semantic-authenticity repair draft",
+    "plannedAlternate": "External editor pass after children’s editorial and Korean-language review",
+    "note": "Generated repo-local repair draft; not external human final."
+  },
+  "sensitivityNotes": [
+    "Grief is gentle but real; the mother remains emotionally central.",
+    "Repaired by repo-local semantic authenticity pass; external children’s editor, Korean-language, cultural, and child-safety review remain required before final release."
+  ],
+  "themes": [
+    "listening",
+    "family",
+    "grief",
+    "rain",
+    "memory"
+  ],
+  "characters": [
+    "green_frog",
+    "mother_frog",
+    "stream_friend",
+    "reed_umbrella"
+  ],
+  "pages": [
+    {
+      "id": "green_frog_001",
+      "pageNumber": 1,
+      "text": {
+        "enLittle": "Mother frog asked him to sit near the reed.",
+        "enStandard": "In the rain-bright stream bank, first, Mother Frog asked him to sit near the reed, so he hopped to the stone. \"I will answer carefully,\" came the reply.",
+        "koLittle": "청개구리와 어머니가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "청개구리와 어머니가 있는 옛이야기 길에서 청개구리와 어머니가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "청개구리와 어머니가 있는 옛이야기 길에서 청개구리와 어머니가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the rain-bright stream bank, first, Mother Frog asked him to sit near the reed, so he hopped to the stone. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "청개구리와 어머니가 있는 옛이야기 길에서 청개구리와 어머니가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "청개구리",
+          "en": "green frog",
+          "romanization": "cheonggaeguri",
+          "definitionEn": "A small green frog.",
+          "definitionKo": "작은 초록 개구리예요."
+        },
+        {
+          "ko": "반대로",
+          "en": "opposite",
+          "romanization": "bandaero",
+          "definitionEn": "Doing the reverse of what was asked.",
+          "definitionKo": "부탁받은 것과 거꾸로 하는 일이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "frog does the opposite of every request (contrary play)",
+        "emotion": "playful frustration",
+        "pageTurnHook": "Then the next part of contrary play will ask for a braver choice, and the story moves toward mother's patience.",
+        "readAloudCue": "Read with playful frustration; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap rain-bright stream bank."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/green_frog.character_bible.json. Page 1 for 청개구리 이야기 / The Green Frog: rain-bright stream bank; specific beat: Mother Frog asked him to sit near the reed, so he hopped to the stone; emotional tone: playful frustration; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/green-frog/page-001.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with playful frustration; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/green-frog/ko/page-001.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/green-frog/ambient/ambient-loop.wav",
+      "characterBible": "characters/green_frog.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_001/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_001/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_001/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_001/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_001/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_001/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "green_frog_002",
+      "pageNumber": 2,
+      "text": {
+        "enLittle": "She asked for a soft voice.",
+        "enStandard": "In the rain-bright stream bank, next, she asked for a soft voice, and he croaked at the clouds. \"Then walk gently,\" the elder said.",
+        "koLittle": "반대로 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "청개구리와 어머니가 있는 옛이야기 길에서 반대로 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "청개구리와 어머니가 있는 옛이야기 길에서 반대로 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the rain-bright stream bank, next, she asked for a soft voice, and he croaked at the clouds. \"Then walk gently,\" the elder said.",
+      "narrationScript": "청개구리와 어머니가 있는 옛이야기 길에서 반대로 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "어머니",
+          "en": "mother",
+          "romanization": "eomeoni",
+          "definitionEn": "The frog's loving parent.",
+          "definitionKo": "개구리의 다정한 부모예요."
+        },
+        {
+          "ko": "냇가",
+          "en": "stream bank",
+          "romanization": "naetga",
+          "definitionEn": "The side of a small stream.",
+          "definitionKo": "작은 물가예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "frog does the opposite of every request (contrary play)",
+        "emotion": "playful frustration",
+        "pageTurnHook": "Then the next part of contrary play will ask for a braver choice, and the story moves toward mother's patience.",
+        "readAloudCue": "Read with playful frustration; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace rain-bright stream bank."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/green_frog.character_bible.json. Page 2 for 청개구리 이야기 / The Green Frog: rain-bright stream bank; specific beat: she asked for a soft voice, and he croaked at the clouds; emotional tone: playful frustration; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/green-frog/page-002.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with playful frustration; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/green-frog/ko/page-002.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/green-frog/ambient/ambient-loop.wav",
+      "characterBible": "characters/green_frog.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_002/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_002/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_002/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_002/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_002/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_002/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "green_frog_003",
+      "pageNumber": 3,
+      "text": {
+        "enLittle": "Dragonflies scattered from his upside-down games.",
+        "enStandard": "In the rain-bright stream bank, quietly, dragonflies scattered from his upside-down games. \"I am still learning,\" the child answered.",
+        "koLittle": "청개구리를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "청개구리와 어머니가 있는 옛이야기 길에서 청개구리를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "청개구리와 어머니가 있는 옛이야기 길에서 청개구리를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the rain-bright stream bank, quietly, dragonflies scattered from his upside-down games. \"I am still learning,\" the child answered.",
+      "narrationScript": "청개구리와 어머니가 있는 옛이야기 길에서 청개구리를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "반대로",
+          "en": "opposite",
+          "romanization": "bandaero",
+          "definitionEn": "Doing the reverse of what was asked.",
+          "definitionKo": "부탁받은 것과 거꾸로 하는 일이에요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "frog does the opposite of every request (contrary play)",
+        "emotion": "playful frustration",
+        "pageTurnHook": "Then the next part of contrary play will ask for a braver choice, and the story moves toward mother's patience.",
+        "readAloudCue": "Read with playful frustration; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count rain-bright stream bank."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/green_frog.character_bible.json. Page 3 for 청개구리 이야기 / The Green Frog: rain-bright stream bank; specific beat: dragonflies scattered from his upside-down games; emotional tone: playful frustration; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/green-frog/page-003.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with playful frustration; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/green-frog/ko/page-003.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/green-frog/ambient/ambient-loop.wav",
+      "characterBible": "characters/green_frog.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_003/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_003/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_003/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_003/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_003/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_003/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "green_frog_004",
+      "pageNumber": 4,
+      "text": {
+        "enLittle": "Mother sighed.",
+        "enStandard": "In the rain-bright stream bank, with the moon high, Mother sighed, but her eyes stayed kind. \"Tell me the truth,\" someone said.",
+        "koLittle": "냇가의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "청개구리와 어머니가 있는 옛이야기 길에서 냇가의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "청개구리와 어머니가 있는 옛이야기 길에서 냇가의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the rain-bright stream bank, with the moon high, Mother sighed, but her eyes stayed kind. \"Tell me the truth,\" someone said.",
+      "narrationScript": "청개구리와 어머니가 있는 옛이야기 길에서 냇가의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "냇가",
+          "en": "stream bank",
+          "romanization": "naetga",
+          "definitionEn": "The side of a small stream.",
+          "definitionKo": "작은 물가예요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "frog does the opposite of every request (contrary play)",
+        "emotion": "playful frustration",
+        "pageTurnHook": "Then the next part of contrary play will ask for a braver choice, and the story moves toward mother's patience.",
+        "readAloudCue": "Read with playful frustration; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold rain-bright stream bank."
+      },
+      "refrain": "Listen while love is near.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/green_frog.character_bible.json. Page 4 for 청개구리 이야기 / The Green Frog: rain-bright stream bank; specific beat: Mother sighed, but her eyes stayed kind; emotional tone: playful frustration; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/green-frog/page-004.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with playful frustration; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/green-frog/ko/page-004.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/green-frog/ambient/ambient-loop.wav",
+      "characterBible": "characters/green_frog.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_004/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_004/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_004/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_004/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_004/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_004/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "사랑이 곁에 있을 때 들어."
+    },
+    {
+      "id": "green_frog_005",
+      "pageNumber": 5,
+      "text": {
+        "enLittle": "Mother showed him how floodwater climbs after heavy rain.",
+        "enStandard": "In the muddy bank cottage, first, Mother showed him how floodwater climbs after heavy rain. \"Then walk gently,\" the elder said.",
+        "koLittle": "어머니와 반대로가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "어머니와 반대로가 있는 옛이야기 길에서 어머니와 반대로가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "어머니와 반대로가 있는 옛이야기 길에서 어머니와 반대로가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the muddy bank cottage, first, Mother showed him how floodwater climbs after heavy rain. \"Then walk gently,\" the elder said.",
+      "narrationScript": "어머니와 반대로가 있는 옛이야기 길에서 어머니와 반대로가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "mother teaches and tires (mother's patience)",
+        "emotion": "loving worry",
+        "pageTurnHook": "Then the next part of mother's patience will ask for a braver choice, and the story moves toward late promise.",
+        "readAloudCue": "Read with loving worry; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe muddy bank cottage."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/green_frog.character_bible.json. Page 5 for 청개구리 이야기 / The Green Frog: muddy bank cottage; specific beat: Mother showed him how floodwater climbs after heavy rain; emotional tone: loving worry; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/green-frog/page-005.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with loving worry; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/green-frog/ko/page-005.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/green-frog/ambient/ambient-loop.wav",
+      "characterBible": "characters/green_frog.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_005/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_005/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_005/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_005/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_005/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_005/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "green_frog_006",
+      "pageNumber": 6,
+      "text": {
+        "enLittle": "He promised to listen tomorrow.",
+        "enStandard": "In the muddy bank cottage, next, he promised to listen tomorrow, a word that kept moving away. \"I am still learning,\" the child answered.",
+        "koLittle": "냇가 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "어머니와 반대로가 있는 옛이야기 길에서 냇가 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "어머니와 반대로가 있는 옛이야기 길에서 냇가 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the muddy bank cottage, next, he promised to listen tomorrow, a word that kept moving away. \"I am still learning,\" the child answered.",
+      "narrationScript": "어머니와 반대로가 있는 옛이야기 길에서 냇가 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "mother teaches and tires (mother's patience)",
+        "emotion": "loving worry",
+        "pageTurnHook": "Then the next part of mother's patience will ask for a braver choice, and the story moves toward late promise.",
+        "readAloudCue": "Read with loving worry; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open muddy bank cottage."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/green_frog.character_bible.json. Page 6 for 청개구리 이야기 / The Green Frog: muddy bank cottage; specific beat: he promised to listen tomorrow, a word that kept moving away; emotional tone: loving worry; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/green-frog/page-006.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with loving worry; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/green-frog/ko/page-006.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/green-frog/ambient/ambient-loop.wav",
+      "characterBible": "characters/green_frog.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_006/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_006/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_006/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_006/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_006/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_006/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "green_frog_007",
+      "pageNumber": 7,
+      "text": {
+        "enLittle": "She tucked a reed umbrella over his bed.",
+        "enStandard": "In the muddy bank cottage, quietly, she tucked a reed umbrella over his bed. \"Tell me the truth,\" someone said.",
+        "koLittle": "어머니를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "어머니와 반대로가 있는 옛이야기 길에서 어머니를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "어머니와 반대로가 있는 옛이야기 길에서 어머니를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the muddy bank cottage, quietly, she tucked a reed umbrella over his bed. \"Tell me the truth,\" someone said.",
+      "narrationScript": "어머니와 반대로가 있는 옛이야기 길에서 어머니를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "mother teaches and tires (mother's patience)",
+        "emotion": "loving worry",
+        "pageTurnHook": "Then the next part of mother's patience will ask for a braver choice, and the story moves toward late promise.",
+        "readAloudCue": "Read with loving worry; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose muddy bank cottage."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/green_frog.character_bible.json. Page 7 for 청개구리 이야기 / The Green Frog: muddy bank cottage; specific beat: she tucked a reed umbrella over his bed; emotional tone: loving worry; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/green-frog/page-007.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with loving worry; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/green-frog/ko/page-007.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/green-frog/ambient/ambient-loop.wav",
+      "characterBible": "characters/green_frog.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_007/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_007/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_007/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_007/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_007/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_007/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "green_frog_008",
+      "pageNumber": 8,
+      "text": {
+        "enLittle": "Her cough was softer than the rain but heavier.",
+        "enStandard": "In the muddy bank cottage, with the moon high, her cough was softer than the rain but heavier. \"I will answer carefully,\" came the reply.",
+        "koLittle": "청개구리의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "어머니와 반대로가 있는 옛이야기 길에서 청개구리의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "어머니와 반대로가 있는 옛이야기 길에서 청개구리의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the muddy bank cottage, with the moon high, her cough was softer than the rain but heavier. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "어머니와 반대로가 있는 옛이야기 길에서 청개구리의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "mother teaches and tires (mother's patience)",
+        "emotion": "loving worry",
+        "pageTurnHook": "Then the next part of mother's patience will ask for a braver choice, and the story moves toward late promise.",
+        "readAloudCue": "Read with loving worry; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag muddy bank cottage."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/green_frog.character_bible.json. Page 8 for 청개구리 이야기 / The Green Frog: muddy bank cottage; specific beat: her cough was softer than the rain but heavier; emotional tone: loving worry; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/green-frog/page-008.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with loving worry; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/green-frog/ko/page-008.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/green-frog/ambient/ambient-loop.wav",
+      "characterBible": "characters/green_frog.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_008/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_008/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_008/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_008/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_008/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_008/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "green_frog_009",
+      "pageNumber": 9,
+      "text": {
+        "enLittle": "Mother asked to rest on the mountain.",
+        "enStandard": "In the quiet stream house, first, Mother asked to rest on the mountain, knowing he often did the opposite. \"I am still learning,\" the child answered.",
+        "koLittle": "반대로와 냇가가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "반대로와 냇가가 있는 옛이야기 길에서 반대로와 냇가가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "반대로와 냇가가 있는 옛이야기 길에서 반대로와 냇가가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the quiet stream house, first, Mother asked to rest on the mountain, knowing he often did the opposite. \"I am still learning,\" the child answered.",
+      "narrationScript": "반대로와 냇가가 있는 옛이야기 길에서 반대로와 냇가가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "청개구리",
+          "en": "green frog",
+          "romanization": "cheonggaeguri",
+          "definitionEn": "A small green frog.",
+          "definitionKo": "작은 초록 개구리예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "frog hears her final wish and misunderstands through habit (late promise)",
+        "emotion": "sudden fear",
+        "pageTurnHook": "Then the next part of late promise will ask for a braver choice, and the story moves toward rain grief.",
+        "readAloudCue": "Read with sudden fear; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap quiet stream house."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/green_frog.character_bible.json. Page 9 for 청개구리 이야기 / The Green Frog: quiet stream house; specific beat: Mother asked to rest on the mountain, knowing he often did the opposite; emotional tone: sudden fear; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/green-frog/page-009.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with sudden fear; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/green-frog/ko/page-009.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/green-frog/ambient/ambient-loop.wav",
+      "characterBible": "characters/green_frog.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_009/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_009/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_009/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_009/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_009/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_009/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "green_frog_010",
+      "pageNumber": 10,
+      "text": {
+        "enLittle": "The green frog shook because he wanted at last to obey.",
+        "enStandard": "In the quiet stream house, next, the green frog shook because he wanted at last to obey. \"Tell me the truth,\" someone said.",
+        "koLittle": "청개구리 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "반대로와 냇가가 있는 옛이야기 길에서 청개구리 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "반대로와 냇가가 있는 옛이야기 길에서 청개구리 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the quiet stream house, next, the green frog shook because he wanted at last to obey. \"Tell me the truth,\" someone said.",
+      "narrationScript": "반대로와 냇가가 있는 옛이야기 길에서 청개구리 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "어머니",
+          "en": "mother",
+          "romanization": "eomeoni",
+          "definitionEn": "The frog's loving parent.",
+          "definitionKo": "개구리의 다정한 부모예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "frog hears her final wish and misunderstands through habit (late promise)",
+        "emotion": "sudden fear",
+        "pageTurnHook": "Then the next part of late promise will ask for a braver choice, and the story moves toward rain grief.",
+        "readAloudCue": "Read with sudden fear; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace quiet stream house."
+      },
+      "refrain": "Listen while love is near.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/green_frog.character_bible.json. Page 10 for 청개구리 이야기 / The Green Frog: quiet stream house; specific beat: the green frog shook because he wanted at last to obey; emotional tone: sudden fear; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/green-frog/page-010.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with sudden fear; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/green-frog/ko/page-010.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/green-frog/ambient/ambient-loop.wav",
+      "characterBible": "characters/green_frog.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_010/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_010/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_010/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_010/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_010/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_010/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "사랑이 곁에 있을 때 들어."
+    },
+    {
+      "id": "green_frog_011",
+      "pageNumber": 11,
+      "text": {
+        "enLittle": "He chose the stream bank.",
+        "enStandard": "In the quiet stream house, quietly, he chose the stream bank, thinking obedience could repair every earlier no. \"I will answer carefully,\" came the reply.",
+        "koLittle": "반대로를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "반대로와 냇가가 있는 옛이야기 길에서 반대로를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "반대로와 냇가가 있는 옛이야기 길에서 반대로를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the quiet stream house, quietly, he chose the stream bank, thinking obedience could repair every earlier no. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "반대로와 냇가가 있는 옛이야기 길에서 반대로를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "청개구리",
+          "en": "green frog",
+          "romanization": "cheonggaeguri",
+          "definitionEn": "A small green frog.",
+          "definitionKo": "작은 초록 개구리예요."
+        },
+        {
+          "ko": "반대로",
+          "en": "opposite",
+          "romanization": "bandaero",
+          "definitionEn": "Doing the reverse of what was asked.",
+          "definitionKo": "부탁받은 것과 거꾸로 하는 일이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "frog hears her final wish and misunderstands through habit (late promise)",
+        "emotion": "sudden fear",
+        "pageTurnHook": "Then the next part of late promise will ask for a braver choice, and the story moves toward rain grief.",
+        "readAloudCue": "Read with sudden fear; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count quiet stream house."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/green_frog.character_bible.json. Page 11 for 청개구리 이야기 / The Green Frog: quiet stream house; specific beat: he chose the stream bank, thinking obedience could repair every earlier no; emotional tone: sudden fear; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/green-frog/page-011.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with sudden fear; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/green-frog/ko/page-011.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/green-frog/ambient/ambient-loop.wav",
+      "characterBible": "characters/green_frog.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_011/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_011/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_011/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_011/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_011/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_011/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "green_frog_012",
+      "pageNumber": 12,
+      "text": {
+        "enLittle": "Rain began before he finished smoothing the mud.",
+        "enStandard": "In the quiet stream house, with the moon high, rain began before he finished smoothing the mud. \"Then walk gently,\" the elder said.",
+        "koLittle": "어머니의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "반대로와 냇가가 있는 옛이야기 길에서 어머니의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "반대로와 냇가가 있는 옛이야기 길에서 어머니의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the quiet stream house, with the moon high, rain began before he finished smoothing the mud. \"Then walk gently,\" the elder said.",
+      "narrationScript": "반대로와 냇가가 있는 옛이야기 길에서 어머니의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "어머니",
+          "en": "mother",
+          "romanization": "eomeoni",
+          "definitionEn": "The frog's loving parent.",
+          "definitionKo": "개구리의 다정한 부모예요."
+        },
+        {
+          "ko": "냇가",
+          "en": "stream bank",
+          "romanization": "naetga",
+          "definitionEn": "The side of a small stream.",
+          "definitionKo": "작은 물가예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "frog hears her final wish and misunderstands through habit (late promise)",
+        "emotion": "sudden fear",
+        "pageTurnHook": "Then the next part of late promise will ask for a braver choice, and the story moves toward rain grief.",
+        "readAloudCue": "Read with sudden fear; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold quiet stream house."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/green_frog.character_bible.json. Page 12 for 청개구리 이야기 / The Green Frog: quiet stream house; specific beat: rain began before he finished smoothing the mud; emotional tone: sudden fear; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/green-frog/page-012.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with sudden fear; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/green-frog/ko/page-012.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/green-frog/ambient/ambient-loop.wav",
+      "characterBible": "characters/green_frog.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_012/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_012/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_012/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_012/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_012/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_012/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "green_frog_013",
+      "pageNumber": 13,
+      "text": {
+        "enLittle": "Each storm made him press both feet into the bank.",
+        "enStandard": "In the swollen stream, first, each storm made him press both feet into the bank. \"Tell me the truth,\" someone said.",
+        "koLittle": "냇가와 청개구리가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "냇가와 청개구리가 있는 옛이야기 길에서 냇가와 청개구리가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "냇가와 청개구리가 있는 옛이야기 길에서 냇가와 청개구리가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the swollen stream, first, each storm made him press both feet into the bank. \"Tell me the truth,\" someone said.",
+      "narrationScript": "냇가와 청개구리가 있는 옛이야기 길에서 냇가와 청개구리가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "반대로",
+          "en": "opposite",
+          "romanization": "bandaero",
+          "definitionEn": "Doing the reverse of what was asked.",
+          "definitionKo": "부탁받은 것과 거꾸로 하는 일이에요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "frog worries the stream will wash the grave (rain grief)",
+        "emotion": "gentle sorrow",
+        "pageTurnHook": "Then the next part of rain grief will ask for a braver choice, and the story moves toward learning to listen.",
+        "readAloudCue": "Read with gentle sorrow; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe swollen stream."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/green_frog.character_bible.json. Page 13 for 청개구리 이야기 / The Green Frog: swollen stream; specific beat: each storm made him press both feet into the bank; emotional tone: gentle sorrow; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/green-frog/page-013.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with gentle sorrow; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/green-frog/ko/page-013.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/green-frog/ambient/ambient-loop.wav",
+      "characterBible": "characters/green_frog.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_013/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_013/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_013/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_013/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_013/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_013/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "green_frog_014",
+      "pageNumber": 14,
+      "text": {
+        "enLittle": "He croaked not to be contrary but because love sounded worried.",
+        "enStandard": "In the swollen stream, next, he croaked not to be contrary but because love sounded worried. \"I will answer carefully,\" came the reply.",
+        "koLittle": "어머니 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "냇가와 청개구리가 있는 옛이야기 길에서 어머니 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "냇가와 청개구리가 있는 옛이야기 길에서 어머니 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the swollen stream, next, he croaked not to be contrary but because love sounded worried. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "냇가와 청개구리가 있는 옛이야기 길에서 어머니 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "냇가",
+          "en": "stream bank",
+          "romanization": "naetga",
+          "definitionEn": "The side of a small stream.",
+          "definitionKo": "작은 물가예요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "frog worries the stream will wash the grave (rain grief)",
+        "emotion": "gentle sorrow",
+        "pageTurnHook": "Then the next part of rain grief will ask for a braver choice, and the story moves toward learning to listen.",
+        "readAloudCue": "Read with gentle sorrow; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open swollen stream."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/green_frog.character_bible.json. Page 14 for 청개구리 이야기 / The Green Frog: swollen stream; specific beat: he croaked not to be contrary but because love sounded worried; emotional tone: gentle sorrow; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/green-frog/page-014.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with gentle sorrow; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/green-frog/ko/page-014.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/green-frog/ambient/ambient-loop.wav",
+      "characterBible": "characters/green_frog.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_014/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_014/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_014/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_014/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_014/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_014/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "green_frog_015",
+      "pageNumber": 15,
+      "text": {
+        "enLittle": "The water tugged at reeds and he held them back with tiny hands.",
+        "enStandard": "In the swollen stream, quietly, the water tugged at reeds and he held them back with tiny hands. \"Then walk gently,\" the elder said.",
+        "koLittle": "냇가를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "냇가와 청개구리가 있는 옛이야기 길에서 냇가를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "냇가와 청개구리가 있는 옛이야기 길에서 냇가를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the swollen stream, quietly, the water tugged at reeds and he held them back with tiny hands. \"Then walk gently,\" the elder said.",
+      "narrationScript": "냇가와 청개구리가 있는 옛이야기 길에서 냇가를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "frog worries the stream will wash the grave (rain grief)",
+        "emotion": "gentle sorrow",
+        "pageTurnHook": "Then the next part of rain grief will ask for a braver choice, and the story moves toward learning to listen.",
+        "readAloudCue": "Read with gentle sorrow; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose swollen stream."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/green_frog.character_bible.json. Page 15 for 청개구리 이야기 / The Green Frog: swollen stream; specific beat: the water tugged at reeds and he held them back with tiny hands; emotional tone: gentle sorrow; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/green-frog/page-015.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with gentle sorrow; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/green-frog/ko/page-015.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/green-frog/ambient/ambient-loop.wav",
+      "characterBible": "characters/green_frog.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_015/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_015/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_015/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_015/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_015/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_015/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "green_frog_016",
+      "pageNumber": 16,
+      "text": {
+        "enLittle": "Children in the village learned why frogs call when rain comes.",
+        "enStandard": "In the swollen stream, with the moon high, children in the village learned why frogs call when rain comes. \"I am still learning,\" the child answered.",
+        "koLittle": "반대로의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "냇가와 청개구리가 있는 옛이야기 길에서 반대로의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "냇가와 청개구리가 있는 옛이야기 길에서 반대로의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the swollen stream, with the moon high, children in the village learned why frogs call when rain comes. \"I am still learning,\" the child answered.",
+      "narrationScript": "냇가와 청개구리가 있는 옛이야기 길에서 반대로의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "frog worries the stream will wash the grave (rain grief)",
+        "emotion": "gentle sorrow",
+        "pageTurnHook": "Then the next part of rain grief will ask for a braver choice, and the story moves toward learning to listen.",
+        "readAloudCue": "Read with gentle sorrow; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag swollen stream."
+      },
+      "refrain": "Listen while love is near.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/green_frog.character_bible.json. Page 16 for 청개구리 이야기 / The Green Frog: swollen stream; specific beat: children in the village learned why frogs call when rain comes; emotional tone: gentle sorrow; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/green-frog/page-016.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with gentle sorrow; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/green-frog/ko/page-016.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/green-frog/ambient/ambient-loop.wav",
+      "characterBible": "characters/green_frog.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_016/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_016/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_016/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_016/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_016/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_016/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "사랑이 곁에 있을 때 들어."
+    },
+    {
+      "id": "green_frog_017",
+      "pageNumber": 17,
+      "text": {
+        "enLittle": "He listened to wind before hopping.",
+        "enStandard": "In the after-rain reeds, first, he listened to wind before hopping. \"I will answer carefully,\" came the reply.",
+        "koLittle": "청개구리와 어머니가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "청개구리와 어머니가 있는 옛이야기 길에서 청개구리와 어머니가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "청개구리와 어머니가 있는 옛이야기 길에서 청개구리와 어머니가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the after-rain reeds, first, he listened to wind before hopping. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "청개구리와 어머니가 있는 옛이야기 길에서 청개구리와 어머니가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "frog practices listening through memory (learning to listen)",
+        "emotion": "wistful care",
+        "pageTurnHook": "Then the next part of learning to listen will ask for a braver choice, and the story moves toward remembered mother.",
+        "readAloudCue": "Read with wistful care; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap after-rain reeds."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/green_frog.character_bible.json. Page 17 for 청개구리 이야기 / The Green Frog: after-rain reeds; specific beat: he listened to wind before hopping; emotional tone: wistful care; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/green-frog/page-017.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with wistful care; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/green-frog/ko/page-017.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/green-frog/ambient/ambient-loop.wav",
+      "characterBible": "characters/green_frog.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_017/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_017/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_017/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_017/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_017/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_017/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "green_frog_018",
+      "pageNumber": 18,
+      "text": {
+        "enLittle": "He cleaned the reed umbrella and set it by the stream.",
+        "enStandard": "In the after-rain reeds, next, he cleaned the reed umbrella and set it by the stream. \"Then walk gently,\" the elder said.",
+        "koLittle": "반대로 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "청개구리와 어머니가 있는 옛이야기 길에서 반대로 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "청개구리와 어머니가 있는 옛이야기 길에서 반대로 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the after-rain reeds, next, he cleaned the reed umbrella and set it by the stream. \"Then walk gently,\" the elder said.",
+      "narrationScript": "청개구리와 어머니가 있는 옛이야기 길에서 반대로 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "frog practices listening through memory (learning to listen)",
+        "emotion": "wistful care",
+        "pageTurnHook": "Then the next part of learning to listen will ask for a braver choice, and the story moves toward remembered mother.",
+        "readAloudCue": "Read with wistful care; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace after-rain reeds."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/green_frog.character_bible.json. Page 18 for 청개구리 이야기 / The Green Frog: after-rain reeds; specific beat: he cleaned the reed umbrella and set it by the stream; emotional tone: wistful care; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/green-frog/page-018.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with wistful care; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/green-frog/ko/page-018.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/green-frog/ambient/ambient-loop.wav",
+      "characterBible": "characters/green_frog.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_018/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_018/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_018/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_018/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_018/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_018/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "green_frog_019",
+      "pageNumber": 19,
+      "text": {
+        "enLittle": "When young tadpoles teased.",
+        "enStandard": "In the after-rain reeds, quietly, when young tadpoles teased, he answered gently. \"I am still learning,\" the child answered.",
+        "koLittle": "청개구리를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "청개구리와 어머니가 있는 옛이야기 길에서 청개구리를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "청개구리와 어머니가 있는 옛이야기 길에서 청개구리를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the after-rain reeds, quietly, when young tadpoles teased, he answered gently. \"I am still learning,\" the child answered.",
+      "narrationScript": "청개구리와 어머니가 있는 옛이야기 길에서 청개구리를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "청개구리",
+          "en": "green frog",
+          "romanization": "cheonggaeguri",
+          "definitionEn": "A small green frog.",
+          "definitionKo": "작은 초록 개구리예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "frog practices listening through memory (learning to listen)",
+        "emotion": "wistful care",
+        "pageTurnHook": "Then the next part of learning to listen will ask for a braver choice, and the story moves toward remembered mother.",
+        "readAloudCue": "Read with wistful care; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count after-rain reeds."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/green_frog.character_bible.json. Page 19 for 청개구리 이야기 / The Green Frog: after-rain reeds; specific beat: when young tadpoles teased, he answered gently; emotional tone: wistful care; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/green-frog/page-019.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with wistful care; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/green-frog/ko/page-019.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/green-frog/ambient/ambient-loop.wav",
+      "characterBible": "characters/green_frog.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_019/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_019/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_019/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_019/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_019/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_019/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "green_frog_020",
+      "pageNumber": 20,
+      "text": {
+        "enLittle": "He heard his mother's lessons in every drop.",
+        "enStandard": "In the after-rain reeds, with the moon high, he heard his mother's lessons in every drop. \"Tell me the truth,\" someone said.",
+        "koLittle": "냇가의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "청개구리와 어머니가 있는 옛이야기 길에서 냇가의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "청개구리와 어머니가 있는 옛이야기 길에서 냇가의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the after-rain reeds, with the moon high, he heard his mother's lessons in every drop. \"Tell me the truth,\" someone said.",
+      "narrationScript": "청개구리와 어머니가 있는 옛이야기 길에서 냇가의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "어머니",
+          "en": "mother",
+          "romanization": "eomeoni",
+          "definitionEn": "The frog's loving parent.",
+          "definitionKo": "개구리의 다정한 부모예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "frog practices listening through memory (learning to listen)",
+        "emotion": "wistful care",
+        "pageTurnHook": "Then the next part of learning to listen will ask for a braver choice, and the story moves toward remembered mother.",
+        "readAloudCue": "Read with wistful care; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold after-rain reeds."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/green_frog.character_bible.json. Page 20 for 청개구리 이야기 / The Green Frog: after-rain reeds; specific beat: he heard his mother's lessons in every drop; emotional tone: wistful care; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/green-frog/page-020.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with wistful care; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/green-frog/ko/page-020.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/green-frog/ambient/ambient-loop.wav",
+      "characterBible": "characters/green_frog.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_020/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_020/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_020/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_020/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_020/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_020/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "green_frog_021",
+      "pageNumber": 21,
+      "text": {
+        "enLittle": "The bank held firm through a long night of rain.",
+        "enStandard": "In the stream at dawn, first, the bank held firm through a long night of rain. \"Then walk gently,\" the elder said.",
+        "koLittle": "어머니와 반대로가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "어머니와 반대로가 있는 옛이야기 길에서 어머니와 반대로가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "어머니와 반대로가 있는 옛이야기 길에서 어머니와 반대로가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the stream at dawn, first, the bank held firm through a long night of rain. \"Then walk gently,\" the elder said.",
+      "narrationScript": "어머니와 반대로가 있는 옛이야기 길에서 어머니와 반대로가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "청개구리",
+          "en": "green frog",
+          "romanization": "cheonggaeguri",
+          "definitionEn": "A small green frog.",
+          "definitionKo": "작은 초록 개구리예요."
+        },
+        {
+          "ko": "반대로",
+          "en": "opposite",
+          "romanization": "bandaero",
+          "definitionEn": "Doing the reverse of what was asked.",
+          "definitionKo": "부탁받은 것과 거꾸로 하는 일이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve with love and rain memory (remembered mother)",
+        "emotion": "soft acceptance",
+        "pageTurnHook": "Then the next part of remembered mother will ask for a braver choice, and the story moves toward remembered mother.",
+        "readAloudCue": "Read with soft acceptance; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe stream at dawn."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/green_frog.character_bible.json. Page 21 for 청개구리 이야기 / The Green Frog: stream at dawn; specific beat: the bank held firm through a long night of rain; emotional tone: soft acceptance; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/green-frog/page-021.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with soft acceptance; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/green-frog/ko/page-021.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/green-frog/ambient/ambient-loop.wav",
+      "characterBible": "characters/green_frog.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_021/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_021/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_021/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_021/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_021/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_021/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "green_frog_022",
+      "pageNumber": 22,
+      "text": {
+        "enLittle": "The green frog thanked the reeds.",
+        "enStandard": "In the stream at dawn, next, the green frog thanked the reeds, the mud, and his mother. \"I am still learning,\" the child answered.",
+        "koLittle": "냇가 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "어머니와 반대로가 있는 옛이야기 길에서 냇가 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "어머니와 반대로가 있는 옛이야기 길에서 냇가 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the stream at dawn, next, the green frog thanked the reeds, the mud, and his mother. \"I am still learning,\" the child answered.",
+      "narrationScript": "어머니와 반대로가 있는 옛이야기 길에서 냇가 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "어머니",
+          "en": "mother",
+          "romanization": "eomeoni",
+          "definitionEn": "The frog's loving parent.",
+          "definitionKo": "개구리의 다정한 부모예요."
+        },
+        {
+          "ko": "냇가",
+          "en": "stream bank",
+          "romanization": "naetga",
+          "definitionEn": "The side of a small stream.",
+          "definitionKo": "작은 물가예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve with love and rain memory (remembered mother)",
+        "emotion": "soft acceptance",
+        "pageTurnHook": "Then the next part of remembered mother will ask for a braver choice, and the story moves toward remembered mother.",
+        "readAloudCue": "Read with soft acceptance; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open stream at dawn."
+      },
+      "refrain": "Listen while love is near.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/green_frog.character_bible.json. Page 22 for 청개구리 이야기 / The Green Frog: stream at dawn; specific beat: the green frog thanked the reeds, the mud, and his mother; emotional tone: soft acceptance; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/green-frog/page-022.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with soft acceptance; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/green-frog/ko/page-022.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/green-frog/ambient/ambient-loop.wav",
+      "characterBible": "characters/green_frog.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_022/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_022/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_022/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_022/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_022/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_022/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "사랑이 곁에 있을 때 들어."
+    },
+    {
+      "id": "green_frog_023",
+      "pageNumber": 23,
+      "text": {
+        "enLittle": "His croak rose like a promise instead of panic.",
+        "enStandard": "In the stream at dawn, quietly, his croak rose like a promise instead of panic. \"Tell me the truth,\" someone said.",
+        "koLittle": "어머니를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "어머니와 반대로가 있는 옛이야기 길에서 어머니를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "어머니와 반대로가 있는 옛이야기 길에서 어머니를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the stream at dawn, quietly, his croak rose like a promise instead of panic. \"Tell me the truth,\" someone said.",
+      "narrationScript": "어머니와 반대로가 있는 옛이야기 길에서 어머니를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "반대로",
+          "en": "opposite",
+          "romanization": "bandaero",
+          "definitionEn": "Doing the reverse of what was asked.",
+          "definitionKo": "부탁받은 것과 거꾸로 하는 일이에요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve with love and rain memory (remembered mother)",
+        "emotion": "soft acceptance",
+        "pageTurnHook": "Then the next part of remembered mother will ask for a braver choice, and the story moves toward remembered mother.",
+        "readAloudCue": "Read with soft acceptance; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose stream at dawn."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/green_frog.character_bible.json. Page 23 for 청개구리 이야기 / The Green Frog: stream at dawn; specific beat: his croak rose like a promise instead of panic; emotional tone: soft acceptance; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/green-frog/page-023.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with soft acceptance; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/green-frog/ko/page-023.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/green-frog/ambient/ambient-loop.wav",
+      "characterBible": "characters/green_frog.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_023/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_023/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_023/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_023/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_023/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_023/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "green_frog_024",
+      "pageNumber": 24,
+      "text": {
+        "enLittle": "Rain still made him sad.",
+        "enStandard": "In the stream at dawn, with the moon high, rain still made him sad, but sadness had learned how to love. \"I will answer carefully,\" came the reply.",
+        "koLittle": "청개구리의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "어머니와 반대로가 있는 옛이야기 길에서 청개구리의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "어머니와 반대로가 있는 옛이야기 길에서 청개구리의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the stream at dawn, with the moon high, rain still made him sad, but sadness had learned how to love. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "어머니와 반대로가 있는 옛이야기 길에서 청개구리의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "냇가",
+          "en": "stream bank",
+          "romanization": "naetga",
+          "definitionEn": "The side of a small stream.",
+          "definitionKo": "작은 물가예요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve with love and rain memory (remembered mother)",
+        "emotion": "soft acceptance",
+        "pageTurnHook": "Then the next part of remembered mother will ask for a braver choice, and the story moves toward remembered mother.",
+        "readAloudCue": "Read with soft acceptance; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag stream at dawn."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/green_frog.character_bible.json. Page 24 for 청개구리 이야기 / The Green Frog: stream at dawn; specific beat: rain still made him sad, but sadness had learned how to love; emotional tone: soft acceptance; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/green-frog/page-024.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with soft acceptance; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/green-frog/ko/page-024.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/green-frog/ambient/ambient-loop.wav",
+      "characterBible": "characters/green_frog.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_024/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_024/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_024/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_024/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_024/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/green-frog/green_frog_024/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    }
+  ]
+}

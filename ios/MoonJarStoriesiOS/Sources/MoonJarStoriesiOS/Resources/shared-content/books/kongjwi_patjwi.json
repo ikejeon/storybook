@@ -1,0 +1,3283 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "book.kongjwi_patjwi",
+  "slug": "kongjwi-and-patjwi",
+  "title": {
+    "ko": "콩쥐팥쥐",
+    "en": "Kongjwi and Patjwi"
+  },
+  "access": "premium",
+  "ageRange": "5-8",
+  "estimatedMinutes": 11,
+  "summary": "Kongjwi endures unfair chores from Patjwi and her stepmother, receives help from a frog and other gentle beings, and the lotus shoe helps reveal the truth.",
+  "coverAsset": "assets/books/kongjwi-and-patjwi/cover.png",
+  "coverAssetStatus": "placeholder",
+  "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+  "narrationAudioStatus": "synthetic_draft",
+  "adaptationVersions": {
+    "default": "English-first bilingual semantic-authenticity repair draft",
+    "plannedAlternate": "External editor pass after children’s editorial and Korean-language review",
+    "note": "Generated repo-local repair draft; not external human final."
+  },
+  "sensitivityNotes": [
+    "Bullying is softened but not erased; Kongjwi's dignity and helper community stay central.",
+    "Repaired by repo-local semantic authenticity pass; external children’s editor, Korean-language, cultural, and child-safety review remain required before final release."
+  ],
+  "themes": [
+    "kindness",
+    "resilience",
+    "fairness",
+    "helpers",
+    "truth"
+  ],
+  "characters": [
+    "kongjwi",
+    "patjwi",
+    "helper_frog",
+    "courtyard"
+  ],
+  "pages": [
+    {
+      "id": "kongjwi_patjwi_001",
+      "pageNumber": 1,
+      "text": {
+        "enLittle": "Kongjwi swept the courtyard while patjwi counted persimmons from the shade.",
+        "enStandard": "In the hanok courtyard, first, Kongjwi swept the courtyard while Patjwi counted persimmons from the shade. \"I will answer carefully,\" came the reply.",
+        "koLittle": "콩쥐와 팥쥐가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "콩쥐와 팥쥐가 있는 옛이야기 길에서 콩쥐와 팥쥐가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "콩쥐와 팥쥐가 있는 옛이야기 길에서 콩쥐와 팥쥐가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the hanok courtyard, first, Kongjwi swept the courtyard while Patjwi counted persimmons from the shade. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "콩쥐와 팥쥐가 있는 옛이야기 길에서 콩쥐와 팥쥐가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "콩쥐",
+          "en": "Kongjwi",
+          "romanization": "Kongjwi",
+          "definitionEn": "The kind girl at the center of the tale.",
+          "definitionKo": "이야기 속 착하고 단단한 아이예요."
+        },
+        {
+          "ko": "계모",
+          "en": "stepmother",
+          "romanization": "gyemo",
+          "definitionEn": "The stepmother who gives hard chores.",
+          "definitionKo": "어려운 일을 시키는 새어머니예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Kongjwi faces unfair chores (unfair chores)",
+        "emotion": "lonely resilience",
+        "pageTurnHook": "Then the next part of unfair chores will ask for a braver choice, and the story moves toward helper frog.",
+        "readAloudCue": "Read with lonely resilience; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap hanok courtyard."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 1 for 콩쥐팥쥐 / Kongjwi and Patjwi: hanok courtyard; specific beat: Kongjwi swept the courtyard while Patjwi counted persimmons from the shade; emotional tone: lonely resilience; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-001.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with lonely resilience; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-001.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_001/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_001/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_001/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_001/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_001/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_001/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kongjwi_patjwi_002",
+      "pageNumber": 2,
+      "text": {
+        "enLittle": "The stepmother poured a jar of cracked rice and called it one small chore.",
+        "enStandard": "In the hanok courtyard, next, the stepmother poured a jar of cracked rice and called it one small chore. \"Then walk gently,\" the elder said.",
+        "koLittle": "계모 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "콩쥐와 팥쥐가 있는 옛이야기 길에서 계모 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "콩쥐와 팥쥐가 있는 옛이야기 길에서 계모 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the hanok courtyard, next, the stepmother poured a jar of cracked rice and called it one small chore. \"Then walk gently,\" the elder said.",
+      "narrationScript": "콩쥐와 팥쥐가 있는 옛이야기 길에서 계모 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "팥쥐",
+          "en": "Patjwi",
+          "romanization": "Patjwi",
+          "definitionEn": "The stepsister who acts unfairly.",
+          "definitionKo": "콩쥐에게 공정하지 않게 구는 의붓자매예요."
+        },
+        {
+          "ko": "두꺼비",
+          "en": "frog",
+          "romanization": "dukkeobi",
+          "definitionEn": "A small helper in the tale.",
+          "definitionKo": "이야기에서 도와주는 작은 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Kongjwi faces unfair chores (unfair chores)",
+        "emotion": "lonely resilience",
+        "pageTurnHook": "Then the next part of unfair chores will ask for a braver choice, and the story moves toward helper frog.",
+        "readAloudCue": "Read with lonely resilience; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace hanok courtyard."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 2 for 콩쥐팥쥐 / Kongjwi and Patjwi: hanok courtyard; specific beat: the stepmother poured a jar of cracked rice and called it one small chore; emotional tone: lonely resilience; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-002.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with lonely resilience; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-002.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_002/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_002/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_002/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_002/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_002/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_002/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kongjwi_patjwi_003",
+      "pageNumber": 3,
+      "text": {
+        "enLittle": "Kongjwi's hands reddened.",
+        "enStandard": "In the hanok courtyard, quietly, Kongjwi's hands reddened, but she kept her voice steady. \"I am still learning,\" the child answered.",
+        "koLittle": "연꽃 신를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "콩쥐와 팥쥐가 있는 옛이야기 길에서 연꽃 신를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "콩쥐와 팥쥐가 있는 옛이야기 길에서 연꽃 신를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the hanok courtyard, quietly, Kongjwi's hands reddened, but she kept her voice steady. \"I am still learning,\" the child answered.",
+      "narrationScript": "콩쥐와 팥쥐가 있는 옛이야기 길에서 연꽃 신를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "계모",
+          "en": "stepmother",
+          "romanization": "gyemo",
+          "definitionEn": "The stepmother who gives hard chores.",
+          "definitionKo": "어려운 일을 시키는 새어머니예요."
+        },
+        {
+          "ko": "연꽃 신",
+          "en": "lotus shoe",
+          "romanization": "yeonkkot sin",
+          "definitionEn": "A beautiful shoe that helps reveal truth.",
+          "definitionKo": "진실을 드러내는 아름다운 신이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Kongjwi faces unfair chores (unfair chores)",
+        "emotion": "lonely resilience",
+        "pageTurnHook": "Then the next part of unfair chores will ask for a braver choice, and the story moves toward helper frog.",
+        "readAloudCue": "Read with lonely resilience; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count hanok courtyard."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 3 for 콩쥐팥쥐 / Kongjwi and Patjwi: hanok courtyard; specific beat: Kongjwi's hands reddened, but she kept her voice steady; emotional tone: lonely resilience; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-003.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with lonely resilience; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-003.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_003/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_003/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_003/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_003/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_003/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_003/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kongjwi_patjwi_004",
+      "pageNumber": 4,
+      "text": {
+        "enLittle": "A moon jar in the corner reflected how alone she felt.",
+        "enStandard": "In the hanok courtyard, with the moon high, a moon jar in the corner reflected how alone she felt. \"Tell me the truth,\" someone said.",
+        "koLittle": "두꺼비의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "콩쥐와 팥쥐가 있는 옛이야기 길에서 두꺼비의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "콩쥐와 팥쥐가 있는 옛이야기 길에서 두꺼비의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the hanok courtyard, with the moon high, a moon jar in the corner reflected how alone she felt. \"Tell me the truth,\" someone said.",
+      "narrationScript": "콩쥐와 팥쥐가 있는 옛이야기 길에서 두꺼비의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "두꺼비",
+          "en": "frog",
+          "romanization": "dukkeobi",
+          "definitionEn": "A small helper in the tale.",
+          "definitionKo": "이야기에서 도와주는 작은 동물이에요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Kongjwi faces unfair chores (unfair chores)",
+        "emotion": "lonely resilience",
+        "pageTurnHook": "Then the next part of unfair chores will ask for a braver choice, and the story moves toward helper frog.",
+        "readAloudCue": "Read with lonely resilience; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold hanok courtyard."
+      },
+      "refrain": "Small helpers, steady heart.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 4 for 콩쥐팥쥐 / Kongjwi and Patjwi: hanok courtyard; specific beat: a moon jar in the corner reflected how alone she felt; emotional tone: lonely resilience; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-004.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with lonely resilience; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-004.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_004/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_004/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_004/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_004/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_004/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_004/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "작은 도움, 단단한 마음."
+    },
+    {
+      "id": "kongjwi_patjwi_005",
+      "pageNumber": 5,
+      "text": {
+        "enLittle": "Kongjwi swept the courtyard while patjwi counted persimmons from the shade.",
+        "enStandard": "In the hanok courtyard, before dawn, Kongjwi swept the courtyard while Patjwi counted persimmons from the shade. \"I will answer carefully,\" came the reply.",
+        "koLittle": "연꽃 신와 콩쥐가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "콩쥐와 팥쥐가 있는 옛이야기 길에서 연꽃 신와 콩쥐가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "콩쥐와 팥쥐가 있는 옛이야기 길에서 연꽃 신와 콩쥐가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the hanok courtyard, before dawn, Kongjwi swept the courtyard while Patjwi counted persimmons from the shade. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "콩쥐와 팥쥐가 있는 옛이야기 길에서 연꽃 신와 콩쥐가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "연꽃 신",
+          "en": "lotus shoe",
+          "romanization": "yeonkkot sin",
+          "definitionEn": "A beautiful shoe that helps reveal truth.",
+          "definitionKo": "진실을 드러내는 아름다운 신이에요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Kongjwi faces unfair chores (unfair chores)",
+        "emotion": "lonely resilience",
+        "pageTurnHook": "Then the next part of unfair chores will ask for a braver choice, and the story moves toward helper frog.",
+        "readAloudCue": "Read with lonely resilience; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe hanok courtyard."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 5 for 콩쥐팥쥐 / Kongjwi and Patjwi: hanok courtyard; specific beat: Kongjwi swept the courtyard while Patjwi counted persimmons from the shade; emotional tone: lonely resilience; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-005.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with lonely resilience; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-005.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_005/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_005/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_005/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_005/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_005/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_005/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kongjwi_patjwi_006",
+      "pageNumber": 6,
+      "text": {
+        "enLittle": "The stepmother poured a jar of cracked rice and called it one small chore.",
+        "enStandard": "In the hanok courtyard, after a pause, the stepmother poured a jar of cracked rice and called it one small chore. \"Then walk gently,\" the elder said.",
+        "koLittle": "팥쥐 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "콩쥐와 팥쥐가 있는 옛이야기 길에서 팥쥐 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "콩쥐와 팥쥐가 있는 옛이야기 길에서 팥쥐 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the hanok courtyard, after a pause, the stepmother poured a jar of cracked rice and called it one small chore. \"Then walk gently,\" the elder said.",
+      "narrationScript": "콩쥐와 팥쥐가 있는 옛이야기 길에서 팥쥐 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Kongjwi faces unfair chores (unfair chores)",
+        "emotion": "lonely resilience",
+        "pageTurnHook": "Then the next part of unfair chores will ask for a braver choice, and the story moves toward helper frog.",
+        "readAloudCue": "Read with lonely resilience; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open hanok courtyard."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 6 for 콩쥐팥쥐 / Kongjwi and Patjwi: hanok courtyard; specific beat: the stepmother poured a jar of cracked rice and called it one small chore; emotional tone: lonely resilience; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-006.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with lonely resilience; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-006.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_006/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_006/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_006/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_006/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_006/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_006/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kongjwi_patjwi_007",
+      "pageNumber": 7,
+      "text": {
+        "enLittle": "A frog climbed from the well and plugged a leaking jar with its round body.",
+        "enStandard": "In the well and field, first, a frog climbed from the well and plugged a leaking jar with its round body. \"Tell me the truth,\" someone said.",
+        "koLittle": "팥쥐와 계모가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "팥쥐와 계모가 있는 옛이야기 길에서 팥쥐와 계모가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "팥쥐와 계모가 있는 옛이야기 길에서 팥쥐와 계모가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the well and field, first, a frog climbed from the well and plugged a leaking jar with its round body. \"Tell me the truth,\" someone said.",
+      "narrationScript": "팥쥐와 계모가 있는 옛이야기 길에서 팥쥐와 계모가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "a frog and small helpers answer kindness (helper frog)",
+        "emotion": "surprised hope",
+        "pageTurnHook": "Then the next part of helper frog will ask for a braver choice, and the story moves toward festival longing.",
+        "readAloudCue": "Read with surprised hope; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose well and field."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 7 for 콩쥐팥쥐 / Kongjwi and Patjwi: well and field; specific beat: a frog climbed from the well and plugged a leaking jar with its round body; emotional tone: surprised hope; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-007.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with surprised hope; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-007.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_007/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_007/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_007/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_007/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_007/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_007/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kongjwi_patjwi_008",
+      "pageNumber": 8,
+      "text": {
+        "enLittle": "Sparrows sorted rice grains faster than fingers could move.",
+        "enStandard": "In the well and field, next, sparrows sorted rice grains faster than fingers could move. \"I will answer carefully,\" came the reply.",
+        "koLittle": "두꺼비 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "팥쥐와 계모가 있는 옛이야기 길에서 두꺼비 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "팥쥐와 계모가 있는 옛이야기 길에서 두꺼비 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the well and field, next, sparrows sorted rice grains faster than fingers could move. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "팥쥐와 계모가 있는 옛이야기 길에서 두꺼비 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "a frog and small helpers answer kindness (helper frog)",
+        "emotion": "surprised hope",
+        "pageTurnHook": "Then the next part of helper frog will ask for a braver choice, and the story moves toward festival longing.",
+        "readAloudCue": "Read with surprised hope; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag well and field."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 8 for 콩쥐팥쥐 / Kongjwi and Patjwi: well and field; specific beat: sparrows sorted rice grains faster than fingers could move; emotional tone: surprised hope; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-008.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with surprised hope; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-008.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_008/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_008/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_008/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_008/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_008/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_008/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kongjwi_patjwi_009",
+      "pageNumber": 9,
+      "text": {
+        "enLittle": "An old cow lowered its head as if it had known the work was unfair.",
+        "enStandard": "In the well and field, quietly, an old cow lowered its head as if it had known the work was unfair. \"Then walk gently,\" the elder said.",
+        "koLittle": "콩쥐를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "팥쥐와 계모가 있는 옛이야기 길에서 콩쥐를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "팥쥐와 계모가 있는 옛이야기 길에서 콩쥐를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the well and field, quietly, an old cow lowered its head as if it had known the work was unfair. \"Then walk gently,\" the elder said.",
+      "narrationScript": "팥쥐와 계모가 있는 옛이야기 길에서 콩쥐를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "a frog and small helpers answer kindness (helper frog)",
+        "emotion": "surprised hope",
+        "pageTurnHook": "Then the next part of helper frog will ask for a braver choice, and the story moves toward festival longing.",
+        "readAloudCue": "Read with surprised hope; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap well and field."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 9 for 콩쥐팥쥐 / Kongjwi and Patjwi: well and field; specific beat: an old cow lowered its head as if it had known the work was unfair; emotional tone: surprised hope; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-009.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with surprised hope; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-009.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_009/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_009/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_009/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_009/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_009/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_009/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kongjwi_patjwi_010",
+      "pageNumber": 10,
+      "text": {
+        "enLittle": "Kongjwi thanked each helper by name.",
+        "enStandard": "In the well and field, with the moon high, Kongjwi thanked each helper by name. \"I am still learning,\" the child answered.",
+        "koLittle": "연꽃 신의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "팥쥐와 계모가 있는 옛이야기 길에서 연꽃 신의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "팥쥐와 계모가 있는 옛이야기 길에서 연꽃 신의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the well and field, with the moon high, Kongjwi thanked each helper by name. \"I am still learning,\" the child answered.",
+      "narrationScript": "팥쥐와 계모가 있는 옛이야기 길에서 연꽃 신의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "콩쥐",
+          "en": "Kongjwi",
+          "romanization": "Kongjwi",
+          "definitionEn": "The kind girl at the center of the tale.",
+          "definitionKo": "이야기 속 착하고 단단한 아이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "a frog and small helpers answer kindness (helper frog)",
+        "emotion": "surprised hope",
+        "pageTurnHook": "Then the next part of helper frog will ask for a braver choice, and the story moves toward festival longing.",
+        "readAloudCue": "Read with surprised hope; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace well and field."
+      },
+      "refrain": "Small helpers, steady heart.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 10 for 콩쥐팥쥐 / Kongjwi and Patjwi: well and field; specific beat: Kongjwi thanked each helper by name; emotional tone: surprised hope; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-010.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with surprised hope; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-010.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_010/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_010/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_010/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_010/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_010/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_010/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "작은 도움, 단단한 마음."
+    },
+    {
+      "id": "kongjwi_patjwi_011",
+      "pageNumber": 11,
+      "text": {
+        "enLittle": "A frog climbed from the well and plugged a leaking jar with its round body.",
+        "enStandard": "In the well and field, before dawn, a frog climbed from the well and plugged a leaking jar with its round body. \"Tell me the truth,\" someone said.",
+        "koLittle": "콩쥐와 팥쥐가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "팥쥐와 계모가 있는 옛이야기 길에서 콩쥐와 팥쥐가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "팥쥐와 계모가 있는 옛이야기 길에서 콩쥐와 팥쥐가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the well and field, before dawn, a frog climbed from the well and plugged a leaking jar with its round body. \"Tell me the truth,\" someone said.",
+      "narrationScript": "팥쥐와 계모가 있는 옛이야기 길에서 콩쥐와 팥쥐가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "팥쥐",
+          "en": "Patjwi",
+          "romanization": "Patjwi",
+          "definitionEn": "The stepsister who acts unfairly.",
+          "definitionKo": "콩쥐에게 공정하지 않게 구는 의붓자매예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "a frog and small helpers answer kindness (helper frog)",
+        "emotion": "surprised hope",
+        "pageTurnHook": "Then the next part of helper frog will ask for a braver choice, and the story moves toward festival longing.",
+        "readAloudCue": "Read with surprised hope; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count well and field."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 11 for 콩쥐팥쥐 / Kongjwi and Patjwi: well and field; specific beat: a frog climbed from the well and plugged a leaking jar with its round body; emotional tone: surprised hope; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-011.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with surprised hope; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-011.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_011/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_011/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_011/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_011/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_011/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_011/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kongjwi_patjwi_012",
+      "pageNumber": 12,
+      "text": {
+        "enLittle": "Sparrows sorted rice grains faster than fingers could move.",
+        "enStandard": "In the well and field, after a pause, sparrows sorted rice grains faster than fingers could move. \"I will answer carefully,\" came the reply.",
+        "koLittle": "계모 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "팥쥐와 계모가 있는 옛이야기 길에서 계모 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "팥쥐와 계모가 있는 옛이야기 길에서 계모 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the well and field, after a pause, sparrows sorted rice grains faster than fingers could move. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "팥쥐와 계모가 있는 옛이야기 길에서 계모 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "콩쥐",
+          "en": "Kongjwi",
+          "romanization": "Kongjwi",
+          "definitionEn": "The kind girl at the center of the tale.",
+          "definitionKo": "이야기 속 착하고 단단한 아이예요."
+        },
+        {
+          "ko": "계모",
+          "en": "stepmother",
+          "romanization": "gyemo",
+          "definitionEn": "The stepmother who gives hard chores.",
+          "definitionKo": "어려운 일을 시키는 새어머니예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "a frog and small helpers answer kindness (helper frog)",
+        "emotion": "surprised hope",
+        "pageTurnHook": "Then the next part of helper frog will ask for a braver choice, and the story moves toward festival longing.",
+        "readAloudCue": "Read with surprised hope; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold well and field."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 12 for 콩쥐팥쥐 / Kongjwi and Patjwi: well and field; specific beat: sparrows sorted rice grains faster than fingers could move; emotional tone: surprised hope; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-012.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with surprised hope; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-012.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_012/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_012/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_012/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_012/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_012/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_012/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kongjwi_patjwi_013",
+      "pageNumber": 13,
+      "text": {
+        "enLittle": "Festival drums crossed the wall while kongjwi still scrubbed the floor.",
+        "enStandard": "In the village festival road, first, festival drums crossed the wall while Kongjwi still scrubbed the floor. \"I am still learning,\" the child answered.",
+        "koLittle": "계모와 두꺼비가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "계모와 두꺼비가 있는 옛이야기 길에서 계모와 두꺼비가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "계모와 두꺼비가 있는 옛이야기 길에서 계모와 두꺼비가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the village festival road, first, festival drums crossed the wall while Kongjwi still scrubbed the floor. \"I am still learning,\" the child answered.",
+      "narrationScript": "계모와 두꺼비가 있는 옛이야기 길에서 계모와 두꺼비가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "팥쥐",
+          "en": "Patjwi",
+          "romanization": "Patjwi",
+          "definitionEn": "The stepsister who acts unfairly.",
+          "definitionKo": "콩쥐에게 공정하지 않게 구는 의붓자매예요."
+        },
+        {
+          "ko": "두꺼비",
+          "en": "frog",
+          "romanization": "dukkeobi",
+          "definitionEn": "A small helper in the tale.",
+          "definitionKo": "이야기에서 도와주는 작은 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Kongjwi wants to attend but is delayed (festival longing)",
+        "emotion": "aching hope",
+        "pageTurnHook": "Then the next part of festival longing will ask for a braver choice, and the story moves toward lost lotus shoe.",
+        "readAloudCue": "Read with aching hope; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe village festival road."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 13 for 콩쥐팥쥐 / Kongjwi and Patjwi: village festival road; specific beat: festival drums crossed the wall while Kongjwi still scrubbed the floor; emotional tone: aching hope; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-013.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with aching hope; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-013.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_013/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_013/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_013/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_013/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_013/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_013/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kongjwi_patjwi_014",
+      "pageNumber": 14,
+      "text": {
+        "enLittle": "Patjwi's silk ribbon flashed at the gate.",
+        "enStandard": "In the village festival road, next, Patjwi's silk ribbon flashed at the gate. \"Tell me the truth,\" someone said.",
+        "koLittle": "연꽃 신 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "계모와 두꺼비가 있는 옛이야기 길에서 연꽃 신 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "계모와 두꺼비가 있는 옛이야기 길에서 연꽃 신 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the village festival road, next, Patjwi's silk ribbon flashed at the gate. \"Tell me the truth,\" someone said.",
+      "narrationScript": "계모와 두꺼비가 있는 옛이야기 길에서 연꽃 신 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "계모",
+          "en": "stepmother",
+          "romanization": "gyemo",
+          "definitionEn": "The stepmother who gives hard chores.",
+          "definitionKo": "어려운 일을 시키는 새어머니예요."
+        },
+        {
+          "ko": "연꽃 신",
+          "en": "lotus shoe",
+          "romanization": "yeonkkot sin",
+          "definitionEn": "A beautiful shoe that helps reveal truth.",
+          "definitionKo": "진실을 드러내는 아름다운 신이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Kongjwi wants to attend but is delayed (festival longing)",
+        "emotion": "aching hope",
+        "pageTurnHook": "Then the next part of festival longing will ask for a braver choice, and the story moves toward lost lotus shoe.",
+        "readAloudCue": "Read with aching hope; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open village festival road."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 14 for 콩쥐팥쥐 / Kongjwi and Patjwi: village festival road; specific beat: Patjwi's silk ribbon flashed at the gate; emotional tone: aching hope; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-014.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with aching hope; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-014.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_014/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_014/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_014/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_014/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_014/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_014/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kongjwi_patjwi_015",
+      "pageNumber": 15,
+      "text": {
+        "enLittle": "Helpers gathered thread.",
+        "enStandard": "In the village festival road, quietly, helpers gathered thread, water, and courage around Kongjwi. \"I will answer carefully,\" came the reply.",
+        "koLittle": "팥쥐를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "계모와 두꺼비가 있는 옛이야기 길에서 팥쥐를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "계모와 두꺼비가 있는 옛이야기 길에서 팥쥐를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the village festival road, quietly, helpers gathered thread, water, and courage around Kongjwi. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "계모와 두꺼비가 있는 옛이야기 길에서 팥쥐를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "두꺼비",
+          "en": "frog",
+          "romanization": "dukkeobi",
+          "definitionEn": "A small helper in the tale.",
+          "definitionKo": "이야기에서 도와주는 작은 동물이에요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Kongjwi wants to attend but is delayed (festival longing)",
+        "emotion": "aching hope",
+        "pageTurnHook": "Then the next part of festival longing will ask for a braver choice, and the story moves toward lost lotus shoe.",
+        "readAloudCue": "Read with aching hope; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose village festival road."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 15 for 콩쥐팥쥐 / Kongjwi and Patjwi: village festival road; specific beat: helpers gathered thread, water, and courage around Kongjwi; emotional tone: aching hope; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-015.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with aching hope; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-015.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_015/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_015/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_015/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_015/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_015/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_015/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kongjwi_patjwi_016",
+      "pageNumber": 16,
+      "text": {
+        "enLittle": "A lotus shoe gleamed where mud had been.",
+        "enStandard": "In the village festival road, with the moon high, a lotus shoe gleamed where mud had been. \"Then walk gently,\" the elder said.",
+        "koLittle": "콩쥐의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "계모와 두꺼비가 있는 옛이야기 길에서 콩쥐의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "계모와 두꺼비가 있는 옛이야기 길에서 콩쥐의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the village festival road, with the moon high, a lotus shoe gleamed where mud had been. \"Then walk gently,\" the elder said.",
+      "narrationScript": "계모와 두꺼비가 있는 옛이야기 길에서 콩쥐의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "연꽃 신",
+          "en": "lotus shoe",
+          "romanization": "yeonkkot sin",
+          "definitionEn": "A beautiful shoe that helps reveal truth.",
+          "definitionKo": "진실을 드러내는 아름다운 신이에요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Kongjwi wants to attend but is delayed (festival longing)",
+        "emotion": "aching hope",
+        "pageTurnHook": "Then the next part of festival longing will ask for a braver choice, and the story moves toward lost lotus shoe.",
+        "readAloudCue": "Read with aching hope; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag village festival road."
+      },
+      "refrain": "Small helpers, steady heart.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 16 for 콩쥐팥쥐 / Kongjwi and Patjwi: village festival road; specific beat: a lotus shoe gleamed where mud had been; emotional tone: aching hope; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-016.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with aching hope; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-016.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_016/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_016/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_016/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_016/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_016/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_016/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "작은 도움, 단단한 마음."
+    },
+    {
+      "id": "kongjwi_patjwi_017",
+      "pageNumber": 17,
+      "text": {
+        "enLittle": "Festival drums crossed the wall while kongjwi still scrubbed the floor.",
+        "enStandard": "In the village festival road, before dawn, festival drums crossed the wall while Kongjwi still scrubbed the floor. \"I am still learning,\" the child answered.",
+        "koLittle": "팥쥐와 계모가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "계모와 두꺼비가 있는 옛이야기 길에서 팥쥐와 계모가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "계모와 두꺼비가 있는 옛이야기 길에서 팥쥐와 계모가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the village festival road, before dawn, festival drums crossed the wall while Kongjwi still scrubbed the floor. \"I am still learning,\" the child answered.",
+      "narrationScript": "계모와 두꺼비가 있는 옛이야기 길에서 팥쥐와 계모가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Kongjwi wants to attend but is delayed (festival longing)",
+        "emotion": "aching hope",
+        "pageTurnHook": "Then the next part of festival longing will ask for a braver choice, and the story moves toward lost lotus shoe.",
+        "readAloudCue": "Read with aching hope; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap village festival road."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 17 for 콩쥐팥쥐 / Kongjwi and Patjwi: village festival road; specific beat: festival drums crossed the wall while Kongjwi still scrubbed the floor; emotional tone: aching hope; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-017.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with aching hope; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-017.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_017/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_017/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_017/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_017/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_017/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_017/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kongjwi_patjwi_018",
+      "pageNumber": 18,
+      "text": {
+        "enLittle": "Patjwi's silk ribbon flashed at the gate.",
+        "enStandard": "In the village festival road, after a pause, Patjwi's silk ribbon flashed at the gate. \"Tell me the truth,\" someone said.",
+        "koLittle": "두꺼비 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "계모와 두꺼비가 있는 옛이야기 길에서 두꺼비 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "계모와 두꺼비가 있는 옛이야기 길에서 두꺼비 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the village festival road, after a pause, Patjwi's silk ribbon flashed at the gate. \"Tell me the truth,\" someone said.",
+      "narrationScript": "계모와 두꺼비가 있는 옛이야기 길에서 두꺼비 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Kongjwi wants to attend but is delayed (festival longing)",
+        "emotion": "aching hope",
+        "pageTurnHook": "Then the next part of festival longing will ask for a braver choice, and the story moves toward lost lotus shoe.",
+        "readAloudCue": "Read with aching hope; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace village festival road."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 18 for 콩쥐팥쥐 / Kongjwi and Patjwi: village festival road; specific beat: Patjwi's silk ribbon flashed at the gate; emotional tone: aching hope; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-018.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with aching hope; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-018.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_018/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_018/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_018/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_018/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_018/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_018/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kongjwi_patjwi_019",
+      "pageNumber": 19,
+      "text": {
+        "enLittle": "Kongjwi hurried across the bridge and one lotus shoe slipped into moonlit water.",
+        "enStandard": "In the stream bridge, first, Kongjwi hurried across the bridge and one lotus shoe slipped into moonlit water. \"Then walk gently,\" the elder said.",
+        "koLittle": "두꺼비와 연꽃 신가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "두꺼비와 연꽃 신가 있는 옛이야기 길에서 두꺼비와 연꽃 신가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "두꺼비와 연꽃 신가 있는 옛이야기 길에서 두꺼비와 연꽃 신가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the stream bridge, first, Kongjwi hurried across the bridge and one lotus shoe slipped into moonlit water. \"Then walk gently,\" the elder said.",
+      "narrationScript": "두꺼비와 연꽃 신가 있는 옛이야기 길에서 두꺼비와 연꽃 신가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "the lotus shoe becomes evidence (lost lotus shoe)",
+        "emotion": "breathless wonder",
+        "pageTurnHook": "Then the next part of lost lotus shoe will ask for a braver choice, and the story moves toward truth revealed.",
+        "readAloudCue": "Read with breathless wonder; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count stream bridge."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 19 for 콩쥐팥쥐 / Kongjwi and Patjwi: stream bridge; specific beat: Kongjwi hurried across the bridge and one lotus shoe slipped into moonlit water; emotional tone: breathless wonder; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-019.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with breathless wonder; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-019.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_019/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_019/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_019/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_019/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_019/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_019/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kongjwi_patjwi_020",
+      "pageNumber": 20,
+      "text": {
+        "enLittle": "The magistrate's servants found it resting against reeds.",
+        "enStandard": "In the stream bridge, next, the magistrate's servants found it resting against reeds. \"I am still learning,\" the child answered.",
+        "koLittle": "콩쥐 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "두꺼비와 연꽃 신가 있는 옛이야기 길에서 콩쥐 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "두꺼비와 연꽃 신가 있는 옛이야기 길에서 콩쥐 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the stream bridge, next, the magistrate's servants found it resting against reeds. \"I am still learning,\" the child answered.",
+      "narrationScript": "두꺼비와 연꽃 신가 있는 옛이야기 길에서 콩쥐 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "the lotus shoe becomes evidence (lost lotus shoe)",
+        "emotion": "breathless wonder",
+        "pageTurnHook": "Then the next part of lost lotus shoe will ask for a braver choice, and the story moves toward truth revealed.",
+        "readAloudCue": "Read with breathless wonder; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold stream bridge."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 20 for 콩쥐팥쥐 / Kongjwi and Patjwi: stream bridge; specific beat: the magistrate's servants found it resting against reeds; emotional tone: breathless wonder; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-020.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with breathless wonder; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-020.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_020/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_020/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_020/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_020/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_020/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_020/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kongjwi_patjwi_021",
+      "pageNumber": 21,
+      "text": {
+        "enLittle": "No one in the village had seen such a shoe.",
+        "enStandard": "In the stream bridge, quietly, no one in the village had seen such a shoe. \"Tell me the truth,\" someone said.",
+        "koLittle": "계모를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "두꺼비와 연꽃 신가 있는 옛이야기 길에서 계모를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "두꺼비와 연꽃 신가 있는 옛이야기 길에서 계모를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the stream bridge, quietly, no one in the village had seen such a shoe. \"Tell me the truth,\" someone said.",
+      "narrationScript": "두꺼비와 연꽃 신가 있는 옛이야기 길에서 계모를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "콩쥐",
+          "en": "Kongjwi",
+          "romanization": "Kongjwi",
+          "definitionEn": "The kind girl at the center of the tale.",
+          "definitionKo": "이야기 속 착하고 단단한 아이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "the lotus shoe becomes evidence (lost lotus shoe)",
+        "emotion": "breathless wonder",
+        "pageTurnHook": "Then the next part of lost lotus shoe will ask for a braver choice, and the story moves toward truth revealed.",
+        "readAloudCue": "Read with breathless wonder; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe stream bridge."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 21 for 콩쥐팥쥐 / Kongjwi and Patjwi: stream bridge; specific beat: no one in the village had seen such a shoe; emotional tone: breathless wonder; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-021.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with breathless wonder; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-021.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_021/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_021/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_021/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_021/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_021/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_021/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kongjwi_patjwi_022",
+      "pageNumber": 22,
+      "text": {
+        "enLittle": "Patjwi frowned because truth had become hard to hide.",
+        "enStandard": "In the stream bridge, with the moon high, Patjwi frowned because truth had become hard to hide. \"I will answer carefully,\" came the reply.",
+        "koLittle": "팥쥐의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "두꺼비와 연꽃 신가 있는 옛이야기 길에서 팥쥐의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "두꺼비와 연꽃 신가 있는 옛이야기 길에서 팥쥐의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the stream bridge, with the moon high, Patjwi frowned because truth had become hard to hide. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "두꺼비와 연꽃 신가 있는 옛이야기 길에서 팥쥐의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "팥쥐",
+          "en": "Patjwi",
+          "romanization": "Patjwi",
+          "definitionEn": "The stepsister who acts unfairly.",
+          "definitionKo": "콩쥐에게 공정하지 않게 구는 의붓자매예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "the lotus shoe becomes evidence (lost lotus shoe)",
+        "emotion": "breathless wonder",
+        "pageTurnHook": "Then the next part of lost lotus shoe will ask for a braver choice, and the story moves toward truth revealed.",
+        "readAloudCue": "Read with breathless wonder; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open stream bridge."
+      },
+      "refrain": "Small helpers, steady heart.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 22 for 콩쥐팥쥐 / Kongjwi and Patjwi: stream bridge; specific beat: Patjwi frowned because truth had become hard to hide; emotional tone: breathless wonder; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-022.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with breathless wonder; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-022.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_022/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_022/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_022/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_022/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_022/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_022/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "작은 도움, 단단한 마음."
+    },
+    {
+      "id": "kongjwi_patjwi_023",
+      "pageNumber": 23,
+      "text": {
+        "enLittle": "Kongjwi hurried across the bridge and one lotus shoe slipped into moonlit water.",
+        "enStandard": "In the stream bridge, before dawn, Kongjwi hurried across the bridge and one lotus shoe slipped into moonlit water. \"Then walk gently,\" the elder said.",
+        "koLittle": "계모와 두꺼비가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "두꺼비와 연꽃 신가 있는 옛이야기 길에서 계모와 두꺼비가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "두꺼비와 연꽃 신가 있는 옛이야기 길에서 계모와 두꺼비가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the stream bridge, before dawn, Kongjwi hurried across the bridge and one lotus shoe slipped into moonlit water. \"Then walk gently,\" the elder said.",
+      "narrationScript": "두꺼비와 연꽃 신가 있는 옛이야기 길에서 계모와 두꺼비가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "콩쥐",
+          "en": "Kongjwi",
+          "romanization": "Kongjwi",
+          "definitionEn": "The kind girl at the center of the tale.",
+          "definitionKo": "이야기 속 착하고 단단한 아이예요."
+        },
+        {
+          "ko": "계모",
+          "en": "stepmother",
+          "romanization": "gyemo",
+          "definitionEn": "The stepmother who gives hard chores.",
+          "definitionKo": "어려운 일을 시키는 새어머니예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "the lotus shoe becomes evidence (lost lotus shoe)",
+        "emotion": "breathless wonder",
+        "pageTurnHook": "Then the next part of lost lotus shoe will ask for a braver choice, and the story moves toward truth revealed.",
+        "readAloudCue": "Read with breathless wonder; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose stream bridge."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 23 for 콩쥐팥쥐 / Kongjwi and Patjwi: stream bridge; specific beat: Kongjwi hurried across the bridge and one lotus shoe slipped into moonlit water; emotional tone: breathless wonder; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-023.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with breathless wonder; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-023.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_023/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_023/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_023/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_023/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_023/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_023/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kongjwi_patjwi_024",
+      "pageNumber": 24,
+      "text": {
+        "enLittle": "The lotus shoe fit kongjwi because kindness had walked in it.",
+        "enStandard": "In the village courtyard, first, the lotus shoe fit Kongjwi because kindness had walked in it. \"Tell me the truth,\" someone said.",
+        "koLittle": "연꽃 신와 콩쥐가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "연꽃 신와 콩쥐가 있는 옛이야기 길에서 연꽃 신와 콩쥐가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "연꽃 신와 콩쥐가 있는 옛이야기 길에서 연꽃 신와 콩쥐가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the village courtyard, first, the lotus shoe fit Kongjwi because kindness had walked in it. \"Tell me the truth,\" someone said.",
+      "narrationScript": "연꽃 신와 콩쥐가 있는 옛이야기 길에서 연꽃 신와 콩쥐가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "팥쥐",
+          "en": "Patjwi",
+          "romanization": "Patjwi",
+          "definitionEn": "The stepsister who acts unfairly.",
+          "definitionKo": "콩쥐에게 공정하지 않게 구는 의붓자매예요."
+        },
+        {
+          "ko": "두꺼비",
+          "en": "frog",
+          "romanization": "dukkeobi",
+          "definitionEn": "A small helper in the tale.",
+          "definitionKo": "이야기에서 도와주는 작은 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Kongjwi is recognized and false blame loosens (truth revealed)",
+        "emotion": "dignified relief",
+        "pageTurnHook": "Then the next part of truth revealed will ask for a braver choice, and the story moves toward repairing fairness.",
+        "readAloudCue": "Read with dignified relief; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag village courtyard."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 24 for 콩쥐팥쥐 / Kongjwi and Patjwi: village courtyard; specific beat: the lotus shoe fit Kongjwi because kindness had walked in it; emotional tone: dignified relief; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-024.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with dignified relief; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-024.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_024/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_024/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_024/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_024/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_024/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_024/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kongjwi_patjwi_025",
+      "pageNumber": 25,
+      "text": {
+        "enLittle": "The stepmother's excuses scattered like chaff.",
+        "enStandard": "In the village courtyard, next, the stepmother's excuses scattered like chaff. \"I will answer carefully,\" came the reply.",
+        "koLittle": "팥쥐 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "연꽃 신와 콩쥐가 있는 옛이야기 길에서 팥쥐 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "연꽃 신와 콩쥐가 있는 옛이야기 길에서 팥쥐 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the village courtyard, next, the stepmother's excuses scattered like chaff. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "연꽃 신와 콩쥐가 있는 옛이야기 길에서 팥쥐 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "계모",
+          "en": "stepmother",
+          "romanization": "gyemo",
+          "definitionEn": "The stepmother who gives hard chores.",
+          "definitionKo": "어려운 일을 시키는 새어머니예요."
+        },
+        {
+          "ko": "연꽃 신",
+          "en": "lotus shoe",
+          "romanization": "yeonkkot sin",
+          "definitionEn": "A beautiful shoe that helps reveal truth.",
+          "definitionKo": "진실을 드러내는 아름다운 신이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Kongjwi is recognized and false blame loosens (truth revealed)",
+        "emotion": "dignified relief",
+        "pageTurnHook": "Then the next part of truth revealed will ask for a braver choice, and the story moves toward repairing fairness.",
+        "readAloudCue": "Read with dignified relief; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap village courtyard."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 25 for 콩쥐팥쥐 / Kongjwi and Patjwi: village courtyard; specific beat: the stepmother's excuses scattered like chaff; emotional tone: dignified relief; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-025.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with dignified relief; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-025.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_025/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_025/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_025/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_025/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_025/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_025/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kongjwi_patjwi_026",
+      "pageNumber": 26,
+      "text": {
+        "enLittle": "Kongjwi did not shout; she asked that no child be given impossible work again.",
+        "enStandard": "In the village courtyard, quietly, Kongjwi did not shout; she asked that no child be given impossible work again. \"Then walk gently,\" the elder said.",
+        "koLittle": "두꺼비를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "연꽃 신와 콩쥐가 있는 옛이야기 길에서 두꺼비를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "연꽃 신와 콩쥐가 있는 옛이야기 길에서 두꺼비를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the village courtyard, quietly, Kongjwi did not shout; she asked that no child be given impossible work again. \"Then walk gently,\" the elder said.",
+      "narrationScript": "연꽃 신와 콩쥐가 있는 옛이야기 길에서 두꺼비를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "두꺼비",
+          "en": "frog",
+          "romanization": "dukkeobi",
+          "definitionEn": "A small helper in the tale.",
+          "definitionKo": "이야기에서 도와주는 작은 동물이에요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Kongjwi is recognized and false blame loosens (truth revealed)",
+        "emotion": "dignified relief",
+        "pageTurnHook": "Then the next part of truth revealed will ask for a braver choice, and the story moves toward repairing fairness.",
+        "readAloudCue": "Read with dignified relief; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace village courtyard."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 26 for 콩쥐팥쥐 / Kongjwi and Patjwi: village courtyard; specific beat: Kongjwi did not shout; she asked that no child be given impossible work again; emotional tone: dignified relief; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-026.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with dignified relief; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-026.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_026/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_026/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_026/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_026/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_026/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_026/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kongjwi_patjwi_027",
+      "pageNumber": 27,
+      "text": {
+        "enLittle": "Patjwi looked at the ground and finally saw the broom.",
+        "enStandard": "In the village courtyard, with the moon high, Patjwi looked at the ground and finally saw the broom. \"I am still learning,\" the child answered.",
+        "koLittle": "계모의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "연꽃 신와 콩쥐가 있는 옛이야기 길에서 계모의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "연꽃 신와 콩쥐가 있는 옛이야기 길에서 계모의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the village courtyard, with the moon high, Patjwi looked at the ground and finally saw the broom. \"I am still learning,\" the child answered.",
+      "narrationScript": "연꽃 신와 콩쥐가 있는 옛이야기 길에서 계모의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "연꽃 신",
+          "en": "lotus shoe",
+          "romanization": "yeonkkot sin",
+          "definitionEn": "A beautiful shoe that helps reveal truth.",
+          "definitionKo": "진실을 드러내는 아름다운 신이에요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Kongjwi is recognized and false blame loosens (truth revealed)",
+        "emotion": "dignified relief",
+        "pageTurnHook": "Then the next part of truth revealed will ask for a braver choice, and the story moves toward repairing fairness.",
+        "readAloudCue": "Read with dignified relief; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count village courtyard."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 27 for 콩쥐팥쥐 / Kongjwi and Patjwi: village courtyard; specific beat: Patjwi looked at the ground and finally saw the broom; emotional tone: dignified relief; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-027.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with dignified relief; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-027.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_027/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_027/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_027/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_027/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_027/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_027/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kongjwi_patjwi_028",
+      "pageNumber": 28,
+      "text": {
+        "enLittle": "The lotus shoe fit kongjwi because kindness had walked in it.",
+        "enStandard": "In the village courtyard, before dawn, the lotus shoe fit Kongjwi because kindness had walked in it. \"Tell me the truth,\" someone said.",
+        "koLittle": "두꺼비와 연꽃 신가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "연꽃 신와 콩쥐가 있는 옛이야기 길에서 두꺼비와 연꽃 신가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "연꽃 신와 콩쥐가 있는 옛이야기 길에서 두꺼비와 연꽃 신가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the village courtyard, before dawn, the lotus shoe fit Kongjwi because kindness had walked in it. \"Tell me the truth,\" someone said.",
+      "narrationScript": "연꽃 신와 콩쥐가 있는 옛이야기 길에서 두꺼비와 연꽃 신가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Kongjwi is recognized and false blame loosens (truth revealed)",
+        "emotion": "dignified relief",
+        "pageTurnHook": "Then the next part of truth revealed will ask for a braver choice, and the story moves toward repairing fairness.",
+        "readAloudCue": "Read with dignified relief; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold village courtyard."
+      },
+      "refrain": "Small helpers, steady heart.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 28 for 콩쥐팥쥐 / Kongjwi and Patjwi: village courtyard; specific beat: the lotus shoe fit Kongjwi because kindness had walked in it; emotional tone: dignified relief; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-028.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with dignified relief; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-028.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_028/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_028/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_028/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_028/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_028/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_028/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "작은 도움, 단단한 마음."
+    },
+    {
+      "id": "kongjwi_patjwi_029",
+      "pageNumber": 29,
+      "text": {
+        "enLittle": "Patjwi carried water until she understood its weight.",
+        "enStandard": "In the shared courtyard, first, Patjwi carried water until she understood its weight. \"Then walk gently,\" the elder said.",
+        "koLittle": "콩쥐와 팥쥐가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "콩쥐와 팥쥐가 있는 옛이야기 길에서 콩쥐와 팥쥐가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "콩쥐와 팥쥐가 있는 옛이야기 길에서 콩쥐와 팥쥐가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the shared courtyard, first, Patjwi carried water until she understood its weight. \"Then walk gently,\" the elder said.",
+      "narrationScript": "콩쥐와 팥쥐가 있는 옛이야기 길에서 콩쥐와 팥쥐가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "the household changes through accountability (repairing fairness)",
+        "emotion": "hopeful repair",
+        "pageTurnHook": "Then the next part of repairing fairness will ask for a braver choice, and the story moves toward repairing fairness.",
+        "readAloudCue": "Read with hopeful repair; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe shared courtyard."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 29 for 콩쥐팥쥐 / Kongjwi and Patjwi: shared courtyard; specific beat: Patjwi carried water until she understood its weight; emotional tone: hopeful repair; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-029.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with hopeful repair; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-029.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_029/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_029/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_029/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_029/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_029/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_029/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kongjwi_patjwi_030",
+      "pageNumber": 30,
+      "text": {
+        "enLittle": "The stepmother apologized with rice she had sorted herself.",
+        "enStandard": "In the shared courtyard, next, the stepmother apologized with rice she had sorted herself. \"I am still learning,\" the child answered.",
+        "koLittle": "계모 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "콩쥐와 팥쥐가 있는 옛이야기 길에서 계모 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "콩쥐와 팥쥐가 있는 옛이야기 길에서 계모 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the shared courtyard, next, the stepmother apologized with rice she had sorted herself. \"I am still learning,\" the child answered.",
+      "narrationScript": "콩쥐와 팥쥐가 있는 옛이야기 길에서 계모 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "the household changes through accountability (repairing fairness)",
+        "emotion": "hopeful repair",
+        "pageTurnHook": "Then the next part of repairing fairness will ask for a braver choice, and the story moves toward repairing fairness.",
+        "readAloudCue": "Read with hopeful repair; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open shared courtyard."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 30 for 콩쥐팥쥐 / Kongjwi and Patjwi: shared courtyard; specific beat: the stepmother apologized with rice she had sorted herself; emotional tone: hopeful repair; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-030.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with hopeful repair; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-030.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_030/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_030/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_030/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_030/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_030/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_030/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kongjwi_patjwi_031",
+      "pageNumber": 31,
+      "text": {
+        "enLittle": "Kongjwi planted lotus seeds near the well for every helper.",
+        "enStandard": "In the shared courtyard, quietly, Kongjwi planted lotus seeds near the well for every helper. \"Tell me the truth,\" someone said.",
+        "koLittle": "연꽃 신를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "콩쥐와 팥쥐가 있는 옛이야기 길에서 연꽃 신를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "콩쥐와 팥쥐가 있는 옛이야기 길에서 연꽃 신를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the shared courtyard, quietly, Kongjwi planted lotus seeds near the well for every helper. \"Tell me the truth,\" someone said.",
+      "narrationScript": "콩쥐와 팥쥐가 있는 옛이야기 길에서 연꽃 신를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "the household changes through accountability (repairing fairness)",
+        "emotion": "hopeful repair",
+        "pageTurnHook": "Then the next part of repairing fairness will ask for a braver choice, and the story moves toward repairing fairness.",
+        "readAloudCue": "Read with hopeful repair; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose shared courtyard."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 31 for 콩쥐팥쥐 / Kongjwi and Patjwi: shared courtyard; specific beat: Kongjwi planted lotus seeds near the well for every helper; emotional tone: hopeful repair; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-031.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with hopeful repair; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-031.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_031/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_031/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_031/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_031/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_031/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_031/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kongjwi_patjwi_032",
+      "pageNumber": 32,
+      "text": {
+        "enLittle": "The courtyard became a place where work and kindness were shared.",
+        "enStandard": "In the shared courtyard, with the moon high, the courtyard became a place where work and kindness were shared. \"I will answer carefully,\" came the reply.",
+        "koLittle": "두꺼비의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "콩쥐와 팥쥐가 있는 옛이야기 길에서 두꺼비의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "콩쥐와 팥쥐가 있는 옛이야기 길에서 두꺼비의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the shared courtyard, with the moon high, the courtyard became a place where work and kindness were shared. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "콩쥐와 팥쥐가 있는 옛이야기 길에서 두꺼비의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "콩쥐",
+          "en": "Kongjwi",
+          "romanization": "Kongjwi",
+          "definitionEn": "The kind girl at the center of the tale.",
+          "definitionKo": "이야기 속 착하고 단단한 아이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "the household changes through accountability (repairing fairness)",
+        "emotion": "hopeful repair",
+        "pageTurnHook": "Then the next part of repairing fairness will ask for a braver choice, and the story moves toward repairing fairness.",
+        "readAloudCue": "Read with hopeful repair; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag shared courtyard."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 32 for 콩쥐팥쥐 / Kongjwi and Patjwi: shared courtyard; specific beat: the courtyard became a place where work and kindness were shared; emotional tone: hopeful repair; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-032.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with hopeful repair; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-032.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_032/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_032/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_032/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_032/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_032/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_032/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kongjwi_patjwi_033",
+      "pageNumber": 33,
+      "text": {
+        "enLittle": "Patjwi carried water until she understood its weight.",
+        "enStandard": "In the shared courtyard, before dawn, Patjwi carried water until she understood its weight. \"Then walk gently,\" the elder said.",
+        "koLittle": "연꽃 신와 콩쥐가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "콩쥐와 팥쥐가 있는 옛이야기 길에서 연꽃 신와 콩쥐가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "콩쥐와 팥쥐가 있는 옛이야기 길에서 연꽃 신와 콩쥐가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the shared courtyard, before dawn, Patjwi carried water until she understood its weight. \"Then walk gently,\" the elder said.",
+      "narrationScript": "콩쥐와 팥쥐가 있는 옛이야기 길에서 연꽃 신와 콩쥐가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "팥쥐",
+          "en": "Patjwi",
+          "romanization": "Patjwi",
+          "definitionEn": "The stepsister who acts unfairly.",
+          "definitionKo": "콩쥐에게 공정하지 않게 구는 의붓자매예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "the household changes through accountability (repairing fairness)",
+        "emotion": "hopeful repair",
+        "pageTurnHook": "Then the next part of repairing fairness will ask for a braver choice, and the story moves toward repairing fairness.",
+        "readAloudCue": "Read with hopeful repair; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap shared courtyard."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 33 for 콩쥐팥쥐 / Kongjwi and Patjwi: shared courtyard; specific beat: Patjwi carried water until she understood its weight; emotional tone: hopeful repair; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-033.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with hopeful repair; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-033.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_033/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_033/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_033/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_033/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_033/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_033/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "kongjwi_patjwi_034",
+      "pageNumber": 34,
+      "text": {
+        "enLittle": "The stepmother apologized with rice she had sorted herself.",
+        "enStandard": "In the shared courtyard, after a pause, the stepmother apologized with rice she had sorted herself. \"I am still learning,\" the child answered.",
+        "koLittle": "팥쥐 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "콩쥐와 팥쥐가 있는 옛이야기 길에서 팥쥐 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "콩쥐와 팥쥐가 있는 옛이야기 길에서 팥쥐 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the shared courtyard, after a pause, the stepmother apologized with rice she had sorted herself. \"I am still learning,\" the child answered.",
+      "narrationScript": "콩쥐와 팥쥐가 있는 옛이야기 길에서 팥쥐 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "콩쥐",
+          "en": "Kongjwi",
+          "romanization": "Kongjwi",
+          "definitionEn": "The kind girl at the center of the tale.",
+          "definitionKo": "이야기 속 착하고 단단한 아이예요."
+        },
+        {
+          "ko": "계모",
+          "en": "stepmother",
+          "romanization": "gyemo",
+          "definitionEn": "The stepmother who gives hard chores.",
+          "definitionKo": "어려운 일을 시키는 새어머니예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "the household changes through accountability (repairing fairness)",
+        "emotion": "hopeful repair",
+        "pageTurnHook": "Then the next part of repairing fairness will ask for a braver choice, and the story moves toward repairing fairness.",
+        "readAloudCue": "Read with hopeful repair; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace shared courtyard."
+      },
+      "refrain": "Small helpers, steady heart.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/kongjwi_patjwi.character_bible.json. Page 34 for 콩쥐팥쥐 / Kongjwi and Patjwi: shared courtyard; specific beat: the stepmother apologized with rice she had sorted herself; emotional tone: hopeful repair; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/kongjwi-and-patjwi/page-034.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with hopeful repair; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/kongjwi-and-patjwi/ko/page-034.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/kongjwi-and-patjwi/ambient/ambient-loop.wav",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_034/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_034/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_034/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_034/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_034/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/kongjwi-and-patjwi/kongjwi_patjwi_034/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "작은 도움, 단단한 마음."
+    }
+  ]
+}

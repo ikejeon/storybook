@@ -1,0 +1,120 @@
+{
+  "schemaVersion": "1.0.0",
+  "visualDirection": {
+    "style": "Premium Korean watercolor, gouache, and soft ink picture-book style with hanji texture.",
+    "palette": ["deep indigo", "ivory", "persimmon", "jade", "lotus pink", "warm lantern gold"],
+    "safety": "Characters must be expressive, gentle, and child-safe. Tigers are mischievous or majestic but never horror-like."
+  },
+  "books": [
+    {
+      "bookId": "book.sun_moon",
+      "characters": [
+        {
+          "id": "mother",
+          "description": "Korean mother in simple cream and sage hanbok work clothes, calm eyes, practical warmth, protective posture.",
+          "voice": "Warm, steady, reassuring."
+        },
+        {
+          "id": "older_sibling",
+          "description": "Korean child age 8, brave and thoughtful, cream jeogori with indigo pants, protective of younger sibling.",
+          "voice": "Quietly brave, never bossy."
+        },
+        {
+          "id": "younger_sibling",
+          "description": "Korean child age 5, curious and expressive, soft pink jacket, round cheeks, trusts the older sibling.",
+          "voice": "Gentle, curious, occasionally worried."
+        },
+        {
+          "id": "tiger",
+          "description": "Large Korean folktale tiger who is a deceptive antagonist: cunning, hungry, watchful, and dangerous through eyes, posture, shadow, and framing, while remaining child-safe and never graphic or horror-like.",
+          "voice": "Falsely gentle, low, calculating, then frustrated."
+        }
+      ]
+    },
+    {
+      "bookId": "book.gold_silver_axe",
+      "characters": [
+        {
+          "id": "woodcutter",
+          "description": "Humble Korean woodcutter in patched but clean work hanbok, kind eyes, careful hands, modest posture.",
+          "voice": "Sincere and respectful."
+        },
+        {
+          "id": "stream_spirit",
+          "description": "Gentle mountain stream spirit with flowing jade and ivory robes, mist-soft edges, elder warmth, no intimidating deity imagery.",
+          "voice": "Wise, kind, lightly resonant."
+        },
+        {
+          "id": "neighbor",
+          "description": "Comic Korean neighbor with eager eyebrows, not villainous, learns through embarrassment and repair.",
+          "voice": "Quick, excitable, then humble."
+        }
+      ]
+    },
+    {
+      "bookId": "book.tiger_persimmon",
+      "characters": [
+        {
+          "id": "tiger",
+          "description": "Boastful but harmless Korean folktale tiger, oversized reactions, rounded paws, expressive ears, soft ink stripes.",
+          "voice": "Proud whisper that becomes nervous comedy."
+        },
+        {
+          "id": "mother",
+          "description": "Korean mother in a cozy cottage, patient with baby, soft blue-gray hanbok, gentle hands.",
+          "voice": "Soothing and practical."
+        },
+        {
+          "id": "baby",
+          "description": "Korean baby wrapped in a small quilt, expressive face, stops crying for dried persimmon.",
+          "voice": "Only tiny coos and giggles."
+        },
+        {
+          "id": "traveler",
+          "description": "Friendly night traveler with simple pack and brimmed hat, relaxed and good-humored.",
+          "voice": "Warm, surprised, lightly amused."
+        }
+      ]
+    },
+    {
+      "bookId": "book.heungbu_nolbu",
+      "characters": [
+        {
+          "id": "heungbu",
+          "description": "Kind younger brother in plain warm-toned hanbok, generous eyes, gentle shoulders, moves with care.",
+          "voice": "Soft, sincere, grateful."
+        },
+        {
+          "id": "nolbu",
+          "description": "Older brother in tidy but stiff clothing, expressive eyebrows, comic greed, capable of real apology.",
+          "voice": "Blunt and self-important, then softened."
+        },
+        {
+          "id": "swallow",
+          "description": "Small swallow with glossy blue-black feathers and white belly, bright eyes, graceful wing shapes.",
+          "voice": "Chirps only; gratitude shown through motion."
+        }
+      ]
+    },
+    {
+      "bookId": "book.red_bean_grandma",
+      "characters": [
+        {
+          "id": "grandma",
+          "description": "Korean mountain grandmother with silver hair in a bun, quilted vest over simple hanbok, clever smile, warm hands.",
+          "voice": "Halmeoni warmth, clever and calm."
+        },
+        {
+          "id": "tiger",
+          "description": "Boastful hungry tiger with round belly and expressive paws, child-safe, learns manners through slapstick.",
+          "voice": "Big but goofy."
+        },
+        {
+          "id": "household_helpers",
+          "description": "Friendly magical egg, turtle, straw mat, wooden mallet, and rice sack with tiny expressive faces and gentle movement.",
+          "voice": "Small chorus of brave household voices."
+        }
+      ]
+    }
+  ]
+}

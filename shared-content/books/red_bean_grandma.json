@@ -1,0 +1,2541 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "book.red_bean_grandma",
+  "slug": "red-bean-porridge-grandma",
+  "title": {
+    "ko": "팥죽 할멈과 호랑이",
+    "en": "The Red Bean Porridge Grandma and the Tiger",
+    "romanization": "Patjuk Halmeomgwa Horangi"
+  },
+  "access": "free",
+  "ageRange": "3-8",
+  "estimatedMinutes": 9,
+  "summary": "A cozy winter folktale where a pushy tiger demands red bean porridge, and Grandma’s tiny kitchen helpers earn spoonfuls by planning a clever, comic rescue.",
+  "sensitivityNotes": [
+    "The tiger is boastful rather than dangerous.",
+    "Household helpers use slapstick tricks, not harm.",
+    "The ending centers sharing and repair."
+  ],
+  "themes": [
+    "teamwork",
+    "cleverness",
+    "winter",
+    "sharing"
+  ],
+  "characters": [
+    "grandma",
+    "tiger",
+    "egg",
+    "turtle",
+    "straw_mat",
+    "wooden_mallet",
+    "rice_sack"
+  ],
+  "pages": [
+    {
+      "id": "red_bean_grandma_001",
+      "pageNumber": 1,
+      "text": {
+        "enLittle": "Snow tucked the village under a white blanket.",
+        "enStandard": "Snow tucked the village under a white blanket. In a small kitchen, Grandma stirred red bean porridge until it bubbled like little drums.",
+        "koLittle": "눈이 마을을 하얀 이불처럼 덮었어요.",
+        "koStandard": "눈이 마을을 하얀 이불처럼 덮었어요. 작은 부엌에서 할멈은 팥죽을 저었고, 팥죽은 작은 북처럼 보글보글 끓었지요."
+      },
+      "koreanText": "눈이 마을을 하얀 이불처럼 덮었어요. 작은 부엌에서 할멈은 팥죽을 저었고, 팥죽은 작은 북처럼 보글보글 끓었지요.",
+      "englishText": "Snow tucked the village under a white blanket. In a small kitchen, Grandma stirred red bean porridge until it bubbled like little drums.",
+      "narrationScript": "눈이 마을을 하얀 이불처럼 덮었어요. 작은 부엌에서 할멈은 팥죽을 저었고, 팥죽은 작은 북처럼 보글보글 끓었지요.",
+      "vocabulary": [
+        {
+          "ko": "할멈",
+          "en": "grandma",
+          "romanization": "halmeom",
+          "definitionEn": "An old grandmother figure in folktales.",
+          "definitionKo": "옛이야기에 나오는 할머니예요."
+        },
+        {
+          "ko": "팥죽",
+          "en": "red bean porridge",
+          "romanization": "patjuk",
+          "definitionEn": "A warm Korean porridge made with red beans.",
+          "definitionKo": "팥으로 끓인 따뜻한 죽이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "cozy opening",
+        "emotion": "winter warmth",
+        "pageTurnHook": "The porridge is almost ready. The moonrise deadline gives Grandma a reason to gather help.",
+        "readAloudCue": "Read with cozy, brave, worried, proud, and comic; let teamwork feel warm and clever; keep pauses clear and musical. warm and bubbling",
+        "childInteraction": "Tap the porridge bubbles."
+      },
+      "imagePrompt": "Cozy Korean winter kitchen, grandmother stirring red bean porridge, snow outside, warm steam Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with winter warmth; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: warm and bubbling",
+      "animation": {
+        "type": "porridgeBubble",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_001/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_001/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_001/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_001/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "porridgeBubble",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_001/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_001/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/red-bean-porridge-grandma/page-001.png",
+      "imageSource": "assets/books/red-bean-porridge-grandma/page-001.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/red-bean-porridge-grandma/ko/page-001.wav",
+      "ambientAudio": "audio/books/red-bean-porridge-grandma/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/red_bean_grandma.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "red_bean_grandma_002",
+      "pageNumber": 2,
+      "text": {
+        "enLittle": "From outside came a rumble.",
+        "enStandard": "From outside came a rumble. “Grandma! I smelled porridge, and I am very good at eating things that are not mine.”",
+        "koLittle": "밖에서 우르릉 소리가 들렸어요.",
+        "koStandard": "밖에서 우르릉 소리가 들렸어요. “할멈아! 팥죽 냄새가 난다. 나는 남의 것도 아주 잘 먹는다!”"
+      },
+      "koreanText": "밖에서 우르릉 소리가 들렸어요. “할멈아! 팥죽 냄새가 난다. 나는 남의 것도 아주 잘 먹는다!”",
+      "englishText": "From outside came a rumble. “Grandma! I smelled porridge, and I am very good at eating things that are not mine.”",
+      "narrationScript": "밖에서 우르릉 소리가 들렸어요. “할멈아! 팥죽 냄새가 난다. 나는 남의 것도 아주 잘 먹는다!”",
+      "vocabulary": [
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        },
+        {
+          "ko": "팥죽",
+          "en": "red bean porridge",
+          "romanization": "patjuk",
+          "definitionEn": "A warm Korean porridge made with red beans.",
+          "definitionKo": "팥으로 끓인 따뜻한 죽이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "problem",
+        "emotion": "comic threat",
+        "pageTurnHook": "The tiger is rude enough to matter. The moonrise deadline gives Grandma a reason to gather help.",
+        "readAloudCue": "Read with cozy, brave, worried, proud, and comic; let teamwork feel warm and clever; keep pauses clear and musical. boastful tiger voice",
+        "childInteraction": "Tap the window frost."
+      },
+      "imagePrompt": "Boastful comic tiger outside snowy cottage window, pushy but child-safe, porridge steam inside Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with comic threat; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: boastful tiger voice",
+      "animation": {
+        "type": "proudTiger",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_002/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_002/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_002/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_002/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "proudTiger",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_002/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_002/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/red-bean-porridge-grandma/page-002.png",
+      "imageSource": "assets/books/red-bean-porridge-grandma/page-002.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/red-bean-porridge-grandma/ko/page-002.wav",
+      "ambientAudio": "audio/books/red-bean-porridge-grandma/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/red_bean_grandma.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "red_bean_grandma_003",
+      "pageNumber": 3,
+      "text": {
+        "enLittle": "Grandma held the ladle like a tiny moon.",
+        "enStandard": "Grandma held the ladle like a tiny moon. “This porridge is for sharing,” she said, “not for snatching.”",
+        "koLittle": "할멈은 국자를 작은 달처럼 들었어요.",
+        "koStandard": "할멈은 국자를 작은 달처럼 들었어요. “이 팥죽은 나누어 먹는 거지, 빼앗아 먹는 게 아니란다.”"
+      },
+      "koreanText": "할멈은 국자를 작은 달처럼 들었어요. “이 팥죽은 나누어 먹는 거지, 빼앗아 먹는 게 아니란다.”",
+      "englishText": "Grandma held the ladle like a tiny moon. “This porridge is for sharing,” she said, “not for snatching.”",
+      "narrationScript": "할멈은 국자를 작은 달처럼 들었어요. “이 팥죽은 나누어 먹는 거지, 빼앗아 먹는 게 아니란다.”",
+      "vocabulary": [
+        {
+          "ko": "할멈",
+          "en": "grandma",
+          "romanization": "halmeom",
+          "definitionEn": "An old grandmother figure in folktales.",
+          "definitionKo": "옛이야기에 나오는 할머니예요."
+        },
+        {
+          "ko": "팥죽",
+          "en": "red bean porridge",
+          "romanization": "patjuk",
+          "definitionEn": "A warm Korean porridge made with red beans.",
+          "definitionKo": "팥으로 끓인 따뜻한 죽이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "boundary",
+        "emotion": "firm warmth",
+        "pageTurnHook": "Grandma stands up to him. The moonrise deadline gives Grandma a reason to gather help.",
+        "readAloudCue": "Read with cozy, brave, worried, proud, and comic; let teamwork feel warm and clever; keep pauses clear and musical. firm but kind",
+        "childInteraction": "Tap the ladle."
+      },
+      "imagePrompt": "Grandmother holding ladle firmly, tiger shadow at door, warm kitchen courage Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with firm warmth; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: firm but kind",
+      "animation": {
+        "type": "moonGlow",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_003/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_003/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_003/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_003/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "moonGlow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_003/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_003/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/red-bean-porridge-grandma/page-003.png",
+      "imageSource": "assets/books/red-bean-porridge-grandma/page-003.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/red-bean-porridge-grandma/ko/page-003.wav",
+      "ambientAudio": "audio/books/red-bean-porridge-grandma/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/red_bean_grandma.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "red_bean_grandma_004",
+      "pageNumber": 4,
+      "text": {
+        "enLittle": "The tiger thumped the door.",
+        "enStandard": "The tiger thumped the door. “Then I will come at moonrise!” The bowls rattled. Grandma’s spoon trembled once.",
+        "koLittle": "호랑이가 문을 쿵 쳤어요.",
+        "koStandard": "호랑이가 문을 쿵 쳤어요. “그럼 달 뜰 때 내가 들어가겠다!” 그릇들이 달그락거리고 할멈의 숟가락이 한 번 떨렸지요."
+      },
+      "koreanText": "호랑이가 문을 쿵 쳤어요. “그럼 달 뜰 때 내가 들어가겠다!” 그릇들이 달그락거리고 할멈의 숟가락이 한 번 떨렸지요.",
+      "englishText": "The tiger thumped the door. “Then I will come at moonrise!” The bowls rattled. Grandma’s spoon trembled once.",
+      "narrationScript": "호랑이가 문을 쿵 쳤어요. “그럼 달 뜰 때 내가 들어가겠다!” 그릇들이 달그락거리고 할멈의 숟가락이 한 번 떨렸지요.",
+      "vocabulary": [
+        {
+          "ko": "문턱",
+          "en": "threshold",
+          "romanization": "munteok",
+          "definitionEn": "The raised edge at the bottom of a doorway.",
+          "definitionKo": "문 아래쪽의 살짝 높은 부분이에요."
+        },
+        {
+          "ko": "달",
+          "en": "moon",
+          "romanization": "dal",
+          "definitionEn": "The soft light in the night sky.",
+          "definitionKo": "밤하늘에 뜨는 부드러운 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "stakes",
+        "emotion": "small fear",
+        "pageTurnHook": "A deadline is set. The moonrise deadline gives Grandma a reason to gather help.",
+        "readAloudCue": "Read with cozy, brave, worried, proud, and comic; let teamwork feel warm and clever; keep pauses clear and musical. deep thump sound",
+        "childInteraction": "Tap rattling bowls."
+      },
+      "imagePrompt": "Tiger thumping cottage door, bowls rattling inside, grandmother worried but composed, snow night Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with small fear; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: deep thump sound",
+      "animation": {
+        "type": "closedDoor",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_004/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_004/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_004/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_004/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "closedDoor",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_004/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_004/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/red-bean-porridge-grandma/page-004.png",
+      "imageSource": "assets/books/red-bean-porridge-grandma/page-004.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/red-bean-porridge-grandma/ko/page-004.wav",
+      "ambientAudio": "audio/books/red-bean-porridge-grandma/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/red_bean_grandma.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "red_bean_grandma_005",
+      "pageNumber": 5,
+      "text": {
+        "enLittle": "A tiny egg rolled from the basket.",
+        "enStandard": "A tiny egg rolled from the basket. “One warm spoonful for courage,” said the egg, “and I will guard the threshold.”",
+        "koLittle": "작은 달걀이 바구니에서 또르르 굴러왔어요.",
+        "koStandard": "작은 달걀이 바구니에서 또르르 굴러왔어요. “용기 한 숟가락만 주세요. 그러면 제가 문턱을 지킬게요.”"
+      },
+      "koreanText": "작은 달걀이 바구니에서 또르르 굴러왔어요. “용기 한 숟가락만 주세요. 그러면 제가 문턱을 지킬게요.”",
+      "englishText": "A tiny egg rolled from the basket. “One warm spoonful for courage,” said the egg, “and I will guard the threshold.”",
+      "narrationScript": "작은 달걀이 바구니에서 또르르 굴러왔어요. “용기 한 숟가락만 주세요. 그러면 제가 문턱을 지킬게요.”",
+      "refrain": "One warm spoonful, one clever plan!",
+      "vocabulary": [
+        {
+          "ko": "달걀",
+          "en": "egg",
+          "romanization": "dalgyal",
+          "definitionEn": "A small round kitchen helper in this folktale.",
+          "definitionKo": "이 이야기에서는 굴러다니는 작은 조력자예요."
+        },
+        {
+          "ko": "한 숟가락",
+          "en": "one spoonful",
+          "romanization": "han sutgarak",
+          "definitionEn": "One scoop taken with a spoon.",
+          "definitionKo": "숟가락으로 뜬 한 번의 양이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "helper pattern",
+        "emotion": "delight",
+        "pageTurnHook": "First helper makes a promise. Each helper turns one spoonful into one clever promise.",
+        "readAloudCue": "Read with cozy, brave, worried, proud, and comic; let teamwork feel warm and clever; keep pauses clear and musical. small bright voice",
+        "childInteraction": "Roll the egg to the door."
+      },
+      "imagePrompt": "Egg rolling from basket toward grandmother, asking for porridge, cozy helper magic Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with delight; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: small bright voice",
+      "animation": {
+        "type": "eggRoll",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_005/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_005/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_005/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_005/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "eggRoll",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_005/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_005/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/red-bean-porridge-grandma/page-005.png",
+      "imageSource": "assets/books/red-bean-porridge-grandma/page-005.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/red-bean-porridge-grandma/ko/page-005.wav",
+      "ambientAudio": "audio/books/red-bean-porridge-grandma/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/red_bean_grandma.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "red_bean_grandma_006",
+      "pageNumber": 6,
+      "text": {
+        "enLittle": "Grandma gave the egg one spoonful.",
+        "enStandard": "Grandma gave the egg one spoonful. “One warm spoonful, one clever plan,” she whispered.",
+        "koLittle": "할멈은 달걀에게 한 숟가락을 주었어요.",
+        "koStandard": "할멈은 달걀에게 한 숟가락을 주었어요. “따뜻한 한 숟가락, 슬기로운 한 가지 꾀.” 할멈이 속삭였지요."
+      },
+      "koreanText": "할멈은 달걀에게 한 숟가락을 주었어요. “따뜻한 한 숟가락, 슬기로운 한 가지 꾀.” 할멈이 속삭였지요.",
+      "englishText": "Grandma gave the egg one spoonful. “One warm spoonful, one clever plan,” she whispered.",
+      "narrationScript": "할멈은 달걀에게 한 숟가락을 주었어요. “따뜻한 한 숟가락, 슬기로운 한 가지 꾀.” 할멈이 속삭였지요.",
+      "refrain": "One warm spoonful, one clever plan!",
+      "vocabulary": [
+        {
+          "ko": "한 숟가락",
+          "en": "one spoonful",
+          "romanization": "han sutgarak",
+          "definitionEn": "One scoop taken with a spoon.",
+          "definitionKo": "숟가락으로 뜬 한 번의 양이에요."
+        },
+        {
+          "ko": "달걀",
+          "en": "egg",
+          "romanization": "dalgyal",
+          "definitionEn": "A small round kitchen helper in this folktale.",
+          "definitionKo": "이 이야기에서는 굴러다니는 작은 조력자예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "refrain",
+        "emotion": "cozy rhythm",
+        "pageTurnHook": "The refrain begins. Each helper turns one spoonful into one clever promise.",
+        "readAloudCue": "Read with cozy, brave, worried, proud, and comic; let teamwork feel warm and clever; keep pauses clear and musical. invite repeat",
+        "childInteraction": "Tap the spoonful."
+      },
+      "imagePrompt": "Grandmother feeding tiny egg one spoonful of porridge, warm steam heart shape Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with cozy rhythm; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: invite repeat",
+      "animation": {
+        "type": "sharedSpoonfuls",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_006/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_006/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_006/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_006/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "sharedSpoonfuls",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_006/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_006/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/red-bean-porridge-grandma/page-006.png",
+      "imageSource": "assets/books/red-bean-porridge-grandma/page-006.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/red-bean-porridge-grandma/ko/page-006.wav",
+      "ambientAudio": "audio/books/red-bean-porridge-grandma/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/red_bean_grandma.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "red_bean_grandma_007",
+      "pageNumber": 7,
+      "text": {
+        "enLittle": "The straw mat shuffled awake.",
+        "enStandard": "The straw mat shuffled awake. “One spoonful for strength,” said the mat, “and I will spin faster than tiger paws.”",
+        "koLittle": "멍석이 스르륵 깨어났어요.",
+        "koStandard": "멍석이 스르륵 깨어났어요. “힘 한 숟가락만 주세요. 그러면 호랑이 발보다 빨리 빙글 돌게요.”"
+      },
+      "koreanText": "멍석이 스르륵 깨어났어요. “힘 한 숟가락만 주세요. 그러면 호랑이 발보다 빨리 빙글 돌게요.”",
+      "englishText": "The straw mat shuffled awake. “One spoonful for strength,” said the mat, “and I will spin faster than tiger paws.”",
+      "narrationScript": "멍석이 스르륵 깨어났어요. “힘 한 숟가락만 주세요. 그러면 호랑이 발보다 빨리 빙글 돌게요.”",
+      "vocabulary": [
+        {
+          "ko": "멍석",
+          "en": "straw mat",
+          "romanization": "meongseok",
+          "definitionEn": "A woven straw mat used on the floor.",
+          "definitionKo": "짚으로 엮어 바닥에 까는 물건이에요."
+        },
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "helper pattern",
+        "emotion": "playful teamwork",
+        "pageTurnHook": "Second helper promises a trick. Each helper turns one spoonful into one clever promise.",
+        "readAloudCue": "Read with cozy, brave, worried, proud, and comic; let teamwork feel warm and clever; keep pauses clear and musical. rustling mat voice",
+        "childInteraction": "Swipe the mat in a circle."
+      },
+      "imagePrompt": "Straw mat waking up in Korean kitchen, asking for porridge, comic helper energy Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with playful teamwork; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: rustling mat voice",
+      "animation": {
+        "type": "matSpin",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_007/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_007/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_007/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_007/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "matSpin",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_007/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_007/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/red-bean-porridge-grandma/page-007.png",
+      "imageSource": "assets/books/red-bean-porridge-grandma/page-007.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/red-bean-porridge-grandma/ko/page-007.wav",
+      "ambientAudio": "audio/books/red-bean-porridge-grandma/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/red_bean_grandma.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "red_bean_grandma_008",
+      "pageNumber": 8,
+      "text": {
+        "enLittle": "Grandma fed the mat.",
+        "enStandard": "Grandma fed the mat. “One warm spoonful, one clever plan.” The kitchen began to feel less lonely.",
+        "koLittle": "할멈은 멍석에게도 팥죽을 먹였어요.",
+        "koStandard": "할멈은 멍석에게도 팥죽을 먹였어요. “따뜻한 한 숟가락, 슬기로운 한 가지 꾀.” 부엌은 더 이상 혼자 같지 않았지요."
+      },
+      "koreanText": "할멈은 멍석에게도 팥죽을 먹였어요. “따뜻한 한 숟가락, 슬기로운 한 가지 꾀.” 부엌은 더 이상 혼자 같지 않았지요.",
+      "englishText": "Grandma fed the mat. “One warm spoonful, one clever plan.” The kitchen began to feel less lonely.",
+      "narrationScript": "할멈은 멍석에게도 팥죽을 먹였어요. “따뜻한 한 숟가락, 슬기로운 한 가지 꾀.” 부엌은 더 이상 혼자 같지 않았지요.",
+      "refrain": "One warm spoonful, one clever plan!",
+      "vocabulary": [
+        {
+          "ko": "한 숟가락",
+          "en": "one spoonful",
+          "romanization": "han sutgarak",
+          "definitionEn": "One scoop taken with a spoon.",
+          "definitionKo": "숟가락으로 뜬 한 번의 양이에요."
+        },
+        {
+          "ko": "멍석",
+          "en": "straw mat",
+          "romanization": "meongseok",
+          "definitionEn": "A woven straw mat used on the floor.",
+          "definitionKo": "짚으로 엮어 바닥에 까는 물건이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "team warmth",
+        "emotion": "growing comfort",
+        "pageTurnHook": "The team grows. Each helper turns one spoonful into one clever promise.",
+        "readAloudCue": "Read with cozy, brave, worried, proud, and comic; let teamwork feel warm and clever; keep pauses clear and musical. refrain with warmth",
+        "childInteraction": "Tap the kitchen helpers."
+      },
+      "imagePrompt": "Grandmother sharing porridge with straw mat, kitchen glowing with teamwork Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with growing comfort; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: refrain with warmth",
+      "animation": {
+        "type": "helperChorus",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_008/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_008/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_008/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_008/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "helperChorus",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_008/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_008/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/red-bean-porridge-grandma/page-008.png",
+      "imageSource": "assets/books/red-bean-porridge-grandma/page-008.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/red-bean-porridge-grandma/ko/page-008.wav",
+      "ambientAudio": "audio/books/red-bean-porridge-grandma/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/red_bean_grandma.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "red_bean_grandma_009",
+      "pageNumber": 9,
+      "text": {
+        "enLittle": "A softshell turtle peeked from the water jar.",
+        "enStandard": "A softshell turtle peeked from the water jar. “One spoonful for patience,” said Turtle, “and I will wait where waiting matters.”",
+        "koLittle": "물동이에서 자라가 고개를 빼꼼 내밀었어요.",
+        "koStandard": "물동이에서 자라가 고개를 빼꼼 내밀었어요. “참을성 한 숟가락만 주세요. 그러면 기다림이 필요한 곳에서 기다릴게요.”"
+      },
+      "koreanText": "물동이에서 자라가 고개를 빼꼼 내밀었어요. “참을성 한 숟가락만 주세요. 그러면 기다림이 필요한 곳에서 기다릴게요.”",
+      "englishText": "A softshell turtle peeked from the water jar. “One spoonful for patience,” said Turtle, “and I will wait where waiting matters.”",
+      "narrationScript": "물동이에서 자라가 고개를 빼꼼 내밀었어요. “참을성 한 숟가락만 주세요. 그러면 기다림이 필요한 곳에서 기다릴게요.”",
+      "vocabulary": [
+        {
+          "ko": "자라",
+          "en": "softshell turtle",
+          "romanization": "jara",
+          "definitionEn": "A turtle-like animal from Korean ponds and tales.",
+          "definitionKo": "연못에 사는 거북 비슷한 동물이에요."
+        },
+        {
+          "ko": "한 숟가락",
+          "en": "one spoonful",
+          "romanization": "han sutgarak",
+          "definitionEn": "One scoop taken with a spoon.",
+          "definitionKo": "숟가락으로 뜬 한 번의 양이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "helper pattern",
+        "emotion": "quiet cleverness",
+        "pageTurnHook": "A patient helper joins. Each helper turns one spoonful into one clever promise.",
+        "readAloudCue": "Read with cozy, brave, worried, proud, and comic; let teamwork feel warm and clever; keep pauses clear and musical. slow turtle voice",
+        "childInteraction": "Tap the water jar."
+      },
+      "imagePrompt": "Softshell turtle peeking from water jar in warm kitchen, magical folktale helper Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with quiet cleverness; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: slow turtle voice",
+      "animation": {
+        "type": "turtlePeek",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_009/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_009/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_009/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_009/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "turtlePeek",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_009/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_009/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/red-bean-porridge-grandma/page-009.png",
+      "imageSource": "assets/books/red-bean-porridge-grandma/page-009.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/red-bean-porridge-grandma/ko/page-009.wav",
+      "ambientAudio": "audio/books/red-bean-porridge-grandma/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/red_bean_grandma.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "red_bean_grandma_010",
+      "pageNumber": 10,
+      "text": {
+        "enLittle": "Grandma gave Turtle a spoonful.",
+        "enStandard": "Grandma gave Turtle a spoonful. The porridge pot was smaller now, but Grandma’s courage had grown larger.",
+        "koLittle": "할멈은 자라에게도 한 숟가락을 주었어요.",
+        "koStandard": "할멈은 자라에게도 한 숟가락을 주었어요. 팥죽 냄비는 조금 작아졌지만, 할멈의 용기는 더 커졌지요."
+      },
+      "koreanText": "할멈은 자라에게도 한 숟가락을 주었어요. 팥죽 냄비는 조금 작아졌지만, 할멈의 용기는 더 커졌지요.",
+      "englishText": "Grandma gave Turtle a spoonful. The porridge pot was smaller now, but Grandma’s courage had grown larger.",
+      "narrationScript": "할멈은 자라에게도 한 숟가락을 주었어요. 팥죽 냄비는 조금 작아졌지만, 할멈의 용기는 더 커졌지요.",
+      "vocabulary": [
+        {
+          "ko": "팥죽",
+          "en": "red bean porridge",
+          "romanization": "patjuk",
+          "definitionEn": "A warm Korean porridge made with red beans.",
+          "definitionKo": "팥으로 끓인 따뜻한 죽이에요."
+        },
+        {
+          "ko": "자라",
+          "en": "softshell turtle",
+          "romanization": "jara",
+          "definitionEn": "A turtle-like animal from Korean ponds and tales.",
+          "definitionKo": "연못에 사는 거북 비슷한 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "emotional choice",
+        "emotion": "generous courage",
+        "pageTurnHook": "Sharing costs something. Each helper turns one spoonful into one clever promise.",
+        "readAloudCue": "Read with cozy, brave, worried, proud, and comic; let teamwork feel warm and clever; keep pauses clear and musical. gentle emphasis",
+        "childInteraction": "Tap the shrinking pot."
+      },
+      "imagePrompt": "Grandmother giving turtle porridge, pot a little lower, courage glow in kitchen Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with generous courage; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: gentle emphasis",
+      "animation": {
+        "type": "heartLight",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_010/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_010/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_010/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_010/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "heartLight",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_010/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_010/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/red-bean-porridge-grandma/page-010.png",
+      "imageSource": "assets/books/red-bean-porridge-grandma/page-010.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/red-bean-porridge-grandma/ko/page-010.wav",
+      "ambientAudio": "audio/books/red-bean-porridge-grandma/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/red_bean_grandma.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "red_bean_grandma_011",
+      "pageNumber": 11,
+      "text": {
+        "enLittle": "The pestle, the ladle, and even a small chestnut rolled close.",
+        "enStandard": "The pestle, the ladle, and even a small chestnut rolled close. “One spoonful?” they asked together.",
+        "koLittle": "절굿공이와 국자와 작은 밤톨까지 굴러왔어요.",
+        "koStandard": "절굿공이와 국자와 작은 밤톨까지 굴러왔어요. “한 숟가락만요?” 그들이 함께 물었지요."
+      },
+      "koreanText": "절굿공이와 국자와 작은 밤톨까지 굴러왔어요. “한 숟가락만요?” 그들이 함께 물었지요.",
+      "englishText": "The pestle, the ladle, and even a small chestnut rolled close. “One spoonful?” they asked together.",
+      "narrationScript": "절굿공이와 국자와 작은 밤톨까지 굴러왔어요. “한 숟가락만요?” 그들이 함께 물었지요.",
+      "vocabulary": [
+        {
+          "ko": "한 숟가락",
+          "en": "one spoonful",
+          "romanization": "han sutgarak",
+          "definitionEn": "One scoop taken with a spoon.",
+          "definitionKo": "숟가락으로 뜬 한 번의 양이에요."
+        },
+        {
+          "ko": "팥죽",
+          "en": "red bean porridge",
+          "romanization": "patjuk",
+          "definitionEn": "A warm Korean porridge made with red beans.",
+          "definitionKo": "팥으로 끓인 따뜻한 죽이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "helper chorus",
+        "emotion": "delightful abundance",
+        "pageTurnHook": "The kitchen becomes a team. Each helper turns one spoonful into one clever promise.",
+        "readAloudCue": "Read with cozy, brave, worried, proud, and comic; let teamwork feel warm and clever; keep pauses clear and musical. chorus of tiny voices",
+        "childInteraction": "Tap each helper."
+      },
+      "imagePrompt": "Kitchen objects gathering like helpers around grandmother, porridge steam, cozy Korean folktale magic Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with delightful abundance; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: chorus of tiny voices",
+      "animation": {
+        "type": "helperChorus",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_011/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_011/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_011/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_011/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "helperChorus",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_011/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_011/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/red-bean-porridge-grandma/page-011.png",
+      "imageSource": "assets/books/red-bean-porridge-grandma/page-011.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/red-bean-porridge-grandma/ko/page-011.wav",
+      "ambientAudio": "audio/books/red-bean-porridge-grandma/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/red_bean_grandma.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "red_bean_grandma_012",
+      "pageNumber": 12,
+      "text": {
+        "enLittle": "Grandma looked at the pot.",
+        "enStandard": "Grandma looked at the pot. Then she looked at her helpers. “A shared pot is a brave pot,” she said.",
+        "koLittle": "할멈은 냄비를 보고, 조력자들을 보았어요.",
+        "koStandard": "할멈은 냄비를 보고, 조력자들을 보았어요. “나눈 냄비는 용감한 냄비란다.” 할멈이 말했지요."
+      },
+      "koreanText": "할멈은 냄비를 보고, 조력자들을 보았어요. “나눈 냄비는 용감한 냄비란다.” 할멈이 말했지요.",
+      "englishText": "Grandma looked at the pot. Then she looked at her helpers. “A shared pot is a brave pot,” she said.",
+      "narrationScript": "할멈은 냄비를 보고, 조력자들을 보았어요. “나눈 냄비는 용감한 냄비란다.” 할멈이 말했지요.",
+      "vocabulary": [
+        {
+          "ko": "할멈",
+          "en": "grandma",
+          "romanization": "halmeom",
+          "definitionEn": "An old grandmother figure in folktales.",
+          "definitionKo": "옛이야기에 나오는 할머니예요."
+        },
+        {
+          "ko": "팥죽",
+          "en": "red bean porridge",
+          "romanization": "patjuk",
+          "definitionEn": "A warm Korean porridge made with red beans.",
+          "definitionKo": "팥으로 끓인 따뜻한 죽이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "theme",
+        "emotion": "warm resolve",
+        "pageTurnHook": "Grandma chooses trust. Each helper turns one spoonful into one clever promise.",
+        "readAloudCue": "Read with cozy, brave, worried, proud, and comic; let teamwork feel warm and clever; keep pauses clear and musical. wise and warm",
+        "childInteraction": "Tap the pot lid."
+      },
+      "imagePrompt": "Grandmother smiling at gathered helpers, warm porridge pot, snow outside, brave cozy mood Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with warm resolve; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: wise and warm",
+      "animation": {
+        "type": "sharedSpoonfuls",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_012/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_012/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_012/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_012/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "sharedSpoonfuls",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_012/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_012/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/red-bean-porridge-grandma/page-012.png",
+      "imageSource": "assets/books/red-bean-porridge-grandma/page-012.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/red-bean-porridge-grandma/ko/page-012.wav",
+      "ambientAudio": "audio/books/red-bean-porridge-grandma/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/red_bean_grandma.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "red_bean_grandma_013",
+      "pageNumber": 13,
+      "text": {
+        "enLittle": "Everyone took a quiet place in the kitchen plan.",
+        "enStandard": "Together they made a plan: egg at the threshold, mat by the floor, Turtle by the water jar, ladle by the pot, everyone quiet as snow.",
+        "koLittle": "모두 부엌 작전의 자리를 잡았어요.",
+        "koStandard": "그들은 함께 계획을 세웠어요. 달걀은 문턱에, 멍석은 바닥에, 자라는 물동이 옆에, 국자는 냄비 곁에. 모두 눈처럼 조용히요."
+      },
+      "koreanText": "그들은 함께 계획을 세웠어요. 달걀은 문턱에, 멍석은 바닥에, 자라는 물동이 옆에, 국자는 냄비 곁에. 모두 눈처럼 조용히요.",
+      "englishText": "Together they made a plan: egg at the threshold, mat by the floor, Turtle by the water jar, ladle by the pot, everyone quiet as snow.",
+      "narrationScript": "그들은 함께 계획을 세웠어요. 달걀은 문턱에, 멍석은 바닥에, 자라는 물동이 옆에, 국자는 냄비 곁에. 모두 눈처럼 조용히요.",
+      "vocabulary": [
+        {
+          "ko": "문턱",
+          "en": "threshold",
+          "romanization": "munteok",
+          "definitionEn": "The raised edge at the bottom of a doorway.",
+          "definitionKo": "문 아래쪽의 살짝 높은 부분이에요."
+        },
+        {
+          "ko": "달걀",
+          "en": "egg",
+          "romanization": "dalgyal",
+          "definitionEn": "A small round kitchen helper in this folktale.",
+          "definitionKo": "이 이야기에서는 굴러다니는 작은 조력자예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "plan",
+        "emotion": "sneaky teamwork",
+        "pageTurnHook": "The plan is ready before moonrise. The kitchen plan springs one gentle surprise at a time.",
+        "readAloudCue": "Read with cozy, brave, worried, proud, and comic; let teamwork feel warm and clever; keep pauses clear and musical. whispered list",
+        "childInteraction": "Tap each planned spot."
+      },
+      "imagePrompt": "Overhead view of Korean kitchen with helpers taking positions, moonlight, cozy suspense Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with sneaky teamwork; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: whispered list",
+      "animation": {
+        "type": "calmWaiting",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_013/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_013/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_013/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_013/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "calmWaiting",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_013/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_013/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/red-bean-porridge-grandma/page-013.png",
+      "imageSource": "assets/books/red-bean-porridge-grandma/page-013.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/red-bean-porridge-grandma/ko/page-013.wav",
+      "ambientAudio": "audio/books/red-bean-porridge-grandma/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/red_bean_grandma.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "red_bean_grandma_014",
+      "pageNumber": 14,
+      "text": {
+        "enLittle": "Moonrise came.",
+        "enStandard": "Moonrise came. So did the tiger. He pushed the door open with a grin much too wide for one guest.",
+        "koLittle": "달이 떠올랐어요.",
+        "koStandard": "달이 떠올랐어요. 호랑이도 왔지요. 그는 손님 하나치고는 너무 큰 웃음을 지으며 문을 밀었어요."
+      },
+      "koreanText": "달이 떠올랐어요. 호랑이도 왔지요. 그는 손님 하나치고는 너무 큰 웃음을 지으며 문을 밀었어요.",
+      "englishText": "Moonrise came. So did the tiger. He pushed the door open with a grin much too wide for one guest.",
+      "narrationScript": "달이 떠올랐어요. 호랑이도 왔지요. 그는 손님 하나치고는 너무 큰 웃음을 지으며 문을 밀었어요.",
+      "vocabulary": [
+        {
+          "ko": "달",
+          "en": "moon",
+          "romanization": "dal",
+          "definitionEn": "The soft light in the night sky.",
+          "definitionKo": "밤하늘에 뜨는 부드러운 빛이에요."
+        },
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "entry",
+        "emotion": "comic menace",
+        "pageTurnHook": "The tiger enters. The kitchen plan springs one gentle surprise at a time.",
+        "readAloudCue": "Read with cozy, brave, worried, proud, and comic; let teamwork feel warm and clever; keep pauses clear and musical. slow door creak",
+        "childInteraction": "Tap the moonlit door."
+      },
+      "imagePrompt": "Boastful tiger entering kitchen at moonrise, too-wide grin but child-safe, no horror, helpers hidden Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with comic menace; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: slow door creak",
+      "animation": {
+        "type": "doorSteam",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_014/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_014/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_014/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_014/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "doorSteam",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_014/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_014/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/red-bean-porridge-grandma/page-014.png",
+      "imageSource": "assets/books/red-bean-porridge-grandma/page-014.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/red-bean-porridge-grandma/ko/page-014.wav",
+      "ambientAudio": "audio/books/red-bean-porridge-grandma/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/red_bean_grandma.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "red_bean_grandma_015",
+      "pageNumber": 15,
+      "text": {
+        "enLittle": "The egg rolled at the threshold — ddororeu!",
+        "enStandard": "At the threshold, the egg rolled — ddororeu! The tiger stopped so fast his whiskers wiggled.",
+        "koLittle": "문턱에서 달걀이 또르르 굴렀어요.",
+        "koStandard": "문턱에서 달걀이 또르르 굴렀어요. 호랑이는 너무 빨리 멈춰서 수염이 파르르 떨렸지요."
+      },
+      "koreanText": "문턱에서 달걀이 또르르 굴렀어요. 호랑이는 너무 빨리 멈춰서 수염이 파르르 떨렸지요.",
+      "englishText": "At the threshold, the egg rolled — ddororeu! The tiger stopped so fast his whiskers wiggled.",
+      "narrationScript": "문턱에서 달걀이 또르르 굴렀어요. 호랑이는 너무 빨리 멈춰서 수염이 파르르 떨렸지요.",
+      "vocabulary": [
+        {
+          "ko": "달걀",
+          "en": "egg",
+          "romanization": "dalgyal",
+          "definitionEn": "A small round kitchen helper in this folktale.",
+          "definitionKo": "이 이야기에서는 굴러다니는 작은 조력자예요."
+        },
+        {
+          "ko": "문턱",
+          "en": "threshold",
+          "romanization": "munteok",
+          "definitionEn": "The raised edge at the bottom of a doorway.",
+          "definitionKo": "문 아래쪽의 살짝 높은 부분이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "payoff",
+        "emotion": "comic surprise",
+        "pageTurnHook": "The first helper acts. The kitchen plan springs one gentle surprise at a time.",
+        "readAloudCue": "Read with cozy, brave, worried, proud, and comic; let teamwork feel warm and clever; keep pauses clear and musical. bright rolling sound",
+        "childInteraction": "Roll the egg."
+      },
+      "imagePrompt": "Egg rolling across threshold, tiger halting with wiggling whiskers, slapstick safe Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with comic surprise; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: bright rolling sound",
+      "animation": {
+        "type": "thresholdRoll",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_015/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_015/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_015/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_015/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "thresholdRoll",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_015/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_015/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/red-bean-porridge-grandma/page-015.png",
+      "imageSource": "assets/books/red-bean-porridge-grandma/page-015.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/red-bean-porridge-grandma/ko/page-015.wav",
+      "ambientAudio": "audio/books/red-bean-porridge-grandma/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/red_bean_grandma.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "red_bean_grandma_016",
+      "pageNumber": 16,
+      "text": {
+        "enLittle": "The mat spun until the tiger got mixed up.",
+        "enStandard": "The mat spun — whish, whish! The tiger’s paws forgot which way was forward.",
+        "koLittle": "멍석이 빙글 돌아 호랑이가 헷갈렸어요.",
+        "koStandard": "멍석이 휙, 휙 돌았어요! 호랑이 발은 어느 쪽이 앞으로 가는 길인지 잊어버렸지요."
+      },
+      "koreanText": "멍석이 휙, 휙 돌았어요! 호랑이 발은 어느 쪽이 앞으로 가는 길인지 잊어버렸지요.",
+      "englishText": "The mat spun — whish, whish! The tiger’s paws forgot which way was forward.",
+      "narrationScript": "멍석이 휙, 휙 돌았어요! 호랑이 발은 어느 쪽이 앞으로 가는 길인지 잊어버렸지요.",
+      "vocabulary": [
+        {
+          "ko": "멍석",
+          "en": "straw mat",
+          "romanization": "meongseok",
+          "definitionEn": "A woven straw mat used on the floor.",
+          "definitionKo": "짚으로 엮어 바닥에 까는 물건이에요."
+        },
+        {
+          "ko": "발",
+          "en": "paw",
+          "romanization": "bal",
+          "definitionEn": "An animal foot.",
+          "definitionKo": "동물의 발이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "payoff",
+        "emotion": "laughing chaos",
+        "pageTurnHook": "The second helper confuses him. The kitchen plan springs one gentle surprise at a time.",
+        "readAloudCue": "Read with cozy, brave, worried, proud, and comic; let teamwork feel warm and clever; keep pauses clear and musical. spin rhythm",
+        "childInteraction": "Swipe in a circle."
+      },
+      "imagePrompt": "Straw mat spinning under tiger paws, comic wobble, kitchen safe and warm Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with laughing chaos; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: spin rhythm",
+      "animation": {
+        "type": "matSpin",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_016/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_016/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_016/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_016/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "matSpin",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_016/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_016/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/red-bean-porridge-grandma/page-016.png",
+      "imageSource": "assets/books/red-bean-porridge-grandma/page-016.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/red-bean-porridge-grandma/ko/page-016.wav",
+      "ambientAudio": "audio/books/red-bean-porridge-grandma/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/red_bean_grandma.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "red_bean_grandma_017",
+      "pageNumber": 17,
+      "text": {
+        "enLittle": "Turtle waited until the perfect moment, then splashed one careful splash.",
+        "enStandard": "Turtle waited until the perfect moment, then splashed one careful splash. The tiger sat down in a bowl of cold water.",
+        "koLittle": "자라는 딱 좋은 순간까지 기다렸다가 조심스러운 물 한 번을 찰박 튀겼어요.",
+        "koStandard": "자라는 딱 좋은 순간까지 기다렸다가 조심스러운 물 한 번을 찰박 튀겼어요. 호랑이는 찬물 그릇에 철퍼덕 앉았지요."
+      },
+      "koreanText": "자라는 딱 좋은 순간까지 기다렸다가 조심스러운 물 한 번을 찰박 튀겼어요. 호랑이는 찬물 그릇에 철퍼덕 앉았지요.",
+      "englishText": "Turtle waited until the perfect moment, then splashed one careful splash. The tiger sat down in a bowl of cold water.",
+      "narrationScript": "자라는 딱 좋은 순간까지 기다렸다가 조심스러운 물 한 번을 찰박 튀겼어요. 호랑이는 찬물 그릇에 철퍼덕 앉았지요.",
+      "vocabulary": [
+        {
+          "ko": "자라",
+          "en": "softshell turtle",
+          "romanization": "jara",
+          "definitionEn": "A turtle-like animal from Korean ponds and tales.",
+          "definitionKo": "연못에 사는 거북 비슷한 동물이에요."
+        },
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "payoff",
+        "emotion": "slapstick relief",
+        "pageTurnHook": "Patience wins. The kitchen plan springs one gentle surprise at a time.",
+        "readAloudCue": "Read with cozy, brave, worried, proud, and comic; let teamwork feel warm and clever; keep pauses clear and musical. pause before splash",
+        "childInteraction": "Tap Turtle’s splash."
+      },
+      "imagePrompt": "Softshell turtle splashing water, tiger sitting in bowl comically, no harm Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with slapstick relief; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: pause before splash",
+      "animation": {
+        "type": "comicSplash",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_017/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_017/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_017/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_017/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "comicSplash",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_017/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_017/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/red-bean-porridge-grandma/page-017.png",
+      "imageSource": "assets/books/red-bean-porridge-grandma/page-017.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/red-bean-porridge-grandma/ko/page-017.wav",
+      "ambientAudio": "audio/books/red-bean-porridge-grandma/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/red_bean_grandma.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "red_bean_grandma_018",
+      "pageNumber": 18,
+      "text": {
+        "enLittle": "The ladle lifted one drop of porridge and placed it on the tiger’s nose.",
+        "enStandard": "The ladle lifted one drop of porridge and placed it on the tiger’s nose. It was warm, sweet, and impossible to be angry at.",
+        "koLittle": "국자는 팥죽 한 방울을 떠서 호랑이 코에 얹었어요.",
+        "koStandard": "국자는 팥죽 한 방울을 떠서 호랑이 코에 얹었어요. 그건 따뜻하고 달콤해서 화내기가 어려운 맛이었지요."
+      },
+      "koreanText": "국자는 팥죽 한 방울을 떠서 호랑이 코에 얹었어요. 그건 따뜻하고 달콤해서 화내기가 어려운 맛이었지요.",
+      "englishText": "The ladle lifted one drop of porridge and placed it on the tiger’s nose. It was warm, sweet, and impossible to be angry at.",
+      "narrationScript": "국자는 팥죽 한 방울을 떠서 호랑이 코에 얹었어요. 그건 따뜻하고 달콤해서 화내기가 어려운 맛이었지요.",
+      "vocabulary": [
+        {
+          "ko": "팥죽",
+          "en": "red bean porridge",
+          "romanization": "patjuk",
+          "definitionEn": "A warm Korean porridge made with red beans.",
+          "definitionKo": "팥으로 끓인 따뜻한 죽이에요."
+        },
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "turning point",
+        "emotion": "softened surprise",
+        "pageTurnHook": "Food changes the mood. The kitchen plan springs one gentle surprise at a time.",
+        "readAloudCue": "Read with cozy, brave, worried, proud, and comic; let teamwork feel warm and clever; keep pauses clear and musical. gentle comic wonder",
+        "childInteraction": "Tap tiger’s nose."
+      },
+      "imagePrompt": "Ladle placing tiny porridge drop on tiger nose, tiger surprised and softening, warm kitchen Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with softened surprise; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: gentle comic wonder",
+      "animation": {
+        "type": "noseTwitch",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_018/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_018/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_018/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_018/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "noseTwitch",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_018/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_018/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/red-bean-porridge-grandma/page-018.png",
+      "imageSource": "assets/books/red-bean-porridge-grandma/page-018.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/red-bean-porridge-grandma/ko/page-018.wav",
+      "ambientAudio": "audio/books/red-bean-porridge-grandma/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/red_bean_grandma.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "red_bean_grandma_019",
+      "pageNumber": 19,
+      "text": {
+        "enLittle": "The tiger blinked.",
+        "enStandard": "The tiger blinked. “I was going to take the whole pot,” he said. “That was very rude of me.”",
+        "koLittle": "호랑이가 눈을 깜박였어요.",
+        "koStandard": "호랑이가 눈을 깜박였어요. “냄비를 통째로 가져가려 했는데.” 그가 말했지요. “그건 참 무례했구나.”"
+      },
+      "koreanText": "호랑이가 눈을 깜박였어요. “냄비를 통째로 가져가려 했는데.” 그가 말했지요. “그건 참 무례했구나.”",
+      "englishText": "The tiger blinked. “I was going to take the whole pot,” he said. “That was very rude of me.”",
+      "narrationScript": "호랑이가 눈을 깜박였어요. “냄비를 통째로 가져가려 했는데.” 그가 말했지요. “그건 참 무례했구나.”",
+      "vocabulary": [
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        },
+        {
+          "ko": "팥죽",
+          "en": "red bean porridge",
+          "romanization": "patjuk",
+          "definitionEn": "A warm Korean porridge made with red beans.",
+          "definitionKo": "팥으로 끓인 따뜻한 죽이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "realization",
+        "emotion": "comic humility",
+        "pageTurnHook": "The bully names his mistake. The tiger has to repair the mess before he can share the meal.",
+        "readAloudCue": "Read with cozy, brave, worried, proud, and comic; let teamwork feel warm and clever; keep pauses clear and musical. sheepish tiger voice",
+        "childInteraction": "Tap the apology bubble area."
+      },
+      "imagePrompt": "Tiger sitting sheepishly in kitchen with helpers around him, no text, apology mood Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with comic humility; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: sheepish tiger voice",
+      "animation": {
+        "type": "apologyBowl",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_019/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_019/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_019/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_019/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "apologyBowl",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_019/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_019/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/red-bean-porridge-grandma/page-019.png",
+      "imageSource": "assets/books/red-bean-porridge-grandma/page-019.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/red-bean-porridge-grandma/ko/page-019.wav",
+      "ambientAudio": "audio/books/red-bean-porridge-grandma/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/red_bean_grandma.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "red_bean_grandma_020",
+      "pageNumber": 20,
+      "text": {
+        "enLittle": "Grandma folded her arms.",
+        "enStandard": "Grandma folded her arms. “Rude guests may become helpful guests,” she said, “if they wash bowls.”",
+        "koLittle": "할멈은 팔짱을 꼈어요.",
+        "koStandard": "할멈은 팔짱을 꼈어요. “무례한 손님도 그릇을 씻으면 쓸모 있는 손님이 될 수 있지.”"
+      },
+      "koreanText": "할멈은 팔짱을 꼈어요. “무례한 손님도 그릇을 씻으면 쓸모 있는 손님이 될 수 있지.”",
+      "englishText": "Grandma folded her arms. “Rude guests may become helpful guests,” she said, “if they wash bowls.”",
+      "narrationScript": "할멈은 팔짱을 꼈어요. “무례한 손님도 그릇을 씻으면 쓸모 있는 손님이 될 수 있지.”",
+      "vocabulary": [
+        {
+          "ko": "할멈",
+          "en": "grandma",
+          "romanization": "halmeom",
+          "definitionEn": "An old grandmother figure in folktales.",
+          "definitionKo": "옛이야기에 나오는 할머니예요."
+        },
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "repair",
+        "emotion": "firm humor",
+        "pageTurnHook": "He must repair, not just apologize. The tiger has to repair the mess before he can share the meal.",
+        "readAloudCue": "Read with cozy, brave, worried, proud, and comic; let teamwork feel warm and clever; keep pauses clear and musical. dry, kind authority",
+        "childInteraction": "Tap the bowl stack."
+      },
+      "imagePrompt": "Grandmother pointing to bowls, tiger ready to help, kitchen helpers amused Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with firm humor; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: dry, kind authority",
+      "animation": {
+        "type": "sweepingRhythm",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_020/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_020/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_020/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_020/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "sweepingRhythm",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_020/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_020/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/red-bean-porridge-grandma/page-020.png",
+      "imageSource": "assets/books/red-bean-porridge-grandma/page-020.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/red-bean-porridge-grandma/ko/page-020.wav",
+      "ambientAudio": "audio/books/red-bean-porridge-grandma/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/red_bean_grandma.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "red_bean_grandma_021",
+      "pageNumber": 21,
+      "text": {
+        "enLittle": "So the tiger washed bowls.",
+        "enStandard": "So the tiger washed bowls. He washed one, then five, then so many that the moon looked sleepy.",
+        "koLittle": "그래서 호랑이는 그릇을 씻었어요.",
+        "koStandard": "그래서 호랑이는 그릇을 씻었어요. 하나, 다섯, 그리고 달이 졸려 보일 만큼 많이 씻었지요."
+      },
+      "koreanText": "그래서 호랑이는 그릇을 씻었어요. 하나, 다섯, 그리고 달이 졸려 보일 만큼 많이 씻었지요.",
+      "englishText": "So the tiger washed bowls. He washed one, then five, then so many that the moon looked sleepy.",
+      "narrationScript": "그래서 호랑이는 그릇을 씻었어요. 하나, 다섯, 그리고 달이 졸려 보일 만큼 많이 씻었지요.",
+      "vocabulary": [
+        {
+          "ko": "달",
+          "en": "moon",
+          "romanization": "dal",
+          "definitionEn": "The soft light in the night sky.",
+          "definitionKo": "밤하늘에 뜨는 부드러운 빛이에요."
+        },
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "repair montage",
+        "emotion": "funny effort",
+        "pageTurnHook": "Repair takes work. The tiger has to repair the mess before he can share the meal.",
+        "readAloudCue": "Read with cozy, brave, worried, proud, and comic; let teamwork feel warm and clever; keep pauses clear and musical. counting rhythm",
+        "childInteraction": "Tap clean bowls."
+      },
+      "imagePrompt": "Tiger washing many bowls in moonlit kitchen, comic diligence, helpers watching Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with funny effort; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: counting rhythm",
+      "animation": {
+        "type": "sweepingRhythm",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_021/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_021/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_021/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_021/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "sweepingRhythm",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_021/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_021/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/red-bean-porridge-grandma/page-021.png",
+      "imageSource": "assets/books/red-bean-porridge-grandma/page-021.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/red-bean-porridge-grandma/ko/page-021.wav",
+      "ambientAudio": "audio/books/red-bean-porridge-grandma/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/red_bean_grandma.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "red_bean_grandma_022",
+      "pageNumber": 22,
+      "text": {
+        "enLittle": "At last Grandma served porridge in small bowls.",
+        "enStandard": "At last Grandma served porridge in small bowls. “One warm spoonful,” said the egg. “One clever plan,” said the mat. “One shared table,” said Grandma.",
+        "koLittle": "마침내 할멈은 작은 그릇들에 팥죽을 담았어요.",
+        "koStandard": "마침내 할멈은 작은 그릇들에 팥죽을 담았어요. “따뜻한 한 숟가락.” 달걀이 말했어요. “슬기로운 한 가지 꾀.” 멍석이 말했어요. “함께 나누는 밥상.” 할멈이 말했지요."
+      },
+      "koreanText": "마침내 할멈은 작은 그릇들에 팥죽을 담았어요. “따뜻한 한 숟가락.” 달걀이 말했어요. “슬기로운 한 가지 꾀.” 멍석이 말했어요. “함께 나누는 밥상.” 할멈이 말했지요.",
+      "englishText": "At last Grandma served porridge in small bowls. “One warm spoonful,” said the egg. “One clever plan,” said the mat. “One shared table,” said Grandma.",
+      "narrationScript": "마침내 할멈은 작은 그릇들에 팥죽을 담았어요. “따뜻한 한 숟가락.” 달걀이 말했어요. “슬기로운 한 가지 꾀.” 멍석이 말했어요. “함께 나누는 밥상.” 할멈이 말했지요.",
+      "refrain": "One warm spoonful, one clever plan!",
+      "vocabulary": [
+        {
+          "ko": "팥죽",
+          "en": "red bean porridge",
+          "romanization": "patjuk",
+          "definitionEn": "A warm Korean porridge made with red beans.",
+          "definitionKo": "팥으로 끓인 따뜻한 죽이에요."
+        },
+        {
+          "ko": "한 숟가락",
+          "en": "one spoonful",
+          "romanization": "han sutgarak",
+          "definitionEn": "One scoop taken with a spoon.",
+          "definitionKo": "숟가락으로 뜬 한 번의 양이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "refrain payoff",
+        "emotion": "cozy celebration",
+        "pageTurnHook": "The refrain expands. The tiger has to repair the mess before he can share the meal.",
+        "readAloudCue": "Read with cozy, brave, worried, proud, and comic; let teamwork feel warm and clever; keep pauses clear and musical. choral, warm",
+        "childInteraction": "Tap each bowl."
+      },
+      "imagePrompt": "Everyone sharing red bean porridge around low table, tiger polite, helpers included Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with cozy celebration; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: choral, warm",
+      "animation": {
+        "type": "sharedSpoonfuls",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_022/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_022/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_022/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_022/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "sharedSpoonfuls",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_022/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_022/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/red-bean-porridge-grandma/page-022.png",
+      "imageSource": "assets/books/red-bean-porridge-grandma/page-022.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/red-bean-porridge-grandma/ko/page-022.wav",
+      "ambientAudio": "audio/books/red-bean-porridge-grandma/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/red_bean_grandma.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "red_bean_grandma_023",
+      "pageNumber": 23,
+      "text": {
+        "enLittle": "The tiger took the smallest bowl first.",
+        "enStandard": "The tiger took the smallest bowl first. “May I have more?” he asked. Everyone gasped. Then everyone laughed.",
+        "koLittle": "호랑이는 가장 작은 그릇부터 들었어요.",
+        "koStandard": "호랑이는 가장 작은 그릇부터 들었어요. “더 먹어도 될까요?” 그가 물었지요. 모두가 놀랐다가, 모두가 웃었어요."
+      },
+      "koreanText": "호랑이는 가장 작은 그릇부터 들었어요. “더 먹어도 될까요?” 그가 물었지요. 모두가 놀랐다가, 모두가 웃었어요.",
+      "englishText": "The tiger took the smallest bowl first. “May I have more?” he asked. Everyone gasped. Then everyone laughed.",
+      "narrationScript": "호랑이는 가장 작은 그릇부터 들었어요. “더 먹어도 될까요?” 그가 물었지요. 모두가 놀랐다가, 모두가 웃었어요.",
+      "vocabulary": [
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        },
+        {
+          "ko": "팥죽",
+          "en": "red bean porridge",
+          "romanization": "patjuk",
+          "definitionEn": "A warm Korean porridge made with red beans.",
+          "definitionKo": "팥으로 끓인 따뜻한 죽이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "manners",
+        "emotion": "comic relief",
+        "pageTurnHook": "He asks politely at last. The warm ending keeps the refrain ready for another telling.",
+        "readAloudCue": "Read with cozy, brave, worried, proud, and comic; let teamwork feel warm and clever; keep pauses clear and musical. pause, then laughter",
+        "childInteraction": "Tap the tiny bowl."
+      },
+      "imagePrompt": "Tiger holding tiny bowl politely, grandmother and helpers laughing warmly Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with comic relief; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: pause, then laughter",
+      "animation": {
+        "type": "friendlyLaugh",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_023/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_023/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_023/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_023/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "friendlyLaugh",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_023/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_023/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/red-bean-porridge-grandma/page-023.png",
+      "imageSource": "assets/books/red-bean-porridge-grandma/page-023.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/red-bean-porridge-grandma/ko/page-023.wav",
+      "ambientAudio": "audio/books/red-bean-porridge-grandma/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/red_bean_grandma.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "red_bean_grandma_024",
+      "pageNumber": 24,
+      "text": {
+        "enLittle": "Outside, snow kept falling.",
+        "enStandard": "Outside, snow kept falling. Inside, the kitchen smelled of red beans, clean bowls, and one tiger learning manners.",
+        "koLittle": "밖에는 눈이 계속 내렸어요.",
+        "koStandard": "밖에는 눈이 계속 내렸어요. 안에는 팥 냄새와 깨끗한 그릇 냄새와 예절을 배우는 호랑이 냄새가 났지요."
+      },
+      "koreanText": "밖에는 눈이 계속 내렸어요. 안에는 팥 냄새와 깨끗한 그릇 냄새와 예절을 배우는 호랑이 냄새가 났지요.",
+      "englishText": "Outside, snow kept falling. Inside, the kitchen smelled of red beans, clean bowls, and one tiger learning manners.",
+      "narrationScript": "밖에는 눈이 계속 내렸어요. 안에는 팥 냄새와 깨끗한 그릇 냄새와 예절을 배우는 호랑이 냄새가 났지요.",
+      "vocabulary": [
+        {
+          "ko": "팥죽",
+          "en": "red bean porridge",
+          "romanization": "patjuk",
+          "definitionEn": "A warm Korean porridge made with red beans.",
+          "definitionKo": "팥으로 끓인 따뜻한 죽이에요."
+        },
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "sensory close",
+        "emotion": "cozy humor",
+        "pageTurnHook": "The smell list becomes a joke. The warm ending keeps the refrain ready for another telling.",
+        "readAloudCue": "Read with cozy, brave, worried, proud, and comic; let teamwork feel warm and clever; keep pauses clear and musical. sniff each phrase",
+        "childInteraction": "Tap the steam curls."
+      },
+      "imagePrompt": "Warm kitchen in snow, tiger sitting politely, steam curls, grandmother smiling Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with cozy humor; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: sniff each phrase",
+      "animation": {
+        "type": "winterSharing",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_024/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_024/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_024/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_024/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "winterSharing",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_024/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_024/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/red-bean-porridge-grandma/page-024.png",
+      "imageSource": "assets/books/red-bean-porridge-grandma/page-024.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/red-bean-porridge-grandma/ko/page-024.wav",
+      "ambientAudio": "audio/books/red-bean-porridge-grandma/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/red_bean_grandma.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "red_bean_grandma_025",
+      "pageNumber": 25,
+      "text": {
+        "enLittle": "Whenever the pot bubbled after that, helpers gathered close.",
+        "enStandard": "Whenever the pot bubbled after that, helpers gathered close. Not because they were afraid, but because sharing had made them a family.",
+        "koLittle": "그 뒤로 냄비가 보글보글 끓을 때마다 조력자들이 모였어요.",
+        "koStandard": "그 뒤로 냄비가 보글보글 끓을 때마다 조력자들이 모였어요. 무서워서가 아니라, 나눔이 그들을 한 가족처럼 만들었기 때문이지요."
+      },
+      "koreanText": "그 뒤로 냄비가 보글보글 끓을 때마다 조력자들이 모였어요. 무서워서가 아니라, 나눔이 그들을 한 가족처럼 만들었기 때문이지요.",
+      "englishText": "Whenever the pot bubbled after that, helpers gathered close. Not because they were afraid, but because sharing had made them a family.",
+      "narrationScript": "그 뒤로 냄비가 보글보글 끓을 때마다 조력자들이 모였어요. 무서워서가 아니라, 나눔이 그들을 한 가족처럼 만들었기 때문이지요.",
+      "vocabulary": [
+        {
+          "ko": "팥죽",
+          "en": "red bean porridge",
+          "romanization": "patjuk",
+          "definitionEn": "A warm Korean porridge made with red beans.",
+          "definitionKo": "팥으로 끓인 따뜻한 죽이에요."
+        },
+        {
+          "ko": "착한 마음",
+          "en": "kindness",
+          "romanization": "chakan maeum",
+          "definitionEn": "A caring choice that helps someone.",
+          "definitionKo": "누군가를 도와주는 따뜻한 마음이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "emotional payoff",
+        "emotion": "belonging",
+        "pageTurnHook": "The helper team remains. The ending invites a quiet reread and one last echo of the refrain.",
+        "readAloudCue": "Read with cozy, brave, worried, proud, and comic; let teamwork feel warm and clever; keep pauses clear and musical. soft belonging",
+        "childInteraction": "Tap each helper family member."
+      },
+      "imagePrompt": "Grandmother and kitchen helpers around bubbling pot, family warmth, winter night Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with belonging; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: soft belonging",
+      "animation": {
+        "type": "heartLight",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_025/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_025/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_025/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_025/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "heartLight",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_025/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_025/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/red-bean-porridge-grandma/page-025.png",
+      "imageSource": "assets/books/red-bean-porridge-grandma/page-025.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/red-bean-porridge-grandma/ko/page-025.wav",
+      "ambientAudio": "audio/books/red-bean-porridge-grandma/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/red_bean_grandma.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "red_bean_grandma_026",
+      "pageNumber": 26,
+      "text": {
+        "enLittle": "Grandma remembered: one warm spoonful, one clever plan.",
+        "enStandard": "And if a rude guest ever thumped at the door again, Grandma knew just what to say: “One warm spoonful, one clever plan.”",
+        "koLittle": "할멈은 기억했어요. 따뜻한 한 숟가락, 슬기로운 꾀.",
+        "koStandard": "그리고 무례한 손님이 다시 문을 쿵쿵 두드린다면, 할멈은 무슨 말을 해야 할지 알았어요. “따뜻한 한 숟가락, 슬기로운 한 가지 꾀.”"
+      },
+      "koreanText": "그리고 무례한 손님이 다시 문을 쿵쿵 두드린다면, 할멈은 무슨 말을 해야 할지 알았어요. “따뜻한 한 숟가락, 슬기로운 한 가지 꾀.”",
+      "englishText": "And if a rude guest ever thumped at the door again, Grandma knew just what to say: “One warm spoonful, one clever plan.”",
+      "narrationScript": "그리고 무례한 손님이 다시 문을 쿵쿵 두드린다면, 할멈은 무슨 말을 해야 할지 알았어요. “따뜻한 한 숟가락, 슬기로운 한 가지 꾀.”",
+      "refrain": "One warm spoonful, one clever plan!",
+      "vocabulary": [
+        {
+          "ko": "문턱",
+          "en": "threshold",
+          "romanization": "munteok",
+          "definitionEn": "The raised edge at the bottom of a doorway.",
+          "definitionKo": "문 아래쪽의 살짝 높은 부분이에요."
+        },
+        {
+          "ko": "한 숟가락",
+          "en": "one spoonful",
+          "romanization": "han sutgarak",
+          "definitionEn": "One scoop taken with a spoon.",
+          "definitionKo": "숟가락으로 뜬 한 번의 양이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "closing",
+        "emotion": "confident coziness",
+        "pageTurnHook": "The refrain closes the book. The ending invites a quiet reread and one last echo of the refrain.",
+        "readAloudCue": "Read with cozy, brave, worried, proud, and comic; let teamwork feel warm and clever; keep pauses clear and musical. invite final repeat",
+        "childInteraction": "Tap the door, then the spoon."
+      },
+      "imagePrompt": "Cozy cottage door in snow, warm light inside, spoon and porridge pot glowing, confident ending Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with confident coziness; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: invite final repeat",
+      "animation": {
+        "type": "bedtimeGlow",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_026/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_026/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_026/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_026/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "bedtimeGlow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_026/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/red-bean-porridge-grandma/red_bean_grandma_026/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/red-bean-porridge-grandma/page-026.png",
+      "imageSource": "assets/books/red-bean-porridge-grandma/page-026.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/red-bean-porridge-grandma/ko/page-026.wav",
+      "ambientAudio": "audio/books/red-bean-porridge-grandma/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/red_bean_grandma.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    }
+  ],
+  "coverAsset": "assets/books/red-bean-porridge-grandma/cover.png",
+  "coverAssetStatus": "placeholder",
+  "characterBible": "characters/red_bean_grandma.character_bible.json",
+  "narrationAudioStatus": "synthetic_draft"
+}

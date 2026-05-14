@@ -1,0 +1,3091 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "book.byeoljubu",
+  "slug": "byeoljubu",
+  "title": {
+    "ko": "별주부전",
+    "en": "The Turtle Envoy"
+  },
+  "access": "premium",
+  "ageRange": "4-8",
+  "estimatedMinutes": 11,
+  "summary": "Turtle envoy seeks Rabbit's liver for the sea king, learns the cost of court pressure, and returns wiser after Rabbit escapes with words.",
+  "coverAsset": "assets/books/byeoljubu/cover.png",
+  "coverAssetStatus": "placeholder",
+  "characterBible": "characters/byeoljubu.character_bible.json",
+  "narrationAudioStatus": "synthetic_draft",
+  "adaptationVersions": {
+    "default": "English-first bilingual semantic-authenticity repair draft",
+    "plannedAlternate": "External editor pass after children’s editorial and Korean-language review",
+    "note": "Generated repo-local repair draft; not external human final."
+  },
+  "sensitivityNotes": [
+    "The liver request remains abstract and non-graphic.",
+    "Repaired by repo-local semantic authenticity pass; external children’s editor, Korean-language, cultural, and child-safety review remain required before final release."
+  ],
+  "themes": [
+    "wisdom",
+    "sea",
+    "truth",
+    "pressure",
+    "mercy"
+  ],
+  "characters": [
+    "turtle",
+    "rabbit",
+    "sea_king",
+    "pearl_map"
+  ],
+  "pages": [
+    {
+      "id": "byeoljubu_001",
+      "pageNumber": 1,
+      "text": {
+        "enLittle": "The sea king lay behind pearl curtains while doctors whispered of a rabbit liver.",
+        "enStandard": "In the sea palace, first, the Sea King lay behind pearl curtains while doctors whispered of a rabbit liver. \"I will answer carefully,\" came the reply.",
+        "koLittle": "별주부와 토끼가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "별주부와 토끼가 있는 옛이야기 길에서 별주부와 토끼가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "별주부와 토끼가 있는 옛이야기 길에서 별주부와 토끼가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the sea palace, first, the Sea King lay behind pearl curtains while doctors whispered of a rabbit liver. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "별주부와 토끼가 있는 옛이야기 길에서 별주부와 토끼가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "별주부",
+          "en": "Turtle Envoy",
+          "romanization": "Byeoljubu",
+          "definitionEn": "The turtle sent from the sea palace.",
+          "definitionKo": "바닷속 궁에서 온 자라 신하예요."
+        },
+        {
+          "ko": "용왕",
+          "en": "Sea King",
+          "romanization": "yongwang",
+          "definitionEn": "The ruler of the sea palace.",
+          "definitionKo": "바닷속 궁의 임금이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "sea king sends Turtle for a cure (sick sea court)",
+        "emotion": "worried duty",
+        "pageTurnHook": "Then the next part of sick sea court will ask for a braver choice, and the story moves toward land search.",
+        "readAloudCue": "Read with worried duty; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap sea palace."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/byeoljubu.character_bible.json. Page 1 for 별주부전 / The Turtle Envoy: sea palace; specific beat: the Sea King lay behind pearl curtains while doctors whispered of a rabbit liver; emotional tone: worried duty; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/byeoljubu/page-001.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with worried duty; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/byeoljubu/ko/page-001.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/byeoljubu/ambient/ambient-loop.wav",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_001/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_001/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_001/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_001/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_001/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_001/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "byeoljubu_002",
+      "pageNumber": 2,
+      "text": {
+        "enLittle": "Turtle envoy bowed.",
+        "enStandard": "In the sea palace, next, Turtle Envoy bowed, but the word cure felt heavier than his shell. \"Then walk gently,\" the elder said.",
+        "koLittle": "용왕 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "별주부와 토끼가 있는 옛이야기 길에서 용왕 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "별주부와 토끼가 있는 옛이야기 길에서 용왕 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the sea palace, next, Turtle Envoy bowed, but the word cure felt heavier than his shell. \"Then walk gently,\" the elder said.",
+      "narrationScript": "별주부와 토끼가 있는 옛이야기 길에서 용왕 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "토끼",
+          "en": "rabbit",
+          "romanization": "tokki",
+          "definitionEn": "A quick forest animal.",
+          "definitionKo": "빠른 숲속 동물이에요."
+        },
+        {
+          "ko": "간",
+          "en": "liver",
+          "romanization": "gan",
+          "definitionEn": "A body part mentioned abstractly.",
+          "definitionKo": "자세히 보이지 않는 몸속 기관이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "sea king sends Turtle for a cure (sick sea court)",
+        "emotion": "worried duty",
+        "pageTurnHook": "Then the next part of sick sea court will ask for a braver choice, and the story moves toward land search.",
+        "readAloudCue": "Read with worried duty; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace sea palace."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/byeoljubu.character_bible.json. Page 2 for 별주부전 / The Turtle Envoy: sea palace; specific beat: Turtle Envoy bowed, but the word cure felt heavier than his shell; emotional tone: worried duty; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/byeoljubu/page-002.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with worried duty; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/byeoljubu/ko/page-002.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/byeoljubu/ambient/ambient-loop.wav",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_002/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_002/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_002/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_002/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_002/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_002/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "byeoljubu_003",
+      "pageNumber": 3,
+      "text": {
+        "enLittle": "Waves carried the order toward land.",
+        "enStandard": "In the sea palace, quietly, waves carried the order toward land. \"I am still learning,\" the child answered.",
+        "koLittle": "별주부를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "별주부와 토끼가 있는 옛이야기 길에서 별주부를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "별주부와 토끼가 있는 옛이야기 길에서 별주부를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the sea palace, quietly, waves carried the order toward land. \"I am still learning,\" the child answered.",
+      "narrationScript": "별주부와 토끼가 있는 옛이야기 길에서 별주부를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "용왕",
+          "en": "Sea King",
+          "romanization": "yongwang",
+          "definitionEn": "The ruler of the sea palace.",
+          "definitionKo": "바닷속 궁의 임금이에요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "sea king sends Turtle for a cure (sick sea court)",
+        "emotion": "worried duty",
+        "pageTurnHook": "Then the next part of sick sea court will ask for a braver choice, and the story moves toward land search.",
+        "readAloudCue": "Read with worried duty; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count sea palace."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/byeoljubu.character_bible.json. Page 3 for 별주부전 / The Turtle Envoy: sea palace; specific beat: waves carried the order toward land; emotional tone: worried duty; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/byeoljubu/page-003.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with worried duty; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/byeoljubu/ko/page-003.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/byeoljubu/ambient/ambient-loop.wav",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_003/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_003/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_003/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_003/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_003/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_003/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "byeoljubu_004",
+      "pageNumber": 4,
+      "text": {
+        "enLittle": "No one asked rabbit yet.",
+        "enStandard": "In the sea palace, with the moon high, no one asked Rabbit yet. \"Tell me the truth,\" someone said.",
+        "koLittle": "간의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "별주부와 토끼가 있는 옛이야기 길에서 간의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "별주부와 토끼가 있는 옛이야기 길에서 간의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the sea palace, with the moon high, no one asked Rabbit yet. \"Tell me the truth,\" someone said.",
+      "narrationScript": "별주부와 토끼가 있는 옛이야기 길에서 간의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "간",
+          "en": "liver",
+          "romanization": "gan",
+          "definitionEn": "A body part mentioned abstractly.",
+          "definitionKo": "자세히 보이지 않는 몸속 기관이에요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "sea king sends Turtle for a cure (sick sea court)",
+        "emotion": "worried duty",
+        "pageTurnHook": "Then the next part of sick sea court will ask for a braver choice, and the story moves toward land search.",
+        "readAloudCue": "Read with worried duty; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold sea palace."
+      },
+      "refrain": "Words can find the shore.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/byeoljubu.character_bible.json. Page 4 for 별주부전 / The Turtle Envoy: sea palace; specific beat: no one asked Rabbit yet; emotional tone: worried duty; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/byeoljubu/page-004.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with worried duty; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/byeoljubu/ko/page-004.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/byeoljubu/ambient/ambient-loop.wav",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_004/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_004/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_004/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_004/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_004/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_004/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "말은 물가를 찾을 수 있어."
+    },
+    {
+      "id": "byeoljubu_005",
+      "pageNumber": 5,
+      "text": {
+        "enLittle": "The sea king lay behind pearl curtains while doctors whispered of a rabbit liver.",
+        "enStandard": "In the sea palace, before dawn, the Sea King lay behind pearl curtains while doctors whispered of a rabbit liver. \"I will answer carefully,\" came the reply.",
+        "koLittle": "별주부와 토끼가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "별주부와 토끼가 있는 옛이야기 길에서 별주부와 토끼가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "별주부와 토끼가 있는 옛이야기 길에서 별주부와 토끼가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the sea palace, before dawn, the Sea King lay behind pearl curtains while doctors whispered of a rabbit liver. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "별주부와 토끼가 있는 옛이야기 길에서 별주부와 토끼가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "sea king sends Turtle for a cure (sick sea court)",
+        "emotion": "worried duty",
+        "pageTurnHook": "Then the next part of sick sea court will ask for a braver choice, and the story moves toward land search.",
+        "readAloudCue": "Read with worried duty; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe sea palace."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/byeoljubu.character_bible.json. Page 5 for 별주부전 / The Turtle Envoy: sea palace; specific beat: the Sea King lay behind pearl curtains while doctors whispered of a rabbit liver; emotional tone: worried duty; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/byeoljubu/page-005.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with worried duty; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/byeoljubu/ko/page-005.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/byeoljubu/ambient/ambient-loop.wav",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_005/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_005/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_005/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_005/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_005/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_005/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "byeoljubu_006",
+      "pageNumber": 6,
+      "text": {
+        "enLittle": "Turtle described coral halls and moon shells to make the sea sound inviting.",
+        "enStandard": "In the shore reeds, first, Turtle described coral halls and moon shells to make the sea sound inviting. \"I am still learning,\" the child answered.",
+        "koLittle": "토끼와 용왕가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "토끼와 용왕가 있는 옛이야기 길에서 토끼와 용왕가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "토끼와 용왕가 있는 옛이야기 길에서 토끼와 용왕가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the shore reeds, first, Turtle described coral halls and moon shells to make the sea sound inviting. \"I am still learning,\" the child answered.",
+      "narrationScript": "토끼와 용왕가 있는 옛이야기 길에서 토끼와 용왕가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Turtle meets Rabbit on shore (land search)",
+        "emotion": "polite tension",
+        "pageTurnHook": "Then the next part of land search will ask for a braver choice, and the story moves toward palace reveal.",
+        "readAloudCue": "Read with polite tension; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open shore reeds."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/byeoljubu.character_bible.json. Page 6 for 별주부전 / The Turtle Envoy: shore reeds; specific beat: Turtle described coral halls and moon shells to make the sea sound inviting; emotional tone: polite tension; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/byeoljubu/page-006.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with polite tension; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/byeoljubu/ko/page-006.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/byeoljubu/ambient/ambient-loop.wav",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_006/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_006/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_006/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_006/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_006/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_006/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "byeoljubu_007",
+      "pageNumber": 7,
+      "text": {
+        "enLittle": "Rabbit's nose twitched at every too-smooth sentence.",
+        "enStandard": "In the shore reeds, next, Rabbit's nose twitched at every too-smooth sentence. \"Tell me the truth,\" someone said.",
+        "koLittle": "간 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "토끼와 용왕가 있는 옛이야기 길에서 간 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "토끼와 용왕가 있는 옛이야기 길에서 간 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the shore reeds, next, Rabbit's nose twitched at every too-smooth sentence. \"Tell me the truth,\" someone said.",
+      "narrationScript": "토끼와 용왕가 있는 옛이야기 길에서 간 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Turtle meets Rabbit on shore (land search)",
+        "emotion": "polite tension",
+        "pageTurnHook": "Then the next part of land search will ask for a braver choice, and the story moves toward palace reveal.",
+        "readAloudCue": "Read with polite tension; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose shore reeds."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/byeoljubu.character_bible.json. Page 7 for 별주부전 / The Turtle Envoy: shore reeds; specific beat: Rabbit's nose twitched at every too-smooth sentence; emotional tone: polite tension; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/byeoljubu/page-007.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with polite tension; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/byeoljubu/ko/page-007.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/byeoljubu/ambient/ambient-loop.wav",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_007/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_007/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_007/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_007/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_007/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_007/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "byeoljubu_008",
+      "pageNumber": 8,
+      "text": {
+        "enLittle": "Shore birds paused as if listening for the missing reason.",
+        "enStandard": "In the shore reeds, quietly, shore birds paused as if listening for the missing reason. \"I will answer carefully,\" came the reply.",
+        "koLittle": "토끼를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "토끼와 용왕가 있는 옛이야기 길에서 토끼를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "토끼와 용왕가 있는 옛이야기 길에서 토끼를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the shore reeds, quietly, shore birds paused as if listening for the missing reason. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "토끼와 용왕가 있는 옛이야기 길에서 토끼를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Turtle meets Rabbit on shore (land search)",
+        "emotion": "polite tension",
+        "pageTurnHook": "Then the next part of land search will ask for a braver choice, and the story moves toward palace reveal.",
+        "readAloudCue": "Read with polite tension; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag shore reeds."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/byeoljubu.character_bible.json. Page 8 for 별주부전 / The Turtle Envoy: shore reeds; specific beat: shore birds paused as if listening for the missing reason; emotional tone: polite tension; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/byeoljubu/page-008.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with polite tension; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/byeoljubu/ko/page-008.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/byeoljubu/ambient/ambient-loop.wav",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_008/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_008/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_008/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_008/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_008/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_008/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "byeoljubu_009",
+      "pageNumber": 9,
+      "text": {
+        "enLittle": "Turtle promised a visit.",
+        "enStandard": "In the shore reeds, with the moon high, Turtle promised a visit, not a trap, and felt his cheeks warm. \"Then walk gently,\" the elder said.",
+        "koLittle": "별주부의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "토끼와 용왕가 있는 옛이야기 길에서 별주부의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "토끼와 용왕가 있는 옛이야기 길에서 별주부의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the shore reeds, with the moon high, Turtle promised a visit, not a trap, and felt his cheeks warm. \"Then walk gently,\" the elder said.",
+      "narrationScript": "토끼와 용왕가 있는 옛이야기 길에서 별주부의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "별주부",
+          "en": "Turtle Envoy",
+          "romanization": "Byeoljubu",
+          "definitionEn": "The turtle sent from the sea palace.",
+          "definitionKo": "바닷속 궁에서 온 자라 신하예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Turtle meets Rabbit on shore (land search)",
+        "emotion": "polite tension",
+        "pageTurnHook": "Then the next part of land search will ask for a braver choice, and the story moves toward palace reveal.",
+        "readAloudCue": "Read with polite tension; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap shore reeds."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/byeoljubu.character_bible.json. Page 9 for 별주부전 / The Turtle Envoy: shore reeds; specific beat: Turtle promised a visit, not a trap, and felt his cheeks warm; emotional tone: polite tension; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/byeoljubu/page-009.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with polite tension; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/byeoljubu/ko/page-009.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/byeoljubu/ambient/ambient-loop.wav",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_009/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_009/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_009/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_009/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_009/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_009/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "byeoljubu_010",
+      "pageNumber": 10,
+      "text": {
+        "enLittle": "Turtle described coral halls and moon shells to make the sea sound inviting.",
+        "enStandard": "In the shore reeds, before dawn, Turtle described coral halls and moon shells to make the sea sound inviting. \"I am still learning,\" the child answered.",
+        "koLittle": "토끼와 용왕가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "토끼와 용왕가 있는 옛이야기 길에서 토끼와 용왕가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "토끼와 용왕가 있는 옛이야기 길에서 토끼와 용왕가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the shore reeds, before dawn, Turtle described coral halls and moon shells to make the sea sound inviting. \"I am still learning,\" the child answered.",
+      "narrationScript": "토끼와 용왕가 있는 옛이야기 길에서 토끼와 용왕가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "토끼",
+          "en": "rabbit",
+          "romanization": "tokki",
+          "definitionEn": "A quick forest animal.",
+          "definitionKo": "빠른 숲속 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Turtle meets Rabbit on shore (land search)",
+        "emotion": "polite tension",
+        "pageTurnHook": "Then the next part of land search will ask for a braver choice, and the story moves toward palace reveal.",
+        "readAloudCue": "Read with polite tension; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace shore reeds."
+      },
+      "refrain": "Words can find the shore.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/byeoljubu.character_bible.json. Page 10 for 별주부전 / The Turtle Envoy: shore reeds; specific beat: Turtle described coral halls and moon shells to make the sea sound inviting; emotional tone: polite tension; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/byeoljubu/page-010.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with polite tension; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/byeoljubu/ko/page-010.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/byeoljubu/ambient/ambient-loop.wav",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_010/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_010/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_010/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_010/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_010/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_010/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "말은 물가를 찾을 수 있어."
+    },
+    {
+      "id": "byeoljubu_011",
+      "pageNumber": 11,
+      "text": {
+        "enLittle": "The sea king thanked rabbit before naming the impossible request.",
+        "enStandard": "In the sea palace garden, first, the Sea King thanked Rabbit before naming the impossible request. \"I will answer carefully,\" came the reply.",
+        "koLittle": "용왕와 간가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "용왕와 간가 있는 옛이야기 길에서 용왕와 간가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "용왕와 간가 있는 옛이야기 길에서 용왕와 간가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the sea palace garden, first, the Sea King thanked Rabbit before naming the impossible request. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "용왕와 간가 있는 옛이야기 길에서 용왕와 간가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "별주부",
+          "en": "Turtle Envoy",
+          "romanization": "Byeoljubu",
+          "definitionEn": "The turtle sent from the sea palace.",
+          "definitionKo": "바닷속 궁에서 온 자라 신하예요."
+        },
+        {
+          "ko": "용왕",
+          "en": "Sea King",
+          "romanization": "yongwang",
+          "definitionEn": "The ruler of the sea palace.",
+          "definitionKo": "바닷속 궁의 임금이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Rabbit hears the liver demand (palace reveal)",
+        "emotion": "alarmed cleverness",
+        "pageTurnHook": "Then the next part of palace reveal will ask for a braver choice, and the story moves toward liver ruse.",
+        "readAloudCue": "Read with alarmed cleverness; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count sea palace garden."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/byeoljubu.character_bible.json. Page 11 for 별주부전 / The Turtle Envoy: sea palace garden; specific beat: the Sea King thanked Rabbit before naming the impossible request; emotional tone: alarmed cleverness; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/byeoljubu/page-011.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with alarmed cleverness; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/byeoljubu/ko/page-011.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/byeoljubu/ambient/ambient-loop.wav",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_011/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_011/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_011/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_011/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_011/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_011/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "byeoljubu_012",
+      "pageNumber": 12,
+      "text": {
+        "enLittle": "Rabbit folded his paws so they would not shake.",
+        "enStandard": "In the sea palace garden, next, Rabbit folded his paws so they would not shake. \"Then walk gently,\" the elder said.",
+        "koLittle": "별주부 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "용왕와 간가 있는 옛이야기 길에서 별주부 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "용왕와 간가 있는 옛이야기 길에서 별주부 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the sea palace garden, next, Rabbit folded his paws so they would not shake. \"Then walk gently,\" the elder said.",
+      "narrationScript": "용왕와 간가 있는 옛이야기 길에서 별주부 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "토끼",
+          "en": "rabbit",
+          "romanization": "tokki",
+          "definitionEn": "A quick forest animal.",
+          "definitionKo": "빠른 숲속 동물이에요."
+        },
+        {
+          "ko": "간",
+          "en": "liver",
+          "romanization": "gan",
+          "definitionEn": "A body part mentioned abstractly.",
+          "definitionKo": "자세히 보이지 않는 몸속 기관이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Rabbit hears the liver demand (palace reveal)",
+        "emotion": "alarmed cleverness",
+        "pageTurnHook": "Then the next part of palace reveal will ask for a braver choice, and the story moves toward liver ruse.",
+        "readAloudCue": "Read with alarmed cleverness; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold sea palace garden."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/byeoljubu.character_bible.json. Page 12 for 별주부전 / The Turtle Envoy: sea palace garden; specific beat: Rabbit folded his paws so they would not shake; emotional tone: alarmed cleverness; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/byeoljubu/page-012.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with alarmed cleverness; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/byeoljubu/ko/page-012.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/byeoljubu/ambient/ambient-loop.wav",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_012/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_012/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_012/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_012/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_012/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_012/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "byeoljubu_013",
+      "pageNumber": 13,
+      "text": {
+        "enLittle": "Turtle stared at the floor because silence had become betrayal.",
+        "enStandard": "In the sea palace garden, quietly, Turtle stared at the floor because silence had become betrayal. \"I am still learning,\" the child answered.",
+        "koLittle": "용왕를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "용왕와 간가 있는 옛이야기 길에서 용왕를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "용왕와 간가 있는 옛이야기 길에서 용왕를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the sea palace garden, quietly, Turtle stared at the floor because silence had become betrayal. \"I am still learning,\" the child answered.",
+      "narrationScript": "용왕와 간가 있는 옛이야기 길에서 용왕를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "용왕",
+          "en": "Sea King",
+          "romanization": "yongwang",
+          "definitionEn": "The ruler of the sea palace.",
+          "definitionKo": "바닷속 궁의 임금이에요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Rabbit hears the liver demand (palace reveal)",
+        "emotion": "alarmed cleverness",
+        "pageTurnHook": "Then the next part of palace reveal will ask for a braver choice, and the story moves toward liver ruse.",
+        "readAloudCue": "Read with alarmed cleverness; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe sea palace garden."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/byeoljubu.character_bible.json. Page 13 for 별주부전 / The Turtle Envoy: sea palace garden; specific beat: Turtle stared at the floor because silence had become betrayal; emotional tone: alarmed cleverness; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/byeoljubu/page-013.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with alarmed cleverness; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/byeoljubu/ko/page-013.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/byeoljubu/ambient/ambient-loop.wav",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_013/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_013/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_013/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_013/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_013/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_013/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "byeoljubu_014",
+      "pageNumber": 14,
+      "text": {
+        "enLittle": "The court waited for fear.",
+        "enStandard": "In the sea palace garden, with the moon high, the court waited for fear. \"Tell me the truth,\" someone said.",
+        "koLittle": "토끼의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "용왕와 간가 있는 옛이야기 길에서 토끼의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "용왕와 간가 있는 옛이야기 길에서 토끼의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the sea palace garden, with the moon high, the court waited for fear. \"Tell me the truth,\" someone said.",
+      "narrationScript": "용왕와 간가 있는 옛이야기 길에서 토끼의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "간",
+          "en": "liver",
+          "romanization": "gan",
+          "definitionEn": "A body part mentioned abstractly.",
+          "definitionKo": "자세히 보이지 않는 몸속 기관이에요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Rabbit hears the liver demand (palace reveal)",
+        "emotion": "alarmed cleverness",
+        "pageTurnHook": "Then the next part of palace reveal will ask for a braver choice, and the story moves toward liver ruse.",
+        "readAloudCue": "Read with alarmed cleverness; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open sea palace garden."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/byeoljubu.character_bible.json. Page 14 for 별주부전 / The Turtle Envoy: sea palace garden; specific beat: the court waited for fear; emotional tone: alarmed cleverness; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/byeoljubu/page-014.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with alarmed cleverness; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/byeoljubu/ko/page-014.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/byeoljubu/ambient/ambient-loop.wav",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_014/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_014/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_014/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_014/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_014/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_014/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "byeoljubu_015",
+      "pageNumber": 15,
+      "text": {
+        "enLittle": "The sea king thanked rabbit before naming the impossible request.",
+        "enStandard": "In the sea palace garden, before dawn, the Sea King thanked Rabbit before naming the impossible request. \"I will answer carefully,\" came the reply.",
+        "koLittle": "용왕와 간가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "용왕와 간가 있는 옛이야기 길에서 용왕와 간가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "용왕와 간가 있는 옛이야기 길에서 용왕와 간가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the sea palace garden, before dawn, the Sea King thanked Rabbit before naming the impossible request. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "용왕와 간가 있는 옛이야기 길에서 용왕와 간가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Rabbit hears the liver demand (palace reveal)",
+        "emotion": "alarmed cleverness",
+        "pageTurnHook": "Then the next part of palace reveal will ask for a braver choice, and the story moves toward liver ruse.",
+        "readAloudCue": "Read with alarmed cleverness; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose sea palace garden."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/byeoljubu.character_bible.json. Page 15 for 별주부전 / The Turtle Envoy: sea palace garden; specific beat: the Sea King thanked Rabbit before naming the impossible request; emotional tone: alarmed cleverness; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/byeoljubu/page-015.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with alarmed cleverness; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/byeoljubu/ko/page-015.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/byeoljubu/ambient/ambient-loop.wav",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_015/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_015/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_015/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_015/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_015/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_015/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "byeoljubu_016",
+      "pageNumber": 16,
+      "text": {
+        "enLittle": "Rabbit announced that forest rabbits store precious organs safely at home.",
+        "enStandard": "In the pearl steps, first, Rabbit announced that forest rabbits store precious organs safely at home. \"I am still learning,\" the child answered.",
+        "koLittle": "간와 별주부가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "간와 별주부가 있는 옛이야기 길에서 간와 별주부가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "간와 별주부가 있는 옛이야기 길에서 간와 별주부가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the pearl steps, first, Rabbit announced that forest rabbits store precious organs safely at home. \"I am still learning,\" the child answered.",
+      "narrationScript": "간와 별주부가 있는 옛이야기 길에서 간와 별주부가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Rabbit says he left his liver on land (liver ruse)",
+        "emotion": "quick wit",
+        "pageTurnHook": "Then the next part of liver ruse will ask for a braver choice, and the story moves toward shore escape.",
+        "readAloudCue": "Read with quick wit; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag pearl steps."
+      },
+      "refrain": "Words can find the shore.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/byeoljubu.character_bible.json. Page 16 for 별주부전 / The Turtle Envoy: pearl steps; specific beat: Rabbit announced that forest rabbits store precious organs safely at home; emotional tone: quick wit; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/byeoljubu/page-016.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with quick wit; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/byeoljubu/ko/page-016.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/byeoljubu/ambient/ambient-loop.wav",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_016/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_016/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_016/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_016/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_016/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_016/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "말은 물가를 찾을 수 있어."
+    },
+    {
+      "id": "byeoljubu_017",
+      "pageNumber": 17,
+      "text": {
+        "enLittle": "Courtiers gasped because nobody wanted to admit ignorance.",
+        "enStandard": "In the pearl steps, next, courtiers gasped because nobody wanted to admit ignorance. \"Tell me the truth,\" someone said.",
+        "koLittle": "토끼 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "간와 별주부가 있는 옛이야기 길에서 토끼 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "간와 별주부가 있는 옛이야기 길에서 토끼 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the pearl steps, next, courtiers gasped because nobody wanted to admit ignorance. \"Tell me the truth,\" someone said.",
+      "narrationScript": "간와 별주부가 있는 옛이야기 길에서 토끼 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Rabbit says he left his liver on land (liver ruse)",
+        "emotion": "quick wit",
+        "pageTurnHook": "Then the next part of liver ruse will ask for a braver choice, and the story moves toward shore escape.",
+        "readAloudCue": "Read with quick wit; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap pearl steps."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/byeoljubu.character_bible.json. Page 17 for 별주부전 / The Turtle Envoy: pearl steps; specific beat: courtiers gasped because nobody wanted to admit ignorance; emotional tone: quick wit; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/byeoljubu/page-017.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with quick wit; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/byeoljubu/ko/page-017.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/byeoljubu/ambient/ambient-loop.wav",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_017/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_017/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_017/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_017/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_017/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_017/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "byeoljubu_018",
+      "pageNumber": 18,
+      "text": {
+        "enLittle": "Turtle wondered if wisdom could sound that calm.",
+        "enStandard": "In the pearl steps, quietly, Turtle wondered if wisdom could sound that calm. \"I will answer carefully,\" came the reply.",
+        "koLittle": "간를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "간와 별주부가 있는 옛이야기 길에서 간를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "간와 별주부가 있는 옛이야기 길에서 간를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the pearl steps, quietly, Turtle wondered if wisdom could sound that calm. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "간와 별주부가 있는 옛이야기 길에서 간를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Rabbit says he left his liver on land (liver ruse)",
+        "emotion": "quick wit",
+        "pageTurnHook": "Then the next part of liver ruse will ask for a braver choice, and the story moves toward shore escape.",
+        "readAloudCue": "Read with quick wit; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace pearl steps."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/byeoljubu.character_bible.json. Page 18 for 별주부전 / The Turtle Envoy: pearl steps; specific beat: Turtle wondered if wisdom could sound that calm; emotional tone: quick wit; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/byeoljubu/page-018.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with quick wit; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/byeoljubu/ko/page-018.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/byeoljubu/ambient/ambient-loop.wav",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_018/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_018/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_018/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_018/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_018/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_018/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "byeoljubu_019",
+      "pageNumber": 19,
+      "text": {
+        "enLittle": "The sea king ordered a return trip.",
+        "enStandard": "In the pearl steps, with the moon high, the Sea King ordered a return trip. \"Then walk gently,\" the elder said.",
+        "koLittle": "용왕의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "간와 별주부가 있는 옛이야기 길에서 용왕의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "간와 별주부가 있는 옛이야기 길에서 용왕의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the pearl steps, with the moon high, the Sea King ordered a return trip. \"Then walk gently,\" the elder said.",
+      "narrationScript": "간와 별주부가 있는 옛이야기 길에서 용왕의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "별주부",
+          "en": "Turtle Envoy",
+          "romanization": "Byeoljubu",
+          "definitionEn": "The turtle sent from the sea palace.",
+          "definitionKo": "바닷속 궁에서 온 자라 신하예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Rabbit says he left his liver on land (liver ruse)",
+        "emotion": "quick wit",
+        "pageTurnHook": "Then the next part of liver ruse will ask for a braver choice, and the story moves toward shore escape.",
+        "readAloudCue": "Read with quick wit; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count pearl steps."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/byeoljubu.character_bible.json. Page 19 for 별주부전 / The Turtle Envoy: pearl steps; specific beat: the Sea King ordered a return trip; emotional tone: quick wit; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/byeoljubu/page-019.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with quick wit; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/byeoljubu/ko/page-019.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/byeoljubu/ambient/ambient-loop.wav",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_019/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_019/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_019/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_019/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_019/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_019/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "byeoljubu_020",
+      "pageNumber": 20,
+      "text": {
+        "enLittle": "Rabbit announced that forest rabbits store precious organs safely at home.",
+        "enStandard": "In the pearl steps, before dawn, Rabbit announced that forest rabbits store precious organs safely at home. \"I am still learning,\" the child answered.",
+        "koLittle": "간와 별주부가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "간와 별주부가 있는 옛이야기 길에서 간와 별주부가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "간와 별주부가 있는 옛이야기 길에서 간와 별주부가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the pearl steps, before dawn, Rabbit announced that forest rabbits store precious organs safely at home. \"I am still learning,\" the child answered.",
+      "narrationScript": "간와 별주부가 있는 옛이야기 길에서 간와 별주부가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "토끼",
+          "en": "rabbit",
+          "romanization": "tokki",
+          "definitionEn": "A quick forest animal.",
+          "definitionKo": "빠른 숲속 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Rabbit says he left his liver on land (liver ruse)",
+        "emotion": "quick wit",
+        "pageTurnHook": "Then the next part of liver ruse will ask for a braver choice, and the story moves toward shore escape.",
+        "readAloudCue": "Read with quick wit; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold pearl steps."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/byeoljubu.character_bible.json. Page 20 for 별주부전 / The Turtle Envoy: pearl steps; specific beat: Rabbit announced that forest rabbits store precious organs safely at home; emotional tone: quick wit; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/byeoljubu/page-020.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with quick wit; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/byeoljubu/ko/page-020.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/byeoljubu/ambient/ambient-loop.wav",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_020/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_020/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_020/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_020/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_020/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_020/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "byeoljubu_021",
+      "pageNumber": 21,
+      "text": {
+        "enLittle": "Rabbit sprang to the bank and let truth loose.",
+        "enStandard": "In the shoreline, first, Rabbit sprang to the bank and let truth loose. \"I will answer carefully,\" came the reply.",
+        "koLittle": "별주부와 토끼가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "별주부와 토끼가 있는 옛이야기 길에서 별주부와 토끼가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "별주부와 토끼가 있는 옛이야기 길에서 별주부와 토끼가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the shoreline, first, Rabbit sprang to the bank and let truth loose. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "별주부와 토끼가 있는 옛이야기 길에서 별주부와 토끼가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "별주부",
+          "en": "Turtle Envoy",
+          "romanization": "Byeoljubu",
+          "definitionEn": "The turtle sent from the sea palace.",
+          "definitionKo": "바닷속 궁에서 온 자라 신하예요."
+        },
+        {
+          "ko": "용왕",
+          "en": "Sea King",
+          "romanization": "yongwang",
+          "definitionEn": "The ruler of the sea palace.",
+          "definitionKo": "바닷속 궁의 임금이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Rabbit reaches land and rebukes Turtle (shore escape)",
+        "emotion": "relief and shame",
+        "pageTurnHook": "Then the next part of shore escape will ask for a braver choice, and the story moves toward wiser envoy.",
+        "readAloudCue": "Read with relief and shame; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe shoreline."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/byeoljubu.character_bible.json. Page 21 for 별주부전 / The Turtle Envoy: shoreline; specific beat: Rabbit sprang to the bank and let truth loose; emotional tone: relief and shame; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/byeoljubu/page-021.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with relief and shame; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/byeoljubu/ko/page-021.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/byeoljubu/ambient/ambient-loop.wav",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_021/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_021/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_021/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_021/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_021/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_021/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "byeoljubu_022",
+      "pageNumber": 22,
+      "text": {
+        "enLittle": "He told turtle that duty without honesty becomes danger.",
+        "enStandard": "In the shoreline, next, he told Turtle that duty without honesty becomes danger. \"Then walk gently,\" the elder said.",
+        "koLittle": "용왕 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "별주부와 토끼가 있는 옛이야기 길에서 용왕 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "별주부와 토끼가 있는 옛이야기 길에서 용왕 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the shoreline, next, he told Turtle that duty without honesty becomes danger. \"Then walk gently,\" the elder said.",
+      "narrationScript": "별주부와 토끼가 있는 옛이야기 길에서 용왕 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "토끼",
+          "en": "rabbit",
+          "romanization": "tokki",
+          "definitionEn": "A quick forest animal.",
+          "definitionKo": "빠른 숲속 동물이에요."
+        },
+        {
+          "ko": "간",
+          "en": "liver",
+          "romanization": "gan",
+          "definitionEn": "A body part mentioned abstractly.",
+          "definitionKo": "자세히 보이지 않는 몸속 기관이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Rabbit reaches land and rebukes Turtle (shore escape)",
+        "emotion": "relief and shame",
+        "pageTurnHook": "Then the next part of shore escape will ask for a braver choice, and the story moves toward wiser envoy.",
+        "readAloudCue": "Read with relief and shame; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open shoreline."
+      },
+      "refrain": "Words can find the shore.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/byeoljubu.character_bible.json. Page 22 for 별주부전 / The Turtle Envoy: shoreline; specific beat: he told Turtle that duty without honesty becomes danger; emotional tone: relief and shame; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/byeoljubu/page-022.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with relief and shame; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/byeoljubu/ko/page-022.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/byeoljubu/ambient/ambient-loop.wav",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_022/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_022/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_022/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_022/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_022/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_022/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "말은 물가를 찾을 수 있어."
+    },
+    {
+      "id": "byeoljubu_023",
+      "pageNumber": 23,
+      "text": {
+        "enLittle": "Turtle accepted the words like medicine for himself.",
+        "enStandard": "In the shoreline, quietly, Turtle accepted the words like medicine for himself. \"I am still learning,\" the child answered.",
+        "koLittle": "별주부를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "별주부와 토끼가 있는 옛이야기 길에서 별주부를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "별주부와 토끼가 있는 옛이야기 길에서 별주부를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the shoreline, quietly, Turtle accepted the words like medicine for himself. \"I am still learning,\" the child answered.",
+      "narrationScript": "별주부와 토끼가 있는 옛이야기 길에서 별주부를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "용왕",
+          "en": "Sea King",
+          "romanization": "yongwang",
+          "definitionEn": "The ruler of the sea palace.",
+          "definitionKo": "바닷속 궁의 임금이에요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Rabbit reaches land and rebukes Turtle (shore escape)",
+        "emotion": "relief and shame",
+        "pageTurnHook": "Then the next part of shore escape will ask for a braver choice, and the story moves toward wiser envoy.",
+        "readAloudCue": "Read with relief and shame; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose shoreline."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/byeoljubu.character_bible.json. Page 23 for 별주부전 / The Turtle Envoy: shoreline; specific beat: Turtle accepted the words like medicine for himself; emotional tone: relief and shame; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/byeoljubu/page-023.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with relief and shame; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/byeoljubu/ko/page-023.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/byeoljubu/ambient/ambient-loop.wav",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_023/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_023/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_023/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_023/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_023/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_023/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "byeoljubu_024",
+      "pageNumber": 24,
+      "text": {
+        "enLittle": "The sea wind turned cooler.",
+        "enStandard": "In the shoreline, with the moon high, the sea wind turned cooler. \"Tell me the truth,\" someone said.",
+        "koLittle": "간의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "별주부와 토끼가 있는 옛이야기 길에서 간의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "별주부와 토끼가 있는 옛이야기 길에서 간의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the shoreline, with the moon high, the sea wind turned cooler. \"Tell me the truth,\" someone said.",
+      "narrationScript": "별주부와 토끼가 있는 옛이야기 길에서 간의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "간",
+          "en": "liver",
+          "romanization": "gan",
+          "definitionEn": "A body part mentioned abstractly.",
+          "definitionKo": "자세히 보이지 않는 몸속 기관이에요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Rabbit reaches land and rebukes Turtle (shore escape)",
+        "emotion": "relief and shame",
+        "pageTurnHook": "Then the next part of shore escape will ask for a braver choice, and the story moves toward wiser envoy.",
+        "readAloudCue": "Read with relief and shame; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag shoreline."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/byeoljubu.character_bible.json. Page 24 for 별주부전 / The Turtle Envoy: shoreline; specific beat: the sea wind turned cooler; emotional tone: relief and shame; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/byeoljubu/page-024.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with relief and shame; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/byeoljubu/ko/page-024.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/byeoljubu/ambient/ambient-loop.wav",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_024/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_024/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_024/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_024/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_024/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_024/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "byeoljubu_025",
+      "pageNumber": 25,
+      "text": {
+        "enLittle": "Rabbit sprang to the bank and let truth loose.",
+        "enStandard": "In the shoreline, before dawn, Rabbit sprang to the bank and let truth loose. \"I will answer carefully,\" came the reply.",
+        "koLittle": "별주부와 토끼가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "별주부와 토끼가 있는 옛이야기 길에서 별주부와 토끼가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "별주부와 토끼가 있는 옛이야기 길에서 별주부와 토끼가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the shoreline, before dawn, Rabbit sprang to the bank and let truth loose. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "별주부와 토끼가 있는 옛이야기 길에서 별주부와 토끼가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Rabbit reaches land and rebukes Turtle (shore escape)",
+        "emotion": "relief and shame",
+        "pageTurnHook": "Then the next part of shore escape will ask for a braver choice, and the story moves toward wiser envoy.",
+        "readAloudCue": "Read with relief and shame; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap shoreline."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/byeoljubu.character_bible.json. Page 25 for 별주부전 / The Turtle Envoy: shoreline; specific beat: Rabbit sprang to the bank and let truth loose; emotional tone: relief and shame; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/byeoljubu/page-025.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with relief and shame; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/byeoljubu/ko/page-025.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/byeoljubu/ambient/ambient-loop.wav",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_025/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_025/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_025/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_025/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_025/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_025/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "byeoljubu_026",
+      "pageNumber": 26,
+      "text": {
+        "enLittle": "He told turtle that duty without honesty becomes danger.",
+        "enStandard": "In the shoreline, after a pause, he told Turtle that duty without honesty becomes danger. \"Then walk gently,\" the elder said.",
+        "koLittle": "용왕 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "별주부와 토끼가 있는 옛이야기 길에서 용왕 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "별주부와 토끼가 있는 옛이야기 길에서 용왕 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the shoreline, after a pause, he told Turtle that duty without honesty becomes danger. \"Then walk gently,\" the elder said.",
+      "narrationScript": "별주부와 토끼가 있는 옛이야기 길에서 용왕 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Rabbit reaches land and rebukes Turtle (shore escape)",
+        "emotion": "relief and shame",
+        "pageTurnHook": "Then the next part of shore escape will ask for a braver choice, and the story moves toward wiser envoy.",
+        "readAloudCue": "Read with relief and shame; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace shoreline."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/byeoljubu.character_bible.json. Page 26 for 별주부전 / The Turtle Envoy: shoreline; specific beat: he told Turtle that duty without honesty becomes danger; emotional tone: relief and shame; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/byeoljubu/page-026.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with relief and shame; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/byeoljubu/ko/page-026.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/byeoljubu/ambient/ambient-loop.wav",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_026/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_026/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_026/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_026/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_026/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_026/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "byeoljubu_027",
+      "pageNumber": 27,
+      "text": {
+        "enLittle": "Turtle brought herbs and a harder truth back to the sea king.",
+        "enStandard": "In the sea court, first, Turtle brought herbs and a harder truth back to the Sea King. \"Tell me the truth,\" someone said.",
+        "koLittle": "토끼와 용왕가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "토끼와 용왕가 있는 옛이야기 길에서 토끼와 용왕가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "토끼와 용왕가 있는 옛이야기 길에서 토끼와 용왕가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the sea court, first, Turtle brought herbs and a harder truth back to the Sea King. \"Tell me the truth,\" someone said.",
+      "narrationScript": "토끼와 용왕가 있는 옛이야기 길에서 토끼와 용왕가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Turtle returns with honest counsel (wiser envoy)",
+        "emotion": "humble repair",
+        "pageTurnHook": "Then the next part of wiser envoy will ask for a braver choice, and the story moves toward wiser envoy.",
+        "readAloudCue": "Read with humble repair; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count sea court."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/byeoljubu.character_bible.json. Page 27 for 별주부전 / The Turtle Envoy: sea court; specific beat: Turtle brought herbs and a harder truth back to the Sea King; emotional tone: humble repair; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/byeoljubu/page-027.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with humble repair; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/byeoljubu/ko/page-027.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/byeoljubu/ambient/ambient-loop.wav",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_027/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_027/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_027/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_027/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_027/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_027/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "byeoljubu_028",
+      "pageNumber": 28,
+      "text": {
+        "enLittle": "The court learned no cure should steal consent.",
+        "enStandard": "In the sea court, next, the court learned no cure should steal consent. \"I will answer carefully,\" came the reply.",
+        "koLittle": "간 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "토끼와 용왕가 있는 옛이야기 길에서 간 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "토끼와 용왕가 있는 옛이야기 길에서 간 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the sea court, next, the court learned no cure should steal consent. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "토끼와 용왕가 있는 옛이야기 길에서 간 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Turtle returns with honest counsel (wiser envoy)",
+        "emotion": "humble repair",
+        "pageTurnHook": "Then the next part of wiser envoy will ask for a braver choice, and the story moves toward wiser envoy.",
+        "readAloudCue": "Read with humble repair; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold sea court."
+      },
+      "refrain": "Words can find the shore.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/byeoljubu.character_bible.json. Page 28 for 별주부전 / The Turtle Envoy: sea court; specific beat: the court learned no cure should steal consent; emotional tone: humble repair; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/byeoljubu/page-028.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with humble repair; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/byeoljubu/ko/page-028.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/byeoljubu/ambient/ambient-loop.wav",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_028/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_028/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_028/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_028/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_028/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_028/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "말은 물가를 찾을 수 있어."
+    },
+    {
+      "id": "byeoljubu_029",
+      "pageNumber": 29,
+      "text": {
+        "enLittle": "Rabbit told the forest to ask questions before accepting invitations.",
+        "enStandard": "In the sea court, quietly, Rabbit told the forest to ask questions before accepting invitations. \"Then walk gently,\" the elder said.",
+        "koLittle": "토끼를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "토끼와 용왕가 있는 옛이야기 길에서 토끼를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "토끼와 용왕가 있는 옛이야기 길에서 토끼를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the sea court, quietly, Rabbit told the forest to ask questions before accepting invitations. \"Then walk gently,\" the elder said.",
+      "narrationScript": "토끼와 용왕가 있는 옛이야기 길에서 토끼를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "별주부",
+          "en": "Turtle Envoy",
+          "romanization": "Byeoljubu",
+          "definitionEn": "The turtle sent from the sea palace.",
+          "definitionKo": "바닷속 궁에서 온 자라 신하예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Turtle returns with honest counsel (wiser envoy)",
+        "emotion": "humble repair",
+        "pageTurnHook": "Then the next part of wiser envoy will ask for a braver choice, and the story moves toward wiser envoy.",
+        "readAloudCue": "Read with humble repair; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe sea court."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/byeoljubu.character_bible.json. Page 29 for 별주부전 / The Turtle Envoy: sea court; specific beat: Rabbit told the forest to ask questions before accepting invitations; emotional tone: humble repair; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/byeoljubu/page-029.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with humble repair; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/byeoljubu/ko/page-029.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/byeoljubu/ambient/ambient-loop.wav",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_029/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_029/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_029/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_029/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_029/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_029/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "byeoljubu_030",
+      "pageNumber": 30,
+      "text": {
+        "enLittle": "Waves touched the shore like an apology.",
+        "enStandard": "In the sea court, with the moon high, waves touched the shore like an apology. \"I am still learning,\" the child answered.",
+        "koLittle": "별주부의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "토끼와 용왕가 있는 옛이야기 길에서 별주부의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "토끼와 용왕가 있는 옛이야기 길에서 별주부의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the sea court, with the moon high, waves touched the shore like an apology. \"I am still learning,\" the child answered.",
+      "narrationScript": "토끼와 용왕가 있는 옛이야기 길에서 별주부의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "토끼",
+          "en": "rabbit",
+          "romanization": "tokki",
+          "definitionEn": "A quick forest animal.",
+          "definitionKo": "빠른 숲속 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Turtle returns with honest counsel (wiser envoy)",
+        "emotion": "humble repair",
+        "pageTurnHook": "Then the next part of wiser envoy will ask for a braver choice, and the story moves toward wiser envoy.",
+        "readAloudCue": "Read with humble repair; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open sea court."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/byeoljubu.character_bible.json. Page 30 for 별주부전 / The Turtle Envoy: sea court; specific beat: waves touched the shore like an apology; emotional tone: humble repair; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/byeoljubu/page-030.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with humble repair; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/byeoljubu/ko/page-030.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/byeoljubu/ambient/ambient-loop.wav",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_030/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_030/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_030/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_030/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_030/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_030/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "byeoljubu_031",
+      "pageNumber": 31,
+      "text": {
+        "enLittle": "Turtle brought herbs and a harder truth back to the sea king.",
+        "enStandard": "In the sea court, before dawn, Turtle brought herbs and a harder truth back to the Sea King. \"Tell me the truth,\" someone said.",
+        "koLittle": "토끼와 용왕가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "토끼와 용왕가 있는 옛이야기 길에서 토끼와 용왕가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "토끼와 용왕가 있는 옛이야기 길에서 토끼와 용왕가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the sea court, before dawn, Turtle brought herbs and a harder truth back to the Sea King. \"Tell me the truth,\" someone said.",
+      "narrationScript": "토끼와 용왕가 있는 옛이야기 길에서 토끼와 용왕가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "별주부",
+          "en": "Turtle Envoy",
+          "romanization": "Byeoljubu",
+          "definitionEn": "The turtle sent from the sea palace.",
+          "definitionKo": "바닷속 궁에서 온 자라 신하예요."
+        },
+        {
+          "ko": "용왕",
+          "en": "Sea King",
+          "romanization": "yongwang",
+          "definitionEn": "The ruler of the sea palace.",
+          "definitionKo": "바닷속 궁의 임금이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Turtle returns with honest counsel (wiser envoy)",
+        "emotion": "humble repair",
+        "pageTurnHook": "Then the next part of wiser envoy will ask for a braver choice, and the story moves toward wiser envoy.",
+        "readAloudCue": "Read with humble repair; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose sea court."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/byeoljubu.character_bible.json. Page 31 for 별주부전 / The Turtle Envoy: sea court; specific beat: Turtle brought herbs and a harder truth back to the Sea King; emotional tone: humble repair; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/byeoljubu/page-031.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with humble repair; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/byeoljubu/ko/page-031.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/byeoljubu/ambient/ambient-loop.wav",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_031/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_031/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_031/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_031/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_031/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_031/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "byeoljubu_032",
+      "pageNumber": 32,
+      "text": {
+        "enLittle": "The court learned no cure should steal consent.",
+        "enStandard": "In the sea court, after a pause, the court learned no cure should steal consent. \"I will answer carefully,\" came the reply.",
+        "koLittle": "간 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "토끼와 용왕가 있는 옛이야기 길에서 간 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "토끼와 용왕가 있는 옛이야기 길에서 간 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the sea court, after a pause, the court learned no cure should steal consent. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "토끼와 용왕가 있는 옛이야기 길에서 간 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "토끼",
+          "en": "rabbit",
+          "romanization": "tokki",
+          "definitionEn": "A quick forest animal.",
+          "definitionKo": "빠른 숲속 동물이에요."
+        },
+        {
+          "ko": "간",
+          "en": "liver",
+          "romanization": "gan",
+          "definitionEn": "A body part mentioned abstractly.",
+          "definitionKo": "자세히 보이지 않는 몸속 기관이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Turtle returns with honest counsel (wiser envoy)",
+        "emotion": "humble repair",
+        "pageTurnHook": "Then the next part of wiser envoy will ask for a braver choice, and the story moves toward wiser envoy.",
+        "readAloudCue": "Read with humble repair; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag sea court."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/byeoljubu.character_bible.json. Page 32 for 별주부전 / The Turtle Envoy: sea court; specific beat: the court learned no cure should steal consent; emotional tone: humble repair; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/byeoljubu/page-032.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with humble repair; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/byeoljubu/ko/page-032.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/byeoljubu/ambient/ambient-loop.wav",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_032/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_032/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_032/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_032/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_032/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/byeoljubu/byeoljubu_032/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="768" viewBox="0 0 1024 768">
+  <defs>
+    <linearGradient id="cover" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#252c52"/>
+      <stop offset="55%" stop-color="#9c3144"/>
+      <stop offset="100%" stop-color="#5c8a82"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="768" fill="url(#cover)"/>
+  <circle cx="512" cy="310" r="178" fill="none" stroke="#fff5dc" stroke-width="22" opacity="0.86"/>
+  <circle cx="512" cy="310" r="128" fill="#fff5dc" opacity="0.18"/>
+  <path d="M120 612 Q512 478 904 612 L904 768 L120 768 Z" fill="#f1d7ab" opacity="0.36"/>
+  <text x="512" y="575" fill="#fff8e8" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="70" font-weight="800" text-anchor="middle">팥죽 할멈과 호랑이</text>
+  <text x="512" y="635" fill="#fff8e8" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="34" font-weight="600" text-anchor="middle">The Red Bean Porridge Grandma and the Tiger</text>
+</svg>

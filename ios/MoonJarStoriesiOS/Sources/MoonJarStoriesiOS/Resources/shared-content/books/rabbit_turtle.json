@@ -1,0 +1,2901 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "book.rabbit_turtle",
+  "slug": "rabbit-and-turtle",
+  "title": {
+    "ko": "토끼와 자라",
+    "en": "The Rabbit and the Turtle"
+  },
+  "access": "premium",
+  "ageRange": "4-8",
+  "estimatedMinutes": 10,
+  "summary": "Turtle escorts Rabbit toward the Dragon King's sea palace for a dangerous liver cure, and Rabbit escapes with quick, honest-thinking words.",
+  "coverAsset": "assets/books/rabbit-and-turtle/cover.png",
+  "coverAssetStatus": "placeholder",
+  "characterBible": "characters/rabbit_turtle.character_bible.json",
+  "narrationAudioStatus": "synthetic_draft",
+  "adaptationVersions": {
+    "default": "English-first bilingual semantic-authenticity repair draft",
+    "plannedAlternate": "External editor pass after children’s editorial and Korean-language review",
+    "note": "Generated repo-local repair draft; not external human final."
+  },
+  "sensitivityNotes": [
+    "The liver demand is treated as an impossible court request, never as graphic body harm.",
+    "Repaired by repo-local semantic authenticity pass; external children’s editor, Korean-language, cultural, and child-safety review remain required before final release."
+  ],
+  "themes": [
+    "cleverness",
+    "pressure",
+    "truth",
+    "sea palace",
+    "mercy"
+  ],
+  "characters": [
+    "rabbit",
+    "turtle",
+    "palace_messenger",
+    "pond_reeds"
+  ],
+  "pages": [
+    {
+      "id": "rabbit_turtle_001",
+      "pageNumber": 1,
+      "text": {
+        "enLittle": "Rabbit tasted clover while turtle watched the road between reeds.",
+        "enStandard": "At the piney shore, first, Rabbit tasted clover while Turtle watched the road between reeds. \"Why me?\" Rabbit asked.",
+        "koLittle": "토끼는 토끼풀을 먹고 자라는 갈대 사이 길을 보았어요",
+        "koStandard": "소나무 물가에서 토끼는 토끼풀을 먹고 자라는 갈대 사이 길을 보았어요."
+      },
+      "koreanText": "소나무 물가에서 토끼는 토끼풀을 먹고 자라는 갈대 사이 길을 보았어요.",
+      "englishText": "At the piney shore, first, Rabbit tasted clover while Turtle watched the road between reeds. \"Why me?\" Rabbit asked.",
+      "narrationScript": "소나무 물가에서 토끼는 토끼풀을 먹고 자라는 갈대 사이 길을 보았어요.",
+      "vocabulary": [
+        {
+          "ko": "토끼",
+          "en": "rabbit",
+          "romanization": "tokki",
+          "definitionEn": "A quick forest animal.",
+          "definitionKo": "빠르게 뛰는 숲속 동물이에요."
+        },
+        {
+          "ko": "용왕",
+          "en": "Dragon King",
+          "romanization": "yongwang",
+          "definitionEn": "The ruler of the sea palace.",
+          "definitionKo": "바닷속 궁궐의 임금이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "introduce Rabbit and Turtle at the border of land and water (forest shore)",
+        "emotion": "curious caution",
+        "pageTurnHook": "Then the water road will grow deeper, and the story moves toward journey to palace.",
+        "readAloudCue": "Read with curious caution; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap the reed shadows."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/rabbit_turtle.character_bible.json. Page 1 for 토끼와 자라 / The Rabbit and the Turtle: Rabbit on shore, Turtle in clear water, reeds and palace-colored clouds; specific beat: Rabbit tasted clover while Turtle watched the road between reeds; emotional tone: curious caution; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/rabbit-and-turtle/page-001.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with curious caution; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/rabbit-and-turtle/ko/page-001.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/rabbit-and-turtle/ambient/ambient-loop.wav",
+      "characterBible": "characters/rabbit_turtle.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_001/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_001/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_001/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_001/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_001/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_001/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rabbit_turtle_002",
+      "pageNumber": 2,
+      "text": {
+        "enLittle": "Turtle bowed so low that water slid from his shell like rain.",
+        "enStandard": "At the piney shore, next, Turtle bowed so low that water slid from his shell like rain. \"The king needs forest wisdom,\" Turtle replied.",
+        "koLittle": "자라는 물방울이 등에서 비처럼 흐르도록 깊이 절했어요",
+        "koStandard": "소나무 물가에서 자라는 물방울이 등에서 비처럼 흐르도록 깊이 절했어요."
+      },
+      "koreanText": "소나무 물가에서 자라는 물방울이 등에서 비처럼 흐르도록 깊이 절했어요.",
+      "englishText": "At the piney shore, next, Turtle bowed so low that water slid from his shell like rain. \"The king needs forest wisdom,\" Turtle replied.",
+      "narrationScript": "소나무 물가에서 자라는 물방울이 등에서 비처럼 흐르도록 깊이 절했어요.",
+      "vocabulary": [
+        {
+          "ko": "자라",
+          "en": "softshell turtle",
+          "romanization": "jara",
+          "definitionEn": "A turtle-like water animal from Korean tales.",
+          "definitionKo": "한국 이야기 속 물가 동물이에요."
+        },
+        {
+          "ko": "간",
+          "en": "liver",
+          "romanization": "gan",
+          "definitionEn": "A body part mentioned in the old tale, kept abstract here.",
+          "definitionKo": "옛이야기에 나오는 몸속 기관이지만 여기서는 자세히 보이지 않아요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "introduce Rabbit and Turtle at the border of land and water (forest shore)",
+        "emotion": "curious caution",
+        "pageTurnHook": "Then the water road will grow deeper, and the story moves toward journey to palace.",
+        "readAloudCue": "Read with curious caution; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace the reed shadows."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/rabbit_turtle.character_bible.json. Page 2 for 토끼와 자라 / The Rabbit and the Turtle: Rabbit on shore, Turtle in clear water, reeds and palace-colored clouds; specific beat: Turtle bowed so low that water slid from his shell like rain; emotional tone: curious caution; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/rabbit-and-turtle/page-002.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with curious caution; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/rabbit-and-turtle/ko/page-002.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/rabbit-and-turtle/ambient/ambient-loop.wav",
+      "characterBible": "characters/rabbit_turtle.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_002/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_002/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_002/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_002/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_002/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_002/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rabbit_turtle_003",
+      "pageNumber": 3,
+      "text": {
+        "enLittle": "A rumor of the dragon king's sickness traveled with the tide.",
+        "enStandard": "At the piney shore, quietly, a rumor of the Dragon King's sickness traveled with the tide. \"Wisdom asks questions,\" Rabbit said.",
+        "koLittle": "용왕이 아프다는 소문이 물결을 탔어요",
+        "koStandard": "소나무 물가에서 용왕이 아프다는 소문이 물결을 탔어요."
+      },
+      "koreanText": "소나무 물가에서 용왕이 아프다는 소문이 물결을 탔어요.",
+      "englishText": "At the piney shore, quietly, a rumor of the Dragon King's sickness traveled with the tide. \"Wisdom asks questions,\" Rabbit said.",
+      "narrationScript": "소나무 물가에서 용왕이 아프다는 소문이 물결을 탔어요.",
+      "vocabulary": [
+        {
+          "ko": "용왕",
+          "en": "Dragon King",
+          "romanization": "yongwang",
+          "definitionEn": "The ruler of the sea palace.",
+          "definitionKo": "바닷속 궁궐의 임금이에요."
+        },
+        {
+          "ko": "궁궐",
+          "en": "palace",
+          "romanization": "gunggwol",
+          "definitionEn": "A grand home for a king.",
+          "definitionKo": "임금이 사는 큰 집이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "introduce Rabbit and Turtle at the border of land and water (forest shore)",
+        "emotion": "curious caution",
+        "pageTurnHook": "Then the water road will grow deeper, and the story moves toward journey to palace.",
+        "readAloudCue": "Read with curious caution; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count the reed shadows."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/rabbit_turtle.character_bible.json. Page 3 for 토끼와 자라 / The Rabbit and the Turtle: Rabbit on shore, Turtle in clear water, reeds and palace-colored clouds; specific beat: a rumor of the Dragon King's sickness traveled with the tide; emotional tone: curious caution; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/rabbit-and-turtle/page-003.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with curious caution; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/rabbit-and-turtle/ko/page-003.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/rabbit-and-turtle/ambient/ambient-loop.wav",
+      "characterBible": "characters/rabbit_turtle.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_003/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_003/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_003/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_003/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_003/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_003/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rabbit_turtle_004",
+      "pageNumber": 4,
+      "text": {
+        "enLittle": "Rabbit liked stories but did not like strangers asking too politely.",
+        "enStandard": "At the piney shore, with the moon high, Rabbit liked stories but did not like strangers asking too politely. \"Come see the sea palace,\" Turtle said.",
+        "koLittle": "토끼는 이야기는 좋아했지만 너무 공손한 부탁은 조심했어요",
+        "koStandard": "소나무 물가에서 토끼는 이야기는 좋아했지만 너무 공손한 부탁은 조심했어요."
+      },
+      "koreanText": "소나무 물가에서 토끼는 이야기는 좋아했지만 너무 공손한 부탁은 조심했어요.",
+      "englishText": "At the piney shore, with the moon high, Rabbit liked stories but did not like strangers asking too politely. \"Come see the sea palace,\" Turtle said.",
+      "narrationScript": "소나무 물가에서 토끼는 이야기는 좋아했지만 너무 공손한 부탁은 조심했어요.",
+      "vocabulary": [
+        {
+          "ko": "간",
+          "en": "liver",
+          "romanization": "gan",
+          "definitionEn": "A body part mentioned in the old tale, kept abstract here.",
+          "definitionKo": "옛이야기에 나오는 몸속 기관이지만 여기서는 자세히 보이지 않아요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "introduce Rabbit and Turtle at the border of land and water (forest shore)",
+        "emotion": "curious caution",
+        "pageTurnHook": "Then the water road will grow deeper, and the story moves toward journey to palace.",
+        "readAloudCue": "Read with curious caution; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold the reed shadows."
+      },
+      "refrain": "Think, Rabbit, think.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/rabbit_turtle.character_bible.json. Page 4 for 토끼와 자라 / The Rabbit and the Turtle: Rabbit on shore, Turtle in clear water, reeds and palace-colored clouds; specific beat: Rabbit liked stories but did not like strangers asking too politely; emotional tone: curious caution; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/rabbit-and-turtle/page-004.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with curious caution; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/rabbit-and-turtle/ko/page-004.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/rabbit-and-turtle/ambient/ambient-loop.wav",
+      "characterBible": "characters/rabbit_turtle.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_004/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_004/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_004/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_004/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_004/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_004/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "생각해, 토끼야, 생각해."
+    },
+    {
+      "id": "rabbit_turtle_005",
+      "pageNumber": 5,
+      "text": {
+        "enLittle": "Rabbit tasted clover while turtle watched the road between reeds.",
+        "enStandard": "At the piney shore, before dawn, Rabbit tasted clover while Turtle watched the road between reeds. \"Why me?\" Rabbit asked.",
+        "koLittle": "토끼는 토끼풀을 먹고 자라는 갈대 사이 길을 보았어요",
+        "koStandard": "소나무 물가에서 토끼는 토끼풀을 먹고 자라는 갈대 사이 길을 보았어요."
+      },
+      "koreanText": "소나무 물가에서 토끼는 토끼풀을 먹고 자라는 갈대 사이 길을 보았어요.",
+      "englishText": "At the piney shore, before dawn, Rabbit tasted clover while Turtle watched the road between reeds. \"Why me?\" Rabbit asked.",
+      "narrationScript": "소나무 물가에서 토끼는 토끼풀을 먹고 자라는 갈대 사이 길을 보았어요.",
+      "vocabulary": [
+        {
+          "ko": "궁궐",
+          "en": "palace",
+          "romanization": "gunggwol",
+          "definitionEn": "A grand home for a king.",
+          "definitionKo": "임금이 사는 큰 집이에요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "introduce Rabbit and Turtle at the border of land and water (forest shore)",
+        "emotion": "curious caution",
+        "pageTurnHook": "Then the water road will grow deeper, and the story moves toward journey to palace.",
+        "readAloudCue": "Read with curious caution; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe the reed shadows."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/rabbit_turtle.character_bible.json. Page 5 for 토끼와 자라 / The Rabbit and the Turtle: Rabbit on shore, Turtle in clear water, reeds and palace-colored clouds; specific beat: Rabbit tasted clover while Turtle watched the road between reeds; emotional tone: curious caution; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/rabbit-and-turtle/page-005.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with curious caution; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/rabbit-and-turtle/ko/page-005.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/rabbit-and-turtle/ambient/ambient-loop.wav",
+      "characterBible": "characters/rabbit_turtle.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_005/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_005/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_005/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_005/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_005/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_005/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rabbit_turtle_006",
+      "pageNumber": 6,
+      "text": {
+        "enLittle": "Rabbit held turtle's shell while fish lanterns blinked below.",
+        "enStandard": "Across the moonlit water, first, Rabbit held Turtle's shell while fish lanterns blinked below. \"Soon,\" Turtle murmured.",
+        "koLittle": "토끼는 자라의 등을 잡고 물고기 등불을 보았어요",
+        "koStandard": "달빛 물길 위에서 토끼는 자라의 등을 잡고 물고기 등불을 보았어요."
+      },
+      "koreanText": "달빛 물길 위에서 토끼는 자라의 등을 잡고 물고기 등불을 보았어요.",
+      "englishText": "Across the moonlit water, first, Rabbit held Turtle's shell while fish lanterns blinked below. \"Soon,\" Turtle murmured.",
+      "narrationScript": "달빛 물길 위에서 토끼는 자라의 등을 잡고 물고기 등불을 보았어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "carry Rabbit toward the sea court (journey to palace)",
+        "emotion": "uneasy wonder",
+        "pageTurnHook": "Then the palace gate will reveal the true request, and the story moves toward Dragon King's request.",
+        "readAloudCue": "Read with uneasy wonder; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open the shell ripples."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/rabbit_turtle.character_bible.json. Page 6 for 토끼와 자라 / The Rabbit and the Turtle: Rabbit riding Turtle, waves parted safely, distant sea palace lights; specific beat: Rabbit held Turtle's shell while fish lanterns blinked below; emotional tone: uneasy wonder; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/rabbit-and-turtle/page-006.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with uneasy wonder; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/rabbit-and-turtle/ko/page-006.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/rabbit-and-turtle/ambient/ambient-loop.wav",
+      "characterBible": "characters/rabbit_turtle.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_006/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_006/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_006/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_006/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_006/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_006/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rabbit_turtle_007",
+      "pageNumber": 7,
+      "text": {
+        "enLittle": "Turtle praised the palace.",
+        "enStandard": "Across the moonlit water, next, Turtle praised the palace, but his voice sounded tight. \"You are quiet,\" Rabbit said.",
+        "koLittle": "자라는 궁궐을 칭찬했지만 목소리가 팽팽했어요",
+        "koStandard": "달빛 물길 위에서 자라는 궁궐을 칭찬했지만 목소리가 팽팽했어요."
+      },
+      "koreanText": "달빛 물길 위에서 자라는 궁궐을 칭찬했지만 목소리가 팽팽했어요.",
+      "englishText": "Across the moonlit water, next, Turtle praised the palace, but his voice sounded tight. \"You are quiet,\" Rabbit said.",
+      "narrationScript": "달빛 물길 위에서 자라는 궁궐을 칭찬했지만 목소리가 팽팽했어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "carry Rabbit toward the sea court (journey to palace)",
+        "emotion": "uneasy wonder",
+        "pageTurnHook": "Then the palace gate will reveal the true request, and the story moves toward Dragon King's request.",
+        "readAloudCue": "Read with uneasy wonder; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose the shell ripples."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/rabbit_turtle.character_bible.json. Page 7 for 토끼와 자라 / The Rabbit and the Turtle: Rabbit riding Turtle, waves parted safely, distant sea palace lights; specific beat: Turtle praised the palace, but his voice sounded tight; emotional tone: uneasy wonder; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/rabbit-and-turtle/page-007.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with uneasy wonder; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/rabbit-and-turtle/ko/page-007.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/rabbit-and-turtle/ambient/ambient-loop.wav",
+      "characterBible": "characters/rabbit_turtle.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_007/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_007/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_007/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_007/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_007/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_007/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rabbit_turtle_008",
+      "pageNumber": 8,
+      "text": {
+        "enLittle": "The shoreline shrank until rabbit could no longer hop back.",
+        "enStandard": "Across the moonlit water, quietly, the shoreline shrank until Rabbit could no longer hop back. \"Court matters are heavy,\" Turtle answered.",
+        "koLittle": "해변은 점점 멀어져 토끼가 뛰어갈 수 없게 되었어요",
+        "koStandard": "달빛 물길 위에서 해변은 점점 멀어져 토끼가 뛰어갈 수 없게 되었어요."
+      },
+      "koreanText": "달빛 물길 위에서 해변은 점점 멀어져 토끼가 뛰어갈 수 없게 되었어요.",
+      "englishText": "Across the moonlit water, quietly, the shoreline shrank until Rabbit could no longer hop back. \"Court matters are heavy,\" Turtle answered.",
+      "narrationScript": "달빛 물길 위에서 해변은 점점 멀어져 토끼가 뛰어갈 수 없게 되었어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "carry Rabbit toward the sea court (journey to palace)",
+        "emotion": "uneasy wonder",
+        "pageTurnHook": "Then the palace gate will reveal the true request, and the story moves toward Dragon King's request.",
+        "readAloudCue": "Read with uneasy wonder; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag the shell ripples."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/rabbit_turtle.character_bible.json. Page 8 for 토끼와 자라 / The Rabbit and the Turtle: Rabbit riding Turtle, waves parted safely, distant sea palace lights; specific beat: the shoreline shrank until Rabbit could no longer hop back; emotional tone: uneasy wonder; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/rabbit-and-turtle/page-008.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with uneasy wonder; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/rabbit-and-turtle/ko/page-008.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/rabbit-and-turtle/ambient/ambient-loop.wav",
+      "characterBible": "characters/rabbit_turtle.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_008/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_008/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_008/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_008/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_008/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_008/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rabbit_turtle_009",
+      "pageNumber": 9,
+      "text": {
+        "enLittle": "Silver bubbles carried court whispers about a cure.",
+        "enStandard": "Across the moonlit water, with the moon high, silver bubbles carried court whispers about a cure. \"Heavy words should be shared early,\" Rabbit said.",
+        "koLittle": "은빛 거품이 치료 이야기의 속삭임을 전했어요",
+        "koStandard": "달빛 물길 위에서 은빛 거품이 치료 이야기의 속삭임을 전했어요."
+      },
+      "koreanText": "달빛 물길 위에서 은빛 거품이 치료 이야기의 속삭임을 전했어요.",
+      "englishText": "Across the moonlit water, with the moon high, silver bubbles carried court whispers about a cure. \"Heavy words should be shared early,\" Rabbit said.",
+      "narrationScript": "달빛 물길 위에서 은빛 거품이 치료 이야기의 속삭임을 전했어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "carry Rabbit toward the sea court (journey to palace)",
+        "emotion": "uneasy wonder",
+        "pageTurnHook": "Then the palace gate will reveal the true request, and the story moves toward Dragon King's request.",
+        "readAloudCue": "Read with uneasy wonder; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap the shell ripples."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/rabbit_turtle.character_bible.json. Page 9 for 토끼와 자라 / The Rabbit and the Turtle: Rabbit riding Turtle, waves parted safely, distant sea palace lights; specific beat: silver bubbles carried court whispers about a cure; emotional tone: uneasy wonder; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/rabbit-and-turtle/page-009.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with uneasy wonder; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/rabbit-and-turtle/ko/page-009.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/rabbit-and-turtle/ambient/ambient-loop.wav",
+      "characterBible": "characters/rabbit_turtle.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_009/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_009/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_009/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_009/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_009/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_009/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rabbit_turtle_010",
+      "pageNumber": 10,
+      "text": {
+        "enLittle": "Rabbit held turtle's shell while fish lanterns blinked below.",
+        "enStandard": "Across the moonlit water, before dawn, Rabbit held Turtle's shell while fish lanterns blinked below. \"Soon,\" Turtle murmured.",
+        "koLittle": "토끼는 자라의 등을 잡고 물고기 등불을 보았어요",
+        "koStandard": "달빛 물길 위에서 토끼는 자라의 등을 잡고 물고기 등불을 보았어요."
+      },
+      "koreanText": "달빛 물길 위에서 토끼는 자라의 등을 잡고 물고기 등불을 보았어요.",
+      "englishText": "Across the moonlit water, before dawn, Rabbit held Turtle's shell while fish lanterns blinked below. \"Soon,\" Turtle murmured.",
+      "narrationScript": "달빛 물길 위에서 토끼는 자라의 등을 잡고 물고기 등불을 보았어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "토끼",
+          "en": "rabbit",
+          "romanization": "tokki",
+          "definitionEn": "A quick forest animal.",
+          "definitionKo": "빠르게 뛰는 숲속 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "carry Rabbit toward the sea court (journey to palace)",
+        "emotion": "uneasy wonder",
+        "pageTurnHook": "Then the palace gate will reveal the true request, and the story moves toward Dragon King's request.",
+        "readAloudCue": "Read with uneasy wonder; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace the shell ripples."
+      },
+      "refrain": "Think, Rabbit, think.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/rabbit_turtle.character_bible.json. Page 10 for 토끼와 자라 / The Rabbit and the Turtle: Rabbit riding Turtle, waves parted safely, distant sea palace lights; specific beat: Rabbit held Turtle's shell while fish lanterns blinked below; emotional tone: uneasy wonder; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/rabbit-and-turtle/page-010.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with uneasy wonder; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/rabbit-and-turtle/ko/page-010.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/rabbit-and-turtle/ambient/ambient-loop.wav",
+      "characterBible": "characters/rabbit_turtle.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_010/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_010/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_010/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_010/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_010/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_010/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "생각해, 토끼야, 생각해."
+    },
+    {
+      "id": "rabbit_turtle_011",
+      "pageNumber": 11,
+      "text": {
+        "enLittle": "The dragon king thanked rabbit.",
+        "enStandard": "Inside the sea palace, first, the Dragon King thanked Rabbit, then named the impossible liver cure. \"Only if you agree,\" a guard mumbled.",
+        "koLittle": "용왕은 토끼에게 고마워하다가 어려운 간 치료 이야기를 꺼냈어요",
+        "koStandard": "바닷속 궁궐 안에서 용왕은 토끼에게 고마워하다가 어려운 간 치료 이야기를 꺼냈어요."
+      },
+      "koreanText": "바닷속 궁궐 안에서 용왕은 토끼에게 고마워하다가 어려운 간 치료 이야기를 꺼냈어요.",
+      "englishText": "Inside the sea palace, first, the Dragon King thanked Rabbit, then named the impossible liver cure. \"Only if you agree,\" a guard mumbled.",
+      "narrationScript": "바닷속 궁궐 안에서 용왕은 토끼에게 고마워하다가 어려운 간 치료 이야기를 꺼냈어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "자라",
+          "en": "softshell turtle",
+          "romanization": "jara",
+          "definitionEn": "A turtle-like water animal from Korean tales.",
+          "definitionKo": "한국 이야기 속 물가 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "reveal the liver demand abstractly (Dragon King's request)",
+        "emotion": "alarmed thinking",
+        "pageTurnHook": "Then Rabbit will use an old forest joke as a door, and the story moves toward clever escape.",
+        "readAloudCue": "Read with alarmed thinking; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count the pearl floor."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/rabbit_turtle.character_bible.json. Page 11 for 토끼와 자라 / The Rabbit and the Turtle: Dragon King on shell throne, Rabbit small but alert, Turtle ashamed; specific beat: the Dragon King thanked Rabbit, then named the impossible liver cure; emotional tone: alarmed thinking; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/rabbit-and-turtle/page-011.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with alarmed thinking; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/rabbit-and-turtle/ko/page-011.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/rabbit-and-turtle/ambient/ambient-loop.wav",
+      "characterBible": "characters/rabbit_turtle.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_011/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_011/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_011/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_011/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_011/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_011/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rabbit_turtle_012",
+      "pageNumber": 12,
+      "text": {
+        "enLittle": "Turtle's eyes dropped to the pearl floor because the secret had arrived too late.",
+        "enStandard": "Inside the sea palace, next, Turtle's eyes dropped to the pearl floor because the secret had arrived too late. \"Then I must tell the truth,\" Rabbit replied.",
+        "koLittle": "비밀을 너무 늦게 말한 자라는 진주 바닥만 보았어요",
+        "koStandard": "바닷속 궁궐 안에서 비밀을 너무 늦게 말한 자라는 진주 바닥만 보았어요."
+      },
+      "koreanText": "바닷속 궁궐 안에서 비밀을 너무 늦게 말한 자라는 진주 바닥만 보았어요.",
+      "englishText": "Inside the sea palace, next, Turtle's eyes dropped to the pearl floor because the secret had arrived too late. \"Then I must tell the truth,\" Rabbit replied.",
+      "narrationScript": "바닷속 궁궐 안에서 비밀을 너무 늦게 말한 자라는 진주 바닥만 보았어요.",
+      "vocabulary": [
+        {
+          "ko": "토끼",
+          "en": "rabbit",
+          "romanization": "tokki",
+          "definitionEn": "A quick forest animal.",
+          "definitionKo": "빠르게 뛰는 숲속 동물이에요."
+        },
+        {
+          "ko": "용왕",
+          "en": "Dragon King",
+          "romanization": "yongwang",
+          "definitionEn": "The ruler of the sea palace.",
+          "definitionKo": "바닷속 궁궐의 임금이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "reveal the liver demand abstractly (Dragon King's request)",
+        "emotion": "alarmed thinking",
+        "pageTurnHook": "Then Rabbit will use an old forest joke as a door, and the story moves toward clever escape.",
+        "readAloudCue": "Read with alarmed thinking; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold the pearl floor."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/rabbit_turtle.character_bible.json. Page 12 for 토끼와 자라 / The Rabbit and the Turtle: Dragon King on shell throne, Rabbit small but alert, Turtle ashamed; specific beat: Turtle's eyes dropped to the pearl floor because the secret had arrived too late; emotional tone: alarmed thinking; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/rabbit-and-turtle/page-012.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with alarmed thinking; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/rabbit-and-turtle/ko/page-012.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/rabbit-and-turtle/ambient/ambient-loop.wav",
+      "characterBible": "characters/rabbit_turtle.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_012/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_012/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_012/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_012/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_012/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_012/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rabbit_turtle_013",
+      "pageNumber": 13,
+      "text": {
+        "enLittle": "Rabbit's ears stood still while his thoughts ran faster than minnows.",
+        "enStandard": "Inside the sea palace, quietly, Rabbit's ears stood still while his thoughts ran faster than minnows. \"Truth?\" asked the king.",
+        "koLittle": "토끼의 귀는 멈췄지만 생각은 물고기보다 빨랐어요",
+        "koStandard": "바닷속 궁궐 안에서 토끼의 귀는 멈췄지만 생각은 물고기보다 빨랐어요."
+      },
+      "koreanText": "바닷속 궁궐 안에서 토끼의 귀는 멈췄지만 생각은 물고기보다 빨랐어요.",
+      "englishText": "Inside the sea palace, quietly, Rabbit's ears stood still while his thoughts ran faster than minnows. \"Truth?\" asked the king.",
+      "narrationScript": "바닷속 궁궐 안에서 토끼의 귀는 멈췄지만 생각은 물고기보다 빨랐어요.",
+      "vocabulary": [
+        {
+          "ko": "자라",
+          "en": "softshell turtle",
+          "romanization": "jara",
+          "definitionEn": "A turtle-like water animal from Korean tales.",
+          "definitionKo": "한국 이야기 속 물가 동물이에요."
+        },
+        {
+          "ko": "간",
+          "en": "liver",
+          "romanization": "gan",
+          "definitionEn": "A body part mentioned in the old tale, kept abstract here.",
+          "definitionKo": "옛이야기에 나오는 몸속 기관이지만 여기서는 자세히 보이지 않아요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "reveal the liver demand abstractly (Dragon King's request)",
+        "emotion": "alarmed thinking",
+        "pageTurnHook": "Then Rabbit will use an old forest joke as a door, and the story moves toward clever escape.",
+        "readAloudCue": "Read with alarmed thinking; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe the pearl floor."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/rabbit_turtle.character_bible.json. Page 13 for 토끼와 자라 / The Rabbit and the Turtle: Dragon King on shell throne, Rabbit small but alert, Turtle ashamed; specific beat: Rabbit's ears stood still while his thoughts ran faster than minnows; emotional tone: alarmed thinking; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/rabbit-and-turtle/page-013.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with alarmed thinking; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/rabbit-and-turtle/ko/page-013.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/rabbit-and-turtle/ambient/ambient-loop.wav",
+      "characterBible": "characters/rabbit_turtle.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_013/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_013/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_013/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_013/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_013/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_013/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rabbit_turtle_014",
+      "pageNumber": 14,
+      "text": {
+        "enLittle": "The court leaned closer.",
+        "enStandard": "Inside the sea palace, with the moon high, the court leaned closer, expecting fear instead of questions. \"My liver?\" Rabbit said softly.",
+        "koLittle": "궁궐 사람들은 두려움만 기다리며 다가왔어요",
+        "koStandard": "바닷속 궁궐 안에서 궁궐 사람들은 두려움만 기다리며 다가왔어요."
+      },
+      "koreanText": "바닷속 궁궐 안에서 궁궐 사람들은 두려움만 기다리며 다가왔어요.",
+      "englishText": "Inside the sea palace, with the moon high, the court leaned closer, expecting fear instead of questions. \"My liver?\" Rabbit said softly.",
+      "narrationScript": "바닷속 궁궐 안에서 궁궐 사람들은 두려움만 기다리며 다가왔어요.",
+      "vocabulary": [
+        {
+          "ko": "용왕",
+          "en": "Dragon King",
+          "romanization": "yongwang",
+          "definitionEn": "The ruler of the sea palace.",
+          "definitionKo": "바닷속 궁궐의 임금이에요."
+        },
+        {
+          "ko": "궁궐",
+          "en": "palace",
+          "romanization": "gunggwol",
+          "definitionEn": "A grand home for a king.",
+          "definitionKo": "임금이 사는 큰 집이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "reveal the liver demand abstractly (Dragon King's request)",
+        "emotion": "alarmed thinking",
+        "pageTurnHook": "Then Rabbit will use an old forest joke as a door, and the story moves toward clever escape.",
+        "readAloudCue": "Read with alarmed thinking; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open the pearl floor."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/rabbit_turtle.character_bible.json. Page 14 for 토끼와 자라 / The Rabbit and the Turtle: Dragon King on shell throne, Rabbit small but alert, Turtle ashamed; specific beat: the court leaned closer, expecting fear instead of questions; emotional tone: alarmed thinking; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/rabbit-and-turtle/page-014.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with alarmed thinking; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/rabbit-and-turtle/ko/page-014.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/rabbit-and-turtle/ambient/ambient-loop.wav",
+      "characterBible": "characters/rabbit_turtle.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_014/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_014/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_014/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_014/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_014/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_014/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rabbit_turtle_015",
+      "pageNumber": 15,
+      "text": {
+        "enLittle": "The dragon king thanked rabbit.",
+        "enStandard": "Inside the sea palace, before dawn, the Dragon King thanked Rabbit, then named the impossible liver cure. \"Only if you agree,\" a guard mumbled.",
+        "koLittle": "용왕은 토끼에게 고마워하다가 어려운 간 치료 이야기를 꺼냈어요",
+        "koStandard": "바닷속 궁궐 안에서 용왕은 토끼에게 고마워하다가 어려운 간 치료 이야기를 꺼냈어요."
+      },
+      "koreanText": "바닷속 궁궐 안에서 용왕은 토끼에게 고마워하다가 어려운 간 치료 이야기를 꺼냈어요.",
+      "englishText": "Inside the sea palace, before dawn, the Dragon King thanked Rabbit, then named the impossible liver cure. \"Only if you agree,\" a guard mumbled.",
+      "narrationScript": "바닷속 궁궐 안에서 용왕은 토끼에게 고마워하다가 어려운 간 치료 이야기를 꺼냈어요.",
+      "vocabulary": [
+        {
+          "ko": "간",
+          "en": "liver",
+          "romanization": "gan",
+          "definitionEn": "A body part mentioned in the old tale, kept abstract here.",
+          "definitionKo": "옛이야기에 나오는 몸속 기관이지만 여기서는 자세히 보이지 않아요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "reveal the liver demand abstractly (Dragon King's request)",
+        "emotion": "alarmed thinking",
+        "pageTurnHook": "Then Rabbit will use an old forest joke as a door, and the story moves toward clever escape.",
+        "readAloudCue": "Read with alarmed thinking; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose the pearl floor."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/rabbit_turtle.character_bible.json. Page 15 for 토끼와 자라 / The Rabbit and the Turtle: Dragon King on shell throne, Rabbit small but alert, Turtle ashamed; specific beat: the Dragon King thanked Rabbit, then named the impossible liver cure; emotional tone: alarmed thinking; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/rabbit-and-turtle/page-015.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with alarmed thinking; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/rabbit-and-turtle/ko/page-015.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/rabbit-and-turtle/ambient/ambient-loop.wav",
+      "characterBible": "characters/rabbit_turtle.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_015/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_015/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_015/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_015/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_015/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_015/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rabbit_turtle_016",
+      "pageNumber": 16,
+      "text": {
+        "enLittle": "Rabbit sighed as if everyone knew forest rabbits stored important things at home.",
+        "enStandard": "At the palace steps, first, Rabbit sighed as if everyone knew forest rabbits stored important things at home. \"Then fetch it,\" said the court.",
+        "koLittle": "토끼는 숲토끼가 중요한 것을 집에 둔다고 모두 아는 듯 한숨 쉬었어요",
+        "koStandard": "궁궐 계단에서 토끼는 숲토끼가 중요한 것을 집에 둔다고 모두 아는 듯 한숨 쉬었어요."
+      },
+      "koreanText": "궁궐 계단에서 토끼는 숲토끼가 중요한 것을 집에 둔다고 모두 아는 듯 한숨 쉬었어요.",
+      "englishText": "At the palace steps, first, Rabbit sighed as if everyone knew forest rabbits stored important things at home. \"Then fetch it,\" said the court.",
+      "narrationScript": "궁궐 계단에서 토끼는 숲토끼가 중요한 것을 집에 둔다고 모두 아는 듯 한숨 쉬었어요.",
+      "vocabulary": [
+        {
+          "ko": "궁궐",
+          "en": "palace",
+          "romanization": "gunggwol",
+          "definitionEn": "A grand home for a king.",
+          "definitionKo": "임금이 사는 큰 집이에요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Rabbit invents the left-at-home liver ruse (clever escape)",
+        "emotion": "quick courage",
+        "pageTurnHook": "Then the return trip will test Turtle's heart, and the story moves toward shore truth.",
+        "readAloudCue": "Read with quick courage; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag Rabbit's open paws."
+      },
+      "refrain": "Think, Rabbit, think.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/rabbit_turtle.character_bible.json. Page 16 for 토끼와 자라 / The Rabbit and the Turtle: Rabbit explaining with paws open, Turtle startled, guards confused but non-threatening; specific beat: Rabbit sighed as if everyone knew forest rabbits stored important things at home; emotional tone: quick courage; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/rabbit-and-turtle/page-016.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with quick courage; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/rabbit-and-turtle/ko/page-016.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/rabbit-and-turtle/ambient/ambient-loop.wav",
+      "characterBible": "characters/rabbit_turtle.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_016/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_016/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_016/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_016/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_016/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_016/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "생각해, 토끼야, 생각해."
+    },
+    {
+      "id": "rabbit_turtle_017",
+      "pageNumber": 17,
+      "text": {
+        "enLittle": "He described a cool stone shelf where his liver supposedly rested.",
+        "enStandard": "At the palace steps, next, he described a cool stone shelf where his liver supposedly rested. \"I left it drying at home,\" Rabbit said.",
+        "koLittle": "그는 간을 시원한 돌 선반에 두고 왔다고 말했어요",
+        "koStandard": "궁궐 계단에서 그는 간을 시원한 돌 선반에 두고 왔다고 말했어요."
+      },
+      "koreanText": "궁궐 계단에서 그는 간을 시원한 돌 선반에 두고 왔다고 말했어요.",
+      "englishText": "At the palace steps, next, he described a cool stone shelf where his liver supposedly rested. \"I left it drying at home,\" Rabbit said.",
+      "narrationScript": "궁궐 계단에서 그는 간을 시원한 돌 선반에 두고 왔다고 말했어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Rabbit invents the left-at-home liver ruse (clever escape)",
+        "emotion": "quick courage",
+        "pageTurnHook": "Then the return trip will test Turtle's heart, and the story moves toward shore truth.",
+        "readAloudCue": "Read with quick courage; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap Rabbit's open paws."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/rabbit_turtle.character_bible.json. Page 17 for 토끼와 자라 / The Rabbit and the Turtle: Rabbit explaining with paws open, Turtle startled, guards confused but non-threatening; specific beat: he described a cool stone shelf where his liver supposedly rested; emotional tone: quick courage; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/rabbit-and-turtle/page-017.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with quick courage; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/rabbit-and-turtle/ko/page-017.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/rabbit-and-turtle/ambient/ambient-loop.wav",
+      "characterBible": "characters/rabbit_turtle.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_017/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_017/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_017/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_017/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_017/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_017/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rabbit_turtle_018",
+      "pageNumber": 18,
+      "text": {
+        "enLittle": "The guards blinked.",
+        "enStandard": "At the palace steps, quietly, the guards blinked, and Turtle blinked twice as hard. \"Can that be true?\" Turtle whispered.",
+        "koLittle": "수문장도 자라도 눈을 깜빡였어요",
+        "koStandard": "궁궐 계단에서 수문장도 자라도 눈을 깜빡였어요."
+      },
+      "koreanText": "궁궐 계단에서 수문장도 자라도 눈을 깜빡였어요.",
+      "englishText": "At the palace steps, quietly, the guards blinked, and Turtle blinked twice as hard. \"Can that be true?\" Turtle whispered.",
+      "narrationScript": "궁궐 계단에서 수문장도 자라도 눈을 깜빡였어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Rabbit invents the left-at-home liver ruse (clever escape)",
+        "emotion": "quick courage",
+        "pageTurnHook": "Then the return trip will test Turtle's heart, and the story moves toward shore truth.",
+        "readAloudCue": "Read with quick courage; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace Rabbit's open paws."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/rabbit_turtle.character_bible.json. Page 18 for 토끼와 자라 / The Rabbit and the Turtle: Rabbit explaining with paws open, Turtle startled, guards confused but non-threatening; specific beat: the guards blinked, and Turtle blinked twice as hard; emotional tone: quick courage; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/rabbit-and-turtle/page-018.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with quick courage; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/rabbit-and-turtle/ko/page-018.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/rabbit-and-turtle/ambient/ambient-loop.wav",
+      "characterBible": "characters/rabbit_turtle.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_018/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_018/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_018/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_018/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_018/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_018/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rabbit_turtle_019",
+      "pageNumber": 19,
+      "text": {
+        "enLittle": "Rabbit kept his voice respectful so cleverness would not become cruelty.",
+        "enStandard": "At the palace steps, with the moon high, Rabbit kept his voice respectful so cleverness would not become cruelty. \"You brought me in such a hurry,\" Rabbit answered.",
+        "koLittle": "토끼는 잔꾀가 못되게 들리지 않도록 공손히 말했어요",
+        "koStandard": "궁궐 계단에서 토끼는 잔꾀가 못되게 들리지 않도록 공손히 말했어요."
+      },
+      "koreanText": "궁궐 계단에서 토끼는 잔꾀가 못되게 들리지 않도록 공손히 말했어요.",
+      "englishText": "At the palace steps, with the moon high, Rabbit kept his voice respectful so cleverness would not become cruelty. \"You brought me in such a hurry,\" Rabbit answered.",
+      "narrationScript": "궁궐 계단에서 토끼는 잔꾀가 못되게 들리지 않도록 공손히 말했어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Rabbit invents the left-at-home liver ruse (clever escape)",
+        "emotion": "quick courage",
+        "pageTurnHook": "Then the return trip will test Turtle's heart, and the story moves toward shore truth.",
+        "readAloudCue": "Read with quick courage; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count Rabbit's open paws."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/rabbit_turtle.character_bible.json. Page 19 for 토끼와 자라 / The Rabbit and the Turtle: Rabbit explaining with paws open, Turtle startled, guards confused but non-threatening; specific beat: Rabbit kept his voice respectful so cleverness would not become cruelty; emotional tone: quick courage; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/rabbit-and-turtle/page-019.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with quick courage; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/rabbit-and-turtle/ko/page-019.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/rabbit-and-turtle/ambient/ambient-loop.wav",
+      "characterBible": "characters/rabbit_turtle.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_019/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_019/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_019/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_019/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_019/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_019/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rabbit_turtle_020",
+      "pageNumber": 20,
+      "text": {
+        "enLittle": "Rabbit sighed as if everyone knew forest rabbits stored important things at home.",
+        "enStandard": "At the palace steps, before dawn, Rabbit sighed as if everyone knew forest rabbits stored important things at home. \"Then fetch it,\" said the court.",
+        "koLittle": "토끼는 숲토끼가 중요한 것을 집에 둔다고 모두 아는 듯 한숨 쉬었어요",
+        "koStandard": "궁궐 계단에서 토끼는 숲토끼가 중요한 것을 집에 둔다고 모두 아는 듯 한숨 쉬었어요."
+      },
+      "koreanText": "궁궐 계단에서 토끼는 숲토끼가 중요한 것을 집에 둔다고 모두 아는 듯 한숨 쉬었어요.",
+      "englishText": "At the palace steps, before dawn, Rabbit sighed as if everyone knew forest rabbits stored important things at home. \"Then fetch it,\" said the court.",
+      "narrationScript": "궁궐 계단에서 토끼는 숲토끼가 중요한 것을 집에 둔다고 모두 아는 듯 한숨 쉬었어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Rabbit invents the left-at-home liver ruse (clever escape)",
+        "emotion": "quick courage",
+        "pageTurnHook": "Then the return trip will test Turtle's heart, and the story moves toward shore truth.",
+        "readAloudCue": "Read with quick courage; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold Rabbit's open paws."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/rabbit_turtle.character_bible.json. Page 20 for 토끼와 자라 / The Rabbit and the Turtle: Rabbit explaining with paws open, Turtle startled, guards confused but non-threatening; specific beat: Rabbit sighed as if everyone knew forest rabbits stored important things at home; emotional tone: quick courage; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/rabbit-and-turtle/page-020.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with quick courage; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/rabbit-and-turtle/ko/page-020.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/rabbit-and-turtle/ambient/ambient-loop.wav",
+      "characterBible": "characters/rabbit_turtle.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_020/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_020/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_020/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_020/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_020/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_020/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rabbit_turtle_021",
+      "pageNumber": 21,
+      "text": {
+        "enLittle": "Rabbit sprang onto the sand and let his knees shake where nobody could command them.",
+        "enStandard": "Back at the shore, first, Rabbit sprang onto the sand and let his knees shake where nobody could command them. \"I was afraid of the king,\" Turtle admitted.",
+        "koLittle": "토끼는 모래 위로 뛰어올라 떨리는 무릎을 쉬게 했어요",
+        "koStandard": "다시 물가에서 토끼는 모래 위로 뛰어올라 떨리는 무릎을 쉬게 했어요."
+      },
+      "koreanText": "다시 물가에서 토끼는 모래 위로 뛰어올라 떨리는 무릎을 쉬게 했어요.",
+      "englishText": "Back at the shore, first, Rabbit sprang onto the sand and let his knees shake where nobody could command them. \"I was afraid of the king,\" Turtle admitted.",
+      "narrationScript": "다시 물가에서 토끼는 모래 위로 뛰어올라 떨리는 무릎을 쉬게 했어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "토끼",
+          "en": "rabbit",
+          "romanization": "tokki",
+          "definitionEn": "A quick forest animal.",
+          "definitionKo": "빠르게 뛰는 숲속 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Rabbit reaches land and tells the truth safely (shore truth)",
+        "emotion": "relief and accountability",
+        "pageTurnHook": "Then the sea court will have to learn another cure, and the story moves toward wiser court.",
+        "readAloudCue": "Read with relief and accountability; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe the shoreline."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/rabbit_turtle.character_bible.json. Page 21 for 토끼와 자라 / The Rabbit and the Turtle: Rabbit leaping to shore, Turtle half in water, dawn over reeds; specific beat: Rabbit sprang onto the sand and let his knees shake where nobody could command them; emotional tone: relief and accountability; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/rabbit-and-turtle/page-021.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with relief and accountability; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/rabbit-and-turtle/ko/page-021.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/rabbit-and-turtle/ambient/ambient-loop.wav",
+      "characterBible": "characters/rabbit_turtle.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_021/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_021/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_021/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_021/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_021/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_021/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rabbit_turtle_022",
+      "pageNumber": 22,
+      "text": {
+        "enLittle": "Turtle understood the ruse only after the shore was between them.",
+        "enStandard": "Back at the shore, next, Turtle understood the ruse only after the shore was between them. \"Fear still needs truth,\" Rabbit answered.",
+        "koLittle": "자라는 물가가 둘 사이에 놓인 뒤에야 꾀를 알아차렸어요",
+        "koStandard": "다시 물가에서 자라는 물가가 둘 사이에 놓인 뒤에야 꾀를 알아차렸어요."
+      },
+      "koreanText": "다시 물가에서 자라는 물가가 둘 사이에 놓인 뒤에야 꾀를 알아차렸어요.",
+      "englishText": "Back at the shore, next, Turtle understood the ruse only after the shore was between them. \"Fear still needs truth,\" Rabbit answered.",
+      "narrationScript": "다시 물가에서 자라는 물가가 둘 사이에 놓인 뒤에야 꾀를 알아차렸어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "자라",
+          "en": "softshell turtle",
+          "romanization": "jara",
+          "definitionEn": "A turtle-like water animal from Korean tales.",
+          "definitionKo": "한국 이야기 속 물가 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Rabbit reaches land and tells the truth safely (shore truth)",
+        "emotion": "relief and accountability",
+        "pageTurnHook": "Then the sea court will have to learn another cure, and the story moves toward wiser court.",
+        "readAloudCue": "Read with relief and accountability; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open the shoreline."
+      },
+      "refrain": "Think, Rabbit, think.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/rabbit_turtle.character_bible.json. Page 22 for 토끼와 자라 / The Rabbit and the Turtle: Rabbit leaping to shore, Turtle half in water, dawn over reeds; specific beat: Turtle understood the ruse only after the shore was between them; emotional tone: relief and accountability; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/rabbit-and-turtle/page-022.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with relief and accountability; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/rabbit-and-turtle/ko/page-022.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/rabbit-and-turtle/ambient/ambient-loop.wav",
+      "characterBible": "characters/rabbit_turtle.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_022/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_022/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_022/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_022/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_022/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_022/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "생각해, 토끼야, 생각해."
+    },
+    {
+      "id": "rabbit_turtle_023",
+      "pageNumber": 23,
+      "text": {
+        "enLittle": "Rabbit named the wrongness without shouting.",
+        "enStandard": "Back at the shore, quietly, Rabbit named the wrongness without shouting. \"I will say so,\" Turtle promised.",
+        "koLittle": "토끼는 소리치지 않고 잘못을 말했어요",
+        "koStandard": "다시 물가에서 토끼는 소리치지 않고 잘못을 말했어요."
+      },
+      "koreanText": "다시 물가에서 토끼는 소리치지 않고 잘못을 말했어요.",
+      "englishText": "Back at the shore, quietly, Rabbit named the wrongness without shouting. \"I will say so,\" Turtle promised.",
+      "narrationScript": "다시 물가에서 토끼는 소리치지 않고 잘못을 말했어요.",
+      "vocabulary": [
+        {
+          "ko": "토끼",
+          "en": "rabbit",
+          "romanization": "tokki",
+          "definitionEn": "A quick forest animal.",
+          "definitionKo": "빠르게 뛰는 숲속 동물이에요."
+        },
+        {
+          "ko": "용왕",
+          "en": "Dragon King",
+          "romanization": "yongwang",
+          "definitionEn": "The ruler of the sea palace.",
+          "definitionKo": "바닷속 궁궐의 임금이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Rabbit reaches land and tells the truth safely (shore truth)",
+        "emotion": "relief and accountability",
+        "pageTurnHook": "Then the sea court will have to learn another cure, and the story moves toward wiser court.",
+        "readAloudCue": "Read with relief and accountability; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose the shoreline."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/rabbit_turtle.character_bible.json. Page 23 for 토끼와 자라 / The Rabbit and the Turtle: Rabbit leaping to shore, Turtle half in water, dawn over reeds; specific beat: Rabbit named the wrongness without shouting; emotional tone: relief and accountability; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/rabbit-and-turtle/page-023.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with relief and accountability; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/rabbit-and-turtle/ko/page-023.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/rabbit-and-turtle/ambient/ambient-loop.wav",
+      "characterBible": "characters/rabbit_turtle.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_023/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_023/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_023/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_023/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_023/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_023/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rabbit_turtle_024",
+      "pageNumber": 24,
+      "text": {
+        "enLittle": "The tide carried turtle's apology back toward the palace.",
+        "enStandard": "Back at the shore, with the moon high, the tide carried Turtle's apology back toward the palace. \"A life is not a medicine jar,\" Rabbit said.",
+        "koLittle": "물결은 자라의 사과를 궁궐 쪽으로 보냈어요",
+        "koStandard": "다시 물가에서 물결은 자라의 사과를 궁궐 쪽으로 보냈어요."
+      },
+      "koreanText": "다시 물가에서 물결은 자라의 사과를 궁궐 쪽으로 보냈어요.",
+      "englishText": "Back at the shore, with the moon high, the tide carried Turtle's apology back toward the palace. \"A life is not a medicine jar,\" Rabbit said.",
+      "narrationScript": "다시 물가에서 물결은 자라의 사과를 궁궐 쪽으로 보냈어요.",
+      "vocabulary": [
+        {
+          "ko": "자라",
+          "en": "softshell turtle",
+          "romanization": "jara",
+          "definitionEn": "A turtle-like water animal from Korean tales.",
+          "definitionKo": "한국 이야기 속 물가 동물이에요."
+        },
+        {
+          "ko": "간",
+          "en": "liver",
+          "romanization": "gan",
+          "definitionEn": "A body part mentioned in the old tale, kept abstract here.",
+          "definitionKo": "옛이야기에 나오는 몸속 기관이지만 여기서는 자세히 보이지 않아요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Rabbit reaches land and tells the truth safely (shore truth)",
+        "emotion": "relief and accountability",
+        "pageTurnHook": "Then the sea court will have to learn another cure, and the story moves toward wiser court.",
+        "readAloudCue": "Read with relief and accountability; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag the shoreline."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/rabbit_turtle.character_bible.json. Page 24 for 토끼와 자라 / The Rabbit and the Turtle: Rabbit leaping to shore, Turtle half in water, dawn over reeds; specific beat: the tide carried Turtle's apology back toward the palace; emotional tone: relief and accountability; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/rabbit-and-turtle/page-024.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with relief and accountability; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/rabbit-and-turtle/ko/page-024.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/rabbit-and-turtle/ambient/ambient-loop.wav",
+      "characterBible": "characters/rabbit_turtle.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_024/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_024/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_024/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_024/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_024/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_024/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rabbit_turtle_025",
+      "pageNumber": 25,
+      "text": {
+        "enLittle": "Rabbit sprang onto the sand and let his knees shake where nobody could command them.",
+        "enStandard": "Back at the shore, before dawn, Rabbit sprang onto the sand and let his knees shake where nobody could command them. \"I was afraid of the king,\" Turtle admitted.",
+        "koLittle": "토끼는 모래 위로 뛰어올라 떨리는 무릎을 쉬게 했어요",
+        "koStandard": "다시 물가에서 토끼는 모래 위로 뛰어올라 떨리는 무릎을 쉬게 했어요."
+      },
+      "koreanText": "다시 물가에서 토끼는 모래 위로 뛰어올라 떨리는 무릎을 쉬게 했어요.",
+      "englishText": "Back at the shore, before dawn, Rabbit sprang onto the sand and let his knees shake where nobody could command them. \"I was afraid of the king,\" Turtle admitted.",
+      "narrationScript": "다시 물가에서 토끼는 모래 위로 뛰어올라 떨리는 무릎을 쉬게 했어요.",
+      "vocabulary": [
+        {
+          "ko": "용왕",
+          "en": "Dragon King",
+          "romanization": "yongwang",
+          "definitionEn": "The ruler of the sea palace.",
+          "definitionKo": "바닷속 궁궐의 임금이에요."
+        },
+        {
+          "ko": "궁궐",
+          "en": "palace",
+          "romanization": "gunggwol",
+          "definitionEn": "A grand home for a king.",
+          "definitionKo": "임금이 사는 큰 집이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Rabbit reaches land and tells the truth safely (shore truth)",
+        "emotion": "relief and accountability",
+        "pageTurnHook": "Then the sea court will have to learn another cure, and the story moves toward wiser court.",
+        "readAloudCue": "Read with relief and accountability; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap the shoreline."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/rabbit_turtle.character_bible.json. Page 25 for 토끼와 자라 / The Rabbit and the Turtle: Rabbit leaping to shore, Turtle half in water, dawn over reeds; specific beat: Rabbit sprang onto the sand and let his knees shake where nobody could command them; emotional tone: relief and accountability; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/rabbit-and-turtle/page-025.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with relief and accountability; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/rabbit-and-turtle/ko/page-025.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/rabbit-and-turtle/ambient/ambient-loop.wav",
+      "characterBible": "characters/rabbit_turtle.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_025/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_025/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_025/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_025/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_025/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_025/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rabbit_turtle_026",
+      "pageNumber": 26,
+      "text": {
+        "enLittle": "Turtle returned with forest herbs instead of rabbit.",
+        "enStandard": "Between forest and sea, first, Turtle returned with forest herbs instead of Rabbit. \"Think,\" the reeds seemed to answer.",
+        "koLittle": "자라는 토끼 대신 숲의 약초를 가져갔어요",
+        "koStandard": "숲과 바다 사이에서 자라는 토끼 대신 숲의 약초를 가져갔어요."
+      },
+      "koreanText": "숲과 바다 사이에서 자라는 토끼 대신 숲의 약초를 가져갔어요.",
+      "englishText": "Between forest and sea, first, Turtle returned with forest herbs instead of Rabbit. \"Think,\" the reeds seemed to answer.",
+      "narrationScript": "숲과 바다 사이에서 자라는 토끼 대신 숲의 약초를 가져갔어요.",
+      "vocabulary": [
+        {
+          "ko": "간",
+          "en": "liver",
+          "romanization": "gan",
+          "definitionEn": "A body part mentioned in the old tale, kept abstract here.",
+          "definitionKo": "옛이야기에 나오는 몸속 기관이지만 여기서는 자세히 보이지 않아요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve with wiser words and mercy (wiser court)",
+        "emotion": "calm repair",
+        "pageTurnHook": "Then the shell road can be safer next time, and the story moves toward wiser court.",
+        "readAloudCue": "Read with calm repair; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace the herb bundle."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/rabbit_turtle.character_bible.json. Page 26 for 토끼와 자라 / The Rabbit and the Turtle: Rabbit and Turtle apart but respectful, Dragon King receiving herbs and honest counsel; specific beat: Turtle returned with forest herbs instead of Rabbit; emotional tone: calm repair; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/rabbit-and-turtle/page-026.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with calm repair; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/rabbit-and-turtle/ko/page-026.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/rabbit-and-turtle/ambient/ambient-loop.wav",
+      "characterBible": "characters/rabbit_turtle.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_026/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_026/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_026/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_026/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_026/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_026/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rabbit_turtle_027",
+      "pageNumber": 27,
+      "text": {
+        "enLittle": "The dragon king listened because the truth had survived the tide.",
+        "enStandard": "Between forest and sea, next, the Dragon King listened because the truth had survived the tide. \"No cure should steal a friend,\" Turtle said.",
+        "koLittle": "용왕은 물결을 건너온 진실을 들었어요",
+        "koStandard": "숲과 바다 사이에서 용왕은 물결을 건너온 진실을 들었어요."
+      },
+      "koreanText": "숲과 바다 사이에서 용왕은 물결을 건너온 진실을 들었어요.",
+      "englishText": "Between forest and sea, next, the Dragon King listened because the truth had survived the tide. \"No cure should steal a friend,\" Turtle said.",
+      "narrationScript": "숲과 바다 사이에서 용왕은 물결을 건너온 진실을 들었어요.",
+      "vocabulary": [
+        {
+          "ko": "궁궐",
+          "en": "palace",
+          "romanization": "gunggwol",
+          "definitionEn": "A grand home for a king.",
+          "definitionKo": "임금이 사는 큰 집이에요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve with wiser words and mercy (wiser court)",
+        "emotion": "calm repair",
+        "pageTurnHook": "Then the shell road can be safer next time, and the story moves toward wiser court.",
+        "readAloudCue": "Read with calm repair; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count the herb bundle."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/rabbit_turtle.character_bible.json. Page 27 for 토끼와 자라 / The Rabbit and the Turtle: Rabbit and Turtle apart but respectful, Dragon King receiving herbs and honest counsel; specific beat: the Dragon King listened because the truth had survived the tide; emotional tone: calm repair; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/rabbit-and-turtle/page-027.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with calm repair; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/rabbit-and-turtle/ko/page-027.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/rabbit-and-turtle/ambient/ambient-loop.wav",
+      "characterBible": "characters/rabbit_turtle.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_027/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_027/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_027/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_027/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_027/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_027/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rabbit_turtle_028",
+      "pageNumber": 28,
+      "text": {
+        "enLittle": "Rabbit taught young hares to ask why before hopping onto any shell.",
+        "enStandard": "Between forest and sea, quietly, Rabbit taught young hares to ask why before hopping onto any shell. \"Then bring wiser help,\" the king replied.",
+        "koLittle": "토끼는 어린 토끼들에게 등껍질에 오르기 전 이유를 묻자고 가르쳤어요",
+        "koStandard": "숲과 바다 사이에서 토끼는 어린 토끼들에게 등껍질에 오르기 전 이유를 묻자고 가르쳤어요."
+      },
+      "koreanText": "숲과 바다 사이에서 토끼는 어린 토끼들에게 등껍질에 오르기 전 이유를 묻자고 가르쳤어요.",
+      "englishText": "Between forest and sea, quietly, Rabbit taught young hares to ask why before hopping onto any shell. \"Then bring wiser help,\" the king replied.",
+      "narrationScript": "숲과 바다 사이에서 토끼는 어린 토끼들에게 등껍질에 오르기 전 이유를 묻자고 가르쳤어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve with wiser words and mercy (wiser court)",
+        "emotion": "calm repair",
+        "pageTurnHook": "Then the shell road can be safer next time, and the story moves toward wiser court.",
+        "readAloudCue": "Read with calm repair; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold the herb bundle."
+      },
+      "refrain": "Think, Rabbit, think.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/rabbit_turtle.character_bible.json. Page 28 for 토끼와 자라 / The Rabbit and the Turtle: Rabbit and Turtle apart but respectful, Dragon King receiving herbs and honest counsel; specific beat: Rabbit taught young hares to ask why before hopping onto any shell; emotional tone: calm repair; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/rabbit-and-turtle/page-028.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with calm repair; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/rabbit-and-turtle/ko/page-028.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/rabbit-and-turtle/ambient/ambient-loop.wav",
+      "characterBible": "characters/rabbit_turtle.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_028/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_028/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_028/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_028/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_028/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_028/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "생각해, 토끼야, 생각해."
+    },
+    {
+      "id": "rabbit_turtle_029",
+      "pageNumber": 29,
+      "text": {
+        "enLittle": "When waves touched the reeds.",
+        "enStandard": "Between forest and sea, with the moon high, when waves touched the reeds, they sounded like thinking. \"Think first,\" Rabbit told the reeds.",
+        "koLittle": "갈대에 닿는 물결은 생각하는 소리 같았어요",
+        "koStandard": "숲과 바다 사이에서 갈대에 닿는 물결은 생각하는 소리 같았어요."
+      },
+      "koreanText": "숲과 바다 사이에서 갈대에 닿는 물결은 생각하는 소리 같았어요.",
+      "englishText": "Between forest and sea, with the moon high, when waves touched the reeds, they sounded like thinking. \"Think first,\" Rabbit told the reeds.",
+      "narrationScript": "숲과 바다 사이에서 갈대에 닿는 물결은 생각하는 소리 같았어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve with wiser words and mercy (wiser court)",
+        "emotion": "calm repair",
+        "pageTurnHook": "Then the shell road can be safer next time, and the story moves toward wiser court.",
+        "readAloudCue": "Read with calm repair; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe the herb bundle."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/rabbit_turtle.character_bible.json. Page 29 for 토끼와 자라 / The Rabbit and the Turtle: Rabbit and Turtle apart but respectful, Dragon King receiving herbs and honest counsel; specific beat: when waves touched the reeds, they sounded like thinking; emotional tone: calm repair; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/rabbit-and-turtle/page-029.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with calm repair; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/rabbit-and-turtle/ko/page-029.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/rabbit-and-turtle/ambient/ambient-loop.wav",
+      "characterBible": "characters/rabbit_turtle.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_029/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_029/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_029/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_029/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_029/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_029/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rabbit_turtle_030",
+      "pageNumber": 30,
+      "text": {
+        "enLittle": "Turtle returned with forest herbs instead of rabbit.",
+        "enStandard": "Between forest and sea, before dawn, Turtle returned with forest herbs instead of Rabbit. \"Think,\" the reeds seemed to answer.",
+        "koLittle": "자라는 토끼 대신 숲의 약초를 가져갔어요",
+        "koStandard": "숲과 바다 사이에서 자라는 토끼 대신 숲의 약초를 가져갔어요."
+      },
+      "koreanText": "숲과 바다 사이에서 자라는 토끼 대신 숲의 약초를 가져갔어요.",
+      "englishText": "Between forest and sea, before dawn, Turtle returned with forest herbs instead of Rabbit. \"Think,\" the reeds seemed to answer.",
+      "narrationScript": "숲과 바다 사이에서 자라는 토끼 대신 숲의 약초를 가져갔어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve with wiser words and mercy (wiser court)",
+        "emotion": "calm repair",
+        "pageTurnHook": "Then the shell road can be safer next time, and the story moves toward wiser court.",
+        "readAloudCue": "Read with calm repair; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open the herb bundle."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/rabbit_turtle.character_bible.json. Page 30 for 토끼와 자라 / The Rabbit and the Turtle: Rabbit and Turtle apart but respectful, Dragon King receiving herbs and honest counsel; specific beat: Turtle returned with forest herbs instead of Rabbit; emotional tone: calm repair; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/rabbit-and-turtle/page-030.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with calm repair; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/rabbit-and-turtle/ko/page-030.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/rabbit-and-turtle/ambient/ambient-loop.wav",
+      "characterBible": "characters/rabbit_turtle.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_030/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_030/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_030/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_030/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_030/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/rabbit-and-turtle/rabbit_turtle_030/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    }
+  ]
+}

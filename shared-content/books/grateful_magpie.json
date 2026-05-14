@@ -1,0 +1,2711 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "book.grateful_magpie",
+  "slug": "grateful-magpie",
+  "title": {
+    "ko": "은혜 갚은 까치",
+    "en": "The Grateful Magpie"
+  },
+  "access": "premium",
+  "ageRange": "4-8",
+  "estimatedMinutes": 9,
+  "summary": "A traveler saves a magpie from a snake, and the grateful magpies later ring a temple bell to warn and save him.",
+  "coverAsset": "assets/books/grateful-magpie/cover.png",
+  "coverAssetStatus": "placeholder",
+  "characterBible": "characters/grateful_magpie.character_bible.json",
+  "narrationAudioStatus": "synthetic_draft",
+  "adaptationVersions": {
+    "default": "English-first bilingual semantic-authenticity repair draft",
+    "plannedAlternate": "External editor pass after children’s editorial and Korean-language review",
+    "note": "Generated repo-local repair draft; not external human final."
+  },
+  "sensitivityNotes": [
+    "Snake danger is suspenseful but non-graphic; gratitude and warning bells carry the resolution.",
+    "Repaired by repo-local semantic authenticity pass; external children’s editor, Korean-language, cultural, and child-safety review remain required before final release."
+  ],
+  "themes": [
+    "gratitude",
+    "kindness",
+    "danger",
+    "promise",
+    "nature"
+  ],
+  "characters": [
+    "traveler",
+    "magpie",
+    "village_child",
+    "pine_gate"
+  ],
+  "pages": [
+    {
+      "id": "grateful_magpie_001",
+      "pageNumber": 1,
+      "text": {
+        "enLittle": "The traveler shared crumbs beneath a pine without knowing who watched.",
+        "enStandard": "On an old pine mountain road, first, the traveler shared crumbs beneath a pine without knowing who watched. \"Kka-chi,\" called the bird.",
+        "koLittle": "나그네는 누가 보는지도 모르고 솔밑에 부스러기를 나누었어요",
+        "koStandard": "오래된 소나무 산길에서 나그네는 누가 보는지도 모르고 솔밑에 부스러기를 나누었어요."
+      },
+      "koreanText": "오래된 소나무 산길에서 나그네는 누가 보는지도 모르고 솔밑에 부스러기를 나누었어요.",
+      "englishText": "On an old pine mountain road, first, the traveler shared crumbs beneath a pine without knowing who watched. \"Kka-chi,\" called the bird.",
+      "narrationScript": "오래된 소나무 산길에서 나그네는 누가 보는지도 모르고 솔밑에 부스러기를 나누었어요.",
+      "vocabulary": [
+        {
+          "ko": "까치",
+          "en": "magpie",
+          "romanization": "kkachi",
+          "definitionEn": "A black-and-white bird often loved in Korean tales.",
+          "definitionKo": "한국 이야기에서 반가운 새로 자주 나와요."
+        },
+        {
+          "ko": "뱀",
+          "en": "snake",
+          "romanization": "baem",
+          "definitionEn": "A long crawling animal, shown safely here.",
+          "definitionKo": "길게 기어 다니는 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "traveler enters magpie territory (mountain road)",
+        "emotion": "peaceful attention",
+        "pageTurnHook": "Then a hidden danger will move near the nest, and the story moves toward snake danger.",
+        "readAloudCue": "Read with peaceful attention; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap the pine needles."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/grateful_magpie.character_bible.json. Page 1 for 은혜 갚은 까치 / The Grateful Magpie: traveler with walking stick, magpie nest high in pine; specific beat: the traveler shared crumbs beneath a pine without knowing who watched; emotional tone: peaceful attention; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/grateful-magpie/page-001.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with peaceful attention; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/grateful-magpie/ko/page-001.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/grateful-magpie/ambient/ambient-loop.wav",
+      "characterBible": "characters/grateful_magpie.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_001/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_001/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_001/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_001/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_001/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_001/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grateful_magpie_002",
+      "pageNumber": 2,
+      "text": {
+        "enLittle": "A magpie tilted its head from a nest woven with silver grass.",
+        "enStandard": "On an old pine mountain road, next, a magpie tilted its head from a nest woven with silver grass. \"I hear you,\" he answered.",
+        "koLittle": "까치는 은빛 풀로 엮은 둥지에서 고개를 갸웃했어요",
+        "koStandard": "오래된 소나무 산길에서 까치는 은빛 풀로 엮은 둥지에서 고개를 갸웃했어요."
+      },
+      "koreanText": "오래된 소나무 산길에서 까치는 은빛 풀로 엮은 둥지에서 고개를 갸웃했어요.",
+      "englishText": "On an old pine mountain road, next, a magpie tilted its head from a nest woven with silver grass. \"I hear you,\" he answered.",
+      "narrationScript": "오래된 소나무 산길에서 까치는 은빛 풀로 엮은 둥지에서 고개를 갸웃했어요.",
+      "vocabulary": [
+        {
+          "ko": "나그네",
+          "en": "traveler",
+          "romanization": "nageune",
+          "definitionEn": "Someone walking from place to place.",
+          "definitionKo": "이곳저곳 길을 걷는 사람이에요."
+        },
+        {
+          "ko": "종",
+          "en": "bell",
+          "romanization": "jong",
+          "definitionEn": "A ringing object that can warn people.",
+          "definitionKo": "소리로 알리는 물건이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "traveler enters magpie territory (mountain road)",
+        "emotion": "peaceful attention",
+        "pageTurnHook": "Then a hidden danger will move near the nest, and the story moves toward snake danger.",
+        "readAloudCue": "Read with peaceful attention; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace the pine needles."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/grateful_magpie.character_bible.json. Page 2 for 은혜 갚은 까치 / The Grateful Magpie: traveler with walking stick, magpie nest high in pine; specific beat: a magpie tilted its head from a nest woven with silver grass; emotional tone: peaceful attention; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/grateful-magpie/page-002.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with peaceful attention; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/grateful-magpie/ko/page-002.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/grateful-magpie/ambient/ambient-loop.wav",
+      "characterBible": "characters/grateful_magpie.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_002/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_002/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_002/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_002/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_002/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_002/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grateful_magpie_003",
+      "pageNumber": 3,
+      "text": {
+        "enLittle": "Temple bell sound drifted faintly from the valley.",
+        "enStandard": "On an old pine mountain road, quietly, temple bell sound drifted faintly from the valley. \"Walk gently,\" the bell seemed to say.",
+        "koLittle": "절 종소리가 골짜기에서 희미하게 왔어요",
+        "koStandard": "오래된 소나무 산길에서 절 종소리가 골짜기에서 희미하게 왔어요."
+      },
+      "koreanText": "오래된 소나무 산길에서 절 종소리가 골짜기에서 희미하게 왔어요.",
+      "englishText": "On an old pine mountain road, quietly, temple bell sound drifted faintly from the valley. \"Walk gently,\" the bell seemed to say.",
+      "narrationScript": "오래된 소나무 산길에서 절 종소리가 골짜기에서 희미하게 왔어요.",
+      "vocabulary": [
+        {
+          "ko": "뱀",
+          "en": "snake",
+          "romanization": "baem",
+          "definitionEn": "A long crawling animal, shown safely here.",
+          "definitionKo": "길게 기어 다니는 동물이에요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "traveler enters magpie territory (mountain road)",
+        "emotion": "peaceful attention",
+        "pageTurnHook": "Then a hidden danger will move near the nest, and the story moves toward snake danger.",
+        "readAloudCue": "Read with peaceful attention; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count the pine needles."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/grateful_magpie.character_bible.json. Page 3 for 은혜 갚은 까치 / The Grateful Magpie: traveler with walking stick, magpie nest high in pine; specific beat: temple bell sound drifted faintly from the valley; emotional tone: peaceful attention; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/grateful-magpie/page-003.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with peaceful attention; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/grateful-magpie/ko/page-003.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/grateful-magpie/ambient/ambient-loop.wav",
+      "characterBible": "characters/grateful_magpie.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_003/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_003/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_003/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_003/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_003/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_003/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grateful_magpie_004",
+      "pageNumber": 4,
+      "text": {
+        "enLittle": "The path narrowed where rocks held afternoon shadow.",
+        "enStandard": "On an old pine mountain road, with the moon high, the path narrowed where rocks held afternoon shadow. \"A quiet road still has neighbors,\" the traveler said.",
+        "koLittle": "바위 그림자가 산길을 좁게 만들었어요",
+        "koStandard": "오래된 소나무 산길에서 바위 그림자가 산길을 좁게 만들었어요."
+      },
+      "koreanText": "오래된 소나무 산길에서 바위 그림자가 산길을 좁게 만들었어요.",
+      "englishText": "On an old pine mountain road, with the moon high, the path narrowed where rocks held afternoon shadow. \"A quiet road still has neighbors,\" the traveler said.",
+      "narrationScript": "오래된 소나무 산길에서 바위 그림자가 산길을 좁게 만들었어요.",
+      "vocabulary": [
+        {
+          "ko": "종",
+          "en": "bell",
+          "romanization": "jong",
+          "definitionEn": "A ringing object that can warn people.",
+          "definitionKo": "소리로 알리는 물건이에요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "traveler enters magpie territory (mountain road)",
+        "emotion": "peaceful attention",
+        "pageTurnHook": "Then a hidden danger will move near the nest, and the story moves toward snake danger.",
+        "readAloudCue": "Read with peaceful attention; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold the pine needles."
+      },
+      "refrain": "A kindness remembers the road.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/grateful_magpie.character_bible.json. Page 4 for 은혜 갚은 까치 / The Grateful Magpie: traveler with walking stick, magpie nest high in pine; specific beat: the path narrowed where rocks held afternoon shadow; emotional tone: peaceful attention; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/grateful-magpie/page-004.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with peaceful attention; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/grateful-magpie/ko/page-004.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/grateful-magpie/ambient/ambient-loop.wav",
+      "characterBible": "characters/grateful_magpie.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_004/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_004/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_004/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_004/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_004/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_004/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "다정함은 길을 기억해."
+    },
+    {
+      "id": "grateful_magpie_005",
+      "pageNumber": 5,
+      "text": {
+        "enLittle": "The traveler shared crumbs beneath a pine without knowing who watched.",
+        "enStandard": "On an old pine mountain road, before dawn, the traveler shared crumbs beneath a pine without knowing who watched. \"Kka-chi,\" called the bird.",
+        "koLittle": "나그네는 누가 보는지도 모르고 솔밑에 부스러기를 나누었어요",
+        "koStandard": "오래된 소나무 산길에서 나그네는 누가 보는지도 모르고 솔밑에 부스러기를 나누었어요."
+      },
+      "koreanText": "오래된 소나무 산길에서 나그네는 누가 보는지도 모르고 솔밑에 부스러기를 나누었어요.",
+      "englishText": "On an old pine mountain road, before dawn, the traveler shared crumbs beneath a pine without knowing who watched. \"Kka-chi,\" called the bird.",
+      "narrationScript": "오래된 소나무 산길에서 나그네는 누가 보는지도 모르고 솔밑에 부스러기를 나누었어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "traveler enters magpie territory (mountain road)",
+        "emotion": "peaceful attention",
+        "pageTurnHook": "Then a hidden danger will move near the nest, and the story moves toward snake danger.",
+        "readAloudCue": "Read with peaceful attention; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe the pine needles."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/grateful_magpie.character_bible.json. Page 5 for 은혜 갚은 까치 / The Grateful Magpie: traveler with walking stick, magpie nest high in pine; specific beat: the traveler shared crumbs beneath a pine without knowing who watched; emotional tone: peaceful attention; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/grateful-magpie/page-005.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with peaceful attention; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/grateful-magpie/ko/page-005.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/grateful-magpie/ambient/ambient-loop.wav",
+      "characterBible": "characters/grateful_magpie.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_005/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_005/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_005/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_005/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_005/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_005/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grateful_magpie_006",
+      "pageNumber": 6,
+      "text": {
+        "enLittle": "A snake slid toward the nest like a dark ribbon.",
+        "enStandard": "Near the high nest, first, a snake slid toward the nest like a dark ribbon. \"Safe,\" he breathed.",
+        "koLittle": "뱀이 검은 리본처럼 둥지 쪽으로 미끄러졌어요",
+        "koStandard": "높은 둥지 곁에서 뱀이 검은 리본처럼 둥지 쪽으로 미끄러졌어요."
+      },
+      "koreanText": "높은 둥지 곁에서 뱀이 검은 리본처럼 둥지 쪽으로 미끄러졌어요.",
+      "englishText": "Near the high nest, first, a snake slid toward the nest like a dark ribbon. \"Safe,\" he breathed.",
+      "narrationScript": "높은 둥지 곁에서 뱀이 검은 리본처럼 둥지 쪽으로 미끄러졌어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "traveler saves the magpie nest (snake danger)",
+        "emotion": "brave caution",
+        "pageTurnHook": "Then the bird will remember more than crumbs, and the story moves toward promise of gratitude.",
+        "readAloudCue": "Read with brave caution; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open the careful branch."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/grateful_magpie.character_bible.json. Page 6 for 은혜 갚은 까치 / The Grateful Magpie: snake approaching nest, traveler lifting branch carefully, no bite or gore; specific beat: a snake slid toward the nest like a dark ribbon; emotional tone: brave caution; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/grateful-magpie/page-006.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with brave caution; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/grateful-magpie/ko/page-006.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/grateful-magpie/ambient/ambient-loop.wav",
+      "characterBible": "characters/grateful_magpie.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_006/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_006/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_006/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_006/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_006/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_006/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grateful_magpie_007",
+      "pageNumber": 7,
+      "text": {
+        "enLittle": "The traveler raised a branch.",
+        "enStandard": "Near the high nest, next, the traveler raised a branch, not to hurt, but to guide the snake away. \"Not this nest,\" the traveler said.",
+        "koLittle": "나그네는 해치려 하지 않고 가지로 뱀을 다른 길로 이끌었어요",
+        "koStandard": "높은 둥지 곁에서 나그네는 해치려 하지 않고 가지로 뱀을 다른 길로 이끌었어요."
+      },
+      "koreanText": "높은 둥지 곁에서 나그네는 해치려 하지 않고 가지로 뱀을 다른 길로 이끌었어요.",
+      "englishText": "Near the high nest, next, the traveler raised a branch, not to hurt, but to guide the snake away. \"Not this nest,\" the traveler said.",
+      "narrationScript": "높은 둥지 곁에서 나그네는 해치려 하지 않고 가지로 뱀을 다른 길로 이끌었어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "traveler saves the magpie nest (snake danger)",
+        "emotion": "brave caution",
+        "pageTurnHook": "Then the bird will remember more than crumbs, and the story moves toward promise of gratitude.",
+        "readAloudCue": "Read with brave caution; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose the careful branch."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/grateful_magpie.character_bible.json. Page 7 for 은혜 갚은 까치 / The Grateful Magpie: snake approaching nest, traveler lifting branch carefully, no bite or gore; specific beat: the traveler raised a branch, not to hurt, but to guide the snake away; emotional tone: brave caution; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/grateful-magpie/page-007.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with brave caution; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/grateful-magpie/ko/page-007.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/grateful-magpie/ambient/ambient-loop.wav",
+      "characterBible": "characters/grateful_magpie.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_007/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_007/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_007/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_007/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_007/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_007/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grateful_magpie_008",
+      "pageNumber": 8,
+      "text": {
+        "enLittle": "The magpie cried so sharply the valley went still.",
+        "enStandard": "Near the high nest, quietly, the magpie cried so sharply the valley went still. \"Kka! Kka!\" cried the magpie.",
+        "koLittle": "까치 울음에 골짜기가 조용해졌어요",
+        "koStandard": "높은 둥지 곁에서 까치 울음에 골짜기가 조용해졌어요."
+      },
+      "koreanText": "높은 둥지 곁에서 까치 울음에 골짜기가 조용해졌어요.",
+      "englishText": "Near the high nest, quietly, the magpie cried so sharply the valley went still. \"Kka! Kka!\" cried the magpie.",
+      "narrationScript": "높은 둥지 곁에서 까치 울음에 골짜기가 조용해졌어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "traveler saves the magpie nest (snake danger)",
+        "emotion": "brave caution",
+        "pageTurnHook": "Then the bird will remember more than crumbs, and the story moves toward promise of gratitude.",
+        "readAloudCue": "Read with brave caution; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag the careful branch."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/grateful_magpie.character_bible.json. Page 8 for 은혜 갚은 까치 / The Grateful Magpie: snake approaching nest, traveler lifting branch carefully, no bite or gore; specific beat: the magpie cried so sharply the valley went still; emotional tone: brave caution; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/grateful-magpie/page-008.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with brave caution; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/grateful-magpie/ko/page-008.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/grateful-magpie/ambient/ambient-loop.wav",
+      "characterBible": "characters/grateful_magpie.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_008/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_008/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_008/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_008/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_008/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_008/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grateful_magpie_009",
+      "pageNumber": 9,
+      "text": {
+        "enLittle": "Slow step by slow step.",
+        "enStandard": "Near the high nest, with the moon high, slow step by slow step, danger turned toward the rocks. \"Go back to the cool stones,\" he told the snake.",
+        "koLittle": "한 걸음씩 위험은 바위 쪽으로 돌아섰어요",
+        "koStandard": "높은 둥지 곁에서 한 걸음씩 위험은 바위 쪽으로 돌아섰어요."
+      },
+      "koreanText": "높은 둥지 곁에서 한 걸음씩 위험은 바위 쪽으로 돌아섰어요.",
+      "englishText": "Near the high nest, with the moon high, slow step by slow step, danger turned toward the rocks. \"Go back to the cool stones,\" he told the snake.",
+      "narrationScript": "높은 둥지 곁에서 한 걸음씩 위험은 바위 쪽으로 돌아섰어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "까치",
+          "en": "magpie",
+          "romanization": "kkachi",
+          "definitionEn": "A black-and-white bird often loved in Korean tales.",
+          "definitionKo": "한국 이야기에서 반가운 새로 자주 나와요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "traveler saves the magpie nest (snake danger)",
+        "emotion": "brave caution",
+        "pageTurnHook": "Then the bird will remember more than crumbs, and the story moves toward promise of gratitude.",
+        "readAloudCue": "Read with brave caution; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap the careful branch."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/grateful_magpie.character_bible.json. Page 9 for 은혜 갚은 까치 / The Grateful Magpie: snake approaching nest, traveler lifting branch carefully, no bite or gore; specific beat: slow step by slow step, danger turned toward the rocks; emotional tone: brave caution; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/grateful-magpie/page-009.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with brave caution; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/grateful-magpie/ko/page-009.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/grateful-magpie/ambient/ambient-loop.wav",
+      "characterBible": "characters/grateful_magpie.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_009/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_009/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_009/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_009/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_009/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_009/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grateful_magpie_010",
+      "pageNumber": 10,
+      "text": {
+        "enLittle": "A snake slid toward the nest like a dark ribbon.",
+        "enStandard": "Near the high nest, before dawn, a snake slid toward the nest like a dark ribbon. \"Safe,\" he breathed.",
+        "koLittle": "뱀이 검은 리본처럼 둥지 쪽으로 미끄러졌어요",
+        "koStandard": "높은 둥지 곁에서 뱀이 검은 리본처럼 둥지 쪽으로 미끄러졌어요."
+      },
+      "koreanText": "높은 둥지 곁에서 뱀이 검은 리본처럼 둥지 쪽으로 미끄러졌어요.",
+      "englishText": "Near the high nest, before dawn, a snake slid toward the nest like a dark ribbon. \"Safe,\" he breathed.",
+      "narrationScript": "높은 둥지 곁에서 뱀이 검은 리본처럼 둥지 쪽으로 미끄러졌어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "나그네",
+          "en": "traveler",
+          "romanization": "nageune",
+          "definitionEn": "Someone walking from place to place.",
+          "definitionKo": "이곳저곳 길을 걷는 사람이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "traveler saves the magpie nest (snake danger)",
+        "emotion": "brave caution",
+        "pageTurnHook": "Then the bird will remember more than crumbs, and the story moves toward promise of gratitude.",
+        "readAloudCue": "Read with brave caution; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace the careful branch."
+      },
+      "refrain": "A kindness remembers the road.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/grateful_magpie.character_bible.json. Page 10 for 은혜 갚은 까치 / The Grateful Magpie: snake approaching nest, traveler lifting branch carefully, no bite or gore; specific beat: a snake slid toward the nest like a dark ribbon; emotional tone: brave caution; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/grateful-magpie/page-010.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with brave caution; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/grateful-magpie/ko/page-010.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/grateful-magpie/ambient/ambient-loop.wav",
+      "characterBible": "characters/grateful_magpie.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_010/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_010/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_010/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_010/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_010/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_010/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "다정함은 길을 기억해."
+    },
+    {
+      "id": "grateful_magpie_011",
+      "pageNumber": 11,
+      "text": {
+        "enLittle": "The magpie dropped one bright feather near the traveler's shoe.",
+        "enStandard": "Under the pine after danger passes, first, the magpie dropped one bright feather near the traveler's shoe. \"Kka-chi,\" the bird insisted.",
+        "koLittle": "까치는 반짝이는 깃털 하나를 나그네 신발 곁에 떨어뜨렸어요",
+        "koStandard": "위험이 지난 솔밑에서 까치는 반짝이는 깃털 하나를 나그네 신발 곁에 떨어뜨렸어요."
+      },
+      "koreanText": "위험이 지난 솔밑에서 까치는 반짝이는 깃털 하나를 나그네 신발 곁에 떨어뜨렸어요.",
+      "englishText": "Under the pine after danger passes, first, the magpie dropped one bright feather near the traveler's shoe. \"Kka-chi,\" the bird insisted.",
+      "narrationScript": "위험이 지난 솔밑에서 까치는 반짝이는 깃털 하나를 나그네 신발 곁에 떨어뜨렸어요.",
+      "vocabulary": [
+        {
+          "ko": "까치",
+          "en": "magpie",
+          "romanization": "kkachi",
+          "definitionEn": "A black-and-white bird often loved in Korean tales.",
+          "definitionKo": "한국 이야기에서 반가운 새로 자주 나와요."
+        },
+        {
+          "ko": "뱀",
+          "en": "snake",
+          "romanization": "baem",
+          "definitionEn": "A long crawling animal, shown safely here.",
+          "definitionKo": "길게 기어 다니는 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "magpie marks the debt (promise of gratitude)",
+        "emotion": "relieved gratitude",
+        "pageTurnHook": "Then night will make the warning hard to understand, and the story moves toward night shelter.",
+        "readAloudCue": "Read with relieved gratitude; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count the feather."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/grateful_magpie.character_bible.json. Page 11 for 은혜 갚은 까치 / The Grateful Magpie: magpie bowing from branch, traveler binding a small scratch on sleeve only; specific beat: the magpie dropped one bright feather near the traveler's shoe; emotional tone: relieved gratitude; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/grateful-magpie/page-011.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with relieved gratitude; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/grateful-magpie/ko/page-011.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/grateful-magpie/ambient/ambient-loop.wav",
+      "characterBible": "characters/grateful_magpie.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_011/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_011/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_011/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_011/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_011/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_011/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grateful_magpie_012",
+      "pageNumber": 12,
+      "text": {
+        "enLittle": "He laughed gently and tucked it into his pouch.",
+        "enStandard": "Under the pine after danger passes, next, he laughed gently and tucked it into his pouch. \"Then remember kindness by being kind,\" he said.",
+        "koLittle": "나그네는 부드럽게 웃고 주머니에 넣었어요",
+        "koStandard": "위험이 지난 솔밑에서 나그네는 부드럽게 웃고 주머니에 넣었어요."
+      },
+      "koreanText": "위험이 지난 솔밑에서 나그네는 부드럽게 웃고 주머니에 넣었어요.",
+      "englishText": "Under the pine after danger passes, next, he laughed gently and tucked it into his pouch. \"Then remember kindness by being kind,\" he said.",
+      "narrationScript": "위험이 지난 솔밑에서 나그네는 부드럽게 웃고 주머니에 넣었어요.",
+      "vocabulary": [
+        {
+          "ko": "나그네",
+          "en": "traveler",
+          "romanization": "nageune",
+          "definitionEn": "Someone walking from place to place.",
+          "definitionKo": "이곳저곳 길을 걷는 사람이에요."
+        },
+        {
+          "ko": "종",
+          "en": "bell",
+          "romanization": "jong",
+          "definitionEn": "A ringing object that can warn people.",
+          "definitionKo": "소리로 알리는 물건이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "magpie marks the debt (promise of gratitude)",
+        "emotion": "relieved gratitude",
+        "pageTurnHook": "Then night will make the warning hard to understand, and the story moves toward night shelter.",
+        "readAloudCue": "Read with relieved gratitude; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold the feather."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/grateful_magpie.character_bible.json. Page 12 for 은혜 갚은 까치 / The Grateful Magpie: magpie bowing from branch, traveler binding a small scratch on sleeve only; specific beat: he laughed gently and tucked it into his pouch; emotional tone: relieved gratitude; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/grateful-magpie/page-012.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with relieved gratitude; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/grateful-magpie/ko/page-012.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/grateful-magpie/ambient/ambient-loop.wav",
+      "characterBible": "characters/grateful_magpie.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_012/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_012/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_012/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_012/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_012/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_012/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grateful_magpie_013",
+      "pageNumber": 13,
+      "text": {
+        "enLittle": "Clouds gathered as if the mountain wanted him to rest early.",
+        "enStandard": "Under the pine after danger passes, quietly, clouds gathered as if the mountain wanted him to rest early. \"Kka!\" came the answer.",
+        "koLittle": "산이 일찍 쉬라 말하듯 구름이 모였어요",
+        "koStandard": "위험이 지난 솔밑에서 산이 일찍 쉬라 말하듯 구름이 모였어요."
+      },
+      "koreanText": "위험이 지난 솔밑에서 산이 일찍 쉬라 말하듯 구름이 모였어요.",
+      "englishText": "Under the pine after danger passes, quietly, clouds gathered as if the mountain wanted him to rest early. \"Kka!\" came the answer.",
+      "narrationScript": "위험이 지난 솔밑에서 산이 일찍 쉬라 말하듯 구름이 모였어요.",
+      "vocabulary": [
+        {
+          "ko": "뱀",
+          "en": "snake",
+          "romanization": "baem",
+          "definitionEn": "A long crawling animal, shown safely here.",
+          "definitionKo": "길게 기어 다니는 동물이에요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "magpie marks the debt (promise of gratitude)",
+        "emotion": "relieved gratitude",
+        "pageTurnHook": "Then night will make the warning hard to understand, and the story moves toward night shelter.",
+        "readAloudCue": "Read with relieved gratitude; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe the feather."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/grateful_magpie.character_bible.json. Page 13 for 은혜 갚은 까치 / The Grateful Magpie: magpie bowing from branch, traveler binding a small scratch on sleeve only; specific beat: clouds gathered as if the mountain wanted him to rest early; emotional tone: relieved gratitude; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/grateful-magpie/page-013.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with relieved gratitude; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/grateful-magpie/ko/page-013.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/grateful-magpie/ambient/ambient-loop.wav",
+      "characterBible": "characters/grateful_magpie.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_013/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_013/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_013/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_013/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_013/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_013/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grateful_magpie_014",
+      "pageNumber": 14,
+      "text": {
+        "enLittle": "The bird flew toward the temple bell.",
+        "enStandard": "Under the pine after danger passes, with the moon high, the bird flew toward the temple bell, then back, then toward the bell again. \"No debt needed,\" he said.",
+        "koLittle": "까치는 절 종 쪽으로 갔다가 돌아오기를 반복했어요",
+        "koStandard": "위험이 지난 솔밑에서 까치는 절 종 쪽으로 갔다가 돌아오기를 반복했어요."
+      },
+      "koreanText": "위험이 지난 솔밑에서 까치는 절 종 쪽으로 갔다가 돌아오기를 반복했어요.",
+      "englishText": "Under the pine after danger passes, with the moon high, the bird flew toward the temple bell, then back, then toward the bell again. \"No debt needed,\" he said.",
+      "narrationScript": "위험이 지난 솔밑에서 까치는 절 종 쪽으로 갔다가 돌아오기를 반복했어요.",
+      "vocabulary": [
+        {
+          "ko": "종",
+          "en": "bell",
+          "romanization": "jong",
+          "definitionEn": "A ringing object that can warn people.",
+          "definitionKo": "소리로 알리는 물건이에요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "magpie marks the debt (promise of gratitude)",
+        "emotion": "relieved gratitude",
+        "pageTurnHook": "Then night will make the warning hard to understand, and the story moves toward night shelter.",
+        "readAloudCue": "Read with relieved gratitude; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open the feather."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/grateful_magpie.character_bible.json. Page 14 for 은혜 갚은 까치 / The Grateful Magpie: magpie bowing from branch, traveler binding a small scratch on sleeve only; specific beat: the bird flew toward the temple bell, then back, then toward the bell again; emotional tone: relieved gratitude; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/grateful-magpie/page-014.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with relieved gratitude; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/grateful-magpie/ko/page-014.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/grateful-magpie/ambient/ambient-loop.wav",
+      "characterBible": "characters/grateful_magpie.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_014/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_014/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_014/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_014/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_014/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_014/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grateful_magpie_015",
+      "pageNumber": 15,
+      "text": {
+        "enLittle": "The magpie dropped one bright feather near the traveler's shoe.",
+        "enStandard": "Under the pine after danger passes, before dawn, the magpie dropped one bright feather near the traveler's shoe. \"Kka-chi,\" the bird insisted.",
+        "koLittle": "까치는 반짝이는 깃털 하나를 나그네 신발 곁에 떨어뜨렸어요",
+        "koStandard": "위험이 지난 솔밑에서 까치는 반짝이는 깃털 하나를 나그네 신발 곁에 떨어뜨렸어요."
+      },
+      "koreanText": "위험이 지난 솔밑에서 까치는 반짝이는 깃털 하나를 나그네 신발 곁에 떨어뜨렸어요.",
+      "englishText": "Under the pine after danger passes, before dawn, the magpie dropped one bright feather near the traveler's shoe. \"Kka-chi,\" the bird insisted.",
+      "narrationScript": "위험이 지난 솔밑에서 까치는 반짝이는 깃털 하나를 나그네 신발 곁에 떨어뜨렸어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "magpie marks the debt (promise of gratitude)",
+        "emotion": "relieved gratitude",
+        "pageTurnHook": "Then night will make the warning hard to understand, and the story moves toward night shelter.",
+        "readAloudCue": "Read with relieved gratitude; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose the feather."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/grateful_magpie.character_bible.json. Page 15 for 은혜 갚은 까치 / The Grateful Magpie: magpie bowing from branch, traveler binding a small scratch on sleeve only; specific beat: the magpie dropped one bright feather near the traveler's shoe; emotional tone: relieved gratitude; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/grateful-magpie/page-015.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with relieved gratitude; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/grateful-magpie/ko/page-015.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/grateful-magpie/ambient/ambient-loop.wav",
+      "characterBible": "characters/grateful_magpie.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_015/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_015/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_015/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_015/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_015/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_015/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grateful_magpie_016",
+      "pageNumber": 16,
+      "text": {
+        "enLittle": "Rain pushed the traveler into an old shelter below the temple.",
+        "enStandard": "At an empty mountain shelter, first, rain pushed the traveler into an old shelter below the temple. \"Kka, kka,\" answered the trees.",
+        "koLittle": "비가 나그네를 절 아래 낡은 산막으로 밀어 넣었어요",
+        "koStandard": "빈 산막에서 비가 나그네를 절 아래 낡은 산막으로 밀어 넣었어요."
+      },
+      "koreanText": "빈 산막에서 비가 나그네를 절 아래 낡은 산막으로 밀어 넣었어요.",
+      "englishText": "At an empty mountain shelter, first, rain pushed the traveler into an old shelter below the temple. \"Kka, kka,\" answered the trees.",
+      "narrationScript": "빈 산막에서 비가 나그네를 절 아래 낡은 산막으로 밀어 넣었어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "traveler sleeps near danger (night shelter)",
+        "emotion": "uneasy quiet",
+        "pageTurnHook": "Then the bell will ring before dawn, and the story moves toward bell warning.",
+        "readAloudCue": "Read with uneasy quiet; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag the hanging pouch."
+      },
+      "refrain": "A kindness remembers the road.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/grateful_magpie.character_bible.json. Page 16 for 은혜 갚은 까치 / The Grateful Magpie: traveler sleeping, shadowed beam, magpies outside under moon; specific beat: rain pushed the traveler into an old shelter below the temple; emotional tone: uneasy quiet; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/grateful-magpie/page-016.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with uneasy quiet; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/grateful-magpie/ko/page-016.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/grateful-magpie/ambient/ambient-loop.wav",
+      "characterBible": "characters/grateful_magpie.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_016/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_016/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_016/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_016/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_016/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_016/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "다정함은 길을 기억해."
+    },
+    {
+      "id": "grateful_magpie_017",
+      "pageNumber": 17,
+      "text": {
+        "enLittle": "He hung his pouch where the magpie feather could dry.",
+        "enStandard": "At an empty mountain shelter, next, he hung his pouch where the magpie feather could dry. \"Just one night,\" the traveler yawned.",
+        "koLittle": "그는 까치 깃털이 마르도록 주머니를 걸었어요",
+        "koStandard": "빈 산막에서 그는 까치 깃털이 마르도록 주머니를 걸었어요."
+      },
+      "koreanText": "빈 산막에서 그는 까치 깃털이 마르도록 주머니를 걸었어요.",
+      "englishText": "At an empty mountain shelter, next, he hung his pouch where the magpie feather could dry. \"Just one night,\" the traveler yawned.",
+      "narrationScript": "빈 산막에서 그는 까치 깃털이 마르도록 주머니를 걸었어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "traveler sleeps near danger (night shelter)",
+        "emotion": "uneasy quiet",
+        "pageTurnHook": "Then the bell will ring before dawn, and the story moves toward bell warning.",
+        "readAloudCue": "Read with uneasy quiet; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap the hanging pouch."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/grateful_magpie.character_bible.json. Page 17 for 은혜 갚은 까치 / The Grateful Magpie: traveler sleeping, shadowed beam, magpies outside under moon; specific beat: he hung his pouch where the magpie feather could dry; emotional tone: uneasy quiet; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/grateful-magpie/page-017.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with uneasy quiet; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/grateful-magpie/ko/page-017.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/grateful-magpie/ambient/ambient-loop.wav",
+      "characterBible": "characters/grateful_magpie.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_017/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_017/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_017/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_017/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_017/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_017/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grateful_magpie_018",
+      "pageNumber": 18,
+      "text": {
+        "enLittle": "The room smelled of damp wood and old smoke.",
+        "enStandard": "At an empty mountain shelter, quietly, the room smelled of damp wood and old smoke. \"Kka,\" whispered the dark.",
+        "koLittle": "방은 젖은 나무와 오래된 연기 냄새가 났어요",
+        "koStandard": "빈 산막에서 방은 젖은 나무와 오래된 연기 냄새가 났어요."
+      },
+      "koreanText": "빈 산막에서 방은 젖은 나무와 오래된 연기 냄새가 났어요.",
+      "englishText": "At an empty mountain shelter, quietly, the room smelled of damp wood and old smoke. \"Kka,\" whispered the dark.",
+      "narrationScript": "빈 산막에서 방은 젖은 나무와 오래된 연기 냄새가 났어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "traveler sleeps near danger (night shelter)",
+        "emotion": "uneasy quiet",
+        "pageTurnHook": "Then the bell will ring before dawn, and the story moves toward bell warning.",
+        "readAloudCue": "Read with uneasy quiet; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace the hanging pouch."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/grateful_magpie.character_bible.json. Page 18 for 은혜 갚은 까치 / The Grateful Magpie: traveler sleeping, shadowed beam, magpies outside under moon; specific beat: the room smelled of damp wood and old smoke; emotional tone: uneasy quiet; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/grateful-magpie/page-018.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with uneasy quiet; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/grateful-magpie/ko/page-018.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/grateful-magpie/ambient/ambient-loop.wav",
+      "characterBible": "characters/grateful_magpie.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_018/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_018/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_018/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_018/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_018/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_018/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grateful_magpie_019",
+      "pageNumber": 19,
+      "text": {
+        "enLittle": "Outside.",
+        "enStandard": "At an empty mountain shelter, with the moon high, outside, many magpies gathered without singing. \"Tomorrow I will thank the temple bell,\" he said.",
+        "koLittle": "밖에는 많은 까치가 노래 없이 모였어요",
+        "koStandard": "빈 산막에서 밖에는 많은 까치가 노래 없이 모였어요."
+      },
+      "koreanText": "빈 산막에서 밖에는 많은 까치가 노래 없이 모였어요.",
+      "englishText": "At an empty mountain shelter, with the moon high, outside, many magpies gathered without singing. \"Tomorrow I will thank the temple bell,\" he said.",
+      "narrationScript": "빈 산막에서 밖에는 많은 까치가 노래 없이 모였어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "까치",
+          "en": "magpie",
+          "romanization": "kkachi",
+          "definitionEn": "A black-and-white bird often loved in Korean tales.",
+          "definitionKo": "한국 이야기에서 반가운 새로 자주 나와요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "traveler sleeps near danger (night shelter)",
+        "emotion": "uneasy quiet",
+        "pageTurnHook": "Then the bell will ring before dawn, and the story moves toward bell warning.",
+        "readAloudCue": "Read with uneasy quiet; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count the hanging pouch."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/grateful_magpie.character_bible.json. Page 19 for 은혜 갚은 까치 / The Grateful Magpie: traveler sleeping, shadowed beam, magpies outside under moon; specific beat: outside, many magpies gathered without singing; emotional tone: uneasy quiet; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/grateful-magpie/page-019.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with uneasy quiet; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/grateful-magpie/ko/page-019.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/grateful-magpie/ambient/ambient-loop.wav",
+      "characterBible": "characters/grateful_magpie.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_019/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_019/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_019/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_019/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_019/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_019/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grateful_magpie_020",
+      "pageNumber": 20,
+      "text": {
+        "enLittle": "Rain pushed the traveler into an old shelter below the temple.",
+        "enStandard": "At an empty mountain shelter, before dawn, rain pushed the traveler into an old shelter below the temple. \"Kka, kka,\" answered the trees.",
+        "koLittle": "비가 나그네를 절 아래 낡은 산막으로 밀어 넣었어요",
+        "koStandard": "빈 산막에서 비가 나그네를 절 아래 낡은 산막으로 밀어 넣었어요."
+      },
+      "koreanText": "빈 산막에서 비가 나그네를 절 아래 낡은 산막으로 밀어 넣었어요.",
+      "englishText": "At an empty mountain shelter, before dawn, rain pushed the traveler into an old shelter below the temple. \"Kka, kka,\" answered the trees.",
+      "narrationScript": "빈 산막에서 비가 나그네를 절 아래 낡은 산막으로 밀어 넣었어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "나그네",
+          "en": "traveler",
+          "romanization": "nageune",
+          "definitionEn": "Someone walking from place to place.",
+          "definitionKo": "이곳저곳 길을 걷는 사람이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "traveler sleeps near danger (night shelter)",
+        "emotion": "uneasy quiet",
+        "pageTurnHook": "Then the bell will ring before dawn, and the story moves toward bell warning.",
+        "readAloudCue": "Read with uneasy quiet; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold the hanging pouch."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/grateful_magpie.character_bible.json. Page 20 for 은혜 갚은 까치 / The Grateful Magpie: traveler sleeping, shadowed beam, magpies outside under moon; specific beat: rain pushed the traveler into an old shelter below the temple; emotional tone: uneasy quiet; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/grateful-magpie/page-020.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with uneasy quiet; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/grateful-magpie/ko/page-020.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/grateful-magpie/ambient/ambient-loop.wav",
+      "characterBible": "characters/grateful_magpie.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_020/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_020/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_020/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_020/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_020/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_020/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grateful_magpie_021",
+      "pageNumber": 21,
+      "text": {
+        "enLittle": "Magpies tugged the bell rope together until bronze thunder rolled.",
+        "enStandard": "At the temple bell, first, magpies tugged the bell rope together until bronze thunder rolled. \"I am awake!\" cried the traveler.",
+        "koLittle": "까치들이 종줄을 함께 당기자 구리 천둥 같은 소리가 났어요",
+        "koStandard": "절 종 곁에서 까치들이 종줄을 함께 당기자 구리 천둥 같은 소리가 났어요."
+      },
+      "koreanText": "절 종 곁에서 까치들이 종줄을 함께 당기자 구리 천둥 같은 소리가 났어요.",
+      "englishText": "At the temple bell, first, magpies tugged the bell rope together until bronze thunder rolled. \"I am awake!\" cried the traveler.",
+      "narrationScript": "절 종 곁에서 까치들이 종줄을 함께 당기자 구리 천둥 같은 소리가 났어요.",
+      "vocabulary": [
+        {
+          "ko": "까치",
+          "en": "magpie",
+          "romanization": "kkachi",
+          "definitionEn": "A black-and-white bird often loved in Korean tales.",
+          "definitionKo": "한국 이야기에서 반가운 새로 자주 나와요."
+        },
+        {
+          "ko": "뱀",
+          "en": "snake",
+          "romanization": "baem",
+          "definitionEn": "A long crawling animal, shown safely here.",
+          "definitionKo": "길게 기어 다니는 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "magpies ring the bell to save him (bell warning)",
+        "emotion": "urgent gratitude",
+        "pageTurnHook": "Then gratitude will settle softly after the danger, and the story moves toward remembered road.",
+        "readAloudCue": "Read with urgent gratitude; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe the bell rope."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/grateful_magpie.character_bible.json. Page 21 for 은혜 갚은 까치 / The Grateful Magpie: magpies pulling bell rope, ringing through rain, traveler waking; specific beat: magpies tugged the bell rope together until bronze thunder rolled; emotional tone: urgent gratitude; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/grateful-magpie/page-021.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with urgent gratitude; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/grateful-magpie/ko/page-021.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/grateful-magpie/ambient/ambient-loop.wav",
+      "characterBible": "characters/grateful_magpie.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_021/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_021/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_021/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_021/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_021/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_021/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grateful_magpie_022",
+      "pageNumber": 22,
+      "text": {
+        "enLittle": "The traveler woke as dust shook from the shelter beam.",
+        "enStandard": "At the temple bell, next, the traveler woke as dust shook from the shelter beam. \"Kka-chi!\" called the birds.",
+        "koLittle": "나그네는 먼지가 떨어지는 소리에 깨어났어요",
+        "koStandard": "절 종 곁에서 나그네는 먼지가 떨어지는 소리에 깨어났어요."
+      },
+      "koreanText": "절 종 곁에서 나그네는 먼지가 떨어지는 소리에 깨어났어요.",
+      "englishText": "At the temple bell, next, the traveler woke as dust shook from the shelter beam. \"Kka-chi!\" called the birds.",
+      "narrationScript": "절 종 곁에서 나그네는 먼지가 떨어지는 소리에 깨어났어요.",
+      "vocabulary": [
+        {
+          "ko": "나그네",
+          "en": "traveler",
+          "romanization": "nageune",
+          "definitionEn": "Someone walking from place to place.",
+          "definitionKo": "이곳저곳 길을 걷는 사람이에요."
+        },
+        {
+          "ko": "종",
+          "en": "bell",
+          "romanization": "jong",
+          "definitionEn": "A ringing object that can warn people.",
+          "definitionKo": "소리로 알리는 물건이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "magpies ring the bell to save him (bell warning)",
+        "emotion": "urgent gratitude",
+        "pageTurnHook": "Then gratitude will settle softly after the danger, and the story moves toward remembered road.",
+        "readAloudCue": "Read with urgent gratitude; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open the bell rope."
+      },
+      "refrain": "A kindness remembers the road.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/grateful_magpie.character_bible.json. Page 22 for 은혜 갚은 까치 / The Grateful Magpie: magpies pulling bell rope, ringing through rain, traveler waking; specific beat: the traveler woke as dust shook from the shelter beam; emotional tone: urgent gratitude; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/grateful-magpie/page-022.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with urgent gratitude; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/grateful-magpie/ko/page-022.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/grateful-magpie/ambient/ambient-loop.wav",
+      "characterBible": "characters/grateful_magpie.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_022/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_022/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_022/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_022/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_022/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_022/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "다정함은 길을 기억해."
+    },
+    {
+      "id": "grateful_magpie_023",
+      "pageNumber": 23,
+      "text": {
+        "enLittle": "The old wall cracked where he had been sleeping moments before.",
+        "enStandard": "At the temple bell, quietly, the old wall cracked where he had been sleeping moments before. \"You remembered,\" he whispered.",
+        "koLittle": "방금 누웠던 자리 위 오래된 벽이 갈라졌어요",
+        "koStandard": "절 종 곁에서 방금 누웠던 자리 위 오래된 벽이 갈라졌어요."
+      },
+      "koreanText": "절 종 곁에서 방금 누웠던 자리 위 오래된 벽이 갈라졌어요.",
+      "englishText": "At the temple bell, quietly, the old wall cracked where he had been sleeping moments before. \"You remembered,\" he whispered.",
+      "narrationScript": "절 종 곁에서 방금 누웠던 자리 위 오래된 벽이 갈라졌어요.",
+      "vocabulary": [
+        {
+          "ko": "뱀",
+          "en": "snake",
+          "romanization": "baem",
+          "definitionEn": "A long crawling animal, shown safely here.",
+          "definitionKo": "길게 기어 다니는 동물이에요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "magpies ring the bell to save him (bell warning)",
+        "emotion": "urgent gratitude",
+        "pageTurnHook": "Then gratitude will settle softly after the danger, and the story moves toward remembered road.",
+        "readAloudCue": "Read with urgent gratitude; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose the bell rope."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/grateful_magpie.character_bible.json. Page 23 for 은혜 갚은 까치 / The Grateful Magpie: magpies pulling bell rope, ringing through rain, traveler waking; specific beat: the old wall cracked where he had been sleeping moments before; emotional tone: urgent gratitude; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/grateful-magpie/page-023.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with urgent gratitude; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/grateful-magpie/ko/page-023.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/grateful-magpie/ambient/ambient-loop.wav",
+      "characterBible": "characters/grateful_magpie.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_023/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_023/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_023/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_023/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_023/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_023/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grateful_magpie_024",
+      "pageNumber": 24,
+      "text": {
+        "enLittle": "No one saw small wings grow tired.",
+        "enStandard": "At the temple bell, with the moon high, no one saw small wings grow tired, but the bell kept speaking. \"Wake!\" the bell boomed.",
+        "koLittle": "작은 날개들이 지쳐도 종은 계속 말했어요",
+        "koStandard": "절 종 곁에서 작은 날개들이 지쳐도 종은 계속 말했어요."
+      },
+      "koreanText": "절 종 곁에서 작은 날개들이 지쳐도 종은 계속 말했어요.",
+      "englishText": "At the temple bell, with the moon high, no one saw small wings grow tired, but the bell kept speaking. \"Wake!\" the bell boomed.",
+      "narrationScript": "절 종 곁에서 작은 날개들이 지쳐도 종은 계속 말했어요.",
+      "vocabulary": [
+        {
+          "ko": "종",
+          "en": "bell",
+          "romanization": "jong",
+          "definitionEn": "A ringing object that can warn people.",
+          "definitionKo": "소리로 알리는 물건이에요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "magpies ring the bell to save him (bell warning)",
+        "emotion": "urgent gratitude",
+        "pageTurnHook": "Then gratitude will settle softly after the danger, and the story moves toward remembered road.",
+        "readAloudCue": "Read with urgent gratitude; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag the bell rope."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/grateful_magpie.character_bible.json. Page 24 for 은혜 갚은 까치 / The Grateful Magpie: magpies pulling bell rope, ringing through rain, traveler waking; specific beat: no one saw small wings grow tired, but the bell kept speaking; emotional tone: urgent gratitude; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/grateful-magpie/page-024.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with urgent gratitude; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/grateful-magpie/ko/page-024.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/grateful-magpie/ambient/ambient-loop.wav",
+      "characterBible": "characters/grateful_magpie.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_024/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_024/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_024/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_024/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_024/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_024/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grateful_magpie_025",
+      "pageNumber": 25,
+      "text": {
+        "enLittle": "The traveler mended the shelter door before leaving.",
+        "enStandard": "On the repaired mountain road, first, the traveler mended the shelter door before leaving. \"Thank you,\" he told the bell.",
+        "koLittle": "나그네는 떠나기 전 산막 문을 고쳤어요",
+        "koStandard": "다시 고친 산길에서 나그네는 떠나기 전 산막 문을 고쳤어요."
+      },
+      "koreanText": "다시 고친 산길에서 나그네는 떠나기 전 산막 문을 고쳤어요.",
+      "englishText": "On the repaired mountain road, first, the traveler mended the shelter door before leaving. \"Thank you,\" he told the bell.",
+      "narrationScript": "다시 고친 산길에서 나그네는 떠나기 전 산막 문을 고쳤어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve with reciprocal gratitude (remembered road)",
+        "emotion": "thankful peace",
+        "pageTurnHook": "Then the road will carry the story onward, and the story moves toward remembered road.",
+        "readAloudCue": "Read with thankful peace; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap the feather ribbon."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/grateful_magpie.character_bible.json. Page 25 for 은혜 갚은 까치 / The Grateful Magpie: traveler leaving rice and ribbons near pine, magpies above, bell in distance; specific beat: the traveler mended the shelter door before leaving; emotional tone: thankful peace; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/grateful-magpie/page-025.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with thankful peace; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/grateful-magpie/ko/page-025.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/grateful-magpie/ambient/ambient-loop.wav",
+      "characterBible": "characters/grateful_magpie.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_025/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_025/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_025/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_025/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_025/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_025/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grateful_magpie_026",
+      "pageNumber": 26,
+      "text": {
+        "enLittle": "He tied the bright feather beside the path so others would look up.",
+        "enStandard": "On the repaired mountain road, next, he tied the bright feather beside the path so others would look up. \"Remember,\" the valley rang.",
+        "koLittle": "그는 사람들이 위를 보도록 깃털을 길가에 묶었어요",
+        "koStandard": "다시 고친 산길에서 그는 사람들이 위를 보도록 깃털을 길가에 묶었어요."
+      },
+      "koreanText": "다시 고친 산길에서 그는 사람들이 위를 보도록 깃털을 길가에 묶었어요.",
+      "englishText": "On the repaired mountain road, next, he tied the bright feather beside the path so others would look up. \"Remember,\" the valley rang.",
+      "narrationScript": "다시 고친 산길에서 그는 사람들이 위를 보도록 깃털을 길가에 묶었어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve with reciprocal gratitude (remembered road)",
+        "emotion": "thankful peace",
+        "pageTurnHook": "Then the road will carry the story onward, and the story moves toward remembered road.",
+        "readAloudCue": "Read with thankful peace; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace the feather ribbon."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/grateful_magpie.character_bible.json. Page 26 for 은혜 갚은 까치 / The Grateful Magpie: traveler leaving rice and ribbons near pine, magpies above, bell in distance; specific beat: he tied the bright feather beside the path so others would look up; emotional tone: thankful peace; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/grateful-magpie/page-026.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with thankful peace; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/grateful-magpie/ko/page-026.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/grateful-magpie/ambient/ambient-loop.wav",
+      "characterBible": "characters/grateful_magpie.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_026/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_026/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_026/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_026/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_026/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_026/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grateful_magpie_027",
+      "pageNumber": 27,
+      "text": {
+        "enLittle": "Every spring.",
+        "enStandard": "On the repaired mountain road, quietly, every spring, children heard why magpies and bells belonged in one story. \"Thank you,\" he told the pine.",
+        "koLittle": "해마다 아이들은 까치와 종이 한 이야기에 있는 까닭을 들었어요",
+        "koStandard": "다시 고친 산길에서 해마다 아이들은 까치와 종이 한 이야기에 있는 까닭을 들었어요."
+      },
+      "koreanText": "다시 고친 산길에서 해마다 아이들은 까치와 종이 한 이야기에 있는 까닭을 들었어요.",
+      "englishText": "On the repaired mountain road, quietly, every spring, children heard why magpies and bells belonged in one story. \"Thank you,\" he told the pine.",
+      "narrationScript": "다시 고친 산길에서 해마다 아이들은 까치와 종이 한 이야기에 있는 까닭을 들었어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve with reciprocal gratitude (remembered road)",
+        "emotion": "thankful peace",
+        "pageTurnHook": "Then the road will carry the story onward, and the story moves toward remembered road.",
+        "readAloudCue": "Read with thankful peace; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count the feather ribbon."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/grateful_magpie.character_bible.json. Page 27 for 은혜 갚은 까치 / The Grateful Magpie: traveler leaving rice and ribbons near pine, magpies above, bell in distance; specific beat: every spring, children heard why magpies and bells belonged in one story; emotional tone: thankful peace; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/grateful-magpie/page-027.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with thankful peace; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/grateful-magpie/ko/page-027.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/grateful-magpie/ambient/ambient-loop.wav",
+      "characterBible": "characters/grateful_magpie.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_027/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_027/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_027/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_027/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_027/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_027/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grateful_magpie_028",
+      "pageNumber": 28,
+      "text": {
+        "enLittle": "The road felt less lonely because kindness had learned its way back.",
+        "enStandard": "On the repaired mountain road, with the moon high, the road felt less lonely because kindness had learned its way back. \"Kka,\" said the magpie.",
+        "koLittle": "다정함이 돌아오는 길을 알아 외롭지 않았어요",
+        "koStandard": "다시 고친 산길에서 다정함이 돌아오는 길을 알아 외롭지 않았어요."
+      },
+      "koreanText": "다시 고친 산길에서 다정함이 돌아오는 길을 알아 외롭지 않았어요.",
+      "englishText": "On the repaired mountain road, with the moon high, the road felt less lonely because kindness had learned its way back. \"Kka,\" said the magpie.",
+      "narrationScript": "다시 고친 산길에서 다정함이 돌아오는 길을 알아 외롭지 않았어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve with reciprocal gratitude (remembered road)",
+        "emotion": "thankful peace",
+        "pageTurnHook": "Then the road will carry the story onward, and the story moves toward remembered road.",
+        "readAloudCue": "Read with thankful peace; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold the feather ribbon."
+      },
+      "refrain": "A kindness remembers the road.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/grateful_magpie.character_bible.json. Page 28 for 은혜 갚은 까치 / The Grateful Magpie: traveler leaving rice and ribbons near pine, magpies above, bell in distance; specific beat: the road felt less lonely because kindness had learned its way back; emotional tone: thankful peace; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/grateful-magpie/page-028.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with thankful peace; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/grateful-magpie/ko/page-028.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/grateful-magpie/ambient/ambient-loop.wav",
+      "characterBible": "characters/grateful_magpie.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_028/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_028/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_028/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_028/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_028/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/grateful-magpie/grateful_magpie_028/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "다정함은 길을 기억해."
+    }
+  ]
+}

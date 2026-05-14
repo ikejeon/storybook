@@ -1,0 +1,2332 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "book.tiger_persimmon",
+  "slug": "tiger-and-persimmon",
+  "title": {
+    "ko": "호랑이와 곶감",
+    "en": "The Tiger and the Persimmon",
+    "romanization": "Horangiwa Gotgam"
+  },
+  "access": "free",
+  "ageRange": "3-8",
+  "estimatedMinutes": 8,
+  "summary": "A silly tiger misunderstands a dried persimmon, bows to the “mighty persimmon,” and accidentally becomes the funniest creature in the village.",
+  "sensitivityNotes": [
+    "Fear is played as comedy.",
+    "The tiger is silly and harmless.",
+    "No theft is rewarded."
+  ],
+  "themes": [
+    "humor",
+    "misunderstanding",
+    "bravery",
+    "food"
+  ],
+  "characters": [
+    "tiger",
+    "baby",
+    "mother",
+    "traveler",
+    "dried_persimmons"
+  ],
+  "pages": [
+    {
+      "id": "tiger_persimmon_001",
+      "pageNumber": 1,
+      "text": {
+        "enLittle": "At the edge of a sleepy village, a tiger practiced his scariest face in a puddle.",
+        "enStandard": "At the edge of a sleepy village, a tiger practiced his scariest face in a puddle. The puddle was not impressed.",
+        "koLittle": "졸린 마을 끝에서 호랑이가 물웅덩이에 대고 무서운 얼굴을 연습했어요.",
+        "koStandard": "졸린 마을 끝에서 호랑이가 물웅덩이에 대고 무서운 얼굴을 연습했어요. 물웅덩이는 조금도 놀라지 않았지요."
+      },
+      "koreanText": "졸린 마을 끝에서 호랑이가 물웅덩이에 대고 무서운 얼굴을 연습했어요. 물웅덩이는 조금도 놀라지 않았지요.",
+      "englishText": "At the edge of a sleepy village, a tiger practiced his scariest face in a puddle. The puddle was not impressed.",
+      "narrationScript": "졸린 마을 끝에서 호랑이가 물웅덩이에 대고 무서운 얼굴을 연습했어요. 물웅덩이는 조금도 놀라지 않았지요.",
+      "vocabulary": [
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "humor",
+        "emotion": "playful pride",
+        "pageTurnHook": "The tiger thinks he is terrifying. The tiger misunderstands one word, and the joke starts rolling.",
+        "readAloudCue": "Read with funny, proud, worried, and relieved; keep the tiger silly but emotionally clear; keep pauses clear and musical. comic pride",
+        "childInteraction": "Tap the puddle face."
+      },
+      "imagePrompt": "Silly cowardly tiger practicing scary face in puddle, Korean village edge, comic harmless tone Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with playful pride; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: comic pride",
+      "animation": {
+        "type": "curiousEars",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_001/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_001/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_001/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_001/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "curiousEars",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_001/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_001/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/tiger-and-persimmon/page-001.png",
+      "imageSource": "assets/books/tiger-and-persimmon/page-001.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/tiger-and-persimmon/ko/page-001.wav",
+      "ambientAudio": "audio/books/tiger-and-persimmon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/tiger_persimmon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "tiger_persimmon_002",
+      "pageNumber": 2,
+      "text": {
+        "enLittle": "“Tonight,” said the tiger, “someone will tremble at my roar.",
+        "enStandard": "“Tonight,” said the tiger, “someone will tremble at my roar.” He roared. A cricket answered, chirp.",
+        "koLittle": "“오늘 밤엔 누군가 내 울음소리에 벌벌 떨겠지.” 호랑이가 말했어요.",
+        "koStandard": "“오늘 밤엔 누군가 내 울음소리에 벌벌 떨겠지.” 호랑이가 말했어요. 그가 으르렁대자 귀뚜라미가 찍, 대답했지요."
+      },
+      "koreanText": "“오늘 밤엔 누군가 내 울음소리에 벌벌 떨겠지.” 호랑이가 말했어요. 그가 으르렁대자 귀뚜라미가 찍, 대답했지요.",
+      "englishText": "“Tonight,” said the tiger, “someone will tremble at my roar.” He roared. A cricket answered, chirp.",
+      "narrationScript": "“오늘 밤엔 누군가 내 울음소리에 벌벌 떨겠지.” 호랑이가 말했어요. 그가 으르렁대자 귀뚜라미가 찍, 대답했지요.",
+      "vocabulary": [
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "setup",
+        "emotion": "comic deflation",
+        "pageTurnHook": "Even the cricket is not scared. The tiger misunderstands one word, and the joke starts rolling.",
+        "readAloudCue": "Read with funny, proud, worried, and relieved; keep the tiger silly but emotionally clear; keep pauses clear and musical. tiny cricket pause",
+        "childInteraction": "Tap the cricket."
+      },
+      "imagePrompt": "Tiger roaring at night, tiny cricket nearby, funny harmless embarrassment Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with comic deflation; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: tiny cricket pause",
+      "animation": {
+        "type": "comicGasp",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_002/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_002/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_002/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_002/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "comicGasp",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_002/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_002/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/tiger-and-persimmon/page-002.png",
+      "imageSource": "assets/books/tiger-and-persimmon/page-002.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/tiger-and-persimmon/ko/page-002.wav",
+      "ambientAudio": "audio/books/tiger-and-persimmon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/tiger_persimmon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "tiger_persimmon_003",
+      "pageNumber": 3,
+      "text": {
+        "enLittle": "From a cottage came a baby’s wail.",
+        "enStandard": "From a cottage came a baby’s wail. “Aha!” said the tiger. “At last, someone knows I am near.”",
+        "koLittle": "초가집에서 아기 울음소리가 들렸어요.",
+        "koStandard": "초가집에서 아기 울음소리가 들렸어요. “아하!” 호랑이가 말했지요. “드디어 누군가 내가 가까이 온 걸 아는구나.”"
+      },
+      "koreanText": "초가집에서 아기 울음소리가 들렸어요. “아하!” 호랑이가 말했지요. “드디어 누군가 내가 가까이 온 걸 아는구나.”",
+      "englishText": "From a cottage came a baby’s wail. “Aha!” said the tiger. “At last, someone knows I am near.”",
+      "narrationScript": "초가집에서 아기 울음소리가 들렸어요. “아하!” 호랑이가 말했지요. “드디어 누군가 내가 가까이 온 걸 아는구나.”",
+      "vocabulary": [
+        {
+          "ko": "아기",
+          "en": "baby",
+          "romanization": "agi",
+          "definitionEn": "A very young child.",
+          "definitionKo": "아주 어린 아이예요."
+        },
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "mistake",
+        "emotion": "smug curiosity",
+        "pageTurnHook": "The tiger misreads the crying. The tiger misunderstands one word, and the joke starts rolling.",
+        "readAloudCue": "Read with funny, proud, worried, and relieved; keep the tiger silly but emotionally clear; keep pauses clear and musical. comic confidence",
+        "childInteraction": "Tap the cottage window."
+      },
+      "imagePrompt": "Tiger outside cottage hearing crying baby, moonlit thatched roof, harmless comedy Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with smug curiosity; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: comic confidence",
+      "animation": {
+        "type": "windowGlow",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_003/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_003/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_003/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_003/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "windowGlow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_003/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_003/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/tiger-and-persimmon/page-003.png",
+      "imageSource": "assets/books/tiger-and-persimmon/page-003.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/tiger-and-persimmon/ko/page-003.wav",
+      "ambientAudio": "audio/books/tiger-and-persimmon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/tiger_persimmon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "tiger_persimmon_004",
+      "pageNumber": 4,
+      "text": {
+        "enLittle": "Mother rocked the baby.",
+        "enStandard": "Mother rocked the baby. “Tiger is outside,” she whispered. The baby cried louder.",
+        "koLittle": "어머니가 아기를 안고 흔들었어요.",
+        "koStandard": "어머니가 아기를 안고 흔들었어요. “밖에 호랑이가 있단다.” 하고 속삭였지만, 아기는 더 크게 울었지요."
+      },
+      "koreanText": "어머니가 아기를 안고 흔들었어요. “밖에 호랑이가 있단다.” 하고 속삭였지만, 아기는 더 크게 울었지요.",
+      "englishText": "Mother rocked the baby. “Tiger is outside,” she whispered. The baby cried louder.",
+      "narrationScript": "어머니가 아기를 안고 흔들었어요. “밖에 호랑이가 있단다.” 하고 속삭였지만, 아기는 더 크게 울었지요.",
+      "vocabulary": [
+        {
+          "ko": "아기",
+          "en": "baby",
+          "romanization": "agi",
+          "definitionEn": "A very young child.",
+          "definitionKo": "아주 어린 아이예요."
+        },
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "joke",
+        "emotion": "surprise",
+        "pageTurnHook": "Tiger threat does not work. The tiger misunderstands one word, and the joke starts rolling.",
+        "readAloudCue": "Read with funny, proud, worried, and relieved; keep the tiger silly but emotionally clear; keep pauses clear and musical. let louder land",
+        "childInteraction": "Tap the rocking blanket."
+      },
+      "imagePrompt": "Mother holding crying baby inside Korean cottage, tiger peeking outside confused Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with surprise; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: let louder land",
+      "animation": {
+        "type": "surprisedEyes",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_004/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_004/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_004/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_004/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "surprisedEyes",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_004/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_004/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/tiger-and-persimmon/page-004.png",
+      "imageSource": "assets/books/tiger-and-persimmon/page-004.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/tiger-and-persimmon/ko/page-004.wav",
+      "ambientAudio": "audio/books/tiger-and-persimmon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/tiger_persimmon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "tiger_persimmon_005",
+      "pageNumber": 5,
+      "text": {
+        "enLittle": "Then Mother smiled.",
+        "enStandard": "Then Mother smiled. “Would you like gotgam?” The baby stopped at once. Not one sniffle. Not one squeak.",
+        "koLittle": "그때 어머니가 미소 지었어요.",
+        "koStandard": "그때 어머니가 미소 지었어요. “곶감 먹을래?” 아기는 곧장 울음을 멈췄어요. 훌쩍도, 삑도 하지 않았지요."
+      },
+      "koreanText": "그때 어머니가 미소 지었어요. “곶감 먹을래?” 아기는 곧장 울음을 멈췄어요. 훌쩍도, 삑도 하지 않았지요.",
+      "englishText": "Then Mother smiled. “Would you like gotgam?” The baby stopped at once. Not one sniffle. Not one squeak.",
+      "narrationScript": "그때 어머니가 미소 지었어요. “곶감 먹을래?” 아기는 곧장 울음을 멈췄어요. 훌쩍도, 삑도 하지 않았지요.",
+      "vocabulary": [
+        {
+          "ko": "곶감",
+          "en": "dried persimmon",
+          "romanization": "gotgam",
+          "definitionEn": "A sweet dried persimmon, often hung under eaves.",
+          "definitionKo": "감을 말려 만든 달콤한 먹거리예요."
+        },
+        {
+          "ko": "아기",
+          "en": "baby",
+          "romanization": "agi",
+          "definitionEn": "A very young child.",
+          "definitionKo": "아주 어린 아이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "reveal",
+        "emotion": "comic shock",
+        "pageTurnHook": "The dried persimmon is more powerful than tiger. The tiger misunderstands one word, and the joke starts rolling.",
+        "readAloudCue": "Read with funny, proud, worried, and relieved; keep the tiger silly but emotionally clear; keep pauses clear and musical. deadpan silence after gotgam",
+        "childInteraction": "Tap the dried persimmon."
+      },
+      "imagePrompt": "Mother offering dried persimmon to baby, baby instantly calm, tiger outside stunned, no text Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with comic shock; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: deadpan silence after gotgam",
+      "animation": {
+        "type": "sweetPersimmon",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_005/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_005/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_005/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_005/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "sweetPersimmon",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_005/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_005/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/tiger-and-persimmon/page-005.png",
+      "imageSource": "assets/books/tiger-and-persimmon/page-005.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/tiger-and-persimmon/ko/page-005.wav",
+      "ambientAudio": "audio/books/tiger-and-persimmon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/tiger_persimmon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "tiger_persimmon_006",
+      "pageNumber": 6,
+      "text": {
+        "enLittle": "The tiger froze.",
+        "enStandard": "The tiger froze. “Gotgam?” he whispered. “What kind of creature scares babies better than I do?”",
+        "koLittle": "호랑이가 얼어붙었어요.",
+        "koStandard": "호랑이가 얼어붙었어요. “곶감?” 그가 속삭였어요. “나보다 아기를 더 잘 조용히 만드는 괴물이란 말인가?”"
+      },
+      "koreanText": "호랑이가 얼어붙었어요. “곶감?” 그가 속삭였어요. “나보다 아기를 더 잘 조용히 만드는 괴물이란 말인가?”",
+      "englishText": "The tiger froze. “Gotgam?” he whispered. “What kind of creature scares babies better than I do?”",
+      "narrationScript": "호랑이가 얼어붙었어요. “곶감?” 그가 속삭였어요. “나보다 아기를 더 잘 조용히 만드는 괴물이란 말인가?”",
+      "vocabulary": [
+        {
+          "ko": "곶감",
+          "en": "dried persimmon",
+          "romanization": "gotgam",
+          "definitionEn": "A sweet dried persimmon, often hung under eaves.",
+          "definitionKo": "감을 말려 만든 달콤한 먹거리예요."
+        },
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "misunderstanding",
+        "emotion": "delicious absurdity",
+        "pageTurnHook": "Tiger invents an invisible monster. The tiger misunderstands one word, and the joke starts rolling.",
+        "readAloudCue": "Read with funny, proud, worried, and relieved; keep the tiger silly but emotionally clear; keep pauses clear and musical. whisper with awe",
+        "childInteraction": "Tap the tiger’s ears."
+      },
+      "imagePrompt": "Tiger wide-eyed but silly, imagining invisible dried persimmon creature, safe comic fear Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark. Keep the mood funny and child-safe: the tiger is proud, worried, silly, and sorry before the mighty persimmon.",
+      "audioPrompt": "English-first warm professional picture-book narration with delicious absurdity; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: whisper with awe",
+      "animation": {
+        "type": "imaginationShadow",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_006/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_006/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_006/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_006/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "imaginationShadow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_006/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_006/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/tiger-and-persimmon/page-006.png",
+      "imageSource": "assets/books/tiger-and-persimmon/page-006.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/tiger-and-persimmon/ko/page-006.wav",
+      "ambientAudio": "audio/books/tiger-and-persimmon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/tiger_persimmon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "tiger_persimmon_007",
+      "pageNumber": 7,
+      "text": {
+        "enLittle": "Under the cottage eaves, rows of dried persimmons swung on strings.",
+        "enStandard": "Under the cottage eaves, rows of dried persimmons swung on strings. In the moonlight, they looked like tiny orange lanterns.",
+        "koLittle": "초가집 처마 밑에는 말린 곶감들이 줄줄이 매달려 있었어요.",
+        "koStandard": "초가집 처마 밑에는 말린 곶감들이 줄줄이 매달려 있었어요. 달빛을 받으니 작은 주황 등불처럼 보였지요."
+      },
+      "koreanText": "초가집 처마 밑에는 말린 곶감들이 줄줄이 매달려 있었어요. 달빛을 받으니 작은 주황 등불처럼 보였지요.",
+      "englishText": "Under the cottage eaves, rows of dried persimmons swung on strings. In the moonlight, they looked like tiny orange lanterns.",
+      "narrationScript": "초가집 처마 밑에는 말린 곶감들이 줄줄이 매달려 있었어요. 달빛을 받으니 작은 주황 등불처럼 보였지요.",
+      "vocabulary": [
+        {
+          "ko": "처마",
+          "en": "eaves",
+          "romanization": "cheoma",
+          "definitionEn": "The edge of a roof that hangs over a wall.",
+          "definitionKo": "지붕 끝이 벽 밖으로 나온 부분이에요."
+        },
+        {
+          "ko": "곶감",
+          "en": "dried persimmon",
+          "romanization": "gotgam",
+          "definitionEn": "A sweet dried persimmon, often hung under eaves.",
+          "definitionKo": "감을 말려 만든 달콤한 먹거리예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "cultural texture",
+        "emotion": "moonlit wonder",
+        "pageTurnHook": "The real persimmons are revealed correctly. The hanging gotgam begin to look mightier than any roar.",
+        "readAloudCue": "Read with funny, proud, worried, and relieved; keep the tiger silly but emotionally clear; keep pauses clear and musical. soft, visual",
+        "childInteraction": "Tap the drying strings."
+      },
+      "imagePrompt": "Rows of dried persimmons hanging under Korean cottage eaves like orange lanterns, moonlight, no tree-growing gotgam Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with moonlit wonder; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: soft, visual",
+      "animation": {
+        "type": "dryingPersimmons",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_007/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_007/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_007/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_007/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "dryingPersimmons",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_007/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_007/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/tiger-and-persimmon/page-007.png",
+      "imageSource": "assets/books/tiger-and-persimmon/page-007.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/tiger-and-persimmon/ko/page-007.wav",
+      "ambientAudio": "audio/books/tiger-and-persimmon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/tiger_persimmon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "tiger_persimmon_008",
+      "pageNumber": 8,
+      "text": {
+        "enLittle": "The tiger did not see snacks.",
+        "enStandard": "The tiger did not see snacks. He saw a whole army. “Forgive me, mighty persimmons,” he breathed.",
+        "koLittle": "호랑이는 간식을 보지 못했어요.",
+        "koStandard": "호랑이는 간식을 보지 못했어요. 그는 군대를 보았지요. “곶감님들, 죄송합니다.” 그가 숨죽여 말했어요."
+      },
+      "koreanText": "호랑이는 간식을 보지 못했어요. 그는 군대를 보았지요. “곶감님들, 죄송합니다.” 그가 숨죽여 말했어요.",
+      "englishText": "The tiger did not see snacks. He saw a whole army. “Forgive me, mighty persimmons,” he breathed.",
+      "narrationScript": "호랑이는 간식을 보지 못했어요. 그는 군대를 보았지요. “곶감님들, 죄송합니다.” 그가 숨죽여 말했어요.",
+      "refrain": "Forgive me, mighty persimmon!",
+      "vocabulary": [
+        {
+          "ko": "곶감",
+          "en": "dried persimmon",
+          "romanization": "gotgam",
+          "definitionEn": "A sweet dried persimmon, often hung under eaves.",
+          "definitionKo": "감을 말려 만든 달콤한 먹거리예요."
+        },
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "refrain",
+        "emotion": "silly fear",
+        "pageTurnHook": "The repeated apology begins. The hanging gotgam begin to look mightier than any roar.",
+        "readAloudCue": "Read with funny, proud, worried, and relieved; keep the tiger silly but emotionally clear; keep pauses clear and musical. tiny terrified whisper",
+        "childInteraction": "Tap each hanging persimmon."
+      },
+      "imagePrompt": "Tiger bowing nervously to hanging dried persimmons under eaves, comic coward, child-safe Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark. Keep the mood funny and child-safe: the tiger is proud, worried, silly, and sorry before the mighty persimmon.",
+      "audioPrompt": "English-first warm professional picture-book narration with silly fear; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: tiny terrified whisper",
+      "animation": {
+        "type": "dryingPersimmons",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_008/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_008/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_008/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_008/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "dryingPersimmons",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_008/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_008/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/tiger-and-persimmon/page-008.png",
+      "imageSource": "assets/books/tiger-and-persimmon/page-008.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/tiger-and-persimmon/ko/page-008.wav",
+      "ambientAudio": "audio/books/tiger-and-persimmon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/tiger_persimmon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "tiger_persimmon_009",
+      "pageNumber": 9,
+      "text": {
+        "enLittle": "A traveler passed under the eaves.",
+        "enStandard": "A traveler passed under the eaves. One dried persimmon slipped from its string and plopped onto his hat.",
+        "koLittle": "나그네가 처마 밑을 지나갔어요.",
+        "koStandard": "나그네가 처마 밑을 지나갔어요. 말린 곶감 하나가 줄에서 톡 떨어져 모자 위에 얹혔지요."
+      },
+      "koreanText": "나그네가 처마 밑을 지나갔어요. 말린 곶감 하나가 줄에서 톡 떨어져 모자 위에 얹혔지요.",
+      "englishText": "A traveler passed under the eaves. One dried persimmon slipped from its string and plopped onto his hat.",
+      "narrationScript": "나그네가 처마 밑을 지나갔어요. 말린 곶감 하나가 줄에서 톡 떨어져 모자 위에 얹혔지요.",
+      "vocabulary": [
+        {
+          "ko": "나그네",
+          "en": "traveler",
+          "romanization": "nageune",
+          "definitionEn": "A person walking from place to place.",
+          "definitionKo": "이곳저곳 길을 가는 사람이에요."
+        },
+        {
+          "ko": "곶감",
+          "en": "dried persimmon",
+          "romanization": "gotgam",
+          "definitionEn": "A sweet dried persimmon, often hung under eaves.",
+          "definitionKo": "감을 말려 만든 달콤한 먹거리예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "slapstick",
+        "emotion": "anticipation",
+        "pageTurnHook": "A persimmon drops at the perfect wrong time. The hanging gotgam begin to look mightier than any roar.",
+        "readAloudCue": "Read with funny, proud, worried, and relieved; keep the tiger silly but emotionally clear; keep pauses clear and musical. tiny plop",
+        "childInteraction": "Tap the hat."
+      },
+      "imagePrompt": "Dried persimmon falling from eaves onto traveler hat, tiger watching in alarm Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with anticipation; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: tiny plop",
+      "animation": {
+        "type": "persimmonDrop",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_009/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_009/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_009/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_009/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "persimmonDrop",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_009/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_009/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/tiger-and-persimmon/page-009.png",
+      "imageSource": "assets/books/tiger-and-persimmon/page-009.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/tiger-and-persimmon/ko/page-009.wav",
+      "ambientAudio": "audio/books/tiger-and-persimmon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/tiger_persimmon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "tiger_persimmon_010",
+      "pageNumber": 10,
+      "text": {
+        "enLittle": "The traveler jumped.",
+        "enStandard": "The traveler jumped. The tiger jumped higher. “It has caught him!” cried the tiger.",
+        "koLittle": "나그네가 깜짝 뛰었어요.",
+        "koStandard": "나그네가 깜짝 뛰었어요. 호랑이는 더 높이 뛰었지요. “곶감이 저 사람을 잡았다!” 호랑이가 외쳤어요."
+      },
+      "koreanText": "나그네가 깜짝 뛰었어요. 호랑이는 더 높이 뛰었지요. “곶감이 저 사람을 잡았다!” 호랑이가 외쳤어요.",
+      "englishText": "The traveler jumped. The tiger jumped higher. “It has caught him!” cried the tiger.",
+      "narrationScript": "나그네가 깜짝 뛰었어요. 호랑이는 더 높이 뛰었지요. “곶감이 저 사람을 잡았다!” 호랑이가 외쳤어요.",
+      "vocabulary": [
+        {
+          "ko": "나그네",
+          "en": "traveler",
+          "romanization": "nageune",
+          "definitionEn": "A person walking from place to place.",
+          "definitionKo": "이곳저곳 길을 가는 사람이에요."
+        },
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "escalation",
+        "emotion": "laughing surprise",
+        "pageTurnHook": "The misunderstanding grows. The hanging gotgam begin to look mightier than any roar.",
+        "readAloudCue": "Read with funny, proud, worried, and relieved; keep the tiger silly but emotionally clear; keep pauses clear and musical. big comic jump",
+        "childInteraction": "Tap both jump shadows."
+      },
+      "imagePrompt": "Tiger leaping higher than startled traveler, dried persimmon on hat, moonlit comic action Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with laughing surprise; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: big comic jump",
+      "animation": {
+        "type": "comicGasp",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_010/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_010/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_010/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_010/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "comicGasp",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_010/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_010/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/tiger-and-persimmon/page-010.png",
+      "imageSource": "assets/books/tiger-and-persimmon/page-010.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/tiger-and-persimmon/ko/page-010.wav",
+      "ambientAudio": "audio/books/tiger-and-persimmon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/tiger_persimmon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "tiger_persimmon_011",
+      "pageNumber": 11,
+      "text": {
+        "enLittle": "The traveler, thinking the tiger had attacked, leapt onto the tiger’s back.",
+        "enStandard": "The traveler, thinking the tiger had attacked, leapt onto the tiger’s back. The tiger, thinking gotgam had sent a rider, ran.",
+        "koLittle": "나그네는 호랑이가 덤빈 줄 알고 호랑이 등에 올라탔어요.",
+        "koStandard": "나그네는 호랑이가 덤빈 줄 알고 호랑이 등에 올라탔어요. 호랑이는 곶감이 기수를 보낸 줄 알고 냅다 달렸지요."
+      },
+      "koreanText": "나그네는 호랑이가 덤빈 줄 알고 호랑이 등에 올라탔어요. 호랑이는 곶감이 기수를 보낸 줄 알고 냅다 달렸지요.",
+      "englishText": "The traveler, thinking the tiger had attacked, leapt onto the tiger’s back. The tiger, thinking gotgam had sent a rider, ran.",
+      "narrationScript": "나그네는 호랑이가 덤빈 줄 알고 호랑이 등에 올라탔어요. 호랑이는 곶감이 기수를 보낸 줄 알고 냅다 달렸지요.",
+      "vocabulary": [
+        {
+          "ko": "나그네",
+          "en": "traveler",
+          "romanization": "nageune",
+          "definitionEn": "A person walking from place to place.",
+          "definitionKo": "이곳저곳 길을 가는 사람이에요."
+        },
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "farce",
+        "emotion": "chaotic comedy",
+        "pageTurnHook": "Everyone misunderstands everyone. The chase becomes funnier because everyone is scared of the wrong thing.",
+        "readAloudCue": "Read with funny, proud, worried, and relieved; keep the tiger silly but emotionally clear; keep pauses clear and musical. faster comic rhythm",
+        "childInteraction": "Swipe the running trail."
+      },
+      "imagePrompt": "Traveler accidentally riding tiger, tiger panicking, dried persimmon on hat, harmless chase Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with chaotic comedy; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: faster comic rhythm",
+      "animation": {
+        "type": "runAway",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_011/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_011/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_011/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_011/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "runAway",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_011/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_011/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/tiger-and-persimmon/page-011.png",
+      "imageSource": "assets/books/tiger-and-persimmon/page-011.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/tiger-and-persimmon/ko/page-011.wav",
+      "ambientAudio": "audio/books/tiger-and-persimmon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/tiger_persimmon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "tiger_persimmon_012",
+      "pageNumber": 12,
+      "text": {
+        "enLittle": "Past the millet field, past the stone wall, past three sleeping chickens they flew.",
+        "enStandard": "Past the millet field, past the stone wall, past three sleeping chickens they flew. “Forgive me, mighty persimmon!”",
+        "koLittle": "조밭을 지나고, 돌담을 지나고, 잠든 닭 세 마리 옆을 지나 달렸어요.",
+        "koStandard": "조밭을 지나고, 돌담을 지나고, 잠든 닭 세 마리 옆을 지나 달렸어요. “곶감님, 죄송합니다!”"
+      },
+      "koreanText": "조밭을 지나고, 돌담을 지나고, 잠든 닭 세 마리 옆을 지나 달렸어요. “곶감님, 죄송합니다!”",
+      "englishText": "Past the millet field, past the stone wall, past three sleeping chickens they flew. “Forgive me, mighty persimmon!”",
+      "narrationScript": "조밭을 지나고, 돌담을 지나고, 잠든 닭 세 마리 옆을 지나 달렸어요. “곶감님, 죄송합니다!”",
+      "refrain": "Forgive me, mighty persimmon!",
+      "vocabulary": [
+        {
+          "ko": "곶감",
+          "en": "dried persimmon",
+          "romanization": "gotgam",
+          "definitionEn": "A sweet dried persimmon, often hung under eaves.",
+          "definitionKo": "감을 말려 만든 달콤한 먹거리예요."
+        },
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "refrain",
+        "emotion": "ridiculous panic",
+        "pageTurnHook": "The refrain repeats at speed. The chase becomes funnier because everyone is scared of the wrong thing.",
+        "readAloudCue": "Read with funny, proud, worried, and relieved; keep the tiger silly but emotionally clear; keep pauses clear and musical. invite child to repeat",
+        "childInteraction": "Tap the dust trail."
+      },
+      "imagePrompt": "Tiger running through Korean village night, traveler on back, chickens startled, comic dust Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark. Keep the mood funny and child-safe: the tiger is proud, worried, silly, and sorry before the mighty persimmon.",
+      "audioPrompt": "English-first warm professional picture-book narration with ridiculous panic; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: invite child to repeat",
+      "animation": {
+        "type": "runAway",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_012/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_012/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_012/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_012/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "runAway",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_012/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_012/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/tiger-and-persimmon/page-012.png",
+      "imageSource": "assets/books/tiger-and-persimmon/page-012.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/tiger-and-persimmon/ko/page-012.wav",
+      "ambientAudio": "audio/books/tiger-and-persimmon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/tiger_persimmon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "tiger_persimmon_013",
+      "pageNumber": 13,
+      "text": {
+        "enLittle": "At the bridge, the traveler tumbled into a haystack.",
+        "enStandard": "At the bridge, the traveler tumbled into a haystack. The tiger did not look back. Looking back was for braver animals.",
+        "koLittle": "다리 옆에서 나그네는 건초더미에 폭신 떨어졌어요.",
+        "koStandard": "다리 옆에서 나그네는 건초더미에 폭신 떨어졌어요. 호랑이는 돌아보지 않았어요. 돌아보기는 더 용감한 동물들이나 하는 일이었거든요."
+      },
+      "koreanText": "다리 옆에서 나그네는 건초더미에 폭신 떨어졌어요. 호랑이는 돌아보지 않았어요. 돌아보기는 더 용감한 동물들이나 하는 일이었거든요.",
+      "englishText": "At the bridge, the traveler tumbled into a haystack. The tiger did not look back. Looking back was for braver animals.",
+      "narrationScript": "다리 옆에서 나그네는 건초더미에 폭신 떨어졌어요. 호랑이는 돌아보지 않았어요. 돌아보기는 더 용감한 동물들이나 하는 일이었거든요.",
+      "vocabulary": [
+        {
+          "ko": "나그네",
+          "en": "traveler",
+          "romanization": "nageune",
+          "definitionEn": "A person walking from place to place.",
+          "definitionKo": "이곳저곳 길을 가는 사람이에요."
+        },
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "safe landing",
+        "emotion": "comic relief",
+        "pageTurnHook": "The traveler lands safely. The chase becomes funnier because everyone is scared of the wrong thing.",
+        "readAloudCue": "Read with funny, proud, worried, and relieved; keep the tiger silly but emotionally clear; keep pauses clear and musical. dry humor",
+        "childInteraction": "Tap the haystack."
+      },
+      "imagePrompt": "Traveler landing safely in haystack, tiger fleeing, moonlit bridge, no injury Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with comic relief; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: dry humor",
+      "animation": {
+        "type": "softSeat",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_013/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_013/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_013/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_013/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "softSeat",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_013/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_013/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/tiger-and-persimmon/page-013.png",
+      "imageSource": "assets/books/tiger-and-persimmon/page-013.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/tiger-and-persimmon/ko/page-013.wav",
+      "ambientAudio": "audio/books/tiger-and-persimmon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/tiger_persimmon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "tiger_persimmon_014",
+      "pageNumber": 14,
+      "text": {
+        "enLittle": "The tiger hid behind a rock until dawn.",
+        "enStandard": "The tiger hid behind a rock until dawn. Every orange leaf looked suspicious. Every round pebble looked powerful.",
+        "koLittle": "호랑이는 새벽까지 바위 뒤에 숨었어요.",
+        "koStandard": "호랑이는 새벽까지 바위 뒤에 숨었어요. 주황 잎사귀도 수상해 보이고, 둥근 조약돌도 힘세 보였지요."
+      },
+      "koreanText": "호랑이는 새벽까지 바위 뒤에 숨었어요. 주황 잎사귀도 수상해 보이고, 둥근 조약돌도 힘세 보였지요.",
+      "englishText": "The tiger hid behind a rock until dawn. Every orange leaf looked suspicious. Every round pebble looked powerful.",
+      "narrationScript": "호랑이는 새벽까지 바위 뒤에 숨었어요. 주황 잎사귀도 수상해 보이고, 둥근 조약돌도 힘세 보였지요.",
+      "vocabulary": [
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        },
+        {
+          "ko": "곶감",
+          "en": "dried persimmon",
+          "romanization": "gotgam",
+          "definitionEn": "A sweet dried persimmon, often hung under eaves.",
+          "definitionKo": "감을 말려 만든 달콤한 먹거리예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "comic paranoia",
+        "emotion": "silly fear",
+        "pageTurnHook": "Now everything looks like gotgam. The chase becomes funnier because everyone is scared of the wrong thing.",
+        "readAloudCue": "Read with funny, proud, worried, and relieved; keep the tiger silly but emotionally clear; keep pauses clear and musical. soft exaggerated fear",
+        "childInteraction": "Tap the orange leaf."
+      },
+      "imagePrompt": "Tiger hiding behind rock at dawn, mistaking orange leaves and pebbles for persimmons, funny coward Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with silly fear; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: soft exaggerated fear",
+      "animation": {
+        "type": "imaginationShadow",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_014/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_014/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_014/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_014/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "imaginationShadow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_014/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_014/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/tiger-and-persimmon/page-014.png",
+      "imageSource": "assets/books/tiger-and-persimmon/page-014.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/tiger-and-persimmon/ko/page-014.wav",
+      "ambientAudio": "audio/books/tiger-and-persimmon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/tiger_persimmon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "tiger_persimmon_015",
+      "pageNumber": 15,
+      "text": {
+        "enLittle": "He practiced his apology.",
+        "enStandard": "He practiced his apology. “Forgive me, mighty persimmon.” Too loud. “Forgive me, mighty persimmon.” Too squeaky.",
+        "koLittle": "호랑이는 사과 연습을 했어요.",
+        "koStandard": "호랑이는 사과 연습을 했어요. “곶감님, 죄송합니다.” 너무 컸어요. “곶감님, 죄송합니다.” 너무 삐죽했어요."
+      },
+      "koreanText": "호랑이는 사과 연습을 했어요. “곶감님, 죄송합니다.” 너무 컸어요. “곶감님, 죄송합니다.” 너무 삐죽했어요.",
+      "englishText": "He practiced his apology. “Forgive me, mighty persimmon.” Too loud. “Forgive me, mighty persimmon.” Too squeaky.",
+      "narrationScript": "호랑이는 사과 연습을 했어요. “곶감님, 죄송합니다.” 너무 컸어요. “곶감님, 죄송합니다.” 너무 삐죽했어요.",
+      "refrain": "Forgive me, mighty persimmon!",
+      "vocabulary": [
+        {
+          "ko": "곶감",
+          "en": "dried persimmon",
+          "romanization": "gotgam",
+          "definitionEn": "A sweet dried persimmon, often hung under eaves.",
+          "definitionKo": "감을 말려 만든 달콤한 먹거리예요."
+        },
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "refrain practice",
+        "emotion": "playful repetition",
+        "pageTurnHook": "The joke becomes repeatable. The real food tradition makes the joke clearer and warmer.",
+        "readAloudCue": "Read with funny, proud, worried, and relieved; keep the tiger silly but emotionally clear; keep pauses clear and musical. try two silly voices",
+        "childInteraction": "Tap to choose a voice."
+      },
+      "imagePrompt": "Tiger practicing bows and apologies to imaginary persimmon, comic expressions, harmless Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with playful repetition; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: try two silly voices",
+      "animation": {
+        "type": "friendlyLaugh",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_015/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_015/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_015/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_015/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "friendlyLaugh",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_015/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_015/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/tiger-and-persimmon/page-015.png",
+      "imageSource": "assets/books/tiger-and-persimmon/page-015.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/tiger-and-persimmon/ko/page-015.wav",
+      "ambientAudio": "audio/books/tiger-and-persimmon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/tiger_persimmon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "tiger_persimmon_016",
+      "pageNumber": 16,
+      "text": {
+        "enLittle": "By morning, paw prints ran in circles around the yard.",
+        "enStandard": "By morning, the village found paw prints running in circles and one very confused traveler brushing straw from his sleeves.",
+        "koLittle": "아침에는 마당에 빙글빙글 발자국이 남았어요.",
+        "koStandard": "아침이 되자 마을 사람들은 빙글빙글 돈 발자국과, 소매에서 지푸라기를 털어 내는 어리둥절한 나그네를 보았어요."
+      },
+      "koreanText": "아침이 되자 마을 사람들은 빙글빙글 돈 발자국과, 소매에서 지푸라기를 털어 내는 어리둥절한 나그네를 보았어요.",
+      "englishText": "By morning, the village found paw prints running in circles and one very confused traveler brushing straw from his sleeves.",
+      "narrationScript": "아침이 되자 마을 사람들은 빙글빙글 돈 발자국과, 소매에서 지푸라기를 털어 내는 어리둥절한 나그네를 보았어요.",
+      "vocabulary": [
+        {
+          "ko": "나그네",
+          "en": "traveler",
+          "romanization": "nageune",
+          "definitionEn": "A person walking from place to place.",
+          "definitionKo": "이곳저곳 길을 가는 사람이에요."
+        },
+        {
+          "ko": "발",
+          "en": "paw",
+          "romanization": "bal",
+          "definitionEn": "An animal foot.",
+          "definitionKo": "동물의 발이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "aftermath",
+        "emotion": "curious laughter",
+        "pageTurnHook": "The village pieces together the joke. The real food tradition makes the joke clearer and warmer.",
+        "readAloudCue": "Read with funny, proud, worried, and relieved; keep the tiger silly but emotionally clear; keep pauses clear and musical. warm chuckle",
+        "childInteraction": "Tap the circular paw prints."
+      },
+      "imagePrompt": "Villagers discovering circular paw prints, traveler brushing straw, morning village humor Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with curious laughter; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: warm chuckle",
+      "animation": {
+        "type": "villageMurmur",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_016/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_016/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_016/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_016/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "villageMurmur",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_016/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_016/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/tiger-and-persimmon/page-016.png",
+      "imageSource": "assets/books/tiger-and-persimmon/page-016.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/tiger-and-persimmon/ko/page-016.wav",
+      "ambientAudio": "audio/books/tiger-and-persimmon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/tiger_persimmon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "tiger_persimmon_017",
+      "pageNumber": 17,
+      "text": {
+        "enLittle": "Mother hung new persimmons under the eaves.",
+        "enStandard": "Mother hung new persimmons under the eaves. “They are for drying,” she told the baby. The baby smiled a sticky orange smile.",
+        "koLittle": "어머니는 새 곶감을 처마 밑에 매달았어요.",
+        "koStandard": "어머니는 새 곶감을 처마 밑에 매달았어요. “말리는 거란다.” 어머니가 아기에게 말했어요. 아기는 달콤한 주황 미소를 지었지요."
+      },
+      "koreanText": "어머니는 새 곶감을 처마 밑에 매달았어요. “말리는 거란다.” 어머니가 아기에게 말했어요. 아기는 달콤한 주황 미소를 지었지요.",
+      "englishText": "Mother hung new persimmons under the eaves. “They are for drying,” she told the baby. The baby smiled a sticky orange smile.",
+      "narrationScript": "어머니는 새 곶감을 처마 밑에 매달았어요. “말리는 거란다.” 어머니가 아기에게 말했어요. 아기는 달콤한 주황 미소를 지었지요.",
+      "vocabulary": [
+        {
+          "ko": "처마",
+          "en": "eaves",
+          "romanization": "cheoma",
+          "definitionEn": "The edge of a roof that hangs over a wall.",
+          "definitionKo": "지붕 끝이 벽 밖으로 나온 부분이에요."
+        },
+        {
+          "ko": "아기",
+          "en": "baby",
+          "romanization": "agi",
+          "definitionEn": "A very young child.",
+          "definitionKo": "아주 어린 아이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "cultural clarity",
+        "emotion": "cozy sweetness",
+        "pageTurnHook": "The real food tradition is named. The real food tradition makes the joke clearer and warmer.",
+        "readAloudCue": "Read with funny, proud, worried, and relieved; keep the tiger silly but emotionally clear; keep pauses clear and musical. warm explanatory",
+        "childInteraction": "Tap the drying tray."
+      },
+      "imagePrompt": "Mother hanging dried persimmons under eaves, baby smiling, cozy Korean cottage, food culture Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with cozy sweetness; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: warm explanatory",
+      "animation": {
+        "type": "dryingPersimmons",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_017/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_017/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_017/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_017/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "dryingPersimmons",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_017/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_017/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/tiger-and-persimmon/page-017.png",
+      "imageSource": "assets/books/tiger-and-persimmon/page-017.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/tiger-and-persimmon/ko/page-017.wav",
+      "ambientAudio": "audio/books/tiger-and-persimmon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/tiger_persimmon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "tiger_persimmon_018",
+      "pageNumber": 18,
+      "text": {
+        "enLittle": "From the forest edge, the tiger bowed to the eaves.",
+        "enStandard": "From the forest edge, the tiger bowed to the eaves. Not once. Not twice. Seven careful times.",
+        "koLittle": "숲 가장자리에서 호랑이는 처마 쪽으로 절했어요.",
+        "koStandard": "숲 가장자리에서 호랑이는 처마 쪽으로 절했어요. 한 번도, 두 번도 아니고, 조심조심 일곱 번이나요."
+      },
+      "koreanText": "숲 가장자리에서 호랑이는 처마 쪽으로 절했어요. 한 번도, 두 번도 아니고, 조심조심 일곱 번이나요.",
+      "englishText": "From the forest edge, the tiger bowed to the eaves. Not once. Not twice. Seven careful times.",
+      "narrationScript": "숲 가장자리에서 호랑이는 처마 쪽으로 절했어요. 한 번도, 두 번도 아니고, 조심조심 일곱 번이나요.",
+      "vocabulary": [
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        },
+        {
+          "ko": "처마",
+          "en": "eaves",
+          "romanization": "cheoma",
+          "definitionEn": "The edge of a roof that hangs over a wall.",
+          "definitionKo": "지붕 끝이 벽 밖으로 나온 부분이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "punchline",
+        "emotion": "absurd respect",
+        "pageTurnHook": "Tiger still fears the persimmons. The real food tradition makes the joke clearer and warmer.",
+        "readAloudCue": "Read with funny, proud, worried, and relieved; keep the tiger silly but emotionally clear; keep pauses clear and musical. count with humor",
+        "childInteraction": "Tap each bow."
+      },
+      "imagePrompt": "Tiger at forest edge bowing repeatedly toward cottage eaves with hanging persimmons, silly coward Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark. Keep the mood funny and child-safe: the tiger is proud, worried, silly, and sorry before the mighty persimmon.",
+      "audioPrompt": "English-first warm professional picture-book narration with absurd respect; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: count with humor",
+      "animation": {
+        "type": "sunsetBow",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_018/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_018/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_018/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_018/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "sunsetBow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_018/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_018/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/tiger-and-persimmon/page-018.png",
+      "imageSource": "assets/books/tiger-and-persimmon/page-018.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/tiger-and-persimmon/ko/page-018.wav",
+      "ambientAudio": "audio/books/tiger-and-persimmon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/tiger_persimmon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "tiger_persimmon_019",
+      "pageNumber": 19,
+      "text": {
+        "enLittle": "A child asked, “Why is the tiger bowing?” Grandmother said, “Some lessons are sweet.",
+        "enStandard": "A child asked, “Why is the tiger bowing?” Grandmother said, “Some lessons are sweet. Some are chewy.”",
+        "koLittle": "한 아이가 물었어요.",
+        "koStandard": "한 아이가 물었어요. “호랑이가 왜 절해요?” 할머니가 말했지요. “어떤 가르침은 달고, 어떤 가르침은 쫄깃하단다.”"
+      },
+      "koreanText": "한 아이가 물었어요. “호랑이가 왜 절해요?” 할머니가 말했지요. “어떤 가르침은 달고, 어떤 가르침은 쫄깃하단다.”",
+      "englishText": "A child asked, “Why is the tiger bowing?” Grandmother said, “Some lessons are sweet. Some are chewy.”",
+      "narrationScript": "한 아이가 물었어요. “호랑이가 왜 절해요?” 할머니가 말했지요. “어떤 가르침은 달고, 어떤 가르침은 쫄깃하단다.”",
+      "vocabulary": [
+        {
+          "ko": "할멈",
+          "en": "grandma",
+          "romanization": "halmeom",
+          "definitionEn": "An old grandmother figure in folktales.",
+          "definitionKo": "옛이야기에 나오는 할머니예요."
+        },
+        {
+          "ko": "곶감",
+          "en": "dried persimmon",
+          "romanization": "gotgam",
+          "definitionEn": "A sweet dried persimmon, often hung under eaves.",
+          "definitionKo": "감을 말려 만든 달콤한 먹거리예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "wisdom joke",
+        "emotion": "gentle amusement",
+        "pageTurnHook": "The village turns it into a saying. The tiger practices being sorry to a snack he still does not understand.",
+        "readAloudCue": "Read with funny, proud, worried, and relieved; keep the tiger silly but emotionally clear; keep pauses clear and musical. smiling elder voice",
+        "childInteraction": "Tap grandmother’s fan."
+      },
+      "imagePrompt": "Grandmother telling children joke under eaves, persimmons drying overhead, tiger tiny in background Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with gentle amusement; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: smiling elder voice",
+      "animation": {
+        "type": "sharedSunset",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_019/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_019/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_019/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_019/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "sharedSunset",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_019/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_019/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/tiger-and-persimmon/page-019.png",
+      "imageSource": "assets/books/tiger-and-persimmon/page-019.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/tiger-and-persimmon/ko/page-019.wav",
+      "ambientAudio": "audio/books/tiger-and-persimmon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/tiger_persimmon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "tiger_persimmon_020",
+      "pageNumber": 20,
+      "text": {
+        "enLittle": "The tiger never bothered that house again.",
+        "enStandard": "The tiger never bothered that house again. He did, however, avoid orange lanterns, round moons, and one suspicious pumpkin.",
+        "koLittle": "호랑이는 다시는 그 집을 귀찮게 하지 않았어요.",
+        "koStandard": "호랑이는 다시는 그 집을 귀찮게 하지 않았어요. 다만 주황 등불, 둥근 달, 수상한 호박 하나는 멀리했지요."
+      },
+      "koreanText": "호랑이는 다시는 그 집을 귀찮게 하지 않았어요. 다만 주황 등불, 둥근 달, 수상한 호박 하나는 멀리했지요.",
+      "englishText": "The tiger never bothered that house again. He did, however, avoid orange lanterns, round moons, and one suspicious pumpkin.",
+      "narrationScript": "호랑이는 다시는 그 집을 귀찮게 하지 않았어요. 다만 주황 등불, 둥근 달, 수상한 호박 하나는 멀리했지요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤길을 밝히는 따뜻한 불빛이에요."
+        },
+        {
+          "ko": "달",
+          "en": "moon",
+          "romanization": "dal",
+          "definitionEn": "The soft light in the night sky.",
+          "definitionKo": "밤하늘에 뜨는 부드러운 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "comic list",
+        "emotion": "lingering laughter",
+        "pageTurnHook": "His fear spreads to ordinary things. The tiger practices being sorry to a snack he still does not understand.",
+        "readAloudCue": "Read with funny, proud, worried, and relieved; keep the tiger silly but emotionally clear; keep pauses clear and musical. list with comic pauses",
+        "childInteraction": "Tap each orange object."
+      },
+      "imagePrompt": "Tiger avoiding orange lantern, round moon, pumpkin, comic cautious walking Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with lingering laughter; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: list with comic pauses",
+      "animation": {
+        "type": "nervousStep",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_020/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_020/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_020/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_020/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "nervousStep",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_020/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_020/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/tiger-and-persimmon/page-020.png",
+      "imageSource": "assets/books/tiger-and-persimmon/page-020.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/tiger-and-persimmon/ko/page-020.wav",
+      "ambientAudio": "audio/books/tiger-and-persimmon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/tiger_persimmon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "tiger_persimmon_021",
+      "pageNumber": 21,
+      "text": {
+        "enLittle": "When wind shook the dried persimmons, they bumped softly: tok, tok, tok.",
+        "enStandard": "When wind shook the dried persimmons, they bumped softly: tok, tok, tok. The tiger heard it from far away and whispered his line.",
+        "koLittle": "바람이 곶감 줄을 흔들면 톡, 톡, 톡 소리가 났어요.",
+        "koStandard": "바람이 곶감 줄을 흔들면 톡, 톡, 톡 소리가 났어요. 멀리서 그 소리를 들은 호랑이는 또 그 말을 속삭였지요."
+      },
+      "koreanText": "바람이 곶감 줄을 흔들면 톡, 톡, 톡 소리가 났어요. 멀리서 그 소리를 들은 호랑이는 또 그 말을 속삭였지요.",
+      "englishText": "When wind shook the dried persimmons, they bumped softly: tok, tok, tok. The tiger heard it from far away and whispered his line.",
+      "narrationScript": "바람이 곶감 줄을 흔들면 톡, 톡, 톡 소리가 났어요. 멀리서 그 소리를 들은 호랑이는 또 그 말을 속삭였지요.",
+      "refrain": "Forgive me, mighty persimmon!",
+      "vocabulary": [
+        {
+          "ko": "곶감",
+          "en": "dried persimmon",
+          "romanization": "gotgam",
+          "definitionEn": "A sweet dried persimmon, often hung under eaves.",
+          "definitionKo": "감을 말려 만든 달콤한 먹거리예요."
+        },
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "refrain",
+        "emotion": "cozy comedy",
+        "pageTurnHook": "The sound cue returns. The tiger practices being sorry to a snack he still does not understand.",
+        "readAloudCue": "Read with funny, proud, worried, and relieved; keep the tiger silly but emotionally clear; keep pauses clear and musical. tap out tok tok tok",
+        "childInteraction": "Tap hanging persimmons for tok sounds."
+      },
+      "imagePrompt": "Dried persimmons swinging under eaves in wind, tiger far away whispering apology Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with cozy comedy; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: tap out tok tok tok",
+      "animation": {
+        "type": "dryingPersimmons",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_021/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_021/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_021/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_021/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "dryingPersimmons",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_021/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_021/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/tiger-and-persimmon/page-021.png",
+      "imageSource": "assets/books/tiger-and-persimmon/page-021.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/tiger-and-persimmon/ko/page-021.wav",
+      "ambientAudio": "audio/books/tiger-and-persimmon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/tiger_persimmon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "tiger_persimmon_022",
+      "pageNumber": 22,
+      "text": {
+        "enLittle": "“Forgive me, mighty persimmon,” he said.",
+        "enStandard": "“Forgive me, mighty persimmon,” he said. This time, the persimmons only swayed, sweet and silent.",
+        "koLittle": "“곶감님, 죄송합니다.” 호랑이가 말했어요.",
+        "koStandard": "“곶감님, 죄송합니다.” 호랑이가 말했어요. 이번에도 곶감들은 달콤하고 조용하게 흔들릴 뿐이었지요."
+      },
+      "koreanText": "“곶감님, 죄송합니다.” 호랑이가 말했어요. 이번에도 곶감들은 달콤하고 조용하게 흔들릴 뿐이었지요.",
+      "englishText": "“Forgive me, mighty persimmon,” he said. This time, the persimmons only swayed, sweet and silent.",
+      "narrationScript": "“곶감님, 죄송합니다.” 호랑이가 말했어요. 이번에도 곶감들은 달콤하고 조용하게 흔들릴 뿐이었지요.",
+      "vocabulary": [
+        {
+          "ko": "곶감",
+          "en": "dried persimmon",
+          "romanization": "gotgam",
+          "definitionEn": "A sweet dried persimmon, often hung under eaves.",
+          "definitionKo": "감을 말려 만든 달콤한 먹거리예요."
+        },
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "quiet joke",
+        "emotion": "soft bedtime laugh",
+        "pageTurnHook": "The persimmons never answer. The tiger practices being sorry to a snack he still does not understand.",
+        "readAloudCue": "Read with funny, proud, worried, and relieved; keep the tiger silly but emotionally clear; keep pauses clear and musical. whisper, then silence",
+        "childInteraction": "Tap silence sparkles."
+      },
+      "imagePrompt": "Persimmons swaying quietly under moonlight, tiger peeking from woods, funny peaceful ending Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark. Keep the mood funny and child-safe: the tiger is proud, worried, silly, and sorry before the mighty persimmon.",
+      "audioPrompt": "English-first warm professional picture-book narration with soft bedtime laugh; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: whisper, then silence",
+      "animation": {
+        "type": "sweetPersimmon",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_022/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_022/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_022/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_022/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "sweetPersimmon",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_022/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_022/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/tiger-and-persimmon/page-022.png",
+      "imageSource": "assets/books/tiger-and-persimmon/page-022.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/tiger-and-persimmon/ko/page-022.wav",
+      "ambientAudio": "audio/books/tiger-and-persimmon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/tiger_persimmon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "tiger_persimmon_023",
+      "pageNumber": 23,
+      "text": {
+        "enLittle": "The baby grew sleepy.",
+        "enStandard": "The baby grew sleepy. Mother gave one tiny bite of gotgam, and the whole cottage became quiet as snow.",
+        "koLittle": "아기는 졸려졌어요.",
+        "koStandard": "아기는 졸려졌어요. 어머니가 곶감 한 조각을 주자, 초가집은 눈처럼 조용해졌지요."
+      },
+      "koreanText": "아기는 졸려졌어요. 어머니가 곶감 한 조각을 주자, 초가집은 눈처럼 조용해졌지요.",
+      "englishText": "The baby grew sleepy. Mother gave one tiny bite of gotgam, and the whole cottage became quiet as snow.",
+      "narrationScript": "아기는 졸려졌어요. 어머니가 곶감 한 조각을 주자, 초가집은 눈처럼 조용해졌지요.",
+      "vocabulary": [
+        {
+          "ko": "아기",
+          "en": "baby",
+          "romanization": "agi",
+          "definitionEn": "A very young child.",
+          "definitionKo": "아주 어린 아이예요."
+        },
+        {
+          "ko": "곶감",
+          "en": "dried persimmon",
+          "romanization": "gotgam",
+          "definitionEn": "A sweet dried persimmon, often hung under eaves.",
+          "definitionKo": "감을 말려 만든 달콤한 먹거리예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "bedtime",
+        "emotion": "sleepy sweetness",
+        "pageTurnHook": "The food becomes comfort again. The ending invites a quiet reread and one last echo of the refrain.",
+        "readAloudCue": "Read with funny, proud, worried, and relieved; keep the tiger silly but emotionally clear; keep pauses clear and musical. soft bedtime voice",
+        "childInteraction": "Tap the sleepy baby."
+      },
+      "imagePrompt": "Mother giving baby tiny dried persimmon bite, cozy quiet cottage, bedtime warmth Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with sleepy sweetness; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: soft bedtime voice",
+      "animation": {
+        "type": "bedtimeGlow",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_023/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_023/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_023/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_023/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "bedtimeGlow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_023/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_023/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/tiger-and-persimmon/page-023.png",
+      "imageSource": "assets/books/tiger-and-persimmon/page-023.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/tiger-and-persimmon/ko/page-023.wav",
+      "ambientAudio": "audio/books/tiger-and-persimmon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/tiger_persimmon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "tiger_persimmon_024",
+      "pageNumber": 24,
+      "text": {
+        "enLittle": "The tiger dreamed of fewer powerful snacks.",
+        "enStandard": "And somewhere in the hills, a tiger tucked his tail around his paws and dreamed of a world with fewer snacks that sounded so powerful.",
+        "koLittle": "호랑이는 힘센 간식이 적은 세상을 꿈꾸었어요.",
+        "koStandard": "그리고 산 어딘가에서 호랑이는 꼬리를 발 위에 감고 잠들었어요. 너무 힘세게 들리는 간식이 조금 적은 세상을 꿈꾸면서요."
+      },
+      "koreanText": "그리고 산 어딘가에서 호랑이는 꼬리를 발 위에 감고 잠들었어요. 너무 힘세게 들리는 간식이 조금 적은 세상을 꿈꾸면서요.",
+      "englishText": "And somewhere in the hills, a tiger tucked his tail around his paws and dreamed of a world with fewer snacks that sounded so powerful.",
+      "narrationScript": "그리고 산 어딘가에서 호랑이는 꼬리를 발 위에 감고 잠들었어요. 너무 힘세게 들리는 간식이 조금 적은 세상을 꿈꾸면서요.",
+      "vocabulary": [
+        {
+          "ko": "꼬리",
+          "en": "tail",
+          "romanization": "kkori",
+          "definitionEn": "The long back part of an animal.",
+          "definitionKo": "동물 몸 뒤에 길게 난 부분이에요."
+        },
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "closing",
+        "emotion": "sleepy comic relief",
+        "pageTurnHook": "A bedtime joke closes the book. The ending invites a quiet reread and one last echo of the refrain.",
+        "readAloudCue": "Read with funny, proud, worried, and relieved; keep the tiger silly but emotionally clear; keep pauses clear and musical. drowsy smile",
+        "childInteraction": "Tap the tiger tail."
+      },
+      "imagePrompt": "Tiger asleep in hills curled around tail, dreaming of giant persimmons, gentle comic bedtime ending Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark. Keep the mood funny and child-safe: the tiger is proud, worried, silly, and sorry before the mighty persimmon.",
+      "audioPrompt": "English-first warm professional picture-book narration with sleepy comic relief; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: drowsy smile",
+      "animation": {
+        "type": "bedtimeGlow",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_024/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_024/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_024/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_024/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "bedtimeGlow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_024/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/tiger-and-persimmon/tiger_persimmon_024/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/tiger-and-persimmon/page-024.png",
+      "imageSource": "assets/books/tiger-and-persimmon/page-024.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/tiger-and-persimmon/ko/page-024.wav",
+      "ambientAudio": "audio/books/tiger-and-persimmon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/tiger_persimmon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    }
+  ],
+  "coverAsset": "assets/books/tiger-and-persimmon/cover.png",
+  "coverAssetStatus": "placeholder",
+  "characterBible": "characters/tiger_persimmon.character_bible.json",
+  "narrationAudioStatus": "synthetic_draft"
+}

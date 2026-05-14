@@ -1,0 +1,11 @@
+.DS_Store
+.agent/tmp/
+build/
+tools/output/*
+!tools/output/*.md
+ios/**/.build/
+ios/**/.swiftpm/
+android/**/.gradle/
+android/**/.kotlin/
+android/**/build/
+android/**/local.properties

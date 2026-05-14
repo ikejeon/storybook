@@ -1,0 +1,2901 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "book.dangun",
+  "slug": "dangun-story",
+  "title": {
+    "ko": "단군 이야기",
+    "en": "The Story of Dangun"
+  },
+  "access": "premium",
+  "ageRange": "5-8",
+  "estimatedMinutes": 10,
+  "summary": "Hwanung descends to the sacred mountain; bear and tiger ask to become human; patient cave practice leads to Ungnyeo and the founding child Dangun.",
+  "coverAsset": "assets/books/dangun-story/cover.png",
+  "coverAssetStatus": "placeholder",
+  "characterBible": "characters/dangun.character_bible.json",
+  "narrationAudioStatus": "synthetic_draft",
+  "adaptationVersions": {
+    "default": "English-first bilingual semantic-authenticity repair draft",
+    "plannedAlternate": "External editor pass after children’s editorial and Korean-language review",
+    "note": "Generated repo-local repair draft; not external human final."
+  },
+  "sensitivityNotes": [
+    "Transformation is reverent and gentle; the tiger's leaving is treated as impatience, not villainy.",
+    "Repaired by repo-local semantic authenticity pass; external children’s editor, Korean-language, cultural, and child-safety review remain required before final release."
+  ],
+  "themes": [
+    "myth",
+    "patience",
+    "belonging",
+    "origin",
+    "nature"
+  ],
+  "characters": [
+    "bear_child",
+    "tiger_friend",
+    "sky_helper",
+    "mountain_cave"
+  ],
+  "pages": [
+    {
+      "id": "dangun_001",
+      "pageNumber": 1,
+      "text": {
+        "enLittle": "Hwanung opened the cloud gate and listened to people below asking for fair weather.",
+        "enStandard": "On the sacred mountain, first, Hwanung opened the cloud gate and listened to people below asking for fair weather. \"Teach us,\" Tiger added.",
+        "koLittle": "환웅은 구름문을 열고 사람들의 바람을 들었어요",
+        "koStandard": "신성한 산에서 환웅은 구름문을 열고 사람들의 바람을 들었어요."
+      },
+      "koreanText": "신성한 산에서 환웅은 구름문을 열고 사람들의 바람을 들었어요.",
+      "englishText": "On the sacred mountain, first, Hwanung opened the cloud gate and listened to people below asking for fair weather. \"Teach us,\" Tiger added.",
+      "narrationScript": "신성한 산에서 환웅은 구름문을 열고 사람들의 바람을 들었어요.",
+      "vocabulary": [
+        {
+          "ko": "환웅",
+          "en": "Hwanung",
+          "romanization": "Hwanung",
+          "definitionEn": "The heavenly figure who descends in the myth.",
+          "definitionKo": "하늘에서 내려오는 신화 속 인물이에요."
+        },
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "The restless animal in the cave.",
+          "definitionKo": "동굴에서 답답해하는 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Hwanung descends to the sacred mountain (sky descent)",
+        "emotion": "awe",
+        "pageTurnHook": "Then the cave test will begin, and the story moves toward cave promise.",
+        "readAloudCue": "Read with awe; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap the cloud gate."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dangun.character_bible.json. Page 1 for 단군 이야기 / The Story of Dangun: Hwanung descending with cloud banners, pine peaks, bear and tiger watching; specific beat: Hwanung opened the cloud gate and listened to people below asking for fair weather; emotional tone: awe; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dangun-story/page-001.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with awe; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dangun-story/ko/page-001.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dangun-story/ambient/ambient-loop.wav",
+      "characterBible": "characters/dangun.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_001/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_001/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_001/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_001/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_001/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_001/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dangun_002",
+      "pageNumber": 2,
+      "text": {
+        "enLittle": "Wind bells on the pine branches sounded like a welcome.",
+        "enStandard": "On the sacred mountain, next, wind bells on the pine branches sounded like a welcome. \"Patience is a path,\" Hwanung replied.",
+        "koLittle": "소나무 바람방울이 환영처럼 울렸어요",
+        "koStandard": "신성한 산에서 소나무 바람방울이 환영처럼 울렸어요."
+      },
+      "koreanText": "신성한 산에서 소나무 바람방울이 환영처럼 울렸어요.",
+      "englishText": "On the sacred mountain, next, wind bells on the pine branches sounded like a welcome. \"Patience is a path,\" Hwanung replied.",
+      "narrationScript": "신성한 산에서 소나무 바람방울이 환영처럼 울렸어요.",
+      "vocabulary": [
+        {
+          "ko": "곰",
+          "en": "bear",
+          "romanization": "gom",
+          "definitionEn": "The patient animal in the cave.",
+          "definitionKo": "동굴에서 참고 기다리는 동물이에요."
+        },
+        {
+          "ko": "쑥",
+          "en": "mugwort",
+          "romanization": "ssuk",
+          "definitionEn": "A fragrant green herb.",
+          "definitionKo": "향이 나는 푸른 풀이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Hwanung descends to the sacred mountain (sky descent)",
+        "emotion": "awe",
+        "pageTurnHook": "Then the cave test will begin, and the story moves toward cave promise.",
+        "readAloudCue": "Read with awe; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace the cloud gate."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dangun.character_bible.json. Page 2 for 단군 이야기 / The Story of Dangun: Hwanung descending with cloud banners, pine peaks, bear and tiger watching; specific beat: wind bells on the pine branches sounded like a welcome; emotional tone: awe; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dangun-story/page-002.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with awe; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dangun-story/ko/page-002.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dangun-story/ambient/ambient-loop.wav",
+      "characterBible": "characters/dangun.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_002/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_002/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_002/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_002/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_002/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_002/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dangun_003",
+      "pageNumber": 3,
+      "text": {
+        "enLittle": "Bear and tiger stepped from the trees with questions bigger than hunger.",
+        "enStandard": "On the sacred mountain, quietly, bear and tiger stepped from the trees with questions bigger than hunger. \"How long?\" Tiger asked.",
+        "koLittle": "곰과 호랑이가 숲에서 나와 큰 소원을 말했어요",
+        "koStandard": "신성한 산에서 곰과 호랑이가 숲에서 나와 큰 소원을 말했어요."
+      },
+      "koreanText": "신성한 산에서 곰과 호랑이가 숲에서 나와 큰 소원을 말했어요.",
+      "englishText": "On the sacred mountain, quietly, bear and tiger stepped from the trees with questions bigger than hunger. \"How long?\" Tiger asked.",
+      "narrationScript": "신성한 산에서 곰과 호랑이가 숲에서 나와 큰 소원을 말했어요.",
+      "vocabulary": [
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "The restless animal in the cave.",
+          "definitionKo": "동굴에서 답답해하는 동물이에요."
+        },
+        {
+          "ko": "마늘",
+          "en": "garlic",
+          "romanization": "maneul",
+          "definitionEn": "A strong-smelling food in the myth.",
+          "definitionKo": "향이 강한 음식이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Hwanung descends to the sacred mountain (sky descent)",
+        "emotion": "awe",
+        "pageTurnHook": "Then the cave test will begin, and the story moves toward cave promise.",
+        "readAloudCue": "Read with awe; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count the cloud gate."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dangun.character_bible.json. Page 3 for 단군 이야기 / The Story of Dangun: Hwanung descending with cloud banners, pine peaks, bear and tiger watching; specific beat: bear and tiger stepped from the trees with questions bigger than hunger; emotional tone: awe; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dangun-story/page-003.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with awe; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dangun-story/ko/page-003.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dangun-story/ambient/ambient-loop.wav",
+      "characterBible": "characters/dangun.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_003/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_003/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_003/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_003/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_003/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_003/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dangun_004",
+      "pageNumber": 4,
+      "text": {
+        "enLittle": "The mountain held its breath as heaven touched earth.",
+        "enStandard": "On the sacred mountain, with the moon high, the mountain held its breath as heaven touched earth. \"We wish to become human,\" Bear said.",
+        "koLittle": "하늘이 땅에 닿자 산은 숨을 고요히 쉬었어요",
+        "koStandard": "신성한 산에서 하늘이 땅에 닿자 산은 숨을 고요히 쉬었어요."
+      },
+      "koreanText": "신성한 산에서 하늘이 땅에 닿자 산은 숨을 고요히 쉬었어요.",
+      "englishText": "On the sacred mountain, with the moon high, the mountain held its breath as heaven touched earth. \"We wish to become human,\" Bear said.",
+      "narrationScript": "신성한 산에서 하늘이 땅에 닿자 산은 숨을 고요히 쉬었어요.",
+      "vocabulary": [
+        {
+          "ko": "쑥",
+          "en": "mugwort",
+          "romanization": "ssuk",
+          "definitionEn": "A fragrant green herb.",
+          "definitionKo": "향이 나는 푸른 풀이에요."
+        },
+        {
+          "ko": "단군",
+          "en": "Dangun",
+          "romanization": "Dangun",
+          "definitionEn": "The founding child of the myth.",
+          "definitionKo": "나라의 시작을 여는 신화 속 아이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Hwanung descends to the sacred mountain (sky descent)",
+        "emotion": "awe",
+        "pageTurnHook": "Then the cave test will begin, and the story moves toward cave promise.",
+        "readAloudCue": "Read with awe; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold the cloud gate."
+      },
+      "refrain": "Wait with the mountain breath.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dangun.character_bible.json. Page 4 for 단군 이야기 / The Story of Dangun: Hwanung descending with cloud banners, pine peaks, bear and tiger watching; specific beat: the mountain held its breath as heaven touched earth; emotional tone: awe; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dangun-story/page-004.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with awe; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dangun-story/ko/page-004.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dangun-story/ambient/ambient-loop.wav",
+      "characterBible": "characters/dangun.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_004/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_004/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_004/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_004/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_004/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_004/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "산의 숨결로 기다리자."
+    },
+    {
+      "id": "dangun_005",
+      "pageNumber": 5,
+      "text": {
+        "enLittle": "Hwanung opened the cloud gate and listened to people below asking for fair weather.",
+        "enStandard": "On the sacred mountain, before dawn, Hwanung opened the cloud gate and listened to people below asking for fair weather. \"Teach us,\" Tiger added.",
+        "koLittle": "환웅은 구름문을 열고 사람들의 바람을 들었어요",
+        "koStandard": "신성한 산에서 환웅은 구름문을 열고 사람들의 바람을 들었어요."
+      },
+      "koreanText": "신성한 산에서 환웅은 구름문을 열고 사람들의 바람을 들었어요.",
+      "englishText": "On the sacred mountain, before dawn, Hwanung opened the cloud gate and listened to people below asking for fair weather. \"Teach us,\" Tiger added.",
+      "narrationScript": "신성한 산에서 환웅은 구름문을 열고 사람들의 바람을 들었어요.",
+      "vocabulary": [
+        {
+          "ko": "마늘",
+          "en": "garlic",
+          "romanization": "maneul",
+          "definitionEn": "A strong-smelling food in the myth.",
+          "definitionKo": "향이 강한 음식이에요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Hwanung descends to the sacred mountain (sky descent)",
+        "emotion": "awe",
+        "pageTurnHook": "Then the cave test will begin, and the story moves toward cave promise.",
+        "readAloudCue": "Read with awe; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe the cloud gate."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dangun.character_bible.json. Page 5 for 단군 이야기 / The Story of Dangun: Hwanung descending with cloud banners, pine peaks, bear and tiger watching; specific beat: Hwanung opened the cloud gate and listened to people below asking for fair weather; emotional tone: awe; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dangun-story/page-005.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with awe; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dangun-story/ko/page-005.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dangun-story/ambient/ambient-loop.wav",
+      "characterBible": "characters/dangun.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_005/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_005/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_005/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_005/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_005/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_005/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dangun_006",
+      "pageNumber": 6,
+      "text": {
+        "enLittle": "Hwanung gave mugwort and garlic.",
+        "enStandard": "At the cave mouth, first, Hwanung gave mugwort and garlic, plain gifts with difficult work inside. \"Trying must last,\" said the mountain.",
+        "koLittle": "환웅은 쑥과 마늘을 주었고 그 안에는 어려운 일이 들어 있었어요",
+        "koStandard": "동굴 입구에서 환웅은 쑥과 마늘을 주었고 그 안에는 어려운 일이 들어 있었어요."
+      },
+      "koreanText": "동굴 입구에서 환웅은 쑥과 마늘을 주었고 그 안에는 어려운 일이 들어 있었어요.",
+      "englishText": "At the cave mouth, first, Hwanung gave mugwort and garlic, plain gifts with difficult work inside. \"Trying must last,\" said the mountain.",
+      "narrationScript": "동굴 입구에서 환웅은 쑥과 마늘을 주었고 그 안에는 어려운 일이 들어 있었어요.",
+      "vocabulary": [
+        {
+          "ko": "단군",
+          "en": "Dangun",
+          "romanization": "Dangun",
+          "definitionEn": "The founding child of the myth.",
+          "definitionKo": "나라의 시작을 여는 신화 속 아이예요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "set the mugwort and garlic practice (cave promise)",
+        "emotion": "solemn resolve",
+        "pageTurnHook": "Then darkness will test each heart differently, and the story moves toward waiting and impatience.",
+        "readAloudCue": "Read with solemn resolve; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open the mugwort bundle."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dangun.character_bible.json. Page 6 for 단군 이야기 / The Story of Dangun: bear and tiger receiving mugwort and garlic, cave shadows but no horror; specific beat: Hwanung gave mugwort and garlic, plain gifts with difficult work inside; emotional tone: solemn resolve; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dangun-story/page-006.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with solemn resolve; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dangun-story/ko/page-006.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dangun-story/ambient/ambient-loop.wav",
+      "characterBible": "characters/dangun.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_006/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_006/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_006/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_006/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_006/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_006/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dangun_007",
+      "pageNumber": 7,
+      "text": {
+        "enLittle": "Bear sniffed the sharp garlic and nodded slowly.",
+        "enStandard": "At the cave mouth, next, Bear sniffed the sharp garlic and nodded slowly. \"Eat these and wait,\" Hwanung said.",
+        "koLittle": "곰은 매운 마늘 냄새를 맡고 천천히 끄덕였어요",
+        "koStandard": "동굴 입구에서 곰은 매운 마늘 냄새를 맡고 천천히 끄덕였어요."
+      },
+      "koreanText": "동굴 입구에서 곰은 매운 마늘 냄새를 맡고 천천히 끄덕였어요.",
+      "englishText": "At the cave mouth, next, Bear sniffed the sharp garlic and nodded slowly. \"Eat these and wait,\" Hwanung said.",
+      "narrationScript": "동굴 입구에서 곰은 매운 마늘 냄새를 맡고 천천히 끄덕였어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "set the mugwort and garlic practice (cave promise)",
+        "emotion": "solemn resolve",
+        "pageTurnHook": "Then darkness will test each heart differently, and the story moves toward waiting and impatience.",
+        "readAloudCue": "Read with solemn resolve; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose the mugwort bundle."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dangun.character_bible.json. Page 7 for 단군 이야기 / The Story of Dangun: bear and tiger receiving mugwort and garlic, cave shadows but no horror; specific beat: Bear sniffed the sharp garlic and nodded slowly; emotional tone: solemn resolve; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dangun-story/page-007.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with solemn resolve; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dangun-story/ko/page-007.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dangun-story/ambient/ambient-loop.wav",
+      "characterBible": "characters/dangun.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_007/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_007/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_007/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_007/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_007/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_007/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dangun_008",
+      "pageNumber": 8,
+      "text": {
+        "enLittle": "Tiger paced at the cave mouth.",
+        "enStandard": "At the cave mouth, quietly, Tiger paced at the cave mouth, already counting the missing sunlight. \"I can wait,\" Bear whispered.",
+        "koLittle": "호랑이는 벌써 햇빛을 그리워하며 서성였어요",
+        "koStandard": "동굴 입구에서 호랑이는 벌써 햇빛을 그리워하며 서성였어요."
+      },
+      "koreanText": "동굴 입구에서 호랑이는 벌써 햇빛을 그리워하며 서성였어요.",
+      "englishText": "At the cave mouth, quietly, Tiger paced at the cave mouth, already counting the missing sunlight. \"I can wait,\" Bear whispered.",
+      "narrationScript": "동굴 입구에서 호랑이는 벌써 햇빛을 그리워하며 서성였어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "set the mugwort and garlic practice (cave promise)",
+        "emotion": "solemn resolve",
+        "pageTurnHook": "Then darkness will test each heart differently, and the story moves toward waiting and impatience.",
+        "readAloudCue": "Read with solemn resolve; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag the mugwort bundle."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dangun.character_bible.json. Page 8 for 단군 이야기 / The Story of Dangun: bear and tiger receiving mugwort and garlic, cave shadows but no horror; specific beat: Tiger paced at the cave mouth, already counting the missing sunlight; emotional tone: solemn resolve; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dangun-story/page-008.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with solemn resolve; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dangun-story/ko/page-008.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dangun-story/ambient/ambient-loop.wav",
+      "characterBible": "characters/dangun.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_008/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_008/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_008/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_008/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_008/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_008/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dangun_009",
+      "pageNumber": 9,
+      "text": {
+        "enLittle": "The stone door did not close cruelly; it simply made the promise quiet.",
+        "enStandard": "At the cave mouth, with the moon high, the stone door did not close cruelly; it simply made the promise quiet. \"I can try,\" Tiger said.",
+        "koLittle": "돌문은 무섭게 닫히지 않고 약속을 조용히 만들었어요",
+        "koStandard": "동굴 입구에서 돌문은 무섭게 닫히지 않고 약속을 조용히 만들었어요."
+      },
+      "koreanText": "동굴 입구에서 돌문은 무섭게 닫히지 않고 약속을 조용히 만들었어요.",
+      "englishText": "At the cave mouth, with the moon high, the stone door did not close cruelly; it simply made the promise quiet. \"I can try,\" Tiger said.",
+      "narrationScript": "동굴 입구에서 돌문은 무섭게 닫히지 않고 약속을 조용히 만들었어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "set the mugwort and garlic practice (cave promise)",
+        "emotion": "solemn resolve",
+        "pageTurnHook": "Then darkness will test each heart differently, and the story moves toward waiting and impatience.",
+        "readAloudCue": "Read with solemn resolve; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap the mugwort bundle."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dangun.character_bible.json. Page 9 for 단군 이야기 / The Story of Dangun: bear and tiger receiving mugwort and garlic, cave shadows but no horror; specific beat: the stone door did not close cruelly; it simply made the promise quiet; emotional tone: solemn resolve; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dangun-story/page-009.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with solemn resolve; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dangun-story/ko/page-009.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dangun-story/ambient/ambient-loop.wav",
+      "characterBible": "characters/dangun.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_009/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_009/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_009/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_009/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_009/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_009/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dangun_010",
+      "pageNumber": 10,
+      "text": {
+        "enLittle": "Hwanung gave mugwort and garlic.",
+        "enStandard": "At the cave mouth, before dawn, Hwanung gave mugwort and garlic, plain gifts with difficult work inside. \"Trying must last,\" said the mountain.",
+        "koLittle": "환웅은 쑥과 마늘을 주었고 그 안에는 어려운 일이 들어 있었어요",
+        "koStandard": "동굴 입구에서 환웅은 쑥과 마늘을 주었고 그 안에는 어려운 일이 들어 있었어요."
+      },
+      "koreanText": "동굴 입구에서 환웅은 쑥과 마늘을 주었고 그 안에는 어려운 일이 들어 있었어요.",
+      "englishText": "At the cave mouth, before dawn, Hwanung gave mugwort and garlic, plain gifts with difficult work inside. \"Trying must last,\" said the mountain.",
+      "narrationScript": "동굴 입구에서 환웅은 쑥과 마늘을 주었고 그 안에는 어려운 일이 들어 있었어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "set the mugwort and garlic practice (cave promise)",
+        "emotion": "solemn resolve",
+        "pageTurnHook": "Then darkness will test each heart differently, and the story moves toward waiting and impatience.",
+        "readAloudCue": "Read with solemn resolve; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace the mugwort bundle."
+      },
+      "refrain": "Wait with the mountain breath.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dangun.character_bible.json. Page 10 for 단군 이야기 / The Story of Dangun: bear and tiger receiving mugwort and garlic, cave shadows but no horror; specific beat: Hwanung gave mugwort and garlic, plain gifts with difficult work inside; emotional tone: solemn resolve; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dangun-story/page-010.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with solemn resolve; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dangun-story/ko/page-010.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dangun-story/ambient/ambient-loop.wav",
+      "characterBible": "characters/dangun.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_010/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_010/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_010/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_010/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_010/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_010/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "산의 숨결로 기다리자."
+    },
+    {
+      "id": "dangun_011",
+      "pageNumber": 11,
+      "text": {
+        "enLittle": "Bear counted drips of water and made each one a small promise.",
+        "enStandard": "Inside the dim cave, first, Bear counted drips of water and made each one a small promise. \"I need the sun,\" Tiger groaned.",
+        "koLittle": "곰은 물방울을 세며 작은 약속으로 만들었어요",
+        "koStandard": "어스름한 동굴 안에서 곰은 물방울을 세며 작은 약속으로 만들었어요."
+      },
+      "koreanText": "어스름한 동굴 안에서 곰은 물방울을 세며 작은 약속으로 만들었어요.",
+      "englishText": "Inside the dim cave, first, Bear counted drips of water and made each one a small promise. \"I need the sun,\" Tiger groaned.",
+      "narrationScript": "어스름한 동굴 안에서 곰은 물방울을 세며 작은 약속으로 만들었어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "환웅",
+          "en": "Hwanung",
+          "romanization": "Hwanung",
+          "definitionEn": "The heavenly figure who descends in the myth.",
+          "definitionKo": "하늘에서 내려오는 신화 속 인물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "contrast Bear's patience with Tiger's restlessness (waiting and impatience)",
+        "emotion": "restless tension",
+        "pageTurnHook": "Then one friend will leave the cave, and the story moves toward bear transformation.",
+        "readAloudCue": "Read with restless tension; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count the thin light."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dangun.character_bible.json. Page 11 for 단군 이야기 / The Story of Dangun: Bear seated calmly, Tiger looking toward a blade of light, herbs nearby; specific beat: Bear counted drips of water and made each one a small promise; emotional tone: restless tension; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dangun-story/page-011.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with restless tension; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dangun-story/ko/page-011.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dangun-story/ambient/ambient-loop.wav",
+      "characterBible": "characters/dangun.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_011/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_011/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_011/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_011/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_011/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_011/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dangun_012",
+      "pageNumber": 12,
+      "text": {
+        "enLittle": "Tiger scratched a line in the dust.",
+        "enStandard": "Inside the dim cave, next, Tiger scratched a line in the dust, then another, then wished lines were doors. \"The path is still here,\" Bear answered.",
+        "koLittle": "호랑이는 먼지에 선을 긋고 문이 되길 바랐어요",
+        "koStandard": "어스름한 동굴 안에서 호랑이는 먼지에 선을 긋고 문이 되길 바랐어요."
+      },
+      "koreanText": "어스름한 동굴 안에서 호랑이는 먼지에 선을 긋고 문이 되길 바랐어요.",
+      "englishText": "Inside the dim cave, next, Tiger scratched a line in the dust, then another, then wished lines were doors. \"The path is still here,\" Bear answered.",
+      "narrationScript": "어스름한 동굴 안에서 호랑이는 먼지에 선을 긋고 문이 되길 바랐어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "곰",
+          "en": "bear",
+          "romanization": "gom",
+          "definitionEn": "The patient animal in the cave.",
+          "definitionKo": "동굴에서 참고 기다리는 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "contrast Bear's patience with Tiger's restlessness (waiting and impatience)",
+        "emotion": "restless tension",
+        "pageTurnHook": "Then one friend will leave the cave, and the story moves toward bear transformation.",
+        "readAloudCue": "Read with restless tension; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold the thin light."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dangun.character_bible.json. Page 12 for 단군 이야기 / The Story of Dangun: Bear seated calmly, Tiger looking toward a blade of light, herbs nearby; specific beat: Tiger scratched a line in the dust, then another, then wished lines were doors; emotional tone: restless tension; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dangun-story/page-012.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with restless tension; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dangun-story/ko/page-012.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dangun-story/ambient/ambient-loop.wav",
+      "characterBible": "characters/dangun.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_012/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_012/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_012/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_012/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_012/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_012/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dangun_013",
+      "pageNumber": 13,
+      "text": {
+        "enLittle": "The mugwort smelled bitter.",
+        "enStandard": "Inside the dim cave, quietly, the mugwort smelled bitter, but Bear breathed through it. \"My paws are fire,\" Tiger said.",
+        "koLittle": "쑥은 쌉싸래했지만 곰은 천천히 숨 쉬었어요",
+        "koStandard": "어스름한 동굴 안에서 쑥은 쌉싸래했지만 곰은 천천히 숨 쉬었어요."
+      },
+      "koreanText": "어스름한 동굴 안에서 쑥은 쌉싸래했지만 곰은 천천히 숨 쉬었어요.",
+      "englishText": "Inside the dim cave, quietly, the mugwort smelled bitter, but Bear breathed through it. \"My paws are fire,\" Tiger said.",
+      "narrationScript": "어스름한 동굴 안에서 쑥은 쌉싸래했지만 곰은 천천히 숨 쉬었어요.",
+      "vocabulary": [
+        {
+          "ko": "환웅",
+          "en": "Hwanung",
+          "romanization": "Hwanung",
+          "definitionEn": "The heavenly figure who descends in the myth.",
+          "definitionKo": "하늘에서 내려오는 신화 속 인물이에요."
+        },
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "The restless animal in the cave.",
+          "definitionKo": "동굴에서 답답해하는 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "contrast Bear's patience with Tiger's restlessness (waiting and impatience)",
+        "emotion": "restless tension",
+        "pageTurnHook": "Then one friend will leave the cave, and the story moves toward bear transformation.",
+        "readAloudCue": "Read with restless tension; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe the thin light."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dangun.character_bible.json. Page 13 for 단군 이야기 / The Story of Dangun: Bear seated calmly, Tiger looking toward a blade of light, herbs nearby; specific beat: the mugwort smelled bitter, but Bear breathed through it; emotional tone: restless tension; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dangun-story/page-013.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with restless tension; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dangun-story/ko/page-013.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dangun-story/ambient/ambient-loop.wav",
+      "characterBible": "characters/dangun.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_013/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_013/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_013/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_013/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_013/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_013/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dangun_014",
+      "pageNumber": 14,
+      "text": {
+        "enLittle": "Outside.",
+        "enStandard": "Inside the dim cave, with the moon high, outside, birds called, and Tiger's paws answered before his mind did. \"Stay,\" Bear said softly.",
+        "koLittle": "밖에서 새가 울자 호랑이 발이 먼저 대답했어요",
+        "koStandard": "어스름한 동굴 안에서 밖에서 새가 울자 호랑이 발이 먼저 대답했어요."
+      },
+      "koreanText": "어스름한 동굴 안에서 밖에서 새가 울자 호랑이 발이 먼저 대답했어요.",
+      "englishText": "Inside the dim cave, with the moon high, outside, birds called, and Tiger's paws answered before his mind did. \"Stay,\" Bear said softly.",
+      "narrationScript": "어스름한 동굴 안에서 밖에서 새가 울자 호랑이 발이 먼저 대답했어요.",
+      "vocabulary": [
+        {
+          "ko": "곰",
+          "en": "bear",
+          "romanization": "gom",
+          "definitionEn": "The patient animal in the cave.",
+          "definitionKo": "동굴에서 참고 기다리는 동물이에요."
+        },
+        {
+          "ko": "쑥",
+          "en": "mugwort",
+          "romanization": "ssuk",
+          "definitionEn": "A fragrant green herb.",
+          "definitionKo": "향이 나는 푸른 풀이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "contrast Bear's patience with Tiger's restlessness (waiting and impatience)",
+        "emotion": "restless tension",
+        "pageTurnHook": "Then one friend will leave the cave, and the story moves toward bear transformation.",
+        "readAloudCue": "Read with restless tension; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open the thin light."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dangun.character_bible.json. Page 14 for 단군 이야기 / The Story of Dangun: Bear seated calmly, Tiger looking toward a blade of light, herbs nearby; specific beat: outside, birds called, and Tiger's paws answered before his mind did; emotional tone: restless tension; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dangun-story/page-014.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with restless tension; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dangun-story/ko/page-014.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dangun-story/ambient/ambient-loop.wav",
+      "characterBible": "characters/dangun.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_014/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_014/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_014/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_014/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_014/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_014/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dangun_015",
+      "pageNumber": 15,
+      "text": {
+        "enLittle": "Bear counted drips of water and made each one a small promise.",
+        "enStandard": "Inside the dim cave, before dawn, Bear counted drips of water and made each one a small promise. \"I need the sun,\" Tiger groaned.",
+        "koLittle": "곰은 물방울을 세며 작은 약속으로 만들었어요",
+        "koStandard": "어스름한 동굴 안에서 곰은 물방울을 세며 작은 약속으로 만들었어요."
+      },
+      "koreanText": "어스름한 동굴 안에서 곰은 물방울을 세며 작은 약속으로 만들었어요.",
+      "englishText": "Inside the dim cave, before dawn, Bear counted drips of water and made each one a small promise. \"I need the sun,\" Tiger groaned.",
+      "narrationScript": "어스름한 동굴 안에서 곰은 물방울을 세며 작은 약속으로 만들었어요.",
+      "vocabulary": [
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "The restless animal in the cave.",
+          "definitionKo": "동굴에서 답답해하는 동물이에요."
+        },
+        {
+          "ko": "마늘",
+          "en": "garlic",
+          "romanization": "maneul",
+          "definitionEn": "A strong-smelling food in the myth.",
+          "definitionKo": "향이 강한 음식이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "contrast Bear's patience with Tiger's restlessness (waiting and impatience)",
+        "emotion": "restless tension",
+        "pageTurnHook": "Then one friend will leave the cave, and the story moves toward bear transformation.",
+        "readAloudCue": "Read with restless tension; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose the thin light."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dangun.character_bible.json. Page 15 for 단군 이야기 / The Story of Dangun: Bear seated calmly, Tiger looking toward a blade of light, herbs nearby; specific beat: Bear counted drips of water and made each one a small promise; emotional tone: restless tension; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dangun-story/page-015.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with restless tension; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dangun-story/ko/page-015.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dangun-story/ambient/ambient-loop.wav",
+      "characterBible": "characters/dangun.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_015/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_015/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_015/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_015/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_015/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_015/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dangun_016",
+      "pageNumber": 16,
+      "text": {
+        "enLittle": "Bear's fur shimmered like pine needles after rain.",
+        "enStandard": "When the waiting was complete, first, Bear's fur shimmered like pine needles after rain. \"Build a kind beginning,\" she said.",
+        "koLittle": "곰의 털은 비 온 뒤 솔잎처럼 빛났어요",
+        "koStandard": "기다림이 다 찼을 때 곰의 털은 비 온 뒤 솔잎처럼 빛났어요."
+      },
+      "koreanText": "기다림이 다 찼을 때 곰의 털은 비 온 뒤 솔잎처럼 빛났어요.",
+      "englishText": "When the waiting was complete, first, Bear's fur shimmered like pine needles after rain. \"Build a kind beginning,\" she said.",
+      "narrationScript": "기다림이 다 찼을 때 곰의 털은 비 온 뒤 솔잎처럼 빛났어요.",
+      "vocabulary": [
+        {
+          "ko": "쑥",
+          "en": "mugwort",
+          "romanization": "ssuk",
+          "definitionEn": "A fragrant green herb.",
+          "definitionKo": "향이 나는 푸른 풀이에요."
+        },
+        {
+          "ko": "단군",
+          "en": "Dangun",
+          "romanization": "Dangun",
+          "definitionEn": "The founding child of the myth.",
+          "definitionKo": "나라의 시작을 여는 신화 속 아이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "show Ungnyeo's gentle transformation (bear transformation)",
+        "emotion": "wonder and tenderness",
+        "pageTurnHook": "Then a founding child will be born from hope, and the story moves toward Dangun's birth.",
+        "readAloudCue": "Read with wonder and tenderness; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag the cave flowers."
+      },
+      "refrain": "Wait with the mountain breath.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dangun.character_bible.json. Page 16 for 단군 이야기 / The Story of Dangun: bear becoming Ungnyeo in soft light, cave flowers, Hwanung blessing; specific beat: Bear's fur shimmered like pine needles after rain; emotional tone: wonder and tenderness; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dangun-story/page-016.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with wonder and tenderness; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dangun-story/ko/page-016.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dangun-story/ambient/ambient-loop.wav",
+      "characterBible": "characters/dangun.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_016/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_016/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_016/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_016/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_016/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_016/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "산의 숨결로 기다리자."
+    },
+    {
+      "id": "dangun_017",
+      "pageNumber": 17,
+      "text": {
+        "enLittle": "Her paws became careful hands that remembered every patient day.",
+        "enStandard": "When the waiting was complete, next, her paws became careful hands that remembered every patient day. \"You waited with your whole breath,\" Hwanung said.",
+        "koLittle": "발은 기다림을 기억하는 손이 되었어요",
+        "koStandard": "기다림이 다 찼을 때 발은 기다림을 기억하는 손이 되었어요."
+      },
+      "koreanText": "기다림이 다 찼을 때 발은 기다림을 기억하는 손이 되었어요.",
+      "englishText": "When the waiting was complete, next, her paws became careful hands that remembered every patient day. \"You waited with your whole breath,\" Hwanung said.",
+      "narrationScript": "기다림이 다 찼을 때 발은 기다림을 기억하는 손이 되었어요.",
+      "vocabulary": [
+        {
+          "ko": "마늘",
+          "en": "garlic",
+          "romanization": "maneul",
+          "definitionEn": "A strong-smelling food in the myth.",
+          "definitionKo": "향이 강한 음식이에요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "show Ungnyeo's gentle transformation (bear transformation)",
+        "emotion": "wonder and tenderness",
+        "pageTurnHook": "Then a founding child will be born from hope, and the story moves toward Dangun's birth.",
+        "readAloudCue": "Read with wonder and tenderness; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap the cave flowers."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dangun.character_bible.json. Page 17 for 단군 이야기 / The Story of Dangun: bear becoming Ungnyeo in soft light, cave flowers, Hwanung blessing; specific beat: her paws became careful hands that remembered every patient day; emotional tone: wonder and tenderness; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dangun-story/page-017.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with wonder and tenderness; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dangun-story/ko/page-017.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dangun-story/ambient/ambient-loop.wav",
+      "characterBible": "characters/dangun.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_017/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_017/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_017/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_017/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_017/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_017/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dangun_018",
+      "pageNumber": 18,
+      "text": {
+        "enLittle": "Hwanung called her ungnyeo.",
+        "enStandard": "When the waiting was complete, quietly, Hwanung called her Ungnyeo, and the cave seemed to bloom. \"I was not alone,\" Ungnyeo answered.",
+        "koLittle": "환웅은 그녀를 웅녀라 불렀고 동굴은 꽃핀 듯했어요",
+        "koStandard": "기다림이 다 찼을 때 환웅은 그녀를 웅녀라 불렀고 동굴은 꽃핀 듯했어요."
+      },
+      "koreanText": "기다림이 다 찼을 때 환웅은 그녀를 웅녀라 불렀고 동굴은 꽃핀 듯했어요.",
+      "englishText": "When the waiting was complete, quietly, Hwanung called her Ungnyeo, and the cave seemed to bloom. \"I was not alone,\" Ungnyeo answered.",
+      "narrationScript": "기다림이 다 찼을 때 환웅은 그녀를 웅녀라 불렀고 동굴은 꽃핀 듯했어요.",
+      "vocabulary": [
+        {
+          "ko": "단군",
+          "en": "Dangun",
+          "romanization": "Dangun",
+          "definitionEn": "The founding child of the myth.",
+          "definitionKo": "나라의 시작을 여는 신화 속 아이예요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "show Ungnyeo's gentle transformation (bear transformation)",
+        "emotion": "wonder and tenderness",
+        "pageTurnHook": "Then a founding child will be born from hope, and the story moves toward Dangun's birth.",
+        "readAloudCue": "Read with wonder and tenderness; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace the cave flowers."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dangun.character_bible.json. Page 18 for 단군 이야기 / The Story of Dangun: bear becoming Ungnyeo in soft light, cave flowers, Hwanung blessing; specific beat: Hwanung called her Ungnyeo, and the cave seemed to bloom; emotional tone: wonder and tenderness; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dangun-story/page-018.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with wonder and tenderness; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dangun-story/ko/page-018.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dangun-story/ambient/ambient-loop.wav",
+      "characterBible": "characters/dangun.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_018/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_018/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_018/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_018/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_018/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_018/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dangun_019",
+      "pageNumber": 19,
+      "text": {
+        "enLittle": "She thanked the tiger too.",
+        "enStandard": "When the waiting was complete, with the moon high, she thanked the tiger too, because even unfinished courage had shared the first step. \"What will you do now?\" he asked.",
+        "koLittle": "웅녀는 첫걸음을 함께한 호랑이도 떠올렸어요",
+        "koStandard": "기다림이 다 찼을 때 웅녀는 첫걸음을 함께한 호랑이도 떠올렸어요."
+      },
+      "koreanText": "기다림이 다 찼을 때 웅녀는 첫걸음을 함께한 호랑이도 떠올렸어요.",
+      "englishText": "When the waiting was complete, with the moon high, she thanked the tiger too, because even unfinished courage had shared the first step. \"What will you do now?\" he asked.",
+      "narrationScript": "기다림이 다 찼을 때 웅녀는 첫걸음을 함께한 호랑이도 떠올렸어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "show Ungnyeo's gentle transformation (bear transformation)",
+        "emotion": "wonder and tenderness",
+        "pageTurnHook": "Then a founding child will be born from hope, and the story moves toward Dangun's birth.",
+        "readAloudCue": "Read with wonder and tenderness; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count the cave flowers."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dangun.character_bible.json. Page 19 for 단군 이야기 / The Story of Dangun: bear becoming Ungnyeo in soft light, cave flowers, Hwanung blessing; specific beat: she thanked the tiger too, because even unfinished courage had shared the first step; emotional tone: wonder and tenderness; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dangun-story/page-019.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with wonder and tenderness; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dangun-story/ko/page-019.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dangun-story/ambient/ambient-loop.wav",
+      "characterBible": "characters/dangun.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_019/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_019/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_019/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_019/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_019/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_019/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dangun_020",
+      "pageNumber": 20,
+      "text": {
+        "enLittle": "Bear's fur shimmered like pine needles after rain.",
+        "enStandard": "When the waiting was complete, before dawn, Bear's fur shimmered like pine needles after rain. \"Build a kind beginning,\" she said.",
+        "koLittle": "곰의 털은 비 온 뒤 솔잎처럼 빛났어요",
+        "koStandard": "기다림이 다 찼을 때 곰의 털은 비 온 뒤 솔잎처럼 빛났어요."
+      },
+      "koreanText": "기다림이 다 찼을 때 곰의 털은 비 온 뒤 솔잎처럼 빛났어요.",
+      "englishText": "When the waiting was complete, before dawn, Bear's fur shimmered like pine needles after rain. \"Build a kind beginning,\" she said.",
+      "narrationScript": "기다림이 다 찼을 때 곰의 털은 비 온 뒤 솔잎처럼 빛났어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "show Ungnyeo's gentle transformation (bear transformation)",
+        "emotion": "wonder and tenderness",
+        "pageTurnHook": "Then a founding child will be born from hope, and the story moves toward Dangun's birth.",
+        "readAloudCue": "Read with wonder and tenderness; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold the cave flowers."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dangun.character_bible.json. Page 20 for 단군 이야기 / The Story of Dangun: bear becoming Ungnyeo in soft light, cave flowers, Hwanung blessing; specific beat: Bear's fur shimmered like pine needles after rain; emotional tone: wonder and tenderness; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dangun-story/page-020.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with wonder and tenderness; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dangun-story/ko/page-020.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dangun-story/ambient/ambient-loop.wav",
+      "characterBible": "characters/dangun.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_020/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_020/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_020/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_020/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_020/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_020/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dangun_021",
+      "pageNumber": 21,
+      "text": {
+        "enLittle": "A child named dangun arrived with eyes calm as mountain pools.",
+        "enStandard": "Below the mountain altar, first, a child named Dangun arrived with eyes calm as mountain pools. \"Then let it be fair,\" the elders answered.",
+        "koLittle": "단군이라는 아이가 산못처럼 맑은 눈으로 왔어요",
+        "koStandard": "산 제단 아래에서 단군이라는 아이가 산못처럼 맑은 눈으로 왔어요."
+      },
+      "koreanText": "산 제단 아래에서 단군이라는 아이가 산못처럼 맑은 눈으로 왔어요.",
+      "englishText": "Below the mountain altar, first, a child named Dangun arrived with eyes calm as mountain pools. \"Then let it be fair,\" the elders answered.",
+      "narrationScript": "산 제단 아래에서 단군이라는 아이가 산못처럼 맑은 눈으로 왔어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "introduce Dangun as origin child (Dangun's birth)",
+        "emotion": "mythic joy",
+        "pageTurnHook": "Then the village will become a remembered land, and the story moves toward founding memory.",
+        "readAloudCue": "Read with mythic joy; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe the cradle herb."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dangun.character_bible.json. Page 21 for 단군 이야기 / The Story of Dangun: Ungnyeo holding baby Dangun, Hwanung, villagers, bright pines; specific beat: a child named Dangun arrived with eyes calm as mountain pools; emotional tone: mythic joy; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dangun-story/page-021.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with mythic joy; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dangun-story/ko/page-021.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dangun-story/ambient/ambient-loop.wav",
+      "characterBible": "characters/dangun.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_021/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_021/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_021/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_021/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_021/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_021/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dangun_022",
+      "pageNumber": 22,
+      "text": {
+        "enLittle": "Villagers brought rice.",
+        "enStandard": "Below the mountain altar, next, villagers brought rice, cloth, and questions about how to live together. \"Let mountains and people belong together,\" Hwanung said.",
+        "koLittle": "마을 사람들은 쌀과 천과 함께 살아갈 질문을 가져왔어요",
+        "koStandard": "산 제단 아래에서 마을 사람들은 쌀과 천과 함께 살아갈 질문을 가져왔어요."
+      },
+      "koreanText": "산 제단 아래에서 마을 사람들은 쌀과 천과 함께 살아갈 질문을 가져왔어요.",
+      "englishText": "Below the mountain altar, next, villagers brought rice, cloth, and questions about how to live together. \"Let mountains and people belong together,\" Hwanung said.",
+      "narrationScript": "산 제단 아래에서 마을 사람들은 쌀과 천과 함께 살아갈 질문을 가져왔어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "introduce Dangun as origin child (Dangun's birth)",
+        "emotion": "mythic joy",
+        "pageTurnHook": "Then the village will become a remembered land, and the story moves toward founding memory.",
+        "readAloudCue": "Read with mythic joy; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open the cradle herb."
+      },
+      "refrain": "Wait with the mountain breath.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dangun.character_bible.json. Page 22 for 단군 이야기 / The Story of Dangun: Ungnyeo holding baby Dangun, Hwanung, villagers, bright pines; specific beat: villagers brought rice, cloth, and questions about how to live together; emotional tone: mythic joy; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dangun-story/page-022.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with mythic joy; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dangun-story/ko/page-022.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dangun-story/ambient/ambient-loop.wav",
+      "characterBible": "characters/dangun.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_022/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_022/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_022/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_022/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_022/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_022/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "산의 숨결로 기다리자."
+    },
+    {
+      "id": "dangun_023",
+      "pageNumber": 23,
+      "text": {
+        "enLittle": "Ungnyeo laid mugwort beside the cradle so patience would not be forgotten.",
+        "enStandard": "Below the mountain altar, quietly, Ungnyeo laid mugwort beside the cradle so patience would not be forgotten. \"I will remember,\" Dangun's story began.",
+        "koLittle": "웅녀는 기다림을 잊지 않게 요람 곁에 쑥을 놓았어요",
+        "koStandard": "산 제단 아래에서 웅녀는 기다림을 잊지 않게 요람 곁에 쑥을 놓았어요."
+      },
+      "koreanText": "산 제단 아래에서 웅녀는 기다림을 잊지 않게 요람 곁에 쑥을 놓았어요.",
+      "englishText": "Below the mountain altar, quietly, Ungnyeo laid mugwort beside the cradle so patience would not be forgotten. \"I will remember,\" Dangun's story began.",
+      "narrationScript": "산 제단 아래에서 웅녀는 기다림을 잊지 않게 요람 곁에 쑥을 놓았어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "환웅",
+          "en": "Hwanung",
+          "romanization": "Hwanung",
+          "definitionEn": "The heavenly figure who descends in the myth.",
+          "definitionKo": "하늘에서 내려오는 신화 속 인물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "introduce Dangun as origin child (Dangun's birth)",
+        "emotion": "mythic joy",
+        "pageTurnHook": "Then the village will become a remembered land, and the story moves toward founding memory.",
+        "readAloudCue": "Read with mythic joy; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose the cradle herb."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dangun.character_bible.json. Page 23 for 단군 이야기 / The Story of Dangun: Ungnyeo holding baby Dangun, Hwanung, villagers, bright pines; specific beat: Ungnyeo laid mugwort beside the cradle so patience would not be forgotten; emotional tone: mythic joy; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dangun-story/page-023.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with mythic joy; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dangun-story/ko/page-023.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dangun-story/ambient/ambient-loop.wav",
+      "characterBible": "characters/dangun.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_023/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_023/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_023/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_023/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_023/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_023/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dangun_024",
+      "pageNumber": 24,
+      "text": {
+        "enLittle": "Hwanung listened more than he commanded.",
+        "enStandard": "Below the mountain altar, with the moon high, Hwanung listened more than he commanded. \"A beginning is a promise,\" Ungnyeo said.",
+        "koLittle": "환웅은 명령보다 귀 기울임을 더 많이 했어요",
+        "koStandard": "산 제단 아래에서 환웅은 명령보다 귀 기울임을 더 많이 했어요."
+      },
+      "koreanText": "산 제단 아래에서 환웅은 명령보다 귀 기울임을 더 많이 했어요.",
+      "englishText": "Below the mountain altar, with the moon high, Hwanung listened more than he commanded. \"A beginning is a promise,\" Ungnyeo said.",
+      "narrationScript": "산 제단 아래에서 환웅은 명령보다 귀 기울임을 더 많이 했어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "곰",
+          "en": "bear",
+          "romanization": "gom",
+          "definitionEn": "The patient animal in the cave.",
+          "definitionKo": "동굴에서 참고 기다리는 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "introduce Dangun as origin child (Dangun's birth)",
+        "emotion": "mythic joy",
+        "pageTurnHook": "Then the village will become a remembered land, and the story moves toward founding memory.",
+        "readAloudCue": "Read with mythic joy; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag the cradle herb."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dangun.character_bible.json. Page 24 for 단군 이야기 / The Story of Dangun: Ungnyeo holding baby Dangun, Hwanung, villagers, bright pines; specific beat: Hwanung listened more than he commanded; emotional tone: mythic joy; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dangun-story/page-024.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with mythic joy; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dangun-story/ko/page-024.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dangun-story/ambient/ambient-loop.wav",
+      "characterBible": "characters/dangun.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_024/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_024/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_024/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_024/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_024/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_024/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dangun_025",
+      "pageNumber": 25,
+      "text": {
+        "enLittle": "A child named dangun arrived with eyes calm as mountain pools.",
+        "enStandard": "Below the mountain altar, before dawn, a child named Dangun arrived with eyes calm as mountain pools. \"Then let it be fair,\" the elders answered.",
+        "koLittle": "단군이라는 아이가 산못처럼 맑은 눈으로 왔어요",
+        "koStandard": "산 제단 아래에서 단군이라는 아이가 산못처럼 맑은 눈으로 왔어요."
+      },
+      "koreanText": "산 제단 아래에서 단군이라는 아이가 산못처럼 맑은 눈으로 왔어요.",
+      "englishText": "Below the mountain altar, before dawn, a child named Dangun arrived with eyes calm as mountain pools. \"Then let it be fair,\" the elders answered.",
+      "narrationScript": "산 제단 아래에서 단군이라는 아이가 산못처럼 맑은 눈으로 왔어요.",
+      "vocabulary": [
+        {
+          "ko": "환웅",
+          "en": "Hwanung",
+          "romanization": "Hwanung",
+          "definitionEn": "The heavenly figure who descends in the myth.",
+          "definitionKo": "하늘에서 내려오는 신화 속 인물이에요."
+        },
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "The restless animal in the cave.",
+          "definitionKo": "동굴에서 답답해하는 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "introduce Dangun as origin child (Dangun's birth)",
+        "emotion": "mythic joy",
+        "pageTurnHook": "Then the village will become a remembered land, and the story moves toward founding memory.",
+        "readAloudCue": "Read with mythic joy; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap the cradle herb."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dangun.character_bible.json. Page 25 for 단군 이야기 / The Story of Dangun: Ungnyeo holding baby Dangun, Hwanung, villagers, bright pines; specific beat: a child named Dangun arrived with eyes calm as mountain pools; emotional tone: mythic joy; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dangun-story/page-025.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with mythic joy; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dangun-story/ko/page-025.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dangun-story/ambient/ambient-loop.wav",
+      "characterBible": "characters/dangun.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_025/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_025/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_025/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_025/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_025/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_025/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dangun_026",
+      "pageNumber": 26,
+      "text": {
+        "enLittle": "Dangun grew where mountain paths met village smoke.",
+        "enStandard": "Across the morning land, first, Dangun grew where mountain paths met village smoke. \"Yes,\" the mountain seemed to answer.",
+        "koLittle": "단군은 산길과 마을 연기가 만나는 곳에서 자랐어요",
+        "koStandard": "아침의 땅 위에서 단군은 산길과 마을 연기가 만나는 곳에서 자랐어요."
+      },
+      "koreanText": "아침의 땅 위에서 단군은 산길과 마을 연기가 만나는 곳에서 자랐어요.",
+      "englishText": "Across the morning land, first, Dangun grew where mountain paths met village smoke. \"Yes,\" the mountain seemed to answer.",
+      "narrationScript": "아침의 땅 위에서 단군은 산길과 마을 연기가 만나는 곳에서 자랐어요.",
+      "vocabulary": [
+        {
+          "ko": "곰",
+          "en": "bear",
+          "romanization": "gom",
+          "definitionEn": "The patient animal in the cave.",
+          "definitionKo": "동굴에서 참고 기다리는 동물이에요."
+        },
+        {
+          "ko": "쑥",
+          "en": "mugwort",
+          "romanization": "ssuk",
+          "definitionEn": "A fragrant green herb.",
+          "definitionKo": "향이 나는 푸른 풀이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve as a gentle origin myth (founding memory)",
+        "emotion": "reverent belonging",
+        "pageTurnHook": "Then the origin story will be carried aloud, and the story moves toward founding memory.",
+        "readAloudCue": "Read with reverent belonging; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace the mountain altar."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dangun.character_bible.json. Page 26 for 단군 이야기 / The Story of Dangun: Dangun with people planting near mountain, bear and tiger motifs in clouds; specific beat: Dangun grew where mountain paths met village smoke; emotional tone: reverent belonging; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dangun-story/page-026.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with reverent belonging; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dangun-story/ko/page-026.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dangun-story/ambient/ambient-loop.wav",
+      "characterBible": "characters/dangun.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_026/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_026/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_026/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_026/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_026/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_026/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dangun_027",
+      "pageNumber": 27,
+      "text": {
+        "enLittle": "People learned to plant.",
+        "enStandard": "Across the morning land, next, people learned to plant, share, judge fairly, and thank the seasons. \"Where did we begin?\" children asked.",
+        "koLittle": "사람들은 심고 나누고 공정히 살며 계절에 감사했어요",
+        "koStandard": "아침의 땅 위에서 사람들은 심고 나누고 공정히 살며 계절에 감사했어요."
+      },
+      "koreanText": "아침의 땅 위에서 사람들은 심고 나누고 공정히 살며 계절에 감사했어요.",
+      "englishText": "Across the morning land, next, people learned to plant, share, judge fairly, and thank the seasons. \"Where did we begin?\" children asked.",
+      "narrationScript": "아침의 땅 위에서 사람들은 심고 나누고 공정히 살며 계절에 감사했어요.",
+      "vocabulary": [
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "The restless animal in the cave.",
+          "definitionKo": "동굴에서 답답해하는 동물이에요."
+        },
+        {
+          "ko": "마늘",
+          "en": "garlic",
+          "romanization": "maneul",
+          "definitionEn": "A strong-smelling food in the myth.",
+          "definitionKo": "향이 강한 음식이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve as a gentle origin myth (founding memory)",
+        "emotion": "reverent belonging",
+        "pageTurnHook": "Then the origin story will be carried aloud, and the story moves toward founding memory.",
+        "readAloudCue": "Read with reverent belonging; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count the mountain altar."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dangun.character_bible.json. Page 27 for 단군 이야기 / The Story of Dangun: Dangun with people planting near mountain, bear and tiger motifs in clouds; specific beat: people learned to plant, share, judge fairly, and thank the seasons; emotional tone: reverent belonging; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dangun-story/page-027.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with reverent belonging; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dangun-story/ko/page-027.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dangun-story/ambient/ambient-loop.wav",
+      "characterBible": "characters/dangun.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_027/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_027/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_027/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_027/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_027/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_027/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dangun_028",
+      "pageNumber": 28,
+      "text": {
+        "enLittle": "When thunder rolled.",
+        "enStandard": "Across the morning land, quietly, when thunder rolled, elders told how patience had opened the first door. \"With sky, mountain, patience, and care,\" elders said.",
+        "koLittle": "천둥이 울리면 어른들은 기다림이 문을 열었다고 말했어요",
+        "koStandard": "아침의 땅 위에서 천둥이 울리면 어른들은 기다림이 문을 열었다고 말했어요."
+      },
+      "koreanText": "아침의 땅 위에서 천둥이 울리면 어른들은 기다림이 문을 열었다고 말했어요.",
+      "englishText": "Across the morning land, quietly, when thunder rolled, elders told how patience had opened the first door. \"With sky, mountain, patience, and care,\" elders said.",
+      "narrationScript": "아침의 땅 위에서 천둥이 울리면 어른들은 기다림이 문을 열었다고 말했어요.",
+      "vocabulary": [
+        {
+          "ko": "쑥",
+          "en": "mugwort",
+          "romanization": "ssuk",
+          "definitionEn": "A fragrant green herb.",
+          "definitionKo": "향이 나는 푸른 풀이에요."
+        },
+        {
+          "ko": "단군",
+          "en": "Dangun",
+          "romanization": "Dangun",
+          "definitionEn": "The founding child of the myth.",
+          "definitionKo": "나라의 시작을 여는 신화 속 아이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve as a gentle origin myth (founding memory)",
+        "emotion": "reverent belonging",
+        "pageTurnHook": "Then the origin story will be carried aloud, and the story moves toward founding memory.",
+        "readAloudCue": "Read with reverent belonging; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold the mountain altar."
+      },
+      "refrain": "Wait with the mountain breath.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dangun.character_bible.json. Page 28 for 단군 이야기 / The Story of Dangun: Dangun with people planting near mountain, bear and tiger motifs in clouds; specific beat: when thunder rolled, elders told how patience had opened the first door; emotional tone: reverent belonging; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dangun-story/page-028.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with reverent belonging; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dangun-story/ko/page-028.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dangun-story/ambient/ambient-loop.wav",
+      "characterBible": "characters/dangun.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_028/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_028/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_028/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_028/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_028/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_028/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "산의 숨결로 기다리자."
+    },
+    {
+      "id": "dangun_029",
+      "pageNumber": 29,
+      "text": {
+        "enLittle": "The tiger's paw prints remained near the cave.",
+        "enStandard": "Across the morning land, with the moon high, the tiger's paw prints remained near the cave, a reminder that every heart struggles differently. \"And with questions,\" one child added.",
+        "koLittle": "동굴 곁 호랑이 발자국은 마음마다 어려움이 다름을 알려 주었어요",
+        "koStandard": "아침의 땅 위에서 동굴 곁 호랑이 발자국은 마음마다 어려움이 다름을 알려 주었어요."
+      },
+      "koreanText": "아침의 땅 위에서 동굴 곁 호랑이 발자국은 마음마다 어려움이 다름을 알려 주었어요.",
+      "englishText": "Across the morning land, with the moon high, the tiger's paw prints remained near the cave, a reminder that every heart struggles differently. \"And with questions,\" one child added.",
+      "narrationScript": "아침의 땅 위에서 동굴 곁 호랑이 발자국은 마음마다 어려움이 다름을 알려 주었어요.",
+      "vocabulary": [
+        {
+          "ko": "마늘",
+          "en": "garlic",
+          "romanization": "maneul",
+          "definitionEn": "A strong-smelling food in the myth.",
+          "definitionKo": "향이 강한 음식이에요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve as a gentle origin myth (founding memory)",
+        "emotion": "reverent belonging",
+        "pageTurnHook": "Then the origin story will be carried aloud, and the story moves toward founding memory.",
+        "readAloudCue": "Read with reverent belonging; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe the mountain altar."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dangun.character_bible.json. Page 29 for 단군 이야기 / The Story of Dangun: Dangun with people planting near mountain, bear and tiger motifs in clouds; specific beat: the tiger's paw prints remained near the cave, a reminder that every heart struggles differently; emotional tone: reverent belonging; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dangun-story/page-029.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with reverent belonging; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dangun-story/ko/page-029.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dangun-story/ambient/ambient-loop.wav",
+      "characterBible": "characters/dangun.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_029/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_029/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_029/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_029/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_029/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_029/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dangun_030",
+      "pageNumber": 30,
+      "text": {
+        "enLittle": "Dangun grew where mountain paths met village smoke.",
+        "enStandard": "Across the morning land, before dawn, Dangun grew where mountain paths met village smoke. \"Yes,\" the mountain seemed to answer.",
+        "koLittle": "단군은 산길과 마을 연기가 만나는 곳에서 자랐어요",
+        "koStandard": "아침의 땅 위에서 단군은 산길과 마을 연기가 만나는 곳에서 자랐어요."
+      },
+      "koreanText": "아침의 땅 위에서 단군은 산길과 마을 연기가 만나는 곳에서 자랐어요.",
+      "englishText": "Across the morning land, before dawn, Dangun grew where mountain paths met village smoke. \"Yes,\" the mountain seemed to answer.",
+      "narrationScript": "아침의 땅 위에서 단군은 산길과 마을 연기가 만나는 곳에서 자랐어요.",
+      "vocabulary": [
+        {
+          "ko": "단군",
+          "en": "Dangun",
+          "romanization": "Dangun",
+          "definitionEn": "The founding child of the myth.",
+          "definitionKo": "나라의 시작을 여는 신화 속 아이예요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve as a gentle origin myth (founding memory)",
+        "emotion": "reverent belonging",
+        "pageTurnHook": "Then the origin story will be carried aloud, and the story moves toward founding memory.",
+        "readAloudCue": "Read with reverent belonging; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open the mountain altar."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dangun.character_bible.json. Page 30 for 단군 이야기 / The Story of Dangun: Dangun with people planting near mountain, bear and tiger motifs in clouds; specific beat: Dangun grew where mountain paths met village smoke; emotional tone: reverent belonging; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dangun-story/page-030.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with reverent belonging; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dangun-story/ko/page-030.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dangun-story/ambient/ambient-loop.wav",
+      "characterBible": "characters/dangun.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_030/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_030/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_030/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_030/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_030/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dangun-story/dangun_030/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    }
+  ]
+}

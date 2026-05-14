@@ -1,0 +1,1 @@
+Offline synthetic-draft narration generated with local or external TTS. These assets are useful for review and fundraising demos, but production release should use reviewed or human-recorded final narration.

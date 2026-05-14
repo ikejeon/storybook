@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedOn": "2026-05-11",
+  "status": "contract_ready_not_deployed",
+  "localService": {
+    "entrypoint": "backend/service_stub.py",
+    "openapi": "backend/openapi.yaml",
+    "stateFile": ".agent/tmp/backend_state.json",
+    "smokeCommand": "scripts/agent/smoke backend"
+  },
+  "requiredProductionComponents": [
+    "hosted_api_service",
+    "durable_database",
+    "migrations",
+    "secret_manager",
+    "admin_auth_rbac",
+    "audit_logs",
+    "monitoring_alerts",
+    "backups",
+    "receipt_token_verification",
+    "rate_limits"
+  ],
+  "deploymentEvidence": {
+    "stagingUrl": null,
+    "productionUrl": null,
+    "databaseMigrations": "missing",
+    "monitoring": "missing",
+    "adminAuth": "local_optional_token_only",
+    "receiptVerification": "contract_only"
+  },
+  "nonEvidenceWarning": "This manifest is deployment preparation, not deployed backend evidence."
+}

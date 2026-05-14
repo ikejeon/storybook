@@ -1,0 +1,3027 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "book.fairy_woodcutter",
+  "slug": "fairy-and-woodcutter",
+  "title": {
+    "ko": "선녀와 나무꾼",
+    "en": "The Fairy and the Woodcutter"
+  },
+  "access": "premium",
+  "ageRange": "6-8",
+  "estimatedMinutes": 11,
+  "summary": "A child-safe but honest adaptation of The Fairy and the Woodcutter: a hidden wing robe, a warning to wait for three children, an early reveal, a sorrowful return to the sky, and a final lesson about trust, honesty, and longing.",
+  "coverAsset": "assets/books/fairy-and-woodcutter/cover.png",
+  "coverAssetStatus": "placeholder",
+  "characterBible": "characters/fairy_woodcutter.character_bible.json",
+  "narrationAudioStatus": "synthetic_draft",
+  "adaptationVersions": {
+    "default": "English-first bilingual all-catalog adaptation",
+    "plannedAlternate": "External editor pass after children’s editorial and Korean-language review",
+    "note": "Generated repo-local completion draft; not external human final."
+  },
+  "sensitivityNotes": [
+    "Authenticity repair: preserves the robe-hiding, three-child warning, early reveal, sky return, and rooster-ending motifs in child-safe language.",
+    "Frames the woodcutter's hidden robe as a wrong choice with consequences; does not portray the fairy's departure or his ascent as purely happy.",
+    "External children’s editor and Korean cultural review remain required before final release."
+  ],
+  "themes": [
+    "honesty",
+    "trust",
+    "consequence",
+    "longing",
+    "family"
+  ],
+  "characters": [
+    "woodcutter",
+    "sky_fairy",
+    "deer_friend",
+    "two_children",
+    "old_mother",
+    "sky_horse",
+    "rooster"
+  ],
+  "pages": [
+    {
+      "id": "fairy_woodcutter_001",
+      "pageNumber": 1,
+      "text": {
+        "enLittle": "The woodcutter helped a frightened deer.",
+        "enStandard": "Deep in the mountain, a woodcutter hid a frightened deer from hunters. Pine wind brushed the spring, and the deer bowed low. \"I will remember your kindness,\" it whispered.",
+        "koLittle": "나무꾼은 사슴을 숨겨 주었어요.",
+        "koStandard": "깊은 산 샘가에서 나무꾼은 사냥꾼에게 쫓기던 사슴을 숨겨 주었어요. 솔바람이 지나가자 사슴은 고개를 숙였지요. “은혜를 잊지 않겠습니다.”"
+      },
+      "koreanText": "깊은 산 샘가에서 나무꾼은 사냥꾼에게 쫓기던 사슴을 숨겨 주었어요. 솔바람이 지나가자 사슴은 고개를 숙였지요. “은혜를 잊지 않겠습니다.”",
+      "englishText": "Deep in the mountain, a woodcutter hid a frightened deer from hunters. Pine wind brushed the spring, and the deer bowed low. \"I will remember your kindness,\" it whispered.",
+      "narrationScript": "깊은 산 샘가에서 나무꾼은 사냥꾼에게 쫓기던 사슴을 숨겨 주었어요. 솔바람이 지나가자 사슴은 고개를 숙였지요. “은혜를 잊지 않겠습니다.”",
+      "vocabulary": [
+        {
+          "ko": "나무꾼",
+          "en": "woodcutter",
+          "definitionEn": "A person who gathers wood in the mountains.",
+          "definitionKo": "산에서 나무를 하는 사람이에요."
+        },
+        {
+          "ko": "사슴",
+          "en": "deer",
+          "definitionEn": "The grateful animal who gives the woodcutter secret advice.",
+          "definitionKo": "나무꾼에게 비밀 조언을 해 주는 고마운 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "The woodcutter helps the deer and opens the folktale bargain.",
+        "emotion": "kind, watchful, misty mountain suspense",
+        "pageTurnHook": "Then the grateful deer told him a secret that was not simple.",
+        "readAloudCue": "Read with a measured, bittersweet folktale cadence; keep suspense gentle and never triumphant when trust breaks.",
+        "childInteraction": "Tap the deer hiding beside the reeds."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/fairy_woodcutter.character_bible.json. Page 1 for 선녀와 나무꾼 / The Fairy and the Woodcutter: mountain spring at dusk, humble Korean woodcutter shielding a frightened deer behind reeds while distant hunters pass, pine forest, no violence. Premium Korean watercolor, gouache, soft ink, hanji texture, restrained emotional staging, fit-safe composition, safe margins, no cropping, no cropped faces or hands. Preserve the folktale's consequence and longing; do not make the departure or ascent look purely happy. No text, no letters, no watermark, labels, logos, modern objects, horror, or graphic harm.",
+      "imageAsset": "assets/books/fairy-and-woodcutter/page-001.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration; Korean optional narration should sound natural, musical, culturally grounded, and bittersweet rather than cheerful in consequence scenes.",
+      "narrationAudio": "audio/synthetic-draft/narration/fairy-and-woodcutter/ko/page-001.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/fairy-and-woodcutter/ambient/ambient-loop.wav",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_001/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_001/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_001/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_001/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "soft moonlight, feather, or dawn glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_001/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_001/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fairy_woodcutter_002",
+      "pageNumber": 2,
+      "text": {
+        "enLittle": "The deer told him about the fairies' wing robes.",
+        "enStandard": "The deer pointed to a hidden pool where sky fairies came to bathe. \"If one wing robe is hidden, its owner cannot fly home,\" the deer said, and the words felt heavy.",
+        "koLittle": "사슴은 선녀들의 날개옷 이야기를 했어요.",
+        "koStandard": "사슴은 선녀들이 내려와 목욕하는 숨은 못을 알려 주었어요. “날개옷 하나를 감추면 그 주인은 하늘로 돌아가지 못합니다.” 그 말은 이상하게 무거웠어요."
+      },
+      "koreanText": "사슴은 선녀들이 내려와 목욕하는 숨은 못을 알려 주었어요. “날개옷 하나를 감추면 그 주인은 하늘로 돌아가지 못합니다.” 그 말은 이상하게 무거웠어요.",
+      "englishText": "The deer pointed to a hidden pool where sky fairies came to bathe. \"If one wing robe is hidden, its owner cannot fly home,\" the deer said, and the words felt heavy.",
+      "narrationScript": "사슴은 선녀들이 내려와 목욕하는 숨은 못을 알려 주었어요. “날개옷 하나를 감추면 그 주인은 하늘로 돌아가지 못합니다.” 그 말은 이상하게 무거웠어요.",
+      "vocabulary": [
+        {
+          "ko": "날개옷",
+          "en": "wing robe",
+          "definitionEn": "A magical robe that lets the sky fairy fly home.",
+          "definitionKo": "선녀가 하늘로 돌아가게 해 주는 신비한 옷이에요."
+        },
+        {
+          "ko": "선녀",
+          "en": "sky fairy",
+          "definitionEn": "A heavenly woman from Korean folktales.",
+          "definitionKo": "한국 옛이야기에 나오는 하늘 세계의 여인이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Introduce the wing robe and make the moral danger visible.",
+        "emotion": "tempted, uneasy, secretive",
+        "pageTurnHook": "The woodcutter listened, but the right choice already felt hard.",
+        "readAloudCue": "Read with a measured, bittersweet folktale cadence; keep suspense gentle and never triumphant when trust breaks.",
+        "childInteraction": "Trace the path from the deer to the hidden pool."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/fairy_woodcutter.character_bible.json. Page 2 for 선녀와 나무꾼 / The Fairy and the Woodcutter: deer beside moonlit mountain pool, woodcutter listening with worried face, folded white wing robes glimmering far away under trees. Premium Korean watercolor, gouache, soft ink, hanji texture, restrained emotional staging, fit-safe composition, safe margins, no cropping, no cropped faces or hands. Preserve the folktale's consequence and longing; do not make the departure or ascent look purely happy. No text, no letters, no watermark, labels, logos, modern objects, horror, or graphic harm.",
+      "imageAsset": "assets/books/fairy-and-woodcutter/page-002.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration; Korean optional narration should sound natural, musical, culturally grounded, and bittersweet rather than cheerful in consequence scenes.",
+      "narrationAudio": "audio/synthetic-draft/narration/fairy-and-woodcutter/ko/page-002.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/fairy-and-woodcutter/ambient/ambient-loop.wav",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_002/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_002/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_002/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_002/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "soft moonlight, feather, or dawn glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_002/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_002/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fairy_woodcutter_003",
+      "pageNumber": 3,
+      "text": {
+        "enLittle": "He hid one wing robe, though it was wrong.",
+        "enStandard": "When the moon rose, white wing robes lay on a rock like folded clouds. The woodcutter reached out and hid one beneath pine branches, though his heart knew it was wrong.",
+        "koLittle": "그는 잘못인 줄 알면서 날개옷을 감추었어요.",
+        "koStandard": "달이 오르자 흰 날개옷들이 바위 위에 구름처럼 놓였어요. 나무꾼은 손을 뻗어 하나를 솔가지 아래 감추었지만, 마음속으로는 잘못인 줄 알았어요."
+      },
+      "koreanText": "달이 오르자 흰 날개옷들이 바위 위에 구름처럼 놓였어요. 나무꾼은 손을 뻗어 하나를 솔가지 아래 감추었지만, 마음속으로는 잘못인 줄 알았어요.",
+      "englishText": "When the moon rose, white wing robes lay on a rock like folded clouds. The woodcutter reached out and hid one beneath pine branches, though his heart knew it was wrong.",
+      "narrationScript": "달이 오르자 흰 날개옷들이 바위 위에 구름처럼 놓였어요. 나무꾼은 손을 뻗어 하나를 솔가지 아래 감추었지만, 마음속으로는 잘못인 줄 알았어요.",
+      "vocabulary": [
+        {
+          "ko": "날개옷",
+          "en": "wing robe",
+          "definitionEn": "A magical robe that lets the sky fairy fly home.",
+          "definitionKo": "선녀가 하늘로 돌아가게 해 주는 신비한 옷이에요."
+        },
+        {
+          "ko": "한지문",
+          "en": "hanji door",
+          "definitionEn": "A Korean paper door that lets soft light through.",
+          "definitionKo": "부드러운 빛이 비치는 한국 종이문이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Show the central wrong choice plainly and child-safely.",
+        "emotion": "ashamed, quiet, moonlit tension",
+        "pageTurnHook": "Soon one fairy searched the rocks with tears in her voice.",
+        "readAloudCue": "Read with a measured, bittersweet folktale cadence; keep suspense gentle and never triumphant when trust breaks.",
+        "childInteraction": "Tap the hidden pine branches."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/fairy_woodcutter.character_bible.json. Page 3 for 선녀와 나무꾼 / The Fairy and the Woodcutter: moonlit rock with white feather wing robes, woodcutter hiding one robe under pine branches, remorseful body language, Korean ink watercolor. Premium Korean watercolor, gouache, soft ink, hanji texture, restrained emotional staging, fit-safe composition, safe margins, no cropping, no cropped faces or hands. Preserve the folktale's consequence and longing; do not make the departure or ascent look purely happy. No text, no letters, no watermark, labels, logos, modern objects, horror, or graphic harm.",
+      "imageAsset": "assets/books/fairy-and-woodcutter/page-003.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration; Korean optional narration should sound natural, musical, culturally grounded, and bittersweet rather than cheerful in consequence scenes.",
+      "narrationAudio": "audio/synthetic-draft/narration/fairy-and-woodcutter/ko/page-003.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/fairy-and-woodcutter/ambient/ambient-loop.wav",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_003/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_003/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_003/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_003/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "soft moonlight, feather, or dawn glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_003/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_003/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fairy_woodcutter_004",
+      "pageNumber": 4,
+      "text": {
+        "enLittle": "One fairy could not fly home.",
+        "enStandard": "The youngest fairy could not find her robe. The others rose toward the stars, but she stayed by the cold water, scared and alone.",
+        "koLittle": "한 선녀가 하늘로 돌아가지 못했어요.",
+        "koStandard": "막내 선녀는 자기 날개옷을 찾지 못했어요. 다른 선녀들은 별빛 쪽으로 올라갔지만, 막내 선녀만 차가운 물가에 두려운 얼굴로 남았지요."
+      },
+      "koreanText": "막내 선녀는 자기 날개옷을 찾지 못했어요. 다른 선녀들은 별빛 쪽으로 올라갔지만, 막내 선녀만 차가운 물가에 두려운 얼굴로 남았지요.",
+      "englishText": "The youngest fairy could not find her robe. The others rose toward the stars, but she stayed by the cold water, scared and alone.",
+      "narrationScript": "막내 선녀는 자기 날개옷을 찾지 못했어요. 다른 선녀들은 별빛 쪽으로 올라갔지만, 막내 선녀만 차가운 물가에 두려운 얼굴로 남았지요.",
+      "vocabulary": [
+        {
+          "ko": "선녀",
+          "en": "sky fairy",
+          "definitionEn": "A heavenly woman from Korean folktales.",
+          "definitionKo": "한국 옛이야기에 나오는 하늘 세계의 여인이에요."
+        },
+        {
+          "ko": "날개옷",
+          "en": "wing robe",
+          "definitionEn": "A magical robe that lets the sky fairy fly home.",
+          "definitionKo": "선녀가 하늘로 돌아가게 해 주는 신비한 옷이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Center the fairy's loss and agency rather than making the trick romantic.",
+        "emotion": "lonely, worried, gentle sorrow",
+        "pageTurnHook": "The woodcutter stepped out, carrying a secret he should have returned.",
+        "readAloudCue": "Read with a measured, bittersweet folktale cadence; keep suspense gentle and never triumphant when trust breaks.",
+        "childInteraction": "Hold on the empty rock where the robe should be."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/fairy_woodcutter.character_bible.json. Page 4 for 선녀와 나무꾼 / The Fairy and the Woodcutter: young sky fairy alone at cold mountain pool, other fairies distant in the sky, empty robe rock, woodcutter half-hidden and guilty. Premium Korean watercolor, gouache, soft ink, hanji texture, restrained emotional staging, fit-safe composition, safe margins, no cropping, no cropped faces or hands. Preserve the folktale's consequence and longing; do not make the departure or ascent look purely happy. No text, no letters, no watermark, labels, logos, modern objects, horror, or graphic harm.",
+      "imageAsset": "assets/books/fairy-and-woodcutter/page-004.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration; Korean optional narration should sound natural, musical, culturally grounded, and bittersweet rather than cheerful in consequence scenes.",
+      "narrationAudio": "audio/synthetic-draft/narration/fairy-and-woodcutter/ko/page-004.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/fairy-and-woodcutter/ambient/ambient-loop.wav",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_004/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_004/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_004/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_004/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "soft moonlight, feather, or dawn glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_004/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_004/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fairy_woodcutter_005",
+      "pageNumber": 5,
+      "text": {
+        "enLittle": "She was safe, but she missed the sky.",
+        "enStandard": "The woodcutter brought the fairy to his cottage and gave her warm rice and a dry blanket. She thanked him, but every night she looked up through the hanji door.",
+        "koLittle": "선녀는 안전했지만 하늘이 그리웠어요.",
+        "koStandard": "나무꾼은 선녀를 오두막으로 데려가 따뜻한 밥과 마른 이불을 내주었어요. 선녀는 고맙다고 했지만, 밤마다 한지문 너머 하늘을 바라보았어요."
+      },
+      "koreanText": "나무꾼은 선녀를 오두막으로 데려가 따뜻한 밥과 마른 이불을 내주었어요. 선녀는 고맙다고 했지만, 밤마다 한지문 너머 하늘을 바라보았어요.",
+      "englishText": "The woodcutter brought the fairy to his cottage and gave her warm rice and a dry blanket. She thanked him, but every night she looked up through the hanji door.",
+      "narrationScript": "나무꾼은 선녀를 오두막으로 데려가 따뜻한 밥과 마른 이불을 내주었어요. 선녀는 고맙다고 했지만, 밤마다 한지문 너머 하늘을 바라보았어요.",
+      "vocabulary": [
+        {
+          "ko": "한지문",
+          "en": "hanji door",
+          "definitionEn": "A Korean paper door that lets soft light through.",
+          "definitionKo": "부드러운 빛이 비치는 한국 종이문이에요."
+        },
+        {
+          "ko": "선녀",
+          "en": "sky fairy",
+          "definitionEn": "A heavenly woman from Korean folktales.",
+          "definitionKo": "한국 옛이야기에 나오는 하늘 세계의 여인이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Show care without erasing the hidden wrongdoing.",
+        "emotion": "safe but homesick, warm lantern sadness",
+        "pageTurnHook": "Above the rafters, the hidden robe waited.",
+        "readAloudCue": "Read with a measured, bittersweet folktale cadence; keep suspense gentle and never triumphant when trust breaks.",
+        "childInteraction": "Open the hanji door glow."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/fairy_woodcutter.character_bible.json. Page 5 for 선녀와 나무꾼 / The Fairy and the Woodcutter: small Korean mountain cottage, warm lantern, sky fairy wrapped in blanket looking through hanji paper door toward stars, woodcutter worried. Premium Korean watercolor, gouache, soft ink, hanji texture, restrained emotional staging, fit-safe composition, safe margins, no cropping, no cropped faces or hands. Preserve the folktale's consequence and longing; do not make the departure or ascent look purely happy. No text, no letters, no watermark, labels, logos, modern objects, horror, or graphic harm.",
+      "imageAsset": "assets/books/fairy-and-woodcutter/page-005.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration; Korean optional narration should sound natural, musical, culturally grounded, and bittersweet rather than cheerful in consequence scenes.",
+      "narrationAudio": "audio/synthetic-draft/narration/fairy-and-woodcutter/ko/page-005.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/fairy-and-woodcutter/ambient/ambient-loop.wav",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_005/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_005/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_005/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_005/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "soft moonlight, feather, or dawn glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_005/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_005/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fairy_woodcutter_006",
+      "pageNumber": 6,
+      "text": {
+        "enLittle": "The deer warned him to wait for three children.",
+        "enStandard": "The deer returned in a dream and warned him, \"Do not show the wing robe until you have three children.\" The warning sounded like a promise and a trap.",
+        "koLittle": "사슴은 아이 셋이 될 때까지 기다리라 했어요.",
+        "koStandard": "그날 밤 사슴이 꿈에 나타나 말했어요. “아이 셋을 낳기 전에는 날개옷을 보이면 안 됩니다.” 그 말은 약속 같기도 하고 덫 같기도 했어요."
+      },
+      "koreanText": "그날 밤 사슴이 꿈에 나타나 말했어요. “아이 셋을 낳기 전에는 날개옷을 보이면 안 됩니다.” 그 말은 약속 같기도 하고 덫 같기도 했어요.",
+      "englishText": "The deer returned in a dream and warned him, \"Do not show the wing robe until you have three children.\" The warning sounded like a promise and a trap.",
+      "narrationScript": "그날 밤 사슴이 꿈에 나타나 말했어요. “아이 셋을 낳기 전에는 날개옷을 보이면 안 됩니다.” 그 말은 약속 같기도 하고 덫 같기도 했어요.",
+      "vocabulary": [
+        {
+          "ko": "사슴",
+          "en": "deer",
+          "definitionEn": "The grateful animal who gives the woodcutter secret advice.",
+          "definitionKo": "나무꾼에게 비밀 조언을 해 주는 고마운 동물이에요."
+        },
+        {
+          "ko": "날개옷",
+          "en": "wing robe",
+          "definitionEn": "A magical robe that lets the sky fairy fly home.",
+          "definitionKo": "선녀가 하늘로 돌아가게 해 주는 신비한 옷이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Introduce the three-child warning from the traditional plot.",
+        "emotion": "uneasy, secret-heavy, warning",
+        "pageTurnHook": "Not yet, not yet, the secret said from the rafters.",
+        "readAloudCue": "Read with a measured, bittersweet folktale cadence; keep suspense gentle and never triumphant when trust breaks.",
+        "childInteraction": "Count the three tiny moon dots in the dream."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/fairy_woodcutter.character_bible.json. Page 6 for 선녀와 나무꾼 / The Fairy and the Woodcutter: dream scene, deer under moonlight warning the sleeping woodcutter, three pale moon dots, hidden feather robe in cottage rafters. Premium Korean watercolor, gouache, soft ink, hanji texture, restrained emotional staging, fit-safe composition, safe margins, no cropping, no cropped faces or hands. Preserve the folktale's consequence and longing; do not make the departure or ascent look purely happy. No text, no letters, no watermark, labels, logos, modern objects, horror, or graphic harm.",
+      "imageAsset": "assets/books/fairy-and-woodcutter/page-006.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration; Korean optional narration should sound natural, musical, culturally grounded, and bittersweet rather than cheerful in consequence scenes.",
+      "narrationAudio": "audio/synthetic-draft/narration/fairy-and-woodcutter/ko/page-006.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/fairy-and-woodcutter/ambient/ambient-loop.wav",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_006/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_006/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_006/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_006/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "soft moonlight, feather, or dawn glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_006/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_006/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrain": "Not yet, not yet, wait for the third child."
+    },
+    {
+      "id": "fairy_woodcutter_007",
+      "pageNumber": 7,
+      "text": {
+        "enLittle": "They shared days, but he kept the secret.",
+        "enStandard": "Seasons passed. The fairy learned the village paths, and the woodcutter learned her sky songs. Still, he never told her where the wing robe slept.",
+        "koLittle": "둘은 함께 지냈지만 그는 비밀을 숨겼어요.",
+        "koStandard": "계절이 지나 선녀는 마을길을 익혔고, 나무꾼은 선녀의 하늘 노래를 배웠어요. 그래도 그는 날개옷이 어디 숨었는지 말하지 않았지요."
+      },
+      "koreanText": "계절이 지나 선녀는 마을길을 익혔고, 나무꾼은 선녀의 하늘 노래를 배웠어요. 그래도 그는 날개옷이 어디 숨었는지 말하지 않았지요.",
+      "englishText": "Seasons passed. The fairy learned the village paths, and the woodcutter learned her sky songs. Still, he never told her where the wing robe slept.",
+      "narrationScript": "계절이 지나 선녀는 마을길을 익혔고, 나무꾼은 선녀의 하늘 노래를 배웠어요. 그래도 그는 날개옷이 어디 숨었는지 말하지 않았지요.",
+      "vocabulary": [
+        {
+          "ko": "날개옷",
+          "en": "wing robe",
+          "definitionEn": "A magical robe that lets the sky fairy fly home.",
+          "definitionKo": "선녀가 하늘로 돌아가게 해 주는 신비한 옷이에요."
+        },
+        {
+          "ko": "선녀",
+          "en": "sky fairy",
+          "definitionEn": "A heavenly woman from Korean folktales.",
+          "definitionKo": "한국 옛이야기에 나오는 하늘 세계의 여인이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Build domestic time while keeping the secret morally present.",
+        "emotion": "tender, uneasy, hidden shame",
+        "pageTurnHook": "A cradle song soon filled the little room.",
+        "readAloudCue": "Read with a measured, bittersweet folktale cadence; keep suspense gentle and never triumphant when trust breaks.",
+        "childInteraction": "Tap the shadow under the roof beam."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/fairy_woodcutter.character_bible.json. Page 7 for 선녀와 나무꾼 / The Fairy and the Woodcutter: Korean cottage through seasons, fairy singing softly, woodcutter working, hidden robe shadow above rafters. Premium Korean watercolor, gouache, soft ink, hanji texture, restrained emotional staging, fit-safe composition, safe margins, no cropping, no cropped faces or hands. Preserve the folktale's consequence and longing; do not make the departure or ascent look purely happy. No text, no letters, no watermark, labels, logos, modern objects, horror, or graphic harm.",
+      "imageAsset": "assets/books/fairy-and-woodcutter/page-007.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration; Korean optional narration should sound natural, musical, culturally grounded, and bittersweet rather than cheerful in consequence scenes.",
+      "narrationAudio": "audio/synthetic-draft/narration/fairy-and-woodcutter/ko/page-007.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/fairy-and-woodcutter/ambient/ambient-loop.wav",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_007/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_007/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_007/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_007/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "soft moonlight, feather, or dawn glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_007/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_007/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fairy_woodcutter_008",
+      "pageNumber": 8,
+      "text": {
+        "enLittle": "Their first child was born.",
+        "enStandard": "Their first child was born on a rainy morning. The fairy smiled through tired tears and sang a star lullaby, while the woodcutter remembered the deer's warning.",
+        "koLittle": "첫아이가 태어났어요.",
+        "koStandard": "비 오는 아침 첫아이가 태어났어요. 선녀는 지친 눈물 사이로 웃으며 별의 자장가를 불렀고, 나무꾼은 사슴의 경고를 떠올렸어요."
+      },
+      "koreanText": "비 오는 아침 첫아이가 태어났어요. 선녀는 지친 눈물 사이로 웃으며 별의 자장가를 불렀고, 나무꾼은 사슴의 경고를 떠올렸어요.",
+      "englishText": "Their first child was born on a rainy morning. The fairy smiled through tired tears and sang a star lullaby, while the woodcutter remembered the deer's warning.",
+      "narrationScript": "비 오는 아침 첫아이가 태어났어요. 선녀는 지친 눈물 사이로 웃으며 별의 자장가를 불렀고, 나무꾼은 사슴의 경고를 떠올렸어요.",
+      "vocabulary": [
+        {
+          "ko": "선녀",
+          "en": "sky fairy",
+          "definitionEn": "A heavenly woman from Korean folktales.",
+          "definitionKo": "한국 옛이야기에 나오는 하늘 세계의 여인이에요."
+        },
+        {
+          "ko": "나무꾼",
+          "en": "woodcutter",
+          "definitionEn": "A person who gathers wood in the mountains.",
+          "definitionKo": "산에서 나무를 하는 사람이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Mark the first child and deepen the warning count.",
+        "emotion": "joy mixed with worry",
+        "pageTurnHook": "One child was not three.",
+        "readAloudCue": "Read with a measured, bittersweet folktale cadence; keep suspense gentle and never triumphant when trust breaks.",
+        "childInteraction": "Count one cradle ribbon."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/fairy_woodcutter.character_bible.json. Page 8 for 선녀와 나무꾼 / The Fairy and the Woodcutter: rainy Korean cottage interior, sky fairy holding first baby, woodcutter joyful but anxious, soft lantern, no medical detail. Premium Korean watercolor, gouache, soft ink, hanji texture, restrained emotional staging, fit-safe composition, safe margins, no cropping, no cropped faces or hands. Preserve the folktale's consequence and longing; do not make the departure or ascent look purely happy. No text, no letters, no watermark, labels, logos, modern objects, horror, or graphic harm.",
+      "imageAsset": "assets/books/fairy-and-woodcutter/page-008.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration; Korean optional narration should sound natural, musical, culturally grounded, and bittersweet rather than cheerful in consequence scenes.",
+      "narrationAudio": "audio/synthetic-draft/narration/fairy-and-woodcutter/ko/page-008.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/fairy-and-woodcutter/ambient/ambient-loop.wav",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_008/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_008/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_008/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_008/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "soft moonlight, feather, or dawn glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_008/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_008/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrain": "Not yet, not yet, wait for the third child."
+    },
+    {
+      "id": "fairy_woodcutter_009",
+      "pageNumber": 9,
+      "text": {
+        "enLittle": "The fairy still dreamed of her sisters.",
+        "enStandard": "The child grew, chasing moon shadows across the floor. Sometimes the fairy whispered, \"I dream of my sisters,\" and the room became very still.",
+        "koLittle": "선녀는 아직 언니들이 그리웠어요.",
+        "koStandard": "아이는 자라 달그림자를 따라 방 안을 뛰었어요. 가끔 선녀가 “언니들이 꿈에 보여요” 하고 속삭이면, 방 안은 아주 조용해졌지요."
+      },
+      "koreanText": "아이는 자라 달그림자를 따라 방 안을 뛰었어요. 가끔 선녀가 “언니들이 꿈에 보여요” 하고 속삭이면, 방 안은 아주 조용해졌지요.",
+      "englishText": "The child grew, chasing moon shadows across the floor. Sometimes the fairy whispered, \"I dream of my sisters,\" and the room became very still.",
+      "narrationScript": "아이는 자라 달그림자를 따라 방 안을 뛰었어요. 가끔 선녀가 “언니들이 꿈에 보여요” 하고 속삭이면, 방 안은 아주 조용해졌지요.",
+      "vocabulary": [
+        {
+          "ko": "한지문",
+          "en": "hanji door",
+          "definitionEn": "A Korean paper door that lets soft light through.",
+          "definitionKo": "부드러운 빛이 비치는 한국 종이문이에요."
+        },
+        {
+          "ko": "선녀",
+          "en": "sky fairy",
+          "definitionEn": "A heavenly woman from Korean folktales.",
+          "definitionKo": "한국 옛이야기에 나오는 하늘 세계의 여인이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Keep the fairy's homesickness alive after family warmth appears.",
+        "emotion": "soft, homesick, still",
+        "pageTurnHook": "The woodcutter looked away from the rafters.",
+        "readAloudCue": "Read with a measured, bittersweet folktale cadence; keep suspense gentle and never triumphant when trust breaks.",
+        "childInteraction": "Trace the moon shadow on the floor."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/fairy_woodcutter.character_bible.json. Page 9 for 선녀와 나무꾼 / The Fairy and the Woodcutter: child chasing moonlight inside hanji-door cottage, sky fairy gazing upward with homesick expression, woodcutter avoiding rafters. Premium Korean watercolor, gouache, soft ink, hanji texture, restrained emotional staging, fit-safe composition, safe margins, no cropping, no cropped faces or hands. Preserve the folktale's consequence and longing; do not make the departure or ascent look purely happy. No text, no letters, no watermark, labels, logos, modern objects, horror, or graphic harm.",
+      "imageAsset": "assets/books/fairy-and-woodcutter/page-009.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration; Korean optional narration should sound natural, musical, culturally grounded, and bittersweet rather than cheerful in consequence scenes.",
+      "narrationAudio": "audio/synthetic-draft/narration/fairy-and-woodcutter/ko/page-009.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/fairy-and-woodcutter/ambient/ambient-loop.wav",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_009/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_009/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_009/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_009/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "soft moonlight, feather, or dawn glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_009/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_009/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fairy_woodcutter_010",
+      "pageNumber": 10,
+      "text": {
+        "enLittle": "A second child came in spring.",
+        "enStandard": "A second child arrived in spring, when pear blossoms opened white as feathers. The house was full of small socks, warm rice, and one hidden truth.",
+        "koLittle": "봄에 둘째 아이가 태어났어요.",
+        "koStandard": "배꽃이 깃털처럼 희게 피는 봄에 둘째 아이가 태어났어요. 집 안에는 작은 버선과 따뜻한 밥, 그리고 아직 숨은 진실이 가득했어요."
+      },
+      "koreanText": "배꽃이 깃털처럼 희게 피는 봄에 둘째 아이가 태어났어요. 집 안에는 작은 버선과 따뜻한 밥, 그리고 아직 숨은 진실이 가득했어요.",
+      "englishText": "A second child arrived in spring, when pear blossoms opened white as feathers. The house was full of small socks, warm rice, and one hidden truth.",
+      "narrationScript": "배꽃이 깃털처럼 희게 피는 봄에 둘째 아이가 태어났어요. 집 안에는 작은 버선과 따뜻한 밥, 그리고 아직 숨은 진실이 가득했어요.",
+      "vocabulary": [
+        {
+          "ko": "날개옷",
+          "en": "wing robe",
+          "definitionEn": "A magical robe that lets the sky fairy fly home.",
+          "definitionKo": "선녀가 하늘로 돌아가게 해 주는 신비한 옷이에요."
+        },
+        {
+          "ko": "선녀",
+          "en": "sky fairy",
+          "definitionEn": "A heavenly woman from Korean folktales.",
+          "definitionKo": "한국 옛이야기에 나오는 하늘 세계의 여인이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Mark the second child and bring the story close to the early reveal.",
+        "emotion": "warm, crowded, worried",
+        "pageTurnHook": "Two children were still not three.",
+        "readAloudCue": "Read with a measured, bittersweet folktale cadence; keep suspense gentle and never triumphant when trust breaks.",
+        "childInteraction": "Count two tiny socks."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/fairy_woodcutter.character_bible.json. Page 10 for 선녀와 나무꾼 / The Fairy and the Woodcutter: spring pear blossoms outside Korean cottage, fairy with two small children, woodcutter holding rice bowl and looking troubled. Premium Korean watercolor, gouache, soft ink, hanji texture, restrained emotional staging, fit-safe composition, safe margins, no cropping, no cropped faces or hands. Preserve the folktale's consequence and longing; do not make the departure or ascent look purely happy. No text, no letters, no watermark, labels, logos, modern objects, horror, or graphic harm.",
+      "imageAsset": "assets/books/fairy-and-woodcutter/page-010.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration; Korean optional narration should sound natural, musical, culturally grounded, and bittersweet rather than cheerful in consequence scenes.",
+      "narrationAudio": "audio/synthetic-draft/narration/fairy-and-woodcutter/ko/page-010.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/fairy-and-woodcutter/ambient/ambient-loop.wav",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_010/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_010/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_010/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_010/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "soft moonlight, feather, or dawn glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_010/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_010/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrain": "Not yet, not yet, wait for the third child."
+    },
+    {
+      "id": "fairy_woodcutter_011",
+      "pageNumber": 11,
+      "text": {
+        "enLittle": "She noticed his secret.",
+        "enStandard": "One evening the fairy asked, \"Why do you look at the roof as if it can answer you?\" The woodcutter's spoon stopped above the rice.",
+        "koLittle": "선녀는 그의 비밀을 눈치챘어요.",
+        "koStandard": "어느 저녁 선녀가 물었어요. “왜 지붕을 보면 대답을 들을 것처럼 바라보나요?” 나무꾼의 숟가락이 밥 위에서 멈추었어요."
+      },
+      "koreanText": "어느 저녁 선녀가 물었어요. “왜 지붕을 보면 대답을 들을 것처럼 바라보나요?” 나무꾼의 숟가락이 밥 위에서 멈추었어요.",
+      "englishText": "One evening the fairy asked, \"Why do you look at the roof as if it can answer you?\" The woodcutter's spoon stopped above the rice.",
+      "narrationScript": "어느 저녁 선녀가 물었어요. “왜 지붕을 보면 대답을 들을 것처럼 바라보나요?” 나무꾼의 숟가락이 밥 위에서 멈추었어요.",
+      "vocabulary": [
+        {
+          "ko": "한지문",
+          "en": "hanji door",
+          "definitionEn": "A Korean paper door that lets soft light through.",
+          "definitionKo": "부드러운 빛이 비치는 한국 종이문이에요."
+        },
+        {
+          "ko": "나무꾼",
+          "en": "woodcutter",
+          "definitionEn": "A person who gathers wood in the mountains.",
+          "definitionKo": "산에서 나무를 하는 사람이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Let the fairy actively confront the hidden secret.",
+        "emotion": "tense, honest question, quiet table",
+        "pageTurnHook": "The truth was closer than his next breath.",
+        "readAloudCue": "Read with a measured, bittersweet folktale cadence; keep suspense gentle and never triumphant when trust breaks.",
+        "childInteraction": "Tap the stopped spoon."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/fairy_woodcutter.character_bible.json. Page 11 for 선녀와 나무꾼 / The Fairy and the Woodcutter: quiet dinner table in Korean cottage, fairy asking serious question, woodcutter frozen with spoon, two children nearby, rafters above. Premium Korean watercolor, gouache, soft ink, hanji texture, restrained emotional staging, fit-safe composition, safe margins, no cropping, no cropped faces or hands. Preserve the folktale's consequence and longing; do not make the departure or ascent look purely happy. No text, no letters, no watermark, labels, logos, modern objects, horror, or graphic harm.",
+      "imageAsset": "assets/books/fairy-and-woodcutter/page-011.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration; Korean optional narration should sound natural, musical, culturally grounded, and bittersweet rather than cheerful in consequence scenes.",
+      "narrationAudio": "audio/synthetic-draft/narration/fairy-and-woodcutter/ko/page-011.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/fairy-and-woodcutter/ambient/ambient-loop.wav",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_011/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_011/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_011/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_011/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "soft moonlight, feather, or dawn glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_011/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_011/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fairy_woodcutter_012",
+      "pageNumber": 12,
+      "text": {
+        "enLittle": "He should have told the truth.",
+        "enStandard": "He could have said, \"I hid your robe, and I am sorry.\" Instead he carried the secret through another night, and the lantern seemed dimmer.",
+        "koLittle": "그는 사실을 말해야 했어요.",
+        "koStandard": "그는 “내가 당신의 날개옷을 숨겼소. 미안하오”라고 말할 수도 있었어요. 하지만 또 하룻밤 비밀을 품었고, 등불은 더 흐려 보였어요."
+      },
+      "koreanText": "그는 “내가 당신의 날개옷을 숨겼소. 미안하오”라고 말할 수도 있었어요. 하지만 또 하룻밤 비밀을 품었고, 등불은 더 흐려 보였어요.",
+      "englishText": "He could have said, \"I hid your robe, and I am sorry.\" Instead he carried the secret through another night, and the lantern seemed dimmer.",
+      "narrationScript": "그는 “내가 당신의 날개옷을 숨겼소. 미안하오”라고 말할 수도 있었어요. 하지만 또 하룻밤 비밀을 품었고, 등불은 더 흐려 보였어요.",
+      "vocabulary": [
+        {
+          "ko": "날개옷",
+          "en": "wing robe",
+          "definitionEn": "A magical robe that lets the sky fairy fly home.",
+          "definitionKo": "선녀가 하늘로 돌아가게 해 주는 신비한 옷이에요."
+        },
+        {
+          "ko": "나무꾼",
+          "en": "woodcutter",
+          "definitionEn": "A person who gathers wood in the mountains.",
+          "definitionKo": "산에서 나무를 하는 사람이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Name the better choice before he fails it.",
+        "emotion": "ashamed, regretful, dim",
+        "pageTurnHook": "By morning, fear pushed him toward the rafters.",
+        "readAloudCue": "Read with a measured, bittersweet folktale cadence; keep suspense gentle and never triumphant when trust breaks.",
+        "childInteraction": "Hold on the dim lantern."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/fairy_woodcutter.character_bible.json. Page 12 for 선녀와 나무꾼 / The Fairy and the Woodcutter: woodcutter awake at night under dim lantern, feather robe hidden in rafters, fairy and children sleeping in distance. Premium Korean watercolor, gouache, soft ink, hanji texture, restrained emotional staging, fit-safe composition, safe margins, no cropping, no cropped faces or hands. Preserve the folktale's consequence and longing; do not make the departure or ascent look purely happy. No text, no letters, no watermark, labels, logos, modern objects, horror, or graphic harm.",
+      "imageAsset": "assets/books/fairy-and-woodcutter/page-012.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration; Korean optional narration should sound natural, musical, culturally grounded, and bittersweet rather than cheerful in consequence scenes.",
+      "narrationAudio": "audio/synthetic-draft/narration/fairy-and-woodcutter/ko/page-012.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/fairy-and-woodcutter/ambient/ambient-loop.wav",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_012/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_012/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_012/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_012/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "soft moonlight, feather, or dawn glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_012/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_012/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fairy_woodcutter_013",
+      "pageNumber": 13,
+      "text": {
+        "enLittle": "He revealed the robe too soon.",
+        "enStandard": "Before the third child was born, the woodcutter pulled down the white wing robe. \"I kept this from you,\" he said, and his voice shook.",
+        "koLittle": "그는 너무 일찍 날개옷을 보였어요.",
+        "koStandard": "셋째 아이가 태어나기 전에, 나무꾼은 흰 날개옷을 꺼내 내려놓았어요. “내가 이것을 숨겼소.” 그의 목소리가 떨렸어요."
+      },
+      "koreanText": "셋째 아이가 태어나기 전에, 나무꾼은 흰 날개옷을 꺼내 내려놓았어요. “내가 이것을 숨겼소.” 그의 목소리가 떨렸어요.",
+      "englishText": "Before the third child was born, the woodcutter pulled down the white wing robe. \"I kept this from you,\" he said, and his voice shook.",
+      "narrationScript": "셋째 아이가 태어나기 전에, 나무꾼은 흰 날개옷을 꺼내 내려놓았어요. “내가 이것을 숨겼소.” 그의 목소리가 떨렸어요.",
+      "vocabulary": [
+        {
+          "ko": "날개옷",
+          "en": "wing robe",
+          "definitionEn": "A magical robe that lets the sky fairy fly home.",
+          "definitionKo": "선녀가 하늘로 돌아가게 해 주는 신비한 옷이에요."
+        },
+        {
+          "ko": "선녀",
+          "en": "sky fairy",
+          "definitionEn": "A heavenly woman from Korean folktales.",
+          "definitionKo": "한국 옛이야기에 나오는 하늘 세계의 여인이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Show the too-early reveal that breaks the warning.",
+        "emotion": "fearful, exposed, consequential",
+        "pageTurnHook": "The fairy touched the feathers and remembered the sky.",
+        "readAloudCue": "Read with a measured, bittersweet folktale cadence; keep suspense gentle and never triumphant when trust breaks.",
+        "childInteraction": "Drag from the rafters down to the robe."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/fairy_woodcutter.character_bible.json. Page 13 for 선녀와 나무꾼 / The Fairy and the Woodcutter: woodcutter lowering white feather wing robe from rafters, fairy serious and stunned, two children in cottage doorway. Premium Korean watercolor, gouache, soft ink, hanji texture, restrained emotional staging, fit-safe composition, safe margins, no cropping, no cropped faces or hands. Preserve the folktale's consequence and longing; do not make the departure or ascent look purely happy. No text, no letters, no watermark, labels, logos, modern objects, horror, or graphic harm.",
+      "imageAsset": "assets/books/fairy-and-woodcutter/page-013.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration; Korean optional narration should sound natural, musical, culturally grounded, and bittersweet rather than cheerful in consequence scenes.",
+      "narrationAudio": "audio/synthetic-draft/narration/fairy-and-woodcutter/ko/page-013.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/fairy-and-woodcutter/ambient/ambient-loop.wav",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_013/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_013/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_013/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_013/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "soft moonlight, feather, or dawn glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_013/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_013/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrain": "Not yet, not yet, wait for the third child."
+    },
+    {
+      "id": "fairy_woodcutter_014",
+      "pageNumber": 14,
+      "text": {
+        "enLittle": "The fairy was sad about the hidden truth.",
+        "enStandard": "The fairy held the robe to her heart. \"You should have trusted me with the truth,\" she said. Her sadness was quiet, but it filled the whole room.",
+        "koLittle": "선녀는 숨긴 진실이 슬펐어요.",
+        "koStandard": "선녀는 날개옷을 가슴에 안았어요. “진실을 나에게 맡겨 주었어야 해요.” 선녀의 슬픔은 조용했지만 방 안을 가득 채웠어요."
+      },
+      "koreanText": "선녀는 날개옷을 가슴에 안았어요. “진실을 나에게 맡겨 주었어야 해요.” 선녀의 슬픔은 조용했지만 방 안을 가득 채웠어요.",
+      "englishText": "The fairy held the robe to her heart. \"You should have trusted me with the truth,\" she said. Her sadness was quiet, but it filled the whole room.",
+      "narrationScript": "선녀는 날개옷을 가슴에 안았어요. “진실을 나에게 맡겨 주었어야 해요.” 선녀의 슬픔은 조용했지만 방 안을 가득 채웠어요.",
+      "vocabulary": [
+        {
+          "ko": "선녀",
+          "en": "sky fairy",
+          "definitionEn": "A heavenly woman from Korean folktales.",
+          "definitionKo": "한국 옛이야기에 나오는 하늘 세계의 여인이에요."
+        },
+        {
+          "ko": "날개옷",
+          "en": "wing robe",
+          "definitionEn": "A magical robe that lets the sky fairy fly home.",
+          "definitionKo": "선녀가 하늘로 돌아가게 해 주는 신비한 옷이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Center trust and consequence in the fairy's own voice.",
+        "emotion": "sad, dignified, betrayed",
+        "pageTurnHook": "Then the feathers opened like moonlit wings.",
+        "readAloudCue": "Read with a measured, bittersweet folktale cadence; keep suspense gentle and never triumphant when trust breaks.",
+        "childInteraction": "Open the folded robe."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/fairy_woodcutter.character_bible.json. Page 14 for 선녀와 나무꾼 / The Fairy and the Woodcutter: sky fairy holding feather robe close, sorrowful dignified face, woodcutter bowed in apology, children watching quietly. Premium Korean watercolor, gouache, soft ink, hanji texture, restrained emotional staging, fit-safe composition, safe margins, no cropping, no cropped faces or hands. Preserve the folktale's consequence and longing; do not make the departure or ascent look purely happy. No text, no letters, no watermark, labels, logos, modern objects, horror, or graphic harm.",
+      "imageAsset": "assets/books/fairy-and-woodcutter/page-014.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration; Korean optional narration should sound natural, musical, culturally grounded, and bittersweet rather than cheerful in consequence scenes.",
+      "narrationAudio": "audio/synthetic-draft/narration/fairy-and-woodcutter/ko/page-014.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/fairy-and-woodcutter/ambient/ambient-loop.wav",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_014/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_014/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_014/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_014/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "soft moonlight, feather, or dawn glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_014/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_014/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fairy_woodcutter_015",
+      "pageNumber": 15,
+      "text": {
+        "enLittle": "She flew home with one child in each arm.",
+        "enStandard": "The robe became wings again. The fairy lifted one child in each arm. \"I must go home,\" she said, and the woodcutter did not smile.",
+        "koLittle": "선녀는 두 아이를 안고 하늘로 갔어요.",
+        "koStandard": "날개옷은 다시 하얀 날개가 되었어요. 선녀는 한 아이씩 두 팔에 안았지요. “나는 하늘 집으로 돌아가야 해요.” 나무꾼은 웃지 못했어요."
+      },
+      "koreanText": "날개옷은 다시 하얀 날개가 되었어요. 선녀는 한 아이씩 두 팔에 안았지요. “나는 하늘 집으로 돌아가야 해요.” 나무꾼은 웃지 못했어요.",
+      "englishText": "The robe became wings again. The fairy lifted one child in each arm. \"I must go home,\" she said, and the woodcutter did not smile.",
+      "narrationScript": "날개옷은 다시 하얀 날개가 되었어요. 선녀는 한 아이씩 두 팔에 안았지요. “나는 하늘 집으로 돌아가야 해요.” 나무꾼은 웃지 못했어요.",
+      "vocabulary": [
+        {
+          "ko": "날개옷",
+          "en": "wing robe",
+          "definitionEn": "A magical robe that lets the sky fairy fly home.",
+          "definitionKo": "선녀가 하늘로 돌아가게 해 주는 신비한 옷이에요."
+        },
+        {
+          "ko": "선녀",
+          "en": "sky fairy",
+          "definitionEn": "A heavenly woman from Korean folktales.",
+          "definitionKo": "한국 옛이야기에 나오는 하늘 세계의 여인이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Correct the departure: it is consequence and loss, not a happy flight.",
+        "emotion": "sorrowful, solemn, moonlit farewell",
+        "pageTurnHook": "The yard grew empty beneath the falling feathers.",
+        "readAloudCue": "Read with a measured, bittersweet folktale cadence; keep suspense gentle and never triumphant when trust breaks.",
+        "childInteraction": "Count the two children in her arms."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/fairy_woodcutter.character_bible.json. Page 15 for 선녀와 나무꾼 / The Fairy and the Woodcutter: sky fairy rising with one child in each arm, white feather wings, woodcutter reaching up in grief, Korean cottage yard at night, bittersweet not happy. Premium Korean watercolor, gouache, soft ink, hanji texture, restrained emotional staging, fit-safe composition, safe margins, no cropping, no cropped faces or hands. Preserve the folktale's consequence and longing; do not make the departure or ascent look purely happy. No text, no letters, no watermark, labels, logos, modern objects, horror, or graphic harm.",
+      "imageAsset": "assets/books/fairy-and-woodcutter/page-015.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration; Korean optional narration should sound natural, musical, culturally grounded, and bittersweet rather than cheerful in consequence scenes.",
+      "narrationAudio": "audio/synthetic-draft/narration/fairy-and-woodcutter/ko/page-015.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/fairy-and-woodcutter/ambient/ambient-loop.wav",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_015/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_015/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_015/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_015/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "soft moonlight, feather, or dawn glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_015/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_015/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fairy_woodcutter_016",
+      "pageNumber": 16,
+      "text": {
+        "enLittle": "The house felt empty after they left.",
+        "enStandard": "The cottage was suddenly too quiet. Small sandals waited by the door, and the woodcutter finally understood that love without honesty can become loneliness.",
+        "koLittle": "그들이 떠나자 집은 텅 빈 듯했어요.",
+        "koStandard": "오두막은 갑자기 너무 조용해졌어요. 문가에는 작은 고무신만 남았고, 나무꾼은 정직하지 못한 사랑이 외로움이 될 수 있음을 깨달았어요."
+      },
+      "koreanText": "오두막은 갑자기 너무 조용해졌어요. 문가에는 작은 고무신만 남았고, 나무꾼은 정직하지 못한 사랑이 외로움이 될 수 있음을 깨달았어요.",
+      "englishText": "The cottage was suddenly too quiet. Small sandals waited by the door, and the woodcutter finally understood that love without honesty can become loneliness.",
+      "narrationScript": "오두막은 갑자기 너무 조용해졌어요. 문가에는 작은 고무신만 남았고, 나무꾼은 정직하지 못한 사랑이 외로움이 될 수 있음을 깨달았어요.",
+      "vocabulary": [
+        {
+          "ko": "나무꾼",
+          "en": "woodcutter",
+          "definitionEn": "A person who gathers wood in the mountains.",
+          "definitionKo": "산에서 나무를 하는 사람이에요."
+        },
+        {
+          "ko": "선녀",
+          "en": "sky fairy",
+          "definitionEn": "A heavenly woman from Korean folktales.",
+          "definitionKo": "한국 옛이야기에 나오는 하늘 세계의 여인이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Let the consequence land emotionally and accessibly.",
+        "emotion": "lonely, sorry, still",
+        "pageTurnHook": "At dawn he went back to the spring to ask for help.",
+        "readAloudCue": "Read with a measured, bittersweet folktale cadence; keep suspense gentle and never triumphant when trust breaks.",
+        "childInteraction": "Tap the empty sandals by the door."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/fairy_woodcutter.character_bible.json. Page 16 for 선녀와 나무꾼 / The Fairy and the Woodcutter: empty Korean cottage doorway, two small sandals, woodcutter sitting alone in moonlight, quiet grief. Premium Korean watercolor, gouache, soft ink, hanji texture, restrained emotional staging, fit-safe composition, safe margins, no cropping, no cropped faces or hands. Preserve the folktale's consequence and longing; do not make the departure or ascent look purely happy. No text, no letters, no watermark, labels, logos, modern objects, horror, or graphic harm.",
+      "imageAsset": "assets/books/fairy-and-woodcutter/page-016.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration; Korean optional narration should sound natural, musical, culturally grounded, and bittersweet rather than cheerful in consequence scenes.",
+      "narrationAudio": "audio/synthetic-draft/narration/fairy-and-woodcutter/ko/page-016.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/fairy-and-woodcutter/ambient/ambient-loop.wav",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_016/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_016/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_016/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_016/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "soft moonlight, feather, or dawn glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_016/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_016/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fairy_woodcutter_017",
+      "pageNumber": 17,
+      "text": {
+        "enLittle": "The deer told him about a sky bucket.",
+        "enStandard": "At the spring, the deer appeared again. \"A sky bucket comes down for water,\" it said. \"If you climb in, hold tight and do not look down.\"",
+        "koLittle": "사슴은 하늘 두레박 이야기를 했어요.",
+        "koStandard": "샘가에 다시 사슴이 나타났어요. “하늘에서 물 긷는 두레박이 내려옵니다. 그 안에 타거든 꼭 붙잡고 아래를 보지 마세요.”"
+      },
+      "koreanText": "샘가에 다시 사슴이 나타났어요. “하늘에서 물 긷는 두레박이 내려옵니다. 그 안에 타거든 꼭 붙잡고 아래를 보지 마세요.”",
+      "englishText": "At the spring, the deer appeared again. \"A sky bucket comes down for water,\" it said. \"If you climb in, hold tight and do not look down.\"",
+      "narrationScript": "샘가에 다시 사슴이 나타났어요. “하늘에서 물 긷는 두레박이 내려옵니다. 그 안에 타거든 꼭 붙잡고 아래를 보지 마세요.”",
+      "vocabulary": [
+        {
+          "ko": "사슴",
+          "en": "deer",
+          "definitionEn": "The grateful animal who gives the woodcutter secret advice.",
+          "definitionKo": "나무꾼에게 비밀 조언을 해 주는 고마운 동물이에요."
+        },
+        {
+          "ko": "두레박",
+          "en": "water bucket",
+          "definitionEn": "A bucket lowered by rope to draw water.",
+          "definitionKo": "줄에 매달아 물을 긷는 통이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Move into the ascent motif with caution instead of triumph.",
+        "emotion": "hopeful, scared, dawn mist",
+        "pageTurnHook": "That night, a rope slid down from the stars.",
+        "readAloudCue": "Read with a measured, bittersweet folktale cadence; keep suspense gentle and never triumphant when trust breaks.",
+        "childInteraction": "Trace the rope from sky to spring."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/fairy_woodcutter.character_bible.json. Page 17 for 선녀와 나무꾼 / The Fairy and the Woodcutter: dawn mountain spring, deer advising woodcutter, pale rope and bucket hinted in clouds above, cautious hope. Premium Korean watercolor, gouache, soft ink, hanji texture, restrained emotional staging, fit-safe composition, safe margins, no cropping, no cropped faces or hands. Preserve the folktale's consequence and longing; do not make the departure or ascent look purely happy. No text, no letters, no watermark, labels, logos, modern objects, horror, or graphic harm.",
+      "imageAsset": "assets/books/fairy-and-woodcutter/page-017.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration; Korean optional narration should sound natural, musical, culturally grounded, and bittersweet rather than cheerful in consequence scenes.",
+      "narrationAudio": "audio/synthetic-draft/narration/fairy-and-woodcutter/ko/page-017.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/fairy-and-woodcutter/ambient/ambient-loop.wav",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_017/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_017/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_017/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_017/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "soft moonlight, feather, or dawn glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_017/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_017/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fairy_woodcutter_018",
+      "pageNumber": 18,
+      "text": {
+        "enLittle": "He climbed into the bucket to reach the sky.",
+        "enStandard": "The sky bucket dipped into the spring with a silver splash. The woodcutter climbed inside, clutching the wet rope as mountains shrank below.",
+        "koLittle": "그는 두레박을 타고 하늘로 올라갔어요.",
+        "koStandard": "하늘 두레박이 은빛 물소리를 내며 샘에 내려왔어요. 나무꾼은 그 안에 올라타 젖은 줄을 꼭 잡았고, 산들은 아래에서 작아졌어요."
+      },
+      "koreanText": "하늘 두레박이 은빛 물소리를 내며 샘에 내려왔어요. 나무꾼은 그 안에 올라타 젖은 줄을 꼭 잡았고, 산들은 아래에서 작아졌어요.",
+      "englishText": "The sky bucket dipped into the spring with a silver splash. The woodcutter climbed inside, clutching the wet rope as mountains shrank below.",
+      "narrationScript": "하늘 두레박이 은빛 물소리를 내며 샘에 내려왔어요. 나무꾼은 그 안에 올라타 젖은 줄을 꼭 잡았고, 산들은 아래에서 작아졌어요.",
+      "vocabulary": [
+        {
+          "ko": "두레박",
+          "en": "water bucket",
+          "definitionEn": "A bucket lowered by rope to draw water.",
+          "definitionKo": "줄에 매달아 물을 긷는 통이에요."
+        },
+        {
+          "ko": "나무꾼",
+          "en": "woodcutter",
+          "definitionEn": "A person who gathers wood in the mountains.",
+          "definitionKo": "산에서 나무를 하는 사람이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Show ascent as risky longing, not a carefree victory.",
+        "emotion": "afraid, hopeful, dizzy",
+        "pageTurnHook": "Clouds opened around a faraway house of light.",
+        "readAloudCue": "Read with a measured, bittersweet folktale cadence; keep suspense gentle and never triumphant when trust breaks.",
+        "childInteraction": "Hold the bucket rope."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/fairy_woodcutter.character_bible.json. Page 18 for 선녀와 나무꾼 / The Fairy and the Woodcutter: woodcutter ascending in wooden water bucket on rope toward clouds, small mountains below, fearful hopeful expression, no smiling celebration. Premium Korean watercolor, gouache, soft ink, hanji texture, restrained emotional staging, fit-safe composition, safe margins, no cropping, no cropped faces or hands. Preserve the folktale's consequence and longing; do not make the departure or ascent look purely happy. No text, no letters, no watermark, labels, logos, modern objects, horror, or graphic harm.",
+      "imageAsset": "assets/books/fairy-and-woodcutter/page-018.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration; Korean optional narration should sound natural, musical, culturally grounded, and bittersweet rather than cheerful in consequence scenes.",
+      "narrationAudio": "audio/synthetic-draft/narration/fairy-and-woodcutter/ko/page-018.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/fairy-and-woodcutter/ambient/ambient-loop.wav",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_018/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_018/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_018/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_018/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "soft moonlight, feather, or dawn glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_018/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_018/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fairy_woodcutter_019",
+      "pageNumber": 19,
+      "text": {
+        "enLittle": "He found his family and apologized.",
+        "enStandard": "In the sky village, the fairy stood with the children beside a moon-bright gate. The woodcutter bowed low. \"I am sorry,\" he said.",
+        "koLittle": "그는 가족을 찾아 사과했어요.",
+        "koStandard": "하늘 마을의 달빛 문 곁에 선녀와 아이들이 서 있었어요. 나무꾼은 깊이 고개를 숙였어요. “미안합니다.”"
+      },
+      "koreanText": "하늘 마을의 달빛 문 곁에 선녀와 아이들이 서 있었어요. 나무꾼은 깊이 고개를 숙였어요. “미안합니다.”",
+      "englishText": "In the sky village, the fairy stood with the children beside a moon-bright gate. The woodcutter bowed low. \"I am sorry,\" he said.",
+      "narrationScript": "하늘 마을의 달빛 문 곁에 선녀와 아이들이 서 있었어요. 나무꾼은 깊이 고개를 숙였어요. “미안합니다.”",
+      "vocabulary": [
+        {
+          "ko": "선녀",
+          "en": "sky fairy",
+          "definitionEn": "A heavenly woman from Korean folktales.",
+          "definitionKo": "한국 옛이야기에 나오는 하늘 세계의 여인이에요."
+        },
+        {
+          "ko": "나무꾼",
+          "en": "woodcutter",
+          "definitionEn": "A person who gathers wood in the mountains.",
+          "definitionKo": "산에서 나무를 하는 사람이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Make apology explicit before any reunion warmth.",
+        "emotion": "sorry, tender, cautious hope",
+        "pageTurnHook": "The fairy listened, but the old mistake did not disappear.",
+        "readAloudCue": "Read with a measured, bittersweet folktale cadence; keep suspense gentle and never triumphant when trust breaks.",
+        "childInteraction": "Tap the bowed head."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/fairy_woodcutter.character_bible.json. Page 19 for 선녀와 나무꾼 / The Fairy and the Woodcutter: sky village gate with moonlight, fairy and two children standing calmly, woodcutter bowing deeply in apology, Korean celestial architecture. Premium Korean watercolor, gouache, soft ink, hanji texture, restrained emotional staging, fit-safe composition, safe margins, no cropping, no cropped faces or hands. Preserve the folktale's consequence and longing; do not make the departure or ascent look purely happy. No text, no letters, no watermark, labels, logos, modern objects, horror, or graphic harm.",
+      "imageAsset": "assets/books/fairy-and-woodcutter/page-019.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration; Korean optional narration should sound natural, musical, culturally grounded, and bittersweet rather than cheerful in consequence scenes.",
+      "narrationAudio": "audio/synthetic-draft/narration/fairy-and-woodcutter/ko/page-019.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/fairy-and-woodcutter/ambient/ambient-loop.wav",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_019/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_019/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_019/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_019/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "soft moonlight, feather, or dawn glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_019/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_019/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fairy_woodcutter_020",
+      "pageNumber": 20,
+      "text": {
+        "enLittle": "He stayed, but the mistake still mattered.",
+        "enStandard": "The fairy let him stay, and the children held his hands. Some evenings were gentle, but he could still feel the weight of the robe he had hidden.",
+        "koLittle": "그는 머물렀지만 잘못은 남아 있었어요.",
+        "koStandard": "선녀는 그가 머물도록 허락했고 아이들은 그의 손을 잡았어요. 어떤 저녁은 다정했지만, 그는 자신이 숨겼던 날개옷의 무게를 잊지 못했어요."
+      },
+      "koreanText": "선녀는 그가 머물도록 허락했고 아이들은 그의 손을 잡았어요. 어떤 저녁은 다정했지만, 그는 자신이 숨겼던 날개옷의 무게를 잊지 못했어요.",
+      "englishText": "The fairy let him stay, and the children held his hands. Some evenings were gentle, but he could still feel the weight of the robe he had hidden.",
+      "narrationScript": "선녀는 그가 머물도록 허락했고 아이들은 그의 손을 잡았어요. 어떤 저녁은 다정했지만, 그는 자신이 숨겼던 날개옷의 무게를 잊지 못했어요.",
+      "vocabulary": [
+        {
+          "ko": "날개옷",
+          "en": "wing robe",
+          "definitionEn": "A magical robe that lets the sky fairy fly home.",
+          "definitionKo": "선녀가 하늘로 돌아가게 해 주는 신비한 옷이에요."
+        },
+        {
+          "ko": "선녀",
+          "en": "sky fairy",
+          "definitionEn": "A heavenly woman from Korean folktales.",
+          "definitionKo": "한국 옛이야기에 나오는 하늘 세계의 여인이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Avoid a too-easy happy reset after the apology.",
+        "emotion": "gentle, reflective, uneasy",
+        "pageTurnHook": "Then another longing began to tug at him.",
+        "readAloudCue": "Read with a measured, bittersweet folktale cadence; keep suspense gentle and never triumphant when trust breaks.",
+        "childInteraction": "Tap the three joined hands."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/fairy_woodcutter.character_bible.json. Page 20 for 선녀와 나무꾼 / The Fairy and the Woodcutter: quiet sky home, fairy and children with woodcutter, warm but reserved family scene, faint feather robe motif in background. Premium Korean watercolor, gouache, soft ink, hanji texture, restrained emotional staging, fit-safe composition, safe margins, no cropping, no cropped faces or hands. Preserve the folktale's consequence and longing; do not make the departure or ascent look purely happy. No text, no letters, no watermark, labels, logos, modern objects, horror, or graphic harm.",
+      "imageAsset": "assets/books/fairy-and-woodcutter/page-020.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration; Korean optional narration should sound natural, musical, culturally grounded, and bittersweet rather than cheerful in consequence scenes.",
+      "narrationAudio": "audio/synthetic-draft/narration/fairy-and-woodcutter/ko/page-020.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/fairy-and-woodcutter/ambient/ambient-loop.wav",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_020/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_020/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_020/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_020/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "soft moonlight, feather, or dawn glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_020/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_020/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fairy_woodcutter_021",
+      "pageNumber": 21,
+      "text": {
+        "enLittle": "He missed his mother on earth.",
+        "enStandard": "Soon the woodcutter missed his old mother on earth. \"I want to see her once,\" he said. The fairy's face grew worried.",
+        "koLittle": "그는 땅의 어머니가 그리웠어요.",
+        "koStandard": "얼마 지나지 않아 나무꾼은 땅에 계신 늙은 어머니가 그리워졌어요. “한 번만 뵙고 싶소.” 그 말에 선녀의 얼굴이 걱정스러워졌어요."
+      },
+      "koreanText": "얼마 지나지 않아 나무꾼은 땅에 계신 늙은 어머니가 그리워졌어요. “한 번만 뵙고 싶소.” 그 말에 선녀의 얼굴이 걱정스러워졌어요.",
+      "englishText": "Soon the woodcutter missed his old mother on earth. \"I want to see her once,\" he said. The fairy's face grew worried.",
+      "narrationScript": "얼마 지나지 않아 나무꾼은 땅에 계신 늙은 어머니가 그리워졌어요. “한 번만 뵙고 싶소.” 그 말에 선녀의 얼굴이 걱정스러워졌어요.",
+      "vocabulary": [
+        {
+          "ko": "하늘말",
+          "en": "sky horse",
+          "definitionEn": "A magical horse that travels between sky and earth.",
+          "definitionKo": "하늘과 땅 사이를 오가는 신비한 말이에요."
+        },
+        {
+          "ko": "나무꾼",
+          "en": "woodcutter",
+          "definitionEn": "A person who gathers wood in the mountains.",
+          "definitionKo": "산에서 나무를 하는 사람이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Introduce the return-to-earth warning.",
+        "emotion": "homesick, worried, tender",
+        "pageTurnHook": "The fairy gave him one more warning.",
+        "readAloudCue": "Read with a measured, bittersweet folktale cadence; keep suspense gentle and never triumphant when trust breaks.",
+        "childInteraction": "Choose the path between sky and earth."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/fairy_woodcutter.character_bible.json. Page 21 for 선녀와 나무꾼 / The Fairy and the Woodcutter: woodcutter gazing down from sky village toward earth, fairy worried beside him, children holding sleeves. Premium Korean watercolor, gouache, soft ink, hanji texture, restrained emotional staging, fit-safe composition, safe margins, no cropping, no cropped faces or hands. Preserve the folktale's consequence and longing; do not make the departure or ascent look purely happy. No text, no letters, no watermark, labels, logos, modern objects, horror, or graphic harm.",
+      "imageAsset": "assets/books/fairy-and-woodcutter/page-021.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration; Korean optional narration should sound natural, musical, culturally grounded, and bittersweet rather than cheerful in consequence scenes.",
+      "narrationAudio": "audio/synthetic-draft/narration/fairy-and-woodcutter/ko/page-021.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/fairy-and-woodcutter/ambient/ambient-loop.wav",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_021/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_021/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_021/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_021/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "soft moonlight, feather, or dawn glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_021/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_021/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fairy_woodcutter_022",
+      "pageNumber": 22,
+      "text": {
+        "enLittle": "She warned him not to touch the ground.",
+        "enStandard": "\"Ride the sky horse,\" the fairy told him, \"but never let your feet touch the ground.\" Her voice was soft because warnings had already been broken once.",
+        "koLittle": "선녀는 땅에 닿지 말라고 했어요.",
+        "koStandard": "선녀가 말했어요. “하늘말을 타고 다녀오세요. 하지만 절대로 발이 땅에 닿으면 안 됩니다.” 이미 한 번 경고가 깨졌기에 목소리는 부드럽고도 무거웠어요."
+      },
+      "koreanText": "선녀가 말했어요. “하늘말을 타고 다녀오세요. 하지만 절대로 발이 땅에 닿으면 안 됩니다.” 이미 한 번 경고가 깨졌기에 목소리는 부드럽고도 무거웠어요.",
+      "englishText": "\"Ride the sky horse,\" the fairy told him, \"but never let your feet touch the ground.\" Her voice was soft because warnings had already been broken once.",
+      "narrationScript": "선녀가 말했어요. “하늘말을 타고 다녀오세요. 하지만 절대로 발이 땅에 닿으면 안 됩니다.” 이미 한 번 경고가 깨졌기에 목소리는 부드럽고도 무거웠어요.",
+      "vocabulary": [
+        {
+          "ko": "하늘말",
+          "en": "sky horse",
+          "definitionEn": "A magical horse that travels between sky and earth.",
+          "definitionKo": "하늘과 땅 사이를 오가는 신비한 말이에요."
+        },
+        {
+          "ko": "선녀",
+          "en": "sky fairy",
+          "definitionEn": "A heavenly woman from Korean folktales.",
+          "definitionKo": "한국 옛이야기에 나오는 하늘 세계의 여인이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Set up the final warning and echo the earlier mistake.",
+        "emotion": "solemn, careful, loving concern",
+        "pageTurnHook": "The horse lowered through the clouds like a pale wind.",
+        "readAloudCue": "Read with a measured, bittersweet folktale cadence; keep suspense gentle and never triumphant when trust breaks.",
+        "childInteraction": "Tap the horse's floating hooves."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/fairy_woodcutter.character_bible.json. Page 22 for 선녀와 나무꾼 / The Fairy and the Woodcutter: white sky horse beside fairy and woodcutter, fairy giving solemn warning, clouds and Korean celestial palace, no comedy. Premium Korean watercolor, gouache, soft ink, hanji texture, restrained emotional staging, fit-safe composition, safe margins, no cropping, no cropped faces or hands. Preserve the folktale's consequence and longing; do not make the departure or ascent look purely happy. No text, no letters, no watermark, labels, logos, modern objects, horror, or graphic harm.",
+      "imageAsset": "assets/books/fairy-and-woodcutter/page-022.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration; Korean optional narration should sound natural, musical, culturally grounded, and bittersweet rather than cheerful in consequence scenes.",
+      "narrationAudio": "audio/synthetic-draft/narration/fairy-and-woodcutter/ko/page-022.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/fairy-and-woodcutter/ambient/ambient-loop.wav",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_022/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_022/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_022/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_022/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "soft moonlight, feather, or dawn glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_022/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_022/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrain": "Warnings are quiet, but they are heavy."
+    },
+    {
+      "id": "fairy_woodcutter_023",
+      "pageNumber": 23,
+      "text": {
+        "enLittle": "His mother welcomed him with hot porridge.",
+        "enStandard": "The sky horse carried him to his mother's yard. She wept with joy and set out steaming porridge, saying, \"Eat before it grows cold, my son.\"",
+        "koLittle": "어머니는 뜨거운 죽을 내주었어요.",
+        "koStandard": "하늘말은 나무꾼을 어머니의 마당까지 데려다주었어요. 어머니는 기뻐 눈물을 흘리며 뜨거운 죽을 내놓았지요. “식기 전에 먹어라, 내 아들아.”"
+      },
+      "koreanText": "하늘말은 나무꾼을 어머니의 마당까지 데려다주었어요. 어머니는 기뻐 눈물을 흘리며 뜨거운 죽을 내놓았지요. “식기 전에 먹어라, 내 아들아.”",
+      "englishText": "The sky horse carried him to his mother's yard. She wept with joy and set out steaming porridge, saying, \"Eat before it grows cold, my son.\"",
+      "narrationScript": "하늘말은 나무꾼을 어머니의 마당까지 데려다주었어요. 어머니는 기뻐 눈물을 흘리며 뜨거운 죽을 내놓았지요. “식기 전에 먹어라, 내 아들아.”",
+      "vocabulary": [
+        {
+          "ko": "하늘말",
+          "en": "sky horse",
+          "definitionEn": "A magical horse that travels between sky and earth.",
+          "definitionKo": "하늘과 땅 사이를 오가는 신비한 말이에요."
+        },
+        {
+          "ko": "나무꾼",
+          "en": "woodcutter",
+          "definitionEn": "A person who gathers wood in the mountains.",
+          "definitionKo": "산에서 나무를 하는 사람이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Bring warmth and danger together through the porridge scene.",
+        "emotion": "joyful, fragile, steaming warmth",
+        "pageTurnHook": "One hot drop changed everything.",
+        "readAloudCue": "Read with a measured, bittersweet folktale cadence; keep suspense gentle and never triumphant when trust breaks.",
+        "childInteraction": "Tap the steam above the bowl."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/fairy_woodcutter.character_bible.json. Page 23 for 선녀와 나무꾼 / The Fairy and the Woodcutter: earthly Korean yard, elderly mother offering steaming porridge to woodcutter seated on white sky horse, joyful but fragile moment. Premium Korean watercolor, gouache, soft ink, hanji texture, restrained emotional staging, fit-safe composition, safe margins, no cropping, no cropped faces or hands. Preserve the folktale's consequence and longing; do not make the departure or ascent look purely happy. No text, no letters, no watermark, labels, logos, modern objects, horror, or graphic harm.",
+      "imageAsset": "assets/books/fairy-and-woodcutter/page-023.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration; Korean optional narration should sound natural, musical, culturally grounded, and bittersweet rather than cheerful in consequence scenes.",
+      "narrationAudio": "audio/synthetic-draft/narration/fairy-and-woodcutter/ko/page-023.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/fairy-and-woodcutter/ambient/ambient-loop.wav",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_023/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_023/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_023/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_023/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "soft moonlight, feather, or dawn glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_023/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_023/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fairy_woodcutter_024",
+      "pageNumber": 24,
+      "text": {
+        "enLittle": "A hot drop made the horse leap.",
+        "enStandard": "A drop of hot porridge splashed the horse. It reared in pain, and the woodcutter slipped. For one breath, his foot touched earth.",
+        "koLittle": "뜨거운 죽 한 방울에 말이 놀랐어요.",
+        "koStandard": "뜨거운 죽 한 방울이 하늘말에게 튀었어요. 말은 놀라 앞발을 들었고, 나무꾼은 미끄러졌어요. 숨 한 번 사이에 그의 발이 땅에 닿았지요."
+      },
+      "koreanText": "뜨거운 죽 한 방울이 하늘말에게 튀었어요. 말은 놀라 앞발을 들었고, 나무꾼은 미끄러졌어요. 숨 한 번 사이에 그의 발이 땅에 닿았지요.",
+      "englishText": "A drop of hot porridge splashed the horse. It reared in pain, and the woodcutter slipped. For one breath, his foot touched earth.",
+      "narrationScript": "뜨거운 죽 한 방울이 하늘말에게 튀었어요. 말은 놀라 앞발을 들었고, 나무꾼은 미끄러졌어요. 숨 한 번 사이에 그의 발이 땅에 닿았지요.",
+      "vocabulary": [
+        {
+          "ko": "하늘말",
+          "en": "sky horse",
+          "definitionEn": "A magical horse that travels between sky and earth.",
+          "definitionKo": "하늘과 땅 사이를 오가는 신비한 말이에요."
+        },
+        {
+          "ko": "선녀",
+          "en": "sky fairy",
+          "definitionEn": "A heavenly woman from Korean folktales.",
+          "definitionKo": "한국 옛이야기에 나오는 하늘 세계의 여인이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Show the warning breaking through accident and consequence.",
+        "emotion": "startled, afraid, sudden",
+        "pageTurnHook": "The sky horse vanished upward without him.",
+        "readAloudCue": "Read with a measured, bittersweet folktale cadence; keep suspense gentle and never triumphant when trust breaks.",
+        "childInteraction": "Trace the falling drop."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/fairy_woodcutter.character_bible.json. Page 24 for 선녀와 나무꾼 / The Fairy and the Woodcutter: white sky horse startled by steaming porridge drop, woodcutter slipping with one foot touching ground, mother alarmed, child-safe no injury. Premium Korean watercolor, gouache, soft ink, hanji texture, restrained emotional staging, fit-safe composition, safe margins, no cropping, no cropped faces or hands. Preserve the folktale's consequence and longing; do not make the departure or ascent look purely happy. No text, no letters, no watermark, labels, logos, modern objects, horror, or graphic harm.",
+      "imageAsset": "assets/books/fairy-and-woodcutter/page-024.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration; Korean optional narration should sound natural, musical, culturally grounded, and bittersweet rather than cheerful in consequence scenes.",
+      "narrationAudio": "audio/synthetic-draft/narration/fairy-and-woodcutter/ko/page-024.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/fairy-and-woodcutter/ambient/ambient-loop.wav",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_024/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_024/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_024/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_024/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "soft moonlight, feather, or dawn glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_024/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_024/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fairy_woodcutter_025",
+      "pageNumber": 25,
+      "text": {
+        "enLittle": "The sky road closed.",
+        "enStandard": "The horse flew back into the clouds. The woodcutter ran after the fading hoofbeats, but the sky road had closed.",
+        "koLittle": "하늘길이 닫혀 버렸어요.",
+        "koStandard": "하늘말은 구름 속으로 다시 날아가 버렸어요. 나무꾼은 멀어지는 발굽 소리를 따라 달렸지만, 하늘길은 이미 닫혀 있었어요."
+      },
+      "koreanText": "하늘말은 구름 속으로 다시 날아가 버렸어요. 나무꾼은 멀어지는 발굽 소리를 따라 달렸지만, 하늘길은 이미 닫혀 있었어요.",
+      "englishText": "The horse flew back into the clouds. The woodcutter ran after the fading hoofbeats, but the sky road had closed.",
+      "narrationScript": "하늘말은 구름 속으로 다시 날아가 버렸어요. 나무꾼은 멀어지는 발굽 소리를 따라 달렸지만, 하늘길은 이미 닫혀 있었어요.",
+      "vocabulary": [
+        {
+          "ko": "두레박",
+          "en": "water bucket",
+          "definitionEn": "A bucket lowered by rope to draw water.",
+          "definitionKo": "줄에 매달아 물을 긷는 통이에요."
+        },
+        {
+          "ko": "날개옷",
+          "en": "wing robe",
+          "definitionEn": "A magical robe that lets the sky fairy fly home.",
+          "definitionKo": "선녀가 하늘로 돌아가게 해 주는 신비한 옷이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Land the final separation without melodrama.",
+        "emotion": "lonely, desperate, fading",
+        "pageTurnHook": "Only the mountain spring remembered the way.",
+        "readAloudCue": "Read with a measured, bittersweet folktale cadence; keep suspense gentle and never triumphant when trust breaks.",
+        "childInteraction": "Swipe upward after the fading horse."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/fairy_woodcutter.character_bible.json. Page 25 for 선녀와 나무꾼 / The Fairy and the Woodcutter: woodcutter reaching toward clouds as white horse disappears, elderly mother near cottage gate, closed sky path, twilight sorrow. Premium Korean watercolor, gouache, soft ink, hanji texture, restrained emotional staging, fit-safe composition, safe margins, no cropping, no cropped faces or hands. Preserve the folktale's consequence and longing; do not make the departure or ascent look purely happy. No text, no letters, no watermark, labels, logos, modern objects, horror, or graphic harm.",
+      "imageAsset": "assets/books/fairy-and-woodcutter/page-025.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration; Korean optional narration should sound natural, musical, culturally grounded, and bittersweet rather than cheerful in consequence scenes.",
+      "narrationAudio": "audio/synthetic-draft/narration/fairy-and-woodcutter/ko/page-025.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/fairy-and-woodcutter/ambient/ambient-loop.wav",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_025/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_025/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_025/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_025/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "soft moonlight, feather, or dawn glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_025/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_025/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fairy_woodcutter_026",
+      "pageNumber": 26,
+      "text": {
+        "enLittle": "No bucket came back to the spring.",
+        "enStandard": "He returned to the mountain spring again and again. The water reflected clouds, but no bucket came down, and no wing robe waited on the rock.",
+        "koLittle": "두레박은 다시 내려오지 않았어요.",
+        "koStandard": "그는 몇 번이고 산속 샘으로 돌아갔어요. 물에는 구름이 비쳤지만 두레박은 내려오지 않았고, 바위 위에는 날개옷도 없었어요."
+      },
+      "koreanText": "그는 몇 번이고 산속 샘으로 돌아갔어요. 물에는 구름이 비쳤지만 두레박은 내려오지 않았고, 바위 위에는 날개옷도 없었어요.",
+      "englishText": "He returned to the mountain spring again and again. The water reflected clouds, but no bucket came down, and no wing robe waited on the rock.",
+      "narrationScript": "그는 몇 번이고 산속 샘으로 돌아갔어요. 물에는 구름이 비쳤지만 두레박은 내려오지 않았고, 바위 위에는 날개옷도 없었어요.",
+      "vocabulary": [
+        {
+          "ko": "수탉",
+          "en": "rooster",
+          "definitionEn": "A bird that calls at dawn in the folktale ending.",
+          "definitionKo": "옛이야기 끝에서 새벽에 우는 새예요."
+        },
+        {
+          "ko": "나무꾼",
+          "en": "woodcutter",
+          "definitionEn": "A person who gathers wood in the mountains.",
+          "definitionKo": "산에서 나무를 하는 사람이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Show longing and closed passage.",
+        "emotion": "lonely, waiting, quiet",
+        "pageTurnHook": "At dawn, his voice began to change.",
+        "readAloudCue": "Read with a measured, bittersweet folktale cadence; keep suspense gentle and never triumphant when trust breaks.",
+        "childInteraction": "Tap the empty reflection in the spring."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/fairy_woodcutter.character_bible.json. Page 26 for 선녀와 나무꾼 / The Fairy and the Woodcutter: woodcutter alone beside mountain spring at dawn, empty rock, cloud reflection in water, no bucket, quiet longing. Premium Korean watercolor, gouache, soft ink, hanji texture, restrained emotional staging, fit-safe composition, safe margins, no cropping, no cropped faces or hands. Preserve the folktale's consequence and longing; do not make the departure or ascent look purely happy. No text, no letters, no watermark, labels, logos, modern objects, horror, or graphic harm.",
+      "imageAsset": "assets/books/fairy-and-woodcutter/page-026.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration; Korean optional narration should sound natural, musical, culturally grounded, and bittersweet rather than cheerful in consequence scenes.",
+      "narrationAudio": "audio/synthetic-draft/narration/fairy-and-woodcutter/ko/page-026.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/fairy-and-woodcutter/ambient/ambient-loop.wav",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_026/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_026/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_026/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_026/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "soft moonlight, feather, or dawn glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_026/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_026/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fairy_woodcutter_027",
+      "pageNumber": 27,
+      "text": {
+        "enLittle": "Some say he became a rooster calling to the sky.",
+        "enStandard": "Some tellers say he became the rooster who cries toward the morning sky. \"Kkokkio,\" he called, not from joy, but from longing.",
+        "koLittle": "그가 수탉이 되었다고도 해요.",
+        "koStandard": "어떤 이야기꾼들은 그가 아침 하늘을 향해 우는 수탉이 되었다고 해요. “꼬끼오.” 그 울음은 기쁨이 아니라 그리움에서 나온 소리였어요."
+      },
+      "koreanText": "어떤 이야기꾼들은 그가 아침 하늘을 향해 우는 수탉이 되었다고 해요. “꼬끼오.” 그 울음은 기쁨이 아니라 그리움에서 나온 소리였어요.",
+      "englishText": "Some tellers say he became the rooster who cries toward the morning sky. \"Kkokkio,\" he called, not from joy, but from longing.",
+      "narrationScript": "어떤 이야기꾼들은 그가 아침 하늘을 향해 우는 수탉이 되었다고 해요. “꼬끼오.” 그 울음은 기쁨이 아니라 그리움에서 나온 소리였어요.",
+      "vocabulary": [
+        {
+          "ko": "선녀",
+          "en": "sky fairy",
+          "definitionEn": "A heavenly woman from Korean folktales.",
+          "definitionKo": "한국 옛이야기에 나오는 하늘 세계의 여인이에요."
+        },
+        {
+          "ko": "수탉",
+          "en": "rooster",
+          "definitionEn": "A bird that calls at dawn in the folktale ending.",
+          "definitionKo": "옛이야기 끝에서 새벽에 우는 새예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Include the traditional rooster ending in a gentle framing.",
+        "emotion": "mythic, wistful, dawn",
+        "pageTurnHook": "The call rose every morning, thin and bright.",
+        "readAloudCue": "Read with a measured, bittersweet folktale cadence; keep suspense gentle and never triumphant when trust breaks.",
+        "childInteraction": "Tap the dawn sky above the rooster."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/fairy_woodcutter.character_bible.json. Page 27 for 선녀와 나무꾼 / The Fairy and the Woodcutter: wistful rooster on Korean cottage roof at dawn facing the sky, faint memory of woodcutter in silhouette, no comedy. Premium Korean watercolor, gouache, soft ink, hanji texture, restrained emotional staging, fit-safe composition, safe margins, no cropping, no cropped faces or hands. Preserve the folktale's consequence and longing; do not make the departure or ascent look purely happy. No text, no letters, no watermark, labels, logos, modern objects, horror, or graphic harm.",
+      "imageAsset": "assets/books/fairy-and-woodcutter/page-027.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration; Korean optional narration should sound natural, musical, culturally grounded, and bittersweet rather than cheerful in consequence scenes.",
+      "narrationAudio": "audio/synthetic-draft/narration/fairy-and-woodcutter/ko/page-027.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/fairy-and-woodcutter/ambient/ambient-loop.wav",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_027/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_027/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_027/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_027/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "soft moonlight, feather, or dawn glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_027/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_027/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fairy_woodcutter_028",
+      "pageNumber": 28,
+      "text": {
+        "enLittle": "The fairy remembered everything too.",
+        "enStandard": "Far above, the fairy heard the rooster's dawn call and held the children close. She did not laugh at him. She remembered the spring, the robe, and the truth.",
+        "koLittle": "선녀도 모든 일을 기억했어요.",
+        "koStandard": "높은 하늘에서 선녀는 수탉의 새벽 울음소리를 듣고 아이들을 꼭 안았어요. 선녀는 그를 비웃지 않았어요. 샘과 날개옷, 그리고 진실을 기억했지요."
+      },
+      "koreanText": "높은 하늘에서 선녀는 수탉의 새벽 울음소리를 듣고 아이들을 꼭 안았어요. 선녀는 그를 비웃지 않았어요. 샘과 날개옷, 그리고 진실을 기억했지요.",
+      "englishText": "Far above, the fairy heard the rooster's dawn call and held the children close. She did not laugh at him. She remembered the spring, the robe, and the truth.",
+      "narrationScript": "높은 하늘에서 선녀는 수탉의 새벽 울음소리를 듣고 아이들을 꼭 안았어요. 선녀는 그를 비웃지 않았어요. 샘과 날개옷, 그리고 진실을 기억했지요.",
+      "vocabulary": [
+        {
+          "ko": "날개옷",
+          "en": "wing robe",
+          "definitionEn": "A magical robe that lets the sky fairy fly home.",
+          "definitionKo": "선녀가 하늘로 돌아가게 해 주는 신비한 옷이에요."
+        },
+        {
+          "ko": "선녀",
+          "en": "sky fairy",
+          "definitionEn": "A heavenly woman from Korean folktales.",
+          "definitionKo": "한국 옛이야기에 나오는 하늘 세계의 여인이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Give the fairy emotional dignity while connecting the rooster ending.",
+        "emotion": "sad, dignified, compassionate",
+        "pageTurnHook": "The children asked why the morning sounded so lonely.",
+        "readAloudCue": "Read with a measured, bittersweet folktale cadence; keep suspense gentle and never triumphant when trust breaks.",
+        "childInteraction": "Hold on the two children beside her."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/fairy_woodcutter.character_bible.json. Page 28 for 선녀와 나무꾼 / The Fairy and the Woodcutter: sky fairy in celestial home holding two children close, listening to rooster dawn call from below, solemn compassionate expression. Premium Korean watercolor, gouache, soft ink, hanji texture, restrained emotional staging, fit-safe composition, safe margins, no cropping, no cropped faces or hands. Preserve the folktale's consequence and longing; do not make the departure or ascent look purely happy. No text, no letters, no watermark, labels, logos, modern objects, horror, or graphic harm.",
+      "imageAsset": "assets/books/fairy-and-woodcutter/page-028.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration; Korean optional narration should sound natural, musical, culturally grounded, and bittersweet rather than cheerful in consequence scenes.",
+      "narrationAudio": "audio/synthetic-draft/narration/fairy-and-woodcutter/ko/page-028.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/fairy-and-woodcutter/ambient/ambient-loop.wav",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_028/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_028/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_028/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_028/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "soft moonlight, feather, or dawn glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_028/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_028/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fairy_woodcutter_029",
+      "pageNumber": 29,
+      "text": {
+        "enLittle": "Love needs truth.",
+        "enStandard": "The children learned that love is not keeping someone by hiding what belongs to them. Love needs truth, even when truth is hard to say.",
+        "koLittle": "사랑에는 진실이 필요해요.",
+        "koStandard": "아이들은 사랑이 누군가의 것을 숨겨 붙잡는 일이 아니라는 것을 배웠어요. 사랑에는 말하기 어려운 진실도 필요하다는 것을요."
+      },
+      "koreanText": "아이들은 사랑이 누군가의 것을 숨겨 붙잡는 일이 아니라는 것을 배웠어요. 사랑에는 말하기 어려운 진실도 필요하다는 것을요.",
+      "englishText": "The children learned that love is not keeping someone by hiding what belongs to them. Love needs truth, even when truth is hard to say.",
+      "narrationScript": "아이들은 사랑이 누군가의 것을 숨겨 붙잡는 일이 아니라는 것을 배웠어요. 사랑에는 말하기 어려운 진실도 필요하다는 것을요.",
+      "vocabulary": [
+        {
+          "ko": "수탉",
+          "en": "rooster",
+          "definitionEn": "A bird that calls at dawn in the folktale ending.",
+          "definitionKo": "옛이야기 끝에서 새벽에 우는 새예요."
+        },
+        {
+          "ko": "날개옷",
+          "en": "wing robe",
+          "definitionEn": "A magical robe that lets the sky fairy fly home.",
+          "definitionKo": "선녀가 하늘로 돌아가게 해 주는 신비한 옷이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Make the ethical lesson clear for children.",
+        "emotion": "clear, reflective, gentle",
+        "pageTurnHook": "And every sunrise carried the lesson again.",
+        "readAloudCue": "Read with a measured, bittersweet folktale cadence; keep suspense gentle and never triumphant when trust breaks.",
+        "childInteraction": "Choose the open hand instead of the hidden robe."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/fairy_woodcutter.character_bible.json. Page 29 for 선녀와 나무꾼 / The Fairy and the Woodcutter: symbolic gentle scene, open hands with feather robe returned, children watching sunrise, Korean ink wash, no heavy sadness. Premium Korean watercolor, gouache, soft ink, hanji texture, restrained emotional staging, fit-safe composition, safe margins, no cropping, no cropped faces or hands. Preserve the folktale's consequence and longing; do not make the departure or ascent look purely happy. No text, no letters, no watermark, labels, logos, modern objects, horror, or graphic harm.",
+      "imageAsset": "assets/books/fairy-and-woodcutter/page-029.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration; Korean optional narration should sound natural, musical, culturally grounded, and bittersweet rather than cheerful in consequence scenes.",
+      "narrationAudio": "audio/synthetic-draft/narration/fairy-and-woodcutter/ko/page-029.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/fairy-and-woodcutter/ambient/ambient-loop.wav",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_029/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_029/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_029/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_029/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "soft moonlight, feather, or dawn glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_029/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_029/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fairy_woodcutter_030",
+      "pageNumber": 30,
+      "text": {
+        "enLittle": "The rooster call remembers the story.",
+        "enStandard": "So when morning roosters call, some people hear more than noise. They hear a story about a hidden robe, a broken warning, and a heart learning too late.",
+        "koLittle": "수탉 울음은 이야기를 기억해요.",
+        "koStandard": "그래서 아침 수탉이 울 때, 어떤 사람들은 그 소리에서 숨겨진 날개옷과 깨진 경고, 너무 늦게 배운 마음의 이야기를 들어요."
+      },
+      "koreanText": "그래서 아침 수탉이 울 때, 어떤 사람들은 그 소리에서 숨겨진 날개옷과 깨진 경고, 너무 늦게 배운 마음의 이야기를 들어요.",
+      "englishText": "So when morning roosters call, some people hear more than noise. They hear a story about a hidden robe, a broken warning, and a heart learning too late.",
+      "narrationScript": "그래서 아침 수탉이 울 때, 어떤 사람들은 그 소리에서 숨겨진 날개옷과 깨진 경고, 너무 늦게 배운 마음의 이야기를 들어요.",
+      "vocabulary": [
+        {
+          "ko": "날개옷",
+          "en": "wing robe",
+          "definitionEn": "A magical robe that lets the sky fairy fly home.",
+          "definitionKo": "선녀가 하늘로 돌아가게 해 주는 신비한 옷이에요."
+        },
+        {
+          "ko": "나무꾼",
+          "en": "woodcutter",
+          "definitionEn": "A person who gathers wood in the mountains.",
+          "definitionKo": "산에서 나무를 하는 사람이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Tie the folktale ending to the everyday rooster call.",
+        "emotion": "wistful, memorable, dawn",
+        "pageTurnHook": "The sky brightened, but the lesson stayed.",
+        "readAloudCue": "Read with a measured, bittersweet folktale cadence; keep suspense gentle and never triumphant when trust breaks.",
+        "childInteraction": "Trace the sound from roof to sky."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/fairy_woodcutter.character_bible.json. Page 30 for 선녀와 나무꾼 / The Fairy and the Woodcutter: morning village rooftops, rooster call drifting toward brightening sky, subtle feather motif, Korean mountain village. Premium Korean watercolor, gouache, soft ink, hanji texture, restrained emotional staging, fit-safe composition, safe margins, no cropping, no cropped faces or hands. Preserve the folktale's consequence and longing; do not make the departure or ascent look purely happy. No text, no letters, no watermark, labels, logos, modern objects, horror, or graphic harm.",
+      "imageAsset": "assets/books/fairy-and-woodcutter/page-030.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration; Korean optional narration should sound natural, musical, culturally grounded, and bittersweet rather than cheerful in consequence scenes.",
+      "narrationAudio": "audio/synthetic-draft/narration/fairy-and-woodcutter/ko/page-030.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/fairy-and-woodcutter/ambient/ambient-loop.wav",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_030/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_030/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_030/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_030/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "soft moonlight, feather, or dawn glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_030/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_030/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrain": "Warnings are quiet, but they are heavy."
+    },
+    {
+      "id": "fairy_woodcutter_031",
+      "pageNumber": 31,
+      "text": {
+        "enLittle": "Borrowed wings should be returned.",
+        "enStandard": "The mountain spring stayed clear. Children who visited it were told, \"Borrowed wings must be returned, and promises must be kept while there is time.\"",
+        "koLittle": "빌린 날개는 돌려주어야 해요.",
+        "koStandard": "산속 샘은 오래도록 맑았어요. 그곳을 찾는 아이들은 이런 말을 들었지요. “빌린 날개는 돌려주고, 약속은 늦기 전에 지켜야 한단다.”"
+      },
+      "koreanText": "산속 샘은 오래도록 맑았어요. 그곳을 찾는 아이들은 이런 말을 들었지요. “빌린 날개는 돌려주고, 약속은 늦기 전에 지켜야 한단다.”",
+      "englishText": "The mountain spring stayed clear. Children who visited it were told, \"Borrowed wings must be returned, and promises must be kept while there is time.\"",
+      "narrationScript": "산속 샘은 오래도록 맑았어요. 그곳을 찾는 아이들은 이런 말을 들었지요. “빌린 날개는 돌려주고, 약속은 늦기 전에 지켜야 한단다.”",
+      "vocabulary": [
+        {
+          "ko": "수탉",
+          "en": "rooster",
+          "definitionEn": "A bird that calls at dawn in the folktale ending.",
+          "definitionKo": "옛이야기 끝에서 새벽에 우는 새예요."
+        },
+        {
+          "ko": "선녀",
+          "en": "sky fairy",
+          "definitionEn": "A heavenly woman from Korean folktales.",
+          "definitionKo": "한국 옛이야기에 나오는 하늘 세계의 여인이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Close with a child-safe maxim grounded in the story objects.",
+        "emotion": "wise, calm, reflective",
+        "pageTurnHook": "The last ripple carried the tale home.",
+        "readAloudCue": "Read with a measured, bittersweet folktale cadence; keep suspense gentle and never triumphant when trust breaks.",
+        "childInteraction": "Rub the spring water to make one ripple."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/fairy_woodcutter.character_bible.json. Page 31 for 선녀와 나무꾼 / The Fairy and the Woodcutter: clear mountain spring in daylight, children listening to elder beside rocks and reeds, feather reflection in water, calm Korean landscape. Premium Korean watercolor, gouache, soft ink, hanji texture, restrained emotional staging, fit-safe composition, safe margins, no cropping, no cropped faces or hands. Preserve the folktale's consequence and longing; do not make the departure or ascent look purely happy. No text, no letters, no watermark, labels, logos, modern objects, horror, or graphic harm.",
+      "imageAsset": "assets/books/fairy-and-woodcutter/page-031.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration; Korean optional narration should sound natural, musical, culturally grounded, and bittersweet rather than cheerful in consequence scenes.",
+      "narrationAudio": "audio/synthetic-draft/narration/fairy-and-woodcutter/ko/page-031.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/fairy-and-woodcutter/ambient/ambient-loop.wav",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_031/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_031/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_031/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_031/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "soft moonlight, feather, or dawn glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_031/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_031/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fairy_woodcutter_032",
+      "pageNumber": 32,
+      "text": {
+        "enLittle": "This is a story about being honest sooner.",
+        "enStandard": "And if the dawn sounds a little sad, listen carefully. The old tale is not cheering when he goes up or when she flies away; it is teaching us to be honest sooner.",
+        "koLittle": "이 이야기는 더 일찍 정직하라고 말해요.",
+        "koStandard": "새벽 소리가 조금 슬프게 들린다면 귀 기울여 보세요. 이 옛이야기는 올라가거나 날아가는 장면을 마냥 기뻐하지 않아요. 더 일찍 정직하라고 알려 주는 이야기예요."
+      },
+      "koreanText": "새벽 소리가 조금 슬프게 들린다면 귀 기울여 보세요. 이 옛이야기는 올라가거나 날아가는 장면을 마냥 기뻐하지 않아요. 더 일찍 정직하라고 알려 주는 이야기예요.",
+      "englishText": "And if the dawn sounds a little sad, listen carefully. The old tale is not cheering when he goes up or when she flies away; it is teaching us to be honest sooner.",
+      "narrationScript": "새벽 소리가 조금 슬프게 들린다면 귀 기울여 보세요. 이 옛이야기는 올라가거나 날아가는 장면을 마냥 기뻐하지 않아요. 더 일찍 정직하라고 알려 주는 이야기예요.",
+      "vocabulary": [
+        {
+          "ko": "수탉",
+          "en": "rooster",
+          "definitionEn": "A bird that calls at dawn in the folktale ending.",
+          "definitionKo": "옛이야기 끝에서 새벽에 우는 새예요."
+        },
+        {
+          "ko": "날개옷",
+          "en": "wing robe",
+          "definitionEn": "A magical robe that lets the sky fairy fly home.",
+          "definitionKo": "선녀가 하늘로 돌아가게 해 주는 신비한 옷이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Explicitly correct the tone: ascent and departure are bittersweet, not happy spectacle.",
+        "emotion": "honest, tender, bittersweet",
+        "pageTurnHook": "The morning opened, and the story rested.",
+        "readAloudCue": "Read with a measured, bittersweet folktale cadence; keep suspense gentle and never triumphant when trust breaks.",
+        "childInteraction": "Hold the final dawn until the sky brightens."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/fairy_woodcutter.character_bible.json. Page 32 for 선녀와 나무꾼 / The Fairy and the Woodcutter: bittersweet final dawn over Korean mountains and cottage roof, rooster silhouette facing sky, faint fairy and children shapes in clouds, solemn not cheerful. Premium Korean watercolor, gouache, soft ink, hanji texture, restrained emotional staging, fit-safe composition, safe margins, no cropping, no cropped faces or hands. Preserve the folktale's consequence and longing; do not make the departure or ascent look purely happy. No text, no letters, no watermark, labels, logos, modern objects, horror, or graphic harm.",
+      "imageAsset": "assets/books/fairy-and-woodcutter/page-032.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration; Korean optional narration should sound natural, musical, culturally grounded, and bittersweet rather than cheerful in consequence scenes.",
+      "narrationAudio": "audio/synthetic-draft/narration/fairy-and-woodcutter/ko/page-032.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/fairy-and-woodcutter/ambient/ambient-loop.wav",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_032/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_032/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_032/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_032/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "soft moonlight, feather, or dawn glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_032/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/fairy-and-woodcutter/fairy_woodcutter_032/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    }
+  ]
+}

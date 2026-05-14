@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedOn": "2026-05-11",
+  "status": "draft_not_submitted",
+  "sourceOfTruth": "shared-content/compliance/data_flow_map.json",
+  "appleAppPrivacy": {
+    "status": "draft_not_entered_in_app_store_connect",
+    "dataTypes": [
+      {
+        "category": "Purchases",
+        "collected": true,
+        "linkedToUser": false,
+        "tracking": false,
+        "purpose": "App Functionality"
+      },
+      {
+        "category": "Diagnostics",
+        "collected": false,
+        "linkedToUser": false,
+        "tracking": false,
+        "purpose": "Not configured"
+      },
+      {
+        "category": "Other User Content",
+        "collected": false,
+        "linkedToUser": false,
+        "tracking": false,
+        "purpose": "Voice recording feature not present"
+      }
+    ]
+  },
+  "googlePlayDataSafety": {
+    "status": "draft_not_entered_in_play_console",
+    "dataShared": false,
+    "dataCollected": true,
+    "dataTypes": [
+      {
+        "category": "App activity",
+        "type": "local reading progress",
+        "shared": false,
+        "processedEphemerally": false,
+        "required": true
+      },
+      {
+        "category": "Financial info",
+        "type": "purchase history or entitlement state",
+        "shared": true,
+        "sharedWith": ["Google Play", "Apple App Store"],
+        "required": true
+      }
+    ]
+  },
+  "nonEvidenceWarning": "Draft labels are not store-submission proof and do not replace legal/store review."
+}

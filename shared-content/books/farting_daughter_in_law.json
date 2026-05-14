@@ -1,0 +1,2329 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "book.farting_daughter_in_law",
+  "slug": "farting-daughter-in-law",
+  "title": {
+    "ko": "방귀쟁이 며느리",
+    "en": "The Farting Daughter-in-Law"
+  },
+  "access": "premium",
+  "ageRange": "3-8",
+  "estimatedMinutes": 8,
+  "summary": "A new daughter-in-law hides her powerful fart from shame, then uses the mighty wind to shake pears from a high tree and earn affectionate belonging.",
+  "coverAsset": "assets/books/farting-daughter-in-law/cover.png",
+  "coverAssetStatus": "placeholder",
+  "characterBible": "characters/farting_daughter_in_law.character_bible.json",
+  "narrationAudioStatus": "synthetic_draft",
+  "adaptationVersions": {
+    "default": "English-first bilingual semantic-authenticity repair draft",
+    "plannedAlternate": "External editor pass after children’s editorial and Korean-language review",
+    "note": "Generated repo-local repair draft; not external human final."
+  },
+  "sensitivityNotes": [
+    "Comic body humor removes shame instead of humiliating the young woman.",
+    "Repaired by repo-local semantic authenticity pass; external children’s editor, Korean-language, cultural, and child-safety review remain required before final release."
+  ],
+  "themes": [
+    "body humor",
+    "belonging",
+    "family",
+    "acceptance",
+    "pear tree"
+  ],
+  "characters": [
+    "daughter_in_law",
+    "mother_in_law",
+    "family",
+    "wind_jar"
+  ],
+  "pages": [
+    {
+      "id": "farting_daughter_in_law_001",
+      "pageNumber": 1,
+      "text": {
+        "enLittle": "The new daughter-in-law folded blankets so neatly even the corners looked shy.",
+        "enStandard": "In the sunny courtyard, first, the new daughter-in-law folded blankets so neatly even the corners looked shy. \"I will answer carefully,\" came the reply.",
+        "koLittle": "며느리와 방귀가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "며느리와 방귀가 있는 옛이야기 길에서 며느리와 방귀가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "며느리와 방귀가 있는 옛이야기 길에서 며느리와 방귀가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the sunny courtyard, first, the new daughter-in-law folded blankets so neatly even the corners looked shy. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "며느리와 방귀가 있는 옛이야기 길에서 며느리와 방귀가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "며느리",
+          "en": "daughter-in-law",
+          "romanization": "myeoneuri",
+          "definitionEn": "A woman newly joined to a family by marriage.",
+          "definitionKo": "결혼으로 새 가족이 된 여인이에요."
+        },
+        {
+          "ko": "바람",
+          "en": "wind",
+          "romanization": "baram",
+          "definitionEn": "Moving air.",
+          "definitionKo": "움직이는 공기예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "new daughter-in-law tries too hard to be perfect (new home)",
+        "emotion": "nervous warmth",
+        "pageTurnHook": "Then the next part of new home will ask for a braver choice, and the story moves toward hidden wind.",
+        "readAloudCue": "Read with nervous warmth; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap sunny courtyard."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/farting_daughter_in_law.character_bible.json. Page 1 for 방귀쟁이 며느리 / The Farting Daughter-in-Law: sunny courtyard; specific beat: the new daughter-in-law folded blankets so neatly even the corners looked shy; emotional tone: nervous warmth; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/farting-daughter-in-law/page-001.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with nervous warmth; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/farting-daughter-in-law/ko/page-001.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/farting-daughter-in-law/ambient/ambient-loop.wav",
+      "characterBible": "characters/farting_daughter_in_law.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_001/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_001/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_001/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_001/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_001/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_001/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "farting_daughter_in_law_002",
+      "pageNumber": 2,
+      "text": {
+        "enLittle": "Her stomach rumbled louder than the courtyard hens.",
+        "enStandard": "In the sunny courtyard, next, her stomach rumbled louder than the courtyard hens. \"Then walk gently,\" the elder said.",
+        "koLittle": "바람 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "며느리와 방귀가 있는 옛이야기 길에서 바람 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "며느리와 방귀가 있는 옛이야기 길에서 바람 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the sunny courtyard, next, her stomach rumbled louder than the courtyard hens. \"Then walk gently,\" the elder said.",
+      "narrationScript": "며느리와 방귀가 있는 옛이야기 길에서 바람 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "방귀",
+          "en": "fart",
+          "romanization": "bangwi",
+          "definitionEn": "A funny body sound.",
+          "definitionKo": "몸에서 나는 우스운 소리예요."
+        },
+        {
+          "ko": "배나무",
+          "en": "pear tree",
+          "romanization": "baenamu",
+          "definitionEn": "A tree that grows pears.",
+          "definitionKo": "배가 열리는 나무예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "new daughter-in-law tries too hard to be perfect (new home)",
+        "emotion": "nervous warmth",
+        "pageTurnHook": "Then the next part of new home will ask for a braver choice, and the story moves toward hidden wind.",
+        "readAloudCue": "Read with nervous warmth; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace sunny courtyard."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/farting_daughter_in_law.character_bible.json. Page 2 for 방귀쟁이 며느리 / The Farting Daughter-in-Law: sunny courtyard; specific beat: her stomach rumbled louder than the courtyard hens; emotional tone: nervous warmth; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/farting-daughter-in-law/page-002.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with nervous warmth; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/farting-daughter-in-law/ko/page-002.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/farting-daughter-in-law/ambient/ambient-loop.wav",
+      "characterBible": "characters/farting_daughter_in_law.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_002/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_002/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_002/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_002/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_002/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_002/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "farting_daughter_in_law_003",
+      "pageNumber": 3,
+      "text": {
+        "enLittle": "She pressed both hands to her belly and smiled too politely.",
+        "enStandard": "In the sunny courtyard, quietly, she pressed both hands to her belly and smiled too politely. \"I am still learning,\" the child answered.",
+        "koLittle": "며느리를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "며느리와 방귀가 있는 옛이야기 길에서 며느리를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "며느리와 방귀가 있는 옛이야기 길에서 며느리를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the sunny courtyard, quietly, she pressed both hands to her belly and smiled too politely. \"I am still learning,\" the child answered.",
+      "narrationScript": "며느리와 방귀가 있는 옛이야기 길에서 며느리를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "바람",
+          "en": "wind",
+          "romanization": "baram",
+          "definitionEn": "Moving air.",
+          "definitionKo": "움직이는 공기예요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "new daughter-in-law tries too hard to be perfect (new home)",
+        "emotion": "nervous warmth",
+        "pageTurnHook": "Then the next part of new home will ask for a braver choice, and the story moves toward hidden wind.",
+        "readAloudCue": "Read with nervous warmth; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count sunny courtyard."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/farting_daughter_in_law.character_bible.json. Page 3 for 방귀쟁이 며느리 / The Farting Daughter-in-Law: sunny courtyard; specific beat: she pressed both hands to her belly and smiled too politely; emotional tone: nervous warmth; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/farting-daughter-in-law/page-003.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with nervous warmth; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/farting-daughter-in-law/ko/page-003.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/farting-daughter-in-law/ambient/ambient-loop.wav",
+      "characterBible": "characters/farting_daughter_in_law.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_003/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_003/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_003/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_003/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_003/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_003/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "farting_daughter_in_law_004",
+      "pageNumber": 4,
+      "text": {
+        "enLittle": "The family praised quiet manners without knowing quiet was becoming impossible.",
+        "enStandard": "In the sunny courtyard, with the moon high, the family praised quiet manners without knowing quiet was becoming impossible. \"Tell me the truth,\" someone said.",
+        "koLittle": "배나무의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "며느리와 방귀가 있는 옛이야기 길에서 배나무의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "며느리와 방귀가 있는 옛이야기 길에서 배나무의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the sunny courtyard, with the moon high, the family praised quiet manners without knowing quiet was becoming impossible. \"Tell me the truth,\" someone said.",
+      "narrationScript": "며느리와 방귀가 있는 옛이야기 길에서 배나무의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "배나무",
+          "en": "pear tree",
+          "romanization": "baenamu",
+          "definitionEn": "A tree that grows pears.",
+          "definitionKo": "배가 열리는 나무예요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "new daughter-in-law tries too hard to be perfect (new home)",
+        "emotion": "nervous warmth",
+        "pageTurnHook": "Then the next part of new home will ask for a braver choice, and the story moves toward hidden wind.",
+        "readAloudCue": "Read with nervous warmth; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold sunny courtyard."
+      },
+      "refrain": "Let the wind be useful.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/farting_daughter_in_law.character_bible.json. Page 4 for 방귀쟁이 며느리 / The Farting Daughter-in-Law: sunny courtyard; specific beat: the family praised quiet manners without knowing quiet was becoming impossible; emotional tone: nervous warmth; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/farting-daughter-in-law/page-004.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with nervous warmth; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/farting-daughter-in-law/ko/page-004.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/farting-daughter-in-law/ambient/ambient-loop.wav",
+      "characterBible": "characters/farting_daughter_in_law.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_004/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_004/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_004/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_004/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_004/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_004/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "바람도 쓸모가 있어."
+    },
+    {
+      "id": "farting_daughter_in_law_005",
+      "pageNumber": 5,
+      "text": {
+        "enLittle": "She held in one fart through breakfast.",
+        "enStandard": "In the hanji room, first, she held in one fart through breakfast, then two through tea. \"Then walk gently,\" the elder said.",
+        "koLittle": "방귀와 바람가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "방귀와 바람가 있는 옛이야기 길에서 방귀와 바람가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "방귀와 바람가 있는 옛이야기 길에서 방귀와 바람가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the hanji room, first, she held in one fart through breakfast, then two through tea. \"Then walk gently,\" the elder said.",
+      "narrationScript": "방귀와 바람가 있는 옛이야기 길에서 방귀와 바람가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "she hides the fart until it becomes a problem (hidden wind)",
+        "emotion": "comic pressure",
+        "pageTurnHook": "Then the next part of hidden wind will ask for a braver choice, and the story moves toward truth bursts.",
+        "readAloudCue": "Read with comic pressure; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe hanji room."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/farting_daughter_in_law.character_bible.json. Page 5 for 방귀쟁이 며느리 / The Farting Daughter-in-Law: hanji room; specific beat: she held in one fart through breakfast, then two through tea; emotional tone: comic pressure; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/farting-daughter-in-law/page-005.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with comic pressure; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/farting-daughter-in-law/ko/page-005.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/farting-daughter-in-law/ambient/ambient-loop.wav",
+      "characterBible": "characters/farting_daughter_in_law.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_005/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_005/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_005/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_005/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_005/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_005/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "farting_daughter_in_law_006",
+      "pageNumber": 6,
+      "text": {
+        "enLittle": "The moon jar trembled when she walked past.",
+        "enStandard": "In the hanji room, next, the moon jar trembled when she walked past. \"I am still learning,\" the child answered.",
+        "koLittle": "배나무 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "방귀와 바람가 있는 옛이야기 길에서 배나무 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "방귀와 바람가 있는 옛이야기 길에서 배나무 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the hanji room, next, the moon jar trembled when she walked past. \"I am still learning,\" the child answered.",
+      "narrationScript": "방귀와 바람가 있는 옛이야기 길에서 배나무 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "she hides the fart until it becomes a problem (hidden wind)",
+        "emotion": "comic pressure",
+        "pageTurnHook": "Then the next part of hidden wind will ask for a braver choice, and the story moves toward truth bursts.",
+        "readAloudCue": "Read with comic pressure; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open hanji room."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/farting_daughter_in_law.character_bible.json. Page 6 for 방귀쟁이 며느리 / The Farting Daughter-in-Law: hanji room; specific beat: the moon jar trembled when she walked past; emotional tone: comic pressure; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/farting-daughter-in-law/page-006.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with comic pressure; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/farting-daughter-in-law/ko/page-006.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/farting-daughter-in-law/ambient/ambient-loop.wav",
+      "characterBible": "characters/farting_daughter_in_law.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_006/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_006/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_006/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_006/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_006/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_006/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "farting_daughter_in_law_007",
+      "pageNumber": 7,
+      "text": {
+        "enLittle": "A tiny puff escaped and blew ash into a perfect circle.",
+        "enStandard": "In the hanji room, quietly, a tiny puff escaped and blew ash into a perfect circle. \"Tell me the truth,\" someone said.",
+        "koLittle": "방귀를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "방귀와 바람가 있는 옛이야기 길에서 방귀를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "방귀와 바람가 있는 옛이야기 길에서 방귀를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the hanji room, quietly, a tiny puff escaped and blew ash into a perfect circle. \"Tell me the truth,\" someone said.",
+      "narrationScript": "방귀와 바람가 있는 옛이야기 길에서 방귀를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "she hides the fart until it becomes a problem (hidden wind)",
+        "emotion": "comic pressure",
+        "pageTurnHook": "Then the next part of hidden wind will ask for a braver choice, and the story moves toward truth bursts.",
+        "readAloudCue": "Read with comic pressure; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose hanji room."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/farting_daughter_in_law.character_bible.json. Page 7 for 방귀쟁이 며느리 / The Farting Daughter-in-Law: hanji room; specific beat: a tiny puff escaped and blew ash into a perfect circle; emotional tone: comic pressure; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/farting-daughter-in-law/page-007.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with comic pressure; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/farting-daughter-in-law/ko/page-007.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/farting-daughter-in-law/ambient/ambient-loop.wav",
+      "characterBible": "characters/farting_daughter_in_law.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_007/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_007/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_007/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_007/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_007/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_007/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "farting_daughter_in_law_008",
+      "pageNumber": 8,
+      "text": {
+        "enLittle": "She worried the family would send her away for being human.",
+        "enStandard": "In the hanji room, with the moon high, she worried the family would send her away for being human. \"I will answer carefully,\" came the reply.",
+        "koLittle": "며느리의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "방귀와 바람가 있는 옛이야기 길에서 며느리의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "방귀와 바람가 있는 옛이야기 길에서 며느리의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the hanji room, with the moon high, she worried the family would send her away for being human. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "방귀와 바람가 있는 옛이야기 길에서 며느리의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "she hides the fart until it becomes a problem (hidden wind)",
+        "emotion": "comic pressure",
+        "pageTurnHook": "Then the next part of hidden wind will ask for a braver choice, and the story moves toward truth bursts.",
+        "readAloudCue": "Read with comic pressure; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag hanji room."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/farting_daughter_in_law.character_bible.json. Page 8 for 방귀쟁이 며느리 / The Farting Daughter-in-Law: hanji room; specific beat: she worried the family would send her away for being human; emotional tone: comic pressure; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/farting-daughter-in-law/page-008.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with comic pressure; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/farting-daughter-in-law/ko/page-008.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/farting-daughter-in-law/ambient/ambient-loop.wav",
+      "characterBible": "characters/farting_daughter_in_law.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_008/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_008/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_008/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_008/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_008/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_008/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "farting_daughter_in_law_009",
+      "pageNumber": 9,
+      "text": {
+        "enLittle": "At last the fart burst out like a festival drum.",
+        "enStandard": "In the courtyard gate, first, at last the fart burst out like a festival drum. \"I am still learning,\" the child answered.",
+        "koLittle": "바람와 배나무가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "바람와 배나무가 있는 옛이야기 길에서 바람와 배나무가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "바람와 배나무가 있는 옛이야기 길에서 바람와 배나무가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the courtyard gate, first, at last the fart burst out like a festival drum. \"I am still learning,\" the child answered.",
+      "narrationScript": "바람와 배나무가 있는 옛이야기 길에서 바람와 배나무가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "며느리",
+          "en": "daughter-in-law",
+          "romanization": "myeoneuri",
+          "definitionEn": "A woman newly joined to a family by marriage.",
+          "definitionKo": "결혼으로 새 가족이 된 여인이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "the mighty fart is revealed safely (truth bursts)",
+        "emotion": "startled comedy",
+        "pageTurnHook": "Then the next part of truth bursts will ask for a braver choice, and the story moves toward sent away.",
+        "readAloudCue": "Read with startled comedy; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap courtyard gate."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/farting_daughter_in_law.character_bible.json. Page 9 for 방귀쟁이 며느리 / The Farting Daughter-in-Law: courtyard gate; specific beat: at last the fart burst out like a festival drum; emotional tone: startled comedy; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/farting-daughter-in-law/page-009.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with startled comedy; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/farting-daughter-in-law/ko/page-009.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/farting-daughter-in-law/ambient/ambient-loop.wav",
+      "characterBible": "characters/farting_daughter_in_law.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_009/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_009/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_009/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_009/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_009/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_009/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "farting_daughter_in_law_010",
+      "pageNumber": 10,
+      "text": {
+        "enLittle": "Laundry snapped straight.",
+        "enStandard": "In the courtyard gate, next, laundry snapped straight, chickens lifted one feather-width, and nobody was hurt. \"Tell me the truth,\" someone said.",
+        "koLittle": "며느리 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "바람와 배나무가 있는 옛이야기 길에서 며느리 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "바람와 배나무가 있는 옛이야기 길에서 며느리 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the courtyard gate, next, laundry snapped straight, chickens lifted one feather-width, and nobody was hurt. \"Tell me the truth,\" someone said.",
+      "narrationScript": "바람와 배나무가 있는 옛이야기 길에서 며느리 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "방귀",
+          "en": "fart",
+          "romanization": "bangwi",
+          "definitionEn": "A funny body sound.",
+          "definitionKo": "몸에서 나는 우스운 소리예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "the mighty fart is revealed safely (truth bursts)",
+        "emotion": "startled comedy",
+        "pageTurnHook": "Then the next part of truth bursts will ask for a braver choice, and the story moves toward sent away.",
+        "readAloudCue": "Read with startled comedy; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace courtyard gate."
+      },
+      "refrain": "Let the wind be useful.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/farting_daughter_in_law.character_bible.json. Page 10 for 방귀쟁이 며느리 / The Farting Daughter-in-Law: courtyard gate; specific beat: laundry snapped straight, chickens lifted one feather-width, and nobody was hurt; emotional tone: startled comedy; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/farting-daughter-in-law/page-010.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with startled comedy; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/farting-daughter-in-law/ko/page-010.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/farting-daughter-in-law/ambient/ambient-loop.wav",
+      "characterBible": "characters/farting_daughter_in_law.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_010/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_010/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_010/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_010/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_010/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_010/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "바람도 쓸모가 있어."
+    },
+    {
+      "id": "farting_daughter_in_law_011",
+      "pageNumber": 11,
+      "text": {
+        "enLittle": "The family stared until grandmother laughed first.",
+        "enStandard": "In the courtyard gate, quietly, the family stared until Grandmother laughed first. \"I will answer carefully,\" came the reply.",
+        "koLittle": "바람를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "바람와 배나무가 있는 옛이야기 길에서 바람를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "바람와 배나무가 있는 옛이야기 길에서 바람를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the courtyard gate, quietly, the family stared until Grandmother laughed first. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "바람와 배나무가 있는 옛이야기 길에서 바람를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "며느리",
+          "en": "daughter-in-law",
+          "romanization": "myeoneuri",
+          "definitionEn": "A woman newly joined to a family by marriage.",
+          "definitionKo": "결혼으로 새 가족이 된 여인이에요."
+        },
+        {
+          "ko": "바람",
+          "en": "wind",
+          "romanization": "baram",
+          "definitionEn": "Moving air.",
+          "definitionKo": "움직이는 공기예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "the mighty fart is revealed safely (truth bursts)",
+        "emotion": "startled comedy",
+        "pageTurnHook": "Then the next part of truth bursts will ask for a braver choice, and the story moves toward sent away.",
+        "readAloudCue": "Read with startled comedy; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count courtyard gate."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/farting_daughter_in_law.character_bible.json. Page 11 for 방귀쟁이 며느리 / The Farting Daughter-in-Law: courtyard gate; specific beat: the family stared until Grandmother laughed first; emotional tone: startled comedy; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/farting-daughter-in-law/page-011.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with startled comedy; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/farting-daughter-in-law/ko/page-011.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/farting-daughter-in-law/ambient/ambient-loop.wav",
+      "characterBible": "characters/farting_daughter_in_law.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_011/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_011/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_011/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_011/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_011/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_011/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "farting_daughter_in_law_012",
+      "pageNumber": 12,
+      "text": {
+        "enLittle": "The daughter-in-law covered her face.",
+        "enStandard": "In the courtyard gate, with the moon high, the daughter-in-law covered her face, waiting for shame. \"Then walk gently,\" the elder said.",
+        "koLittle": "방귀의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "바람와 배나무가 있는 옛이야기 길에서 방귀의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "바람와 배나무가 있는 옛이야기 길에서 방귀의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the courtyard gate, with the moon high, the daughter-in-law covered her face, waiting for shame. \"Then walk gently,\" the elder said.",
+      "narrationScript": "바람와 배나무가 있는 옛이야기 길에서 방귀의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "방귀",
+          "en": "fart",
+          "romanization": "bangwi",
+          "definitionEn": "A funny body sound.",
+          "definitionKo": "몸에서 나는 우스운 소리예요."
+        },
+        {
+          "ko": "배나무",
+          "en": "pear tree",
+          "romanization": "baenamu",
+          "definitionEn": "A tree that grows pears.",
+          "definitionKo": "배가 열리는 나무예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "the mighty fart is revealed safely (truth bursts)",
+        "emotion": "startled comedy",
+        "pageTurnHook": "Then the next part of truth bursts will ask for a braver choice, and the story moves toward sent away.",
+        "readAloudCue": "Read with startled comedy; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold courtyard gate."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/farting_daughter_in_law.character_bible.json. Page 12 for 방귀쟁이 며느리 / The Farting Daughter-in-Law: courtyard gate; specific beat: the daughter-in-law covered her face, waiting for shame; emotional tone: startled comedy; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/farting-daughter-in-law/page-012.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with startled comedy; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/farting-daughter-in-law/ko/page-012.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/farting-daughter-in-law/ambient/ambient-loop.wav",
+      "characterBible": "characters/farting_daughter_in_law.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_012/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_012/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_012/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_012/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_012/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_012/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "farting_daughter_in_law_013",
+      "pageNumber": 13,
+      "text": {
+        "enLittle": "Some relatives said such wind could not stay indoors.",
+        "enStandard": "In the road to pear grove, first, some relatives said such wind could not stay indoors. \"Tell me the truth,\" someone said.",
+        "koLittle": "배나무와 며느리가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "배나무와 며느리가 있는 옛이야기 길에서 배나무와 며느리가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "배나무와 며느리가 있는 옛이야기 길에서 배나무와 며느리가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the road to pear grove, first, some relatives said such wind could not stay indoors. \"Tell me the truth,\" someone said.",
+      "narrationScript": "배나무와 며느리가 있는 옛이야기 길에서 배나무와 며느리가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "바람",
+          "en": "wind",
+          "romanization": "baram",
+          "definitionEn": "Moving air.",
+          "definitionKo": "움직이는 공기예요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "family reacts wrongly, then needs her gift (sent away)",
+        "emotion": "hurt but hopeful",
+        "pageTurnHook": "Then the next part of sent away will ask for a braver choice, and the story moves toward pear tree help.",
+        "readAloudCue": "Read with hurt but hopeful; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe road to pear grove."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/farting_daughter_in_law.character_bible.json. Page 13 for 방귀쟁이 며느리 / The Farting Daughter-in-Law: road to pear grove; specific beat: some relatives said such wind could not stay indoors; emotional tone: hurt but hopeful; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/farting-daughter-in-law/page-013.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with hurt but hopeful; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/farting-daughter-in-law/ko/page-013.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/farting-daughter-in-law/ambient/ambient-loop.wav",
+      "characterBible": "characters/farting_daughter_in_law.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_013/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_013/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_013/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_013/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_013/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_013/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "farting_daughter_in_law_014",
+      "pageNumber": 14,
+      "text": {
+        "enLittle": "She walked toward her mother's house with tears and a rumbling belly.",
+        "enStandard": "In the road to pear grove, next, she walked toward her mother's house with tears and a rumbling belly. \"I will answer carefully,\" came the reply.",
+        "koLittle": "방귀 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "배나무와 며느리가 있는 옛이야기 길에서 방귀 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "배나무와 며느리가 있는 옛이야기 길에서 방귀 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the road to pear grove, next, she walked toward her mother's house with tears and a rumbling belly. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "배나무와 며느리가 있는 옛이야기 길에서 방귀 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "배나무",
+          "en": "pear tree",
+          "romanization": "baenamu",
+          "definitionEn": "A tree that grows pears.",
+          "definitionKo": "배가 열리는 나무예요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "family reacts wrongly, then needs her gift (sent away)",
+        "emotion": "hurt but hopeful",
+        "pageTurnHook": "Then the next part of sent away will ask for a braver choice, and the story moves toward pear tree help.",
+        "readAloudCue": "Read with hurt but hopeful; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open road to pear grove."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/farting_daughter_in_law.character_bible.json. Page 14 for 방귀쟁이 며느리 / The Farting Daughter-in-Law: road to pear grove; specific beat: she walked toward her mother's house with tears and a rumbling belly; emotional tone: hurt but hopeful; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/farting-daughter-in-law/page-014.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with hurt but hopeful; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/farting-daughter-in-law/ko/page-014.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/farting-daughter-in-law/ambient/ambient-loop.wav",
+      "characterBible": "characters/farting_daughter_in_law.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_014/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_014/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_014/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_014/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_014/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_014/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "farting_daughter_in_law_015",
+      "pageNumber": 15,
+      "text": {
+        "enLittle": "On the road she saw pears hanging too high for harvest.",
+        "enStandard": "In the road to pear grove, quietly, on the road she saw pears hanging too high for harvest. \"Then walk gently,\" the elder said.",
+        "koLittle": "배나무를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "배나무와 며느리가 있는 옛이야기 길에서 배나무를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "배나무와 며느리가 있는 옛이야기 길에서 배나무를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the road to pear grove, quietly, on the road she saw pears hanging too high for harvest. \"Then walk gently,\" the elder said.",
+      "narrationScript": "배나무와 며느리가 있는 옛이야기 길에서 배나무를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "family reacts wrongly, then needs her gift (sent away)",
+        "emotion": "hurt but hopeful",
+        "pageTurnHook": "Then the next part of sent away will ask for a braver choice, and the story moves toward pear tree help.",
+        "readAloudCue": "Read with hurt but hopeful; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose road to pear grove."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/farting_daughter_in_law.character_bible.json. Page 15 for 방귀쟁이 며느리 / The Farting Daughter-in-Law: road to pear grove; specific beat: on the road she saw pears hanging too high for harvest; emotional tone: hurt but hopeful; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/farting-daughter-in-law/page-015.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with hurt but hopeful; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/farting-daughter-in-law/ko/page-015.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/farting-daughter-in-law/ambient/ambient-loop.wav",
+      "characterBible": "characters/farting_daughter_in_law.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_015/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_015/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_015/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_015/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_015/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_015/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "farting_daughter_in_law_016",
+      "pageNumber": 16,
+      "text": {
+        "enLittle": "Children below the tree wished for a ladder taller than summer.",
+        "enStandard": "In the road to pear grove, with the moon high, children below the tree wished for a ladder taller than summer. \"I am still learning,\" the child answered.",
+        "koLittle": "바람의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "배나무와 며느리가 있는 옛이야기 길에서 바람의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "배나무와 며느리가 있는 옛이야기 길에서 바람의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the road to pear grove, with the moon high, children below the tree wished for a ladder taller than summer. \"I am still learning,\" the child answered.",
+      "narrationScript": "배나무와 며느리가 있는 옛이야기 길에서 바람의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "family reacts wrongly, then needs her gift (sent away)",
+        "emotion": "hurt but hopeful",
+        "pageTurnHook": "Then the next part of sent away will ask for a braver choice, and the story moves toward pear tree help.",
+        "readAloudCue": "Read with hurt but hopeful; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag road to pear grove."
+      },
+      "refrain": "Let the wind be useful.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/farting_daughter_in_law.character_bible.json. Page 16 for 방귀쟁이 며느리 / The Farting Daughter-in-Law: road to pear grove; specific beat: children below the tree wished for a ladder taller than summer; emotional tone: hurt but hopeful; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/farting-daughter-in-law/page-016.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with hurt but hopeful; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/farting-daughter-in-law/ko/page-016.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/farting-daughter-in-law/ambient/ambient-loop.wav",
+      "characterBible": "characters/farting_daughter_in_law.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_016/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_016/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_016/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_016/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_016/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_016/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "바람도 쓸모가 있어."
+    },
+    {
+      "id": "farting_daughter_in_law_017",
+      "pageNumber": 17,
+      "text": {
+        "enLittle": "She planted her feet and asked everyone to stand back.",
+        "enStandard": "In the tall pear tree, first, she planted her feet and asked everyone to stand back. \"I will answer carefully,\" came the reply.",
+        "koLittle": "며느리와 방귀가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "며느리와 방귀가 있는 옛이야기 길에서 며느리와 방귀가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "며느리와 방귀가 있는 옛이야기 길에서 며느리와 방귀가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the tall pear tree, first, she planted her feet and asked everyone to stand back. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "며느리와 방귀가 있는 옛이야기 길에서 며느리와 방귀가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "she uses the fart to help (pear tree help)",
+        "emotion": "joyful release",
+        "pageTurnHook": "Then the next part of pear tree help will ask for a braver choice, and the story moves toward belonging.",
+        "readAloudCue": "Read with joyful release; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap tall pear tree."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/farting_daughter_in_law.character_bible.json. Page 17 for 방귀쟁이 며느리 / The Farting Daughter-in-Law: tall pear tree; specific beat: she planted her feet and asked everyone to stand back; emotional tone: joyful release; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/farting-daughter-in-law/page-017.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with joyful release; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/farting-daughter-in-law/ko/page-017.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/farting-daughter-in-law/ambient/ambient-loop.wav",
+      "characterBible": "characters/farting_daughter_in_law.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_017/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_017/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_017/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_017/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_017/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_017/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "farting_daughter_in_law_018",
+      "pageNumber": 18,
+      "text": {
+        "enLittle": "One mighty fart shook the pear tree like a friendly storm.",
+        "enStandard": "In the tall pear tree, next, one mighty fart shook the pear tree like a friendly storm. \"Then walk gently,\" the elder said.",
+        "koLittle": "바람 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "며느리와 방귀가 있는 옛이야기 길에서 바람 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "며느리와 방귀가 있는 옛이야기 길에서 바람 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the tall pear tree, next, one mighty fart shook the pear tree like a friendly storm. \"Then walk gently,\" the elder said.",
+      "narrationScript": "며느리와 방귀가 있는 옛이야기 길에서 바람 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "she uses the fart to help (pear tree help)",
+        "emotion": "joyful release",
+        "pageTurnHook": "Then the next part of pear tree help will ask for a braver choice, and the story moves toward belonging.",
+        "readAloudCue": "Read with joyful release; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace tall pear tree."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/farting_daughter_in_law.character_bible.json. Page 18 for 방귀쟁이 며느리 / The Farting Daughter-in-Law: tall pear tree; specific beat: one mighty fart shook the pear tree like a friendly storm; emotional tone: joyful release; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/farting-daughter-in-law/page-018.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with joyful release; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/farting-daughter-in-law/ko/page-018.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/farting-daughter-in-law/ambient/ambient-loop.wav",
+      "characterBible": "characters/farting_daughter_in_law.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_018/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_018/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_018/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_018/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_018/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_018/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "farting_daughter_in_law_019",
+      "pageNumber": 19,
+      "text": {
+        "enLittle": "Gold pears thumped into blankets instead of onto heads.",
+        "enStandard": "In the tall pear tree, quietly, gold pears thumped into blankets instead of onto heads. \"I am still learning,\" the child answered.",
+        "koLittle": "며느리를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "며느리와 방귀가 있는 옛이야기 길에서 며느리를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "며느리와 방귀가 있는 옛이야기 길에서 며느리를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the tall pear tree, quietly, gold pears thumped into blankets instead of onto heads. \"I am still learning,\" the child answered.",
+      "narrationScript": "며느리와 방귀가 있는 옛이야기 길에서 며느리를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "며느리",
+          "en": "daughter-in-law",
+          "romanization": "myeoneuri",
+          "definitionEn": "A woman newly joined to a family by marriage.",
+          "definitionKo": "결혼으로 새 가족이 된 여인이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "she uses the fart to help (pear tree help)",
+        "emotion": "joyful release",
+        "pageTurnHook": "Then the next part of pear tree help will ask for a braver choice, and the story moves toward belonging.",
+        "readAloudCue": "Read with joyful release; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count tall pear tree."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/farting_daughter_in_law.character_bible.json. Page 19 for 방귀쟁이 며느리 / The Farting Daughter-in-Law: tall pear tree; specific beat: gold pears thumped into blankets instead of onto heads; emotional tone: joyful release; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/farting-daughter-in-law/page-019.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with joyful release; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/farting-daughter-in-law/ko/page-019.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/farting-daughter-in-law/ambient/ambient-loop.wav",
+      "characterBible": "characters/farting_daughter_in_law.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_019/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_019/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_019/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_019/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_019/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_019/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "farting_daughter_in_law_020",
+      "pageNumber": 20,
+      "text": {
+        "enLittle": "Laughter rose without cruelty this time.",
+        "enStandard": "In the tall pear tree, with the moon high, laughter rose without cruelty this time. \"Tell me the truth,\" someone said.",
+        "koLittle": "배나무의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "며느리와 방귀가 있는 옛이야기 길에서 배나무의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "며느리와 방귀가 있는 옛이야기 길에서 배나무의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the tall pear tree, with the moon high, laughter rose without cruelty this time. \"Tell me the truth,\" someone said.",
+      "narrationScript": "며느리와 방귀가 있는 옛이야기 길에서 배나무의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "방귀",
+          "en": "fart",
+          "romanization": "bangwi",
+          "definitionEn": "A funny body sound.",
+          "definitionKo": "몸에서 나는 우스운 소리예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "she uses the fart to help (pear tree help)",
+        "emotion": "joyful release",
+        "pageTurnHook": "Then the next part of pear tree help will ask for a braver choice, and the story moves toward belonging.",
+        "readAloudCue": "Read with joyful release; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold tall pear tree."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/farting_daughter_in_law.character_bible.json. Page 20 for 방귀쟁이 며느리 / The Farting Daughter-in-Law: tall pear tree; specific beat: laughter rose without cruelty this time; emotional tone: joyful release; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/farting-daughter-in-law/page-020.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with joyful release; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/farting-daughter-in-law/ko/page-020.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/farting-daughter-in-law/ambient/ambient-loop.wav",
+      "characterBible": "characters/farting_daughter_in_law.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_020/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_020/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_020/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_020/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_020/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_020/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "farting_daughter_in_law_021",
+      "pageNumber": 21,
+      "text": {
+        "enLittle": "The family bowed with apology and pear juice on their sleeves.",
+        "enStandard": "In the family table, first, the family bowed with apology and pear juice on their sleeves. \"Then walk gently,\" the elder said.",
+        "koLittle": "방귀와 바람가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "방귀와 바람가 있는 옛이야기 길에서 방귀와 바람가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "방귀와 바람가 있는 옛이야기 길에서 방귀와 바람가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the family table, first, the family bowed with apology and pear juice on their sleeves. \"Then walk gently,\" the elder said.",
+      "narrationScript": "방귀와 바람가 있는 옛이야기 길에서 방귀와 바람가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "며느리",
+          "en": "daughter-in-law",
+          "romanization": "myeoneuri",
+          "definitionEn": "A woman newly joined to a family by marriage.",
+          "definitionKo": "결혼으로 새 가족이 된 여인이에요."
+        },
+        {
+          "ko": "바람",
+          "en": "wind",
+          "romanization": "baram",
+          "definitionEn": "Moving air.",
+          "definitionKo": "움직이는 공기예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "family welcomes her whole self (belonging)",
+        "emotion": "accepted delight",
+        "pageTurnHook": "Then the next part of belonging will ask for a braver choice, and the story moves toward belonging.",
+        "readAloudCue": "Read with accepted delight; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe family table."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/farting_daughter_in_law.character_bible.json. Page 21 for 방귀쟁이 며느리 / The Farting Daughter-in-Law: family table; specific beat: the family bowed with apology and pear juice on their sleeves; emotional tone: accepted delight; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/farting-daughter-in-law/page-021.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with accepted delight; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/farting-daughter-in-law/ko/page-021.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/farting-daughter-in-law/ambient/ambient-loop.wav",
+      "characterBible": "characters/farting_daughter_in_law.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_021/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_021/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_021/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_021/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_021/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_021/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "farting_daughter_in_law_022",
+      "pageNumber": 22,
+      "text": {
+        "enLittle": "They made a wind jar joke only after she laughed too.",
+        "enStandard": "In the family table, next, they made a wind jar joke only after she laughed too. \"I am still learning,\" the child answered.",
+        "koLittle": "배나무 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "방귀와 바람가 있는 옛이야기 길에서 배나무 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "방귀와 바람가 있는 옛이야기 길에서 배나무 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the family table, next, they made a wind jar joke only after she laughed too. \"I am still learning,\" the child answered.",
+      "narrationScript": "방귀와 바람가 있는 옛이야기 길에서 배나무 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "방귀",
+          "en": "fart",
+          "romanization": "bangwi",
+          "definitionEn": "A funny body sound.",
+          "definitionKo": "몸에서 나는 우스운 소리예요."
+        },
+        {
+          "ko": "배나무",
+          "en": "pear tree",
+          "romanization": "baenamu",
+          "definitionEn": "A tree that grows pears.",
+          "definitionKo": "배가 열리는 나무예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "family welcomes her whole self (belonging)",
+        "emotion": "accepted delight",
+        "pageTurnHook": "Then the next part of belonging will ask for a braver choice, and the story moves toward belonging.",
+        "readAloudCue": "Read with accepted delight; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open family table."
+      },
+      "refrain": "Let the wind be useful.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/farting_daughter_in_law.character_bible.json. Page 22 for 방귀쟁이 며느리 / The Farting Daughter-in-Law: family table; specific beat: they made a wind jar joke only after she laughed too; emotional tone: accepted delight; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/farting-daughter-in-law/page-022.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with accepted delight; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/farting-daughter-in-law/ko/page-022.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/farting-daughter-in-law/ambient/ambient-loop.wav",
+      "characterBible": "characters/farting_daughter_in_law.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_022/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_022/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_022/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_022/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_022/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_022/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "바람도 쓸모가 있어."
+    },
+    {
+      "id": "farting_daughter_in_law_023",
+      "pageNumber": 23,
+      "text": {
+        "enLittle": "She returned with baskets of pears and an easier breath.",
+        "enStandard": "In the family table, quietly, she returned with baskets of pears and an easier breath. \"Tell me the truth,\" someone said.",
+        "koLittle": "방귀를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "방귀와 바람가 있는 옛이야기 길에서 방귀를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "방귀와 바람가 있는 옛이야기 길에서 방귀를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the family table, quietly, she returned with baskets of pears and an easier breath. \"Tell me the truth,\" someone said.",
+      "narrationScript": "방귀와 바람가 있는 옛이야기 길에서 방귀를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "바람",
+          "en": "wind",
+          "romanization": "baram",
+          "definitionEn": "Moving air.",
+          "definitionKo": "움직이는 공기예요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "family welcomes her whole self (belonging)",
+        "emotion": "accepted delight",
+        "pageTurnHook": "Then the next part of belonging will ask for a braver choice, and the story moves toward belonging.",
+        "readAloudCue": "Read with accepted delight; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose family table."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/farting_daughter_in_law.character_bible.json. Page 23 for 방귀쟁이 며느리 / The Farting Daughter-in-Law: family table; specific beat: she returned with baskets of pears and an easier breath; emotional tone: accepted delight; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/farting-daughter-in-law/page-023.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with accepted delight; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/farting-daughter-in-law/ko/page-023.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/farting-daughter-in-law/ambient/ambient-loop.wav",
+      "characterBible": "characters/farting_daughter_in_law.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_023/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_023/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_023/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_023/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_023/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_023/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "farting_daughter_in_law_024",
+      "pageNumber": 24,
+      "text": {
+        "enLittle": "From then on.",
+        "enStandard": "In the family table, with the moon high, from then on, the courtyard had room for manners and body sounds. \"I will answer carefully,\" came the reply.",
+        "koLittle": "며느리의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "방귀와 바람가 있는 옛이야기 길에서 며느리의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "방귀와 바람가 있는 옛이야기 길에서 며느리의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the family table, with the moon high, from then on, the courtyard had room for manners and body sounds. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "방귀와 바람가 있는 옛이야기 길에서 며느리의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "배나무",
+          "en": "pear tree",
+          "romanization": "baenamu",
+          "definitionEn": "A tree that grows pears.",
+          "definitionKo": "배가 열리는 나무예요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "family welcomes her whole self (belonging)",
+        "emotion": "accepted delight",
+        "pageTurnHook": "Then the next part of belonging will ask for a braver choice, and the story moves toward belonging.",
+        "readAloudCue": "Read with accepted delight; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag family table."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/farting_daughter_in_law.character_bible.json. Page 24 for 방귀쟁이 며느리 / The Farting Daughter-in-Law: family table; specific beat: from then on, the courtyard had room for manners and body sounds; emotional tone: accepted delight; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/farting-daughter-in-law/page-024.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with accepted delight; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/farting-daughter-in-law/ko/page-024.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/farting-daughter-in-law/ambient/ambient-loop.wav",
+      "characterBible": "characters/farting_daughter_in_law.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_024/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_024/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_024/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_024/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_024/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/farting-daughter-in-law/farting_daughter_in_law_024/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    }
+  ]
+}

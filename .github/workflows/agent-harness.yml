@@ -1,0 +1,77 @@
+name: Agent Harness
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  harness:
+    name: Docs and content harness
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Agent doctor
+        run: scripts/agent/doctor
+
+      - name: Agent lint
+        run: scripts/agent/lint
+
+      - name: Content validation
+        run: |
+          python3 tools/validate_books.py
+          python3 tools/validate_story_quality.py
+          python3 tools/score_story_writing.py
+          python3 tools/validate_cultural_authenticity.py
+          python3 tools/score_reader_experience.py
+          python3 tools/score_art_experience.py
+          python3 tools/validate_assets.py
+          python3 tools/validate_asset_status_crosswalk.py
+          python3 tools/validate_visual_layout.py
+          python3 tools/validate_kids_safety.py
+          python3 tools/validate_payments_readiness.py
+          python3 tools/validate_non_human_readiness.py
+          python3 tools/validate_production_readiness.py --level generated-draft
+
+      - name: Backend smoke
+        run: scripts/agent/smoke backend
+
+  android:
+    name: Android JVM tests and debug build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Android tests
+        working-directory: android
+        run: ./gradlew test
+
+      - name: Android debug build
+        working-directory: android
+        run: ./gradlew assembleDebug
+
+  swift-host:
+    name: SwiftPM host tests
+    runs-on: macos-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: SwiftPM tests
+        working-directory: ios/MoonJarStoriesiOS
+        run: swift test

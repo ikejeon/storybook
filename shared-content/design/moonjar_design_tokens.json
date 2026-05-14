@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0.0",
+  "name": "Moon Jar Stories Design Tokens",
+  "colors": {
+    "moonIvory": "#FAF3DE",
+    "deepIndigo": "#050B16",
+    "indigoInk": "#1F294F",
+    "persimmonOrange": "#D04F2E",
+    "jadeGreen": "#307F6B",
+    "lotusPink": "#DB7A94",
+    "warmHanjiBeige": "#F6E9C7",
+    "softInkBlack": "#201B17",
+    "lanternGold": "#EDA83D",
+    "goldHighlight": "#F6C96B",
+    "pageEdgeShadow": "#6A5538"
+  },
+  "cornerRadius": {
+    "small": 6,
+    "medium": 8,
+    "large": 18,
+    "bookPage": 24,
+    "pill": 999
+  },
+  "shadows": {
+    "card": { "radius": 14, "x": 0, "y": 7, "opacity": 0.10 },
+    "book": { "radius": 24, "x": 0, "y": 16, "opacity": 0.38 },
+    "control": { "radius": 8, "x": 0, "y": 4, "opacity": 0.18 }
+  },
+  "radiusScale": {
+    "tile": 8,
+    "book": 12,
+    "sheet": 24,
+    "control": 999
+  },
+  "typeScale": {
+    "readerKoreanPhone": 23,
+    "readerKoreanTablet": 30,
+    "readerEnglishPhone": 17,
+    "readerEnglishTablet": 20,
+    "readerEnglishOnlyPhone": 22,
+    "readerEnglishOnlyTablet": 28,
+    "caption": 12,
+    "controlLabel": 13
+  },
+  "spacing": {
+    "xs": 4,
+    "sm": 8,
+    "md": 14,
+    "lg": 18,
+    "xl": 24,
+    "readerOuter": 16,
+    "safeArtInset": 14
+  },
+  "layout": {
+    "sceneAspectRatio": 1.5,
+    "coverAspectRatio": 1.5,
+    "thumbnailAspectRatio": 1.5,
+    "phoneReaderImageShare": 0.62,
+    "phoneReaderTextShare": 0.38,
+    "tabletSpreadGutterWidth": 22,
+    "readerControlSize": 52,
+    "bookSpreadAspectRatio": 1.72,
+    "phonePageAspectRatio": 0.72,
+    "imageSafeMarginPercent": 8,
+    "minimumThumbnailWidth": 80,
+    "minimumThumbnailHeight": 58
+  },
+  "bedtimeMode": {
+    "brightnessMultiplier": 0.82,
+    "motionMultiplier": 0.45,
+    "narrationVolume": 0.55,
+    "soundEffectVolume": 0.18
+  },
+  "assetDisplayRules": {
+    "bookCards": "Use fit inside a 3:2 matte. Do not crop.",
+    "readerPages": "Use fit for primary illustration. Only use fill for blurred ambient background.",
+    "thumbnails": "Use fixed 3:2 cells with fit and safe padding.",
+    "heroArt": "Fill is allowed only when the image is intentionally decorative background art."
+  }
+}

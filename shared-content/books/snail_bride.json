@@ -1,0 +1,2901 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "book.snail_bride",
+  "slug": "snail-bride",
+  "title": {
+    "ko": "우렁각시",
+    "en": "The Snail Bride"
+  },
+  "access": "premium",
+  "ageRange": "5-8",
+  "estimatedMinutes": 10,
+  "summary": "A farmer discovers the snail woman who has been helping his home, learns to ask rather than claim, and protects her choice when powerful eyes try to take her away.",
+  "coverAsset": "assets/books/snail-bride/cover.png",
+  "coverAssetStatus": "placeholder",
+  "characterBible": "characters/snail_bride.character_bible.json",
+  "narrationAudioStatus": "synthetic_draft",
+  "adaptationVersions": {
+    "default": "English-first bilingual semantic-authenticity repair draft",
+    "plannedAlternate": "External editor pass after children’s editorial and Korean-language review",
+    "note": "Generated repo-local repair draft; not external human final."
+  },
+  "sensitivityNotes": [
+    "The bride is never treated as owned help; her consent and safety drive the tale.",
+    "Repaired by repo-local semantic authenticity pass; external children’s editor, Korean-language, cultural, and child-safety review remain required before final release."
+  ],
+  "themes": [
+    "agency",
+    "home",
+    "trust",
+    "rice fields",
+    "respect"
+  ],
+  "characters": [
+    "snail_bride",
+    "farmer",
+    "village_auntie",
+    "rice_fields"
+  ],
+  "pages": [
+    {
+      "id": "snail_bride_001",
+      "pageNumber": 1,
+      "text": {
+        "enLittle": "The farmer came home with mud on his knees and no soup in the pot.",
+        "enStandard": "In the rice fields after rain, first, the farmer came home with mud on his knees and no soup in the pot. \"I will answer carefully,\" came the reply.",
+        "koLittle": "우렁와 각시가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "우렁와 각시가 있는 옛이야기 길에서 우렁와 각시가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "우렁와 각시가 있는 옛이야기 길에서 우렁와 각시가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the rice fields after rain, first, the farmer came home with mud on his knees and no soup in the pot. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "우렁와 각시가 있는 옛이야기 길에서 우렁와 각시가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "우렁",
+          "en": "snail",
+          "romanization": "ureong",
+          "definitionEn": "A freshwater snail from the tale.",
+          "definitionKo": "이야기에 나오는 물우렁이에요."
+        },
+        {
+          "ko": "논",
+          "en": "rice field",
+          "romanization": "non",
+          "definitionEn": "A wet field where rice grows.",
+          "definitionKo": "벼가 자라는 물논이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "farmer works alone in rain-bright rice fields (lonely field)",
+        "emotion": "quiet need",
+        "pageTurnHook": "Then the next part of lonely field will ask for a braver choice, and the story moves toward mystery helper.",
+        "readAloudCue": "Read with quiet need; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap rice fields after rain."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/snail_bride.character_bible.json. Page 1 for 우렁각시 / The Snail Bride: rice fields after rain; specific beat: the farmer came home with mud on his knees and no soup in the pot; emotional tone: quiet need; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/snail-bride/page-001.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with quiet need; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/snail-bride/ko/page-001.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/snail-bride/ambient/ambient-loop.wav",
+      "characterBible": "characters/snail_bride.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_001/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_001/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_001/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_001/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_001/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_001/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "snail_bride_002",
+      "pageNumber": 2,
+      "text": {
+        "enLittle": "A small shell gleamed in the water jar.",
+        "enStandard": "In the rice fields after rain, next, a small shell gleamed in the water jar. \"Then walk gently,\" the elder said.",
+        "koLittle": "논 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "우렁와 각시가 있는 옛이야기 길에서 논 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "우렁와 각시가 있는 옛이야기 길에서 논 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the rice fields after rain, next, a small shell gleamed in the water jar. \"Then walk gently,\" the elder said.",
+      "narrationScript": "우렁와 각시가 있는 옛이야기 길에서 논 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "각시",
+          "en": "bride",
+          "romanization": "gaksi",
+          "definitionEn": "A young woman in old Korean phrasing.",
+          "definitionKo": "옛말로 젊은 여인을 가리켜요."
+        },
+        {
+          "ko": "선택",
+          "en": "choice",
+          "romanization": "seontaek",
+          "definitionEn": "A decision made by someone for themself.",
+          "definitionKo": "스스로 고르는 일이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "farmer works alone in rain-bright rice fields (lonely field)",
+        "emotion": "quiet need",
+        "pageTurnHook": "Then the next part of lonely field will ask for a braver choice, and the story moves toward mystery helper.",
+        "readAloudCue": "Read with quiet need; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace rice fields after rain."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/snail_bride.character_bible.json. Page 2 for 우렁각시 / The Snail Bride: rice fields after rain; specific beat: a small shell gleamed in the water jar; emotional tone: quiet need; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/snail-bride/page-002.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with quiet need; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/snail-bride/ko/page-002.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/snail-bride/ambient/ambient-loop.wav",
+      "characterBible": "characters/snail_bride.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_002/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_002/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_002/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_002/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_002/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_002/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "snail_bride_003",
+      "pageNumber": 3,
+      "text": {
+        "enLittle": "Each morning the floor looked swept by invisible careful hands.",
+        "enStandard": "In the rice fields after rain, quietly, each morning the floor looked swept by invisible careful hands. \"I am still learning,\" the child answered.",
+        "koLittle": "우렁를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "우렁와 각시가 있는 옛이야기 길에서 우렁를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "우렁와 각시가 있는 옛이야기 길에서 우렁를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the rice fields after rain, quietly, each morning the floor looked swept by invisible careful hands. \"I am still learning,\" the child answered.",
+      "narrationScript": "우렁와 각시가 있는 옛이야기 길에서 우렁를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "논",
+          "en": "rice field",
+          "romanization": "non",
+          "definitionEn": "A wet field where rice grows.",
+          "definitionKo": "벼가 자라는 물논이에요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "farmer works alone in rain-bright rice fields (lonely field)",
+        "emotion": "quiet need",
+        "pageTurnHook": "Then the next part of lonely field will ask for a braver choice, and the story moves toward mystery helper.",
+        "readAloudCue": "Read with quiet need; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count rice fields after rain."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/snail_bride.character_bible.json. Page 3 for 우렁각시 / The Snail Bride: rice fields after rain; specific beat: each morning the floor looked swept by invisible careful hands; emotional tone: quiet need; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/snail-bride/page-003.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with quiet need; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/snail-bride/ko/page-003.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/snail-bride/ambient/ambient-loop.wav",
+      "characterBible": "characters/snail_bride.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_003/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_003/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_003/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_003/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_003/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_003/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "snail_bride_004",
+      "pageNumber": 4,
+      "text": {
+        "enLittle": "Rice steamed before he could thank anyone.",
+        "enStandard": "In the rice fields after rain, with the moon high, rice steamed before he could thank anyone. \"Tell me the truth,\" someone said.",
+        "koLittle": "선택의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "우렁와 각시가 있는 옛이야기 길에서 선택의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "우렁와 각시가 있는 옛이야기 길에서 선택의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the rice fields after rain, with the moon high, rice steamed before he could thank anyone. \"Tell me the truth,\" someone said.",
+      "narrationScript": "우렁와 각시가 있는 옛이야기 길에서 선택의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "선택",
+          "en": "choice",
+          "romanization": "seontaek",
+          "definitionEn": "A decision made by someone for themself.",
+          "definitionKo": "스스로 고르는 일이에요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "farmer works alone in rain-bright rice fields (lonely field)",
+        "emotion": "quiet need",
+        "pageTurnHook": "Then the next part of lonely field will ask for a braver choice, and the story moves toward mystery helper.",
+        "readAloudCue": "Read with quiet need; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold rice fields after rain."
+      },
+      "refrain": "Ask first, trust gently.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/snail_bride.character_bible.json. Page 4 for 우렁각시 / The Snail Bride: rice fields after rain; specific beat: rice steamed before he could thank anyone; emotional tone: quiet need; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/snail-bride/page-004.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with quiet need; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/snail-bride/ko/page-004.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/snail-bride/ambient/ambient-loop.wav",
+      "characterBible": "characters/snail_bride.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_004/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_004/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_004/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_004/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_004/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_004/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "먼저 묻고, 부드럽게 믿자."
+    },
+    {
+      "id": "snail_bride_005",
+      "pageNumber": 5,
+      "text": {
+        "enLittle": "The farmer came home with mud on his knees and no soup in the pot.",
+        "enStandard": "In the rice fields after rain, before dawn, the farmer came home with mud on his knees and no soup in the pot. \"I will answer carefully,\" came the reply.",
+        "koLittle": "우렁와 각시가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "우렁와 각시가 있는 옛이야기 길에서 우렁와 각시가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "우렁와 각시가 있는 옛이야기 길에서 우렁와 각시가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the rice fields after rain, before dawn, the farmer came home with mud on his knees and no soup in the pot. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "우렁와 각시가 있는 옛이야기 길에서 우렁와 각시가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "farmer works alone in rain-bright rice fields (lonely field)",
+        "emotion": "quiet need",
+        "pageTurnHook": "Then the next part of lonely field will ask for a braver choice, and the story moves toward mystery helper.",
+        "readAloudCue": "Read with quiet need; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe rice fields after rain."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/snail_bride.character_bible.json. Page 5 for 우렁각시 / The Snail Bride: rice fields after rain; specific beat: the farmer came home with mud on his knees and no soup in the pot; emotional tone: quiet need; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/snail-bride/page-005.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with quiet need; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/snail-bride/ko/page-005.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/snail-bride/ambient/ambient-loop.wav",
+      "characterBible": "characters/snail_bride.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_005/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_005/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_005/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_005/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_005/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_005/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "snail_bride_006",
+      "pageNumber": 6,
+      "text": {
+        "enLittle": "He left a pear slice beside the jar as thanks.",
+        "enStandard": "In the warm kitchen, first, he left a pear slice beside the jar as thanks. \"I am still learning,\" the child answered.",
+        "koLittle": "각시와 논가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "각시와 논가 있는 옛이야기 길에서 각시와 논가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "각시와 논가 있는 옛이야기 길에서 각시와 논가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the warm kitchen, first, he left a pear slice beside the jar as thanks. \"I am still learning,\" the child answered.",
+      "narrationScript": "각시와 논가 있는 옛이야기 길에서 각시와 논가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "the hidden snail bride helps but remains unseen (mystery helper)",
+        "emotion": "wondering gratitude",
+        "pageTurnHook": "Then the next part of mystery helper will ask for a braver choice, and the story moves toward asking truth.",
+        "readAloudCue": "Read with wondering gratitude; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open warm kitchen."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/snail_bride.character_bible.json. Page 6 for 우렁각시 / The Snail Bride: warm kitchen; specific beat: he left a pear slice beside the jar as thanks; emotional tone: wondering gratitude; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/snail-bride/page-006.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with wondering gratitude; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/snail-bride/ko/page-006.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/snail-bride/ambient/ambient-loop.wav",
+      "characterBible": "characters/snail_bride.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_006/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_006/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_006/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_006/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_006/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_006/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "snail_bride_007",
+      "pageNumber": 7,
+      "text": {
+        "enLittle": "The bowl was washed and the pear was gone by dawn.",
+        "enStandard": "In the warm kitchen, next, the bowl was washed and the pear was gone by dawn. \"Tell me the truth,\" someone said.",
+        "koLittle": "선택 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "각시와 논가 있는 옛이야기 길에서 선택 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "각시와 논가 있는 옛이야기 길에서 선택 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the warm kitchen, next, the bowl was washed and the pear was gone by dawn. \"Tell me the truth,\" someone said.",
+      "narrationScript": "각시와 논가 있는 옛이야기 길에서 선택 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "the hidden snail bride helps but remains unseen (mystery helper)",
+        "emotion": "wondering gratitude",
+        "pageTurnHook": "Then the next part of mystery helper will ask for a braver choice, and the story moves toward asking truth.",
+        "readAloudCue": "Read with wondering gratitude; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose warm kitchen."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/snail_bride.character_bible.json. Page 7 for 우렁각시 / The Snail Bride: warm kitchen; specific beat: the bowl was washed and the pear was gone by dawn; emotional tone: wondering gratitude; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/snail-bride/page-007.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with wondering gratitude; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/snail-bride/ko/page-007.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/snail-bride/ambient/ambient-loop.wav",
+      "characterBible": "characters/snail_bride.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_007/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_007/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_007/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_007/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_007/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_007/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "snail_bride_008",
+      "pageNumber": 8,
+      "text": {
+        "enLittle": "Hanji doors glowed while a soft song moved through the room.",
+        "enStandard": "In the warm kitchen, quietly, hanji doors glowed while a soft song moved through the room. \"I will answer carefully,\" came the reply.",
+        "koLittle": "각시를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "각시와 논가 있는 옛이야기 길에서 각시를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "각시와 논가 있는 옛이야기 길에서 각시를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the warm kitchen, quietly, hanji doors glowed while a soft song moved through the room. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "각시와 논가 있는 옛이야기 길에서 각시를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "the hidden snail bride helps but remains unseen (mystery helper)",
+        "emotion": "wondering gratitude",
+        "pageTurnHook": "Then the next part of mystery helper will ask for a braver choice, and the story moves toward asking truth.",
+        "readAloudCue": "Read with wondering gratitude; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag warm kitchen."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/snail_bride.character_bible.json. Page 8 for 우렁각시 / The Snail Bride: warm kitchen; specific beat: hanji doors glowed while a soft song moved through the room; emotional tone: wondering gratitude; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/snail-bride/page-008.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with wondering gratitude; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/snail-bride/ko/page-008.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/snail-bride/ambient/ambient-loop.wav",
+      "characterBible": "characters/snail_bride.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_008/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_008/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_008/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_008/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_008/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_008/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "snail_bride_009",
+      "pageNumber": 9,
+      "text": {
+        "enLittle": "The farmer wondered how to ask without trapping the answer.",
+        "enStandard": "In the warm kitchen, with the moon high, the farmer wondered how to ask without trapping the answer. \"Then walk gently,\" the elder said.",
+        "koLittle": "우렁의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "각시와 논가 있는 옛이야기 길에서 우렁의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "각시와 논가 있는 옛이야기 길에서 우렁의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the warm kitchen, with the moon high, the farmer wondered how to ask without trapping the answer. \"Then walk gently,\" the elder said.",
+      "narrationScript": "각시와 논가 있는 옛이야기 길에서 우렁의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "우렁",
+          "en": "snail",
+          "romanization": "ureong",
+          "definitionEn": "A freshwater snail from the tale.",
+          "definitionKo": "이야기에 나오는 물우렁이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "the hidden snail bride helps but remains unseen (mystery helper)",
+        "emotion": "wondering gratitude",
+        "pageTurnHook": "Then the next part of mystery helper will ask for a braver choice, and the story moves toward asking truth.",
+        "readAloudCue": "Read with wondering gratitude; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap warm kitchen."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/snail_bride.character_bible.json. Page 9 for 우렁각시 / The Snail Bride: warm kitchen; specific beat: the farmer wondered how to ask without trapping the answer; emotional tone: wondering gratitude; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/snail-bride/page-009.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with wondering gratitude; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/snail-bride/ko/page-009.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/snail-bride/ambient/ambient-loop.wav",
+      "characterBible": "characters/snail_bride.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_009/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_009/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_009/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_009/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_009/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_009/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "snail_bride_010",
+      "pageNumber": 10,
+      "text": {
+        "enLittle": "He left a pear slice beside the jar as thanks.",
+        "enStandard": "In the warm kitchen, before dawn, he left a pear slice beside the jar as thanks. \"I am still learning,\" the child answered.",
+        "koLittle": "각시와 논가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "각시와 논가 있는 옛이야기 길에서 각시와 논가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "각시와 논가 있는 옛이야기 길에서 각시와 논가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the warm kitchen, before dawn, he left a pear slice beside the jar as thanks. \"I am still learning,\" the child answered.",
+      "narrationScript": "각시와 논가 있는 옛이야기 길에서 각시와 논가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "각시",
+          "en": "bride",
+          "romanization": "gaksi",
+          "definitionEn": "A young woman in old Korean phrasing.",
+          "definitionKo": "옛말로 젊은 여인을 가리켜요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "the hidden snail bride helps but remains unseen (mystery helper)",
+        "emotion": "wondering gratitude",
+        "pageTurnHook": "Then the next part of mystery helper will ask for a braver choice, and the story moves toward asking truth.",
+        "readAloudCue": "Read with wondering gratitude; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace warm kitchen."
+      },
+      "refrain": "Ask first, trust gently.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/snail_bride.character_bible.json. Page 10 for 우렁각시 / The Snail Bride: warm kitchen; specific beat: he left a pear slice beside the jar as thanks; emotional tone: wondering gratitude; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/snail-bride/page-010.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with wondering gratitude; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/snail-bride/ko/page-010.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/snail-bride/ambient/ambient-loop.wav",
+      "characterBible": "characters/snail_bride.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_010/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_010/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_010/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_010/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_010/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_010/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "먼저 묻고, 부드럽게 믿자."
+    },
+    {
+      "id": "snail_bride_011",
+      "pageNumber": 11,
+      "text": {
+        "enLittle": "He waited openly instead of hiding behind the rice chest.",
+        "enStandard": "In the moonlit kitchen, first, he waited openly instead of hiding behind the rice chest. \"I will answer carefully,\" came the reply.",
+        "koLittle": "논와 선택가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "논와 선택가 있는 옛이야기 길에서 논와 선택가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "논와 선택가 있는 옛이야기 길에서 논와 선택가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the moonlit kitchen, first, he waited openly instead of hiding behind the rice chest. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "논와 선택가 있는 옛이야기 길에서 논와 선택가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "우렁",
+          "en": "snail",
+          "romanization": "ureong",
+          "definitionEn": "A freshwater snail from the tale.",
+          "definitionKo": "이야기에 나오는 물우렁이에요."
+        },
+        {
+          "ko": "논",
+          "en": "rice field",
+          "romanization": "non",
+          "definitionEn": "A wet field where rice grows.",
+          "definitionKo": "벼가 자라는 물논이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "farmer meets the snail woman and asks about her choice (asking truth)",
+        "emotion": "tender respect",
+        "pageTurnHook": "Then the next part of asking truth will ask for a braver choice, and the story moves toward shared home.",
+        "readAloudCue": "Read with tender respect; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count moonlit kitchen."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/snail_bride.character_bible.json. Page 11 for 우렁각시 / The Snail Bride: moonlit kitchen; specific beat: he waited openly instead of hiding behind the rice chest; emotional tone: tender respect; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/snail-bride/page-011.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with tender respect; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/snail-bride/ko/page-011.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/snail-bride/ambient/ambient-loop.wav",
+      "characterBible": "characters/snail_bride.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_011/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_011/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_011/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_011/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_011/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_011/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "snail_bride_012",
+      "pageNumber": 12,
+      "text": {
+        "enLittle": "The snail woman stepped from shell-light with wet sleeves shining.",
+        "enStandard": "In the moonlit kitchen, next, the snail woman stepped from shell-light with wet sleeves shining. \"Then walk gently,\" the elder said.",
+        "koLittle": "우렁 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "논와 선택가 있는 옛이야기 길에서 우렁 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "논와 선택가 있는 옛이야기 길에서 우렁 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the moonlit kitchen, next, the snail woman stepped from shell-light with wet sleeves shining. \"Then walk gently,\" the elder said.",
+      "narrationScript": "논와 선택가 있는 옛이야기 길에서 우렁 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "각시",
+          "en": "bride",
+          "romanization": "gaksi",
+          "definitionEn": "A young woman in old Korean phrasing.",
+          "definitionKo": "옛말로 젊은 여인을 가리켜요."
+        },
+        {
+          "ko": "선택",
+          "en": "choice",
+          "romanization": "seontaek",
+          "definitionEn": "A decision made by someone for themself.",
+          "definitionKo": "스스로 고르는 일이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "farmer meets the snail woman and asks about her choice (asking truth)",
+        "emotion": "tender respect",
+        "pageTurnHook": "Then the next part of asking truth will ask for a braver choice, and the story moves toward shared home.",
+        "readAloudCue": "Read with tender respect; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold moonlit kitchen."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/snail_bride.character_bible.json. Page 12 for 우렁각시 / The Snail Bride: moonlit kitchen; specific beat: the snail woman stepped from shell-light with wet sleeves shining; emotional tone: tender respect; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/snail-bride/page-012.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with tender respect; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/snail-bride/ko/page-012.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/snail-bride/ambient/ambient-loop.wav",
+      "characterBible": "characters/snail_bride.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_012/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_012/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_012/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_012/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_012/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_012/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "snail_bride_013",
+      "pageNumber": 13,
+      "text": {
+        "enLittle": "He bowed before speaking so his surprise would not become a cage.",
+        "enStandard": "In the moonlit kitchen, quietly, he bowed before speaking so his surprise would not become a cage. \"I am still learning,\" the child answered.",
+        "koLittle": "논를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "논와 선택가 있는 옛이야기 길에서 논를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "논와 선택가 있는 옛이야기 길에서 논를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the moonlit kitchen, quietly, he bowed before speaking so his surprise would not become a cage. \"I am still learning,\" the child answered.",
+      "narrationScript": "논와 선택가 있는 옛이야기 길에서 논를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "논",
+          "en": "rice field",
+          "romanization": "non",
+          "definitionEn": "A wet field where rice grows.",
+          "definitionKo": "벼가 자라는 물논이에요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "farmer meets the snail woman and asks about her choice (asking truth)",
+        "emotion": "tender respect",
+        "pageTurnHook": "Then the next part of asking truth will ask for a braver choice, and the story moves toward shared home.",
+        "readAloudCue": "Read with tender respect; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe moonlit kitchen."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/snail_bride.character_bible.json. Page 13 for 우렁각시 / The Snail Bride: moonlit kitchen; specific beat: he bowed before speaking so his surprise would not become a cage; emotional tone: tender respect; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/snail-bride/page-013.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with tender respect; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/snail-bride/ko/page-013.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/snail-bride/ambient/ambient-loop.wav",
+      "characterBible": "characters/snail_bride.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_013/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_013/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_013/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_013/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_013/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_013/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "snail_bride_014",
+      "pageNumber": 14,
+      "text": {
+        "enLittle": "She said help was her gift.",
+        "enStandard": "In the moonlit kitchen, with the moon high, she said help was her gift, not her duty. \"Tell me the truth,\" someone said.",
+        "koLittle": "각시의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "논와 선택가 있는 옛이야기 길에서 각시의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "논와 선택가 있는 옛이야기 길에서 각시의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the moonlit kitchen, with the moon high, she said help was her gift, not her duty. \"Tell me the truth,\" someone said.",
+      "narrationScript": "논와 선택가 있는 옛이야기 길에서 각시의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "선택",
+          "en": "choice",
+          "romanization": "seontaek",
+          "definitionEn": "A decision made by someone for themself.",
+          "definitionKo": "스스로 고르는 일이에요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "farmer meets the snail woman and asks about her choice (asking truth)",
+        "emotion": "tender respect",
+        "pageTurnHook": "Then the next part of asking truth will ask for a braver choice, and the story moves toward shared home.",
+        "readAloudCue": "Read with tender respect; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open moonlit kitchen."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/snail_bride.character_bible.json. Page 14 for 우렁각시 / The Snail Bride: moonlit kitchen; specific beat: she said help was her gift, not her duty; emotional tone: tender respect; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/snail-bride/page-014.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with tender respect; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/snail-bride/ko/page-014.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/snail-bride/ambient/ambient-loop.wav",
+      "characterBible": "characters/snail_bride.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_014/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_014/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_014/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_014/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_014/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_014/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "snail_bride_015",
+      "pageNumber": 15,
+      "text": {
+        "enLittle": "He waited openly instead of hiding behind the rice chest.",
+        "enStandard": "In the moonlit kitchen, before dawn, he waited openly instead of hiding behind the rice chest. \"I will answer carefully,\" came the reply.",
+        "koLittle": "논와 선택가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "논와 선택가 있는 옛이야기 길에서 논와 선택가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "논와 선택가 있는 옛이야기 길에서 논와 선택가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the moonlit kitchen, before dawn, he waited openly instead of hiding behind the rice chest. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "논와 선택가 있는 옛이야기 길에서 논와 선택가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "farmer meets the snail woman and asks about her choice (asking truth)",
+        "emotion": "tender respect",
+        "pageTurnHook": "Then the next part of asking truth will ask for a braver choice, and the story moves toward shared home.",
+        "readAloudCue": "Read with tender respect; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose moonlit kitchen."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/snail_bride.character_bible.json. Page 15 for 우렁각시 / The Snail Bride: moonlit kitchen; specific beat: he waited openly instead of hiding behind the rice chest; emotional tone: tender respect; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/snail-bride/page-015.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with tender respect; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/snail-bride/ko/page-015.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/snail-bride/ambient/ambient-loop.wav",
+      "characterBible": "characters/snail_bride.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_015/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_015/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_015/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_015/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_015/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_015/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "snail_bride_016",
+      "pageNumber": 16,
+      "text": {
+        "enLittle": "They planted seedlings side by side under low clouds.",
+        "enStandard": "In the field and cottage, first, they planted seedlings side by side under low clouds. \"I am still learning,\" the child answered.",
+        "koLittle": "선택와 우렁가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "선택와 우렁가 있는 옛이야기 길에서 선택와 우렁가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "선택와 우렁가 있는 옛이야기 길에서 선택와 우렁가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the field and cottage, first, they planted seedlings side by side under low clouds. \"I am still learning,\" the child answered.",
+      "narrationScript": "선택와 우렁가 있는 옛이야기 길에서 선택와 우렁가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "they build trust through consent (shared home)",
+        "emotion": "warm partnership",
+        "pageTurnHook": "Then the next part of shared home will ask for a braver choice, and the story moves toward official threat.",
+        "readAloudCue": "Read with warm partnership; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag field and cottage."
+      },
+      "refrain": "Ask first, trust gently.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/snail_bride.character_bible.json. Page 16 for 우렁각시 / The Snail Bride: field and cottage; specific beat: they planted seedlings side by side under low clouds; emotional tone: warm partnership; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/snail-bride/page-016.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with warm partnership; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/snail-bride/ko/page-016.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/snail-bride/ambient/ambient-loop.wav",
+      "characterBible": "characters/snail_bride.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_016/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_016/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_016/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_016/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_016/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_016/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "먼저 묻고, 부드럽게 믿자."
+    },
+    {
+      "id": "snail_bride_017",
+      "pageNumber": 17,
+      "text": {
+        "enLittle": "She chose where her shell bowl would rest.",
+        "enStandard": "In the field and cottage, next, she chose where her shell bowl would rest. \"Tell me the truth,\" someone said.",
+        "koLittle": "각시 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "선택와 우렁가 있는 옛이야기 길에서 각시 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "선택와 우렁가 있는 옛이야기 길에서 각시 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the field and cottage, next, she chose where her shell bowl would rest. \"Tell me the truth,\" someone said.",
+      "narrationScript": "선택와 우렁가 있는 옛이야기 길에서 각시 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "they build trust through consent (shared home)",
+        "emotion": "warm partnership",
+        "pageTurnHook": "Then the next part of shared home will ask for a braver choice, and the story moves toward official threat.",
+        "readAloudCue": "Read with warm partnership; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap field and cottage."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/snail_bride.character_bible.json. Page 17 for 우렁각시 / The Snail Bride: field and cottage; specific beat: she chose where her shell bowl would rest; emotional tone: warm partnership; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/snail-bride/page-017.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with warm partnership; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/snail-bride/ko/page-017.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/snail-bride/ambient/ambient-loop.wav",
+      "characterBible": "characters/snail_bride.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_017/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_017/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_017/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_017/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_017/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_017/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "snail_bride_018",
+      "pageNumber": 18,
+      "text": {
+        "enLittle": "Neighbors noticed laughter returning to the small house.",
+        "enStandard": "In the field and cottage, quietly, neighbors noticed laughter returning to the small house. \"I will answer carefully,\" came the reply.",
+        "koLittle": "선택를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "선택와 우렁가 있는 옛이야기 길에서 선택를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "선택와 우렁가 있는 옛이야기 길에서 선택를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the field and cottage, quietly, neighbors noticed laughter returning to the small house. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "선택와 우렁가 있는 옛이야기 길에서 선택를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "they build trust through consent (shared home)",
+        "emotion": "warm partnership",
+        "pageTurnHook": "Then the next part of shared home will ask for a braver choice, and the story moves toward official threat.",
+        "readAloudCue": "Read with warm partnership; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace field and cottage."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/snail_bride.character_bible.json. Page 18 for 우렁각시 / The Snail Bride: field and cottage; specific beat: neighbors noticed laughter returning to the small house; emotional tone: warm partnership; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/snail-bride/page-018.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with warm partnership; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/snail-bride/ko/page-018.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/snail-bride/ambient/ambient-loop.wav",
+      "characterBible": "characters/snail_bride.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_018/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_018/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_018/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_018/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_018/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_018/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "snail_bride_019",
+      "pageNumber": 19,
+      "text": {
+        "enLittle": "The farmer learned that gratitude needs listening.",
+        "enStandard": "In the field and cottage, with the moon high, the farmer learned that gratitude needs listening. \"Then walk gently,\" the elder said.",
+        "koLittle": "논의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "선택와 우렁가 있는 옛이야기 길에서 논의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "선택와 우렁가 있는 옛이야기 길에서 논의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the field and cottage, with the moon high, the farmer learned that gratitude needs listening. \"Then walk gently,\" the elder said.",
+      "narrationScript": "선택와 우렁가 있는 옛이야기 길에서 논의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "우렁",
+          "en": "snail",
+          "romanization": "ureong",
+          "definitionEn": "A freshwater snail from the tale.",
+          "definitionKo": "이야기에 나오는 물우렁이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "they build trust through consent (shared home)",
+        "emotion": "warm partnership",
+        "pageTurnHook": "Then the next part of shared home will ask for a braver choice, and the story moves toward official threat.",
+        "readAloudCue": "Read with warm partnership; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count field and cottage."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/snail_bride.character_bible.json. Page 19 for 우렁각시 / The Snail Bride: field and cottage; specific beat: the farmer learned that gratitude needs listening; emotional tone: warm partnership; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/snail-bride/page-019.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with warm partnership; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/snail-bride/ko/page-019.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/snail-bride/ambient/ambient-loop.wav",
+      "characterBible": "characters/snail_bride.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_019/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_019/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_019/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_019/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_019/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_019/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "snail_bride_020",
+      "pageNumber": 20,
+      "text": {
+        "enLittle": "They planted seedlings side by side under low clouds.",
+        "enStandard": "In the field and cottage, before dawn, they planted seedlings side by side under low clouds. \"I am still learning,\" the child answered.",
+        "koLittle": "선택와 우렁가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "선택와 우렁가 있는 옛이야기 길에서 선택와 우렁가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "선택와 우렁가 있는 옛이야기 길에서 선택와 우렁가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the field and cottage, before dawn, they planted seedlings side by side under low clouds. \"I am still learning,\" the child answered.",
+      "narrationScript": "선택와 우렁가 있는 옛이야기 길에서 선택와 우렁가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "각시",
+          "en": "bride",
+          "romanization": "gaksi",
+          "definitionEn": "A young woman in old Korean phrasing.",
+          "definitionKo": "옛말로 젊은 여인을 가리켜요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "they build trust through consent (shared home)",
+        "emotion": "warm partnership",
+        "pageTurnHook": "Then the next part of shared home will ask for a braver choice, and the story moves toward official threat.",
+        "readAloudCue": "Read with warm partnership; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold field and cottage."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/snail_bride.character_bible.json. Page 20 for 우렁각시 / The Snail Bride: field and cottage; specific beat: they planted seedlings side by side under low clouds; emotional tone: warm partnership; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/snail-bride/page-020.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with warm partnership; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/snail-bride/ko/page-020.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/snail-bride/ambient/ambient-loop.wav",
+      "characterBible": "characters/snail_bride.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_020/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_020/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_020/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_020/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_020/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_020/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "snail_bride_021",
+      "pageNumber": 21,
+      "text": {
+        "enLittle": "A proud official heard of her beauty and sent a red-sealed order.",
+        "enStandard": "In the village road, first, a proud official heard of her beauty and sent a red-sealed order. \"I will answer carefully,\" came the reply.",
+        "koLittle": "우렁와 각시가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "우렁와 각시가 있는 옛이야기 길에서 우렁와 각시가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "우렁와 각시가 있는 옛이야기 길에서 우렁와 각시가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the village road, first, a proud official heard of her beauty and sent a red-sealed order. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "우렁와 각시가 있는 옛이야기 길에서 우렁와 각시가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "우렁",
+          "en": "snail",
+          "romanization": "ureong",
+          "definitionEn": "A freshwater snail from the tale.",
+          "definitionKo": "이야기에 나오는 물우렁이에요."
+        },
+        {
+          "ko": "논",
+          "en": "rice field",
+          "romanization": "non",
+          "definitionEn": "A wet field where rice grows.",
+          "definitionKo": "벼가 자라는 물논이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "a magistrate tries to claim the bride (official threat)",
+        "emotion": "protective tension",
+        "pageTurnHook": "Then the next part of official threat will ask for a braver choice, and the story moves toward chosen safety.",
+        "readAloudCue": "Read with protective tension; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe village road."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/snail_bride.character_bible.json. Page 21 for 우렁각시 / The Snail Bride: village road; specific beat: a proud official heard of her beauty and sent a red-sealed order; emotional tone: protective tension; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/snail-bride/page-021.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with protective tension; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/snail-bride/ko/page-021.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/snail-bride/ambient/ambient-loop.wav",
+      "characterBible": "characters/snail_bride.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_021/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_021/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_021/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_021/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_021/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_021/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "snail_bride_022",
+      "pageNumber": 22,
+      "text": {
+        "enLittle": "The farmer wanted to hide her.",
+        "enStandard": "In the village road, next, the farmer wanted to hide her, but she asked to speak for herself. \"Then walk gently,\" the elder said.",
+        "koLittle": "논 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "우렁와 각시가 있는 옛이야기 길에서 논 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "우렁와 각시가 있는 옛이야기 길에서 논 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the village road, next, the farmer wanted to hide her, but she asked to speak for herself. \"Then walk gently,\" the elder said.",
+      "narrationScript": "우렁와 각시가 있는 옛이야기 길에서 논 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "각시",
+          "en": "bride",
+          "romanization": "gaksi",
+          "definitionEn": "A young woman in old Korean phrasing.",
+          "definitionKo": "옛말로 젊은 여인을 가리켜요."
+        },
+        {
+          "ko": "선택",
+          "en": "choice",
+          "romanization": "seontaek",
+          "definitionEn": "A decision made by someone for themself.",
+          "definitionKo": "스스로 고르는 일이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "a magistrate tries to claim the bride (official threat)",
+        "emotion": "protective tension",
+        "pageTurnHook": "Then the next part of official threat will ask for a braver choice, and the story moves toward chosen safety.",
+        "readAloudCue": "Read with protective tension; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open village road."
+      },
+      "refrain": "Ask first, trust gently.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/snail_bride.character_bible.json. Page 22 for 우렁각시 / The Snail Bride: village road; specific beat: the farmer wanted to hide her, but she asked to speak for herself; emotional tone: protective tension; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/snail-bride/page-022.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with protective tension; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/snail-bride/ko/page-022.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/snail-bride/ambient/ambient-loop.wav",
+      "characterBible": "characters/snail_bride.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_022/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_022/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_022/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_022/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_022/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_022/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "먼저 묻고, 부드럽게 믿자."
+    },
+    {
+      "id": "snail_bride_023",
+      "pageNumber": 23,
+      "text": {
+        "enLittle": "She stood by the rice field with her shell bowl in both hands.",
+        "enStandard": "In the village road, quietly, she stood by the rice field with her shell bowl in both hands. \"I am still learning,\" the child answered.",
+        "koLittle": "우렁를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "우렁와 각시가 있는 옛이야기 길에서 우렁를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "우렁와 각시가 있는 옛이야기 길에서 우렁를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the village road, quietly, she stood by the rice field with her shell bowl in both hands. \"I am still learning,\" the child answered.",
+      "narrationScript": "우렁와 각시가 있는 옛이야기 길에서 우렁를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "논",
+          "en": "rice field",
+          "romanization": "non",
+          "definitionEn": "A wet field where rice grows.",
+          "definitionKo": "벼가 자라는 물논이에요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "a magistrate tries to claim the bride (official threat)",
+        "emotion": "protective tension",
+        "pageTurnHook": "Then the next part of official threat will ask for a braver choice, and the story moves toward chosen safety.",
+        "readAloudCue": "Read with protective tension; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose village road."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/snail_bride.character_bible.json. Page 23 for 우렁각시 / The Snail Bride: village road; specific beat: she stood by the rice field with her shell bowl in both hands; emotional tone: protective tension; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/snail-bride/page-023.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with protective tension; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/snail-bride/ko/page-023.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/snail-bride/ambient/ambient-loop.wav",
+      "characterBible": "characters/snail_bride.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_023/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_023/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_023/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_023/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_023/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_023/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "snail_bride_024",
+      "pageNumber": 24,
+      "text": {
+        "enLittle": "Her voice was quiet enough that everyone leaned in.",
+        "enStandard": "In the village road, with the moon high, her voice was quiet enough that everyone leaned in. \"Tell me the truth,\" someone said.",
+        "koLittle": "선택의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "우렁와 각시가 있는 옛이야기 길에서 선택의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "우렁와 각시가 있는 옛이야기 길에서 선택의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the village road, with the moon high, her voice was quiet enough that everyone leaned in. \"Tell me the truth,\" someone said.",
+      "narrationScript": "우렁와 각시가 있는 옛이야기 길에서 선택의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "선택",
+          "en": "choice",
+          "romanization": "seontaek",
+          "definitionEn": "A decision made by someone for themself.",
+          "definitionKo": "스스로 고르는 일이에요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "a magistrate tries to claim the bride (official threat)",
+        "emotion": "protective tension",
+        "pageTurnHook": "Then the next part of official threat will ask for a braver choice, and the story moves toward chosen safety.",
+        "readAloudCue": "Read with protective tension; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag village road."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/snail_bride.character_bible.json. Page 24 for 우렁각시 / The Snail Bride: village road; specific beat: her voice was quiet enough that everyone leaned in; emotional tone: protective tension; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/snail-bride/page-024.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with protective tension; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/snail-bride/ko/page-024.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/snail-bride/ambient/ambient-loop.wav",
+      "characterBible": "characters/snail_bride.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_024/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_024/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_024/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_024/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_024/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_024/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "snail_bride_025",
+      "pageNumber": 25,
+      "text": {
+        "enLittle": "A proud official heard of her beauty and sent a red-sealed order.",
+        "enStandard": "In the village road, before dawn, a proud official heard of her beauty and sent a red-sealed order. \"I will answer carefully,\" came the reply.",
+        "koLittle": "우렁와 각시가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "우렁와 각시가 있는 옛이야기 길에서 우렁와 각시가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "우렁와 각시가 있는 옛이야기 길에서 우렁와 각시가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the village road, before dawn, a proud official heard of her beauty and sent a red-sealed order. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "우렁와 각시가 있는 옛이야기 길에서 우렁와 각시가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "a magistrate tries to claim the bride (official threat)",
+        "emotion": "protective tension",
+        "pageTurnHook": "Then the next part of official threat will ask for a braver choice, and the story moves toward chosen safety.",
+        "readAloudCue": "Read with protective tension; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap village road."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/snail_bride.character_bible.json. Page 25 for 우렁각시 / The Snail Bride: village road; specific beat: a proud official heard of her beauty and sent a red-sealed order; emotional tone: protective tension; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/snail-bride/page-025.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with protective tension; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/snail-bride/ko/page-025.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/snail-bride/ambient/ambient-loop.wav",
+      "characterBible": "characters/snail_bride.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_025/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_025/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_025/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_025/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_025/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_025/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "snail_bride_026",
+      "pageNumber": 26,
+      "text": {
+        "enLittle": "The shell bowl filled with field water and reflected the official's lonely face.",
+        "enStandard": "In the green rice fields, first, the shell bowl filled with field water and reflected the official's lonely face. \"I am still learning,\" the child answered.",
+        "koLittle": "각시와 논가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "각시와 논가 있는 옛이야기 길에서 각시와 논가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "각시와 논가 있는 옛이야기 길에서 각시와 논가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the green rice fields, first, the shell bowl filled with field water and reflected the official's lonely face. \"I am still learning,\" the child answered.",
+      "narrationScript": "각시와 논가 있는 옛이야기 길에서 각시와 논가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "bride's agency wins and home remains chosen (chosen safety)",
+        "emotion": "relieved dignity",
+        "pageTurnHook": "Then the next part of chosen safety will ask for a braver choice, and the story moves toward chosen safety.",
+        "readAloudCue": "Read with relieved dignity; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace green rice fields."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/snail_bride.character_bible.json. Page 26 for 우렁각시 / The Snail Bride: green rice fields; specific beat: the shell bowl filled with field water and reflected the official's lonely face; emotional tone: relieved dignity; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/snail-bride/page-026.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with relieved dignity; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/snail-bride/ko/page-026.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/snail-bride/ambient/ambient-loop.wav",
+      "characterBible": "characters/snail_bride.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_026/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_026/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_026/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_026/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_026/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_026/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "snail_bride_027",
+      "pageNumber": 27,
+      "text": {
+        "enLittle": "He lowered the order because no reflection can own a person.",
+        "enStandard": "In the green rice fields, next, he lowered the order because no reflection can own a person. \"Tell me the truth,\" someone said.",
+        "koLittle": "선택 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "각시와 논가 있는 옛이야기 길에서 선택 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "각시와 논가 있는 옛이야기 길에서 선택 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the green rice fields, next, he lowered the order because no reflection can own a person. \"Tell me the truth,\" someone said.",
+      "narrationScript": "각시와 논가 있는 옛이야기 길에서 선택 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "bride's agency wins and home remains chosen (chosen safety)",
+        "emotion": "relieved dignity",
+        "pageTurnHook": "Then the next part of chosen safety will ask for a braver choice, and the story moves toward chosen safety.",
+        "readAloudCue": "Read with relieved dignity; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count green rice fields."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/snail_bride.character_bible.json. Page 27 for 우렁각시 / The Snail Bride: green rice fields; specific beat: he lowered the order because no reflection can own a person; emotional tone: relieved dignity; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/snail-bride/page-027.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with relieved dignity; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/snail-bride/ko/page-027.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/snail-bride/ambient/ambient-loop.wav",
+      "characterBible": "characters/snail_bride.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_027/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_027/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_027/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_027/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_027/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_027/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "snail_bride_028",
+      "pageNumber": 28,
+      "text": {
+        "enLittle": "The bride chose the cottage again.",
+        "enStandard": "In the green rice fields, quietly, the bride chose the cottage again, this time with the whole village hearing. \"I will answer carefully,\" came the reply.",
+        "koLittle": "각시를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "각시와 논가 있는 옛이야기 길에서 각시를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "각시와 논가 있는 옛이야기 길에서 각시를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the green rice fields, quietly, the bride chose the cottage again, this time with the whole village hearing. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "각시와 논가 있는 옛이야기 길에서 각시를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "bride's agency wins and home remains chosen (chosen safety)",
+        "emotion": "relieved dignity",
+        "pageTurnHook": "Then the next part of chosen safety will ask for a braver choice, and the story moves toward chosen safety.",
+        "readAloudCue": "Read with relieved dignity; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold green rice fields."
+      },
+      "refrain": "Ask first, trust gently.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/snail_bride.character_bible.json. Page 28 for 우렁각시 / The Snail Bride: green rice fields; specific beat: the bride chose the cottage again, this time with the whole village hearing; emotional tone: relieved dignity; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/snail-bride/page-028.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with relieved dignity; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/snail-bride/ko/page-028.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/snail-bride/ambient/ambient-loop.wav",
+      "characterBible": "characters/snail_bride.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_028/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_028/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_028/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_028/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_028/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_028/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "먼저 묻고, 부드럽게 믿자."
+    },
+    {
+      "id": "snail_bride_029",
+      "pageNumber": 29,
+      "text": {
+        "enLittle": "Rain tapped the rice leaves like applause.",
+        "enStandard": "In the green rice fields, with the moon high, rain tapped the rice leaves like applause. \"Then walk gently,\" the elder said.",
+        "koLittle": "우렁의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "각시와 논가 있는 옛이야기 길에서 우렁의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "각시와 논가 있는 옛이야기 길에서 우렁의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the green rice fields, with the moon high, rain tapped the rice leaves like applause. \"Then walk gently,\" the elder said.",
+      "narrationScript": "각시와 논가 있는 옛이야기 길에서 우렁의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "우렁",
+          "en": "snail",
+          "romanization": "ureong",
+          "definitionEn": "A freshwater snail from the tale.",
+          "definitionKo": "이야기에 나오는 물우렁이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "bride's agency wins and home remains chosen (chosen safety)",
+        "emotion": "relieved dignity",
+        "pageTurnHook": "Then the next part of chosen safety will ask for a braver choice, and the story moves toward chosen safety.",
+        "readAloudCue": "Read with relieved dignity; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe green rice fields."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/snail_bride.character_bible.json. Page 29 for 우렁각시 / The Snail Bride: green rice fields; specific beat: rain tapped the rice leaves like applause; emotional tone: relieved dignity; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/snail-bride/page-029.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with relieved dignity; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/snail-bride/ko/page-029.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/snail-bride/ambient/ambient-loop.wav",
+      "characterBible": "characters/snail_bride.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_029/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_029/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_029/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_029/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_029/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_029/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "snail_bride_030",
+      "pageNumber": 30,
+      "text": {
+        "enLittle": "The shell bowl filled with field water and reflected the official's lonely face.",
+        "enStandard": "In the green rice fields, before dawn, the shell bowl filled with field water and reflected the official's lonely face. \"I am still learning,\" the child answered.",
+        "koLittle": "각시와 논가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "각시와 논가 있는 옛이야기 길에서 각시와 논가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "각시와 논가 있는 옛이야기 길에서 각시와 논가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the green rice fields, before dawn, the shell bowl filled with field water and reflected the official's lonely face. \"I am still learning,\" the child answered.",
+      "narrationScript": "각시와 논가 있는 옛이야기 길에서 각시와 논가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "각시",
+          "en": "bride",
+          "romanization": "gaksi",
+          "definitionEn": "A young woman in old Korean phrasing.",
+          "definitionKo": "옛말로 젊은 여인을 가리켜요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "bride's agency wins and home remains chosen (chosen safety)",
+        "emotion": "relieved dignity",
+        "pageTurnHook": "Then the next part of chosen safety will ask for a braver choice, and the story moves toward chosen safety.",
+        "readAloudCue": "Read with relieved dignity; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open green rice fields."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/snail_bride.character_bible.json. Page 30 for 우렁각시 / The Snail Bride: green rice fields; specific beat: the shell bowl filled with field water and reflected the official's lonely face; emotional tone: relieved dignity; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/snail-bride/page-030.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with relieved dignity; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/snail-bride/ko/page-030.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/snail-bride/ambient/ambient-loop.wav",
+      "characterBible": "characters/snail_bride.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_030/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_030/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_030/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_030/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_030/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/snail-bride/snail_bride_030/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    }
+  ]
+}

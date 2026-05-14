@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://moonjarstories.example/schemas/catalog.schema.json",
+  "title": "Moon Jar Stories Catalog",
+  "type": "object",
+  "required": ["schemaVersion", "libraryVersion", "monetization", "books"],
+  "properties": {
+    "schemaVersion": { "type": "string" },
+    "libraryVersion": { "type": "string" },
+    "monetization": {
+      "type": "object",
+      "required": ["freeBooks", "monthlyUsd", "annualUsd", "lifetimeUsdRange", "individualBookUsd"],
+      "properties": {
+        "freeBooks": { "type": "integer" },
+        "monthlyUsd": { "type": "number" },
+        "annualUsd": { "type": "number" },
+        "lifetimeUsdRange": { "type": "string" },
+        "individualBookUsd": { "type": "number" }
+      },
+      "additionalProperties": false
+    },
+    "books": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "slug", "title", "access", "status", "ageRange", "pageTarget"],
+        "properties": {
+          "id": { "type": "string" },
+          "slug": { "type": "string" },
+          "title": {
+            "type": "object",
+            "required": ["ko", "en"],
+            "properties": {
+              "ko": { "type": "string" },
+              "en": { "type": "string" }
+            },
+            "additionalProperties": false
+          },
+          "access": { "enum": ["free", "premium"] },
+          "status": { "enum": ["complete", "metadata_only"] },
+          "ageRange": { "type": "string" },
+          "pageTarget": { "type": "integer" },
+          "bookPath": { "type": "string" },
+          "sensitivity": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
+

@@ -1,0 +1,2901 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "book.lump_old_man",
+  "slug": "lump-old-man",
+  "title": {
+    "ko": "혹부리 영감",
+    "en": "The Old Man With a Lump"
+  },
+  "access": "premium",
+  "ageRange": "4-8",
+  "estimatedMinutes": 10,
+  "summary": "A singing old man with a lump treats himself with dignity, delights the dokkaebi with song, and greedy imitation learns respect through comedy.",
+  "coverAsset": "assets/books/lump-old-man/cover.png",
+  "coverAssetStatus": "placeholder",
+  "characterBible": "characters/lump_old_man.character_bible.json",
+  "narrationAudioStatus": "synthetic_draft",
+  "adaptationVersions": {
+    "default": "English-first bilingual semantic-authenticity repair draft",
+    "plannedAlternate": "External editor pass after children’s editorial and Korean-language review",
+    "note": "Generated repo-local repair draft; not external human final."
+  },
+  "sensitivityNotes": [
+    "Physical difference is never mocked; the lump is treated respectfully and never as a shameful joke.",
+    "Repaired by repo-local semantic authenticity pass; external children’s editor, Korean-language, cultural, and child-safety review remain required before final release."
+  ],
+  "themes": [
+    "respect",
+    "music",
+    "self-worth",
+    "humor",
+    "dignity"
+  ],
+  "characters": [
+    "old_man",
+    "dokkaebi_dancer",
+    "neighbor",
+    "festival_path"
+  ],
+  "pages": [
+    {
+      "id": "lump_old_man_001",
+      "pageNumber": 1,
+      "text": {
+        "enLittle": "The old man tuned his small drum and touched the lump on his cheek without shame.",
+        "enStandard": "On a village festival path, first, the old man tuned his small drum and touched the lump on his cheek without shame. \"Sing the funny one!\" children called.",
+        "koLittle": "할아버지는 작은 북을 맞추고 혹을 부끄러움 없이 만졌어요",
+        "koStandard": "마을 잔치길에서 할아버지는 작은 북을 맞추고 혹을 부끄러움 없이 만졌어요."
+      },
+      "koreanText": "마을 잔치길에서 할아버지는 작은 북을 맞추고 혹을 부끄러움 없이 만졌어요.",
+      "englishText": "On a village festival path, first, the old man tuned his small drum and touched the lump on his cheek without shame. \"Sing the funny one!\" children called.",
+      "narrationScript": "마을 잔치길에서 할아버지는 작은 북을 맞추고 혹을 부끄러움 없이 만졌어요.",
+      "vocabulary": [
+        {
+          "ko": "혹",
+          "en": "lump",
+          "romanization": "hok",
+          "definitionEn": "A bump on the old man's face, treated with respect.",
+          "definitionKo": "할아버지 얼굴의 혹이며 존중해서 이야기해요."
+        },
+        {
+          "ko": "도깨비",
+          "en": "dokkaebi",
+          "romanization": "dokkaebi",
+          "definitionEn": "A playful Korean spirit.",
+          "definitionKo": "장난스럽고 신비한 한국 이야기 존재예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "center the old man's dignity and music (village singer)",
+        "emotion": "warm self-respect",
+        "pageTurnHook": "Then the hollow tree will fill with unexpected dancers, and the story moves toward dokkaebi dance.",
+        "readAloudCue": "Read with warm self-respect; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap the little drum."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/lump_old_man.character_bible.json. Page 1 for 혹부리 영감 / The Old Man With a Lump: old man with visible lump singing by lanterns, villagers listening kindly; specific beat: the old man tuned his small drum and touched the lump on his cheek without shame; emotional tone: warm self-respect; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/lump-old-man/page-001.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with warm self-respect; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/lump-old-man/ko/page-001.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/lump-old-man/ambient/ambient-loop.wav",
+      "characterBible": "characters/lump_old_man.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_001/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_001/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_001/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_001/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_001/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_001/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lump_old_man_002",
+      "pageNumber": 2,
+      "text": {
+        "enLittle": "Children liked his songs because each note seemed to wink.",
+        "enStandard": "On a village festival path, next, children liked his songs because each note seemed to wink. \"Funny, not mean,\" he reminded them.",
+        "koLittle": "아이들은 윙크 같은 노래를 좋아했어요",
+        "koStandard": "마을 잔치길에서 아이들은 윙크 같은 노래를 좋아했어요."
+      },
+      "koreanText": "마을 잔치길에서 아이들은 윙크 같은 노래를 좋아했어요.",
+      "englishText": "On a village festival path, next, children liked his songs because each note seemed to wink. \"Funny, not mean,\" he reminded them.",
+      "narrationScript": "마을 잔치길에서 아이들은 윙크 같은 노래를 좋아했어요.",
+      "vocabulary": [
+        {
+          "ko": "노래",
+          "en": "song",
+          "romanization": "norae",
+          "definitionEn": "Music made with the voice.",
+          "definitionKo": "목소리로 만드는 음악이에요."
+        },
+        {
+          "ko": "북",
+          "en": "drum",
+          "romanization": "buk",
+          "definitionEn": "An instrument that keeps a beat.",
+          "definitionKo": "장단을 치는 악기예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "center the old man's dignity and music (village singer)",
+        "emotion": "warm self-respect",
+        "pageTurnHook": "Then the hollow tree will fill with unexpected dancers, and the story moves toward dokkaebi dance.",
+        "readAloudCue": "Read with warm self-respect; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace the little drum."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/lump_old_man.character_bible.json. Page 2 for 혹부리 영감 / The Old Man With a Lump: old man with visible lump singing by lanterns, villagers listening kindly; specific beat: children liked his songs because each note seemed to wink; emotional tone: warm self-respect; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/lump-old-man/page-002.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with warm self-respect; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/lump-old-man/ko/page-002.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/lump-old-man/ambient/ambient-loop.wav",
+      "characterBible": "characters/lump_old_man.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_002/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_002/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_002/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_002/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_002/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_002/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lump_old_man_003",
+      "pageNumber": 3,
+      "text": {
+        "enLittle": "Some neighbors stared too long.",
+        "enStandard": "On a village festival path, quietly, some neighbors stared too long, but he answered with a bow and a verse. \"Rain wants an audience too,\" he laughed.",
+        "koLittle": "오래 보는 이웃에게 그는 절과 노래로 답했어요",
+        "koStandard": "마을 잔치길에서 오래 보는 이웃에게 그는 절과 노래로 답했어요."
+      },
+      "koreanText": "마을 잔치길에서 오래 보는 이웃에게 그는 절과 노래로 답했어요.",
+      "englishText": "On a village festival path, quietly, some neighbors stared too long, but he answered with a bow and a verse. \"Rain wants an audience too,\" he laughed.",
+      "narrationScript": "마을 잔치길에서 오래 보는 이웃에게 그는 절과 노래로 답했어요.",
+      "vocabulary": [
+        {
+          "ko": "도깨비",
+          "en": "dokkaebi",
+          "romanization": "dokkaebi",
+          "definitionEn": "A playful Korean spirit.",
+          "definitionKo": "장난스럽고 신비한 한국 이야기 존재예요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "center the old man's dignity and music (village singer)",
+        "emotion": "warm self-respect",
+        "pageTurnHook": "Then the hollow tree will fill with unexpected dancers, and the story moves toward dokkaebi dance.",
+        "readAloudCue": "Read with warm self-respect; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count the little drum."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/lump_old_man.character_bible.json. Page 3 for 혹부리 영감 / The Old Man With a Lump: old man with visible lump singing by lanterns, villagers listening kindly; specific beat: some neighbors stared too long, but he answered with a bow and a verse; emotional tone: warm self-respect; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/lump-old-man/page-003.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with warm self-respect; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/lump-old-man/ko/page-003.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/lump-old-man/ambient/ambient-loop.wav",
+      "characterBible": "characters/lump_old_man.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_003/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_003/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_003/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_003/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_003/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_003/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lump_old_man_004",
+      "pageNumber": 4,
+      "text": {
+        "enLittle": "Rain clouds sent him toward a hollow tree for shelter.",
+        "enStandard": "On a village festival path, with the moon high, rain clouds sent him toward a hollow tree for shelter. \"My song fits my face,\" he said.",
+        "koLittle": "비구름이 그를 빈 나무 쪽으로 보냈어요",
+        "koStandard": "마을 잔치길에서 비구름이 그를 빈 나무 쪽으로 보냈어요."
+      },
+      "koreanText": "마을 잔치길에서 비구름이 그를 빈 나무 쪽으로 보냈어요.",
+      "englishText": "On a village festival path, with the moon high, rain clouds sent him toward a hollow tree for shelter. \"My song fits my face,\" he said.",
+      "narrationScript": "마을 잔치길에서 비구름이 그를 빈 나무 쪽으로 보냈어요.",
+      "vocabulary": [
+        {
+          "ko": "북",
+          "en": "drum",
+          "romanization": "buk",
+          "definitionEn": "An instrument that keeps a beat.",
+          "definitionKo": "장단을 치는 악기예요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "center the old man's dignity and music (village singer)",
+        "emotion": "warm self-respect",
+        "pageTurnHook": "Then the hollow tree will fill with unexpected dancers, and the story moves toward dokkaebi dance.",
+        "readAloudCue": "Read with warm self-respect; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold the little drum."
+      },
+      "refrain": "Sing kindly, dance lightly.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/lump_old_man.character_bible.json. Page 4 for 혹부리 영감 / The Old Man With a Lump: old man with visible lump singing by lanterns, villagers listening kindly; specific beat: rain clouds sent him toward a hollow tree for shelter; emotional tone: warm self-respect; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/lump-old-man/page-004.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with warm self-respect; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/lump-old-man/ko/page-004.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/lump-old-man/ambient/ambient-loop.wav",
+      "characterBible": "characters/lump_old_man.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_004/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_004/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_004/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_004/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_004/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_004/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "다정히 노래하고, 가볍게 춤추자."
+    },
+    {
+      "id": "lump_old_man_005",
+      "pageNumber": 5,
+      "text": {
+        "enLittle": "The old man tuned his small drum and touched the lump on his cheek without shame.",
+        "enStandard": "On a village festival path, before dawn, the old man tuned his small drum and touched the lump on his cheek without shame. \"Sing the funny one!\" children called.",
+        "koLittle": "할아버지는 작은 북을 맞추고 혹을 부끄러움 없이 만졌어요",
+        "koStandard": "마을 잔치길에서 할아버지는 작은 북을 맞추고 혹을 부끄러움 없이 만졌어요."
+      },
+      "koreanText": "마을 잔치길에서 할아버지는 작은 북을 맞추고 혹을 부끄러움 없이 만졌어요.",
+      "englishText": "On a village festival path, before dawn, the old man tuned his small drum and touched the lump on his cheek without shame. \"Sing the funny one!\" children called.",
+      "narrationScript": "마을 잔치길에서 할아버지는 작은 북을 맞추고 혹을 부끄러움 없이 만졌어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "center the old man's dignity and music (village singer)",
+        "emotion": "warm self-respect",
+        "pageTurnHook": "Then the hollow tree will fill with unexpected dancers, and the story moves toward dokkaebi dance.",
+        "readAloudCue": "Read with warm self-respect; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe the little drum."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/lump_old_man.character_bible.json. Page 5 for 혹부리 영감 / The Old Man With a Lump: old man with visible lump singing by lanterns, villagers listening kindly; specific beat: the old man tuned his small drum and touched the lump on his cheek without shame; emotional tone: warm self-respect; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/lump-old-man/page-005.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with warm self-respect; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/lump-old-man/ko/page-005.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/lump-old-man/ambient/ambient-loop.wav",
+      "characterBible": "characters/lump_old_man.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_005/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_005/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_005/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_005/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_005/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_005/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lump_old_man_006",
+      "pageNumber": 6,
+      "text": {
+        "enLittle": "Dokkaebi stomped in with lantern mushrooms swinging from their belts.",
+        "enStandard": "Inside the hollow tree clearing, first, dokkaebi stomped in with lantern mushrooms swinging from their belts. \"It belongs to me,\" he answered gently.",
+        "koLittle": "도깨비들이 등불버섯을 흔들며 쿵쿵 들어왔어요",
+        "koStandard": "빈 나무 공터에서 도깨비들이 등불버섯을 흔들며 쿵쿵 들어왔어요."
+      },
+      "koreanText": "빈 나무 공터에서 도깨비들이 등불버섯을 흔들며 쿵쿵 들어왔어요.",
+      "englishText": "Inside the hollow tree clearing, first, dokkaebi stomped in with lantern mushrooms swinging from their belts. \"It belongs to me,\" he answered gently.",
+      "narrationScript": "빈 나무 공터에서 도깨비들이 등불버섯을 흔들며 쿵쿵 들어왔어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "dokkaebi hear the song (dokkaebi dance)",
+        "emotion": "surprised delight",
+        "pageTurnHook": "Then the dokkaebi will ask for the song's secret, and the story moves toward gift of respect.",
+        "readAloudCue": "Read with surprised delight; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open the mushroom lanterns."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/lump_old_man.character_bible.json. Page 6 for 혹부리 영감 / The Old Man With a Lump: dokkaebi dancing around lantern mushrooms, old man singing calmly; specific beat: dokkaebi stomped in with lantern mushrooms swinging from their belts; emotional tone: surprised delight; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/lump-old-man/page-006.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with surprised delight; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/lump-old-man/ko/page-006.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/lump-old-man/ambient/ambient-loop.wav",
+      "characterBible": "characters/lump_old_man.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_006/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_006/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_006/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_006/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_006/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_006/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lump_old_man_007",
+      "pageNumber": 7,
+      "text": {
+        "enLittle": "They expected fear.",
+        "enStandard": "Inside the hollow tree clearing, next, they expected fear, but the old man offered rhythm instead. \"Aren't you scared?\" asked a dokkaebi.",
+        "koLittle": "그들은 무서워하길 바랐지만 할아버지는 장단을 내주었어요",
+        "koStandard": "빈 나무 공터에서 그들은 무서워하길 바랐지만 할아버지는 장단을 내주었어요."
+      },
+      "koreanText": "빈 나무 공터에서 그들은 무서워하길 바랐지만 할아버지는 장단을 내주었어요.",
+      "englishText": "Inside the hollow tree clearing, next, they expected fear, but the old man offered rhythm instead. \"Aren't you scared?\" asked a dokkaebi.",
+      "narrationScript": "빈 나무 공터에서 그들은 무서워하길 바랐지만 할아버지는 장단을 내주었어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "dokkaebi hear the song (dokkaebi dance)",
+        "emotion": "surprised delight",
+        "pageTurnHook": "Then the dokkaebi will ask for the song's secret, and the story moves toward gift of respect.",
+        "readAloudCue": "Read with surprised delight; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose the mushroom lanterns."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/lump_old_man.character_bible.json. Page 7 for 혹부리 영감 / The Old Man With a Lump: dokkaebi dancing around lantern mushrooms, old man singing calmly; specific beat: they expected fear, but the old man offered rhythm instead; emotional tone: surprised delight; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/lump-old-man/page-007.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with surprised delight; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/lump-old-man/ko/page-007.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/lump-old-man/ambient/ambient-loop.wav",
+      "characterBible": "characters/lump_old_man.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_007/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_007/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_007/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_007/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_007/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_007/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lump_old_man_008",
+      "pageNumber": 8,
+      "text": {
+        "enLittle": "His lump bobbed as he sang.",
+        "enStandard": "Inside the hollow tree clearing, quietly, his lump bobbed as he sang, part of him and not a joke. \"I am busy singing,\" he said.",
+        "koLittle": "혹은 노래에 맞춰 움직였고 우스갯거리가 아니었어요",
+        "koStandard": "빈 나무 공터에서 혹은 노래에 맞춰 움직였고 우스갯거리가 아니었어요."
+      },
+      "koreanText": "빈 나무 공터에서 혹은 노래에 맞춰 움직였고 우스갯거리가 아니었어요.",
+      "englishText": "Inside the hollow tree clearing, quietly, his lump bobbed as he sang, part of him and not a joke. \"I am busy singing,\" he said.",
+      "narrationScript": "빈 나무 공터에서 혹은 노래에 맞춰 움직였고 우스갯거리가 아니었어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "dokkaebi hear the song (dokkaebi dance)",
+        "emotion": "surprised delight",
+        "pageTurnHook": "Then the dokkaebi will ask for the song's secret, and the story moves toward gift of respect.",
+        "readAloudCue": "Read with surprised delight; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag the mushroom lanterns."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/lump_old_man.character_bible.json. Page 8 for 혹부리 영감 / The Old Man With a Lump: dokkaebi dancing around lantern mushrooms, old man singing calmly; specific beat: his lump bobbed as he sang, part of him and not a joke; emotional tone: surprised delight; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/lump-old-man/page-008.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with surprised delight; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/lump-old-man/ko/page-008.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/lump-old-man/ambient/ambient-loop.wav",
+      "characterBible": "characters/lump_old_man.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_008/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_008/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_008/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_008/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_008/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_008/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lump_old_man_009",
+      "pageNumber": 9,
+      "text": {
+        "enLittle": "The dokkaebi copied the refrain until the forest shook with laughter.",
+        "enStandard": "Inside the hollow tree clearing, with the moon high, the dokkaebi copied the refrain until the forest shook with laughter. \"That lump keeps time!\" another cried.",
+        "koLittle": "도깨비들이 후렴을 따라 부르자 숲이 웃음으로 흔들렸어요",
+        "koStandard": "빈 나무 공터에서 도깨비들이 후렴을 따라 부르자 숲이 웃음으로 흔들렸어요."
+      },
+      "koreanText": "빈 나무 공터에서 도깨비들이 후렴을 따라 부르자 숲이 웃음으로 흔들렸어요.",
+      "englishText": "Inside the hollow tree clearing, with the moon high, the dokkaebi copied the refrain until the forest shook with laughter. \"That lump keeps time!\" another cried.",
+      "narrationScript": "빈 나무 공터에서 도깨비들이 후렴을 따라 부르자 숲이 웃음으로 흔들렸어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "혹",
+          "en": "lump",
+          "romanization": "hok",
+          "definitionEn": "A bump on the old man's face, treated with respect.",
+          "definitionKo": "할아버지 얼굴의 혹이며 존중해서 이야기해요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "dokkaebi hear the song (dokkaebi dance)",
+        "emotion": "surprised delight",
+        "pageTurnHook": "Then the dokkaebi will ask for the song's secret, and the story moves toward gift of respect.",
+        "readAloudCue": "Read with surprised delight; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap the mushroom lanterns."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/lump_old_man.character_bible.json. Page 9 for 혹부리 영감 / The Old Man With a Lump: dokkaebi dancing around lantern mushrooms, old man singing calmly; specific beat: the dokkaebi copied the refrain until the forest shook with laughter; emotional tone: surprised delight; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/lump-old-man/page-009.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with surprised delight; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/lump-old-man/ko/page-009.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/lump-old-man/ambient/ambient-loop.wav",
+      "characterBible": "characters/lump_old_man.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_009/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_009/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_009/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_009/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_009/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_009/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lump_old_man_010",
+      "pageNumber": 10,
+      "text": {
+        "enLittle": "Dokkaebi stomped in with lantern mushrooms swinging from their belts.",
+        "enStandard": "Inside the hollow tree clearing, before dawn, dokkaebi stomped in with lantern mushrooms swinging from their belts. \"It belongs to me,\" he answered gently.",
+        "koLittle": "도깨비들이 등불버섯을 흔들며 쿵쿵 들어왔어요",
+        "koStandard": "빈 나무 공터에서 도깨비들이 등불버섯을 흔들며 쿵쿵 들어왔어요."
+      },
+      "koreanText": "빈 나무 공터에서 도깨비들이 등불버섯을 흔들며 쿵쿵 들어왔어요.",
+      "englishText": "Inside the hollow tree clearing, before dawn, dokkaebi stomped in with lantern mushrooms swinging from their belts. \"It belongs to me,\" he answered gently.",
+      "narrationScript": "빈 나무 공터에서 도깨비들이 등불버섯을 흔들며 쿵쿵 들어왔어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "노래",
+          "en": "song",
+          "romanization": "norae",
+          "definitionEn": "Music made with the voice.",
+          "definitionKo": "목소리로 만드는 음악이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "dokkaebi hear the song (dokkaebi dance)",
+        "emotion": "surprised delight",
+        "pageTurnHook": "Then the dokkaebi will ask for the song's secret, and the story moves toward gift of respect.",
+        "readAloudCue": "Read with surprised delight; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace the mushroom lanterns."
+      },
+      "refrain": "Sing kindly, dance lightly.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/lump_old_man.character_bible.json. Page 10 for 혹부리 영감 / The Old Man With a Lump: dokkaebi dancing around lantern mushrooms, old man singing calmly; specific beat: dokkaebi stomped in with lantern mushrooms swinging from their belts; emotional tone: surprised delight; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/lump-old-man/page-010.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with surprised delight; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/lump-old-man/ko/page-010.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/lump-old-man/ambient/ambient-loop.wav",
+      "characterBible": "characters/lump_old_man.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_010/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_010/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_010/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_010/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_010/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_010/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "다정히 노래하고, 가볍게 춤추자."
+    },
+    {
+      "id": "lump_old_man_011",
+      "pageNumber": 11,
+      "text": {
+        "enLittle": "The chief dokkaebi asked whether the old man wanted the lump lighter.",
+        "enStandard": "At the fire circle, first, the chief dokkaebi asked whether the old man wanted the lump lighter. \"Yes, if kindness leads,\" he said.",
+        "koLittle": "도깨비 대장은 혹을 가볍게 하고 싶은지 먼저 물었어요",
+        "koStandard": "불빛 둥근 자리에서 도깨비 대장은 혹을 가볍게 하고 싶은지 먼저 물었어요."
+      },
+      "koreanText": "불빛 둥근 자리에서 도깨비 대장은 혹을 가볍게 하고 싶은지 먼저 물었어요.",
+      "englishText": "At the fire circle, first, the chief dokkaebi asked whether the old man wanted the lump lighter. \"Yes, if kindness leads,\" he said.",
+      "narrationScript": "불빛 둥근 자리에서 도깨비 대장은 혹을 가볍게 하고 싶은지 먼저 물었어요.",
+      "vocabulary": [
+        {
+          "ko": "혹",
+          "en": "lump",
+          "romanization": "hok",
+          "definitionEn": "A bump on the old man's face, treated with respect.",
+          "definitionKo": "할아버지 얼굴의 혹이며 존중해서 이야기해요."
+        },
+        {
+          "ko": "도깨비",
+          "en": "dokkaebi",
+          "romanization": "dokkaebi",
+          "definitionEn": "A playful Korean spirit.",
+          "definitionKo": "장난스럽고 신비한 한국 이야기 존재예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "dokkaebi remove the lump as a gift, not mockery (gift of respect)",
+        "emotion": "gentle wonder",
+        "pageTurnHook": "Then a greedy neighbor will misunderstand the gift, and the story moves toward greedy plan.",
+        "readAloudCue": "Read with gentle wonder; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count the song drum."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/lump_old_man.character_bible.json. Page 11 for 혹부리 영감 / The Old Man With a Lump: dokkaebi offering respectful magic, old man consenting, drum nearby; specific beat: the chief dokkaebi asked whether the old man wanted the lump lighter; emotional tone: gentle wonder; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/lump-old-man/page-011.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with gentle wonder; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/lump-old-man/ko/page-011.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/lump-old-man/ambient/ambient-loop.wav",
+      "characterBible": "characters/lump_old_man.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_011/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_011/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_011/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_011/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_011/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_011/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lump_old_man_012",
+      "pageNumber": 12,
+      "text": {
+        "enLittle": "The old man thought first.",
+        "enStandard": "At the fire circle, next, the old man thought first, because every gift should ask permission. \"Then sing once more,\" they begged.",
+        "koLittle": "할아버지는 선물도 허락을 구해야 하기에 생각했어요",
+        "koStandard": "불빛 둥근 자리에서 할아버지는 선물도 허락을 구해야 하기에 생각했어요."
+      },
+      "koreanText": "불빛 둥근 자리에서 할아버지는 선물도 허락을 구해야 하기에 생각했어요.",
+      "englishText": "At the fire circle, next, the old man thought first, because every gift should ask permission. \"Then sing once more,\" they begged.",
+      "narrationScript": "불빛 둥근 자리에서 할아버지는 선물도 허락을 구해야 하기에 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "노래",
+          "en": "song",
+          "romanization": "norae",
+          "definitionEn": "Music made with the voice.",
+          "definitionKo": "목소리로 만드는 음악이에요."
+        },
+        {
+          "ko": "북",
+          "en": "drum",
+          "romanization": "buk",
+          "definitionEn": "An instrument that keeps a beat.",
+          "definitionKo": "장단을 치는 악기예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "dokkaebi remove the lump as a gift, not mockery (gift of respect)",
+        "emotion": "gentle wonder",
+        "pageTurnHook": "Then a greedy neighbor will misunderstand the gift, and the story moves toward greedy plan.",
+        "readAloudCue": "Read with gentle wonder; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold the song drum."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/lump_old_man.character_bible.json. Page 12 for 혹부리 영감 / The Old Man With a Lump: dokkaebi offering respectful magic, old man consenting, drum nearby; specific beat: the old man thought first, because every gift should ask permission; emotional tone: gentle wonder; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/lump-old-man/page-012.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with gentle wonder; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/lump-old-man/ko/page-012.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/lump-old-man/ambient/ambient-loop.wav",
+      "characterBible": "characters/lump_old_man.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_012/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_012/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_012/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_012/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_012/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_012/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lump_old_man_013",
+      "pageNumber": 13,
+      "text": {
+        "enLittle": "With one soft tap.",
+        "enStandard": "At the fire circle, quietly, with one soft tap, the weight lifted like a tired bird. \"Gladly,\" he answered.",
+        "koLittle": "부드러운 한 번의 손길에 무게가 지친 새처럼 떠났어요",
+        "koStandard": "불빛 둥근 자리에서 부드러운 한 번의 손길에 무게가 지친 새처럼 떠났어요."
+      },
+      "koreanText": "불빛 둥근 자리에서 부드러운 한 번의 손길에 무게가 지친 새처럼 떠났어요.",
+      "englishText": "At the fire circle, quietly, with one soft tap, the weight lifted like a tired bird. \"Gladly,\" he answered.",
+      "narrationScript": "불빛 둥근 자리에서 부드러운 한 번의 손길에 무게가 지친 새처럼 떠났어요.",
+      "vocabulary": [
+        {
+          "ko": "도깨비",
+          "en": "dokkaebi",
+          "romanization": "dokkaebi",
+          "definitionEn": "A playful Korean spirit.",
+          "definitionKo": "장난스럽고 신비한 한국 이야기 존재예요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "dokkaebi remove the lump as a gift, not mockery (gift of respect)",
+        "emotion": "gentle wonder",
+        "pageTurnHook": "Then a greedy neighbor will misunderstand the gift, and the story moves toward greedy plan.",
+        "readAloudCue": "Read with gentle wonder; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe the song drum."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/lump_old_man.character_bible.json. Page 13 for 혹부리 영감 / The Old Man With a Lump: dokkaebi offering respectful magic, old man consenting, drum nearby; specific beat: with one soft tap, the weight lifted like a tired bird; emotional tone: gentle wonder; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/lump-old-man/page-013.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with gentle wonder; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/lump-old-man/ko/page-013.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/lump-old-man/ambient/ambient-loop.wav",
+      "characterBible": "characters/lump_old_man.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_013/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_013/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_013/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_013/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_013/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_013/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lump_old_man_014",
+      "pageNumber": 14,
+      "text": {
+        "enLittle": "The dokkaebi gave him a song drum so the rhythm would stay.",
+        "enStandard": "At the fire circle, with the moon high, the dokkaebi gave him a song drum so the rhythm would stay. \"Do you want this?\" the chief asked.",
+        "koLittle": "도깨비는 장단을 잊지 말라며 노래 북을 주었어요",
+        "koStandard": "불빛 둥근 자리에서 도깨비는 장단을 잊지 말라며 노래 북을 주었어요."
+      },
+      "koreanText": "불빛 둥근 자리에서 도깨비는 장단을 잊지 말라며 노래 북을 주었어요.",
+      "englishText": "At the fire circle, with the moon high, the dokkaebi gave him a song drum so the rhythm would stay. \"Do you want this?\" the chief asked.",
+      "narrationScript": "불빛 둥근 자리에서 도깨비는 장단을 잊지 말라며 노래 북을 주었어요.",
+      "vocabulary": [
+        {
+          "ko": "북",
+          "en": "drum",
+          "romanization": "buk",
+          "definitionEn": "An instrument that keeps a beat.",
+          "definitionKo": "장단을 치는 악기예요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "dokkaebi remove the lump as a gift, not mockery (gift of respect)",
+        "emotion": "gentle wonder",
+        "pageTurnHook": "Then a greedy neighbor will misunderstand the gift, and the story moves toward greedy plan.",
+        "readAloudCue": "Read with gentle wonder; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open the song drum."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/lump_old_man.character_bible.json. Page 14 for 혹부리 영감 / The Old Man With a Lump: dokkaebi offering respectful magic, old man consenting, drum nearby; specific beat: the dokkaebi gave him a song drum so the rhythm would stay; emotional tone: gentle wonder; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/lump-old-man/page-014.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with gentle wonder; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/lump-old-man/ko/page-014.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/lump-old-man/ambient/ambient-loop.wav",
+      "characterBible": "characters/lump_old_man.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_014/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_014/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_014/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_014/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_014/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_014/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lump_old_man_015",
+      "pageNumber": 15,
+      "text": {
+        "enLittle": "The chief dokkaebi asked whether the old man wanted the lump lighter.",
+        "enStandard": "At the fire circle, before dawn, the chief dokkaebi asked whether the old man wanted the lump lighter. \"Yes, if kindness leads,\" he said.",
+        "koLittle": "도깨비 대장은 혹을 가볍게 하고 싶은지 먼저 물었어요",
+        "koStandard": "불빛 둥근 자리에서 도깨비 대장은 혹을 가볍게 하고 싶은지 먼저 물었어요."
+      },
+      "koreanText": "불빛 둥근 자리에서 도깨비 대장은 혹을 가볍게 하고 싶은지 먼저 물었어요.",
+      "englishText": "At the fire circle, before dawn, the chief dokkaebi asked whether the old man wanted the lump lighter. \"Yes, if kindness leads,\" he said.",
+      "narrationScript": "불빛 둥근 자리에서 도깨비 대장은 혹을 가볍게 하고 싶은지 먼저 물었어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "dokkaebi remove the lump as a gift, not mockery (gift of respect)",
+        "emotion": "gentle wonder",
+        "pageTurnHook": "Then a greedy neighbor will misunderstand the gift, and the story moves toward greedy plan.",
+        "readAloudCue": "Read with gentle wonder; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose the song drum."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/lump_old_man.character_bible.json. Page 15 for 혹부리 영감 / The Old Man With a Lump: dokkaebi offering respectful magic, old man consenting, drum nearby; specific beat: the chief dokkaebi asked whether the old man wanted the lump lighter; emotional tone: gentle wonder; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/lump-old-man/page-015.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with gentle wonder; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/lump-old-man/ko/page-015.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/lump-old-man/ambient/ambient-loop.wav",
+      "characterBible": "characters/lump_old_man.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_015/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_015/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_015/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_015/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_015/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_015/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lump_old_man_016",
+      "pageNumber": 16,
+      "text": {
+        "enLittle": "The neighbor saw the old man's lighter face and heard only the word gift.",
+        "enStandard": "At the neighbor's gate, first, the neighbor saw the old man's lighter face and heard only the word gift. \"Respect is the door,\" the old man replied.",
+        "koLittle": "이웃은 가벼워진 얼굴과 선물이라는 말만 들었어요",
+        "koStandard": "이웃집 문 앞에서 이웃은 가벼워진 얼굴과 선물이라는 말만 들었어요."
+      },
+      "koreanText": "이웃집 문 앞에서 이웃은 가벼워진 얼굴과 선물이라는 말만 들었어요.",
+      "englishText": "At the neighbor's gate, first, the neighbor saw the old man's lighter face and heard only the word gift. \"Respect is the door,\" the old man replied.",
+      "narrationScript": "이웃집 문 앞에서 이웃은 가벼워진 얼굴과 선물이라는 말만 들었어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "neighbor imitates without respect (greedy plan)",
+        "emotion": "comic warning",
+        "pageTurnHook": "Then the hollow tree will hear the difference, and the story moves toward comic consequence.",
+        "readAloudCue": "Read with comic warning; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag the tied bundle."
+      },
+      "refrain": "Sing kindly, dance lightly.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/lump_old_man.character_bible.json. Page 16 for 혹부리 영감 / The Old Man With a Lump: neighbor touching his own cheek, imagining treasure, old man calm; specific beat: the neighbor saw the old man's lighter face and heard only the word gift; emotional tone: comic warning; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/lump-old-man/page-016.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with comic warning; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/lump-old-man/ko/page-016.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/lump-old-man/ambient/ambient-loop.wav",
+      "characterBible": "characters/lump_old_man.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_016/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_016/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_016/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_016/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_016/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_016/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "다정히 노래하고, 가볍게 춤추자."
+    },
+    {
+      "id": "lump_old_man_017",
+      "pageNumber": 17,
+      "text": {
+        "enLittle": "He tied a bundle and practiced a song he did not love.",
+        "enStandard": "At the neighbor's gate, next, he tied a bundle and practiced a song he did not love. \"Which tree?\" the neighbor asked.",
+        "koLittle": "그는 사랑하지 않는 노래를 연습하며 보따리를 묶었어요",
+        "koStandard": "이웃집 문 앞에서 그는 사랑하지 않는 노래를 연습하며 보따리를 묶었어요."
+      },
+      "koreanText": "이웃집 문 앞에서 그는 사랑하지 않는 노래를 연습하며 보따리를 묶었어요.",
+      "englishText": "At the neighbor's gate, next, he tied a bundle and practiced a song he did not love. \"Which tree?\" the neighbor asked.",
+      "narrationScript": "이웃집 문 앞에서 그는 사랑하지 않는 노래를 연습하며 보따리를 묶었어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "neighbor imitates without respect (greedy plan)",
+        "emotion": "comic warning",
+        "pageTurnHook": "Then the hollow tree will hear the difference, and the story moves toward comic consequence.",
+        "readAloudCue": "Read with comic warning; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap the tied bundle."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/lump_old_man.character_bible.json. Page 17 for 혹부리 영감 / The Old Man With a Lump: neighbor touching his own cheek, imagining treasure, old man calm; specific beat: he tied a bundle and practiced a song he did not love; emotional tone: comic warning; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/lump-old-man/page-017.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with comic warning; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/lump-old-man/ko/page-017.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/lump-old-man/ambient/ambient-loop.wav",
+      "characterBible": "characters/lump_old_man.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_017/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_017/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_017/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_017/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_017/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_017/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lump_old_man_018",
+      "pageNumber": 18,
+      "text": {
+        "enLittle": "The old man warned that dokkaebi hear the heart under the tune.",
+        "enStandard": "At the neighbor's gate, quietly, the old man warned that dokkaebi hear the heart under the tune. \"The song matters more,\" said the old man.",
+        "koLittle": "할아버지는 도깨비가 노래 밑 마음을 듣는다고 말했어요",
+        "koStandard": "이웃집 문 앞에서 할아버지는 도깨비가 노래 밑 마음을 듣는다고 말했어요."
+      },
+      "koreanText": "이웃집 문 앞에서 할아버지는 도깨비가 노래 밑 마음을 듣는다고 말했어요.",
+      "englishText": "At the neighbor's gate, quietly, the old man warned that dokkaebi hear the heart under the tune. \"The song matters more,\" said the old man.",
+      "narrationScript": "이웃집 문 앞에서 할아버지는 도깨비가 노래 밑 마음을 듣는다고 말했어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "neighbor imitates without respect (greedy plan)",
+        "emotion": "comic warning",
+        "pageTurnHook": "Then the hollow tree will hear the difference, and the story moves toward comic consequence.",
+        "readAloudCue": "Read with comic warning; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace the tied bundle."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/lump_old_man.character_bible.json. Page 18 for 혹부리 영감 / The Old Man With a Lump: neighbor touching his own cheek, imagining treasure, old man calm; specific beat: the old man warned that dokkaebi hear the heart under the tune; emotional tone: comic warning; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/lump-old-man/page-018.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with comic warning; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/lump-old-man/ko/page-018.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/lump-old-man/ambient/ambient-loop.wav",
+      "characterBible": "characters/lump_old_man.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_018/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_018/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_018/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_018/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_018/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_018/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lump_old_man_019",
+      "pageNumber": 19,
+      "text": {
+        "enLittle": "Greed stuffed cotton in the neighbor's ears.",
+        "enStandard": "At the neighbor's gate, with the moon high, greed stuffed cotton in the neighbor's ears. \"A gift is a gift,\" the neighbor said.",
+        "koLittle": "욕심은 이웃의 귀를 막았어요",
+        "koStandard": "이웃집 문 앞에서 욕심은 이웃의 귀를 막았어요."
+      },
+      "koreanText": "이웃집 문 앞에서 욕심은 이웃의 귀를 막았어요.",
+      "englishText": "At the neighbor's gate, with the moon high, greed stuffed cotton in the neighbor's ears. \"A gift is a gift,\" the neighbor said.",
+      "narrationScript": "이웃집 문 앞에서 욕심은 이웃의 귀를 막았어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "혹",
+          "en": "lump",
+          "romanization": "hok",
+          "definitionEn": "A bump on the old man's face, treated with respect.",
+          "definitionKo": "할아버지 얼굴의 혹이며 존중해서 이야기해요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "neighbor imitates without respect (greedy plan)",
+        "emotion": "comic warning",
+        "pageTurnHook": "Then the hollow tree will hear the difference, and the story moves toward comic consequence.",
+        "readAloudCue": "Read with comic warning; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count the tied bundle."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/lump_old_man.character_bible.json. Page 19 for 혹부리 영감 / The Old Man With a Lump: neighbor touching his own cheek, imagining treasure, old man calm; specific beat: greed stuffed cotton in the neighbor's ears; emotional tone: comic warning; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/lump-old-man/page-019.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with comic warning; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/lump-old-man/ko/page-019.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/lump-old-man/ambient/ambient-loop.wav",
+      "characterBible": "characters/lump_old_man.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_019/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_019/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_019/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_019/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_019/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_019/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lump_old_man_020",
+      "pageNumber": 20,
+      "text": {
+        "enLittle": "The neighbor saw the old man's lighter face and heard only the word gift.",
+        "enStandard": "At the neighbor's gate, before dawn, the neighbor saw the old man's lighter face and heard only the word gift. \"Respect is the door,\" the old man replied.",
+        "koLittle": "이웃은 가벼워진 얼굴과 선물이라는 말만 들었어요",
+        "koStandard": "이웃집 문 앞에서 이웃은 가벼워진 얼굴과 선물이라는 말만 들었어요."
+      },
+      "koreanText": "이웃집 문 앞에서 이웃은 가벼워진 얼굴과 선물이라는 말만 들었어요.",
+      "englishText": "At the neighbor's gate, before dawn, the neighbor saw the old man's lighter face and heard only the word gift. \"Respect is the door,\" the old man replied.",
+      "narrationScript": "이웃집 문 앞에서 이웃은 가벼워진 얼굴과 선물이라는 말만 들었어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "노래",
+          "en": "song",
+          "romanization": "norae",
+          "definitionEn": "Music made with the voice.",
+          "definitionKo": "목소리로 만드는 음악이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "neighbor imitates without respect (greedy plan)",
+        "emotion": "comic warning",
+        "pageTurnHook": "Then the hollow tree will hear the difference, and the story moves toward comic consequence.",
+        "readAloudCue": "Read with comic warning; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold the tied bundle."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/lump_old_man.character_bible.json. Page 20 for 혹부리 영감 / The Old Man With a Lump: neighbor touching his own cheek, imagining treasure, old man calm; specific beat: the neighbor saw the old man's lighter face and heard only the word gift; emotional tone: comic warning; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/lump-old-man/page-020.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with comic warning; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/lump-old-man/ko/page-020.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/lump-old-man/ambient/ambient-loop.wav",
+      "characterBible": "characters/lump_old_man.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_020/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_020/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_020/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_020/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_020/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_020/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lump_old_man_021",
+      "pageNumber": 21,
+      "text": {
+        "enLittle": "The neighbor shouted a song as if volume could become music.",
+        "enStandard": "In the hollow tree again, first, the neighbor shouted a song as if volume could become music. \"Where is my gift?\" the neighbor gasped.",
+        "koLittle": "이웃은 큰 소리가 음악이 되는 줄 알고 외쳤어요",
+        "koStandard": "다시 빈 나무에서 이웃은 큰 소리가 음악이 되는 줄 알고 외쳤어요."
+      },
+      "koreanText": "다시 빈 나무에서 이웃은 큰 소리가 음악이 되는 줄 알고 외쳤어요.",
+      "englishText": "In the hollow tree again, first, the neighbor shouted a song as if volume could become music. \"Where is my gift?\" the neighbor gasped.",
+      "narrationScript": "다시 빈 나무에서 이웃은 큰 소리가 음악이 되는 줄 알고 외쳤어요.",
+      "vocabulary": [
+        {
+          "ko": "혹",
+          "en": "lump",
+          "romanization": "hok",
+          "definitionEn": "A bump on the old man's face, treated with respect.",
+          "definitionKo": "할아버지 얼굴의 혹이며 존중해서 이야기해요."
+        },
+        {
+          "ko": "도깨비",
+          "en": "dokkaebi",
+          "romanization": "dokkaebi",
+          "definitionEn": "A playful Korean spirit.",
+          "definitionKo": "장난스럽고 신비한 한국 이야기 존재예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "dokkaebi reject greedy imitation (comic consequence)",
+        "emotion": "slapstick embarrassment",
+        "pageTurnHook": "Then apology will have to sound better than shouting, and the story moves toward respectful repair.",
+        "readAloudCue": "Read with slapstick embarrassment; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe the folded ears."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/lump_old_man.character_bible.json. Page 21 for 혹부리 영감 / The Old Man With a Lump: dokkaebi plugging ears, neighbor singing badly, harmless magic puff; specific beat: the neighbor shouted a song as if volume could become music; emotional tone: slapstick embarrassment; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/lump-old-man/page-021.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with slapstick embarrassment; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/lump-old-man/ko/page-021.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/lump-old-man/ambient/ambient-loop.wav",
+      "characterBible": "characters/lump_old_man.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_021/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_021/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_021/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_021/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_021/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_021/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lump_old_man_022",
+      "pageNumber": 22,
+      "text": {
+        "enLittle": "Dokkaebi ears folded like fans in a storm.",
+        "enStandard": "In the hollow tree again, next, dokkaebi ears folded like fans in a storm. \"You brought no song,\" said the chief.",
+        "koLittle": "도깨비 귀가 폭풍 속 부채처럼 접혔어요",
+        "koStandard": "다시 빈 나무에서 도깨비 귀가 폭풍 속 부채처럼 접혔어요."
+      },
+      "koreanText": "다시 빈 나무에서 도깨비 귀가 폭풍 속 부채처럼 접혔어요.",
+      "englishText": "In the hollow tree again, next, dokkaebi ears folded like fans in a storm. \"You brought no song,\" said the chief.",
+      "narrationScript": "다시 빈 나무에서 도깨비 귀가 폭풍 속 부채처럼 접혔어요.",
+      "vocabulary": [
+        {
+          "ko": "노래",
+          "en": "song",
+          "romanization": "norae",
+          "definitionEn": "Music made with the voice.",
+          "definitionKo": "목소리로 만드는 음악이에요."
+        },
+        {
+          "ko": "북",
+          "en": "drum",
+          "romanization": "buk",
+          "definitionEn": "An instrument that keeps a beat.",
+          "definitionKo": "장단을 치는 악기예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "dokkaebi reject greedy imitation (comic consequence)",
+        "emotion": "slapstick embarrassment",
+        "pageTurnHook": "Then apology will have to sound better than shouting, and the story moves toward respectful repair.",
+        "readAloudCue": "Read with slapstick embarrassment; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open the folded ears."
+      },
+      "refrain": "Sing kindly, dance lightly.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/lump_old_man.character_bible.json. Page 22 for 혹부리 영감 / The Old Man With a Lump: dokkaebi plugging ears, neighbor singing badly, harmless magic puff; specific beat: dokkaebi ears folded like fans in a storm; emotional tone: slapstick embarrassment; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/lump-old-man/page-022.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with slapstick embarrassment; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/lump-old-man/ko/page-022.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/lump-old-man/ambient/ambient-loop.wav",
+      "characterBible": "characters/lump_old_man.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_022/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_022/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_022/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_022/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_022/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_022/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "다정히 노래하고, 가볍게 춤추자."
+    },
+    {
+      "id": "lump_old_man_023",
+      "pageNumber": 23,
+      "text": {
+        "enLittle": "Instead of taking a lump away.",
+        "enStandard": "In the hollow tree again, quietly, instead of taking a lump away, they gave him a second one for keeping the first company. \"Only greed,\" added the smallest.",
+        "koLittle": "도깨비들은 혹을 가져가지 않고 친구 혹을 하나 더 붙였어요",
+        "koStandard": "다시 빈 나무에서 도깨비들은 혹을 가져가지 않고 친구 혹을 하나 더 붙였어요."
+      },
+      "koreanText": "다시 빈 나무에서 도깨비들은 혹을 가져가지 않고 친구 혹을 하나 더 붙였어요.",
+      "englishText": "In the hollow tree again, quietly, instead of taking a lump away, they gave him a second one for keeping the first company. \"Only greed,\" added the smallest.",
+      "narrationScript": "다시 빈 나무에서 도깨비들은 혹을 가져가지 않고 친구 혹을 하나 더 붙였어요.",
+      "vocabulary": [
+        {
+          "ko": "도깨비",
+          "en": "dokkaebi",
+          "romanization": "dokkaebi",
+          "definitionEn": "A playful Korean spirit.",
+          "definitionKo": "장난스럽고 신비한 한국 이야기 존재예요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "dokkaebi reject greedy imitation (comic consequence)",
+        "emotion": "slapstick embarrassment",
+        "pageTurnHook": "Then apology will have to sound better than shouting, and the story moves toward respectful repair.",
+        "readAloudCue": "Read with slapstick embarrassment; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose the folded ears."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/lump_old_man.character_bible.json. Page 23 for 혹부리 영감 / The Old Man With a Lump: dokkaebi plugging ears, neighbor singing badly, harmless magic puff; specific beat: instead of taking a lump away, they gave him a second one for keeping the first company; emotional tone: slapstick embarrassment; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/lump-old-man/page-023.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with slapstick embarrassment; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/lump-old-man/ko/page-023.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/lump-old-man/ambient/ambient-loop.wav",
+      "characterBible": "characters/lump_old_man.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_023/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_023/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_023/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_023/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_023/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_023/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lump_old_man_024",
+      "pageNumber": 24,
+      "text": {
+        "enLittle": "The neighbor stumbled out with leaves in his hair and a lesson in his pocket.",
+        "enStandard": "In the hollow tree again, with the moon high, the neighbor stumbled out with leaves in his hair and a lesson in his pocket. \"Stop shouting!\" cried a dokkaebi.",
+        "koLittle": "이웃은 머리에 잎을 달고 교훈을 품은 채 나왔어요",
+        "koStandard": "다시 빈 나무에서 이웃은 머리에 잎을 달고 교훈을 품은 채 나왔어요."
+      },
+      "koreanText": "다시 빈 나무에서 이웃은 머리에 잎을 달고 교훈을 품은 채 나왔어요.",
+      "englishText": "In the hollow tree again, with the moon high, the neighbor stumbled out with leaves in his hair and a lesson in his pocket. \"Stop shouting!\" cried a dokkaebi.",
+      "narrationScript": "다시 빈 나무에서 이웃은 머리에 잎을 달고 교훈을 품은 채 나왔어요.",
+      "vocabulary": [
+        {
+          "ko": "북",
+          "en": "drum",
+          "romanization": "buk",
+          "definitionEn": "An instrument that keeps a beat.",
+          "definitionKo": "장단을 치는 악기예요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "dokkaebi reject greedy imitation (comic consequence)",
+        "emotion": "slapstick embarrassment",
+        "pageTurnHook": "Then apology will have to sound better than shouting, and the story moves toward respectful repair.",
+        "readAloudCue": "Read with slapstick embarrassment; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag the folded ears."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/lump_old_man.character_bible.json. Page 24 for 혹부리 영감 / The Old Man With a Lump: dokkaebi plugging ears, neighbor singing badly, harmless magic puff; specific beat: the neighbor stumbled out with leaves in his hair and a lesson in his pocket; emotional tone: slapstick embarrassment; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/lump-old-man/page-024.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with slapstick embarrassment; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/lump-old-man/ko/page-024.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/lump-old-man/ambient/ambient-loop.wav",
+      "characterBible": "characters/lump_old_man.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_024/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_024/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_024/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_024/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_024/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_024/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lump_old_man_025",
+      "pageNumber": 25,
+      "text": {
+        "enLittle": "The neighbor shouted a song as if volume could become music.",
+        "enStandard": "In the hollow tree again, before dawn, the neighbor shouted a song as if volume could become music. \"Where is my gift?\" the neighbor gasped.",
+        "koLittle": "이웃은 큰 소리가 음악이 되는 줄 알고 외쳤어요",
+        "koStandard": "다시 빈 나무에서 이웃은 큰 소리가 음악이 되는 줄 알고 외쳤어요."
+      },
+      "koreanText": "다시 빈 나무에서 이웃은 큰 소리가 음악이 되는 줄 알고 외쳤어요.",
+      "englishText": "In the hollow tree again, before dawn, the neighbor shouted a song as if volume could become music. \"Where is my gift?\" the neighbor gasped.",
+      "narrationScript": "다시 빈 나무에서 이웃은 큰 소리가 음악이 되는 줄 알고 외쳤어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "dokkaebi reject greedy imitation (comic consequence)",
+        "emotion": "slapstick embarrassment",
+        "pageTurnHook": "Then apology will have to sound better than shouting, and the story moves toward respectful repair.",
+        "readAloudCue": "Read with slapstick embarrassment; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap the folded ears."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/lump_old_man.character_bible.json. Page 25 for 혹부리 영감 / The Old Man With a Lump: dokkaebi plugging ears, neighbor singing badly, harmless magic puff; specific beat: the neighbor shouted a song as if volume could become music; emotional tone: slapstick embarrassment; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/lump-old-man/page-025.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with slapstick embarrassment; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/lump-old-man/ko/page-025.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/lump-old-man/ambient/ambient-loop.wav",
+      "characterBible": "characters/lump_old_man.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_025/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_025/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_025/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_025/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_025/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_025/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lump_old_man_026",
+      "pageNumber": 26,
+      "text": {
+        "enLittle": "The neighbor apologized before asking for help.",
+        "enStandard": "Back on the festival path, first, the neighbor apologized before asking for help. \"Dance lightly,\" the dokkaebi echoed.",
+        "koLittle": "이웃은 도와 달라 하기 전 먼저 사과했어요",
+        "koStandard": "다시 마을 잔치길에서 이웃은 도와 달라 하기 전 먼저 사과했어요."
+      },
+      "koreanText": "다시 마을 잔치길에서 이웃은 도와 달라 하기 전 먼저 사과했어요.",
+      "englishText": "Back on the festival path, first, the neighbor apologized before asking for help. \"Dance lightly,\" the dokkaebi echoed.",
+      "narrationScript": "다시 마을 잔치길에서 이웃은 도와 달라 하기 전 먼저 사과했어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "restore dignity and community (respectful repair)",
+        "emotion": "kind humor",
+        "pageTurnHook": "Then the song will outlive the joke, and the story moves toward respectful repair.",
+        "readAloudCue": "Read with kind humor; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace the festival drum."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/lump_old_man.character_bible.json. Page 26 for 혹부리 영감 / The Old Man With a Lump: old man teaching song, neighbor apologizing, children dancing kindly; specific beat: the neighbor apologized before asking for help; emotional tone: kind humor; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/lump-old-man/page-026.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with kind humor; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/lump-old-man/ko/page-026.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/lump-old-man/ambient/ambient-loop.wav",
+      "characterBible": "characters/lump_old_man.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_026/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_026/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_026/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_026/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_026/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_026/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lump_old_man_027",
+      "pageNumber": 27,
+      "text": {
+        "enLittle": "The old man taught him to sing softly enough to hear others.",
+        "enStandard": "Back on the festival path, next, the old man taught him to sing softly enough to hear others. \"I mocked what I did not understand,\" the neighbor said.",
+        "koLittle": "할아버지는 남의 소리가 들릴 만큼 부드럽게 노래하라 가르쳤어요",
+        "koStandard": "다시 마을 잔치길에서 할아버지는 남의 소리가 들릴 만큼 부드럽게 노래하라 가르쳤어요."
+      },
+      "koreanText": "다시 마을 잔치길에서 할아버지는 남의 소리가 들릴 만큼 부드럽게 노래하라 가르쳤어요.",
+      "englishText": "Back on the festival path, next, the old man taught him to sing softly enough to hear others. \"I mocked what I did not understand,\" the neighbor said.",
+      "narrationScript": "다시 마을 잔치길에서 할아버지는 남의 소리가 들릴 만큼 부드럽게 노래하라 가르쳤어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "restore dignity and community (respectful repair)",
+        "emotion": "kind humor",
+        "pageTurnHook": "Then the song will outlive the joke, and the story moves toward respectful repair.",
+        "readAloudCue": "Read with kind humor; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count the festival drum."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/lump_old_man.character_bible.json. Page 27 for 혹부리 영감 / The Old Man With a Lump: old man teaching song, neighbor apologizing, children dancing kindly; specific beat: the old man taught him to sing softly enough to hear others; emotional tone: kind humor; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/lump-old-man/page-027.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with kind humor; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/lump-old-man/ko/page-027.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/lump-old-man/ambient/ambient-loop.wav",
+      "characterBible": "characters/lump_old_man.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_027/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_027/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_027/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_027/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_027/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_027/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lump_old_man_028",
+      "pageNumber": 28,
+      "text": {
+        "enLittle": "Children learned that no face is a punchline.",
+        "enStandard": "Back on the festival path, quietly, children learned that no face is a punchline. \"Then listen first,\" the old man answered.",
+        "koLittle": "아이들은 어떤 얼굴도 놀림감이 아님을 배웠어요",
+        "koStandard": "다시 마을 잔치길에서 아이들은 어떤 얼굴도 놀림감이 아님을 배웠어요."
+      },
+      "koreanText": "다시 마을 잔치길에서 아이들은 어떤 얼굴도 놀림감이 아님을 배웠어요.",
+      "englishText": "Back on the festival path, quietly, children learned that no face is a punchline. \"Then listen first,\" the old man answered.",
+      "narrationScript": "다시 마을 잔치길에서 아이들은 어떤 얼굴도 놀림감이 아님을 배웠어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "restore dignity and community (respectful repair)",
+        "emotion": "kind humor",
+        "pageTurnHook": "Then the song will outlive the joke, and the story moves toward respectful repair.",
+        "readAloudCue": "Read with kind humor; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold the festival drum."
+      },
+      "refrain": "Sing kindly, dance lightly.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/lump_old_man.character_bible.json. Page 28 for 혹부리 영감 / The Old Man With a Lump: old man teaching song, neighbor apologizing, children dancing kindly; specific beat: children learned that no face is a punchline; emotional tone: kind humor; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/lump-old-man/page-028.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with kind humor; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/lump-old-man/ko/page-028.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/lump-old-man/ambient/ambient-loop.wav",
+      "characterBible": "characters/lump_old_man.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_028/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_028/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_028/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_028/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_028/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_028/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "다정히 노래하고, 가볍게 춤추자."
+    },
+    {
+      "id": "lump_old_man_029",
+      "pageNumber": 29,
+      "text": {
+        "enLittle": "When the festival drum began.",
+        "enStandard": "Back on the festival path, with the moon high, when the festival drum began, both men bowed to the rhythm. \"Sing kindly,\" children chanted.",
+        "koLittle": "잔치 북이 울리자 두 사람은 장단에 절했어요",
+        "koStandard": "다시 마을 잔치길에서 잔치 북이 울리자 두 사람은 장단에 절했어요."
+      },
+      "koreanText": "다시 마을 잔치길에서 잔치 북이 울리자 두 사람은 장단에 절했어요.",
+      "englishText": "Back on the festival path, with the moon high, when the festival drum began, both men bowed to the rhythm. \"Sing kindly,\" children chanted.",
+      "narrationScript": "다시 마을 잔치길에서 잔치 북이 울리자 두 사람은 장단에 절했어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "혹",
+          "en": "lump",
+          "romanization": "hok",
+          "definitionEn": "A bump on the old man's face, treated with respect.",
+          "definitionKo": "할아버지 얼굴의 혹이며 존중해서 이야기해요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "restore dignity and community (respectful repair)",
+        "emotion": "kind humor",
+        "pageTurnHook": "Then the song will outlive the joke, and the story moves toward respectful repair.",
+        "readAloudCue": "Read with kind humor; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe the festival drum."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/lump_old_man.character_bible.json. Page 29 for 혹부리 영감 / The Old Man With a Lump: old man teaching song, neighbor apologizing, children dancing kindly; specific beat: when the festival drum began, both men bowed to the rhythm; emotional tone: kind humor; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/lump-old-man/page-029.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with kind humor; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/lump-old-man/ko/page-029.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/lump-old-man/ambient/ambient-loop.wav",
+      "characterBible": "characters/lump_old_man.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_029/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_029/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_029/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_029/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_029/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_029/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lump_old_man_030",
+      "pageNumber": 30,
+      "text": {
+        "enLittle": "The neighbor apologized before asking for help.",
+        "enStandard": "Back on the festival path, before dawn, the neighbor apologized before asking for help. \"Dance lightly,\" the dokkaebi echoed.",
+        "koLittle": "이웃은 도와 달라 하기 전 먼저 사과했어요",
+        "koStandard": "다시 마을 잔치길에서 이웃은 도와 달라 하기 전 먼저 사과했어요."
+      },
+      "koreanText": "다시 마을 잔치길에서 이웃은 도와 달라 하기 전 먼저 사과했어요.",
+      "englishText": "Back on the festival path, before dawn, the neighbor apologized before asking for help. \"Dance lightly,\" the dokkaebi echoed.",
+      "narrationScript": "다시 마을 잔치길에서 이웃은 도와 달라 하기 전 먼저 사과했어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "노래",
+          "en": "song",
+          "romanization": "norae",
+          "definitionEn": "Music made with the voice.",
+          "definitionKo": "목소리로 만드는 음악이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "restore dignity and community (respectful repair)",
+        "emotion": "kind humor",
+        "pageTurnHook": "Then the song will outlive the joke, and the story moves toward respectful repair.",
+        "readAloudCue": "Read with kind humor; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open the festival drum."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/lump_old_man.character_bible.json. Page 30 for 혹부리 영감 / The Old Man With a Lump: old man teaching song, neighbor apologizing, children dancing kindly; specific beat: the neighbor apologized before asking for help; emotional tone: kind humor; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/lump-old-man/page-030.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with kind humor; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/lump-old-man/ko/page-030.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/lump-old-man/ambient/ambient-loop.wav",
+      "characterBible": "characters/lump_old_man.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_030/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_030/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_030/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_030/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_030/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/lump-old-man/lump_old_man_030/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    }
+  ]
+}

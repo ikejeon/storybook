@@ -1,0 +1,189 @@
+{
+  "schemaVersion": "1.0.0",
+  "bookId": "book.red_bean_grandma",
+  "slug": "red-bean-porridge-grandma",
+  "title": {
+    "ko": "팥죽 할멈과 호랑이",
+    "en": "The Red Bean Porridge Grandma and the Tiger"
+  },
+  "characterSheetPrompt": "Create a production character sheet for The Red Bean Porridge Grandma and the Tiger in premium Korean watercolor, gouache, and soft ink. Show clever grandma, goofy tiger, red bean porridge pot, egg, turtle, straw mat, wooden mallet, rice sack, cottage kitchen, and snowy mountain path. Keep it brave, funny, and safe for ages 3-8.",
+  "mainCharacterDescriptions": [
+    {
+      "id": "grandma",
+      "description": "Korean mountain grandmother with silver hair in a bun, clever smile, warm hands, and calm problem-solving posture.",
+      "recurringOutfitAndColors": "Quilted persimmon vest, ivory jeogori, muted indigo skirt, jade hairpin.",
+      "continuityNotes": "She stays calm even when planning; her smile is clever, not mean."
+    },
+    {
+      "id": "tiger",
+      "description": "Boastful hungry tiger with round belly, expressive paws, and goofy confidence. Learns manners through slapstick.",
+      "recurringOutfitAndColors": "Orange fur, soft ink stripes, cream muzzle, round belly.",
+      "continuityNotes": "Keep his expressions big but harmless."
+    },
+    {
+      "id": "egg",
+      "description": "Small friendly egg helper with tiny expressive face, brave despite being delicate.",
+      "recurringOutfitAndColors": "Warm ivory shell, tiny pink blush.",
+      "continuityNotes": "Should look like household magic, not a cartoon sticker."
+    },
+    {
+      "id": "turtle",
+      "description": "Gentle turtle helper with old-sage patience and a rounded jade shell.",
+      "recurringOutfitAndColors": "Jade shell, warm brown body, ivory highlights.",
+      "continuityNotes": "Moves slowly and steadily; often near floor or threshold."
+    },
+    {
+      "id": "straw_mat",
+      "description": "Friendly straw mat helper with woven texture and subtle face-like folds.",
+      "recurringOutfitAndColors": "Golden straw, warm tan, soft shadow lines.",
+      "continuityNotes": "Must remain recognizably woven straw."
+    },
+    {
+      "id": "wooden_mallet",
+      "description": "Small wooden mallet helper with brave stance, rounded edges, and no weapon-like menace.",
+      "recurringOutfitAndColors": "Warm wood, dark grain, ivory highlight.",
+      "continuityNotes": "Comedic prop only; no violent impact framing."
+    },
+    {
+      "id": "rice_sack",
+      "description": "Soft rice sack helper with folded cloth corners and a gentle face.",
+      "recurringOutfitAndColors": "Ivory cloth, faded jade tie, red stamp mark.",
+      "continuityNotes": "Should feel soft and domestic."
+    }
+  ],
+  "styleRules": [
+    "Make the helper objects magical through expression and posture, not modern cartoon eyes pasted on.",
+    "Tiger slapstick must be soft and consequence-free.",
+    "Porridge should look warm, cozy, and delicious.",
+    "Snow and winter scenes should still feel safe and warm.",
+    "Grandma is clever and kind, never cruel."
+  ],
+  "forbiddenVisualElements": [
+    "Graphic violence",
+    "Weapon-like mallet action",
+    "Scary tiger attack",
+    "Burns or injury",
+    "Ugly witch-like grandma",
+    "Modern kitchen appliances"
+  ],
+  "sceneContinuityNotes": [
+    "The red bean porridge pot anchors the kitchen scenes.",
+    "Each helper object should keep the same shape and material.",
+    "Tiger's body language moves from boastful to confused to sheepish.",
+    "Grandma's quilted vest identifies her in every scene.",
+    "Final sharing scene should feel communal and cozy."
+  ],
+  "promptPrefix": "Global style bible shared-content/style/moonjar_style_bible.json. Reference character bible shared-content/characters/red_bean_grandma.character_bible.json. Maintain exact character designs, outfit colors, recurring objects, child-safe tone, and scene continuity for The Red Bean Porridge Grandma and the Tiger.",
+  "styleBible": "style/moonjar_style_bible.json",
+  "masterArtStylePrompt": "Illustrate 팥죽 할멈과 호랑이 / The Red Bean Porridge Grandma and the Tiger as a premium Korean watercolor, gouache, and soft ink picture book with hanji texture, warm lantern light, deep indigo, moon ivory, persimmon, jade, lotus pink, and muted gold. Keep the mood culturally respectful, cozy, and bedtime-safe.",
+  "perCharacterVisualIdentity": [
+    {
+      "id": "grandma",
+      "identityLock": "Korean mountain grandmother with silver hair in a bun, clever smile, warm hands, and calm problem-solving posture.",
+      "recurringOutfitAndColors": "Quilted persimmon vest, ivory jeogori, muted indigo skirt, jade hairpin.",
+      "continuityAnchor": "She stays calm even when planning; her smile is clever, not mean."
+    },
+    {
+      "id": "tiger",
+      "identityLock": "Boastful hungry tiger with round belly, expressive paws, and goofy confidence. Learns manners through slapstick.",
+      "recurringOutfitAndColors": "Orange fur, soft ink stripes, cream muzzle, round belly.",
+      "continuityAnchor": "Keep his expressions big but harmless."
+    },
+    {
+      "id": "egg",
+      "identityLock": "Small friendly egg helper with tiny expressive face, brave despite being delicate.",
+      "recurringOutfitAndColors": "Warm ivory shell, tiny pink blush.",
+      "continuityAnchor": "Should look like household magic, not a cartoon sticker."
+    },
+    {
+      "id": "turtle",
+      "identityLock": "Gentle turtle helper with old-sage patience and a rounded jade shell.",
+      "recurringOutfitAndColors": "Jade shell, warm brown body, ivory highlights.",
+      "continuityAnchor": "Moves slowly and steadily; often near floor or threshold."
+    },
+    {
+      "id": "straw_mat",
+      "identityLock": "Friendly straw mat helper with woven texture and subtle face-like folds.",
+      "recurringOutfitAndColors": "Golden straw, warm tan, soft shadow lines.",
+      "continuityAnchor": "Must remain recognizably woven straw."
+    },
+    {
+      "id": "wooden_mallet",
+      "identityLock": "Small wooden mallet helper with brave stance, rounded edges, and no weapon-like menace.",
+      "recurringOutfitAndColors": "Warm wood, dark grain, ivory highlight.",
+      "continuityAnchor": "Comedic prop only; no violent impact framing."
+    },
+    {
+      "id": "rice_sack",
+      "identityLock": "Soft rice sack helper with folded cloth corners and a gentle face.",
+      "recurringOutfitAndColors": "Ivory cloth, faded jade tie, red stamp mark.",
+      "continuityAnchor": "Should feel soft and domestic."
+    }
+  ],
+  "outfitRules": [
+    "Never change a main character outfit color within the same book unless the story explicitly calls for a transformation.",
+    "Use historically inspired Korean clothing shapes without turning them into costume caricature.",
+    "Children should keep the same hair shape, face shape, and outfit palette from scene to scene."
+  ],
+  "colorPalette": [
+    "deep indigo ink",
+    "moon ivory",
+    "warm hanji cream",
+    "persimmon",
+    "jade leaf",
+    "lotus pink",
+    "muted lantern gold"
+  ],
+  "facialExpressionRules": [
+    "Children can look curious, brave, surprised, sleepy, or relieved, but never terrified.",
+    "Adults should read as warm, practical, or gently concerned rather than panicked.",
+    "Tigers and magical figures should use round, comic, readable expressions for ages 3-8."
+  ],
+  "ageBodyProportionRules": [
+    "Children have childlike proportions: round cheeks, shorter limbs, smaller shoulders, and age-appropriate posture.",
+    "Adults have calm, grounded proportions and never glamour poses.",
+    "Animal characters should be soft-edged and expressive, not anatomically threatening."
+  ],
+  "doNotChangeRules": [
+    "Do not change recurring outfit colors, hair shapes, face shapes, or key props.",
+    "Do not introduce modern objects, logos, printed text, or Western fantasy costumes.",
+    "Do not make the visual tone darker than the child-safe retelling."
+  ],
+  "recurringObjectRules": [
+    "Keep important story props visually consistent after first appearance.",
+    "Use props as continuity anchors between scenes and in cover art.",
+    "When a prop becomes animated, preserve its color, scale, and silhouette."
+  ],
+  "negativePrompt": "photorealism, horror lighting, blood, injury, sharp claws, teeth emphasis, weapons, modern architecture, modern logos, text, watermark, distorted hands, inconsistent outfits, adult-like children",
+  "characterSheetAsset": "assets/generated-draft/images/character-sheets/red-bean-porridge-grandma.png",
+  "characterArtManifest": "assets/manifests/character_art_manifest.json",
+  "characterConsistencyStatus": "generated_reviewed_story_specific_internal_demo",
+  "productionCharacterPackStatus": "generated_reviewed_internal_demo_not_commissioned_final",
+  "visualAnchorEvidence": {
+    "characterSheetAsset": "assets/generated-draft/images/character-sheets/red-bean-porridge-grandma.png",
+    "sceneArtRenderer": "local_story_specific_svg_renderer",
+    "sceneArtModel": "moonjar_story_specific_painterly_svg_v3",
+    "storySpecificArt": true,
+    "placeholderLike": false
+  },
+  "characterDesignLocks": {
+    "figures": [
+      "grandmother",
+      "helper_child"
+    ],
+    "recurringProp": "red_bean_pot",
+    "environment": "kitchen_mountain",
+    "palette": [
+      "#252c52",
+      "#9c3144",
+      "#f1d7ab",
+      "#5c8a82",
+      "#d65c31"
+    ],
+    "doNotChange": [
+      "Keep figure silhouettes, palette, recurring prop, and environment motif stable across the book.",
+      "Do not replace story-specific art with abstract stripe/block placeholders.",
+      "Do not mark generated internal-demo art as commissioned_final."
+    ]
+  }
+}

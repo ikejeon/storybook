@@ -1,0 +1,515 @@
+openapi: 3.1.0
+info:
+  title: Moon Jar Stories Backend API
+  version: 0.1.0
+  description: Implementation-ready contract for catalog, entitlement, purchases, and asset review workflows.
+servers:
+  - url: http://localhost:8080
+paths:
+  /v1/catalog:
+    get:
+      summary: Get the current public story catalog
+      responses:
+        "200":
+          description: Catalog response
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CatalogResponse"
+  /v1/books/{bookId}:
+    get:
+      summary: Get metadata for one book
+      parameters:
+        - $ref: "#/components/parameters/BookId"
+      responses:
+        "200":
+          description: Book metadata
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/BookMetadata"
+  /v1/entitlements/check:
+    post:
+      summary: Check user entitlement for a book or library access
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/EntitlementCheckRequest"
+      responses:
+        "200":
+          description: Entitlement result
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/EntitlementCheckResponse"
+  /v1/purchases/sync:
+    post:
+      summary: Sync App Store or Google Play purchase transactions
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/PurchaseSyncRequest"
+      responses:
+        "200":
+          description: Updated purchase state
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/UserPurchaseState"
+  /v1/assets/manifest:
+    get:
+      summary: Get latest production asset manifests
+      parameters:
+        - name: platform
+          in: query
+          schema:
+            type: string
+            enum: [ios, android]
+      responses:
+        "200":
+          description: Manifest bundle
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AssetManifestBundle"
+  /v1/cms/export/books/{bookId}:
+    get:
+      summary: Export one complete shared-content book in CMS-ready JSON form
+      parameters:
+        - $ref: "#/components/parameters/BookId"
+      responses:
+        "200":
+          description: Complete book export
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CmsBookExportResponse"
+        "409":
+          description: Book exists but is not complete/exportable
+  /v1/cms/release/readiness:
+    get:
+      summary: Summarize local release readiness, asset statuses, and CMS/backend blockers
+      responses:
+        "200":
+          description: Release readiness summary
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ReleaseReadinessResponse"
+  /v1/admin/reviews/queue:
+    get:
+      summary: Admin review queue for stories and assets that still need approval
+      security:
+        - AdminBearer: []
+        - AdminTokenHeader: []
+      responses:
+        "200":
+          description: Review queue response
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ReviewQueueResponse"
+  /v1/admin/assets/{assetId}:
+    get:
+      summary: Admin fetch one persisted asset review record
+      security:
+        - AdminBearer: []
+        - AdminTokenHeader: []
+      parameters:
+        - name: assetId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Asset review record or local not-reviewed default
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AssetReviewRecord"
+  /v1/admin/assets/import:
+    post:
+      summary: Admin import/register a reviewed asset into local CMS state
+      security:
+        - AdminBearer: []
+        - AdminTokenHeader: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AssetImportRequest"
+      responses:
+        "200":
+          description: Persisted asset import record
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AssetImportRecord"
+  /v1/admin/assets/{assetId}/status:
+    patch:
+      summary: Admin update for asset review/production status
+      security:
+        - AdminBearer: []
+        - AdminTokenHeader: []
+      parameters:
+        - name: assetId
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AssetStatusUpdate"
+      responses:
+        "200":
+          description: Updated asset review record
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AssetReviewRecord"
+  /v1/admin/stories/{bookId}/review:
+    patch:
+      summary: Admin update for story cultural, editorial, and child-safety review
+      security:
+        - AdminBearer: []
+        - AdminTokenHeader: []
+      parameters:
+        - $ref: "#/components/parameters/BookId"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/StoryReviewUpdate"
+      responses:
+        "200":
+          description: Updated story review record
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/StoryReviewRecord"
+components:
+  securitySchemes:
+    AdminBearer:
+      type: http
+      scheme: bearer
+      description: Optional in local development; required when MOONJAR_ADMIN_TOKEN is set.
+    AdminTokenHeader:
+      type: apiKey
+      in: header
+      name: X-MoonJar-Admin-Token
+      description: Optional local admin token header; required when MOONJAR_ADMIN_TOKEN is set.
+  parameters:
+    BookId:
+      name: bookId
+      in: path
+      required: true
+      schema:
+        type: string
+  schemas:
+    CatalogResponse:
+      type: object
+      required: [libraryVersion, books]
+      properties:
+        libraryVersion:
+          type: string
+        books:
+          type: array
+          items:
+            $ref: "#/components/schemas/BookMetadata"
+    BookMetadata:
+      type: object
+      required: [id, slug, access, status, title]
+      properties:
+        id:
+          type: string
+        slug:
+          type: string
+        access:
+          type: string
+          enum: [free, premium]
+        status:
+          type: string
+          enum: [complete, metadata_only]
+        title:
+          type: object
+          properties:
+            ko:
+              type: string
+            en:
+              type: string
+    EntitlementCheckRequest:
+      type: object
+      required: [anonymousUserId, bookId]
+      properties:
+        anonymousUserId:
+          type: string
+        bookId:
+          type: string
+        platform:
+          type: string
+          enum: [ios, android]
+    EntitlementCheckResponse:
+      type: object
+      required: [canRead, reason]
+      properties:
+        canRead:
+          type: boolean
+        reason:
+          type: string
+          enum: [free_book, active_subscription, lifetime_unlock, individual_book_unlock, locked]
+        expiresAt:
+          type: string
+          format: date-time
+          nullable: true
+    PurchaseSyncRequest:
+      type: object
+      required: [anonymousUserId, platform, transactions]
+      properties:
+        anonymousUserId:
+          type: string
+        platform:
+          type: string
+          enum: [ios, android]
+        transactions:
+          type: array
+          items:
+            type: object
+            required: [productId, transactionToken]
+            properties:
+              productId:
+                type: string
+                description: Store product ID for monthly, annual, lifetime, or individual book purchase.
+                examples:
+                  - com.moonjarstories.subscription.monthly
+                  - com.moonjarstories.subscription.annual
+                  - com.moonjarstories.lifetime.korean_library
+                  - com.moonjarstories.book.simcheong
+              transactionToken:
+                type: string
+              purchaseDate:
+                type: string
+                format: date-time
+    UserPurchaseState:
+      type: object
+      required: [anonymousUserId, hasLifetimeUnlock, unlockedBookIds]
+      properties:
+        anonymousUserId:
+          type: string
+        subscriptionExpiresAt:
+          type: string
+          format: date-time
+          nullable: true
+        isInGracePeriod:
+          type: boolean
+        hasLifetimeUnlock:
+          type: boolean
+        unlockedBookIds:
+          type: array
+          items:
+            type: string
+    AssetManifestBundle:
+      type: object
+      required: [imageManifestUrl, audioManifestUrl, version]
+      properties:
+        version:
+          type: string
+        imageManifestUrl:
+          type: string
+        audioManifestUrl:
+          type: string
+        effectiveAt:
+          type: string
+          format: date-time
+    CmsBookExportResponse:
+      type: object
+      required: [exportedAt, source, bookId, metadata, book]
+      properties:
+        exportedAt:
+          type: string
+          format: date-time
+        source:
+          type: string
+          enum: [shared-content]
+        bookId:
+          type: string
+        metadata:
+          $ref: "#/components/schemas/BookMetadata"
+        book:
+          type: object
+          description: Complete book JSON matching shared-content/schemas/book.schema.json.
+        reviewState:
+          type: object
+    ReleaseReadinessResponse:
+      type: object
+      required: [backendMode, generatedAt, counts, statuses, localCapabilities, releaseCandidate, blockers]
+      properties:
+        backendMode:
+          type: string
+          enum: [local_persistent_stub]
+        generatedAt:
+          type: string
+          format: date-time
+        counts:
+          type: object
+        statuses:
+          type: object
+        localCapabilities:
+          type: array
+          items:
+            type: string
+        releaseCandidate:
+          type: boolean
+        blockers:
+          type: array
+          items:
+            type: string
+    ReviewQueueResponse:
+      type: object
+      required: [backendMode, generatedAt, counts, assets, stories]
+      properties:
+        backendMode:
+          type: string
+          enum: [local_persistent_stub]
+        generatedAt:
+          type: string
+          format: date-time
+        counts:
+          type: object
+        assets:
+          type: array
+          items:
+            $ref: "#/components/schemas/AssetQueueItem"
+        stories:
+          type: array
+          items:
+            $ref: "#/components/schemas/StoryQueueItem"
+    AssetQueueItem:
+      type: object
+      required: [assetId, storyId, assetType, status, productionApprovalStatus, outputFile]
+      properties:
+        assetId:
+          type: string
+        storyId:
+          type: string
+        assetType:
+          type: string
+        status:
+          type: string
+        productionApprovalStatus:
+          type: string
+        outputFile:
+          type: string
+    StoryQueueItem:
+      type: object
+      required: [bookId, title, status, editorialStatus, culturalReviewStatus, childSafetyReviewStatus]
+      properties:
+        bookId:
+          type: string
+        title:
+          type: object
+        status:
+          type: string
+        editorialStatus:
+          type: string
+        culturalReviewStatus:
+          type: string
+        childSafetyReviewStatus:
+          type: string
+    AssetImportRequest:
+      allOf:
+        - $ref: "#/components/schemas/AssetStatusUpdate"
+        - type: object
+          required: [assetId, storyId, assetType, outputFile]
+          properties:
+            assetId:
+              type: string
+            storyId:
+              type: string
+            assetType:
+              type: string
+              enum: [scene, cover, approval_anchor, narration, ambient, sfx, ui_sound]
+            outputFile:
+              type: string
+    AssetImportRecord:
+      allOf:
+        - $ref: "#/components/schemas/AssetImportRequest"
+        - type: object
+          properties:
+            updatedAt:
+              type: string
+              format: date-time
+    AssetStatusUpdate:
+      type: object
+      required: [status, reviewer, reviewDate, culturalReviewStatus, childSafetyReviewStatus, productionApprovalStatus]
+      properties:
+        status:
+          type: string
+        reviewer:
+          type: string
+        reviewDate:
+          type: string
+          format: date
+        rejectionReason:
+          type: string
+          nullable: true
+        notes:
+          type: string
+        culturalReviewStatus:
+          type: string
+          enum: [not_reviewed, ready_for_review, needs_changes, approved, rejected]
+        childSafetyReviewStatus:
+          type: string
+          enum: [not_reviewed, ready_for_review, needs_changes, approved, rejected]
+        productionApprovalStatus:
+          type: string
+          enum: [not_approved, approved, rejected]
+    AssetReviewRecord:
+      allOf:
+        - $ref: "#/components/schemas/AssetStatusUpdate"
+        - type: object
+          properties:
+            assetId:
+              type: string
+            updatedAt:
+              type: string
+              format: date-time
+    StoryReviewUpdate:
+      type: object
+      required: [editorialStatus, culturalReviewStatus, childSafetyReviewStatus, reviewer, reviewDate]
+      properties:
+        editorialStatus:
+          type: string
+          enum: [draft, ready_for_review, needs_changes, approved, rejected]
+        culturalReviewStatus:
+          type: string
+          enum: [not_reviewed, ready_for_review, needs_changes, approved, rejected]
+        childSafetyReviewStatus:
+          type: string
+          enum: [not_reviewed, ready_for_review, needs_changes, approved, rejected]
+        reviewer:
+          type: string
+        reviewDate:
+          type: string
+          format: date
+        notes:
+          type: string
+    StoryReviewRecord:
+      allOf:
+        - $ref: "#/components/schemas/StoryReviewUpdate"
+        - type: object
+          properties:
+            bookId:
+              type: string
+            updatedAt:
+              type: string
+              format: date-time

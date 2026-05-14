@@ -1,0 +1,281 @@
+{
+  "schemaVersion": "1.0.0",
+  "bookId": "book.sun_moon",
+  "slug": "sun-and-moon",
+  "title": {
+    "ko": "해님 달님",
+    "en": "The Sun and the Moon"
+  },
+  "characterSheetPrompt": "Create a child-safe production character sheet for The Sun and the Moon in premium Korean watercolor, gouache, and soft ink. Show front, three-quarter, silhouette, posture, and expression studies for the mother, older sibling, younger sibling, deceptive antagonist tiger, and abstract sky spirit. The tiger is a deceptive folktale antagonist: mature, lean, watchful, hungry, calculating, and restrained. Use narrowed amber eyes under a shadowed brow, a longer angular muzzle, tense shoulders, lowered head, controlled paw placement, and still stalking posture. He may pretend to be gentle, but the viewer should sense something is wrong. Keep him child-safe: no gore, no horror, no graphic violence, no jump scare, no teeth/claw emphasis. Use hanji texture, warm lantern light, deep indigo night, ivory moonlight, persimmon accents, jade foliage, and lotus pink highlights.",
+  "mainCharacterDescriptions": [
+    {
+      "id": "mother",
+      "description": "Korean mother in her early thirties with calm eyes and practical warmth. She wears a cream jeogori, sage-green chima, simple white apron, and a low tied hairstyle. Her posture is steady and protective.",
+      "recurringOutfitAndColors": "Cream, sage, ivory apron, warm brown basket strap.",
+      "continuityNotes": "Always carries or is associated with a woven rice-cake basket until the village return scene."
+    },
+    {
+      "id": "older_sibling",
+      "description": "Korean child around age 8, brave and thoughtful, protective without looking stern. Round face, short dark hair, focused eyes.",
+      "recurringOutfitAndColors": "Cream jeogori, indigo baji, small jade norigae knot.",
+      "continuityNotes": "Usually stands closer to danger, one step in front of the younger sibling."
+    },
+    {
+      "id": "younger_sibling",
+      "description": "Korean child around age 5, curious and expressive, trusting the older sibling. Softer cheeks and more open gestures.",
+      "recurringOutfitAndColors": "Soft lotus-pink jeogori, ivory skirt or pants, tiny persimmon ribbon.",
+      "continuityNotes": "Often holds the older sibling's hand or sleeve in night scenes."
+    },
+    {
+      "id": "tiger",
+      "description": "Large Korean folktale tiger who is a deceptive antagonist, never a cute companion. Mature proportions, lean powerful body, watchful amber eyes under a shadowed brow, longer angular muzzle, charcoal ink stripes, controlled still posture, and hungry calculating presence. He can perform false gentleness, but the viewer should immediately sense danger through eyes, posture, shadow, and framing. Never graphic, bloody, horror-like, mascot-like, plush-like, goofy, or baby-faced.",
+      "recurringOutfitAndColors": "Deep orange and burnt persimmon fur, charcoal ink stripes, narrow cream muzzle, warm amber eyes, shadowed paws, long tail silhouette, no clothing except temporary bojagi disguise. Avoid rounded toy-like cheeks, tiny paws, oversized innocent eyes, or soft stuffed-animal fur.",
+      "continuityNotes": "Continuity locks: narrowed amber eyes, shadowed brow, angular muzzle, lowered head, tense shoulder line, long tail silhouette, and deliberate paw placement. Avoid goofy nose/tail comedy and friendly pet behavior."
+    },
+    {
+      "id": "sky_spirit",
+      "description": "No humanoid deity face. Represent the sky spirit through warm clouds, moon-jar glow, silver rope light, and gentle celestial shapes.",
+      "recurringOutfitAndColors": "Ivory, silver, pale jade, moonlit blue.",
+      "continuityNotes": "Appears as light, clouds, and rope only."
+    }
+  ],
+  "styleRules": [
+    "No horror lighting, teeth emphasis, claws, blood, gore, or graphic danger.",
+    "Use hanji grain and soft watercolor pooling.",
+    "Keep siblings' proportions and outfits consistent across all pages.",
+    "The tiger must read as a cunning, hungry, watchful, deceptive antagonist while remaining child-safe.",
+    "Night scenes use lantern and moonlight for safety, but allow deeper shadow and framing tension around the tiger.",
+    "Do not make the tiger cute, plush-like, goofy, baby-faced, mascot-like, or friendly-companion-coded."
+  ],
+  "forbiddenVisualElements": [
+    "Graphic violence",
+    "Dead or injured parent imagery",
+    "Horror tiger anatomy",
+    "Plush-toy tiger design",
+    "Baby-like tiger face",
+    "Goofy companion tiger behavior",
+    "Friendly pet-like tiger posing",
+    "Overly cute round tiger cheeks or giant innocent eyes",
+    "Sharp weapon emphasis",
+    "Religious deity face",
+    "Modern clothing or modern architecture",
+    "Rounded baby tiger cheeks",
+    "Mascot tiger design",
+    "Cute pet posture",
+    "Comic tiger grin",
+    "Friendly companion framing",
+    "Tiny baby paws",
+    "Oversized innocent tiger eyes",
+    "Text or labels inside generated character sheets",
+    "Stuffed-animal fur texture"
+  ],
+  "sceneContinuityNotes": [
+    "Pages 1-2 establish ordinary warmth while leaving subtle forest depth where the tiger could be watching.",
+    "Pages 3-6 show the tiger as mysterious, hungry, deceptive, and watchful; keep the mother visually safe and never show direct harm.",
+    "Pages 7-8 show the tiger disguised at the house: the composition should feel wrong before the children identify the tail.",
+    "Pages 9-15 escalate chase tension through distance, shadow, eye direction, and the tiger's posture, not horror imagery.",
+    "Pages 16-17 resolve the tiger as defeated and contained without graphic punishment, injury, humiliation, or gore.",
+    "Pages 7-16 keep the siblings in cream/indigo and lotus pink so they are recognizable in night scenes.",
+    "Pages 9-16 use the same persimmon tree silhouette.",
+    "Pages 13-15 keep silver moon rope distinct from straw rope.",
+    "Pages 18-20 transform the siblings through glow, not abrupt costume changes."
+  ],
+  "tigerEmotionalArc": [
+    {
+      "phase": "phase_1_mysterious_forest_presence",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "direction": "Suggest the tiger through shadow, watching eyes, scent trail, and forest depth before he fully dominates the frame."
+    },
+    {
+      "phase": "phase_2_deceptive_and_watchful",
+      "pages": [
+        4,
+        5,
+        6
+      ],
+      "direction": "Tiger pretends restraint but remains hungry and calculating; use lowered head, sidelong glance, and controlled body language."
+    },
+    {
+      "phase": "phase_3_disguised_unsettling_house",
+      "pages": [
+        7,
+        8
+      ],
+      "direction": "Tiger disguised in bojagi outside the door; keep the house warm, but his silhouette, eye slit, tail, and shadow should feel off."
+    },
+    {
+      "phase": "phase_4_threatening_chase_child_safe",
+      "pages": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "direction": "Escalate danger through pursuit, upward framing, shadow, and tense posture while maintaining safe distance and no graphic threat."
+    },
+    {
+      "phase": "phase_5_defeated_resolved",
+      "pages": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "direction": "Tiger is defeated or absent; resolve tension without graphic punishment, gore, or slapstick humiliation."
+    }
+  ],
+  "anchorApprovalPlan": {
+    "status": "required_before_bulk_regeneration",
+    "instruction": "Do not bulk-generate all Sun and Moon final images until 3-5 tiger anchor images are generated and approved for antagonist tone, child safety, and continuity.",
+    "anchorPages": [
+      3,
+      4,
+      7,
+      11,
+      16
+    ],
+    "outputDirectory": "shared-content/assets/generated-draft/images/anchors/sun-and-moon/",
+    "approvalCriteria": [
+      "Tiger reads as cunning, hungry, watchful, mature, and dangerous through posture, eyes, shadow, and framing.",
+      "No graphic violence, blood, horror anatomy, exposed teeth emphasis, or child-trauma framing.",
+      "Face is mature and less baby-like, with controlled eyes and posture.",
+      "Premium Korean watercolor/gouache/ink style with hanji texture is preserved.",
+      "Scene phase matches the tiger emotional arc."
+    ]
+  },
+  "promptPrefix": "Global style bible shared-content/style/moonjar_style_bible.json. Reference character bible shared-content/characters/sun_moon.character_bible.json. Maintain exact character designs, outfit colors, recurring objects, child-safe suspense, and scene continuity for The Sun and the Moon. The tiger is a deceptive folktale antagonist: cunning, hungry, watchful, mature, dangerous, and restrained. Use narrowed amber eyes, shadowed brow, longer angular muzzle, lowered head, tense shoulders, deliberate paw placement, and framing shadows to create tension. Keep everything child-safe with no gore, horror, teeth/claw emphasis, or graphic violence.",
+  "styleBible": "style/moonjar_style_bible.json",
+  "masterArtStylePrompt": "Illustrate 해님 달님 / The Sun and the Moon as a premium Korean watercolor, gouache, and soft ink picture book with hanji texture, warm lantern light, deep indigo, moon ivory, persimmon, jade, lotus pink, and muted gold. The product is bedtime-safe for ages 3-8, but this folktale still has suspense: the tiger should feel cunning, hungry, watchful, and dangerous through shadow, eye direction, posture, distance, and framing, never through gore or horror.",
+  "perCharacterVisualIdentity": [
+    {
+      "id": "mother",
+      "identityLock": "Korean mother in her early thirties with calm eyes and practical warmth. She wears a cream jeogori, sage-green chima, simple white apron, and a low tied hairstyle. Her posture is steady and protective.",
+      "recurringOutfitAndColors": "Cream, sage, ivory apron, warm brown basket strap.",
+      "continuityAnchor": "Always carries or is associated with a woven rice-cake basket until the village return scene."
+    },
+    {
+      "id": "older_sibling",
+      "identityLock": "Korean child around age 8, brave and thoughtful, protective without looking stern. Round face, short dark hair, focused eyes.",
+      "recurringOutfitAndColors": "Cream jeogori, indigo baji, small jade norigae knot.",
+      "continuityAnchor": "Usually stands closer to danger, one step in front of the younger sibling."
+    },
+    {
+      "id": "younger_sibling",
+      "identityLock": "Korean child around age 5, curious and expressive, trusting the older sibling. Softer cheeks and more open gestures.",
+      "recurringOutfitAndColors": "Soft lotus-pink jeogori, ivory skirt or pants, tiny persimmon ribbon.",
+      "continuityAnchor": "Often holds the older sibling's hand or sleeve in night scenes."
+    },
+    {
+      "id": "tiger",
+      "identityLock": "Large Korean folktale tiger who is a deceptive antagonist, not a cute companion. Mature proportions, watchful amber eyes, longer angular muzzle, controlled posture, charcoal ink stripes, and hungry stillness. He may pretend to be gentle, but the viewer should feel something is wrong. Never graphic, bloody, horror-like, or anatomically frightening.",
+      "recurringOutfitAndColors": "Deep orange and burnt persimmon fur, charcoal ink stripes, cream muzzle kept narrow rather than baby-like, warm amber eyes, shadowed paws, no clothing except temporary bojagi disguise.",
+      "continuityAnchor": "Eyes, shadowed brow, lowered head, tail silhouette, and paw placement are the main continuity markers; avoid goofy nose/tail comedy."
+    },
+    {
+      "id": "sky_spirit",
+      "identityLock": "No humanoid deity face. Represent the sky spirit through warm clouds, moon-jar glow, silver rope light, and gentle celestial shapes.",
+      "recurringOutfitAndColors": "Ivory, silver, pale jade, moonlit blue.",
+      "continuityAnchor": "Appears as light, clouds, and rope only."
+    }
+  ],
+  "outfitRules": [
+    "Never change a main character outfit color within the same book unless the story explicitly calls for a transformation.",
+    "Use historically inspired Korean clothing shapes without turning them into costume caricature.",
+    "Children should keep the same hair shape, face shape, and outfit palette from scene to scene."
+  ],
+  "colorPalette": [
+    "deep indigo ink",
+    "moon ivory",
+    "warm hanji cream",
+    "persimmon",
+    "jade leaf",
+    "lotus pink",
+    "muted lantern gold"
+  ],
+  "facialExpressionRules": [
+    "Children can look curious, brave, surprised, sleepy, or relieved, but never terrified.",
+    "Adults should read as warm, practical, or gently concerned rather than panicked.",
+    "The Sun and Moon tiger should use restrained, readable antagonist expressions: watchful, hungry, calculating, falsely gentle, frustrated, then defeated.",
+    "Do not use baby-like tiger expressions, innocent plush-toy eyes, goofy smiles, or friendly pet expressions."
+  ],
+  "ageBodyProportionRules": [
+    "Children have childlike proportions: round cheeks, shorter limbs, smaller shoulders, and age-appropriate posture.",
+    "Adults have calm, grounded proportions and never glamour poses.",
+    "The tiger should be large and mature with simplified child-safe anatomy: no horror distortion, but also no plush-toy proportions, tiny paws, baby cheeks, or infant-like eyes."
+  ],
+  "doNotChangeRules": [
+    "Do not change recurring outfit colors, hair shapes, face shapes, or key props.",
+    "Do not introduce modern objects, logos, printed text, or Western fantasy costumes.",
+    "Do not make the visual tone darker than the child-safe retelling.",
+    "Do not soften the tiger into a friendly companion; he remains an antagonist until defeated."
+  ],
+  "recurringObjectRules": [
+    "Keep important story props visually consistent after first appearance.",
+    "Use props as continuity anchors between scenes and in cover art.",
+    "When a prop becomes animated, preserve its color, scale, and silhouette."
+  ],
+  "negativePrompt": "photorealism, horror lighting, blood, gore, injury, dead parent imagery, sharp claws, teeth emphasis, snarling close-up, jump scare, weapons, modern architecture, modern logos, text, labels, watermark, signature, distorted hands, inconsistent outfits, adult-like children, plush toy tiger, cute mascot tiger, goofy tiger, friendly pet tiger, baby-like tiger face, oversized innocent eyes, round baby cheeks, tiny baby paws, stuffed-animal fur, comic grin, slapstick tiger, smiling companion tiger, cute sidekick energy, friendly companion framing, cropped face, cut-off ears, cut-off hands",
+  "tigerDesignLock": {
+    "role": "deceptive antagonist, not companion",
+    "coreEmotion": "cunning, hungry, watchful, dangerous, restrained",
+    "face": "mature face, longer angular muzzle, narrowed amber eyes, shadowed brow, no baby cheeks, no plush innocence",
+    "body": "large mature tiger, lean powerful posture, low head, tense shoulders, deliberate paws, long tail silhouette",
+    "tensionTools": [
+      "eyes",
+      "posture",
+      "shadow",
+      "framing",
+      "distance",
+      "lantern/moon lighting"
+    ],
+    "childSafetyLimits": [
+      "no gore",
+      "no blood",
+      "no graphic violence",
+      "no horror anatomy",
+      "no jump scare",
+      "no teeth/claw emphasis"
+    ],
+    "pretendGentleRule": "When pretending to be gentle, the tiger may sit still or soften his mouth, but his eyes, shadow, paw placement, or framing must signal deception."
+  },
+  "characterSheetAsset": "assets/generated-draft/images/character-sheets/sun-and-moon.png",
+  "characterArtManifest": "assets/manifests/character_art_manifest.json",
+  "characterConsistencyStatus": "generated_reviewed_story_specific_internal_demo",
+  "productionCharacterPackStatus": "generated_reviewed_internal_demo_not_commissioned_final",
+  "visualAnchorEvidence": {
+    "characterSheetAsset": "assets/generated-draft/images/character-sheets/sun-and-moon.png",
+    "sceneArtRenderer": "local_story_specific_svg_renderer",
+    "sceneArtModel": "moonjar_story_specific_painterly_svg_v3",
+    "storySpecificArt": true,
+    "placeholderLike": false
+  },
+  "characterDesignLocks": {
+    "figures": [
+      "child",
+      "child",
+      "tiger"
+    ],
+    "recurringProp": "persimmon",
+    "environment": "forest_house_sky",
+    "palette": [
+      "#1f294f",
+      "#2f806c",
+      "#f4dfa7",
+      "#d65c31",
+      "#f2b94b"
+    ],
+    "doNotChange": [
+      "Keep figure silhouettes, palette, recurring prop, and environment motif stable across the book.",
+      "Do not replace story-specific art with abstract stripe/block placeholders.",
+      "Do not mark generated internal-demo art as commissioned_final."
+    ]
+  }
+}

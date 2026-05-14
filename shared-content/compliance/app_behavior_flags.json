@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "1.0.0",
+  "adsEnabled": false,
+  "thirdPartyTrackingEnabled": false,
+  "childAccountsEnabled": false,
+  "childFacingExternalLinksEnabled": false,
+  "childDataCollectionEnabled": false,
+  "liveImageGenerationInChildApp": false,
+  "liveTtsGenerationInChildApp": false,
+  "parentGateRequiredForPurchases": true,
+  "parentGateRequiredForRestorePurchases": true,
+  "parentGateRequiredForExternalLinks": true,
+  "parentGateRequiredForSettings": true,
+  "inAppPurchasesEnabled": true,
+  "dataCollected": [
+    {
+      "name": "local reading progress",
+      "scope": "device-local",
+      "childData": false,
+      "sharedWithThirdParties": false
+    },
+    {
+      "name": "purchase entitlement state",
+      "scope": "store/backend",
+      "childData": false,
+      "sharedWithThirdParties": false
+    }
+  ],
+  "disallowedFutureFlags": [
+    "adsEnabled",
+    "thirdPartyTrackingEnabled",
+    "childAccountsEnabled",
+    "childFacingExternalLinksEnabled",
+    "childDataCollectionEnabled",
+    "liveImageGenerationInChildApp",
+    "liveTtsGenerationInChildApp"
+  ]
+}

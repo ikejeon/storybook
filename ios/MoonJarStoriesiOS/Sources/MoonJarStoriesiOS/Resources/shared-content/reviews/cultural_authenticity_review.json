@@ -1,0 +1,548 @@
+{
+  "schemaVersion": "1.0.0",
+  "reviewDate": "2026-05-13",
+  "reviewType": "internal_ai_semantic_authenticity_repair_review",
+  "overallStatus": "approved_for_premium_demo",
+  "overallScore": 95,
+  "externalHumanReviewRequiredBeforeFinal": true,
+  "reviewerRoles": [
+    {
+      "role": "Korean language and read-aloud reviewer",
+      "focus": "Natural Korean prose, child-friendly phrasing, vocabulary clarity, and narration rhythm."
+    },
+    {
+      "role": "Korean cultural authenticity reviewer",
+      "focus": "Folktale-specific objects, settings, food, household details, character roles, and avoiding generic or flattened Korean culture."
+    },
+    {
+      "role": "Korean-American parent reader",
+      "focus": "English-first U.S. family use while keeping Korean terms, bilingual learning value, and bedtime comfort."
+    },
+    {
+      "role": "Child-safety adaptation reviewer",
+      "focus": "Age-appropriate suspense, non-graphic conflict, respectful modernization, and no horror/gore."
+    }
+  ],
+  "globalFindings": [
+    "All 24 complete catalog books have story-specific folktale beats after the semantic authenticity repair pass.",
+    "The prior premium scaffold prose class is now guarded by `tools/validate_story_asset_authenticity.py`.",
+    "This remains internal demo review only, not external human cultural/editorial/child-safety approval.",
+    "Generated art and synthetic narration are not final production assets."
+  ],
+  "approvalCriteria": [
+    "Korean folktale identity is visible through food, household, clothing, seasonal, rural, and oral-story details.",
+    "Korean terms are either natural in context or explained with child-friendly vocabulary definitions.",
+    "English story text is not a stiff literal translation.",
+    "Suspense and humor are story-specific, child-safe, and not flattened into generic kindness.",
+    "The three tiger stories use distinct tiger personalities.",
+    "Modernized endings avoid graphic cruelty while preserving story stakes.",
+    "No copyrighted production style references are required for story or art direction.",
+    "Generated draft art and synthetic narration are not marked final."
+  ],
+  "books": {
+    "book.sun_moon": {
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "languageReviewStatus": "approved_for_demo",
+      "culturalReviewStatus": "approved_for_demo",
+      "childSafetyCulturalStatus": "approved_for_demo",
+      "productionApprovalStatus": "not_final",
+      "reviewer": "internal repo semantic authenticity audit",
+      "reviewDate": "2026-05-13",
+      "notes": [
+        "Repo-local semantic repair checks story-specific beats, sensitive emotional tone, metadata uniqueness, and child-safe adaptation boundaries.",
+        "External children’s editor, Korean-language, Korean cultural, and child-safety review remain required before final release."
+      ],
+      "requiredBeforeFinal": [
+        "External children’s editor review.",
+        "External Korean-language reviewer review.",
+        "External Korean cultural authenticity review.",
+        "Child-safety adaptation review with comments resolved."
+      ],
+      "sceneCount": 32
+    },
+    "book.gold_silver_axe": {
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "languageReviewStatus": "approved_for_demo",
+      "culturalReviewStatus": "approved_for_demo",
+      "childSafetyCulturalStatus": "approved_for_demo",
+      "productionApprovalStatus": "not_final",
+      "reviewer": "internal repo semantic authenticity audit",
+      "reviewDate": "2026-05-13",
+      "notes": [
+        "Repo-local semantic repair checks story-specific beats, sensitive emotional tone, metadata uniqueness, and child-safe adaptation boundaries.",
+        "External children’s editor, Korean-language, Korean cultural, and child-safety review remain required before final release."
+      ],
+      "requiredBeforeFinal": [
+        "External children’s editor review.",
+        "External Korean-language reviewer review.",
+        "External Korean cultural authenticity review.",
+        "Child-safety adaptation review with comments resolved."
+      ],
+      "sceneCount": 24
+    },
+    "book.tiger_persimmon": {
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "languageReviewStatus": "approved_for_demo",
+      "culturalReviewStatus": "approved_for_demo",
+      "childSafetyCulturalStatus": "approved_for_demo",
+      "productionApprovalStatus": "not_final",
+      "reviewer": "internal repo semantic authenticity audit",
+      "reviewDate": "2026-05-13",
+      "notes": [
+        "Repo-local semantic repair checks story-specific beats, sensitive emotional tone, metadata uniqueness, and child-safe adaptation boundaries.",
+        "External children’s editor, Korean-language, Korean cultural, and child-safety review remain required before final release."
+      ],
+      "requiredBeforeFinal": [
+        "External children’s editor review.",
+        "External Korean-language reviewer review.",
+        "External Korean cultural authenticity review.",
+        "Child-safety adaptation review with comments resolved."
+      ],
+      "sceneCount": 24
+    },
+    "book.heungbu_nolbu": {
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "languageReviewStatus": "approved_for_demo",
+      "culturalReviewStatus": "approved_for_demo",
+      "childSafetyCulturalStatus": "approved_for_demo",
+      "productionApprovalStatus": "not_final",
+      "reviewer": "internal repo semantic authenticity audit",
+      "reviewDate": "2026-05-13",
+      "notes": [
+        "Repo-local semantic repair checks story-specific beats, sensitive emotional tone, metadata uniqueness, and child-safe adaptation boundaries.",
+        "External children’s editor, Korean-language, Korean cultural, and child-safety review remain required before final release."
+      ],
+      "requiredBeforeFinal": [
+        "External children’s editor review.",
+        "External Korean-language reviewer review.",
+        "External Korean cultural authenticity review.",
+        "Child-safety adaptation review with comments resolved."
+      ],
+      "sceneCount": 32
+    },
+    "book.red_bean_grandma": {
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "languageReviewStatus": "approved_for_demo",
+      "culturalReviewStatus": "approved_for_demo",
+      "childSafetyCulturalStatus": "approved_for_demo",
+      "productionApprovalStatus": "not_final",
+      "reviewer": "internal repo semantic authenticity audit",
+      "reviewDate": "2026-05-13",
+      "notes": [
+        "Repo-local semantic repair checks story-specific beats, sensitive emotional tone, metadata uniqueness, and child-safe adaptation boundaries.",
+        "External children’s editor, Korean-language, Korean cultural, and child-safety review remain required before final release."
+      ],
+      "requiredBeforeFinal": [
+        "External children’s editor review.",
+        "External Korean-language reviewer review.",
+        "External Korean cultural authenticity review.",
+        "Child-safety adaptation review with comments resolved."
+      ],
+      "sceneCount": 26
+    },
+    "book.simcheong": {
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "languageReviewStatus": "approved_for_demo",
+      "culturalReviewStatus": "approved_for_demo",
+      "childSafetyCulturalStatus": "approved_for_demo",
+      "productionApprovalStatus": "not_final",
+      "reviewer": "internal repo semantic authenticity audit",
+      "reviewDate": "2026-05-13",
+      "notes": [
+        "Repo-local semantic repair checks story-specific beats, sensitive emotional tone, metadata uniqueness, and child-safe adaptation boundaries.",
+        "External children’s editor, Korean-language, Korean cultural, and child-safety review remain required before final release."
+      ],
+      "requiredBeforeFinal": [
+        "External children’s editor review.",
+        "External Korean-language reviewer review.",
+        "External Korean cultural authenticity review.",
+        "Child-safety adaptation review with comments resolved."
+      ],
+      "sceneCount": 38
+    },
+    "book.rabbit_turtle": {
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "languageReviewStatus": "approved_for_demo",
+      "culturalReviewStatus": "approved_for_demo",
+      "childSafetyCulturalStatus": "approved_for_demo",
+      "productionApprovalStatus": "not_final",
+      "reviewer": "internal repo semantic authenticity audit",
+      "reviewDate": "2026-05-13",
+      "notes": [
+        "Repo-local semantic repair checks story-specific beats, sensitive emotional tone, metadata uniqueness, and child-safe adaptation boundaries.",
+        "External children’s editor, Korean-language, Korean cultural, and child-safety review remain required before final release."
+      ],
+      "requiredBeforeFinal": [
+        "External children’s editor review.",
+        "External Korean-language reviewer review.",
+        "External Korean cultural authenticity review.",
+        "Child-safety adaptation review with comments resolved."
+      ],
+      "sceneCount": 30
+    },
+    "book.dokkaebi_club": {
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "languageReviewStatus": "approved_for_demo",
+      "culturalReviewStatus": "approved_for_demo",
+      "childSafetyCulturalStatus": "approved_for_demo",
+      "productionApprovalStatus": "not_final",
+      "reviewer": "internal repo semantic authenticity audit",
+      "reviewDate": "2026-05-13",
+      "notes": [
+        "Repo-local semantic repair checks story-specific beats, sensitive emotional tone, metadata uniqueness, and child-safe adaptation boundaries.",
+        "External children’s editor, Korean-language, Korean cultural, and child-safety review remain required before final release."
+      ],
+      "requiredBeforeFinal": [
+        "External children’s editor review.",
+        "External Korean-language reviewer review.",
+        "External Korean cultural authenticity review.",
+        "Child-safety adaptation review with comments resolved."
+      ],
+      "sceneCount": 28
+    },
+    "book.dangun": {
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "languageReviewStatus": "approved_for_demo",
+      "culturalReviewStatus": "approved_for_demo",
+      "childSafetyCulturalStatus": "approved_for_demo",
+      "productionApprovalStatus": "not_final",
+      "reviewer": "internal repo semantic authenticity audit",
+      "reviewDate": "2026-05-13",
+      "notes": [
+        "Repo-local semantic repair checks story-specific beats, sensitive emotional tone, metadata uniqueness, and child-safe adaptation boundaries.",
+        "External children’s editor, Korean-language, Korean cultural, and child-safety review remain required before final release."
+      ],
+      "requiredBeforeFinal": [
+        "External children’s editor review.",
+        "External Korean-language reviewer review.",
+        "External Korean cultural authenticity review.",
+        "Child-safety adaptation review with comments resolved."
+      ],
+      "sceneCount": 30
+    },
+    "book.grateful_magpie": {
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "languageReviewStatus": "approved_for_demo",
+      "culturalReviewStatus": "approved_for_demo",
+      "childSafetyCulturalStatus": "approved_for_demo",
+      "productionApprovalStatus": "not_final",
+      "reviewer": "internal repo semantic authenticity audit",
+      "reviewDate": "2026-05-13",
+      "notes": [
+        "Repo-local semantic repair checks story-specific beats, sensitive emotional tone, metadata uniqueness, and child-safe adaptation boundaries.",
+        "External children’s editor, Korean-language, Korean cultural, and child-safety review remain required before final release."
+      ],
+      "requiredBeforeFinal": [
+        "External children’s editor review.",
+        "External Korean-language reviewer review.",
+        "External Korean cultural authenticity review.",
+        "Child-safety adaptation review with comments resolved."
+      ],
+      "sceneCount": 28
+    },
+    "book.kongjwi_patjwi": {
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "languageReviewStatus": "approved_for_demo",
+      "culturalReviewStatus": "approved_for_demo",
+      "childSafetyCulturalStatus": "approved_for_demo",
+      "productionApprovalStatus": "not_final",
+      "reviewer": "internal repo semantic authenticity audit",
+      "reviewDate": "2026-05-13",
+      "notes": [
+        "Repo-local semantic repair checks story-specific beats, sensitive emotional tone, metadata uniqueness, and child-safe adaptation boundaries.",
+        "External children’s editor, Korean-language, Korean cultural, and child-safety review remain required before final release."
+      ],
+      "requiredBeforeFinal": [
+        "External children’s editor review.",
+        "External Korean-language reviewer review.",
+        "External Korean cultural authenticity review.",
+        "Child-safety adaptation review with comments resolved."
+      ],
+      "sceneCount": 34
+    },
+    "book.geumgang_tiger": {
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "languageReviewStatus": "approved_for_demo",
+      "culturalReviewStatus": "approved_for_demo",
+      "childSafetyCulturalStatus": "approved_for_demo",
+      "productionApprovalStatus": "not_final",
+      "reviewer": "internal repo semantic authenticity audit",
+      "reviewDate": "2026-05-13",
+      "notes": [
+        "Repo-local semantic repair checks story-specific beats, sensitive emotional tone, metadata uniqueness, and child-safe adaptation boundaries.",
+        "External children’s editor, Korean-language, Korean cultural, and child-safety review remain required before final release."
+      ],
+      "requiredBeforeFinal": [
+        "External children’s editor review.",
+        "External Korean-language reviewer review.",
+        "External Korean cultural authenticity review.",
+        "Child-safety adaptation review with comments resolved."
+      ],
+      "sceneCount": 28
+    },
+    "book.lump_old_man": {
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "languageReviewStatus": "approved_for_demo",
+      "culturalReviewStatus": "approved_for_demo",
+      "childSafetyCulturalStatus": "approved_for_demo",
+      "productionApprovalStatus": "not_final",
+      "reviewer": "internal repo semantic authenticity audit",
+      "reviewDate": "2026-05-13",
+      "notes": [
+        "Repo-local semantic repair checks story-specific beats, sensitive emotional tone, metadata uniqueness, and child-safe adaptation boundaries.",
+        "External children’s editor, Korean-language, Korean cultural, and child-safety review remain required before final release."
+      ],
+      "requiredBeforeFinal": [
+        "External children’s editor review.",
+        "External Korean-language reviewer review.",
+        "External Korean cultural authenticity review.",
+        "Child-safety adaptation review with comments resolved."
+      ],
+      "sceneCount": 30
+    },
+    "book.gyeonwu_jiknyeo": {
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "languageReviewStatus": "approved_for_demo",
+      "culturalReviewStatus": "approved_for_demo",
+      "childSafetyCulturalStatus": "approved_for_demo",
+      "productionApprovalStatus": "not_final",
+      "reviewer": "internal repo semantic authenticity audit",
+      "reviewDate": "2026-05-13",
+      "notes": [
+        "Repo-local semantic repair checks story-specific beats, sensitive emotional tone, metadata uniqueness, and child-safe adaptation boundaries.",
+        "External children’s editor, Korean-language, Korean cultural, and child-safety review remain required before final release."
+      ],
+      "requiredBeforeFinal": [
+        "External children’s editor review.",
+        "External Korean-language reviewer review.",
+        "External Korean cultural authenticity review.",
+        "Child-safety adaptation review with comments resolved."
+      ],
+      "sceneCount": 32
+    },
+    "book.bari_princess_part_1": {
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "languageReviewStatus": "approved_for_demo",
+      "culturalReviewStatus": "approved_for_demo",
+      "childSafetyCulturalStatus": "approved_for_demo",
+      "productionApprovalStatus": "not_final",
+      "reviewer": "internal repo semantic authenticity audit",
+      "reviewDate": "2026-05-13",
+      "notes": [
+        "Repo-local semantic repair checks story-specific beats, sensitive emotional tone, metadata uniqueness, and child-safe adaptation boundaries.",
+        "External children’s editor, Korean-language, Korean cultural, and child-safety review remain required before final release."
+      ],
+      "requiredBeforeFinal": [
+        "External children’s editor review.",
+        "External Korean-language reviewer review.",
+        "External Korean cultural authenticity review.",
+        "Child-safety adaptation review with comments resolved."
+      ],
+      "sceneCount": 26
+    },
+    "book.bari_princess_part_2": {
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "languageReviewStatus": "approved_for_demo",
+      "culturalReviewStatus": "approved_for_demo",
+      "childSafetyCulturalStatus": "approved_for_demo",
+      "productionApprovalStatus": "not_final",
+      "reviewer": "internal repo semantic authenticity audit",
+      "reviewDate": "2026-05-13",
+      "notes": [
+        "Repo-local semantic repair checks story-specific beats, sensitive emotional tone, metadata uniqueness, and child-safe adaptation boundaries.",
+        "External children’s editor, Korean-language, Korean cultural, and child-safety review remain required before final release."
+      ],
+      "requiredBeforeFinal": [
+        "External children’s editor review.",
+        "External Korean-language reviewer review.",
+        "External Korean cultural authenticity review.",
+        "Child-safety adaptation review with comments resolved."
+      ],
+      "sceneCount": 26
+    },
+    "book.snail_bride": {
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "languageReviewStatus": "approved_for_demo",
+      "culturalReviewStatus": "approved_for_demo",
+      "childSafetyCulturalStatus": "approved_for_demo",
+      "productionApprovalStatus": "not_final",
+      "reviewer": "internal repo semantic authenticity audit",
+      "reviewDate": "2026-05-13",
+      "notes": [
+        "Repo-local semantic repair checks story-specific beats, sensitive emotional tone, metadata uniqueness, and child-safe adaptation boundaries.",
+        "External children’s editor, Korean-language, Korean cultural, and child-safety review remain required before final release."
+      ],
+      "requiredBeforeFinal": [
+        "External children’s editor review.",
+        "External Korean-language reviewer review.",
+        "External Korean cultural authenticity review.",
+        "Child-safety adaptation review with comments resolved."
+      ],
+      "sceneCount": 30
+    },
+    "book.janghwa_hongryeon": {
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "languageReviewStatus": "approved_for_demo",
+      "culturalReviewStatus": "approved_for_demo",
+      "childSafetyCulturalStatus": "approved_for_demo",
+      "productionApprovalStatus": "not_final",
+      "reviewer": "internal repo semantic authenticity audit",
+      "reviewDate": "2026-05-13",
+      "notes": [
+        "Repo-local semantic repair checks story-specific beats, sensitive emotional tone, metadata uniqueness, and child-safe adaptation boundaries.",
+        "External children’s editor, Korean-language, Korean cultural, and child-safety review remain required before final release."
+      ],
+      "requiredBeforeFinal": [
+        "External children’s editor review.",
+        "External Korean-language reviewer review.",
+        "External Korean cultural authenticity review.",
+        "Child-safety adaptation review with comments resolved."
+      ],
+      "sceneCount": 32
+    },
+    "book.fairy_woodcutter": {
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "languageReviewStatus": "approved_for_demo",
+      "culturalReviewStatus": "approved_for_demo",
+      "childSafetyCulturalStatus": "approved_for_demo",
+      "productionApprovalStatus": "not_final",
+      "reviewer": "internal repo semantic authenticity audit",
+      "reviewDate": "2026-05-13",
+      "notes": [
+        "Repo-local semantic repair checks story-specific beats, sensitive emotional tone, metadata uniqueness, and child-safe adaptation boundaries.",
+        "External children’s editor, Korean-language, Korean cultural, and child-safety review remain required before final release."
+      ],
+      "requiredBeforeFinal": [
+        "External children’s editor review.",
+        "External Korean-language reviewer review.",
+        "External Korean cultural authenticity review.",
+        "Child-safety adaptation review with comments resolved."
+      ],
+      "sceneCount": 32
+    },
+    "book.green_frog": {
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "languageReviewStatus": "approved_for_demo",
+      "culturalReviewStatus": "approved_for_demo",
+      "childSafetyCulturalStatus": "approved_for_demo",
+      "productionApprovalStatus": "not_final",
+      "reviewer": "internal repo semantic authenticity audit",
+      "reviewDate": "2026-05-13",
+      "notes": [
+        "Repo-local semantic repair checks story-specific beats, sensitive emotional tone, metadata uniqueness, and child-safe adaptation boundaries.",
+        "External children’s editor, Korean-language, Korean cultural, and child-safety review remain required before final release."
+      ],
+      "requiredBeforeFinal": [
+        "External children’s editor review.",
+        "External Korean-language reviewer review.",
+        "External Korean cultural authenticity review.",
+        "Child-safety adaptation review with comments resolved."
+      ],
+      "sceneCount": 24
+    },
+    "book.kind_brothers": {
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "languageReviewStatus": "approved_for_demo",
+      "culturalReviewStatus": "approved_for_demo",
+      "childSafetyCulturalStatus": "approved_for_demo",
+      "productionApprovalStatus": "not_final",
+      "reviewer": "internal repo semantic authenticity audit",
+      "reviewDate": "2026-05-13",
+      "notes": [
+        "Repo-local semantic repair checks story-specific beats, sensitive emotional tone, metadata uniqueness, and child-safe adaptation boundaries.",
+        "External children’s editor, Korean-language, Korean cultural, and child-safety review remain required before final release."
+      ],
+      "requiredBeforeFinal": [
+        "External children’s editor review.",
+        "External Korean-language reviewer review.",
+        "External Korean cultural authenticity review.",
+        "Child-safety adaptation review with comments resolved."
+      ],
+      "sceneCount": 24
+    },
+    "book.byeoljubu": {
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "languageReviewStatus": "approved_for_demo",
+      "culturalReviewStatus": "approved_for_demo",
+      "childSafetyCulturalStatus": "approved_for_demo",
+      "productionApprovalStatus": "not_final",
+      "reviewer": "internal repo semantic authenticity audit",
+      "reviewDate": "2026-05-13",
+      "notes": [
+        "Repo-local semantic repair checks story-specific beats, sensitive emotional tone, metadata uniqueness, and child-safe adaptation boundaries.",
+        "External children’s editor, Korean-language, Korean cultural, and child-safety review remain required before final release."
+      ],
+      "requiredBeforeFinal": [
+        "External children’s editor review.",
+        "External Korean-language reviewer review.",
+        "External Korean cultural authenticity review.",
+        "Child-safety adaptation review with comments resolved."
+      ],
+      "sceneCount": 32
+    },
+    "book.farting_daughter_in_law": {
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "languageReviewStatus": "approved_for_demo",
+      "culturalReviewStatus": "approved_for_demo",
+      "childSafetyCulturalStatus": "approved_for_demo",
+      "productionApprovalStatus": "not_final",
+      "reviewer": "internal repo semantic authenticity audit",
+      "reviewDate": "2026-05-13",
+      "notes": [
+        "Repo-local semantic repair checks story-specific beats, sensitive emotional tone, metadata uniqueness, and child-safe adaptation boundaries.",
+        "External children’s editor, Korean-language, Korean cultural, and child-safety review remain required before final release."
+      ],
+      "requiredBeforeFinal": [
+        "External children’s editor review.",
+        "External Korean-language reviewer review.",
+        "External Korean cultural authenticity review.",
+        "Child-safety adaptation review with comments resolved."
+      ],
+      "sceneCount": 24
+    },
+    "book.serpent_bridegroom": {
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "languageReviewStatus": "approved_for_demo",
+      "culturalReviewStatus": "approved_for_demo",
+      "childSafetyCulturalStatus": "approved_for_demo",
+      "productionApprovalStatus": "not_final",
+      "reviewer": "internal repo semantic authenticity audit",
+      "reviewDate": "2026-05-13",
+      "notes": [
+        "Repo-local semantic repair checks story-specific beats, sensitive emotional tone, metadata uniqueness, and child-safe adaptation boundaries.",
+        "External children’s editor, Korean-language, Korean cultural, and child-safety review remain required before final release."
+      ],
+      "requiredBeforeFinal": [
+        "External children’s editor review.",
+        "External Korean-language reviewer review.",
+        "External Korean cultural authenticity review.",
+        "Child-safety adaptation review with comments resolved."
+      ],
+      "sceneCount": 32
+    }
+  }
+}

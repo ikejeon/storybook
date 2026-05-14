@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedOn": "2026-05-11",
+  "status": "repo_ready_no_external_demand_evidence",
+  "positioning": {
+    "product": "Moon Jar Stories",
+    "audience": [
+      "English-first Korean diaspora families with children ages 3-8",
+      "Parents and grandparents seeking calm bilingual bedtime reading",
+      "Families looking for Korean folktales without ads, child tracking, or live child-app generation"
+    ],
+    "buyer": "parent_or_grandparent",
+    "corePromise": "A premium, calm, bilingual Korean folktale reader with English-first access, Korean language exposure, offline story assets, and parent-gated purchases."
+  },
+  "evidenceStatus": {
+    "sourceBackedCompetitorAnalysis": "present",
+    "distributionExperimentDesign": "present",
+    "targetParentTesting": "missing_external",
+    "pricingValidation": "planned_not_run",
+    "willingnessToPaySignal": "missing_external",
+    "retentionSignal": "missing_external",
+    "conversionSignal": "missing_external"
+  },
+  "pricingHypotheses": [
+    {
+      "id": "monthly_family_storytime",
+      "priceUsd": 4.99,
+      "unit": "monthly_subscription",
+      "reason": "Below broad kids reading/learning subscriptions while matching the narrower Korean folktale niche.",
+      "status": "hypothesis_not_validated"
+    },
+    {
+      "id": "annual_family_storytime",
+      "priceUsd": 39.99,
+      "unit": "annual_subscription",
+      "reason": "Annual price should test giftability for grandparents and diaspora families.",
+      "status": "hypothesis_not_validated"
+    },
+    {
+      "id": "lifetime_korean_library",
+      "priceUsdRange": "79.99-99.99",
+      "unit": "lifetime_unlock",
+      "reason": "One-time family-library purchase for parents who dislike subscriptions.",
+      "status": "hypothesis_not_validated"
+    },
+    {
+      "id": "individual_book_unlock",
+      "priceUsd": 3.99,
+      "unit": "one_book",
+      "reason": "Low-friction purchase for families who only want a favorite folktale.",
+      "status": "hypothesis_not_validated"
+    }
+  ],
+  "distributionExperiments": [
+    {
+      "id": "apple_product_page_optimization",
+      "platform": "app_store",
+      "status": "blocked_until_ready_for_distribution",
+      "testableAssets": ["app_icon", "screenshots", "app_previews"],
+      "primaryMetric": "conversion_rate",
+      "sourceId": "apple_product_page_optimization"
+    },
+    {
+      "id": "apple_custom_product_pages",
+      "platform": "app_store",
+      "status": "planned_not_live",
+      "audiencePages": ["korean_bedtime", "english_first_bilingual", "grandparent_gift"],
+      "primaryMetric": "impressions_to_downloads",
+      "sourceId": "apple_custom_product_pages"
+    },
+    {
+      "id": "google_play_store_listing_experiment",
+      "platform": "google_play",
+      "status": "planned_not_live",
+      "testableAssets": ["icon", "feature_graphic", "screenshots", "short_description"],
+      "primaryMetric": "install_conversion_and_1_day_retention",
+      "sourceId": "google_play_store_listing_experiments"
+    },
+    {
+      "id": "community_waitlist",
+      "platform": "owned_web_or_email",
+      "status": "planned_not_run",
+      "channels": ["korean_parent_groups", "korean_language_schools", "grandparent_gift_campaign"],
+      "primaryMetric": "qualified_parent_email_opt_in",
+      "privacyBoundary": "parent_only_opt_in_no_child_data"
+    }
+  ],
+  "privacySafeInstrumentationPlan": {
+    "status": "planned_disabled_until_policy_review",
+    "defaultTelemetry": "off",
+    "childDataCollection": false,
+    "thirdPartyTracking": false,
+    "allowedParentLevelEvents": [
+      "store_page_view",
+      "paywall_view",
+      "parent_gate_passed",
+      "purchase_started",
+      "purchase_restored",
+      "book_completed_local_counter"
+    ],
+    "disallowedEvents": [
+      "child_identity",
+      "child_name",
+      "voice_recording_without_parent_consent",
+      "behavioral_advertising_id",
+      "cross_app_tracking_id"
+    ]
+  },
+  "nonEvidenceWarning": "This file is a plan and source-backed setup artifact. It is not parent testing, pricing validation, conversion, retention, or willingness-to-pay evidence."
+}

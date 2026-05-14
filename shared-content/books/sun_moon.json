@@ -1,0 +1,3119 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "book.sun_moon",
+  "slug": "sun-and-moon",
+  "title": {
+    "ko": "해님 달님",
+    "en": "The Sun and the Moon",
+    "romanization": "Haenim Dalnim"
+  },
+  "access": "free",
+  "ageRange": "3-8",
+  "estimatedMinutes": 12,
+  "summary": "A suspenseful but gentle retelling of the Korean classic where two brave siblings notice a deceptive tiger, protect each other, and become remembered in the light of the sun and moon.",
+  "sensitivityNotes": [
+    "Gentle default version: Mother survives and the celestial ending is mythic and reassuring.",
+    "Tiger is cunning, hungry, watchful, and dangerous through tone and framing, with no gore or graphic violence.",
+    "Sibling bravery and clever caution are emphasized."
+  ],
+  "themes": [
+    "bravery",
+    "siblings",
+    "family",
+    "night sky"
+  ],
+  "characters": [
+    "mother",
+    "older_sibling",
+    "younger_sibling",
+    "tiger",
+    "sky_spirit"
+  ],
+  "pages": [
+    {
+      "id": "sun_moon_001",
+      "pageNumber": 1,
+      "text": {
+        "enLittle": "In a deep mountain village, two siblings helped Mother wrap warm rice cakes before market day.",
+        "enStandard": "In a deep mountain village, two siblings helped Mother wrap warm rice cakes before market day. Steam curled around the room, and every cake smelled like home.",
+        "koLittle": "깊은 산골 마을에 오누이가 어머니와 함께 따끈한 떡을 쌌어요.",
+        "koStandard": "깊은 산골 마을에 오누이가 어머니와 함께 따끈한 떡을 쌌어요. 하얀 김이 방 안을 감싸고, 떡마다 집 냄새가 포근히 배었지요."
+      },
+      "koreanText": "깊은 산골 마을에 오누이가 어머니와 함께 따끈한 떡을 쌌어요. 하얀 김이 방 안을 감싸고, 떡마다 집 냄새가 포근히 배었지요.",
+      "englishText": "In a deep mountain village, two siblings helped Mother wrap warm rice cakes before market day. Steam curled around the room, and every cake smelled like home.",
+      "narrationScript": "깊은 산골 마을에 오누이가 어머니와 함께 따끈한 떡을 쌌어요. 하얀 김이 방 안을 감싸고, 떡마다 집 냄새가 포근히 배었지요.",
+      "vocabulary": [
+        {
+          "ko": "오누이",
+          "en": "brother and sister",
+          "romanization": "onui",
+          "definitionEn": "A brother and sister together.",
+          "definitionKo": "남매나 누나와 남동생처럼 함께 있는 형제자매예요."
+        },
+        {
+          "ko": "떡",
+          "en": "rice cake",
+          "romanization": "tteok",
+          "definitionEn": "A soft Korean rice cake often shared at celebrations or markets.",
+          "definitionKo": "쌀로 만든 말랑한 한국 음식이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "warmth",
+        "emotion": "safe family warmth",
+        "pageTurnHook": "Mother ties the basket and prepares to leave. The next page draws the tiger closer to the cottage lights.",
+        "readAloudCue": "Read with suspenseful, brave, watchful, and child-safe; keep the tiger cunning, hungry, and deceptive without horror; keep pauses clear and musical. warm, slow opening; let the word warm linger",
+        "childInteraction": "Tap the steam over the rice cakes."
+      },
+      "imagePrompt": "Cozy Korean mountain cottage at dawn, mother and two children in simple hanbok wrapping rice cakes, lantern glow, moon jar on shelf, distant pine forest outside window, no tiger visible yet Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with safe family warmth; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: warm, slow opening; let the word warm linger",
+      "animation": {
+        "type": "warmLanternLoop",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_001/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_001/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_001/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_001/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warmLanternLoop",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_001/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_001/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/sun-and-moon/page-001.png",
+      "imageSource": "assets/books/sun-and-moon/page-001.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/sun-and-moon/ko/page-001.wav",
+      "ambientAudio": "audio/books/sun-and-moon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "sun_moon_002",
+      "pageNumber": 2,
+      "text": {
+        "enLittle": "Mother lifted the basket onto her back.",
+        "enStandard": "Mother lifted the basket onto her back. “Watch the house, and watch each other,” she said. The older sister nodded twice, and the younger brother nodded once more.",
+        "koLittle": "어머니가 광주리를 등에 메며 말했어요.",
+        "koStandard": "어머니가 광주리를 등에 메며 말했어요. “집도 잘 지키고, 서로도 잘 지키렴.” 누나는 두 번 고개를 끄덕였고, 동생은 한 번 더 크게 끄덕였어요."
+      },
+      "koreanText": "어머니가 광주리를 등에 메며 말했어요. “집도 잘 지키고, 서로도 잘 지키렴.” 누나는 두 번 고개를 끄덕였고, 동생은 한 번 더 크게 끄덕였어요.",
+      "englishText": "Mother lifted the basket onto her back. “Watch the house, and watch each other,” she said. The older sister nodded twice, and the younger brother nodded once more.",
+      "narrationScript": "어머니가 광주리를 등에 메며 말했어요. “집도 잘 지키고, 서로도 잘 지키렴.” 누나는 두 번 고개를 끄덕였고, 동생은 한 번 더 크게 끄덕였어요.",
+      "vocabulary": [
+        {
+          "ko": "광주리",
+          "en": "basket",
+          "romanization": "gwangjuri",
+          "definitionEn": "A woven basket for carrying food or tools.",
+          "definitionKo": "음식이나 물건을 담아 나르는 바구니예요."
+        },
+        {
+          "ko": "장날",
+          "en": "market day",
+          "romanization": "jangnal",
+          "definitionEn": "A day when people gather to buy and sell food and goods.",
+          "definitionKo": "사람들이 물건을 사고파는 장이 서는 날이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "promise",
+        "emotion": "tender responsibility",
+        "pageTurnHook": "The children are left with one important promise. The next page draws the tiger closer to the cottage lights.",
+        "readAloudCue": "Read with suspenseful, brave, watchful, and child-safe; keep the tiger cunning, hungry, and deceptive without horror; keep pauses clear and musical. gentle but purposeful",
+        "childInteraction": "Tap each child to hear the promise."
+      },
+      "imagePrompt": "Mother at cottage door with woven basket, older sister and younger brother standing seriously, morning light on paper windows, Korean rural cottage details Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with tender responsibility; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: gentle but purposeful",
+      "animation": {
+        "type": "villageIntro",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_002/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_002/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_002/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_002/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "villageIntro",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_002/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_002/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/sun-and-moon/page-002.png",
+      "imageSource": "assets/books/sun-and-moon/page-002.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/sun-and-moon/ko/page-002.wav",
+      "ambientAudio": "audio/books/sun-and-moon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "sun_moon_003",
+      "pageNumber": 3,
+      "text": {
+        "enLittle": "High in the pines, a tiger watched the road.",
+        "enStandard": "High in the pines, a tiger watched the road. He did not smile. His eyes followed the basket, and his hungry nose twitched in the cold air.",
+        "koLittle": "높은 소나무 그늘에서 호랑이가 길을 지켜보고 있었어요.",
+        "koStandard": "높은 소나무 그늘에서 호랑이가 길을 지켜보고 있었어요. 그는 웃지 않았어요. 배고픈 코가 찬 공기 속에서 벌름거리고, 눈은 광주리를 따라 움직였지요."
+      },
+      "koreanText": "높은 소나무 그늘에서 호랑이가 길을 지켜보고 있었어요. 그는 웃지 않았어요. 배고픈 코가 찬 공기 속에서 벌름거리고, 눈은 광주리를 따라 움직였지요.",
+      "englishText": "High in the pines, a tiger watched the road. He did not smile. His eyes followed the basket, and his hungry nose twitched in the cold air.",
+      "narrationScript": "높은 소나무 그늘에서 호랑이가 길을 지켜보고 있었어요. 그는 웃지 않았어요. 배고픈 코가 찬 공기 속에서 벌름거리고, 눈은 광주리를 따라 움직였지요.",
+      "vocabulary": [
+        {
+          "ko": "소나무",
+          "en": "pine tree",
+          "romanization": "sonamu",
+          "definitionEn": "An evergreen tree common in Korean mountain stories.",
+          "definitionKo": "사철 푸른 잎을 가진 나무예요."
+        },
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "suspense",
+        "emotion": "watchful unease",
+        "pageTurnHook": "The tiger has noticed Mother. The next page draws the tiger closer to the cottage lights.",
+        "readAloudCue": "Read with suspenseful, brave, watchful, and child-safe; keep the tiger cunning, hungry, and deceptive without horror; keep pauses clear and musical. lower voice, slow on watched",
+        "childInteraction": "Tap the pine shadow to reveal watching eyes."
+      },
+      "imagePrompt": "Mysterious forest presence: a cunning hungry watchful tiger half hidden behind dark pine trunks, mature angular face, narrow alert eyes, tense posture, child-safe suspense Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark. Preserve the tiger as a cunning, hungry, watchful, deceptive folktale antagonist using posture, eyes, door shadows, and framing; keep the design mature, restrained, and unsettling.",
+      "audioPrompt": "English-first warm professional picture-book narration with watchful unease; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: lower voice, slow on watched",
+      "animation": {
+        "type": "forestWhisper",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_003/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_003/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_003/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_003/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "forestWhisper",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_003/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_003/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/sun-and-moon/page-003.png",
+      "imageSource": "assets/books/sun-and-moon/page-003.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/sun-and-moon/ko/page-003.wav",
+      "ambientAudio": "audio/books/sun-and-moon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "sun_moon_004",
+      "pageNumber": 4,
+      "text": {
+        "enLittle": "The tiger stepped onto the path as softly as falling snow.",
+        "enStandard": "The tiger stepped onto the path as softly as falling snow. “Good evening, Mother,” he said, in a voice too smooth to trust.",
+        "koLittle": "호랑이는 눈 내리듯 소리 없이 길로 내려왔어요.",
+        "koStandard": "호랑이는 눈 내리듯 소리 없이 길로 내려왔어요. “어머니, 안녕하시오.” 그는 믿기엔 너무 매끄러운 목소리로 말했지요."
+      },
+      "koreanText": "호랑이는 눈 내리듯 소리 없이 길로 내려왔어요. “어머니, 안녕하시오.” 그는 믿기엔 너무 매끄러운 목소리로 말했지요.",
+      "englishText": "The tiger stepped onto the path as softly as falling snow. “Good evening, Mother,” he said, in a voice too smooth to trust.",
+      "narrationScript": "호랑이는 눈 내리듯 소리 없이 길로 내려왔어요. “어머니, 안녕하시오.” 그는 믿기엔 너무 매끄러운 목소리로 말했지요.",
+      "vocabulary": [
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        },
+        {
+          "ko": "수건",
+          "en": "cloth scarf",
+          "romanization": "sugeon",
+          "definitionEn": "A cloth used for wrapping, carrying, or covering.",
+          "definitionKo": "물건을 싸거나 몸에 두르는 천이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "danger",
+        "emotion": "quiet threat",
+        "pageTurnHook": "The tiger speaks too politely. The next page draws the tiger closer to the cottage lights.",
+        "readAloudCue": "Read with suspenseful, brave, watchful, and child-safe; keep the tiger cunning, hungry, and deceptive without horror; keep pauses clear and musical. make tiger dialogue silky but wrong",
+        "childInteraction": "Tap the road dust near the paw prints."
+      },
+      "imagePrompt": "Cunning tiger blocks a mountain path at dusk, mother clutching rice cake basket, tiger posture polite but dangerous, shadow long across path, no gore, no horror Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark. Preserve the tiger as a cunning, hungry, watchful, deceptive folktale antagonist using posture, eyes, door shadows, and framing; keep the design mature, restrained, and unsettling.",
+      "audioPrompt": "English-first warm professional picture-book narration with quiet threat; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: make tiger dialogue silky but wrong",
+      "animation": {
+        "type": "scentCurlLoop",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_004/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_004/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_004/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_004/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "scentCurlLoop",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_004/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_004/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/sun-and-moon/page-004.png",
+      "imageSource": "assets/books/sun-and-moon/page-004.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/sun-and-moon/ko/page-004.wav",
+      "ambientAudio": "audio/books/sun-and-moon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "sun_moon_005",
+      "pageNumber": 5,
+      "text": {
+        "enLittle": "Mother remembered her children waiting at home.",
+        "enStandard": "Mother remembered her children waiting at home. She tossed one rice cake down the hill. The tiger lunged after it, and Mother ran the other way.",
+        "koLittle": "어머니는 집에서 기다리는 아이들을 떠올렸어요.",
+        "koStandard": "어머니는 집에서 기다리는 아이들을 떠올렸어요. 떡 하나를 언덕 아래로 던지자, 호랑이가 그쪽으로 몸을 날렸고 어머니는 반대쪽으로 달렸어요."
+      },
+      "koreanText": "어머니는 집에서 기다리는 아이들을 떠올렸어요. 떡 하나를 언덕 아래로 던지자, 호랑이가 그쪽으로 몸을 날렸고 어머니는 반대쪽으로 달렸어요.",
+      "englishText": "Mother remembered her children waiting at home. She tossed one rice cake down the hill. The tiger lunged after it, and Mother ran the other way.",
+      "narrationScript": "어머니는 집에서 기다리는 아이들을 떠올렸어요. 떡 하나를 언덕 아래로 던지자, 호랑이가 그쪽으로 몸을 날렸고 어머니는 반대쪽으로 달렸어요.",
+      "vocabulary": [
+        {
+          "ko": "떡",
+          "en": "rice cake",
+          "romanization": "tteok",
+          "definitionEn": "A soft Korean rice cake often shared at celebrations or markets.",
+          "definitionKo": "쌀로 만든 말랑한 한국 음식이에요."
+        },
+        {
+          "ko": "광주리",
+          "en": "basket",
+          "romanization": "gwangjuri",
+          "definitionEn": "A woven basket for carrying food or tools.",
+          "definitionKo": "음식이나 물건을 담아 나르는 바구니예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "agency",
+        "emotion": "quick courage",
+        "pageTurnHook": "Mother wins a moment of time. The next page draws the tiger closer to the cottage lights.",
+        "readAloudCue": "Read with suspenseful, brave, watchful, and child-safe; keep the tiger cunning, hungry, and deceptive without horror; keep pauses clear and musical. quickened pace, then breath",
+        "childInteraction": "Swipe the rice cake path down the hill."
+      },
+      "imagePrompt": "Mother uses clever escape, rice cake rolling down slope, tiger lunging after food with hungry watchful eyes, Korean mountain path, child-safe action Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with quick courage; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: quickened pace, then breath",
+      "animation": {
+        "type": "carefulCatch",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_005/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_005/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_005/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_005/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "carefulCatch",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_005/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_005/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/sun-and-moon/page-005.png",
+      "imageSource": "assets/books/sun-and-moon/page-005.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/sun-and-moon/ko/page-005.wav",
+      "ambientAudio": "audio/books/sun-and-moon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "sun_moon_006",
+      "pageNumber": 6,
+      "text": {
+        "enLittle": "The tiger snapped up the cake, then sniffed Mother’s fallen scarf.",
+        "enStandard": "The tiger snapped up the cake, then sniffed Mother’s fallen scarf. He looked toward the cottage lights. “Ah,” he whispered. “Little doors open for familiar voices.”",
+        "koLittle": "호랑이는 떡을 덥석 먹고, 어머니가 떨어뜨린 수건 냄새를 맡았어요.",
+        "koStandard": "호랑이는 떡을 덥석 먹고, 어머니가 떨어뜨린 수건 냄새를 맡았어요. 그러고는 초가집 불빛을 바라보며 속삭였지요. “익숙한 목소리라면 작은 문도 열리겠군.”"
+      },
+      "koreanText": "호랑이는 떡을 덥석 먹고, 어머니가 떨어뜨린 수건 냄새를 맡았어요. 그러고는 초가집 불빛을 바라보며 속삭였지요. “익숙한 목소리라면 작은 문도 열리겠군.”",
+      "englishText": "The tiger snapped up the cake, then sniffed Mother’s fallen scarf. He looked toward the cottage lights. “Ah,” he whispered. “Little doors open for familiar voices.”",
+      "narrationScript": "호랑이는 떡을 덥석 먹고, 어머니가 떨어뜨린 수건 냄새를 맡았어요. 그러고는 초가집 불빛을 바라보며 속삭였지요. “익숙한 목소리라면 작은 문도 열리겠군.”",
+      "vocabulary": [
+        {
+          "ko": "수건",
+          "en": "cloth scarf",
+          "romanization": "sugeon",
+          "definitionEn": "A cloth used for wrapping, carrying, or covering.",
+          "definitionKo": "물건을 싸거나 몸에 두르는 천이에요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤길을 밝히는 따뜻한 불빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "plot turn",
+        "emotion": "cold realization",
+        "pageTurnHook": "The tiger plans a trick. The next page draws the tiger closer to the cottage lights.",
+        "readAloudCue": "Read with suspenseful, brave, watchful, and child-safe; keep the tiger cunning, hungry, and deceptive without horror; keep pauses clear and musical. whisper the tiger line",
+        "childInteraction": "Tap the scarf to see the scent curl."
+      },
+      "imagePrompt": "Tiger holding mother cloth scarf in shadow, cottage lights far away, cunning hungry expression, controlled mouth, mature antagonist features, suspenseful Korean ink style Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark. Preserve the tiger as a cunning, hungry, watchful, deceptive folktale antagonist using posture, eyes, door shadows, and framing; keep the design mature, restrained, and unsettling.",
+      "audioPrompt": "English-first warm professional picture-book narration with cold realization; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: whisper the tiger line",
+      "animation": {
+        "type": "thinkingSteam",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_006/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_006/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_006/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_006/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "thinkingSteam",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_006/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_006/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/sun-and-moon/page-006.png",
+      "imageSource": "assets/books/sun-and-moon/page-006.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/sun-and-moon/ko/page-006.wav",
+      "ambientAudio": "audio/books/sun-and-moon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "sun_moon_007",
+      "pageNumber": 7,
+      "text": {
+        "enLittle": "At home, the children counted stars on the paper window.",
+        "enStandard": "At home, the children counted stars on the paper window. Then came a knock: tap, tap, tap. “Open the door, my children,” called a voice from outside.",
+        "koLittle": "집에서는 오누이가 창호지에 비친 별을 세고 있었어요.",
+        "koStandard": "집에서는 오누이가 창호지에 비친 별을 세고 있었어요. 그때 문이 톡, 톡, 톡 울렸어요. “얘들아, 문 열어라.” 밖에서 목소리가 들렸지요."
+      },
+      "koreanText": "집에서는 오누이가 창호지에 비친 별을 세고 있었어요. 그때 문이 톡, 톡, 톡 울렸어요. “얘들아, 문 열어라.” 밖에서 목소리가 들렸지요.",
+      "englishText": "At home, the children counted stars on the paper window. Then came a knock: tap, tap, tap. “Open the door, my children,” called a voice from outside.",
+      "narrationScript": "집에서는 오누이가 창호지에 비친 별을 세고 있었어요. 그때 문이 톡, 톡, 톡 울렸어요. “얘들아, 문 열어라.” 밖에서 목소리가 들렸지요.",
+      "vocabulary": [
+        {
+          "ko": "오누이",
+          "en": "brother and sister",
+          "romanization": "onui",
+          "definitionEn": "A brother and sister together.",
+          "definitionKo": "남매나 누나와 남동생처럼 함께 있는 형제자매예요."
+        },
+        {
+          "ko": "문턱",
+          "en": "threshold",
+          "romanization": "munteok",
+          "definitionEn": "The raised edge at the bottom of a doorway.",
+          "definitionKo": "문 아래쪽의 살짝 높은 부분이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "suspense",
+        "emotion": "held breath",
+        "pageTurnHook": "A voice arrives at the door. The door test grows stranger, and the children must choose what to trust.",
+        "readAloudCue": "Read with suspenseful, brave, watchful, and child-safe; keep the tiger cunning, hungry, and deceptive without horror; keep pauses clear and musical. tap the three knocks with pauses",
+        "childInteraction": "Tap the door crack."
+      },
+      "imagePrompt": "Night cottage interior, children by paper window, door shadow outside, cunning tiger unseen except unsettling silhouette under door, watchful dangerous presence, no horror Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark. Preserve the tiger as a cunning, hungry, watchful, deceptive folktale antagonist using posture, eyes, door shadows, and framing; keep the design mature, restrained, and unsettling.",
+      "audioPrompt": "English-first warm professional picture-book narration with held breath; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: tap the three knocks with pauses",
+      "animation": {
+        "type": "sunsetKnock",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_007/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_007/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_007/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_007/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "sunsetKnock",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_007/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_007/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/sun-and-moon/page-007.png",
+      "imageSource": "assets/books/sun-and-moon/page-007.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/sun-and-moon/ko/page-007.wav",
+      "ambientAudio": "audio/books/sun-and-moon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "sun_moon_008",
+      "pageNumber": 8,
+      "text": {
+        "enLittle": "The younger brother ran forward, but his sister caught his sleeve.",
+        "enStandard": "The younger brother ran forward, but his sister caught his sleeve. “Wait,” she whispered. “Mother’s voice is warm. That voice scratches like pine bark.”",
+        "koLittle": "동생이 달려가려 하자 누나가 소매를 살짝 붙잡았어요.",
+        "koStandard": "동생이 달려가려 하자 누나가 소매를 살짝 붙잡았어요. “기다려.” 누나가 속삭였어요. “엄마 목소리는 따뜻한데, 저 목소리는 솔잎처럼 까슬까슬해.”"
+      },
+      "koreanText": "동생이 달려가려 하자 누나가 소매를 살짝 붙잡았어요. “기다려.” 누나가 속삭였어요. “엄마 목소리는 따뜻한데, 저 목소리는 솔잎처럼 까슬까슬해.”",
+      "englishText": "The younger brother ran forward, but his sister caught his sleeve. “Wait,” she whispered. “Mother’s voice is warm. That voice scratches like pine bark.”",
+      "narrationScript": "동생이 달려가려 하자 누나가 소매를 살짝 붙잡았어요. “기다려.” 누나가 속삭였어요. “엄마 목소리는 따뜻한데, 저 목소리는 솔잎처럼 까슬까슬해.”",
+      "vocabulary": [
+        {
+          "ko": "한복",
+          "en": "hanbok",
+          "romanization": "hanbok",
+          "definitionEn": "Traditional Korean clothing with soft lines and bright sashes.",
+          "definitionKo": "한국의 전통 옷이에요."
+        },
+        {
+          "ko": "소나무",
+          "en": "pine tree",
+          "romanization": "sonamu",
+          "definitionEn": "An evergreen tree common in Korean mountain stories.",
+          "definitionKo": "사철 푸른 잎을 가진 나무예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "child agency",
+        "emotion": "protective caution",
+        "pageTurnHook": "The sister hears what is wrong. The door test grows stranger, and the children must choose what to trust.",
+        "readAloudCue": "Read with suspenseful, brave, watchful, and child-safe; keep the tiger cunning, hungry, and deceptive without horror; keep pauses clear and musical. soft whisper, protective",
+        "childInteraction": "Tap the sister’s raised finger."
+      },
+      "imagePrompt": "Older sister protecting younger brother inside dim cottage, warm lantern light, suspense at closed door, Korean hanbok sleeves, no tiger fully visible Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with protective caution; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: soft whisper, protective",
+      "animation": {
+        "type": "closedDoor",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_008/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_008/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_008/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_008/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "closedDoor",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_008/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_008/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/sun-and-moon/page-008.png",
+      "imageSource": "assets/books/sun-and-moon/page-008.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/sun-and-moon/ko/page-008.wav",
+      "ambientAudio": "audio/books/sun-and-moon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "sun_moon_009",
+      "pageNumber": 9,
+      "text": {
+        "enLittle": "“Show us your hand,” said the sister.",
+        "enStandard": "“Show us your hand,” said the sister. A paw slid into the moonlight — wide, striped, and not Mother’s hand at all.",
+        "koLittle": "“손을 보여 주세요.” 누나가 말했어요.",
+        "koStandard": "“손을 보여 주세요.” 누나가 말했어요. 달빛 속으로 발 하나가 쓱 들어왔어요. 넓고, 줄무늬가 있고, 결코 엄마 손이 아니었지요."
+      },
+      "koreanText": "“손을 보여 주세요.” 누나가 말했어요. 달빛 속으로 발 하나가 쓱 들어왔어요. 넓고, 줄무늬가 있고, 결코 엄마 손이 아니었지요.",
+      "englishText": "“Show us your hand,” said the sister. A paw slid into the moonlight — wide, striped, and not Mother’s hand at all.",
+      "narrationScript": "“손을 보여 주세요.” 누나가 말했어요. 달빛 속으로 발 하나가 쓱 들어왔어요. 넓고, 줄무늬가 있고, 결코 엄마 손이 아니었지요.",
+      "vocabulary": [
+        {
+          "ko": "발",
+          "en": "paw",
+          "romanization": "bal",
+          "definitionEn": "An animal foot.",
+          "definitionKo": "동물의 발이에요."
+        },
+        {
+          "ko": "달빛",
+          "en": "moonlight",
+          "romanization": "dalbit",
+          "definitionEn": "The soft light that shines from the moon.",
+          "definitionKo": "달에서 내려오는 부드러운 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "reveal",
+        "emotion": "startled certainty",
+        "pageTurnHook": "The first test reveals the truth. The door test grows stranger, and the children must choose what to trust.",
+        "readAloudCue": "Read with suspenseful, brave, watchful, and child-safe; keep the tiger cunning, hungry, and deceptive without horror; keep pauses clear and musical. short, crisp reveal",
+        "childInteraction": "Tap the moonlit paw."
+      },
+      "imagePrompt": "Tiger paw pushed through door gap in moonlight, striped paw not graphic, children wide-eyed but brave, cunning deception exposed, child-safe tension Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with startled certainty; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: short, crisp reveal",
+      "animation": {
+        "type": "moonGlow",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_009/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_009/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_009/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_009/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "moonGlow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_009/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_009/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/sun-and-moon/page-009.png",
+      "imageSource": "assets/books/sun-and-moon/page-009.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/sun-and-moon/ko/page-009.wav",
+      "ambientAudio": "audio/books/sun-and-moon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "sun_moon_010",
+      "pageNumber": 10,
+      "text": {
+        "enLittle": "The tiger pulled the paw back.",
+        "enStandard": "The tiger pulled the paw back. “My hand is cold from market,” he crooned. The sister pointed to the floor. A striped tail was curling under the door.",
+        "koLittle": "호랑이는 발을 얼른 감췄어요.",
+        "koStandard": "호랑이는 발을 얼른 감췄어요. “장에 다녀와 손이 얼었단다.” 그가 달콤하게 꾸몄지요. 누나는 바닥을 가리켰어요. 문 아래로 줄무늬 꼬리가 말려 들어오고 있었거든요."
+      },
+      "koreanText": "호랑이는 발을 얼른 감췄어요. “장에 다녀와 손이 얼었단다.” 그가 달콤하게 꾸몄지요. 누나는 바닥을 가리켰어요. 문 아래로 줄무늬 꼬리가 말려 들어오고 있었거든요.",
+      "englishText": "The tiger pulled the paw back. “My hand is cold from market,” he crooned. The sister pointed to the floor. A striped tail was curling under the door.",
+      "narrationScript": "호랑이는 발을 얼른 감췄어요. “장에 다녀와 손이 얼었단다.” 그가 달콤하게 꾸몄지요. 누나는 바닥을 가리켰어요. 문 아래로 줄무늬 꼬리가 말려 들어오고 있었거든요.",
+      "vocabulary": [
+        {
+          "ko": "꼬리",
+          "en": "tail",
+          "romanization": "kkori",
+          "definitionEn": "The long back part of an animal.",
+          "definitionKo": "동물 몸 뒤에 길게 난 부분이에요."
+        },
+        {
+          "ko": "장날",
+          "en": "market day",
+          "romanization": "jangnal",
+          "definitionEn": "A day when people gather to buy and sell food and goods.",
+          "definitionKo": "사람들이 물건을 사고파는 장이 서는 날이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "suspense",
+        "emotion": "clever noticing",
+        "pageTurnHook": "A second clue appears. The door test grows stranger, and the children must choose what to trust.",
+        "readAloudCue": "Read with suspenseful, brave, watchful, and child-safe; keep the tiger cunning, hungry, and deceptive without horror; keep pauses clear and musical. make the excuse too sweet",
+        "childInteraction": "Tap the stripe at the floor."
+      },
+      "imagePrompt": "Door threshold close-up with striped tiger tail curling under, children noticing, tiger pretending outside, unsettling but not scary, no teeth, no claws emphasis Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with clever noticing; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: make the excuse too sweet",
+      "animation": {
+        "type": "tailSwish",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_010/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_010/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_010/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_010/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "tailSwish",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_010/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_010/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/sun-and-moon/page-010.png",
+      "imageSource": "assets/books/sun-and-moon/page-010.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/sun-and-moon/ko/page-010.wav",
+      "ambientAudio": "audio/books/sun-and-moon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "sun_moon_011",
+      "pageNumber": 11,
+      "text": {
+        "enLittle": "The knock grew louder.",
+        "enStandard": "The knock grew louder. Tap. Tap. TAP. The shadow outside lifted its head, and the children saw ears that did not belong to Mother.",
+        "koLittle": "문소리가 더 커졌어요.",
+        "koStandard": "문소리가 더 커졌어요. 톡. 톡. 쿵. 밖의 그림자가 고개를 들자, 아이들은 엄마에게 있을 리 없는 귀를 보았어요."
+      },
+      "koreanText": "문소리가 더 커졌어요. 톡. 톡. 쿵. 밖의 그림자가 고개를 들자, 아이들은 엄마에게 있을 리 없는 귀를 보았어요.",
+      "englishText": "The knock grew louder. Tap. Tap. TAP. The shadow outside lifted its head, and the children saw ears that did not belong to Mother.",
+      "narrationScript": "문소리가 더 커졌어요. 톡. 톡. 쿵. 밖의 그림자가 고개를 들자, 아이들은 엄마에게 있을 리 없는 귀를 보았어요.",
+      "vocabulary": [
+        {
+          "ko": "그림자",
+          "en": "shadow",
+          "romanization": "geurimja",
+          "definitionEn": "The dark shape made when light is blocked.",
+          "definitionKo": "빛이 가려져 생기는 어두운 모양이에요."
+        },
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "danger",
+        "emotion": "rising fear",
+        "pageTurnHook": "The disguise is almost gone. The door test grows stranger, and the children must choose what to trust.",
+        "readAloudCue": "Read with suspenseful, brave, watchful, and child-safe; keep the tiger cunning, hungry, and deceptive without horror; keep pauses clear and musical. build volume across the knocks",
+        "childInteraction": "Tap the shadow ears."
+      },
+      "imagePrompt": "Unsettling door shadow of cunning hungry tiger, pointed ears and angular adult tiger face silhouette, children backing away carefully, child-safe suspense, mature restrained antagonist presence Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with rising fear; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: build volume across the knocks",
+      "animation": {
+        "type": "nightLanternLoop",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_011/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_011/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_011/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_011/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "nightLanternLoop",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_011/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_011/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/sun-and-moon/page-011.png",
+      "imageSource": "assets/books/sun-and-moon/page-011.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/sun-and-moon/ko/page-011.wav",
+      "ambientAudio": "audio/books/sun-and-moon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "sun_moon_012",
+      "pageNumber": 12,
+      "text": {
+        "enLittle": "The older sister took her brother’s hand.",
+        "enStandard": "The older sister took her brother’s hand. “To the back window,” she breathed. “Quiet feet. Brave hearts.”",
+        "koLittle": "누나는 동생의 손을 꼭 잡았어요.",
+        "koStandard": "누나는 동생의 손을 꼭 잡았어요. “뒤 창문으로 가자.” 누나가 숨소리만큼 작게 말했어요. “발은 조용히, 마음은 씩씩하게.”"
+      },
+      "koreanText": "누나는 동생의 손을 꼭 잡았어요. “뒤 창문으로 가자.” 누나가 숨소리만큼 작게 말했어요. “발은 조용히, 마음은 씩씩하게.”",
+      "englishText": "The older sister took her brother’s hand. “To the back window,” she breathed. “Quiet feet. Brave hearts.”",
+      "narrationScript": "누나는 동생의 손을 꼭 잡았어요. “뒤 창문으로 가자.” 누나가 숨소리만큼 작게 말했어요. “발은 조용히, 마음은 씩씩하게.”",
+      "refrain": "Quiet feet. Brave hearts.",
+      "vocabulary": [
+        {
+          "ko": "오누이",
+          "en": "brother and sister",
+          "romanization": "onui",
+          "definitionEn": "A brother and sister together.",
+          "definitionKo": "남매나 누나와 남동생처럼 함께 있는 형제자매예요."
+        },
+        {
+          "ko": "한복",
+          "en": "hanbok",
+          "romanization": "hanbok",
+          "definitionEn": "Traditional Korean clothing with soft lines and bright sashes.",
+          "definitionKo": "한국의 전통 옷이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "decision",
+        "emotion": "brave focus",
+        "pageTurnHook": "The children choose escape. The door test grows stranger, and the children must choose what to trust.",
+        "readAloudCue": "Read with suspenseful, brave, watchful, and child-safe; keep the tiger cunning, hungry, and deceptive without horror; keep pauses clear and musical. hushed but steady",
+        "childInteraction": "Drag a path to the window."
+      },
+      "imagePrompt": "Children holding hands moving toward back paper window, warm lantern dimmed, door behind them, brave sibling agency, Korean cottage interior Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark. Preserve the tiger as a cunning, hungry, watchful, deceptive folktale antagonist using posture, eyes, door shadows, and framing; keep the design mature, restrained, and unsettling.",
+      "audioPrompt": "English-first warm professional picture-book narration with brave focus; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: hushed but steady",
+      "animation": {
+        "type": "windowGlow",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_012/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_012/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_012/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_012/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "windowGlow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_012/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_012/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/sun-and-moon/page-012.png",
+      "imageSource": "assets/books/sun-and-moon/page-012.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/sun-and-moon/ko/page-012.wav",
+      "ambientAudio": "audio/books/sun-and-moon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "sun_moon_013",
+      "pageNumber": 13,
+      "text": {
+        "enLittle": "Outside stood the persimmon tree, dark and tall.",
+        "enStandard": "Outside stood the persimmon tree, dark and tall. The sister climbed first, then reached down. “Step where I step,” she said.",
+        "koLittle": "밖에는 감나무가 어둡고 높게 서 있었어요.",
+        "koStandard": "밖에는 감나무가 어둡고 높게 서 있었어요. 누나가 먼저 올라가 손을 내밀었어요. “내가 딛는 곳만 밟아.” 누나가 말했지요."
+      },
+      "koreanText": "밖에는 감나무가 어둡고 높게 서 있었어요. 누나가 먼저 올라가 손을 내밀었어요. “내가 딛는 곳만 밟아.” 누나가 말했지요.",
+      "englishText": "Outside stood the persimmon tree, dark and tall. The sister climbed first, then reached down. “Step where I step,” she said.",
+      "narrationScript": "밖에는 감나무가 어둡고 높게 서 있었어요. 누나가 먼저 올라가 손을 내밀었어요. “내가 딛는 곳만 밟아.” 누나가 말했지요.",
+      "vocabulary": [
+        {
+          "ko": "감나무",
+          "en": "persimmon tree",
+          "romanization": "gamnamu",
+          "definitionEn": "A tree that grows orange persimmons.",
+          "definitionKo": "주황빛 감이 열리는 나무예요."
+        },
+        {
+          "ko": "오누이",
+          "en": "brother and sister",
+          "romanization": "onui",
+          "definitionEn": "A brother and sister together.",
+          "definitionKo": "남매나 누나와 남동생처럼 함께 있는 형제자매예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "escape",
+        "emotion": "careful bravery",
+        "pageTurnHook": "The children climb into the night. The escape rises higher, but the tiger has not given up.",
+        "readAloudCue": "Read with suspenseful, brave, watchful, and child-safe; keep the tiger cunning, hungry, and deceptive without horror; keep pauses clear and musical. gentle urgency",
+        "childInteraction": "Tap each branch to light the path."
+      },
+      "imagePrompt": "Children climbing persimmon tree behind cottage under moonlight, sister helping brother, tiger shadow near house corner, child-safe escape Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with careful bravery; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: gentle urgency",
+      "animation": {
+        "type": "branchSway",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_013/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_013/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_013/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_013/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "branchSway",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_013/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_013/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/sun-and-moon/page-013.png",
+      "imageSource": "assets/books/sun-and-moon/page-013.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/sun-and-moon/ko/page-013.wav",
+      "ambientAudio": "audio/books/sun-and-moon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "sun_moon_014",
+      "pageNumber": 14,
+      "text": {
+        "enLittle": "The tiger burst into the yard and looked up.",
+        "enStandard": "The tiger burst into the yard and looked up. His gentle voice was gone. “Come down,” he growled, “and bring the rice cakes too.”",
+        "koLittle": "호랑이가 마당으로 뛰어나와 위를 올려다보았어요.",
+        "koStandard": "호랑이가 마당으로 뛰어나와 위를 올려다보았어요. 다정한 목소리는 사라졌지요. “내려오너라.” 그가 으르렁댔어요. “떡도 함께 가져오고.”"
+      },
+      "koreanText": "호랑이가 마당으로 뛰어나와 위를 올려다보았어요. 다정한 목소리는 사라졌지요. “내려오너라.” 그가 으르렁댔어요. “떡도 함께 가져오고.”",
+      "englishText": "The tiger burst into the yard and looked up. His gentle voice was gone. “Come down,” he growled, “and bring the rice cakes too.”",
+      "narrationScript": "호랑이가 마당으로 뛰어나와 위를 올려다보았어요. 다정한 목소리는 사라졌지요. “내려오너라.” 그가 으르렁댔어요. “떡도 함께 가져오고.”",
+      "vocabulary": [
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        },
+        {
+          "ko": "떡",
+          "en": "rice cake",
+          "romanization": "tteok",
+          "definitionEn": "A soft Korean rice cake often shared at celebrations or markets.",
+          "definitionKo": "쌀로 만든 말랑한 한국 음식이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "threat",
+        "emotion": "safe danger",
+        "pageTurnHook": "The tiger shows his true voice. The escape rises higher, but the tiger has not given up.",
+        "readAloudCue": "Read with suspenseful, brave, watchful, and child-safe; keep the tiger cunning, hungry, and deceptive without horror; keep pauses clear and musical. deeper tiger voice, no shouting",
+        "childInteraction": "Tap the high branch away from the tiger."
+      },
+      "imagePrompt": "Tiger below persimmon tree looking up, hungry watchful adult face, threatening posture but no gore, children high in tree, moonlight shadows, mature antagonist presence Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with safe danger; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: deeper tiger voice, no shouting",
+      "animation": {
+        "type": "proudTiger",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_014/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_014/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_014/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_014/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "proudTiger",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_014/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_014/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/sun-and-moon/page-014.png",
+      "imageSource": "assets/books/sun-and-moon/page-014.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/sun-and-moon/ko/page-014.wav",
+      "ambientAudio": "audio/books/sun-and-moon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "sun_moon_015",
+      "pageNumber": 15,
+      "text": {
+        "enLittle": "The younger brother trembled.",
+        "enStandard": "The younger brother trembled. His sister squeezed his hand three times. Once for courage, once for quiet, once for stay with me.",
+        "koLittle": "동생의 손이 떨렸어요.",
+        "koStandard": "동생의 손이 떨렸어요. 누나는 그 손을 세 번 꼭 쥐었어요. 한 번은 용기, 한 번은 조용히, 한 번은 나랑 함께 있어."
+      },
+      "koreanText": "동생의 손이 떨렸어요. 누나는 그 손을 세 번 꼭 쥐었어요. 한 번은 용기, 한 번은 조용히, 한 번은 나랑 함께 있어.",
+      "englishText": "The younger brother trembled. His sister squeezed his hand three times. Once for courage, once for quiet, once for stay with me.",
+      "narrationScript": "동생의 손이 떨렸어요. 누나는 그 손을 세 번 꼭 쥐었어요. 한 번은 용기, 한 번은 조용히, 한 번은 나랑 함께 있어.",
+      "refrain": "Quiet feet. Brave hearts.",
+      "vocabulary": [
+        {
+          "ko": "오누이",
+          "en": "brother and sister",
+          "romanization": "onui",
+          "definitionEn": "A brother and sister together.",
+          "definitionKo": "남매나 누나와 남동생처럼 함께 있는 형제자매예요."
+        },
+        {
+          "ko": "달",
+          "en": "moon",
+          "romanization": "dal",
+          "definitionEn": "The soft light in the night sky.",
+          "definitionKo": "밤하늘에 뜨는 부드러운 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "emotional bond",
+        "emotion": "tender fear",
+        "pageTurnHook": "The siblings steady each other. The escape rises higher, but the tiger has not given up.",
+        "readAloudCue": "Read with suspenseful, brave, watchful, and child-safe; keep the tiger cunning, hungry, and deceptive without horror; keep pauses clear and musical. slow and intimate",
+        "childInteraction": "Tap the clasped hands."
+      },
+      "imagePrompt": "Close view of siblings in tree holding hands, moonlight on faces, tiger blurred below, emotional courage, Korean picture book tenderness Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with tender fear; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: slow and intimate",
+      "animation": {
+        "type": "heartLight",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_015/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_015/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_015/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_015/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "heartLight",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_015/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_015/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/sun-and-moon/page-015.png",
+      "imageSource": "assets/books/sun-and-moon/page-015.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/sun-and-moon/ko/page-015.wav",
+      "ambientAudio": "audio/books/sun-and-moon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "sun_moon_016",
+      "pageNumber": 16,
+      "text": {
+        "enLittle": "The tiger began to climb.",
+        "enStandard": "The tiger began to climb. Bark scratched. Leaves shook. His eyes shone between the branches, hungry and clever, but the children looked higher than fear.",
+        "koLittle": "호랑이가 나무를 오르기 시작했어요.",
+        "koStandard": "호랑이가 나무를 오르기 시작했어요. 나무껍질이 긁히고 잎이 흔들렸지요. 가지 사이로 배고프고 영악한 눈이 번쩍였지만, 아이들은 두려움보다 더 높은 곳을 바라보았어요."
+      },
+      "koreanText": "호랑이가 나무를 오르기 시작했어요. 나무껍질이 긁히고 잎이 흔들렸지요. 가지 사이로 배고프고 영악한 눈이 번쩍였지만, 아이들은 두려움보다 더 높은 곳을 바라보았어요.",
+      "englishText": "The tiger began to climb. Bark scratched. Leaves shook. His eyes shone between the branches, hungry and clever, but the children looked higher than fear.",
+      "narrationScript": "호랑이가 나무를 오르기 시작했어요. 나무껍질이 긁히고 잎이 흔들렸지요. 가지 사이로 배고프고 영악한 눈이 번쩍였지만, 아이들은 두려움보다 더 높은 곳을 바라보았어요.",
+      "vocabulary": [
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        },
+        {
+          "ko": "소나무",
+          "en": "pine tree",
+          "romanization": "sonamu",
+          "definitionEn": "An evergreen tree common in Korean mountain stories.",
+          "definitionKo": "사철 푸른 잎을 가진 나무예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "danger",
+        "emotion": "urgent suspense",
+        "pageTurnHook": "The tiger is climbing. The escape rises higher, but the tiger has not given up.",
+        "readAloudCue": "Read with suspenseful, brave, watchful, and child-safe; keep the tiger cunning, hungry, and deceptive without horror; keep pauses clear and musical. faster, breath-held",
+        "childInteraction": "Swipe upward toward the moon."
+      },
+      "imagePrompt": "Cunning dangerous tiger climbing tree with adult angular face and watchful eyes, children looking toward sky, dramatic moonlit branches, child-safe no claws/teeth emphasis Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark. Preserve the tiger as a cunning, hungry, watchful, deceptive folktale antagonist using posture, eyes, door shadows, and framing; keep the design mature, restrained, and unsettling.",
+      "audioPrompt": "English-first warm professional picture-book narration with urgent suspense; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: faster, breath-held",
+      "animation": {
+        "type": "tailSwish",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_016/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_016/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_016/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_016/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "tailSwish",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_016/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_016/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/sun-and-moon/page-016.png",
+      "imageSource": "assets/books/sun-and-moon/page-016.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/sun-and-moon/ko/page-016.wav",
+      "ambientAudio": "audio/books/sun-and-moon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "sun_moon_017",
+      "pageNumber": 17,
+      "text": {
+        "enLittle": "“Sky above, hear us,” whispered the sister.",
+        "enStandard": "“Sky above, hear us,” whispered the sister. “Send a rope as silver as moonlight, if our promise was true.”",
+        "koLittle": "“하늘님, 우리 말을 들어 주세요.” 누나가 속삭였어요.",
+        "koStandard": "“하늘님, 우리 말을 들어 주세요.” 누나가 속삭였어요. “우리 약속이 진짜였다면, 달빛 같은 동아줄을 내려 주세요.”"
+      },
+      "koreanText": "“하늘님, 우리 말을 들어 주세요.” 누나가 속삭였어요. “우리 약속이 진짜였다면, 달빛 같은 동아줄을 내려 주세요.”",
+      "englishText": "“Sky above, hear us,” whispered the sister. “Send a rope as silver as moonlight, if our promise was true.”",
+      "narrationScript": "“하늘님, 우리 말을 들어 주세요.” 누나가 속삭였어요. “우리 약속이 진짜였다면, 달빛 같은 동아줄을 내려 주세요.”",
+      "vocabulary": [
+        {
+          "ko": "달빛",
+          "en": "moonlight",
+          "romanization": "dalbit",
+          "definitionEn": "The soft light that shines from the moon.",
+          "definitionKo": "달에서 내려오는 부드러운 빛이에요."
+        },
+        {
+          "ko": "동아줄",
+          "en": "rope",
+          "romanization": "dongajul",
+          "definitionEn": "A thick rope from old Korean stories.",
+          "definitionKo": "옛이야기에 나오는 굵은 줄이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "wonder",
+        "emotion": "hope in fear",
+        "pageTurnHook": "A prayer rises into the sky. The escape rises higher, but the tiger has not given up.",
+        "readAloudCue": "Read with suspenseful, brave, watchful, and child-safe; keep the tiger cunning, hungry, and deceptive without horror; keep pauses clear and musical. reverent whisper",
+        "childInteraction": "Tap the moon to call the rope."
+      },
+      "imagePrompt": "Children praying from top of tree, moon bright, silver rope beginning to descend, tiger lower in branches, magical Korean folktale moment Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with hope in fear; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: reverent whisper",
+      "animation": {
+        "type": "moonbeamRope",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_017/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_017/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_017/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_017/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "moonbeamRope",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_017/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_017/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/sun-and-moon/page-017.png",
+      "imageSource": "assets/books/sun-and-moon/page-017.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/sun-and-moon/ko/page-017.wav",
+      "ambientAudio": "audio/books/sun-and-moon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "sun_moon_018",
+      "pageNumber": 18,
+      "text": {
+        "enLittle": "Down came a silver rope, soft as light and strong as a promise.",
+        "enStandard": "Down came a silver rope, soft as light and strong as a promise. The children climbed, hand over hand, into the moon-bright sky.",
+        "koLittle": "달빛처럼 부드럽고 약속처럼 튼튼한 은빛 동아줄이 내려왔어요.",
+        "koStandard": "달빛처럼 부드럽고 약속처럼 튼튼한 은빛 동아줄이 내려왔어요. 오누이는 손에 손을 이어 밝은 밤하늘로 올라갔지요."
+      },
+      "koreanText": "달빛처럼 부드럽고 약속처럼 튼튼한 은빛 동아줄이 내려왔어요. 오누이는 손에 손을 이어 밝은 밤하늘로 올라갔지요.",
+      "englishText": "Down came a silver rope, soft as light and strong as a promise. The children climbed, hand over hand, into the moon-bright sky.",
+      "narrationScript": "달빛처럼 부드럽고 약속처럼 튼튼한 은빛 동아줄이 내려왔어요. 오누이는 손에 손을 이어 밝은 밤하늘로 올라갔지요.",
+      "vocabulary": [
+        {
+          "ko": "동아줄",
+          "en": "rope",
+          "romanization": "dongajul",
+          "definitionEn": "A thick rope from old Korean stories.",
+          "definitionKo": "옛이야기에 나오는 굵은 줄이에요."
+        },
+        {
+          "ko": "달빛",
+          "en": "moonlight",
+          "romanization": "dalbit",
+          "definitionEn": "The soft light that shines from the moon.",
+          "definitionKo": "달에서 내려오는 부드러운 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "wonder",
+        "emotion": "release",
+        "pageTurnHook": "The children rise out of danger. The escape rises higher, but the tiger has not given up.",
+        "readAloudCue": "Read with suspenseful, brave, watchful, and child-safe; keep the tiger cunning, hungry, and deceptive without horror; keep pauses clear and musical. awe-filled, spacious",
+        "childInteraction": "Drag the rope upward."
+      },
+      "imagePrompt": "Silver moonbeam rope lifting siblings safely from tree into sky, tiger reaching below but distant, celestial glow, child-safe magical escape Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with release; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: awe-filled, spacious",
+      "animation": {
+        "type": "ascendingLoop",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_018/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_018/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_018/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_018/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "ascendingLoop",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_018/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_018/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/sun-and-moon/page-018.png",
+      "imageSource": "assets/books/sun-and-moon/page-018.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/sun-and-moon/ko/page-018.wav",
+      "ambientAudio": "audio/books/sun-and-moon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "sun_moon_019",
+      "pageNumber": 19,
+      "text": {
+        "enLittle": "The tiger looked up and tried to sound sorry.",
+        "enStandard": "The tiger looked up and tried to sound sorry. “Dear sky,” he called, “send me a rope too.” But even the moon seemed to know his voice.",
+        "koLittle": "호랑이는 위를 보고 미안한 척 말했어요.",
+        "koStandard": "호랑이는 위를 보고 미안한 척 말했어요. “하늘님, 저에게도 줄을 내려 주시오.” 하지만 달도 그의 목소리를 알아들은 듯했어요."
+      },
+      "koreanText": "호랑이는 위를 보고 미안한 척 말했어요. “하늘님, 저에게도 줄을 내려 주시오.” 하지만 달도 그의 목소리를 알아들은 듯했어요.",
+      "englishText": "The tiger looked up and tried to sound sorry. “Dear sky,” he called, “send me a rope too.” But even the moon seemed to know his voice.",
+      "narrationScript": "호랑이는 위를 보고 미안한 척 말했어요. “하늘님, 저에게도 줄을 내려 주시오.” 하지만 달도 그의 목소리를 알아들은 듯했어요.",
+      "vocabulary": [
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        },
+        {
+          "ko": "달",
+          "en": "moon",
+          "romanization": "dal",
+          "definitionEn": "The soft light in the night sky.",
+          "definitionKo": "밤하늘에 뜨는 부드러운 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "comic tension",
+        "emotion": "uneasy anticipation",
+        "pageTurnHook": "The tiger asks for his own rope. The village response turns fear into safety without showing harm.",
+        "readAloudCue": "Read with suspenseful, brave, watchful, and child-safe; keep the tiger cunning, hungry, and deceptive without horror; keep pauses clear and musical. make fake politeness obvious",
+        "childInteraction": "Tap the tiger’s false smile."
+      },
+      "imagePrompt": "Tiger below tree pretending gentle, eyes still cunning, moonlight judging, restrained antagonist expression, child-safe tension Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with uneasy anticipation; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: make fake politeness obvious",
+      "animation": {
+        "type": "imaginationShadow",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_019/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_019/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_019/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_019/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "imaginationShadow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_019/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_019/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/sun-and-moon/page-019.png",
+      "imageSource": "assets/books/sun-and-moon/page-019.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/sun-and-moon/ko/page-019.wav",
+      "ambientAudio": "audio/books/sun-and-moon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "sun_moon_020",
+      "pageNumber": 20,
+      "text": {
+        "enLittle": "A straw rope dropped into his paws.",
+        "enStandard": "A straw rope dropped into his paws. It looked strong in the dark, but straw remembers the field, not the sky.",
+        "koLittle": "새끼줄 하나가 호랑이 발 앞으로 내려왔어요.",
+        "koStandard": "새끼줄 하나가 호랑이 발 앞으로 내려왔어요. 어둠 속에서는 튼튼해 보였지만, 짚은 하늘이 아니라 들판을 기억하는 법이지요."
+      },
+      "koreanText": "새끼줄 하나가 호랑이 발 앞으로 내려왔어요. 어둠 속에서는 튼튼해 보였지만, 짚은 하늘이 아니라 들판을 기억하는 법이지요.",
+      "englishText": "A straw rope dropped into his paws. It looked strong in the dark, but straw remembers the field, not the sky.",
+      "narrationScript": "새끼줄 하나가 호랑이 발 앞으로 내려왔어요. 어둠 속에서는 튼튼해 보였지만, 짚은 하늘이 아니라 들판을 기억하는 법이지요.",
+      "vocabulary": [
+        {
+          "ko": "새끼줄",
+          "en": "straw rope",
+          "romanization": "saekkijul",
+          "definitionEn": "A rope twisted from dry straw.",
+          "definitionKo": "마른 짚을 꼬아 만든 줄이에요."
+        },
+        {
+          "ko": "발",
+          "en": "paw",
+          "romanization": "bal",
+          "definitionEn": "An animal foot.",
+          "definitionKo": "동물의 발이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "foreshadow",
+        "emotion": "quiet warning",
+        "pageTurnHook": "The rope may not hold. The village response turns fear into safety without showing harm.",
+        "readAloudCue": "Read with suspenseful, brave, watchful, and child-safe; keep the tiger cunning, hungry, and deceptive without horror; keep pauses clear and musical. slow, knowing narrator voice",
+        "childInteraction": "Tap the straw fibers."
+      },
+      "imagePrompt": "Straw rope descending to tiger paws, close-up of fraying straw, tiger suspicious but greedy, night forest, child-safe Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark. Preserve the tiger as a cunning, hungry, watchful, deceptive folktale antagonist using posture, eyes, door shadows, and framing; keep the design mature, restrained, and unsettling.",
+      "audioPrompt": "English-first warm professional picture-book narration with quiet warning; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: slow, knowing narrator voice",
+      "animation": {
+        "type": "strawFray",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_020/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_020/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_020/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_020/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "strawFray",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_020/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_020/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/sun-and-moon/page-020.png",
+      "imageSource": "assets/books/sun-and-moon/page-020.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/sun-and-moon/ko/page-020.wav",
+      "ambientAudio": "audio/books/sun-and-moon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "sun_moon_021",
+      "pageNumber": 21,
+      "text": {
+        "enLittle": "The tiger climbed and climbed.",
+        "enStandard": "The tiger climbed and climbed. Halfway up, the straw whispered, ssuk, ssuk, ssuk. Then it frayed like dry grass.",
+        "koLittle": "호랑이는 오르고 또 올랐어요.",
+        "koStandard": "호랑이는 오르고 또 올랐어요. 중간쯤에서 새끼줄이 스윽, 스윽, 스윽 속삭였어요. 그러더니 마른 풀처럼 풀리기 시작했지요."
+      },
+      "koreanText": "호랑이는 오르고 또 올랐어요. 중간쯤에서 새끼줄이 스윽, 스윽, 스윽 속삭였어요. 그러더니 마른 풀처럼 풀리기 시작했지요.",
+      "englishText": "The tiger climbed and climbed. Halfway up, the straw whispered, ssuk, ssuk, ssuk. Then it frayed like dry grass.",
+      "narrationScript": "호랑이는 오르고 또 올랐어요. 중간쯤에서 새끼줄이 스윽, 스윽, 스윽 속삭였어요. 그러더니 마른 풀처럼 풀리기 시작했지요.",
+      "vocabulary": [
+        {
+          "ko": "새끼줄",
+          "en": "straw rope",
+          "romanization": "saekkijul",
+          "definitionEn": "A rope twisted from dry straw.",
+          "definitionKo": "마른 짚을 꼬아 만든 줄이에요."
+        },
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "suspense",
+        "emotion": "safe alarm",
+        "pageTurnHook": "The straw rope starts to fail. The village response turns fear into safety without showing harm.",
+        "readAloudCue": "Read with suspenseful, brave, watchful, and child-safe; keep the tiger cunning, hungry, and deceptive without horror; keep pauses clear and musical. use soft sound effects",
+        "childInteraction": "Rub the rope to hear it fray."
+      },
+      "imagePrompt": "Tiger on straw rope midair, rope fraying, expression alarmed yet mature, children safely above, no graphic fall, dreamy folktale sky Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark. Preserve the tiger as a cunning, hungry, watchful, deceptive folktale antagonist using posture, eyes, door shadows, and framing; keep the design mature, restrained, and unsettling.",
+      "audioPrompt": "English-first warm professional picture-book narration with safe alarm; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: use soft sound effects",
+      "animation": {
+        "type": "strawFray",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_021/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_021/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_021/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_021/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "strawFray",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_021/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_021/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/sun-and-moon/page-021.png",
+      "imageSource": "assets/books/sun-and-moon/page-021.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/sun-and-moon/ko/page-021.wav",
+      "ambientAudio": "audio/books/sun-and-moon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "sun_moon_022",
+      "pageNumber": 22,
+      "text": {
+        "enLittle": "With a thump softer than a drum, the tiger landed in a deep pile of pine needles.",
+        "enStandard": "With a thump softer than a drum, the tiger landed in a deep pile of pine needles. He sneezed once, twice, and forgot all his clever words.",
+        "koLittle": "둥, 하고 북보다 부드럽게 호랑이는 두꺼운 솔잎 더미 위에 떨어졌어요.",
+        "koStandard": "둥, 하고 북보다 부드럽게 호랑이는 두꺼운 솔잎 더미 위에 떨어졌어요. 재채기를 한 번, 두 번 하더니, 그 많던 꾀 많은 말도 모두 잊어버렸지요."
+      },
+      "koreanText": "둥, 하고 북보다 부드럽게 호랑이는 두꺼운 솔잎 더미 위에 떨어졌어요. 재채기를 한 번, 두 번 하더니, 그 많던 꾀 많은 말도 모두 잊어버렸지요.",
+      "englishText": "With a thump softer than a drum, the tiger landed in a deep pile of pine needles. He sneezed once, twice, and forgot all his clever words.",
+      "narrationScript": "둥, 하고 북보다 부드럽게 호랑이는 두꺼운 솔잎 더미 위에 떨어졌어요. 재채기를 한 번, 두 번 하더니, 그 많던 꾀 많은 말도 모두 잊어버렸지요.",
+      "vocabulary": [
+        {
+          "ko": "소나무",
+          "en": "pine tree",
+          "romanization": "sonamu",
+          "definitionEn": "An evergreen tree common in Korean mountain stories.",
+          "definitionKo": "사철 푸른 잎을 가진 나무예요."
+        },
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "relief",
+        "emotion": "comic safety",
+        "pageTurnHook": "The tiger is stopped without harm. The village response turns fear into safety without showing harm.",
+        "readAloudCue": "Read with suspenseful, brave, watchful, and child-safe; keep the tiger cunning, hungry, and deceptive without horror; keep pauses clear and musical. relieved comic bounce",
+        "childInteraction": "Tap the pine needles."
+      },
+      "imagePrompt": "Tiger landing safely in pile of pine needles, comic sneeze, no injury, no gore, villagers lights in distance, child-safe resolution Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with comic safety; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: relieved comic bounce",
+      "animation": {
+        "type": "comicWobble",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_022/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_022/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_022/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_022/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "comicWobble",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_022/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_022/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/sun-and-moon/page-022.png",
+      "imageSource": "assets/books/sun-and-moon/page-022.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/sun-and-moon/ko/page-022.wav",
+      "ambientAudio": "audio/books/sun-and-moon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "sun_moon_023",
+      "pageNumber": 23,
+      "text": {
+        "enLittle": "Mother came running with village lanterns bobbing behind her.",
+        "enStandard": "Mother came running with village lanterns bobbing behind her. She had followed the broken scarf, the paw prints, and the brave little trail her children left.",
+        "koLittle": "어머니가 마을 사람들의 등불과 함께 달려왔어요.",
+        "koStandard": "어머니가 마을 사람들의 등불과 함께 달려왔어요. 떨어진 수건, 발자국, 그리고 아이들이 남긴 작은 용기의 길을 따라온 거예요."
+      },
+      "koreanText": "어머니가 마을 사람들의 등불과 함께 달려왔어요. 떨어진 수건, 발자국, 그리고 아이들이 남긴 작은 용기의 길을 따라온 거예요.",
+      "englishText": "Mother came running with village lanterns bobbing behind her. She had followed the broken scarf, the paw prints, and the brave little trail her children left.",
+      "narrationScript": "어머니가 마을 사람들의 등불과 함께 달려왔어요. 떨어진 수건, 발자국, 그리고 아이들이 남긴 작은 용기의 길을 따라온 거예요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤길을 밝히는 따뜻한 불빛이에요."
+        },
+        {
+          "ko": "수건",
+          "en": "cloth scarf",
+          "romanization": "sugeon",
+          "definitionEn": "A cloth used for wrapping, carrying, or covering.",
+          "definitionKo": "물건을 싸거나 몸에 두르는 천이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "reunion",
+        "emotion": "relief",
+        "pageTurnHook": "Mother has found the trail. The village response turns fear into safety without showing harm.",
+        "readAloudCue": "Read with suspenseful, brave, watchful, and child-safe; keep the tiger cunning, hungry, and deceptive without horror; keep pauses clear and musical. warm relief after suspense",
+        "childInteraction": "Tap the lanterns one by one."
+      },
+      "imagePrompt": "Mother and villagers with lanterns at night, following tracks and scarf, warm community rescue, tiger in distance retreating Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with relief; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: warm relief after suspense",
+      "animation": {
+        "type": "lanternProcession",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_023/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_023/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_023/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_023/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "lanternProcession",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_023/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_023/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/sun-and-moon/page-023.png",
+      "imageSource": "assets/books/sun-and-moon/page-023.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/sun-and-moon/ko/page-023.wav",
+      "ambientAudio": "audio/books/sun-and-moon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "sun_moon_024",
+      "pageNumber": 24,
+      "text": {
+        "enLittle": "The villagers rang brass bells and clapped wooden blocks.",
+        "enStandard": "The villagers rang brass bells and clapped wooden blocks. The tiger shook pine needles from his whiskers and ran so far that his stripes looked like shadows.",
+        "koLittle": "마을 사람들은 놋종을 울리고 나무토막을 딱딱 쳤어요.",
+        "koStandard": "마을 사람들은 놋종을 울리고 나무토막을 딱딱 쳤어요. 호랑이는 수염에 붙은 솔잎을 털며, 줄무늬가 그림자처럼 보일 만큼 멀리 달아났지요."
+      },
+      "koreanText": "마을 사람들은 놋종을 울리고 나무토막을 딱딱 쳤어요. 호랑이는 수염에 붙은 솔잎을 털며, 줄무늬가 그림자처럼 보일 만큼 멀리 달아났지요.",
+      "englishText": "The villagers rang brass bells and clapped wooden blocks. The tiger shook pine needles from his whiskers and ran so far that his stripes looked like shadows.",
+      "narrationScript": "마을 사람들은 놋종을 울리고 나무토막을 딱딱 쳤어요. 호랑이는 수염에 붙은 솔잎을 털며, 줄무늬가 그림자처럼 보일 만큼 멀리 달아났지요.",
+      "vocabulary": [
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful wild cat that appears often in Korean folktales.",
+          "definitionKo": "한국 옛이야기에 자주 나오는 힘센 동물이에요."
+        },
+        {
+          "ko": "그림자",
+          "en": "shadow",
+          "romanization": "geurimja",
+          "definitionEn": "The dark shape made when light is blocked.",
+          "definitionKo": "빛이 가려져 생기는 어두운 모양이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "community safety",
+        "emotion": "energetic relief",
+        "pageTurnHook": "The tiger leaves the village. The village response turns fear into safety without showing harm.",
+        "readAloudCue": "Read with suspenseful, brave, watchful, and child-safe; keep the tiger cunning, hungry, and deceptive without horror; keep pauses clear and musical. bright rhythmic claps",
+        "childInteraction": "Tap the bells for a safe chase sound."
+      },
+      "imagePrompt": "Villagers making protective noise with lanterns, tiger running away into pine shadows, child-safe no punishment, Korean village night Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with energetic relief; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: bright rhythmic claps",
+      "animation": {
+        "type": "runAway",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_024/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_024/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_024/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_024/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "runAway",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_024/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_024/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/sun-and-moon/page-024.png",
+      "imageSource": "assets/books/sun-and-moon/page-024.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/sun-and-moon/ko/page-024.wav",
+      "ambientAudio": "audio/books/sun-and-moon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "sun_moon_025",
+      "pageNumber": 25,
+      "text": {
+        "enLittle": "High above, the children held the silver rope and looked down.",
+        "enStandard": "High above, the children held the silver rope and looked down. The village looked tiny, but Mother’s lantern looked as big as love.",
+        "koLittle": "높은 하늘에서 오누이는 은빛 동아줄을 붙잡고 아래를 보았어요.",
+        "koStandard": "높은 하늘에서 오누이는 은빛 동아줄을 붙잡고 아래를 보았어요. 마을은 작아 보였지만, 어머니의 등불은 사랑만큼 크게 보였지요."
+      },
+      "koreanText": "높은 하늘에서 오누이는 은빛 동아줄을 붙잡고 아래를 보았어요. 마을은 작아 보였지만, 어머니의 등불은 사랑만큼 크게 보였지요.",
+      "englishText": "High above, the children held the silver rope and looked down. The village looked tiny, but Mother’s lantern looked as big as love.",
+      "narrationScript": "높은 하늘에서 오누이는 은빛 동아줄을 붙잡고 아래를 보았어요. 마을은 작아 보였지만, 어머니의 등불은 사랑만큼 크게 보였지요.",
+      "vocabulary": [
+        {
+          "ko": "동아줄",
+          "en": "rope",
+          "romanization": "dongajul",
+          "definitionEn": "A thick rope from old Korean stories.",
+          "definitionKo": "옛이야기에 나오는 굵은 줄이에요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤길을 밝히는 따뜻한 불빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "wonder",
+        "emotion": "longing warmth",
+        "pageTurnHook": "The children see home from the sky. The story changes from suspense into a reassuring family legend.",
+        "readAloudCue": "Read with suspenseful, brave, watchful, and child-safe; keep the tiger cunning, hungry, and deceptive without horror; keep pauses clear and musical. soft wonder",
+        "childInteraction": "Tap Mother’s lantern below."
+      },
+      "imagePrompt": "Children holding silver rope in night sky looking down at tiny Korean village, warm lantern below, moon ivory glow Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with longing warmth; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: soft wonder",
+      "animation": {
+        "type": "celestialGlow",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_025/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_025/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_025/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_025/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "celestialGlow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_025/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_025/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/sun-and-moon/page-025.png",
+      "imageSource": "assets/books/sun-and-moon/page-025.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/sun-and-moon/ko/page-025.wav",
+      "ambientAudio": "audio/books/sun-and-moon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "sun_moon_026",
+      "pageNumber": 26,
+      "text": {
+        "enLittle": "“May every child find a light home,” said the sister.",
+        "enStandard": "“May every child find a light home,” said the sister. “May every dark road remember morning,” said the brother.",
+        "koLittle": "“모든 아이가 집으로 가는 빛을 찾게 해 주세요.” 누나가 말했어요.",
+        "koStandard": "“모든 아이가 집으로 가는 빛을 찾게 해 주세요.” 누나가 말했어요. “모든 어두운 길이 아침을 기억하게 해 주세요.” 동생이 말했지요."
+      },
+      "koreanText": "“모든 아이가 집으로 가는 빛을 찾게 해 주세요.” 누나가 말했어요. “모든 어두운 길이 아침을 기억하게 해 주세요.” 동생이 말했지요.",
+      "englishText": "“May every child find a light home,” said the sister. “May every dark road remember morning,” said the brother.",
+      "narrationScript": "“모든 아이가 집으로 가는 빛을 찾게 해 주세요.” 누나가 말했어요. “모든 어두운 길이 아침을 기억하게 해 주세요.” 동생이 말했지요.",
+      "vocabulary": [
+        {
+          "ko": "해",
+          "en": "sun",
+          "romanization": "hae",
+          "definitionEn": "The bright light in the daytime sky.",
+          "definitionKo": "낮 하늘을 밝히는 빛이에요."
+        },
+        {
+          "ko": "달",
+          "en": "moon",
+          "romanization": "dal",
+          "definitionEn": "The soft light in the night sky.",
+          "definitionKo": "밤하늘에 뜨는 부드러운 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "blessing",
+        "emotion": "protective wonder",
+        "pageTurnHook": "Their courage becomes a wish. The story changes from suspense into a reassuring family legend.",
+        "readAloudCue": "Read with suspenseful, brave, watchful, and child-safe; keep the tiger cunning, hungry, and deceptive without horror; keep pauses clear and musical. prayer-like, luminous",
+        "childInteraction": "Tap the two stars beside them."
+      },
+      "imagePrompt": "Siblings in sky speaking wishes, soft stars, silver moon and hint of sunrise, mythic but reassuring Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with protective wonder; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: prayer-like, luminous",
+      "animation": {
+        "type": "celestialGlow",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_026/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_026/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_026/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_026/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "celestialGlow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_026/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_026/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/sun-and-moon/page-026.png",
+      "imageSource": "assets/books/sun-and-moon/page-026.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/sun-and-moon/ko/page-026.wav",
+      "ambientAudio": "audio/books/sun-and-moon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "sun_moon_027",
+      "pageNumber": 27,
+      "text": {
+        "enLittle": "The sky answered in two colors: silver for the watchful night, gold for the brave morning.",
+        "enStandard": "The sky answered in two colors: silver for the watchful night, gold for the brave morning. The children’s courage shone in both.",
+        "koLittle": "하늘은 두 가지 빛으로 대답했어요.",
+        "koStandard": "하늘은 두 가지 빛으로 대답했어요. 밤을 지키는 은빛, 아침을 여는 금빛. 오누이의 용기는 그 두 빛 속에서 반짝였지요."
+      },
+      "koreanText": "하늘은 두 가지 빛으로 대답했어요. 밤을 지키는 은빛, 아침을 여는 금빛. 오누이의 용기는 그 두 빛 속에서 반짝였지요.",
+      "englishText": "The sky answered in two colors: silver for the watchful night, gold for the brave morning. The children’s courage shone in both.",
+      "narrationScript": "하늘은 두 가지 빛으로 대답했어요. 밤을 지키는 은빛, 아침을 여는 금빛. 오누이의 용기는 그 두 빛 속에서 반짝였지요.",
+      "vocabulary": [
+        {
+          "ko": "달",
+          "en": "moon",
+          "romanization": "dal",
+          "definitionEn": "The soft light in the night sky.",
+          "definitionKo": "밤하늘에 뜨는 부드러운 빛이에요."
+        },
+        {
+          "ko": "해",
+          "en": "sun",
+          "romanization": "hae",
+          "definitionEn": "The bright light in the daytime sky.",
+          "definitionKo": "낮 하늘을 밝히는 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "mythic transformation",
+        "emotion": "awe",
+        "pageTurnHook": "The sky gives their courage a shape. The story changes from suspense into a reassuring family legend.",
+        "readAloudCue": "Read with suspenseful, brave, watchful, and child-safe; keep the tiger cunning, hungry, and deceptive without horror; keep pauses clear and musical. slow ceremonial cadence",
+        "childInteraction": "Tap silver, then gold."
+      },
+      "imagePrompt": "Mythic sky with silver moon and golden sun forming from children courage, abstract gentle celestial imagery, no permanent sadness Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with awe; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: slow ceremonial cadence",
+      "animation": {
+        "type": "dayNightBlend",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_027/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_027/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_027/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_027/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "dayNightBlend",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_027/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_027/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/sun-and-moon/page-027.png",
+      "imageSource": "assets/books/sun-and-moon/page-027.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/sun-and-moon/ko/page-027.wav",
+      "ambientAudio": "audio/books/sun-and-moon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "sun_moon_028",
+      "pageNumber": 28,
+      "text": {
+        "enLittle": "When the rooster called, the silver rope lowered the children into Mother’s arms.",
+        "enStandard": "When the rooster called, the silver rope lowered the children into Mother’s arms. The sun rose, and the moon faded softly, like a secret kept safe.",
+        "koLittle": "닭이 울자 은빛 동아줄은 아이들을 어머니 품으로 내려 주었어요.",
+        "koStandard": "닭이 울자 은빛 동아줄은 아이들을 어머니 품으로 내려 주었어요. 해가 떠오르고 달은 안전한 비밀처럼 조용히 옅어졌지요."
+      },
+      "koreanText": "닭이 울자 은빛 동아줄은 아이들을 어머니 품으로 내려 주었어요. 해가 떠오르고 달은 안전한 비밀처럼 조용히 옅어졌지요.",
+      "englishText": "When the rooster called, the silver rope lowered the children into Mother’s arms. The sun rose, and the moon faded softly, like a secret kept safe.",
+      "narrationScript": "닭이 울자 은빛 동아줄은 아이들을 어머니 품으로 내려 주었어요. 해가 떠오르고 달은 안전한 비밀처럼 조용히 옅어졌지요.",
+      "vocabulary": [
+        {
+          "ko": "동아줄",
+          "en": "rope",
+          "romanization": "dongajul",
+          "definitionEn": "A thick rope from old Korean stories.",
+          "definitionKo": "옛이야기에 나오는 굵은 줄이에요."
+        },
+        {
+          "ko": "해",
+          "en": "sun",
+          "romanization": "hae",
+          "definitionEn": "The bright light in the daytime sky.",
+          "definitionKo": "낮 하늘을 밝히는 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "reunion",
+        "emotion": "deep relief",
+        "pageTurnHook": "The children return safely. The story changes from suspense into a reassuring family legend.",
+        "readAloudCue": "Read with suspenseful, brave, watchful, and child-safe; keep the tiger cunning, hungry, and deceptive without horror; keep pauses clear and musical. warm and tearful but not sad",
+        "childInteraction": "Tap Mother’s arms."
+      },
+      "imagePrompt": "Dawn reunion, mother embracing siblings, silver rope fading into sky, sun rising, moon pale, Korean village courtyard Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with deep relief; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: warm and tearful but not sad",
+      "animation": {
+        "type": "reliefGlow",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_028/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_028/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_028/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_028/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "reliefGlow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_028/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_028/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/sun-and-moon/page-028.png",
+      "imageSource": "assets/books/sun-and-moon/page-028.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/sun-and-moon/ko/page-028.wav",
+      "ambientAudio": "audio/books/sun-and-moon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "sun_moon_029",
+      "pageNumber": 29,
+      "text": {
+        "enLittle": "After that night, the children still helped with rice cakes.",
+        "enStandard": "After that night, the children still helped with rice cakes. But whenever dusk came, they checked the door together: voice, hand, tail, shadow.",
+        "koLittle": "그 밤이 지나고도 아이들은 여전히 떡 빚는 일을 도왔어요.",
+        "koStandard": "그 밤이 지나고도 아이들은 여전히 떡 빚는 일을 도왔어요. 다만 해 질 무렵이면 함께 확인했지요. 목소리, 손, 꼬리, 그림자."
+      },
+      "koreanText": "그 밤이 지나고도 아이들은 여전히 떡 빚는 일을 도왔어요. 다만 해 질 무렵이면 함께 확인했지요. 목소리, 손, 꼬리, 그림자.",
+      "englishText": "After that night, the children still helped with rice cakes. But whenever dusk came, they checked the door together: voice, hand, tail, shadow.",
+      "narrationScript": "그 밤이 지나고도 아이들은 여전히 떡 빚는 일을 도왔어요. 다만 해 질 무렵이면 함께 확인했지요. 목소리, 손, 꼬리, 그림자.",
+      "refrain": "Quiet feet. Brave hearts. Do not open for a scratchy voice.",
+      "vocabulary": [
+        {
+          "ko": "떡",
+          "en": "rice cake",
+          "romanization": "tteok",
+          "definitionEn": "A soft Korean rice cake often shared at celebrations or markets.",
+          "definitionKo": "쌀로 만든 말랑한 한국 음식이에요."
+        },
+        {
+          "ko": "그림자",
+          "en": "shadow",
+          "romanization": "geurimja",
+          "definitionEn": "The dark shape made when light is blocked.",
+          "definitionKo": "빛이 가려져 생기는 어두운 모양이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "learning",
+        "emotion": "reassuring caution",
+        "pageTurnHook": "The safety lesson becomes a ritual. The story changes from suspense into a reassuring family legend.",
+        "readAloudCue": "Read with suspenseful, brave, watchful, and child-safe; keep the tiger cunning, hungry, and deceptive without horror; keep pauses clear and musical. gentle repeated list",
+        "childInteraction": "Tap each clue in order."
+      },
+      "imagePrompt": "Children safely at home checking door together with mother nearby, warm kitchen, no tiger, reassuring safety ritual Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with reassuring caution; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: gentle repeated list",
+      "animation": {
+        "type": "warmLanternLoop",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_029/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_029/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_029/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_029/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warmLanternLoop",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_029/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_029/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/sun-and-moon/page-029.png",
+      "imageSource": "assets/books/sun-and-moon/page-029.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/sun-and-moon/ko/page-029.wav",
+      "ambientAudio": "audio/books/sun-and-moon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "sun_moon_030",
+      "pageNumber": 30,
+      "text": {
+        "enLittle": "The village told the story every market day.",
+        "enStandard": "The village told the story every market day. “Quiet feet,” they would say. “Brave hearts. And never open the door for a voice that scratches.”",
+        "koLittle": "마을 사람들은 장날마다 이 이야기를 들려주었어요.",
+        "koStandard": "마을 사람들은 장날마다 이 이야기를 들려주었어요. “발은 조용히, 마음은 씩씩하게. 그리고 까슬까슬한 목소리에는 문을 열지 말기.”"
+      },
+      "koreanText": "마을 사람들은 장날마다 이 이야기를 들려주었어요. “발은 조용히, 마음은 씩씩하게. 그리고 까슬까슬한 목소리에는 문을 열지 말기.”",
+      "englishText": "The village told the story every market day. “Quiet feet,” they would say. “Brave hearts. And never open the door for a voice that scratches.”",
+      "narrationScript": "마을 사람들은 장날마다 이 이야기를 들려주었어요. “발은 조용히, 마음은 씩씩하게. 그리고 까슬까슬한 목소리에는 문을 열지 말기.”",
+      "refrain": "Quiet feet. Brave hearts. Do not open for a scratchy voice.",
+      "vocabulary": [
+        {
+          "ko": "장날",
+          "en": "market day",
+          "romanization": "jangnal",
+          "definitionEn": "A day when people gather to buy and sell food and goods.",
+          "definitionKo": "사람들이 물건을 사고파는 장이 서는 날이에요."
+        },
+        {
+          "ko": "문턱",
+          "en": "threshold",
+          "romanization": "munteok",
+          "definitionEn": "The raised edge at the bottom of a doorway.",
+          "definitionKo": "문 아래쪽의 살짝 높은 부분이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "refrain",
+        "emotion": "shared wisdom",
+        "pageTurnHook": "The refrain belongs to the village now. The story changes from suspense into a reassuring family legend.",
+        "readAloudCue": "Read with suspenseful, brave, watchful, and child-safe; keep the tiger cunning, hungry, and deceptive without horror; keep pauses clear and musical. invite children to repeat",
+        "childInteraction": "Tap the market stalls to hear the refrain."
+      },
+      "imagePrompt": "Korean market day with families sharing story, rice cakes, lanterns, children repeating safety refrain, cheerful but wise Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with shared wisdom; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: invite children to repeat",
+      "animation": {
+        "type": "villageMurmur",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_030/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_030/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_030/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_030/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "villageMurmur",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_030/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_030/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/sun-and-moon/page-030.png",
+      "imageSource": "assets/books/sun-and-moon/page-030.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/sun-and-moon/ko/page-030.wav",
+      "ambientAudio": "audio/books/sun-and-moon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "sun_moon_031",
+      "pageNumber": 31,
+      "text": {
+        "enLittle": "And on bright mornings, people said the sister’s courage warmed the sun.",
+        "enStandard": "And on bright mornings, people said the sister’s courage warmed the sun. On quiet nights, they said the brother’s trust softened the moon.",
+        "koLittle": "밝은 아침이면 사람들은 누나의 용기가 해를 따뜻하게 한다고 말했어요.",
+        "koStandard": "밝은 아침이면 사람들은 누나의 용기가 해를 따뜻하게 한다고 말했어요. 고요한 밤이면 동생의 믿음이 달을 부드럽게 한다고 말했지요."
+      },
+      "koreanText": "밝은 아침이면 사람들은 누나의 용기가 해를 따뜻하게 한다고 말했어요. 고요한 밤이면 동생의 믿음이 달을 부드럽게 한다고 말했지요.",
+      "englishText": "And on bright mornings, people said the sister’s courage warmed the sun. On quiet nights, they said the brother’s trust softened the moon.",
+      "narrationScript": "밝은 아침이면 사람들은 누나의 용기가 해를 따뜻하게 한다고 말했어요. 고요한 밤이면 동생의 믿음이 달을 부드럽게 한다고 말했지요.",
+      "vocabulary": [
+        {
+          "ko": "해",
+          "en": "sun",
+          "romanization": "hae",
+          "definitionEn": "The bright light in the daytime sky.",
+          "definitionKo": "낮 하늘을 밝히는 빛이에요."
+        },
+        {
+          "ko": "달",
+          "en": "moon",
+          "romanization": "dal",
+          "definitionEn": "The soft light in the night sky.",
+          "definitionKo": "밤하늘에 뜨는 부드러운 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "emotional payoff",
+        "emotion": "mythic reassurance",
+        "pageTurnHook": "The title meaning lands gently. The ending invites a quiet reread and one last echo of the refrain.",
+        "readAloudCue": "Read with suspenseful, brave, watchful, and child-safe; keep the tiger cunning, hungry, and deceptive without horror; keep pauses clear and musical. lyrical closing",
+        "childInteraction": "Tap sun and moon to make them glow."
+      },
+      "imagePrompt": "Sun and moon over Korean mountains, subtle silhouettes of two siblings as symbolic light, mythic gentle ending Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with mythic reassurance; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: lyrical closing",
+      "animation": {
+        "type": "celestialGlow",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_031/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_031/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_031/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_031/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "celestialGlow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_031/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_031/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/sun-and-moon/page-031.png",
+      "imageSource": "assets/books/sun-and-moon/page-031.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/sun-and-moon/ko/page-031.wav",
+      "ambientAudio": "audio/books/sun-and-moon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "sun_moon_032",
+      "pageNumber": 32,
+      "text": {
+        "enLittle": "Remember the two children who listened, held hands, and came home safe.",
+        "enStandard": "So when the sky turns gold, then silver, remember the two children who listened carefully, held hands tightly, and carried their promise all the way home.",
+        "koLittle": "귀 기울이고 손을 꼭 잡은 오누이를 기억해 주세요.",
+        "koStandard": "그러니 하늘이 금빛이 되었다가 은빛이 될 때, 귀 기울여 듣고, 손을 꼭 잡고, 약속을 집까지 가져온 오누이를 기억해 주세요."
+      },
+      "koreanText": "그러니 하늘이 금빛이 되었다가 은빛이 될 때, 귀 기울여 듣고, 손을 꼭 잡고, 약속을 집까지 가져온 오누이를 기억해 주세요.",
+      "englishText": "So when the sky turns gold, then silver, remember the two children who listened carefully, held hands tightly, and carried their promise all the way home.",
+      "narrationScript": "그러니 하늘이 금빛이 되었다가 은빛이 될 때, 귀 기울여 듣고, 손을 꼭 잡고, 약속을 집까지 가져온 오누이를 기억해 주세요.",
+      "vocabulary": [
+        {
+          "ko": "오누이",
+          "en": "brother and sister",
+          "romanization": "onui",
+          "definitionEn": "A brother and sister together.",
+          "definitionKo": "남매나 누나와 남동생처럼 함께 있는 형제자매예요."
+        },
+        {
+          "ko": "달",
+          "en": "moon",
+          "romanization": "dal",
+          "definitionEn": "The soft light in the night sky.",
+          "definitionKo": "밤하늘에 뜨는 부드러운 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "closing",
+        "emotion": "safe wonder",
+        "pageTurnHook": "The final image invites rereading. The ending invites a quiet reread and one last echo of the refrain.",
+        "readAloudCue": "Read with suspenseful, brave, watchful, and child-safe; keep the tiger cunning, hungry, and deceptive without horror; keep pauses clear and musical. soft bedtime ending",
+        "childInteraction": "Tap the closing moon jar seal."
+      },
+      "imagePrompt": "Final serene Korean mountain sky blending sunrise and moonlight, moon jar silhouette, siblings walking home with mother, safe and warm Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with safe wonder; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: soft bedtime ending",
+      "animation": {
+        "type": "bedtimeGlow",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_032/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_032/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_032/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_032/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "bedtimeGlow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_032/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/sun-and-moon/sun_moon_032/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/sun-and-moon/page-032.png",
+      "imageSource": "assets/books/sun-and-moon/page-032.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/sun-and-moon/ko/page-032.wav",
+      "ambientAudio": "audio/books/sun-and-moon/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    }
+  ],
+  "coverAsset": "assets/books/sun-and-moon/cover.png",
+  "coverAssetStatus": "placeholder",
+  "characterBible": "characters/sun_moon.character_bible.json",
+  "narrationAudioStatus": "synthetic_draft",
+  "adaptationVersions": {
+    "default": "gentle_ages_3_5",
+    "plannedAlternate": "classic_safe_ages_6_8",
+    "note": "The gentle version keeps suspense but resolves Mother safely; the children are remembered in sun/moon imagery rather than permanently separated from family."
+  }
+}

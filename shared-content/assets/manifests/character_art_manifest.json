@@ -1,0 +1,445 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-05-14T01:12:22+00:00",
+  "status": "generated_reviewed_internal_demo_not_commissioned_final",
+  "generationTool": "local_story_specific_svg_renderer",
+  "generationModel": "moonjar_story_specific_painterly_svg_v3",
+  "entries": [
+    {
+      "bookId": "book.sun_moon",
+      "storySlug": "sun-and-moon",
+      "outputFile": "assets/generated-draft/images/character-sheets/sun-and-moon.png",
+      "status": "generated_reviewed",
+      "generationTool": "local_story_specific_svg_renderer",
+      "generationModel": "moonjar_story_specific_painterly_svg_v3",
+      "generationStatus": "rendered_story_specific_character_sheet",
+      "timestamp": "2026-05-14T01:12:22+00:00",
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "visualSpecificity": "book_character_sheet",
+      "placeholderLike": false,
+      "dimensions": {
+        "width": 960,
+        "height": 640
+      },
+      "notes": "Generated character-sheet evidence for repo-local character consistency checks; not commissioned_final production art."
+    },
+    {
+      "bookId": "book.gold_silver_axe",
+      "storySlug": "gold-axe-silver-axe",
+      "outputFile": "assets/generated-draft/images/character-sheets/gold-axe-silver-axe.png",
+      "status": "generated_reviewed",
+      "generationTool": "local_story_specific_svg_renderer",
+      "generationModel": "moonjar_story_specific_painterly_svg_v3",
+      "generationStatus": "rendered_story_specific_character_sheet",
+      "timestamp": "2026-05-14T01:12:22+00:00",
+      "characterBible": "characters/gold_silver_axe.character_bible.json",
+      "visualSpecificity": "book_character_sheet",
+      "placeholderLike": false,
+      "dimensions": {
+        "width": 960,
+        "height": 640
+      },
+      "notes": "Generated character-sheet evidence for repo-local character consistency checks; not commissioned_final production art."
+    },
+    {
+      "bookId": "book.tiger_persimmon",
+      "storySlug": "tiger-and-persimmon",
+      "outputFile": "assets/generated-draft/images/character-sheets/tiger-and-persimmon.png",
+      "status": "generated_reviewed",
+      "generationTool": "local_story_specific_svg_renderer",
+      "generationModel": "moonjar_story_specific_painterly_svg_v3",
+      "generationStatus": "rendered_story_specific_character_sheet",
+      "timestamp": "2026-05-14T01:12:22+00:00",
+      "characterBible": "characters/tiger_persimmon.character_bible.json",
+      "visualSpecificity": "book_character_sheet",
+      "placeholderLike": false,
+      "dimensions": {
+        "width": 960,
+        "height": 640
+      },
+      "notes": "Generated character-sheet evidence for repo-local character consistency checks; not commissioned_final production art."
+    },
+    {
+      "bookId": "book.heungbu_nolbu",
+      "storySlug": "heungbu-and-nolbu",
+      "outputFile": "assets/generated-draft/images/character-sheets/heungbu-and-nolbu.png",
+      "status": "generated_reviewed",
+      "generationTool": "local_story_specific_svg_renderer",
+      "generationModel": "moonjar_story_specific_painterly_svg_v3",
+      "generationStatus": "rendered_story_specific_character_sheet",
+      "timestamp": "2026-05-14T01:12:22+00:00",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "visualSpecificity": "book_character_sheet",
+      "placeholderLike": false,
+      "dimensions": {
+        "width": 960,
+        "height": 640
+      },
+      "notes": "Generated character-sheet evidence for repo-local character consistency checks; not commissioned_final production art."
+    },
+    {
+      "bookId": "book.red_bean_grandma",
+      "storySlug": "red-bean-porridge-grandma",
+      "outputFile": "assets/generated-draft/images/character-sheets/red-bean-porridge-grandma.png",
+      "status": "generated_reviewed",
+      "generationTool": "local_story_specific_svg_renderer",
+      "generationModel": "moonjar_story_specific_painterly_svg_v3",
+      "generationStatus": "rendered_story_specific_character_sheet",
+      "timestamp": "2026-05-14T01:12:22+00:00",
+      "characterBible": "characters/red_bean_grandma.character_bible.json",
+      "visualSpecificity": "book_character_sheet",
+      "placeholderLike": false,
+      "dimensions": {
+        "width": 960,
+        "height": 640
+      },
+      "notes": "Generated character-sheet evidence for repo-local character consistency checks; not commissioned_final production art."
+    },
+    {
+      "bookId": "book.simcheong",
+      "storySlug": "simcheong",
+      "outputFile": "assets/generated-draft/images/character-sheets/simcheong.png",
+      "status": "generated_reviewed",
+      "generationTool": "local_story_specific_svg_renderer",
+      "generationModel": "moonjar_story_specific_painterly_svg_v3",
+      "generationStatus": "rendered_story_specific_character_sheet",
+      "timestamp": "2026-05-14T01:12:22+00:00",
+      "characterBible": "characters/simcheong.character_bible.json",
+      "visualSpecificity": "book_character_sheet",
+      "placeholderLike": false,
+      "dimensions": {
+        "width": 960,
+        "height": 640
+      },
+      "notes": "Generated character-sheet evidence for repo-local character consistency checks; not commissioned_final production art."
+    },
+    {
+      "bookId": "book.rabbit_turtle",
+      "storySlug": "rabbit-and-turtle",
+      "outputFile": "assets/generated-draft/images/character-sheets/rabbit-and-turtle.png",
+      "status": "generated_reviewed",
+      "generationTool": "local_story_specific_svg_renderer",
+      "generationModel": "moonjar_story_specific_painterly_svg_v3",
+      "generationStatus": "rendered_story_specific_character_sheet",
+      "timestamp": "2026-05-14T01:12:22+00:00",
+      "characterBible": "characters/rabbit_turtle.character_bible.json",
+      "visualSpecificity": "book_character_sheet",
+      "placeholderLike": false,
+      "dimensions": {
+        "width": 960,
+        "height": 640
+      },
+      "notes": "Generated character-sheet evidence for repo-local character consistency checks; not commissioned_final production art."
+    },
+    {
+      "bookId": "book.dokkaebi_club",
+      "storySlug": "dokkaebi-club",
+      "outputFile": "assets/generated-draft/images/character-sheets/dokkaebi-club.png",
+      "status": "generated_reviewed",
+      "generationTool": "local_story_specific_svg_renderer",
+      "generationModel": "moonjar_story_specific_painterly_svg_v3",
+      "generationStatus": "rendered_story_specific_character_sheet",
+      "timestamp": "2026-05-14T01:12:22+00:00",
+      "characterBible": "characters/dokkaebi_club.character_bible.json",
+      "visualSpecificity": "book_character_sheet",
+      "placeholderLike": false,
+      "dimensions": {
+        "width": 960,
+        "height": 640
+      },
+      "notes": "Generated character-sheet evidence for repo-local character consistency checks; not commissioned_final production art."
+    },
+    {
+      "bookId": "book.dangun",
+      "storySlug": "dangun-story",
+      "outputFile": "assets/generated-draft/images/character-sheets/dangun-story.png",
+      "status": "generated_reviewed",
+      "generationTool": "local_story_specific_svg_renderer",
+      "generationModel": "moonjar_story_specific_painterly_svg_v3",
+      "generationStatus": "rendered_story_specific_character_sheet",
+      "timestamp": "2026-05-14T01:12:22+00:00",
+      "characterBible": "characters/dangun.character_bible.json",
+      "visualSpecificity": "book_character_sheet",
+      "placeholderLike": false,
+      "dimensions": {
+        "width": 960,
+        "height": 640
+      },
+      "notes": "Generated character-sheet evidence for repo-local character consistency checks; not commissioned_final production art."
+    },
+    {
+      "bookId": "book.grateful_magpie",
+      "storySlug": "grateful-magpie",
+      "outputFile": "assets/generated-draft/images/character-sheets/grateful-magpie.png",
+      "status": "generated_reviewed",
+      "generationTool": "local_story_specific_svg_renderer",
+      "generationModel": "moonjar_story_specific_painterly_svg_v3",
+      "generationStatus": "rendered_story_specific_character_sheet",
+      "timestamp": "2026-05-14T01:12:22+00:00",
+      "characterBible": "characters/grateful_magpie.character_bible.json",
+      "visualSpecificity": "book_character_sheet",
+      "placeholderLike": false,
+      "dimensions": {
+        "width": 960,
+        "height": 640
+      },
+      "notes": "Generated character-sheet evidence for repo-local character consistency checks; not commissioned_final production art."
+    },
+    {
+      "bookId": "book.kongjwi_patjwi",
+      "storySlug": "kongjwi-and-patjwi",
+      "outputFile": "assets/generated-draft/images/character-sheets/kongjwi-and-patjwi.png",
+      "status": "generated_reviewed",
+      "generationTool": "local_story_specific_svg_renderer",
+      "generationModel": "moonjar_story_specific_painterly_svg_v3",
+      "generationStatus": "rendered_story_specific_character_sheet",
+      "timestamp": "2026-05-14T01:12:22+00:00",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "visualSpecificity": "book_character_sheet",
+      "placeholderLike": false,
+      "dimensions": {
+        "width": 960,
+        "height": 640
+      },
+      "notes": "Generated character-sheet evidence for repo-local character consistency checks; not commissioned_final production art."
+    },
+    {
+      "bookId": "book.geumgang_tiger",
+      "storySlug": "geumgang-mountain-tiger",
+      "outputFile": "assets/generated-draft/images/character-sheets/geumgang-mountain-tiger.png",
+      "status": "generated_reviewed",
+      "generationTool": "local_story_specific_svg_renderer",
+      "generationModel": "moonjar_story_specific_painterly_svg_v3",
+      "generationStatus": "rendered_story_specific_character_sheet",
+      "timestamp": "2026-05-14T01:12:22+00:00",
+      "characterBible": "characters/geumgang_tiger.character_bible.json",
+      "visualSpecificity": "book_character_sheet",
+      "placeholderLike": false,
+      "dimensions": {
+        "width": 960,
+        "height": 640
+      },
+      "notes": "Generated character-sheet evidence for repo-local character consistency checks; not commissioned_final production art."
+    },
+    {
+      "bookId": "book.lump_old_man",
+      "storySlug": "lump-old-man",
+      "outputFile": "assets/generated-draft/images/character-sheets/lump-old-man.png",
+      "status": "generated_reviewed",
+      "generationTool": "local_story_specific_svg_renderer",
+      "generationModel": "moonjar_story_specific_painterly_svg_v3",
+      "generationStatus": "rendered_story_specific_character_sheet",
+      "timestamp": "2026-05-14T01:12:22+00:00",
+      "characterBible": "characters/lump_old_man.character_bible.json",
+      "visualSpecificity": "book_character_sheet",
+      "placeholderLike": false,
+      "dimensions": {
+        "width": 960,
+        "height": 640
+      },
+      "notes": "Generated character-sheet evidence for repo-local character consistency checks; not commissioned_final production art."
+    },
+    {
+      "bookId": "book.gyeonwu_jiknyeo",
+      "storySlug": "gyeonwu-and-jiknyeo",
+      "outputFile": "assets/generated-draft/images/character-sheets/gyeonwu-and-jiknyeo.png",
+      "status": "generated_reviewed",
+      "generationTool": "local_story_specific_svg_renderer",
+      "generationModel": "moonjar_story_specific_painterly_svg_v3",
+      "generationStatus": "rendered_story_specific_character_sheet",
+      "timestamp": "2026-05-14T01:12:22+00:00",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "visualSpecificity": "book_character_sheet",
+      "placeholderLike": false,
+      "dimensions": {
+        "width": 960,
+        "height": 640
+      },
+      "notes": "Generated character-sheet evidence for repo-local character consistency checks; not commissioned_final production art."
+    },
+    {
+      "bookId": "book.bari_princess_part_1",
+      "storySlug": "bari-princess-part-1",
+      "outputFile": "assets/generated-draft/images/character-sheets/bari-princess-part-1.png",
+      "status": "generated_reviewed",
+      "generationTool": "local_story_specific_svg_renderer",
+      "generationModel": "moonjar_story_specific_painterly_svg_v3",
+      "generationStatus": "rendered_story_specific_character_sheet",
+      "timestamp": "2026-05-14T01:12:22+00:00",
+      "characterBible": "characters/bari_princess_part_1.character_bible.json",
+      "visualSpecificity": "book_character_sheet",
+      "placeholderLike": false,
+      "dimensions": {
+        "width": 960,
+        "height": 640
+      },
+      "notes": "Generated character-sheet evidence for repo-local character consistency checks; not commissioned_final production art."
+    },
+    {
+      "bookId": "book.bari_princess_part_2",
+      "storySlug": "bari-princess-part-2",
+      "outputFile": "assets/generated-draft/images/character-sheets/bari-princess-part-2.png",
+      "status": "generated_reviewed",
+      "generationTool": "local_story_specific_svg_renderer",
+      "generationModel": "moonjar_story_specific_painterly_svg_v3",
+      "generationStatus": "rendered_story_specific_character_sheet",
+      "timestamp": "2026-05-14T01:12:22+00:00",
+      "characterBible": "characters/bari_princess_part_2.character_bible.json",
+      "visualSpecificity": "book_character_sheet",
+      "placeholderLike": false,
+      "dimensions": {
+        "width": 960,
+        "height": 640
+      },
+      "notes": "Generated character-sheet evidence for repo-local character consistency checks; not commissioned_final production art."
+    },
+    {
+      "bookId": "book.snail_bride",
+      "storySlug": "snail-bride",
+      "outputFile": "assets/generated-draft/images/character-sheets/snail-bride.png",
+      "status": "generated_reviewed",
+      "generationTool": "local_story_specific_svg_renderer",
+      "generationModel": "moonjar_story_specific_painterly_svg_v3",
+      "generationStatus": "rendered_story_specific_character_sheet",
+      "timestamp": "2026-05-14T01:12:22+00:00",
+      "characterBible": "characters/snail_bride.character_bible.json",
+      "visualSpecificity": "book_character_sheet",
+      "placeholderLike": false,
+      "dimensions": {
+        "width": 960,
+        "height": 640
+      },
+      "notes": "Generated character-sheet evidence for repo-local character consistency checks; not commissioned_final production art."
+    },
+    {
+      "bookId": "book.janghwa_hongryeon",
+      "storySlug": "janghwa-and-hongryeon",
+      "outputFile": "assets/generated-draft/images/character-sheets/janghwa-and-hongryeon.png",
+      "status": "generated_reviewed",
+      "generationTool": "local_story_specific_svg_renderer",
+      "generationModel": "moonjar_story_specific_painterly_svg_v3",
+      "generationStatus": "rendered_story_specific_character_sheet",
+      "timestamp": "2026-05-14T01:12:22+00:00",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "visualSpecificity": "book_character_sheet",
+      "placeholderLike": false,
+      "dimensions": {
+        "width": 960,
+        "height": 640
+      },
+      "notes": "Generated character-sheet evidence for repo-local character consistency checks; not commissioned_final production art."
+    },
+    {
+      "bookId": "book.fairy_woodcutter",
+      "storySlug": "fairy-and-woodcutter",
+      "outputFile": "assets/generated-draft/images/character-sheets/fairy-and-woodcutter.png",
+      "status": "generated_reviewed",
+      "generationTool": "local_story_specific_svg_renderer",
+      "generationModel": "moonjar_story_specific_painterly_svg_v3",
+      "generationStatus": "rendered_story_specific_character_sheet",
+      "timestamp": "2026-05-14T01:12:22+00:00",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "visualSpecificity": "book_character_sheet",
+      "placeholderLike": false,
+      "dimensions": {
+        "width": 960,
+        "height": 640
+      },
+      "notes": "Generated character-sheet evidence for repo-local character consistency checks; not commissioned_final production art."
+    },
+    {
+      "bookId": "book.green_frog",
+      "storySlug": "green-frog",
+      "outputFile": "assets/generated-draft/images/character-sheets/green-frog.png",
+      "status": "generated_reviewed",
+      "generationTool": "local_story_specific_svg_renderer",
+      "generationModel": "moonjar_story_specific_painterly_svg_v3",
+      "generationStatus": "rendered_story_specific_character_sheet",
+      "timestamp": "2026-05-14T01:12:22+00:00",
+      "characterBible": "characters/green_frog.character_bible.json",
+      "visualSpecificity": "book_character_sheet",
+      "placeholderLike": false,
+      "dimensions": {
+        "width": 960,
+        "height": 640
+      },
+      "notes": "Generated character-sheet evidence for repo-local character consistency checks; not commissioned_final production art."
+    },
+    {
+      "bookId": "book.kind_brothers",
+      "storySlug": "kind-brothers",
+      "outputFile": "assets/generated-draft/images/character-sheets/kind-brothers.png",
+      "status": "generated_reviewed",
+      "generationTool": "local_story_specific_svg_renderer",
+      "generationModel": "moonjar_story_specific_painterly_svg_v3",
+      "generationStatus": "rendered_story_specific_character_sheet",
+      "timestamp": "2026-05-14T01:12:22+00:00",
+      "characterBible": "characters/kind_brothers.character_bible.json",
+      "visualSpecificity": "book_character_sheet",
+      "placeholderLike": false,
+      "dimensions": {
+        "width": 960,
+        "height": 640
+      },
+      "notes": "Generated character-sheet evidence for repo-local character consistency checks; not commissioned_final production art."
+    },
+    {
+      "bookId": "book.byeoljubu",
+      "storySlug": "byeoljubu",
+      "outputFile": "assets/generated-draft/images/character-sheets/byeoljubu.png",
+      "status": "generated_reviewed",
+      "generationTool": "local_story_specific_svg_renderer",
+      "generationModel": "moonjar_story_specific_painterly_svg_v3",
+      "generationStatus": "rendered_story_specific_character_sheet",
+      "timestamp": "2026-05-14T01:12:22+00:00",
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "visualSpecificity": "book_character_sheet",
+      "placeholderLike": false,
+      "dimensions": {
+        "width": 960,
+        "height": 640
+      },
+      "notes": "Generated character-sheet evidence for repo-local character consistency checks; not commissioned_final production art."
+    },
+    {
+      "bookId": "book.farting_daughter_in_law",
+      "storySlug": "farting-daughter-in-law",
+      "outputFile": "assets/generated-draft/images/character-sheets/farting-daughter-in-law.png",
+      "status": "generated_reviewed",
+      "generationTool": "local_story_specific_svg_renderer",
+      "generationModel": "moonjar_story_specific_painterly_svg_v3",
+      "generationStatus": "rendered_story_specific_character_sheet",
+      "timestamp": "2026-05-14T01:12:22+00:00",
+      "characterBible": "characters/farting_daughter_in_law.character_bible.json",
+      "visualSpecificity": "book_character_sheet",
+      "placeholderLike": false,
+      "dimensions": {
+        "width": 960,
+        "height": 640
+      },
+      "notes": "Generated character-sheet evidence for repo-local character consistency checks; not commissioned_final production art."
+    },
+    {
+      "bookId": "book.serpent_bridegroom",
+      "storySlug": "serpent-bridegroom",
+      "outputFile": "assets/generated-draft/images/character-sheets/serpent-bridegroom.png",
+      "status": "generated_reviewed",
+      "generationTool": "local_story_specific_svg_renderer",
+      "generationModel": "moonjar_story_specific_painterly_svg_v3",
+      "generationStatus": "rendered_story_specific_character_sheet",
+      "timestamp": "2026-05-14T01:12:22+00:00",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "visualSpecificity": "book_character_sheet",
+      "placeholderLike": false,
+      "dimensions": {
+        "width": 960,
+        "height": 640
+      },
+      "notes": "Generated character-sheet evidence for repo-local character consistency checks; not commissioned_final production art."
+    }
+  ],
+  "notProductionClaims": [
+    "Character sheets are generated-review internal-demo evidence, not commissioned final production character packs.",
+    "Human review may approve the direction, but commercial release still needs final art ownership/licensing proof."
+  ]
+}

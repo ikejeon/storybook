@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "1.0.0",
+  "bookId": "book.janghwa_hongryeon",
+  "slug": "janghwa-and-hongryeon",
+  "title": {
+    "ko": "장화홍련",
+    "en": "Janghwa and Hongryeon"
+  },
+  "characterSheetPrompt": "Create a production character sheet for Janghwa and Hongryeon with janghwa, hongryeon, pond_keeper, lotus_pond in premium Korean watercolor, gouache, soft ink, and hanji texture. No text, no watermark.",
+  "mainCharacterDescriptions": [
+    {
+      "id": "janghwa",
+      "description": "janghwa for Janghwa and Hongryeon, rendered with warm Korean picture-book restraint and clear child-safe silhouette.",
+      "recurringOutfitAndColors": "Moon ivory, warm hanji cream, deep indigo, jade, persimmon, and muted lantern gold.",
+      "continuityNotes": "Keep face shape, scale, color palette, and recurring object relationship stable across every page."
+    },
+    {
+      "id": "hongryeon",
+      "description": "hongryeon for Janghwa and Hongryeon, rendered with warm Korean picture-book restraint and clear child-safe silhouette.",
+      "recurringOutfitAndColors": "Moon ivory, warm hanji cream, deep indigo, jade, persimmon, and muted lantern gold.",
+      "continuityNotes": "Keep face shape, scale, color palette, and recurring object relationship stable across every page."
+    },
+    {
+      "id": "pond_keeper",
+      "description": "pond keeper for Janghwa and Hongryeon, rendered with warm Korean picture-book restraint and clear child-safe silhouette.",
+      "recurringOutfitAndColors": "Moon ivory, warm hanji cream, deep indigo, jade, persimmon, and muted lantern gold.",
+      "continuityNotes": "Keep face shape, scale, color palette, and recurring object relationship stable across every page."
+    },
+    {
+      "id": "lotus_pond",
+      "description": "lotus pond for Janghwa and Hongryeon, rendered with warm Korean picture-book restraint and clear child-safe silhouette.",
+      "recurringOutfitAndColors": "Moon ivory, warm hanji cream, deep indigo, jade, persimmon, and muted lantern gold.",
+      "continuityNotes": "Keep face shape, scale, color palette, and recurring object relationship stable across every page."
+    }
+  ],
+  "styleRules": [
+    "Use culturally respectful Korean settings, clothing shapes, household props, and landscape motifs.",
+    "Keep suspense gentle and non-graphic for children ages 3-8.",
+    "Avoid mascot flattening; characters should feel like picture-book folktale figures.",
+    "Keep every scene fit-safe with generous margins and clear silhouettes."
+  ],
+  "forbiddenVisualElements": [
+    "Text, labels, signatures, logos, or watermarks inside images",
+    "Graphic danger, horror anatomy, harsh punishment, or frightening close-ups",
+    "Modern brand objects or generic Western fantasy costumes",
+    "Inconsistent outfits, facial shapes, body proportions, or prop designs"
+  ],
+  "sceneContinuityNotes": [
+    "Keep the twin lotus flowers visually consistent after first appearance.",
+    "Keep a lotus pond in soft rain recognizable through recurring background shapes.",
+    "Preserve the same moon jar visual language across book covers and scenes.",
+    "Use gentle body language and clear emotional staging for every page turn."
+  ],
+  "promptPrefix": "Global style bible shared-content/style/moonjar_style_bible.json. Reference character bible shared-content/characters/janghwa_hongryeon.character_bible.json. Maintain exact character designs, outfit colors, recurring objects, child-safe tone, and scene continuity for Janghwa and Hongryeon.",
+  "styleBible": "style/moonjar_style_bible.json",
+  "masterArtStylePrompt": "Illustrate 장화홍련 / Janghwa and Hongryeon as a premium Korean watercolor, gouache, and soft ink picture book with hanji texture, warm lantern light, deep indigo, moon ivory, persimmon, jade, lotus pink, and muted gold.",
+  "perCharacterVisualIdentity": [
+    {
+      "id": "janghwa",
+      "identityLock": "janghwa for Janghwa and Hongryeon, rendered with warm Korean picture-book restraint and clear child-safe silhouette.",
+      "recurringOutfitAndColors": "Moon ivory, warm hanji cream, deep indigo, jade, persimmon, and muted lantern gold.",
+      "continuityAnchor": "Keep face shape, scale, color palette, and recurring object relationship stable across every page."
+    },
+    {
+      "id": "hongryeon",
+      "identityLock": "hongryeon for Janghwa and Hongryeon, rendered with warm Korean picture-book restraint and clear child-safe silhouette.",
+      "recurringOutfitAndColors": "Moon ivory, warm hanji cream, deep indigo, jade, persimmon, and muted lantern gold.",
+      "continuityAnchor": "Keep face shape, scale, color palette, and recurring object relationship stable across every page."
+    },
+    {
+      "id": "pond_keeper",
+      "identityLock": "pond keeper for Janghwa and Hongryeon, rendered with warm Korean picture-book restraint and clear child-safe silhouette.",
+      "recurringOutfitAndColors": "Moon ivory, warm hanji cream, deep indigo, jade, persimmon, and muted lantern gold.",
+      "continuityAnchor": "Keep face shape, scale, color palette, and recurring object relationship stable across every page."
+    },
+    {
+      "id": "lotus_pond",
+      "identityLock": "lotus pond for Janghwa and Hongryeon, rendered with warm Korean picture-book restraint and clear child-safe silhouette.",
+      "recurringOutfitAndColors": "Moon ivory, warm hanji cream, deep indigo, jade, persimmon, and muted lantern gold.",
+      "continuityAnchor": "Keep face shape, scale, color palette, and recurring object relationship stable across every page."
+    }
+  ],
+  "outfitRules": [
+    "Do not change main character color palette within the same book unless the story explicitly calls for it.",
+    "Use historically inspired Korean clothing shapes without costume caricature.",
+    "Children and elders should keep consistent face shapes, hair shapes, posture, and scale."
+  ],
+  "colorPalette": [
+    "deep indigo ink",
+    "moon ivory",
+    "warm hanji cream",
+    "persimmon",
+    "jade leaf",
+    "lotus pink",
+    "muted lantern gold"
+  ],
+  "facialExpressionRules": [
+    "Children can look curious, brave, surprised, sleepy, or relieved, but never terrified.",
+    "Adults should read as warm, practical, or gently concerned rather than panicked.",
+    "Animal and magical characters should be expressive, readable, and child-safe."
+  ],
+  "ageBodyProportionRules": [
+    "Children have childlike proportions with shorter limbs and age-appropriate posture.",
+    "Adults have calm, grounded proportions and never glamour poses.",
+    "Animal and magical figures should be soft-edged and not anatomically threatening."
+  ],
+  "doNotChangeRules": [
+    "Do not change recurring outfit colors, hair shapes, face shapes, or key props.",
+    "Do not introduce modern objects, logos, printed text, or Western fantasy costumes.",
+    "Do not make the visual tone darker than the child-safe retelling."
+  ],
+  "recurringObjectRules": [
+    "Keep important story props visually consistent after first appearance.",
+    "Use props as continuity anchors between scenes and in cover art.",
+    "When a prop becomes animated, preserve its color, scale, and silhouette."
+  ],
+  "negativePrompt": "photorealism, horror lighting, blood, injury, sharp claws, teeth emphasis, weapons, modern architecture, modern logos, text, watermark, distorted hands, inconsistent outfits, adult-like children",
+  "characterSheetAsset": "assets/generated-draft/images/character-sheets/janghwa-and-hongryeon.png",
+  "characterArtManifest": "assets/manifests/character_art_manifest.json",
+  "characterConsistencyStatus": "generated_reviewed_story_specific_internal_demo",
+  "productionCharacterPackStatus": "generated_reviewed_internal_demo_not_commissioned_final",
+  "visualAnchorEvidence": {
+    "characterSheetAsset": "assets/generated-draft/images/character-sheets/janghwa-and-hongryeon.png",
+    "sceneArtRenderer": "local_story_specific_svg_renderer",
+    "sceneArtModel": "moonjar_story_specific_painterly_svg_v3",
+    "storySpecificArt": true,
+    "placeholderLike": false
+  },
+  "characterDesignLocks": {
+    "figures": [
+      "sister_one",
+      "sister_two",
+      "pond_keeper"
+    ],
+    "recurringProp": "twin_lotus",
+    "environment": "lotus_pond",
+    "palette": [
+      "#27345d",
+      "#638584",
+      "#edd0a2",
+      "#d989a7",
+      "#b46779"
+    ],
+    "doNotChange": [
+      "Keep figure silhouettes, palette, recurring prop, and environment motif stable across the book.",
+      "Do not replace story-specific art with abstract stripe/block placeholders.",
+      "Do not mark generated internal-demo art as commissioned_final."
+    ]
+  }
+}

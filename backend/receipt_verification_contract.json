@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedOn": "2026-05-11",
+  "status": "contract_only_not_integrated_with_store_apis",
+  "platforms": [
+    {
+      "platform": "ios",
+      "localInput": "transactionToken",
+      "requiredProductionVerification": "App Store Server API or verified StoreKit transaction path",
+      "source": "https://developer.apple.com/documentation/appstoreserverapi",
+      "implemented": false
+    },
+    {
+      "platform": "android",
+      "localInput": "purchaseToken",
+      "requiredProductionVerification": "Google Play Developer API purchase token verification",
+      "source": "https://developer.android.com/google/play/billing/security",
+      "implemented": false
+    }
+  ],
+  "serverSideRules": [
+    "Never trust client-only entitlement state for production unlocks.",
+    "Verify product ID, transaction token, platform, purchase state, expiration, revocation/refund, and grace-period state server-side.",
+    "Persist entitlement state using an anonymous parent/device/account key, not child identity.",
+    "Return entitlement state to apps through the existing /v1/purchases/sync response shape."
+  ],
+  "blockedUntil": [
+    "apple_developer_account_credentials",
+    "google_play_console_service_account",
+    "store_products_configured",
+    "deployed_backend_and_database"
+  ]
+}

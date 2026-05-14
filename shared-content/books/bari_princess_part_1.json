@@ -1,0 +1,2519 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "book.bari_princess_part_1",
+  "slug": "bari-princess-part-1",
+  "title": {
+    "ko": "바리공주 1",
+    "en": "Princess Bari Part 1"
+  },
+  "access": "premium",
+  "ageRange": "6-8",
+  "estimatedMinutes": 9,
+  "summary": "Princess Bari is abandoned and cast away as an unwanted daughter, grows with hidden tenderness, learns the truth, and chooses the medicine quest on her own terms.",
+  "coverAsset": "assets/books/bari-princess-part-1/cover.png",
+  "coverAssetStatus": "placeholder",
+  "characterBible": "characters/bari_princess_part_1.character_bible.json",
+  "narrationAudioStatus": "synthetic_draft",
+  "adaptationVersions": {
+    "default": "English-first bilingual semantic-authenticity repair draft",
+    "plannedAlternate": "External editor pass after children’s editorial and Korean-language review",
+    "note": "Generated repo-local repair draft; not external human final."
+  },
+  "sensitivityNotes": [
+    "Abandonment is softened but not erased; Bari's hurt and agency remain visible.",
+    "Repaired by repo-local semantic authenticity pass; external children’s editor, Korean-language, cultural, and child-safety review remain required before final release."
+  ],
+  "themes": [
+    "identity",
+    "abandonment",
+    "courage",
+    "healing",
+    "choice"
+  ],
+  "characters": [
+    "princess_bari",
+    "moon_jar_nurse",
+    "garden_guard",
+    "medicine_flower"
+  ],
+  "pages": [
+    {
+      "id": "bari_princess_part_1_001",
+      "pageNumber": 1,
+      "text": {
+        "enLittle": "Bari's cradle stood behind a silk screen while ministers whispered too loudly.",
+        "enStandard": "In the palace garden, first, Bari's cradle stood behind a silk screen while ministers whispered too loudly. \"I will answer carefully,\" came the reply.",
+        "koLittle": "바리와 공주가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "바리와 공주가 있는 옛이야기 길에서 바리와 공주가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "바리와 공주가 있는 옛이야기 길에서 바리와 공주가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the palace garden, first, Bari's cradle stood behind a silk screen while ministers whispered too loudly. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "바리와 공주가 있는 옛이야기 길에서 바리와 공주가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "바리",
+          "en": "Bari",
+          "romanization": "Bari",
+          "definitionEn": "The princess who is cast away and chooses a quest.",
+          "definitionKo": "버려졌지만 길을 고르는 공주예요."
+        },
+        {
+          "ko": "약꽃",
+          "en": "medicine flower",
+          "romanization": "yakkkot",
+          "definitionEn": "A healing flower in this adaptation.",
+          "definitionKo": "치유를 돕는 꽃이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "uneasy birth in a palace that wanted a son (palace birth)",
+        "emotion": "solemn hurt",
+        "pageTurnHook": "Then the next part of palace birth will ask for a braver choice, and the story moves toward cast away.",
+        "readAloudCue": "Read with solemn hurt; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap palace garden."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/bari_princess_part_1.character_bible.json. Page 1 for 바리공주 1 / Princess Bari Part 1: palace garden; specific beat: Bari's cradle stood behind a silk screen while ministers whispered too loudly; emotional tone: solemn hurt; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/bari-princess-part-1/page-001.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with solemn hurt; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/bari-princess-part-1/ko/page-001.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/bari-princess-part-1/ambient/ambient-loop.wav",
+      "characterBible": "characters/bari_princess_part_1.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_001/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_001/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_001/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_001/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_001/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_001/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bari_princess_part_1_002",
+      "pageNumber": 2,
+      "text": {
+        "enLittle": "The queen held her close even as the court counted disappointment.",
+        "enStandard": "In the palace garden, next, the queen held her close even as the court counted disappointment. \"Then walk gently,\" the elder said.",
+        "koLittle": "약꽃 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "바리와 공주가 있는 옛이야기 길에서 약꽃 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "바리와 공주가 있는 옛이야기 길에서 약꽃 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the palace garden, next, the queen held her close even as the court counted disappointment. \"Then walk gently,\" the elder said.",
+      "narrationScript": "바리와 공주가 있는 옛이야기 길에서 약꽃 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "공주",
+          "en": "princess",
+          "romanization": "gongju",
+          "definitionEn": "A royal daughter.",
+          "definitionKo": "임금의 딸이에요."
+        },
+        {
+          "ko": "길",
+          "en": "road",
+          "romanization": "gil",
+          "definitionEn": "A path for a journey.",
+          "definitionKo": "여정을 가는 길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "uneasy birth in a palace that wanted a son (palace birth)",
+        "emotion": "solemn hurt",
+        "pageTurnHook": "Then the next part of palace birth will ask for a braver choice, and the story moves toward cast away.",
+        "readAloudCue": "Read with solemn hurt; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace palace garden."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/bari_princess_part_1.character_bible.json. Page 2 for 바리공주 1 / Princess Bari Part 1: palace garden; specific beat: the queen held her close even as the court counted disappointment; emotional tone: solemn hurt; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/bari-princess-part-1/page-002.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with solemn hurt; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/bari-princess-part-1/ko/page-002.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/bari-princess-part-1/ambient/ambient-loop.wav",
+      "characterBible": "characters/bari_princess_part_1.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_002/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_002/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_002/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_002/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_002/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_002/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bari_princess_part_1_003",
+      "pageNumber": 3,
+      "text": {
+        "enLittle": "A moon jar reflected the baby's face without judgment.",
+        "enStandard": "In the palace garden, quietly, a moon jar reflected the baby's face without judgment. \"I am still learning,\" the child answered.",
+        "koLittle": "바리를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "바리와 공주가 있는 옛이야기 길에서 바리를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "바리와 공주가 있는 옛이야기 길에서 바리를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the palace garden, quietly, a moon jar reflected the baby's face without judgment. \"I am still learning,\" the child answered.",
+      "narrationScript": "바리와 공주가 있는 옛이야기 길에서 바리를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "약꽃",
+          "en": "medicine flower",
+          "romanization": "yakkkot",
+          "definitionEn": "A healing flower in this adaptation.",
+          "definitionKo": "치유를 돕는 꽃이에요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "uneasy birth in a palace that wanted a son (palace birth)",
+        "emotion": "solemn hurt",
+        "pageTurnHook": "Then the next part of palace birth will ask for a braver choice, and the story moves toward cast away.",
+        "readAloudCue": "Read with solemn hurt; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count palace garden."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/bari_princess_part_1.character_bible.json. Page 3 for 바리공주 1 / Princess Bari Part 1: palace garden; specific beat: a moon jar reflected the baby's face without judgment; emotional tone: solemn hurt; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/bari-princess-part-1/page-003.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with solemn hurt; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/bari-princess-part-1/ko/page-003.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/bari-princess-part-1/ambient/ambient-loop.wav",
+      "characterBible": "characters/bari_princess_part_1.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_003/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_003/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_003/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_003/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_003/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_003/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bari_princess_part_1_004",
+      "pageNumber": 4,
+      "text": {
+        "enLittle": "Night rain softened the palace roofs.",
+        "enStandard": "In the palace garden, with the moon high, night rain softened the palace roofs. \"Tell me the truth,\" someone said.",
+        "koLittle": "길의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "바리와 공주가 있는 옛이야기 길에서 길의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "바리와 공주가 있는 옛이야기 길에서 길의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the palace garden, with the moon high, night rain softened the palace roofs. \"Tell me the truth,\" someone said.",
+      "narrationScript": "바리와 공주가 있는 옛이야기 길에서 길의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "길",
+          "en": "road",
+          "romanization": "gil",
+          "definitionEn": "A path for a journey.",
+          "definitionKo": "여정을 가는 길이에요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "uneasy birth in a palace that wanted a son (palace birth)",
+        "emotion": "solemn hurt",
+        "pageTurnHook": "Then the next part of palace birth will ask for a braver choice, and the story moves toward cast away.",
+        "readAloudCue": "Read with solemn hurt; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold palace garden."
+      },
+      "refrain": "Bari walks, Bari chooses.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/bari_princess_part_1.character_bible.json. Page 4 for 바리공주 1 / Princess Bari Part 1: palace garden; specific beat: night rain softened the palace roofs; emotional tone: solemn hurt; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/bari-princess-part-1/page-004.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with solemn hurt; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/bari-princess-part-1/ko/page-004.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/bari-princess-part-1/ambient/ambient-loop.wav",
+      "characterBible": "characters/bari_princess_part_1.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_004/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_004/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_004/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_004/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_004/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_004/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "바리는 걷고, 바리는 고른다."
+    },
+    {
+      "id": "bari_princess_part_1_005",
+      "pageNumber": 5,
+      "text": {
+        "enLittle": "The basket did not drift alone; a nurse followed along the bank.",
+        "enStandard": "In the river basket and nurse, first, the basket did not drift alone; a nurse followed along the bank. \"Then walk gently,\" the elder said.",
+        "koLittle": "공주와 약꽃가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "공주와 약꽃가 있는 옛이야기 길에서 공주와 약꽃가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "공주와 약꽃가 있는 옛이야기 길에서 공주와 약꽃가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the river basket and nurse, first, the basket did not drift alone; a nurse followed along the bank. \"Then walk gently,\" the elder said.",
+      "narrationScript": "공주와 약꽃가 있는 옛이야기 길에서 공주와 약꽃가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Bari is sent away but kept safe by humble hands (cast away)",
+        "emotion": "lonely but held",
+        "pageTurnHook": "Then the next part of cast away will ask for a braver choice, and the story moves toward growing truth.",
+        "readAloudCue": "Read with lonely but held; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe river basket and nurse."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/bari_princess_part_1.character_bible.json. Page 5 for 바리공주 1 / Princess Bari Part 1: river basket and nurse; specific beat: the basket did not drift alone; a nurse followed along the bank; emotional tone: lonely but held; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/bari-princess-part-1/page-005.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with lonely but held; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/bari-princess-part-1/ko/page-005.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/bari-princess-part-1/ambient/ambient-loop.wav",
+      "characterBible": "characters/bari_princess_part_1.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_005/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_005/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_005/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_005/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_005/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_005/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bari_princess_part_1_006",
+      "pageNumber": 6,
+      "text": {
+        "enLittle": "Bari heard river reeds before she learned court music.",
+        "enStandard": "In the river basket and nurse, next, Bari heard river reeds before she learned court music. \"I am still learning,\" the child answered.",
+        "koLittle": "길 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "공주와 약꽃가 있는 옛이야기 길에서 길 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "공주와 약꽃가 있는 옛이야기 길에서 길 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the river basket and nurse, next, Bari heard river reeds before she learned court music. \"I am still learning,\" the child answered.",
+      "narrationScript": "공주와 약꽃가 있는 옛이야기 길에서 길 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Bari is sent away but kept safe by humble hands (cast away)",
+        "emotion": "lonely but held",
+        "pageTurnHook": "Then the next part of cast away will ask for a braver choice, and the story moves toward growing truth.",
+        "readAloudCue": "Read with lonely but held; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open river basket and nurse."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/bari_princess_part_1.character_bible.json. Page 6 for 바리공주 1 / Princess Bari Part 1: river basket and nurse; specific beat: Bari heard river reeds before she learned court music; emotional tone: lonely but held; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/bari-princess-part-1/page-006.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with lonely but held; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/bari-princess-part-1/ko/page-006.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/bari-princess-part-1/ambient/ambient-loop.wav",
+      "characterBible": "characters/bari_princess_part_1.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_006/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_006/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_006/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_006/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_006/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_006/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bari_princess_part_1_007",
+      "pageNumber": 7,
+      "text": {
+        "enLittle": "The nurse named every star so the child would know she belonged somewhere.",
+        "enStandard": "In the river basket and nurse, quietly, the nurse named every star so the child would know she belonged somewhere. \"Tell me the truth,\" someone said.",
+        "koLittle": "공주를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "공주와 약꽃가 있는 옛이야기 길에서 공주를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "공주와 약꽃가 있는 옛이야기 길에서 공주를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the river basket and nurse, quietly, the nurse named every star so the child would know she belonged somewhere. \"Tell me the truth,\" someone said.",
+      "narrationScript": "공주와 약꽃가 있는 옛이야기 길에서 공주를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Bari is sent away but kept safe by humble hands (cast away)",
+        "emotion": "lonely but held",
+        "pageTurnHook": "Then the next part of cast away will ask for a braver choice, and the story moves toward growing truth.",
+        "readAloudCue": "Read with lonely but held; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose river basket and nurse."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/bari_princess_part_1.character_bible.json. Page 7 for 바리공주 1 / Princess Bari Part 1: river basket and nurse; specific beat: the nurse named every star so the child would know she belonged somewhere; emotional tone: lonely but held; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/bari-princess-part-1/page-007.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with lonely but held; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/bari-princess-part-1/ko/page-007.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/bari-princess-part-1/ambient/ambient-loop.wav",
+      "characterBible": "characters/bari_princess_part_1.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_007/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_007/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_007/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_007/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_007/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_007/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bari_princess_part_1_008",
+      "pageNumber": 8,
+      "text": {
+        "enLittle": "A medicine flower grew near the doorstep.",
+        "enStandard": "In the river basket and nurse, with the moon high, a medicine flower grew near the doorstep. \"I will answer carefully,\" came the reply.",
+        "koLittle": "바리의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "공주와 약꽃가 있는 옛이야기 길에서 바리의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "공주와 약꽃가 있는 옛이야기 길에서 바리의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the river basket and nurse, with the moon high, a medicine flower grew near the doorstep. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "공주와 약꽃가 있는 옛이야기 길에서 바리의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Bari is sent away but kept safe by humble hands (cast away)",
+        "emotion": "lonely but held",
+        "pageTurnHook": "Then the next part of cast away will ask for a braver choice, and the story moves toward growing truth.",
+        "readAloudCue": "Read with lonely but held; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag river basket and nurse."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/bari_princess_part_1.character_bible.json. Page 8 for 바리공주 1 / Princess Bari Part 1: river basket and nurse; specific beat: a medicine flower grew near the doorstep; emotional tone: lonely but held; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/bari-princess-part-1/page-008.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with lonely but held; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/bari-princess-part-1/ko/page-008.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/bari-princess-part-1/ambient/ambient-loop.wav",
+      "characterBible": "characters/bari_princess_part_1.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_008/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_008/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_008/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_008/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_008/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_008/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bari_princess_part_1_009",
+      "pageNumber": 9,
+      "text": {
+        "enLittle": "Bari mended sleeves for travelers who never guessed her name.",
+        "enStandard": "In the humble cottage, first, Bari mended sleeves for travelers who never guessed her name. \"I am still learning,\" the child answered.",
+        "koLittle": "약꽃와 길가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "약꽃와 길가 있는 옛이야기 길에서 약꽃와 길가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "약꽃와 길가 있는 옛이야기 길에서 약꽃와 길가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the humble cottage, first, Bari mended sleeves for travelers who never guessed her name. \"I am still learning,\" the child answered.",
+      "narrationScript": "약꽃와 길가 있는 옛이야기 길에서 약꽃와 길가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "바리",
+          "en": "Bari",
+          "romanization": "Bari",
+          "definitionEn": "The princess who is cast away and chooses a quest.",
+          "definitionKo": "버려졌지만 길을 고르는 공주예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Bari grows and learns pieces of her origin (growing truth)",
+        "emotion": "questioning courage",
+        "pageTurnHook": "Then the next part of growing truth will ask for a braver choice, and the story moves toward return to palace.",
+        "readAloudCue": "Read with questioning courage; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap humble cottage."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/bari_princess_part_1.character_bible.json. Page 9 for 바리공주 1 / Princess Bari Part 1: humble cottage; specific beat: Bari mended sleeves for travelers who never guessed her name; emotional tone: questioning courage; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/bari-princess-part-1/page-009.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with questioning courage; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/bari-princess-part-1/ko/page-009.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/bari-princess-part-1/ambient/ambient-loop.wav",
+      "characterBible": "characters/bari_princess_part_1.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_009/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_009/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_009/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_009/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_009/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_009/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bari_princess_part_1_010",
+      "pageNumber": 10,
+      "text": {
+        "enLittle": "She asked why the palace drum made the nurse go quiet.",
+        "enStandard": "In the humble cottage, next, she asked why the palace drum made the nurse go quiet. \"Tell me the truth,\" someone said.",
+        "koLittle": "바리 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "약꽃와 길가 있는 옛이야기 길에서 바리 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "약꽃와 길가 있는 옛이야기 길에서 바리 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the humble cottage, next, she asked why the palace drum made the nurse go quiet. \"Tell me the truth,\" someone said.",
+      "narrationScript": "약꽃와 길가 있는 옛이야기 길에서 바리 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "공주",
+          "en": "princess",
+          "romanization": "gongju",
+          "definitionEn": "A royal daughter.",
+          "definitionKo": "임금의 딸이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Bari grows and learns pieces of her origin (growing truth)",
+        "emotion": "questioning courage",
+        "pageTurnHook": "Then the next part of growing truth will ask for a braver choice, and the story moves toward return to palace.",
+        "readAloudCue": "Read with questioning courage; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace humble cottage."
+      },
+      "refrain": "Bari walks, Bari chooses.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/bari_princess_part_1.character_bible.json. Page 10 for 바리공주 1 / Princess Bari Part 1: humble cottage; specific beat: she asked why the palace drum made the nurse go quiet; emotional tone: questioning courage; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/bari-princess-part-1/page-010.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with questioning courage; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/bari-princess-part-1/ko/page-010.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/bari-princess-part-1/ambient/ambient-loop.wav",
+      "characterBible": "characters/bari_princess_part_1.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_010/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_010/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_010/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_010/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_010/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_010/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "바리는 걷고, 바리는 고른다."
+    },
+    {
+      "id": "bari_princess_part_1_011",
+      "pageNumber": 11,
+      "text": {
+        "enLittle": "The old medicine flower leaned toward her like an answer.",
+        "enStandard": "In the humble cottage, quietly, the old medicine flower leaned toward her like an answer. \"I will answer carefully,\" came the reply.",
+        "koLittle": "약꽃를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "약꽃와 길가 있는 옛이야기 길에서 약꽃를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "약꽃와 길가 있는 옛이야기 길에서 약꽃를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the humble cottage, quietly, the old medicine flower leaned toward her like an answer. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "약꽃와 길가 있는 옛이야기 길에서 약꽃를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "바리",
+          "en": "Bari",
+          "romanization": "Bari",
+          "definitionEn": "The princess who is cast away and chooses a quest.",
+          "definitionKo": "버려졌지만 길을 고르는 공주예요."
+        },
+        {
+          "ko": "약꽃",
+          "en": "medicine flower",
+          "romanization": "yakkkot",
+          "definitionEn": "A healing flower in this adaptation.",
+          "definitionKo": "치유를 돕는 꽃이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Bari grows and learns pieces of her origin (growing truth)",
+        "emotion": "questioning courage",
+        "pageTurnHook": "Then the next part of growing truth will ask for a braver choice, and the story moves toward return to palace.",
+        "readAloudCue": "Read with questioning courage; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count humble cottage."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/bari_princess_part_1.character_bible.json. Page 11 for 바리공주 1 / Princess Bari Part 1: humble cottage; specific beat: the old medicine flower leaned toward her like an answer; emotional tone: questioning courage; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/bari-princess-part-1/page-011.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with questioning courage; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/bari-princess-part-1/ko/page-011.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/bari-princess-part-1/ambient/ambient-loop.wav",
+      "characterBible": "characters/bari_princess_part_1.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_011/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_011/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_011/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_011/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_011/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_011/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bari_princess_part_1_012",
+      "pageNumber": 12,
+      "text": {
+        "enLittle": "A messenger arrived with royal illness in his dust.",
+        "enStandard": "In the humble cottage, with the moon high, a messenger arrived with royal illness in his dust. \"Then walk gently,\" the elder said.",
+        "koLittle": "공주의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "약꽃와 길가 있는 옛이야기 길에서 공주의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "약꽃와 길가 있는 옛이야기 길에서 공주의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the humble cottage, with the moon high, a messenger arrived with royal illness in his dust. \"Then walk gently,\" the elder said.",
+      "narrationScript": "약꽃와 길가 있는 옛이야기 길에서 공주의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "공주",
+          "en": "princess",
+          "romanization": "gongju",
+          "definitionEn": "A royal daughter.",
+          "definitionKo": "임금의 딸이에요."
+        },
+        {
+          "ko": "길",
+          "en": "road",
+          "romanization": "gil",
+          "definitionEn": "A path for a journey.",
+          "definitionKo": "여정을 가는 길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Bari grows and learns pieces of her origin (growing truth)",
+        "emotion": "questioning courage",
+        "pageTurnHook": "Then the next part of growing truth will ask for a braver choice, and the story moves toward return to palace.",
+        "readAloudCue": "Read with questioning courage; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold humble cottage."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/bari_princess_part_1.character_bible.json. Page 12 for 바리공주 1 / Princess Bari Part 1: humble cottage; specific beat: a messenger arrived with royal illness in his dust; emotional tone: questioning courage; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/bari-princess-part-1/page-012.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with questioning courage; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/bari-princess-part-1/ko/page-012.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/bari-princess-part-1/ambient/ambient-loop.wav",
+      "characterBible": "characters/bari_princess_part_1.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_012/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_012/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_012/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_012/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_012/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_012/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bari_princess_part_1_013",
+      "pageNumber": 13,
+      "text": {
+        "enLittle": "The gate opened to the daughter it had once closed against.",
+        "enStandard": "In the palace gate, first, the gate opened to the daughter it had once closed against. \"Tell me the truth,\" someone said.",
+        "koLittle": "길와 바리가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "길와 바리가 있는 옛이야기 길에서 길와 바리가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "길와 바리가 있는 옛이야기 길에서 길와 바리가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the palace gate, first, the gate opened to the daughter it had once closed against. \"Tell me the truth,\" someone said.",
+      "narrationScript": "길와 바리가 있는 옛이야기 길에서 길와 바리가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "약꽃",
+          "en": "medicine flower",
+          "romanization": "yakkkot",
+          "definitionEn": "A healing flower in this adaptation.",
+          "definitionKo": "치유를 돕는 꽃이에요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Bari sees the parents who failed her (return to palace)",
+        "emotion": "wounded dignity",
+        "pageTurnHook": "Then the next part of return to palace will ask for a braver choice, and the story moves toward choosing quest.",
+        "readAloudCue": "Read with wounded dignity; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe palace gate."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/bari_princess_part_1.character_bible.json. Page 13 for 바리공주 1 / Princess Bari Part 1: palace gate; specific beat: the gate opened to the daughter it had once closed against; emotional tone: wounded dignity; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/bari-princess-part-1/page-013.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with wounded dignity; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/bari-princess-part-1/ko/page-013.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/bari-princess-part-1/ambient/ambient-loop.wav",
+      "characterBible": "characters/bari_princess_part_1.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_013/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_013/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_013/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_013/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_013/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_013/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bari_princess_part_1_014",
+      "pageNumber": 14,
+      "text": {
+        "enLittle": "The king's sickness made the hall quiet.",
+        "enStandard": "In the palace gate, next, the king's sickness made the hall quiet, but it did not erase the old wrong. \"I will answer carefully,\" came the reply.",
+        "koLittle": "공주 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "길와 바리가 있는 옛이야기 길에서 공주 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "길와 바리가 있는 옛이야기 길에서 공주 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the palace gate, next, the king's sickness made the hall quiet, but it did not erase the old wrong. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "길와 바리가 있는 옛이야기 길에서 공주 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "길",
+          "en": "road",
+          "romanization": "gil",
+          "definitionEn": "A path for a journey.",
+          "definitionKo": "여정을 가는 길이에요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Bari sees the parents who failed her (return to palace)",
+        "emotion": "wounded dignity",
+        "pageTurnHook": "Then the next part of return to palace will ask for a braver choice, and the story moves toward choosing quest.",
+        "readAloudCue": "Read with wounded dignity; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open palace gate."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/bari_princess_part_1.character_bible.json. Page 14 for 바리공주 1 / Princess Bari Part 1: palace gate; specific beat: the king's sickness made the hall quiet, but it did not erase the old wrong; emotional tone: wounded dignity; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/bari-princess-part-1/page-014.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with wounded dignity; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/bari-princess-part-1/ko/page-014.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/bari-princess-part-1/ambient/ambient-loop.wav",
+      "characterBible": "characters/bari_princess_part_1.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_014/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_014/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_014/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_014/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_014/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_014/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bari_princess_part_1_015",
+      "pageNumber": 15,
+      "text": {
+        "enLittle": "Bari bowed because she chose manners.",
+        "enStandard": "In the palace gate, quietly, Bari bowed because she chose manners, not because hurt had vanished. \"Then walk gently,\" the elder said.",
+        "koLittle": "길를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "길와 바리가 있는 옛이야기 길에서 길를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "길와 바리가 있는 옛이야기 길에서 길를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the palace gate, quietly, Bari bowed because she chose manners, not because hurt had vanished. \"Then walk gently,\" the elder said.",
+      "narrationScript": "길와 바리가 있는 옛이야기 길에서 길를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Bari sees the parents who failed her (return to palace)",
+        "emotion": "wounded dignity",
+        "pageTurnHook": "Then the next part of return to palace will ask for a braver choice, and the story moves toward choosing quest.",
+        "readAloudCue": "Read with wounded dignity; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose palace gate."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/bari_princess_part_1.character_bible.json. Page 15 for 바리공주 1 / Princess Bari Part 1: palace gate; specific beat: Bari bowed because she chose manners, not because hurt had vanished; emotional tone: wounded dignity; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/bari-princess-part-1/page-015.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with wounded dignity; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/bari-princess-part-1/ko/page-015.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/bari-princess-part-1/ambient/ambient-loop.wav",
+      "characterBible": "characters/bari_princess_part_1.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_015/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_015/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_015/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_015/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_015/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_015/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bari_princess_part_1_016",
+      "pageNumber": 16,
+      "text": {
+        "enLittle": "The queen wept into the same silk that had hidden the cradle.",
+        "enStandard": "In the palace gate, with the moon high, the queen wept into the same silk that had hidden the cradle. \"I am still learning,\" the child answered.",
+        "koLittle": "약꽃의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "길와 바리가 있는 옛이야기 길에서 약꽃의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "길와 바리가 있는 옛이야기 길에서 약꽃의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the palace gate, with the moon high, the queen wept into the same silk that had hidden the cradle. \"I am still learning,\" the child answered.",
+      "narrationScript": "길와 바리가 있는 옛이야기 길에서 약꽃의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Bari sees the parents who failed her (return to palace)",
+        "emotion": "wounded dignity",
+        "pageTurnHook": "Then the next part of return to palace will ask for a braver choice, and the story moves toward choosing quest.",
+        "readAloudCue": "Read with wounded dignity; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag palace gate."
+      },
+      "refrain": "Bari walks, Bari chooses.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/bari_princess_part_1.character_bible.json. Page 16 for 바리공주 1 / Princess Bari Part 1: palace gate; specific beat: the queen wept into the same silk that had hidden the cradle; emotional tone: wounded dignity; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/bari-princess-part-1/page-016.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with wounded dignity; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/bari-princess-part-1/ko/page-016.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/bari-princess-part-1/ambient/ambient-loop.wav",
+      "characterBible": "characters/bari_princess_part_1.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_016/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_016/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_016/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_016/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_016/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_016/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "바리는 걷고, 바리는 고른다."
+    },
+    {
+      "id": "bari_princess_part_1_017",
+      "pageNumber": 17,
+      "text": {
+        "enLittle": "Elders spoke of medicine water beyond the known road.",
+        "enStandard": "In the road shrine, first, elders spoke of medicine water beyond the known road. \"I will answer carefully,\" came the reply.",
+        "koLittle": "바리와 공주가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "바리와 공주가 있는 옛이야기 길에서 바리와 공주가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "바리와 공주가 있는 옛이야기 길에서 바리와 공주가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the road shrine, first, elders spoke of medicine water beyond the known road. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "바리와 공주가 있는 옛이야기 길에서 바리와 공주가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Bari chooses the healing quest with agency (choosing quest)",
+        "emotion": "brave resolve",
+        "pageTurnHook": "Then the next part of choosing quest will ask for a braver choice, and the story moves toward threshold.",
+        "readAloudCue": "Read with brave resolve; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap road shrine."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/bari_princess_part_1.character_bible.json. Page 17 for 바리공주 1 / Princess Bari Part 1: road shrine; specific beat: elders spoke of medicine water beyond the known road; emotional tone: brave resolve; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/bari-princess-part-1/page-017.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with brave resolve; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/bari-princess-part-1/ko/page-017.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/bari-princess-part-1/ambient/ambient-loop.wav",
+      "characterBible": "characters/bari_princess_part_1.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_017/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_017/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_017/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_017/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_017/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_017/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bari_princess_part_1_018",
+      "pageNumber": 18,
+      "text": {
+        "enLittle": "Bari asked what the journey would cost before giving her answer.",
+        "enStandard": "In the road shrine, next, Bari asked what the journey would cost before giving her answer. \"Then walk gently,\" the elder said.",
+        "koLittle": "약꽃 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "바리와 공주가 있는 옛이야기 길에서 약꽃 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "바리와 공주가 있는 옛이야기 길에서 약꽃 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the road shrine, next, Bari asked what the journey would cost before giving her answer. \"Then walk gently,\" the elder said.",
+      "narrationScript": "바리와 공주가 있는 옛이야기 길에서 약꽃 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Bari chooses the healing quest with agency (choosing quest)",
+        "emotion": "brave resolve",
+        "pageTurnHook": "Then the next part of choosing quest will ask for a braver choice, and the story moves toward threshold.",
+        "readAloudCue": "Read with brave resolve; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace road shrine."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/bari_princess_part_1.character_bible.json. Page 18 for 바리공주 1 / Princess Bari Part 1: road shrine; specific beat: Bari asked what the journey would cost before giving her answer; emotional tone: brave resolve; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/bari-princess-part-1/page-018.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with brave resolve; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/bari-princess-part-1/ko/page-018.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/bari-princess-part-1/ambient/ambient-loop.wav",
+      "characterBible": "characters/bari_princess_part_1.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_018/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_018/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_018/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_018/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_018/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_018/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bari_princess_part_1_019",
+      "pageNumber": 19,
+      "text": {
+        "enLittle": "She packed rice.",
+        "enStandard": "In the road shrine, quietly, she packed rice, thread, and the flower that had watched her grow. \"I am still learning,\" the child answered.",
+        "koLittle": "바리를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "바리와 공주가 있는 옛이야기 길에서 바리를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "바리와 공주가 있는 옛이야기 길에서 바리를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the road shrine, quietly, she packed rice, thread, and the flower that had watched her grow. \"I am still learning,\" the child answered.",
+      "narrationScript": "바리와 공주가 있는 옛이야기 길에서 바리를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "바리",
+          "en": "Bari",
+          "romanization": "Bari",
+          "definitionEn": "The princess who is cast away and chooses a quest.",
+          "definitionKo": "버려졌지만 길을 고르는 공주예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Bari chooses the healing quest with agency (choosing quest)",
+        "emotion": "brave resolve",
+        "pageTurnHook": "Then the next part of choosing quest will ask for a braver choice, and the story moves toward threshold.",
+        "readAloudCue": "Read with brave resolve; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count road shrine."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/bari_princess_part_1.character_bible.json. Page 19 for 바리공주 1 / Princess Bari Part 1: road shrine; specific beat: she packed rice, thread, and the flower that had watched her grow; emotional tone: brave resolve; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/bari-princess-part-1/page-019.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with brave resolve; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/bari-princess-part-1/ko/page-019.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/bari-princess-part-1/ambient/ambient-loop.wav",
+      "characterBible": "characters/bari_princess_part_1.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_019/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_019/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_019/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_019/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_019/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_019/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bari_princess_part_1_020",
+      "pageNumber": 20,
+      "text": {
+        "enLittle": "The nurse tied a ribbon that meant come back as yourself.",
+        "enStandard": "In the road shrine, with the moon high, the nurse tied a ribbon that meant come back as yourself. \"Tell me the truth,\" someone said.",
+        "koLittle": "길의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "바리와 공주가 있는 옛이야기 길에서 길의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "바리와 공주가 있는 옛이야기 길에서 길의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the road shrine, with the moon high, the nurse tied a ribbon that meant come back as yourself. \"Tell me the truth,\" someone said.",
+      "narrationScript": "바리와 공주가 있는 옛이야기 길에서 길의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "공주",
+          "en": "princess",
+          "romanization": "gongju",
+          "definitionEn": "A royal daughter.",
+          "definitionKo": "임금의 딸이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Bari chooses the healing quest with agency (choosing quest)",
+        "emotion": "brave resolve",
+        "pageTurnHook": "Then the next part of choosing quest will ask for a braver choice, and the story moves toward threshold.",
+        "readAloudCue": "Read with brave resolve; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold road shrine."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/bari_princess_part_1.character_bible.json. Page 20 for 바리공주 1 / Princess Bari Part 1: road shrine; specific beat: the nurse tied a ribbon that meant come back as yourself; emotional tone: brave resolve; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/bari-princess-part-1/page-020.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with brave resolve; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/bari-princess-part-1/ko/page-020.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/bari-princess-part-1/ambient/ambient-loop.wav",
+      "characterBible": "characters/bari_princess_part_1.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_020/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_020/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_020/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_020/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_020/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_020/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bari_princess_part_1_021",
+      "pageNumber": 21,
+      "text": {
+        "enLittle": "Elders spoke of medicine water beyond the known road.",
+        "enStandard": "In the road shrine, before dawn, elders spoke of medicine water beyond the known road. \"I will answer carefully,\" came the reply.",
+        "koLittle": "바리와 공주가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "바리와 공주가 있는 옛이야기 길에서 바리와 공주가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "바리와 공주가 있는 옛이야기 길에서 바리와 공주가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the road shrine, before dawn, elders spoke of medicine water beyond the known road. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "바리와 공주가 있는 옛이야기 길에서 바리와 공주가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "바리",
+          "en": "Bari",
+          "romanization": "Bari",
+          "definitionEn": "The princess who is cast away and chooses a quest.",
+          "definitionKo": "버려졌지만 길을 고르는 공주예요."
+        },
+        {
+          "ko": "약꽃",
+          "en": "medicine flower",
+          "romanization": "yakkkot",
+          "definitionEn": "A healing flower in this adaptation.",
+          "definitionKo": "치유를 돕는 꽃이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Bari chooses the healing quest with agency (choosing quest)",
+        "emotion": "brave resolve",
+        "pageTurnHook": "Then the next part of choosing quest will ask for a braver choice, and the story moves toward threshold.",
+        "readAloudCue": "Read with brave resolve; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe road shrine."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/bari_princess_part_1.character_bible.json. Page 21 for 바리공주 1 / Princess Bari Part 1: road shrine; specific beat: elders spoke of medicine water beyond the known road; emotional tone: brave resolve; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/bari-princess-part-1/page-021.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with brave resolve; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/bari-princess-part-1/ko/page-021.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/bari-princess-part-1/ambient/ambient-loop.wav",
+      "characterBible": "characters/bari_princess_part_1.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_021/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_021/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_021/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_021/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_021/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_021/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bari_princess_part_1_022",
+      "pageNumber": 22,
+      "text": {
+        "enLittle": "Bari looked back once.",
+        "enStandard": "In the mountain path, first, Bari looked back once, not for permission but for farewell. \"I am still learning,\" the child answered.",
+        "koLittle": "공주와 약꽃가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "공주와 약꽃가 있는 옛이야기 길에서 공주와 약꽃가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "공주와 약꽃가 있는 옛이야기 길에서 공주와 약꽃가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the mountain path, first, Bari looked back once, not for permission but for farewell. \"I am still learning,\" the child answered.",
+      "narrationScript": "공주와 약꽃가 있는 옛이야기 길에서 공주와 약꽃가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "공주",
+          "en": "princess",
+          "romanization": "gongju",
+          "definitionEn": "A royal daughter.",
+          "definitionKo": "임금의 딸이에요."
+        },
+        {
+          "ko": "길",
+          "en": "road",
+          "romanization": "gil",
+          "definitionEn": "A path for a journey.",
+          "definitionKo": "여정을 가는 길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Part 1 ends with Bari stepping into the healing road (threshold)",
+        "emotion": "hopeful ache",
+        "pageTurnHook": "Then the next part of threshold will ask for a braver choice, and the story moves toward threshold.",
+        "readAloudCue": "Read with hopeful ache; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open mountain path."
+      },
+      "refrain": "Bari walks, Bari chooses.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/bari_princess_part_1.character_bible.json. Page 22 for 바리공주 1 / Princess Bari Part 1: mountain path; specific beat: Bari looked back once, not for permission but for farewell; emotional tone: hopeful ache; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/bari-princess-part-1/page-022.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with hopeful ache; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/bari-princess-part-1/ko/page-022.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/bari-princess-part-1/ambient/ambient-loop.wav",
+      "characterBible": "characters/bari_princess_part_1.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_022/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_022/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_022/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_022/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_022/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_022/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "바리는 걷고, 바리는 고른다."
+    },
+    {
+      "id": "bari_princess_part_1_023",
+      "pageNumber": 23,
+      "text": {
+        "enLittle": "The medicine flower glowed when the first hard wind arrived.",
+        "enStandard": "In the mountain path, next, the medicine flower glowed when the first hard wind arrived. \"Tell me the truth,\" someone said.",
+        "koLittle": "길 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "공주와 약꽃가 있는 옛이야기 길에서 길 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "공주와 약꽃가 있는 옛이야기 길에서 길 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the mountain path, next, the medicine flower glowed when the first hard wind arrived. \"Tell me the truth,\" someone said.",
+      "narrationScript": "공주와 약꽃가 있는 옛이야기 길에서 길 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "약꽃",
+          "en": "medicine flower",
+          "romanization": "yakkkot",
+          "definitionEn": "A healing flower in this adaptation.",
+          "definitionKo": "치유를 돕는 꽃이에요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Part 1 ends with Bari stepping into the healing road (threshold)",
+        "emotion": "hopeful ache",
+        "pageTurnHook": "Then the next part of threshold will ask for a braver choice, and the story moves toward threshold.",
+        "readAloudCue": "Read with hopeful ache; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose mountain path."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/bari_princess_part_1.character_bible.json. Page 23 for 바리공주 1 / Princess Bari Part 1: mountain path; specific beat: the medicine flower glowed when the first hard wind arrived; emotional tone: hopeful ache; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/bari-princess-part-1/page-023.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with hopeful ache; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/bari-princess-part-1/ko/page-023.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/bari-princess-part-1/ambient/ambient-loop.wav",
+      "characterBible": "characters/bari_princess_part_1.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_023/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_023/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_023/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_023/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_023/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_023/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bari_princess_part_1_024",
+      "pageNumber": 24,
+      "text": {
+        "enLittle": "Palace and cottage both became small behind her.",
+        "enStandard": "In the mountain path, quietly, palace and cottage both became small behind her. \"I will answer carefully,\" came the reply.",
+        "koLittle": "공주를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "공주와 약꽃가 있는 옛이야기 길에서 공주를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "공주와 약꽃가 있는 옛이야기 길에서 공주를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the mountain path, quietly, palace and cottage both became small behind her. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "공주와 약꽃가 있는 옛이야기 길에서 공주를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "길",
+          "en": "road",
+          "romanization": "gil",
+          "definitionEn": "A path for a journey.",
+          "definitionKo": "여정을 가는 길이에요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Part 1 ends with Bari stepping into the healing road (threshold)",
+        "emotion": "hopeful ache",
+        "pageTurnHook": "Then the next part of threshold will ask for a braver choice, and the story moves toward threshold.",
+        "readAloudCue": "Read with hopeful ache; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag mountain path."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/bari_princess_part_1.character_bible.json. Page 24 for 바리공주 1 / Princess Bari Part 1: mountain path; specific beat: palace and cottage both became small behind her; emotional tone: hopeful ache; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/bari-princess-part-1/page-024.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with hopeful ache; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/bari-princess-part-1/ko/page-024.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/bari-princess-part-1/ambient/ambient-loop.wav",
+      "characterBible": "characters/bari_princess_part_1.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_024/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_024/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_024/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_024/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_024/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_024/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bari_princess_part_1_025",
+      "pageNumber": 25,
+      "text": {
+        "enLittle": "Her footsteps sounded like a name being reclaimed.",
+        "enStandard": "In the mountain path, with the moon high, her footsteps sounded like a name being reclaimed. \"Then walk gently,\" the elder said.",
+        "koLittle": "바리의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "공주와 약꽃가 있는 옛이야기 길에서 바리의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "공주와 약꽃가 있는 옛이야기 길에서 바리의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the mountain path, with the moon high, her footsteps sounded like a name being reclaimed. \"Then walk gently,\" the elder said.",
+      "narrationScript": "공주와 약꽃가 있는 옛이야기 길에서 바리의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Part 1 ends with Bari stepping into the healing road (threshold)",
+        "emotion": "hopeful ache",
+        "pageTurnHook": "Then the next part of threshold will ask for a braver choice, and the story moves toward threshold.",
+        "readAloudCue": "Read with hopeful ache; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap mountain path."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/bari_princess_part_1.character_bible.json. Page 25 for 바리공주 1 / Princess Bari Part 1: mountain path; specific beat: her footsteps sounded like a name being reclaimed; emotional tone: hopeful ache; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/bari-princess-part-1/page-025.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with hopeful ache; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/bari-princess-part-1/ko/page-025.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/bari-princess-part-1/ambient/ambient-loop.wav",
+      "characterBible": "characters/bari_princess_part_1.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_025/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_025/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_025/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_025/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_025/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_025/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "bari_princess_part_1_026",
+      "pageNumber": 26,
+      "text": {
+        "enLittle": "Bari looked back once.",
+        "enStandard": "In the mountain path, before dawn, Bari looked back once, not for permission but for farewell. \"I am still learning,\" the child answered.",
+        "koLittle": "공주와 약꽃가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "공주와 약꽃가 있는 옛이야기 길에서 공주와 약꽃가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "공주와 약꽃가 있는 옛이야기 길에서 공주와 약꽃가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the mountain path, before dawn, Bari looked back once, not for permission but for farewell. \"I am still learning,\" the child answered.",
+      "narrationScript": "공주와 약꽃가 있는 옛이야기 길에서 공주와 약꽃가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "Part 1 ends with Bari stepping into the healing road (threshold)",
+        "emotion": "hopeful ache",
+        "pageTurnHook": "Then the next part of threshold will ask for a braver choice, and the story moves toward threshold.",
+        "readAloudCue": "Read with hopeful ache; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace mountain path."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/bari_princess_part_1.character_bible.json. Page 26 for 바리공주 1 / Princess Bari Part 1: mountain path; specific beat: Bari looked back once, not for permission but for farewell; emotional tone: hopeful ache; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/bari-princess-part-1/page-026.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with hopeful ache; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/bari-princess-part-1/ko/page-026.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/bari-princess-part-1/ambient/ambient-loop.wav",
+      "characterBible": "characters/bari_princess_part_1.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_026/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_026/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_026/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_026/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_026/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/bari-princess-part-1/bari_princess_part_1_026/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    }
+  ]
+}

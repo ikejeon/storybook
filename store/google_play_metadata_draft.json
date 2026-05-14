@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedOn": "2026-05-11",
+  "status": "draft_not_submitted",
+  "appName": "Moon Jar Stories",
+  "shortDescriptionDraft": "Calm Korean folktales for bilingual family storytime.",
+  "fullDescriptionDraft": "Moon Jar Stories brings Korean folktales into a calm picture-book reader for families. Start with English-first storytelling, switch to Korean text, listen to packaged narration, and read without ads, child accounts, child-facing external links, or live generation in the child app.",
+  "category": "Books & Reference",
+  "familyPolicyCandidate": true,
+  "contentRatingStatus": "not_submitted",
+  "featureGraphicStatus": "missing_final",
+  "screenshots": {
+    "status": "smoke_artifacts_exist_but_store_final_screenshots_missing",
+    "currentEvidence": [
+      ".agent/tmp/artifacts/android-smoke-launch.png"
+    ],
+    "storeReady": false
+  },
+  "dataSafetySource": "store/privacy_labels_draft.json",
+  "subscriptionDisclosuresStatus": "draft_needed_after_real_store_products",
+  "submissionStatus": "blocked"
+}

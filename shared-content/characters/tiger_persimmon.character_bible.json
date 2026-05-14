@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.0.0",
+  "bookId": "book.tiger_persimmon",
+  "slug": "tiger-and-persimmon",
+  "title": {
+    "ko": "호랑이와 곶감",
+    "en": "The Tiger and the Persimmon"
+  },
+  "characterSheetPrompt": "Create a production character sheet for The Tiger and the Persimmon in premium Korean watercolor, gouache, and soft ink. Show the boastful harmless tiger, mother, baby, traveler, persimmon tree, dried persimmons, cottage interior, and moonlit yard. The comedy should be clear, warm, and bedtime-safe.",
+  "mainCharacterDescriptions": [
+    {
+      "id": "tiger",
+      "description": "Boastful but harmless Korean folktale tiger with oversized reactions, rounded paws, expressive ears, and a proud chest that deflates comically.",
+      "recurringOutfitAndColors": "Orange fur, soft charcoal stripes, cream muzzle, round ears.",
+      "continuityNotes": "His ears and tail show emotional shifts: high for proud, flattened for nervous, curled for comic relief."
+    },
+    {
+      "id": "mother",
+      "description": "Korean mother in a cozy cottage, patient and soothing with her baby, practical and calm.",
+      "recurringOutfitAndColors": "Soft blue-gray hanbok, ivory sleeves, warm brown hair tied simply.",
+      "continuityNotes": "Usually framed by warm indoor light and household textures."
+    },
+    {
+      "id": "baby",
+      "description": "Korean baby wrapped in a small quilt, expressive face, easily soothed by dried persimmon.",
+      "recurringOutfitAndColors": "Ivory quilt with lotus-pink binding and tiny jade stitches.",
+      "continuityNotes": "No readable distress beyond ordinary baby fussing; quickly returns to calm."
+    },
+    {
+      "id": "traveler",
+      "description": "Friendly night traveler with a simple pack and brimmed hat, good-humored and surprised rather than heroic.",
+      "recurringOutfitAndColors": "Muted indigo outer coat, straw hat, small brown bundle.",
+      "continuityNotes": "Silhouette must remain gentle and non-threatening in moonlit scenes."
+    },
+    {
+      "id": "persimmon_tree",
+      "description": "Warm recurring tree with orange persimmons and drying fruit strings, central to the comedy.",
+      "recurringOutfitAndColors": "Persimmon orange, jade leaves, dark brown branches.",
+      "continuityNotes": "Dried persimmons should be small, warm, and visually distinct from lanterns."
+    }
+  ],
+  "styleRules": [
+    "Comedy over suspense.",
+    "Baby should never look endangered.",
+    "The tiger can be proud and startled but never predatory.",
+    "Use warm cottage light against cool moonlight.",
+    "Dried persimmons are the visual punchline and should recur clearly."
+  ],
+  "forbiddenVisualElements": [
+    "Scary roaring tiger",
+    "Baby in danger",
+    "Sharp teeth emphasis",
+    "Horror shadows",
+    "Modern furniture",
+    "Alcohol, weapons, or chase violence"
+  ],
+  "sceneContinuityNotes": [
+    "Keep the cottage window and persimmon strings consistent.",
+    "Use the same moonlit yard and tree silhouette across night scenes.",
+    "Tiger fear should be shown through ears, eyes, and posture.",
+    "The traveler's pack and hat identify him in distant compositions.",
+    "Final scenes should feel playful and relieved."
+  ],
+  "promptPrefix": "Global style bible shared-content/style/moonjar_style_bible.json. Reference character bible shared-content/characters/tiger_persimmon.character_bible.json. Maintain exact character designs, outfit colors, recurring objects, child-safe tone, and scene continuity for The Tiger and the Persimmon.",
+  "styleBible": "style/moonjar_style_bible.json",
+  "masterArtStylePrompt": "Illustrate 호랑이와 곶감 / The Tiger and the Persimmon as a premium Korean watercolor, gouache, and soft ink picture book with hanji texture, warm lantern light, deep indigo, moon ivory, persimmon, jade, lotus pink, and muted gold. Keep the mood culturally respectful, cozy, and bedtime-safe.",
+  "perCharacterVisualIdentity": [
+    {
+      "id": "tiger",
+      "identityLock": "Boastful but harmless Korean folktale tiger with oversized reactions, rounded paws, expressive ears, and a proud chest that deflates comically.",
+      "recurringOutfitAndColors": "Orange fur, soft charcoal stripes, cream muzzle, round ears.",
+      "continuityAnchor": "His ears and tail show emotional shifts: high for proud, flattened for nervous, curled for comic relief."
+    },
+    {
+      "id": "mother",
+      "identityLock": "Korean mother in a cozy cottage, patient and soothing with her baby, practical and calm.",
+      "recurringOutfitAndColors": "Soft blue-gray hanbok, ivory sleeves, warm brown hair tied simply.",
+      "continuityAnchor": "Usually framed by warm indoor light and household textures."
+    },
+    {
+      "id": "baby",
+      "identityLock": "Korean baby wrapped in a small quilt, expressive face, easily soothed by dried persimmon.",
+      "recurringOutfitAndColors": "Ivory quilt with lotus-pink binding and tiny jade stitches.",
+      "continuityAnchor": "No readable distress beyond ordinary baby fussing; quickly returns to calm."
+    },
+    {
+      "id": "traveler",
+      "identityLock": "Friendly night traveler with a simple pack and brimmed hat, good-humored and surprised rather than heroic.",
+      "recurringOutfitAndColors": "Muted indigo outer coat, straw hat, small brown bundle.",
+      "continuityAnchor": "Silhouette must remain gentle and non-threatening in moonlit scenes."
+    },
+    {
+      "id": "persimmon_tree",
+      "identityLock": "Warm recurring tree with orange persimmons and drying fruit strings, central to the comedy.",
+      "recurringOutfitAndColors": "Persimmon orange, jade leaves, dark brown branches.",
+      "continuityAnchor": "Dried persimmons should be small, warm, and visually distinct from lanterns."
+    }
+  ],
+  "outfitRules": [
+    "Never change a main character outfit color within the same book unless the story explicitly calls for a transformation.",
+    "Use historically inspired Korean clothing shapes without turning them into costume caricature.",
+    "Children should keep the same hair shape, face shape, and outfit palette from scene to scene."
+  ],
+  "colorPalette": [
+    "deep indigo ink",
+    "moon ivory",
+    "warm hanji cream",
+    "persimmon",
+    "jade leaf",
+    "lotus pink",
+    "muted lantern gold"
+  ],
+  "facialExpressionRules": [
+    "Children can look curious, brave, surprised, sleepy, or relieved, but never terrified.",
+    "Adults should read as warm, practical, or gently concerned rather than panicked.",
+    "Tigers and magical figures should use round, comic, readable expressions for ages 3-8."
+  ],
+  "ageBodyProportionRules": [
+    "Children have childlike proportions: round cheeks, shorter limbs, smaller shoulders, and age-appropriate posture.",
+    "Adults have calm, grounded proportions and never glamour poses.",
+    "Animal characters should be soft-edged and expressive, not anatomically threatening."
+  ],
+  "doNotChangeRules": [
+    "Do not change recurring outfit colors, hair shapes, face shapes, or key props.",
+    "Do not introduce modern objects, logos, printed text, or Western fantasy costumes.",
+    "Do not make the visual tone darker than the child-safe retelling."
+  ],
+  "recurringObjectRules": [
+    "Keep important story props visually consistent after first appearance.",
+    "Use props as continuity anchors between scenes and in cover art.",
+    "When a prop becomes animated, preserve its color, scale, and silhouette."
+  ],
+  "negativePrompt": "photorealism, horror lighting, blood, injury, sharp claws, teeth emphasis, weapons, modern architecture, modern logos, text, watermark, distorted hands, inconsistent outfits, adult-like children",
+  "characterSheetAsset": "assets/generated-draft/images/character-sheets/tiger-and-persimmon.png",
+  "characterArtManifest": "assets/manifests/character_art_manifest.json",
+  "characterConsistencyStatus": "generated_reviewed_story_specific_internal_demo",
+  "productionCharacterPackStatus": "generated_reviewed_internal_demo_not_commissioned_final",
+  "visualAnchorEvidence": {
+    "characterSheetAsset": "assets/generated-draft/images/character-sheets/tiger-and-persimmon.png",
+    "sceneArtRenderer": "local_story_specific_svg_renderer",
+    "sceneArtModel": "moonjar_story_specific_painterly_svg_v3",
+    "storySpecificArt": true,
+    "placeholderLike": false
+  },
+  "characterDesignLocks": {
+    "figures": [
+      "parent",
+      "child",
+      "tiger"
+    ],
+    "recurringProp": "persimmon",
+    "environment": "village_persimmon_tree",
+    "palette": [
+      "#22315c",
+      "#d85c2f",
+      "#f0b23a",
+      "#31745d",
+      "#7c5535"
+    ],
+    "doNotChange": [
+      "Keep figure silhouettes, palette, recurring prop, and environment motif stable across the book.",
+      "Do not replace story-specific art with abstract stripe/block placeholders.",
+      "Do not mark generated internal-demo art as commissioned_final."
+    ]
+  }
+}

@@ -1,0 +1,2344 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "book.gold_silver_axe",
+  "slug": "gold-axe-silver-axe",
+  "title": {
+    "ko": "금도끼 은도끼",
+    "en": "The Gold Axe and Silver Axe",
+    "romanization": "Geum Dokki Eun Dokki"
+  },
+  "access": "free",
+  "ageRange": "3-8",
+  "estimatedMinutes": 8,
+  "summary": "A humble woodcutter loses his father’s old iron axe and chooses honesty when a mountain spirit offers shining gold and silver instead.",
+  "sensitivityNotes": [
+    "No physical danger beyond a dropped tool.",
+    "Greed is corrected through a gentle lesson."
+  ],
+  "themes": [
+    "honesty",
+    "gratitude",
+    "nature",
+    "humility"
+  ],
+  "characters": [
+    "woodcutter",
+    "stream_spirit",
+    "neighbor",
+    "pine_forest"
+  ],
+  "pages": [
+    {
+      "id": "gold_silver_axe_001",
+      "pageNumber": 1,
+      "text": {
+        "enLittle": "Long ago, in a blue-green valley, a woodcutter polished an old iron axe every morning.",
+        "enStandard": "Long ago, in a blue-green valley, a woodcutter polished an old iron axe every morning. It had belonged to his father, and it fit his hands like a memory.",
+        "koLittle": "옛날 푸른 골짜기에 나무꾼이 살았어요.",
+        "koStandard": "옛날 푸른 골짜기에 나무꾼이 살았어요. 그는 아침마다 낡은 쇠도끼를 닦았지요. 그 도끼는 아버지가 쓰던 것이어서 손에 추억처럼 꼭 맞았어요."
+      },
+      "koreanText": "옛날 푸른 골짜기에 나무꾼이 살았어요. 그는 아침마다 낡은 쇠도끼를 닦았지요. 그 도끼는 아버지가 쓰던 것이어서 손에 추억처럼 꼭 맞았어요.",
+      "englishText": "Long ago, in a blue-green valley, a woodcutter polished an old iron axe every morning. It had belonged to his father, and it fit his hands like a memory.",
+      "narrationScript": "옛날 푸른 골짜기에 나무꾼이 살았어요. 그는 아침마다 낡은 쇠도끼를 닦았지요. 그 도끼는 아버지가 쓰던 것이어서 손에 추억처럼 꼭 맞았어요.",
+      "vocabulary": [
+        {
+          "ko": "도끼",
+          "en": "axe",
+          "romanization": "dokki",
+          "definitionEn": "A tool used to chop wood.",
+          "definitionKo": "나무를 자를 때 쓰는 도구예요."
+        },
+        {
+          "ko": "쇠도끼",
+          "en": "iron axe",
+          "romanization": "soedokki",
+          "definitionEn": "A plain strong axe made of iron.",
+          "definitionKo": "쇠로 만든 튼튼하고 낡은 도끼예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "warmth",
+        "emotion": "quiet affection",
+        "pageTurnHook": "The old axe matters before it is lost. The pond is about to ask whether an old tool can still matter most.",
+        "readAloudCue": "Read with gentle and honest, with quiet temptation, warm relief, and respect for the old iron axe; keep pauses clear and musical. slow, respectful",
+        "childInteraction": "Tap the axe handle."
+      },
+      "imagePrompt": "Kind Korean woodcutter polishing old iron axe by cottage, valley morning, tool feels cherished not fancy Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with quiet affection; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: slow, respectful",
+      "animation": {
+        "type": "forestMorning",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_001/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_001/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_001/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_001/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "forestMorning",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_001/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_001/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/gold-axe-silver-axe/page-001.png",
+      "imageSource": "assets/books/gold-axe-silver-axe/page-001.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/gold-axe-silver-axe/ko/page-001.wav",
+      "ambientAudio": "audio/books/gold-axe-silver-axe/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/gold_silver_axe.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "gold_silver_axe_002",
+      "pageNumber": 2,
+      "text": {
+        "enLittle": "He used the axe only for fallen branches and trees already ready to give wood.",
+        "enStandard": "He used the axe only for fallen branches and trees already ready to give wood. “Take only what you need,” he told the forest.",
+        "koLittle": "나무꾼은 쓰러진 가지와 때가 된 나무만 베었어요.",
+        "koStandard": "나무꾼은 쓰러진 가지와 때가 된 나무만 베었어요. “필요한 만큼만 가져갈게요.” 그는 숲에 조용히 말했지요."
+      },
+      "koreanText": "나무꾼은 쓰러진 가지와 때가 된 나무만 베었어요. “필요한 만큼만 가져갈게요.” 그는 숲에 조용히 말했지요.",
+      "englishText": "He used the axe only for fallen branches and trees already ready to give wood. “Take only what you need,” he told the forest.",
+      "narrationScript": "나무꾼은 쓰러진 가지와 때가 된 나무만 베었어요. “필요한 만큼만 가져갈게요.” 그는 숲에 조용히 말했지요.",
+      "vocabulary": [
+        {
+          "ko": "소나무",
+          "en": "pine tree",
+          "romanization": "sonamu",
+          "definitionEn": "An evergreen tree common in Korean mountain stories.",
+          "definitionKo": "사철 푸른 잎을 가진 나무예요."
+        },
+        {
+          "ko": "도끼",
+          "en": "axe",
+          "romanization": "dokki",
+          "definitionEn": "A tool used to chop wood.",
+          "definitionKo": "나무를 자를 때 쓰는 도구예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "character",
+        "emotion": "respectful care",
+        "pageTurnHook": "The forest is treated as a neighbor. The pond is about to ask whether an old tool can still matter most.",
+        "readAloudCue": "Read with gentle and honest, with quiet temptation, warm relief, and respect for the old iron axe; keep pauses clear and musical. gentle, grounded",
+        "childInteraction": "Tap the fallen branch."
+      },
+      "imagePrompt": "Woodcutter gathering fallen branches respectfully in Korean forest, soft morning light, old axe at belt Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with respectful care; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: gentle, grounded",
+      "animation": {
+        "type": "leafSwirl",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_002/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_002/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_002/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_002/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "leafSwirl",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_002/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_002/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/gold-axe-silver-axe/page-002.png",
+      "imageSource": "assets/books/gold-axe-silver-axe/page-002.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/gold-axe-silver-axe/ko/page-002.wav",
+      "ambientAudio": "audio/books/gold-axe-silver-axe/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/gold_silver_axe.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "gold_silver_axe_003",
+      "pageNumber": 3,
+      "text": {
+        "enLittle": "His old axe slipped into the pond — plunk!",
+        "enStandard": "One misty day, his axe slipped — plunk! Down it sank into the pond, taking his work, his memory, and his supper with it.",
+        "koLittle": "낡은 도끼가 연못에 풍덩 빠졌어요.",
+        "koStandard": "안개 낀 어느 날, 도끼가 손에서 미끄러졌어요. 풍덩! 도끼는 일거리와 추억과 저녁 밥걱정까지 데리고 연못 속으로 가라앉았지요."
+      },
+      "koreanText": "안개 낀 어느 날, 도끼가 손에서 미끄러졌어요. 풍덩! 도끼는 일거리와 추억과 저녁 밥걱정까지 데리고 연못 속으로 가라앉았지요.",
+      "englishText": "One misty day, his axe slipped — plunk! Down it sank into the pond, taking his work, his memory, and his supper with it.",
+      "narrationScript": "안개 낀 어느 날, 도끼가 손에서 미끄러졌어요. 풍덩! 도끼는 일거리와 추억과 저녁 밥걱정까지 데리고 연못 속으로 가라앉았지요.",
+      "vocabulary": [
+        {
+          "ko": "연못",
+          "en": "pond",
+          "romanization": "yeonmot",
+          "definitionEn": "A small still body of water.",
+          "definitionKo": "물이 고여 있는 작은 못이에요."
+        },
+        {
+          "ko": "도끼",
+          "en": "axe",
+          "romanization": "dokki",
+          "definitionEn": "A tool used to chop wood.",
+          "definitionKo": "나무를 자를 때 쓰는 도구예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "problem",
+        "emotion": "loss",
+        "pageTurnHook": "The axe disappears. The pond is about to ask whether an old tool can still matter most.",
+        "readAloudCue": "Read with gentle and honest, with quiet temptation, warm relief, and respect for the old iron axe; keep pauses clear and musical. clear plunk sound",
+        "childInteraction": "Tap the ripple."
+      },
+      "imagePrompt": "Old iron axe slipping into quiet pond, ripples spreading, woodcutter startled but gentle, misty Korean mountain pond Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with loss; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: clear plunk sound",
+      "animation": {
+        "type": "splashRipple",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_003/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_003/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_003/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_003/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "splashRipple",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_003/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_003/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/gold-axe-silver-axe/page-003.png",
+      "imageSource": "assets/books/gold-axe-silver-axe/page-003.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/gold-axe-silver-axe/ko/page-003.wav",
+      "ambientAudio": "audio/books/gold-axe-silver-axe/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/gold_silver_axe.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "gold_silver_axe_004",
+      "pageNumber": 4,
+      "text": {
+        "enLittle": "The woodcutter knelt by the water.",
+        "enStandard": "The woodcutter knelt by the water. “Old friend,” he whispered, “how will I bring you home?”",
+        "koLittle": "나무꾼은 연못가에 무릎을 꿇었어요.",
+        "koStandard": "나무꾼은 연못가에 무릎을 꿇었어요. “오랜 친구야.” 그가 속삭였어요. “어떻게 널 집에 데려가지?”"
+      },
+      "koreanText": "나무꾼은 연못가에 무릎을 꿇었어요. “오랜 친구야.” 그가 속삭였어요. “어떻게 널 집에 데려가지?”",
+      "englishText": "The woodcutter knelt by the water. “Old friend,” he whispered, “how will I bring you home?”",
+      "narrationScript": "나무꾼은 연못가에 무릎을 꿇었어요. “오랜 친구야.” 그가 속삭였어요. “어떻게 널 집에 데려가지?”",
+      "vocabulary": [
+        {
+          "ko": "연못",
+          "en": "pond",
+          "romanization": "yeonmot",
+          "definitionEn": "A small still body of water.",
+          "definitionKo": "물이 고여 있는 작은 못이에요."
+        },
+        {
+          "ko": "쇠도끼",
+          "en": "iron axe",
+          "romanization": "soedokki",
+          "definitionEn": "A plain strong axe made of iron.",
+          "definitionKo": "쇠로 만든 튼튼하고 낡은 도끼예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "emotion",
+        "emotion": "sad tenderness",
+        "pageTurnHook": "He speaks to the axe like a friend. The pond is about to ask whether an old tool can still matter most.",
+        "readAloudCue": "Read with gentle and honest, with quiet temptation, warm relief, and respect for the old iron axe; keep pauses clear and musical. quiet sadness",
+        "childInteraction": "Tap the pond reflection."
+      },
+      "imagePrompt": "Woodcutter kneeling beside pond, reflection shimmering, old axe unseen below, emotional but simple Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with sad tenderness; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: quiet sadness",
+      "animation": {
+        "type": "reflectionShimmer",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_004/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_004/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_004/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_004/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "reflectionShimmer",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_004/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_004/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/gold-axe-silver-axe/page-004.png",
+      "imageSource": "assets/books/gold-axe-silver-axe/page-004.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/gold-axe-silver-axe/ko/page-004.wav",
+      "ambientAudio": "audio/books/gold-axe-silver-axe/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/gold_silver_axe.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "gold_silver_axe_005",
+      "pageNumber": 5,
+      "text": {
+        "enLittle": "The pond began to shine.",
+        "enStandard": "The pond began to shine. Up rose a mountain spirit with sleeves like mist and eyes as kind as old stones.",
+        "koLittle": "연못이 은은히 빛나기 시작했어요.",
+        "koStandard": "연못이 은은히 빛나기 시작했어요. 안개 같은 소매와 오래된 돌처럼 다정한 눈을 가진 산신령이 물 위로 올라왔지요."
+      },
+      "koreanText": "연못이 은은히 빛나기 시작했어요. 안개 같은 소매와 오래된 돌처럼 다정한 눈을 가진 산신령이 물 위로 올라왔지요.",
+      "englishText": "The pond began to shine. Up rose a mountain spirit with sleeves like mist and eyes as kind as old stones.",
+      "narrationScript": "연못이 은은히 빛나기 시작했어요. 안개 같은 소매와 오래된 돌처럼 다정한 눈을 가진 산신령이 물 위로 올라왔지요.",
+      "vocabulary": [
+        {
+          "ko": "산신령",
+          "en": "mountain spirit",
+          "romanization": "sansillyeong",
+          "definitionEn": "A wise spirit from Korean mountain tales.",
+          "definitionKo": "산을 지키는 지혜로운 존재예요."
+        },
+        {
+          "ko": "연못",
+          "en": "pond",
+          "romanization": "yeonmot",
+          "definitionEn": "A small still body of water.",
+          "definitionKo": "물이 고여 있는 작은 못이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "wonder",
+        "emotion": "awe",
+        "pageTurnHook": "Someone magical appears. The pond is about to ask whether an old tool can still matter most.",
+        "readAloudCue": "Read with gentle and honest, with quiet temptation, warm relief, and respect for the old iron axe; keep pauses clear and musical. hushed wonder",
+        "childInteraction": "Tap the glowing water."
+      },
+      "imagePrompt": "Mountain spirit rising from pond, mist sleeves, Korean ink-wash magic, respectful and child-safe Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with awe; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: hushed wonder",
+      "animation": {
+        "type": "spiritAppear",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_005/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_005/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_005/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_005/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "spiritAppear",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_005/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_005/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/gold-axe-silver-axe/page-005.png",
+      "imageSource": "assets/books/gold-axe-silver-axe/page-005.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/gold-axe-silver-axe/ko/page-005.wav",
+      "ambientAudio": "audio/books/gold-axe-silver-axe/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/gold_silver_axe.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "gold_silver_axe_006",
+      "pageNumber": 6,
+      "text": {
+        "enLittle": "“Did you drop this?” asked the spirit, lifting an axe of gold.",
+        "enStandard": "“Did you drop this?” asked the spirit, lifting an axe of gold. It shone so brightly the woodcutter forgot to breathe for one small blink.",
+        "koLittle": "“이 도끼를 빠뜨렸느냐?” 산신령이 금도끼를 들어 보였어요.",
+        "koStandard": "“이 도끼를 빠뜨렸느냐?” 산신령이 금도끼를 들어 보였어요. 너무 반짝여서 나무꾼은 아주 잠깐 숨 쉬는 것도 잊었지요."
+      },
+      "koreanText": "“이 도끼를 빠뜨렸느냐?” 산신령이 금도끼를 들어 보였어요. 너무 반짝여서 나무꾼은 아주 잠깐 숨 쉬는 것도 잊었지요.",
+      "englishText": "“Did you drop this?” asked the spirit, lifting an axe of gold. It shone so brightly the woodcutter forgot to breathe for one small blink.",
+      "narrationScript": "“이 도끼를 빠뜨렸느냐?” 산신령이 금도끼를 들어 보였어요. 너무 반짝여서 나무꾼은 아주 잠깐 숨 쉬는 것도 잊었지요.",
+      "vocabulary": [
+        {
+          "ko": "금",
+          "en": "gold",
+          "romanization": "geum",
+          "definitionEn": "A shiny yellow precious metal.",
+          "definitionKo": "노랗게 반짝이는 귀한 금속이에요."
+        },
+        {
+          "ko": "도끼",
+          "en": "axe",
+          "romanization": "dokki",
+          "definitionEn": "A tool used to chop wood.",
+          "definitionKo": "나무를 자를 때 쓰는 도구예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "temptation",
+        "emotion": "brief wonder",
+        "pageTurnHook": "The first test begins. A brighter axe appears, but the honest answer matters more than shine.",
+        "readAloudCue": "Read with gentle and honest, with quiet temptation, warm relief, and respect for the old iron axe; keep pauses clear and musical. let the shine dazzle",
+        "childInteraction": "Tap the gold glint."
+      },
+      "imagePrompt": "Mountain spirit holding radiant gold axe over pond, woodcutter momentarily dazzled, warm gold light Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark. Emphasize quiet temptation and the choice to stay honest about the old iron axe.",
+      "audioPrompt": "English-first warm professional picture-book narration with brief wonder; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: let the shine dazzle",
+      "animation": {
+        "type": "goldGlint",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_006/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_006/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_006/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_006/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "goldGlint",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_006/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_006/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/gold-axe-silver-axe/page-006.png",
+      "imageSource": "assets/books/gold-axe-silver-axe/page-006.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/gold-axe-silver-axe/ko/page-006.wav",
+      "ambientAudio": "audio/books/gold-axe-silver-axe/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/gold_silver_axe.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "gold_silver_axe_007",
+      "pageNumber": 7,
+      "text": {
+        "enLittle": "Then he looked at his hands.",
+        "enStandard": "Then he looked at his hands. They remembered the weight of the old iron axe. “No, thank you. My axe is the old iron one.”",
+        "koLittle": "그러다 그는 자기 손을 내려다보았어요.",
+        "koStandard": "그러다 그는 자기 손을 내려다보았어요. 그 손은 낡은 쇠도끼의 무게를 기억하고 있었지요. “아닙니다. 제 도끼는 낡은 쇠도끼입니다.”"
+      },
+      "koreanText": "그러다 그는 자기 손을 내려다보았어요. 그 손은 낡은 쇠도끼의 무게를 기억하고 있었지요. “아닙니다. 제 도끼는 낡은 쇠도끼입니다.”",
+      "englishText": "Then he looked at his hands. They remembered the weight of the old iron axe. “No, thank you. My axe is the old iron one.”",
+      "narrationScript": "그러다 그는 자기 손을 내려다보았어요. 그 손은 낡은 쇠도끼의 무게를 기억하고 있었지요. “아닙니다. 제 도끼는 낡은 쇠도끼입니다.”",
+      "refrain": "No, thank you. My axe is the old iron one.",
+      "vocabulary": [
+        {
+          "ko": "쇠도끼",
+          "en": "iron axe",
+          "romanization": "soedokki",
+          "definitionEn": "A plain strong axe made of iron.",
+          "definitionKo": "쇠로 만든 튼튼하고 낡은 도끼예요."
+        },
+        {
+          "ko": "정직",
+          "en": "honesty",
+          "romanization": "jeongjik",
+          "definitionEn": "Telling the truth even when it is hard.",
+          "definitionKo": "어려워도 사실대로 말하는 마음이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "choice",
+        "emotion": "steady honesty",
+        "pageTurnHook": "The refrain begins. A brighter axe appears, but the honest answer matters more than shine.",
+        "readAloudCue": "Read with gentle and honest, with quiet temptation, warm relief, and respect for the old iron axe; keep pauses clear and musical. clear repeated line",
+        "childInteraction": "Tap his hands."
+      },
+      "imagePrompt": "Woodcutter looking at honest hands, gold axe nearby, pond glow soft, humble Korean folktale mood Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with steady honesty; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: clear repeated line",
+      "animation": {
+        "type": "honestPause",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_007/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_007/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_007/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_007/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "honestPause",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_007/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_007/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/gold-axe-silver-axe/page-007.png",
+      "imageSource": "assets/books/gold-axe-silver-axe/page-007.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/gold-axe-silver-axe/ko/page-007.wav",
+      "ambientAudio": "audio/books/gold-axe-silver-axe/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/gold_silver_axe.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "gold_silver_axe_008",
+      "pageNumber": 8,
+      "text": {
+        "enLittle": "The spirit smiled and lifted a silver axe.",
+        "enStandard": "The spirit smiled and lifted a silver axe. It flashed like moonlight on winter snow. “Then is this one yours?”",
+        "koLittle": "산신령은 미소 지으며 은도끼를 들어 올렸어요.",
+        "koStandard": "산신령은 미소 지으며 은도끼를 들어 올렸어요. 겨울 눈 위의 달빛처럼 번쩍였지요. “그럼 이것이 네 것이냐?”"
+      },
+      "koreanText": "산신령은 미소 지으며 은도끼를 들어 올렸어요. 겨울 눈 위의 달빛처럼 번쩍였지요. “그럼 이것이 네 것이냐?”",
+      "englishText": "The spirit smiled and lifted a silver axe. It flashed like moonlight on winter snow. “Then is this one yours?”",
+      "narrationScript": "산신령은 미소 지으며 은도끼를 들어 올렸어요. 겨울 눈 위의 달빛처럼 번쩍였지요. “그럼 이것이 네 것이냐?”",
+      "vocabulary": [
+        {
+          "ko": "은",
+          "en": "silver",
+          "romanization": "eun",
+          "definitionEn": "A shiny pale precious metal.",
+          "definitionKo": "은빛으로 반짝이는 귀한 금속이에요."
+        },
+        {
+          "ko": "달",
+          "en": "moon",
+          "romanization": "dal",
+          "definitionEn": "The soft light in the night sky.",
+          "definitionKo": "밤하늘에 뜨는 부드러운 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "second test",
+        "emotion": "quiet temptation",
+        "pageTurnHook": "A second shining choice appears. A brighter axe appears, but the honest answer matters more than shine.",
+        "readAloudCue": "Read with gentle and honest, with quiet temptation, warm relief, and respect for the old iron axe; keep pauses clear and musical. soft silver sparkle",
+        "childInteraction": "Tap the silver edge."
+      },
+      "imagePrompt": "Mountain spirit presenting silver axe, moonlit silver shimmer, woodcutter thoughtful, pond mist Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark. Emphasize quiet temptation and the choice to stay honest about the old iron axe.",
+      "audioPrompt": "English-first warm professional picture-book narration with quiet temptation; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: soft silver sparkle",
+      "animation": {
+        "type": "silverGlow",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_008/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_008/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_008/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_008/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "silverGlow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_008/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_008/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/gold-axe-silver-axe/page-008.png",
+      "imageSource": "assets/books/gold-axe-silver-axe/page-008.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/gold-axe-silver-axe/ko/page-008.wav",
+      "ambientAudio": "audio/books/gold-axe-silver-axe/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/gold_silver_axe.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "gold_silver_axe_009",
+      "pageNumber": 9,
+      "text": {
+        "enLittle": "The silver axe was beautiful.",
+        "enStandard": "The silver axe was beautiful. But beautiful was not the same as belonging. “No, thank you. My axe is the old iron one.”",
+        "koLittle": "은도끼는 참 아름다웠어요.",
+        "koStandard": "은도끼는 참 아름다웠어요. 하지만 아름다운 것과 내 것인 것은 달랐지요. “아닙니다. 제 도끼는 낡은 쇠도끼입니다.”"
+      },
+      "koreanText": "은도끼는 참 아름다웠어요. 하지만 아름다운 것과 내 것인 것은 달랐지요. “아닙니다. 제 도끼는 낡은 쇠도끼입니다.”",
+      "englishText": "The silver axe was beautiful. But beautiful was not the same as belonging. “No, thank you. My axe is the old iron one.”",
+      "narrationScript": "은도끼는 참 아름다웠어요. 하지만 아름다운 것과 내 것인 것은 달랐지요. “아닙니다. 제 도끼는 낡은 쇠도끼입니다.”",
+      "refrain": "No, thank you. My axe is the old iron one.",
+      "vocabulary": [
+        {
+          "ko": "은",
+          "en": "silver",
+          "romanization": "eun",
+          "definitionEn": "A shiny pale precious metal.",
+          "definitionKo": "은빛으로 반짝이는 귀한 금속이에요."
+        },
+        {
+          "ko": "정직",
+          "en": "honesty",
+          "romanization": "jeongjik",
+          "definitionEn": "Telling the truth even when it is hard.",
+          "definitionKo": "어려워도 사실대로 말하는 마음이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "choice",
+        "emotion": "clear wisdom",
+        "pageTurnHook": "He chooses truth again. A brighter axe appears, but the honest answer matters more than shine.",
+        "readAloudCue": "Read with gentle and honest, with quiet temptation, warm relief, and respect for the old iron axe; keep pauses clear and musical. repeat warmly",
+        "childInteraction": "Tap the old empty belt loop."
+      },
+      "imagePrompt": "Woodcutter gently refusing silver axe, spirit watching with approving eyes, quiet pond Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with clear wisdom; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: repeat warmly",
+      "animation": {
+        "type": "truthGlow",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_009/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_009/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_009/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_009/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "truthGlow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_009/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_009/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/gold-axe-silver-axe/page-009.png",
+      "imageSource": "assets/books/gold-axe-silver-axe/page-009.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/gold-axe-silver-axe/ko/page-009.wav",
+      "ambientAudio": "audio/books/gold-axe-silver-axe/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/gold_silver_axe.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "gold_silver_axe_010",
+      "pageNumber": 10,
+      "text": {
+        "enLittle": "At last the spirit lifted a plain iron axe, nicked at the edge and dark from years of work.",
+        "enStandard": "At last the spirit lifted a plain iron axe, nicked at the edge and dark from years of work. The woodcutter’s face lit like sunrise.",
+        "koLittle": "마침내 산신령이 평범한 쇠도끼를 들어 올렸어요.",
+        "koStandard": "마침내 산신령이 평범한 쇠도끼를 들어 올렸어요. 날은 조금 닳고 오랜 일로 어둑했지요. 나무꾼의 얼굴이 해 뜨듯 밝아졌어요."
+      },
+      "koreanText": "마침내 산신령이 평범한 쇠도끼를 들어 올렸어요. 날은 조금 닳고 오랜 일로 어둑했지요. 나무꾼의 얼굴이 해 뜨듯 밝아졌어요.",
+      "englishText": "At last the spirit lifted a plain iron axe, nicked at the edge and dark from years of work. The woodcutter’s face lit like sunrise.",
+      "narrationScript": "마침내 산신령이 평범한 쇠도끼를 들어 올렸어요. 날은 조금 닳고 오랜 일로 어둑했지요. 나무꾼의 얼굴이 해 뜨듯 밝아졌어요.",
+      "vocabulary": [
+        {
+          "ko": "쇠도끼",
+          "en": "iron axe",
+          "romanization": "soedokki",
+          "definitionEn": "A plain strong axe made of iron.",
+          "definitionKo": "쇠로 만든 튼튼하고 낡은 도끼예요."
+        },
+        {
+          "ko": "해",
+          "en": "sun",
+          "romanization": "hae",
+          "definitionEn": "The bright light in the daytime sky.",
+          "definitionKo": "낮 하늘을 밝히는 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "recognition",
+        "emotion": "joyful relief",
+        "pageTurnHook": "The true axe returns. A brighter axe appears, but the honest answer matters more than shine.",
+        "readAloudCue": "Read with gentle and honest, with quiet temptation, warm relief, and respect for the old iron axe; keep pauses clear and musical. bright relief",
+        "childInteraction": "Tap the nick in the axe."
+      },
+      "imagePrompt": "Old iron axe emerging from pond, woodcutter joyful, mountain spirit smiling, sunrise warmth Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with joyful relief; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: bright relief",
+      "animation": {
+        "type": "softShine",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_010/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_010/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_010/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_010/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "softShine",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_010/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_010/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/gold-axe-silver-axe/page-010.png",
+      "imageSource": "assets/books/gold-axe-silver-axe/page-010.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/gold-axe-silver-axe/ko/page-010.wav",
+      "ambientAudio": "audio/books/gold-axe-silver-axe/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/gold_silver_axe.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "gold_silver_axe_011",
+      "pageNumber": 11,
+      "text": {
+        "enLittle": "“That is mine,” he said.",
+        "enStandard": "“That is mine,” he said. “Not because it shines, but because it has worked beside me.”",
+        "koLittle": "“그것이 제 도끼입니다.” 그가 말했어요.",
+        "koStandard": "“그것이 제 도끼입니다.” 그가 말했어요. “반짝여서가 아니라, 제 곁에서 함께 일해 왔으니까요.”"
+      },
+      "koreanText": "“그것이 제 도끼입니다.” 그가 말했어요. “반짝여서가 아니라, 제 곁에서 함께 일해 왔으니까요.”",
+      "englishText": "“That is mine,” he said. “Not because it shines, but because it has worked beside me.”",
+      "narrationScript": "“그것이 제 도끼입니다.” 그가 말했어요. “반짝여서가 아니라, 제 곁에서 함께 일해 왔으니까요.”",
+      "vocabulary": [
+        {
+          "ko": "도끼",
+          "en": "axe",
+          "romanization": "dokki",
+          "definitionEn": "A tool used to chop wood.",
+          "definitionKo": "나무를 자를 때 쓰는 도구예요."
+        },
+        {
+          "ko": "정직",
+          "en": "honesty",
+          "romanization": "jeongjik",
+          "definitionEn": "Telling the truth even when it is hard.",
+          "definitionKo": "어려워도 사실대로 말하는 마음이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "emotional truth",
+        "emotion": "grateful warmth",
+        "pageTurnHook": "He explains what value means. A brighter axe appears, but the honest answer matters more than shine.",
+        "readAloudCue": "Read with gentle and honest, with quiet temptation, warm relief, and respect for the old iron axe; keep pauses clear and musical. gentle conviction",
+        "childInteraction": "Tap the woodcutter’s heart."
+      },
+      "imagePrompt": "Woodcutter receiving old iron axe with both hands, humble gratitude, pond spirit glow Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with grateful warmth; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: gentle conviction",
+      "animation": {
+        "type": "gratitudeLoop",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_011/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_011/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_011/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_011/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "gratitudeLoop",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_011/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_011/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/gold-axe-silver-axe/page-011.png",
+      "imageSource": "assets/books/gold-axe-silver-axe/page-011.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/gold-axe-silver-axe/ko/page-011.wav",
+      "ambientAudio": "audio/books/gold-axe-silver-axe/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/gold_silver_axe.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say",
+      "refrain": "No, thank you. My axe is the old iron one."
+    },
+    {
+      "id": "gold_silver_axe_012",
+      "pageNumber": 12,
+      "text": {
+        "enLittle": "The spirit laughed softly.",
+        "enStandard": "The spirit laughed softly. “A truthful hand can carry more than treasure.” He gave the woodcutter all three axes.",
+        "koLittle": "산신령이 부드럽게 웃었어요.",
+        "koStandard": "산신령이 부드럽게 웃었어요. “정직한 손은 보물보다 큰 것을 들 수 있구나.” 그는 세 도끼를 모두 나무꾼에게 주었어요."
+      },
+      "koreanText": "산신령이 부드럽게 웃었어요. “정직한 손은 보물보다 큰 것을 들 수 있구나.” 그는 세 도끼를 모두 나무꾼에게 주었어요.",
+      "englishText": "The spirit laughed softly. “A truthful hand can carry more than treasure.” He gave the woodcutter all three axes.",
+      "narrationScript": "산신령이 부드럽게 웃었어요. “정직한 손은 보물보다 큰 것을 들 수 있구나.” 그는 세 도끼를 모두 나무꾼에게 주었어요.",
+      "vocabulary": [
+        {
+          "ko": "산신령",
+          "en": "mountain spirit",
+          "romanization": "sansillyeong",
+          "definitionEn": "A wise spirit from Korean mountain tales.",
+          "definitionKo": "산을 지키는 지혜로운 존재예요."
+        },
+        {
+          "ko": "정직",
+          "en": "honesty",
+          "romanization": "jeongjik",
+          "definitionEn": "Telling the truth even when it is hard.",
+          "definitionKo": "어려워도 사실대로 말하는 마음이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "reward",
+        "emotion": "wonder",
+        "pageTurnHook": "Honesty brings unexpected abundance. The reward becomes useful only when it reaches the village.",
+        "readAloudCue": "Read with gentle and honest, with quiet temptation, warm relief, and respect for the old iron axe; keep pauses clear and musical. warm surprise",
+        "childInteraction": "Tap the three axes."
+      },
+      "imagePrompt": "Mountain spirit offering gold silver and iron axes, gentle magical glow, no greed, Korean pond scene Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with wonder; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: warm surprise",
+      "animation": {
+        "type": "threeAxeGlow",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_012/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_012/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_012/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_012/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "threeAxeGlow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_012/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_012/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/gold-axe-silver-axe/page-012.png",
+      "imageSource": "assets/books/gold-axe-silver-axe/page-012.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/gold-axe-silver-axe/ko/page-012.wav",
+      "ambientAudio": "audio/books/gold-axe-silver-axe/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/gold_silver_axe.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "gold_silver_axe_013",
+      "pageNumber": 13,
+      "text": {
+        "enLittle": "The woodcutter bowed low.",
+        "enStandard": "The woodcutter bowed low. He sold the gold axe, repaired the village bridge, and kept the iron axe for ordinary mornings.",
+        "koLittle": "나무꾼은 깊이 절했어요.",
+        "koStandard": "나무꾼은 깊이 절했어요. 그는 금도끼를 팔아 마을 다리를 고치고, 쇠도끼는 평범한 아침들을 위해 간직했지요."
+      },
+      "koreanText": "나무꾼은 깊이 절했어요. 그는 금도끼를 팔아 마을 다리를 고치고, 쇠도끼는 평범한 아침들을 위해 간직했지요.",
+      "englishText": "The woodcutter bowed low. He sold the gold axe, repaired the village bridge, and kept the iron axe for ordinary mornings.",
+      "narrationScript": "나무꾼은 깊이 절했어요. 그는 금도끼를 팔아 마을 다리를 고치고, 쇠도끼는 평범한 아침들을 위해 간직했지요.",
+      "vocabulary": [
+        {
+          "ko": "이웃",
+          "en": "neighbor",
+          "romanization": "iut",
+          "definitionEn": "A person who lives nearby.",
+          "definitionKo": "가까이에 사는 사람이에요."
+        },
+        {
+          "ko": "쇠도끼",
+          "en": "iron axe",
+          "romanization": "soedokki",
+          "definitionEn": "A plain strong axe made of iron.",
+          "definitionKo": "쇠로 만든 튼튼하고 낡은 도끼예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "community",
+        "emotion": "generous gratitude",
+        "pageTurnHook": "The reward helps others too. The reward becomes useful only when it reaches the village.",
+        "readAloudCue": "Read with gentle and honest, with quiet temptation, warm relief, and respect for the old iron axe; keep pauses clear and musical. matter-of-fact kindness",
+        "childInteraction": "Tap the repaired bridge."
+      },
+      "imagePrompt": "Woodcutter helping repair small village bridge with neighbors, old iron axe nearby, gold exchanged for community good Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with generous gratitude; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: matter-of-fact kindness",
+      "animation": {
+        "type": "carefulRepair",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_013/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_013/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_013/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_013/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "carefulRepair",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_013/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_013/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/gold-axe-silver-axe/page-013.png",
+      "imageSource": "assets/books/gold-axe-silver-axe/page-013.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/gold-axe-silver-axe/ko/page-013.wav",
+      "ambientAudio": "audio/books/gold-axe-silver-axe/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/gold_silver_axe.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "gold_silver_axe_014",
+      "pageNumber": 14,
+      "text": {
+        "enLittle": "A neighbor heard the story and felt a prickly little want grow under his ribs.",
+        "enStandard": "A neighbor heard the story and felt a prickly little want grow under his ribs. “A pond that gives gold?” he said. “How interesting.”",
+        "koLittle": "한 이웃이 그 이야기를 듣고 가슴속에 따끔한 욕심이 자라는 걸 느꼈어요.",
+        "koStandard": "한 이웃이 그 이야기를 듣고 가슴속에 따끔한 욕심이 자라는 걸 느꼈어요. “금을 주는 연못이라고?” 그가 말했지요. “참 흥미롭군.”"
+      },
+      "koreanText": "한 이웃이 그 이야기를 듣고 가슴속에 따끔한 욕심이 자라는 걸 느꼈어요. “금을 주는 연못이라고?” 그가 말했지요. “참 흥미롭군.”",
+      "englishText": "A neighbor heard the story and felt a prickly little want grow under his ribs. “A pond that gives gold?” he said. “How interesting.”",
+      "narrationScript": "한 이웃이 그 이야기를 듣고 가슴속에 따끔한 욕심이 자라는 걸 느꼈어요. “금을 주는 연못이라고?” 그가 말했지요. “참 흥미롭군.”",
+      "vocabulary": [
+        {
+          "ko": "이웃",
+          "en": "neighbor",
+          "romanization": "iut",
+          "definitionEn": "A person who lives nearby.",
+          "definitionKo": "가까이에 사는 사람이에요."
+        },
+        {
+          "ko": "금",
+          "en": "gold",
+          "romanization": "geum",
+          "definitionEn": "A shiny yellow precious metal.",
+          "definitionKo": "노랗게 반짝이는 귀한 금속이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "comic setup",
+        "emotion": "tempted curiosity",
+        "pageTurnHook": "A less honest plan begins. The reward becomes useful only when it reaches the village.",
+        "readAloudCue": "Read with gentle and honest, with quiet temptation, warm relief, and respect for the old iron axe; keep pauses clear and musical. dry humor",
+        "childInteraction": "Tap the neighbor’s raised eyebrow."
+      },
+      "imagePrompt": "Neighbor listening with greedy curious expression, Korean village path, comic but not villainous Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with tempted curiosity; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: dry humor",
+      "animation": {
+        "type": "eagerIdea",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_014/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_014/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_014/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_014/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "eagerIdea",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_014/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_014/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/gold-axe-silver-axe/page-014.png",
+      "imageSource": "assets/books/gold-axe-silver-axe/page-014.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/gold-axe-silver-axe/ko/page-014.wav",
+      "ambientAudio": "audio/books/gold-axe-silver-axe/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/gold_silver_axe.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "gold_silver_axe_015",
+      "pageNumber": 15,
+      "text": {
+        "enLittle": "The neighbor dropped a shiny axe into the pond on purpose.",
+        "enStandard": "He borrowed a shiny new axe, marched to the pond, and dropped it in with the loudest splash he could make.",
+        "koLittle": "이웃은 번쩍이는 도끼를 일부러 연못에 빠뜨렸어요.",
+        "koStandard": "그는 번쩍이는 새 도끼를 빌려 연못으로 성큼성큼 갔어요. 그리고 가장 큰 소리가 나도록 풍덩 빠뜨렸지요."
+      },
+      "koreanText": "그는 번쩍이는 새 도끼를 빌려 연못으로 성큼성큼 갔어요. 그리고 가장 큰 소리가 나도록 풍덩 빠뜨렸지요.",
+      "englishText": "He borrowed a shiny new axe, marched to the pond, and dropped it in with the loudest splash he could make.",
+      "narrationScript": "그는 번쩍이는 새 도끼를 빌려 연못으로 성큼성큼 갔어요. 그리고 가장 큰 소리가 나도록 풍덩 빠뜨렸지요.",
+      "vocabulary": [
+        {
+          "ko": "도끼",
+          "en": "axe",
+          "romanization": "dokki",
+          "definitionEn": "A tool used to chop wood.",
+          "definitionKo": "나무를 자를 때 쓰는 도구예요."
+        },
+        {
+          "ko": "연못",
+          "en": "pond",
+          "romanization": "yeonmot",
+          "definitionEn": "A small still body of water.",
+          "definitionKo": "물이 고여 있는 작은 못이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "mistake",
+        "emotion": "comic greed",
+        "pageTurnHook": "He tries to copy only the reward. The neighbor tries to copy the prize without copying the truth.",
+        "readAloudCue": "Read with gentle and honest, with quiet temptation, warm relief, and respect for the old iron axe; keep pauses clear and musical. playful splash",
+        "childInteraction": "Tap the huge splash."
+      },
+      "imagePrompt": "Neighbor theatrically dropping shiny axe into pond, exaggerated splash, comic Korean folktale scene Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with comic greed; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: playful splash",
+      "animation": {
+        "type": "comicSplash",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_015/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_015/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_015/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_015/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "comicSplash",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_015/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_015/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/gold-axe-silver-axe/page-015.png",
+      "imageSource": "assets/books/gold-axe-silver-axe/page-015.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/gold-axe-silver-axe/ko/page-015.wav",
+      "ambientAudio": "audio/books/gold-axe-silver-axe/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/gold_silver_axe.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "gold_silver_axe_016",
+      "pageNumber": 16,
+      "text": {
+        "enLittle": "The mountain spirit rose again, not smiling quite as much.",
+        "enStandard": "The mountain spirit rose again, not smiling quite as much. “Did you drop this golden axe?”",
+        "koLittle": "산신령이 다시 올라왔어요.",
+        "koStandard": "산신령이 다시 올라왔어요. 이번에는 미소가 조금 덜했지요. “이 금도끼를 빠뜨렸느냐?”"
+      },
+      "koreanText": "산신령이 다시 올라왔어요. 이번에는 미소가 조금 덜했지요. “이 금도끼를 빠뜨렸느냐?”",
+      "englishText": "The mountain spirit rose again, not smiling quite as much. “Did you drop this golden axe?”",
+      "narrationScript": "산신령이 다시 올라왔어요. 이번에는 미소가 조금 덜했지요. “이 금도끼를 빠뜨렸느냐?”",
+      "vocabulary": [
+        {
+          "ko": "산신령",
+          "en": "mountain spirit",
+          "romanization": "sansillyeong",
+          "definitionEn": "A wise spirit from Korean mountain tales.",
+          "definitionKo": "산을 지키는 지혜로운 존재예요."
+        },
+        {
+          "ko": "금",
+          "en": "gold",
+          "romanization": "geum",
+          "definitionEn": "A shiny yellow precious metal.",
+          "definitionKo": "노랗게 반짝이는 귀한 금속이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "test",
+        "emotion": "knowing tension",
+        "pageTurnHook": "The same question returns. The neighbor tries to copy the prize without copying the truth.",
+        "readAloudCue": "Read with gentle and honest, with quiet temptation, warm relief, and respect for the old iron axe; keep pauses clear and musical. knowing pause",
+        "childInteraction": "Tap the spirit’s eyebrow."
+      },
+      "imagePrompt": "Mountain spirit presenting gold axe to neighbor, spirit looks wise and unconvinced, pond mist Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark. Emphasize quiet temptation and the choice to stay honest about the old iron axe.",
+      "audioPrompt": "English-first warm professional picture-book narration with knowing tension; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: knowing pause",
+      "animation": {
+        "type": "spiritAppear",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_016/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_016/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_016/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_016/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "spiritAppear",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_016/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_016/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/gold-axe-silver-axe/page-016.png",
+      "imageSource": "assets/books/gold-axe-silver-axe/page-016.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/gold-axe-silver-axe/ko/page-016.wav",
+      "ambientAudio": "audio/books/gold-axe-silver-axe/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/gold_silver_axe.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "gold_silver_axe_017",
+      "pageNumber": 17,
+      "text": {
+        "enLittle": "“Yes!” cried the neighbor too quickly.",
+        "enStandard": "“Yes!” cried the neighbor too quickly. The word jumped out before his heart could catch it.",
+        "koLittle": "“네!” 이웃은 너무 빨리 외쳤어요.",
+        "koStandard": "“네!” 이웃은 너무 빨리 외쳤어요. 그 말은 마음이 붙잡기도 전에 튀어나와 버렸지요."
+      },
+      "koreanText": "“네!” 이웃은 너무 빨리 외쳤어요. 그 말은 마음이 붙잡기도 전에 튀어나와 버렸지요.",
+      "englishText": "“Yes!” cried the neighbor too quickly. The word jumped out before his heart could catch it.",
+      "narrationScript": "“네!” 이웃은 너무 빨리 외쳤어요. 그 말은 마음이 붙잡기도 전에 튀어나와 버렸지요.",
+      "vocabulary": [
+        {
+          "ko": "이웃",
+          "en": "neighbor",
+          "romanization": "iut",
+          "definitionEn": "A person who lives nearby.",
+          "definitionKo": "가까이에 사는 사람이에요."
+        },
+        {
+          "ko": "정직",
+          "en": "honesty",
+          "romanization": "jeongjik",
+          "definitionEn": "Telling the truth even when it is hard.",
+          "definitionKo": "어려워도 사실대로 말하는 마음이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "failure",
+        "emotion": "comic embarrassment",
+        "pageTurnHook": "The lie is obvious. The neighbor tries to copy the prize without copying the truth.",
+        "readAloudCue": "Read with gentle and honest, with quiet temptation, warm relief, and respect for the old iron axe; keep pauses clear and musical. too-fast comic delivery",
+        "childInteraction": "Tap the word bubble area without text."
+      },
+      "imagePrompt": "Neighbor blurting out yes, comically eager, spirit calm, no text in image Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with comic embarrassment; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: too-fast comic delivery",
+      "animation": {
+        "type": "surprisedEyes",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_017/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_017/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_017/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_017/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "surprisedEyes",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_017/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_017/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/gold-axe-silver-axe/page-017.png",
+      "imageSource": "assets/books/gold-axe-silver-axe/page-017.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/gold-axe-silver-axe/ko/page-017.wav",
+      "ambientAudio": "audio/books/gold-axe-silver-axe/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/gold_silver_axe.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "gold_silver_axe_018",
+      "pageNumber": 18,
+      "text": {
+        "enLittle": "The pond went quiet.",
+        "enStandard": "The pond went quiet. The gold axe sank away, the silver axe sank away, and the borrowed axe stayed at the bottom too.",
+        "koLittle": "연못은 조용해졌어요.",
+        "koStandard": "연못은 조용해졌어요. 금도끼도 가라앉고, 은도끼도 가라앉고, 빌린 도끼도 바닥에 그대로 남았지요."
+      },
+      "koreanText": "연못은 조용해졌어요. 금도끼도 가라앉고, 은도끼도 가라앉고, 빌린 도끼도 바닥에 그대로 남았지요.",
+      "englishText": "The pond went quiet. The gold axe sank away, the silver axe sank away, and the borrowed axe stayed at the bottom too.",
+      "narrationScript": "연못은 조용해졌어요. 금도끼도 가라앉고, 은도끼도 가라앉고, 빌린 도끼도 바닥에 그대로 남았지요.",
+      "vocabulary": [
+        {
+          "ko": "연못",
+          "en": "pond",
+          "romanization": "yeonmot",
+          "definitionEn": "A small still body of water.",
+          "definitionKo": "물이 고여 있는 작은 못이에요."
+        },
+        {
+          "ko": "은",
+          "en": "silver",
+          "romanization": "eun",
+          "definitionEn": "A shiny pale precious metal.",
+          "definitionKo": "은빛으로 반짝이는 귀한 금속이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "consequence",
+        "emotion": "quiet lesson",
+        "pageTurnHook": "Nothing comes from the lie. The neighbor tries to copy the prize without copying the truth.",
+        "readAloudCue": "Read with gentle and honest, with quiet temptation, warm relief, and respect for the old iron axe; keep pauses clear and musical. soft, not harsh",
+        "childInteraction": "Tap the still water."
+      },
+      "imagePrompt": "Still pond after failed lie, axes as faint shapes below water, neighbor worried, gentle consequence Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark. Emphasize quiet temptation and the choice to stay honest about the old iron axe.",
+      "audioPrompt": "English-first warm professional picture-book narration with quiet lesson; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: soft, not harsh",
+      "animation": {
+        "type": "quietPond",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_018/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_018/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_018/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_018/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "quietPond",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_018/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_018/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/gold-axe-silver-axe/page-018.png",
+      "imageSource": "assets/books/gold-axe-silver-axe/page-018.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/gold-axe-silver-axe/ko/page-018.wav",
+      "ambientAudio": "audio/books/gold-axe-silver-axe/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/gold_silver_axe.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say",
+      "refrain": "No, thank you. My axe is the old iron one."
+    },
+    {
+      "id": "gold_silver_axe_019",
+      "pageNumber": 19,
+      "text": {
+        "enLittle": "The neighbor sat down hard.",
+        "enStandard": "The neighbor sat down hard. “Oh,” he whispered. “I copied the splash, but not the truth.”",
+        "koLittle": "이웃은 털썩 주저앉았어요.",
+        "koStandard": "이웃은 털썩 주저앉았어요. “아.” 그가 속삭였지요. “풍덩 소리만 따라 했지, 정직은 따라 하지 않았구나.”"
+      },
+      "koreanText": "이웃은 털썩 주저앉았어요. “아.” 그가 속삭였지요. “풍덩 소리만 따라 했지, 정직은 따라 하지 않았구나.”",
+      "englishText": "The neighbor sat down hard. “Oh,” he whispered. “I copied the splash, but not the truth.”",
+      "narrationScript": "이웃은 털썩 주저앉았어요. “아.” 그가 속삭였지요. “풍덩 소리만 따라 했지, 정직은 따라 하지 않았구나.”",
+      "vocabulary": [
+        {
+          "ko": "정직",
+          "en": "honesty",
+          "romanization": "jeongjik",
+          "definitionEn": "Telling the truth even when it is hard.",
+          "definitionKo": "어려워도 사실대로 말하는 마음이에요."
+        },
+        {
+          "ko": "이웃",
+          "en": "neighbor",
+          "romanization": "iut",
+          "definitionEn": "A person who lives nearby.",
+          "definitionKo": "가까이에 사는 사람이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "realization",
+        "emotion": "sheepish insight",
+        "pageTurnHook": "He names the real lesson. The lesson turns into repair work children can understand.",
+        "readAloudCue": "Read with gentle and honest, with quiet temptation, warm relief, and respect for the old iron axe; keep pauses clear and musical. soft comic regret",
+        "childInteraction": "Tap his muddy knees."
+      },
+      "imagePrompt": "Neighbor sitting by pond sheepishly, realization, mountain spirit barely visible, warm humor Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with sheepish insight; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: soft comic regret",
+      "animation": {
+        "type": "lessonGlow",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_019/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_019/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_019/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_019/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "lessonGlow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_019/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_019/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/gold-axe-silver-axe/page-019.png",
+      "imageSource": "assets/books/gold-axe-silver-axe/page-019.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/gold-axe-silver-axe/ko/page-019.wav",
+      "ambientAudio": "audio/books/gold-axe-silver-axe/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/gold_silver_axe.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "gold_silver_axe_020",
+      "pageNumber": 20,
+      "text": {
+        "enLittle": "The next morning, he came back with a rake and cleaned leaves from the pond path.",
+        "enStandard": "The next morning, he came back with a rake and cleaned leaves from the pond path. He did not ask for gold.",
+        "koLittle": "다음 날 아침, 이웃은 갈퀴를 들고 돌아와 연못 길의 낙엽을 치웠어요.",
+        "koStandard": "다음 날 아침, 이웃은 갈퀴를 들고 돌아와 연못 길의 낙엽을 치웠어요. 그는 금을 달라고 하지 않았지요."
+      },
+      "koreanText": "다음 날 아침, 이웃은 갈퀴를 들고 돌아와 연못 길의 낙엽을 치웠어요. 그는 금을 달라고 하지 않았지요.",
+      "englishText": "The next morning, he came back with a rake and cleaned leaves from the pond path. He did not ask for gold.",
+      "narrationScript": "다음 날 아침, 이웃은 갈퀴를 들고 돌아와 연못 길의 낙엽을 치웠어요. 그는 금을 달라고 하지 않았지요.",
+      "vocabulary": [
+        {
+          "ko": "이웃",
+          "en": "neighbor",
+          "romanization": "iut",
+          "definitionEn": "A person who lives nearby.",
+          "definitionKo": "가까이에 사는 사람이에요."
+        },
+        {
+          "ko": "연못",
+          "en": "pond",
+          "romanization": "yeonmot",
+          "definitionEn": "A small still body of water.",
+          "definitionKo": "물이 고여 있는 작은 못이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "repair",
+        "emotion": "humble action",
+        "pageTurnHook": "He starts making repair. The lesson turns into repair work children can understand.",
+        "readAloudCue": "Read with gentle and honest, with quiet temptation, warm relief, and respect for the old iron axe; keep pauses clear and musical. gentle, approving",
+        "childInteraction": "Drag leaves off the path."
+      },
+      "imagePrompt": "Neighbor cleaning leaves from pond path, humble repair action, morning light Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with humble action; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: gentle, approving",
+      "animation": {
+        "type": "sweepingRhythm",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_020/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_020/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_020/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_020/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "sweepingRhythm",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_020/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_020/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/gold-axe-silver-axe/page-020.png",
+      "imageSource": "assets/books/gold-axe-silver-axe/page-020.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/gold-axe-silver-axe/ko/page-020.wav",
+      "ambientAudio": "audio/books/gold-axe-silver-axe/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/gold_silver_axe.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "gold_silver_axe_021",
+      "pageNumber": 21,
+      "text": {
+        "enLittle": "After many honest mornings, the spirit returned the borrowed axe.",
+        "enStandard": "After many honest mornings, the spirit returned the borrowed axe. “Truth grows slowly,” the spirit said, “but it grows strong.”",
+        "koLittle": "정직한 아침들이 여러 번 지나자 산신령이 빌린 도끼를 돌려주었어요.",
+        "koStandard": "정직한 아침들이 여러 번 지나자 산신령이 빌린 도끼를 돌려주었어요. “진실은 천천히 자라지만, 튼튼하게 자란단다.” 산신령이 말했어요."
+      },
+      "koreanText": "정직한 아침들이 여러 번 지나자 산신령이 빌린 도끼를 돌려주었어요. “진실은 천천히 자라지만, 튼튼하게 자란단다.” 산신령이 말했어요.",
+      "englishText": "After many honest mornings, the spirit returned the borrowed axe. “Truth grows slowly,” the spirit said, “but it grows strong.”",
+      "narrationScript": "정직한 아침들이 여러 번 지나자 산신령이 빌린 도끼를 돌려주었어요. “진실은 천천히 자라지만, 튼튼하게 자란단다.” 산신령이 말했어요.",
+      "vocabulary": [
+        {
+          "ko": "산신령",
+          "en": "mountain spirit",
+          "romanization": "sansillyeong",
+          "definitionEn": "A wise spirit from Korean mountain tales.",
+          "definitionKo": "산을 지키는 지혜로운 존재예요."
+        },
+        {
+          "ko": "정직",
+          "en": "honesty",
+          "romanization": "jeongjik",
+          "definitionEn": "Telling the truth even when it is hard.",
+          "definitionKo": "어려워도 사실대로 말하는 마음이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "forgiveness",
+        "emotion": "earned relief",
+        "pageTurnHook": "Repair brings restoration. The lesson turns into repair work children can understand.",
+        "readAloudCue": "Read with gentle and honest, with quiet temptation, warm relief, and respect for the old iron axe; keep pauses clear and musical. warm wisdom",
+        "childInteraction": "Tap the returned axe."
+      },
+      "imagePrompt": "Mountain spirit returning borrowed axe to humbled neighbor, pond path clean, gentle forgiveness Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with earned relief; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: warm wisdom",
+      "animation": {
+        "type": "forgiveness",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_021/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_021/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_021/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_021/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "forgiveness",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_021/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_021/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/gold-axe-silver-axe/page-021.png",
+      "imageSource": "assets/books/gold-axe-silver-axe/page-021.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/gold-axe-silver-axe/ko/page-021.wav",
+      "ambientAudio": "audio/books/gold-axe-silver-axe/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/gold_silver_axe.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "gold_silver_axe_022",
+      "pageNumber": 22,
+      "text": {
+        "enLittle": "The two neighbors fixed roofs and stacked winter wood together.",
+        "enStandard": "The woodcutter and the neighbor fixed roofs, stacked winter wood, and laughed about the day the pond taught louder than any teacher.",
+        "koLittle": "두 이웃은 함께 지붕을 고치고 장작을 쌓았어요.",
+        "koStandard": "나무꾼과 이웃은 지붕을 고치고 겨울 장작을 쌓았어요. 그리고 어떤 선생님보다 연못이 더 크게 가르쳐 준 날을 떠올리며 웃었지요."
+      },
+      "koreanText": "나무꾼과 이웃은 지붕을 고치고 겨울 장작을 쌓았어요. 그리고 어떤 선생님보다 연못이 더 크게 가르쳐 준 날을 떠올리며 웃었지요.",
+      "englishText": "The woodcutter and the neighbor fixed roofs, stacked winter wood, and laughed about the day the pond taught louder than any teacher.",
+      "narrationScript": "나무꾼과 이웃은 지붕을 고치고 겨울 장작을 쌓았어요. 그리고 어떤 선생님보다 연못이 더 크게 가르쳐 준 날을 떠올리며 웃었지요.",
+      "vocabulary": [
+        {
+          "ko": "이웃",
+          "en": "neighbor",
+          "romanization": "iut",
+          "definitionEn": "A person who lives nearby.",
+          "definitionKo": "가까이에 사는 사람이에요."
+        },
+        {
+          "ko": "도끼",
+          "en": "axe",
+          "romanization": "dokki",
+          "definitionEn": "A tool used to chop wood.",
+          "definitionKo": "나무를 자를 때 쓰는 도구예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "community",
+        "emotion": "warm humor",
+        "pageTurnHook": "The lesson becomes friendship. The closing line makes honesty feel warm instead of scolding.",
+        "readAloudCue": "Read with gentle and honest, with quiet temptation, warm relief, and respect for the old iron axe; keep pauses clear and musical. light laugh",
+        "childInteraction": "Tap the woodpile."
+      },
+      "imagePrompt": "Woodcutter and neighbor working together stacking wood, repaired roofs, friendly Korean village Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with warm humor; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: light laugh",
+      "animation": {
+        "type": "sharedRice",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_022/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_022/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_022/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_022/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "sharedRice",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_022/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_022/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/gold-axe-silver-axe/page-022.png",
+      "imageSource": "assets/books/gold-axe-silver-axe/page-022.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/gold-axe-silver-axe/ko/page-022.wav",
+      "ambientAudio": "audio/books/gold-axe-silver-axe/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/gold_silver_axe.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "gold_silver_axe_023",
+      "pageNumber": 23,
+      "text": {
+        "enLittle": "The old iron axe still shone every morning.",
+        "enStandard": "Every morning, the old iron axe still shone a little — not with gold, not with silver, but with being cared for.",
+        "koLittle": "낡은 쇠도끼는 아침마다 조금씩 빛났어요.",
+        "koStandard": "아침마다 낡은 쇠도끼는 조금씩 빛났어요. 금빛도 은빛도 아니었지만, 아낌받는 물건만의 빛이었지요."
+      },
+      "koreanText": "아침마다 낡은 쇠도끼는 조금씩 빛났어요. 금빛도 은빛도 아니었지만, 아낌받는 물건만의 빛이었지요.",
+      "englishText": "Every morning, the old iron axe still shone a little — not with gold, not with silver, but with being cared for.",
+      "narrationScript": "아침마다 낡은 쇠도끼는 조금씩 빛났어요. 금빛도 은빛도 아니었지만, 아낌받는 물건만의 빛이었지요.",
+      "vocabulary": [
+        {
+          "ko": "쇠도끼",
+          "en": "iron axe",
+          "romanization": "soedokki",
+          "definitionEn": "A plain strong axe made of iron.",
+          "definitionKo": "쇠로 만든 튼튼하고 낡은 도끼예요."
+        },
+        {
+          "ko": "금",
+          "en": "gold",
+          "romanization": "geum",
+          "definitionEn": "A shiny yellow precious metal.",
+          "definitionKo": "노랗게 반짝이는 귀한 금속이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "reflection",
+        "emotion": "quiet beauty",
+        "pageTurnHook": "The old thing shines differently. The ending invites a quiet reread and one last echo of the refrain.",
+        "readAloudCue": "Read with gentle and honest, with quiet temptation, warm relief, and respect for the old iron axe; keep pauses clear and musical. lyrical, slow",
+        "childInteraction": "Tap the polished iron."
+      },
+      "imagePrompt": "Close-up old iron axe polished in morning sun, humble beauty, Korean cottage shelf Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with quiet beauty; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: lyrical, slow",
+      "animation": {
+        "type": "softShine",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_023/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_023/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_023/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_023/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "softShine",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_023/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_023/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/gold-axe-silver-axe/page-023.png",
+      "imageSource": "assets/books/gold-axe-silver-axe/page-023.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/gold-axe-silver-axe/ko/page-023.wav",
+      "ambientAudio": "audio/books/gold-axe-silver-axe/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/gold_silver_axe.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    },
+    {
+      "id": "gold_silver_axe_024",
+      "pageNumber": 24,
+      "text": {
+        "enLittle": "And whenever someone asked which axe was best, the woodcutter smiled.",
+        "enStandard": "And whenever someone asked which axe was best, the woodcutter smiled. “The one that belongs to the truth,” he said.",
+        "koLittle": "누군가 어떤 도끼가 제일 좋으냐고 물으면, 나무꾼은 미소 지었어요.",
+        "koStandard": "누군가 어떤 도끼가 제일 좋으냐고 물으면, 나무꾼은 미소 지었어요. “진실에 어울리는 도끼지요.”"
+      },
+      "koreanText": "누군가 어떤 도끼가 제일 좋으냐고 물으면, 나무꾼은 미소 지었어요. “진실에 어울리는 도끼지요.”",
+      "englishText": "And whenever someone asked which axe was best, the woodcutter smiled. “The one that belongs to the truth,” he said.",
+      "narrationScript": "누군가 어떤 도끼가 제일 좋으냐고 물으면, 나무꾼은 미소 지었어요. “진실에 어울리는 도끼지요.”",
+      "vocabulary": [
+        {
+          "ko": "도끼",
+          "en": "axe",
+          "romanization": "dokki",
+          "definitionEn": "A tool used to chop wood.",
+          "definitionKo": "나무를 자를 때 쓰는 도구예요."
+        },
+        {
+          "ko": "정직",
+          "en": "honesty",
+          "romanization": "jeongjik",
+          "definitionEn": "Telling the truth even when it is hard.",
+          "definitionKo": "어려워도 사실대로 말하는 마음이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "closing",
+        "emotion": "satisfying wisdom",
+        "pageTurnHook": "The moral lands as a line worth repeating. The ending invites a quiet reread and one last echo of the refrain.",
+        "readAloudCue": "Read with gentle and honest, with quiet temptation, warm relief, and respect for the old iron axe; keep pauses clear and musical. clear final line",
+        "childInteraction": "Tap the moon jar seal."
+      },
+      "imagePrompt": "Woodcutter smiling with old iron axe, gold and silver stored for community, peaceful valley ending Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, no text, no letters, no watermark.",
+      "audioPrompt": "English-first warm professional picture-book narration with satisfying wisdom; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: clear final line",
+      "animation": {
+        "type": "truthGlow",
+        "loopDuration": 3.0,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_024/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift/sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_024/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_024/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_024/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "truthGlow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_024/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gold-axe-silver-axe/gold_silver_axe_024/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "imageAsset": "assets/books/gold-axe-silver-axe/page-024.png",
+      "imageSource": "assets/books/gold-axe-silver-axe/page-024.svg",
+      "narrationAudio": "audio/synthetic-draft/narration/gold-axe-silver-axe/ko/page-024.wav",
+      "ambientAudio": "audio/books/gold-axe-silver-axe/ambient/ambient-loop.wav",
+      "imageAssetStatus": "placeholder",
+      "characterBible": "characters/gold_silver_axe.character_bible.json",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "macos_say"
+    }
+  ],
+  "coverAsset": "assets/books/gold-axe-silver-axe/cover.png",
+  "coverAssetStatus": "placeholder",
+  "characterBible": "characters/gold_silver_axe.character_bible.json",
+  "narrationAudioStatus": "synthetic_draft"
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedOn": "2026-05-11",
+  "status": "draft_assets_present_final_store_assets_missing",
+  "appIcon": {
+    "path": "ios/MoonJarStoriesiOS/Resources/AppIcon.png",
+    "status": "placeholder_or_demo_asset_not_store_final"
+  },
+  "launchAssets": {
+    "ios": "ios/MoonJarStoriesiOSApp/MoonJarStories/Base.lproj/LaunchScreen.storyboard",
+    "android": "android/MoonJarStoriesAndroid/src/main/AndroidManifest.xml",
+    "status": "implementation_present_store_final_review_missing"
+  },
+  "screenshots": {
+    "iosSmokeArtifacts": [
+      ".agent/tmp/artifacts/ios-smoke-library.png",
+      ".agent/tmp/artifacts/ios-smoke-real-book-page3.png",
+      ".agent/tmp/artifacts/ios-smoke-reader-playback.png"
+    ],
+    "androidSmokeArtifacts": [
+      ".agent/tmp/artifacts/android-smoke-launch.png"
+    ],
+    "storeFinalScreenshots": []
+  },
+  "releaseMetadata": [
+    "store/app_store_metadata_draft.json",
+    "store/google_play_metadata_draft.json"
+  ],
+  "blockedUntil": [
+    "final_art_audio_available",
+    "real_signing_and_bundle_id_evidence",
+    "store_product_configuration",
+    "privacy_policy_final",
+    "store_screenshot_export"
+  ]
+}

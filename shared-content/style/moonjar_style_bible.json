@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.0.0",
+  "name": "Moon Jar Stories Global Art Style Bible",
+  "masterArtStylePrompt": "Premium Korean children's picture-book illustration in watercolor, gouache, and soft ink, visible hanji paper grain, warm lantern light, deep indigo night, moon ivory, persimmon, jade leaf, lotus pink, and muted gold. One cinematic full-screen scene per page, calm bedtime-safe motion design, clear character silhouettes for ages 3-8, culturally respectful Korean settings and clothing.",
+  "visualIdentity": {
+    "brandSymbol": "moon jar silhouette and gentle moon glow",
+    "texture": "hanji paper fiber, watercolor pooling, hand-inked soft edges",
+    "composition": "large readable characters, uncluttered child-safe scene staging, no printed text inside art",
+    "lighting": "warm lantern interiors, soft moonlight exteriors, no harsh horror shadows"
+  },
+  "globalPalette": [
+    "deep indigo ink",
+    "moon ivory",
+    "warm hanji cream",
+    "persimmon red-orange",
+    "jade green",
+    "lotus pink",
+    "muted lantern gold"
+  ],
+  "motionStyle": [
+    "subtle 3-second loops",
+    "no flashing or fast strobing",
+    "gentle parallax only",
+    "bedtime mode lowers brightness, contrast, motion, and audio intensity"
+  ],
+  "childSafetyRules": [
+    "No graphic violence, blood, injury detail, horror anatomy, or sharp-tooth emphasis.",
+    "Animals may be mischievous, silly, or surprised, but not predatory or terrifying.",
+    "Danger scenes must show distance, safety, humor, or reassurance.",
+    "No sexualized content, adult themes, modern ads, branded products, or external-link visuals.",
+    "No generated text, captions, watermarks, signatures, or lettering inside scene art."
+  ],
+  "negativePrompt": "photorealism, 3D plastic render, horror lighting, blood, injury, scary teeth, claws toward camera, weapons, modern city, branded products, text, captions, watermark, distorted hands, inconsistent outfits, adult proportions on children"
+}

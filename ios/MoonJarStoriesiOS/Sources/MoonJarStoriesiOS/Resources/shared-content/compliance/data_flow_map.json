@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedOn": "2026-05-11",
+  "status": "implementation_mapped_not_legal_final",
+  "childDataCollectionEnabled": false,
+  "thirdPartyTrackingEnabled": false,
+  "adsEnabled": false,
+  "liveGenerationInChildApp": false,
+  "flows": [
+    {
+      "id": "local_reading_progress",
+      "data": "book id, page index, local read-state flags",
+      "subject": "device_local_family_use",
+      "storage": "on_device",
+      "retention": "until app deletion or local reset",
+      "linkedToChildIdentity": false,
+      "sharedWithThirdParties": false,
+      "purpose": "resume reading and improve local reader continuity",
+      "requiresPrivacyDisclosure": true,
+      "releaseStatus": "allowed_local_only"
+    },
+    {
+      "id": "purchase_entitlement_state",
+      "data": "store product id, transaction state, subscription/lifetime/book entitlement state",
+      "subject": "parent_store_account_or_anonymous_install",
+      "storage": "device_and_backend_when_backend_exists",
+      "retention": "until entitlement expiry or account/device reset policy",
+      "linkedToChildIdentity": false,
+      "sharedWithThirdParties": true,
+      "thirdParties": ["Apple App Store", "Google Play"],
+      "purpose": "unlock paid content and restore purchases",
+      "requiresPrivacyDisclosure": true,
+      "releaseStatus": "blocked_until_store_products_and_backend_verification"
+    },
+    {
+      "id": "parent_contact_waitlist",
+      "data": "parent email and optional parent-provided feedback",
+      "subject": "adult_parent_or_guardian",
+      "storage": "external_marketing_tool_if_adopted",
+      "retention": "until unsubscribe/delete request",
+      "linkedToChildIdentity": false,
+      "sharedWithThirdParties": false,
+      "purpose": "market validation and launch notification",
+      "requiresPrivacyDisclosure": true,
+      "releaseStatus": "planned_not_in_child_app"
+    },
+    {
+      "id": "crash_diagnostics",
+      "data": "crash trace, device/app version, non-content diagnostic metadata",
+      "subject": "app_install",
+      "storage": "not_configured",
+      "retention": "not_applicable_until_provider_selected",
+      "linkedToChildIdentity": false,
+      "sharedWithThirdParties": false,
+      "purpose": "stability debugging",
+      "requiresPrivacyDisclosure": true,
+      "releaseStatus": "blocked_until_provider_and_privacy_review"
+    },
+    {
+      "id": "child_voice_recording",
+      "data": "voice recording",
+      "subject": "child_or_family_member",
+      "storage": "not_collected",
+      "retention": "not_applicable",
+      "linkedToChildIdentity": true,
+      "sharedWithThirdParties": false,
+      "purpose": "future adult-controlled family recording feature only",
+      "requiresPrivacyDisclosure": true,
+      "releaseStatus": "prohibited_in_current_child_app"
+    }
+  ],
+  "releaseRequirements": [
+    "final_privacy_policy_matches_this_map",
+    "store_privacy_labels_match_this_map",
+    "parent_gate_qa_passes_for_purchases_restore_settings_links",
+    "legal_privacy_review_complete_before_submission"
+  ]
+}

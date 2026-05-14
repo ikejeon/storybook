@@ -1,0 +1,126 @@
+{
+  "schemaVersion": "1.0.0",
+  "description": "Production character bible index for all complete Moon Jar Stories catalog books. Internal demo coverage only; final production pack still requires external art approval.",
+  "books": [
+    {
+      "bookId": "book.sun_moon",
+      "slug": "sun-and-moon",
+      "characterBible": "characters/sun_moon.character_bible.json"
+    },
+    {
+      "bookId": "book.gold_silver_axe",
+      "slug": "gold-axe-silver-axe",
+      "characterBible": "characters/gold_silver_axe.character_bible.json"
+    },
+    {
+      "bookId": "book.tiger_persimmon",
+      "slug": "tiger-and-persimmon",
+      "characterBible": "characters/tiger_persimmon.character_bible.json"
+    },
+    {
+      "bookId": "book.heungbu_nolbu",
+      "slug": "heungbu-and-nolbu",
+      "characterBible": "characters/heungbu_nolbu.character_bible.json"
+    },
+    {
+      "bookId": "book.red_bean_grandma",
+      "slug": "red-bean-porridge-grandma",
+      "characterBible": "characters/red_bean_grandma.character_bible.json"
+    },
+    {
+      "bookId": "book.simcheong",
+      "slug": "simcheong",
+      "characterBible": "characters/simcheong.character_bible.json"
+    },
+    {
+      "bookId": "book.rabbit_turtle",
+      "slug": "rabbit-and-turtle",
+      "characterBible": "characters/rabbit_turtle.character_bible.json"
+    },
+    {
+      "bookId": "book.dokkaebi_club",
+      "slug": "dokkaebi-club",
+      "characterBible": "characters/dokkaebi_club.character_bible.json"
+    },
+    {
+      "bookId": "book.dangun",
+      "slug": "dangun-story",
+      "characterBible": "characters/dangun.character_bible.json"
+    },
+    {
+      "bookId": "book.grateful_magpie",
+      "slug": "grateful-magpie",
+      "characterBible": "characters/grateful_magpie.character_bible.json"
+    },
+    {
+      "bookId": "book.kongjwi_patjwi",
+      "slug": "kongjwi-and-patjwi",
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json"
+    },
+    {
+      "bookId": "book.geumgang_tiger",
+      "slug": "geumgang-mountain-tiger",
+      "characterBible": "characters/geumgang_tiger.character_bible.json"
+    },
+    {
+      "bookId": "book.lump_old_man",
+      "slug": "lump-old-man",
+      "characterBible": "characters/lump_old_man.character_bible.json"
+    },
+    {
+      "bookId": "book.gyeonwu_jiknyeo",
+      "slug": "gyeonwu-and-jiknyeo",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json"
+    },
+    {
+      "bookId": "book.bari_princess_part_1",
+      "slug": "bari-princess-part-1",
+      "characterBible": "characters/bari_princess_part_1.character_bible.json"
+    },
+    {
+      "bookId": "book.bari_princess_part_2",
+      "slug": "bari-princess-part-2",
+      "characterBible": "characters/bari_princess_part_2.character_bible.json"
+    },
+    {
+      "bookId": "book.snail_bride",
+      "slug": "snail-bride",
+      "characterBible": "characters/snail_bride.character_bible.json"
+    },
+    {
+      "bookId": "book.janghwa_hongryeon",
+      "slug": "janghwa-and-hongryeon",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json"
+    },
+    {
+      "bookId": "book.fairy_woodcutter",
+      "slug": "fairy-and-woodcutter",
+      "characterBible": "characters/fairy_woodcutter.character_bible.json"
+    },
+    {
+      "bookId": "book.green_frog",
+      "slug": "green-frog",
+      "characterBible": "characters/green_frog.character_bible.json"
+    },
+    {
+      "bookId": "book.kind_brothers",
+      "slug": "kind-brothers",
+      "characterBible": "characters/kind_brothers.character_bible.json"
+    },
+    {
+      "bookId": "book.byeoljubu",
+      "slug": "byeoljubu",
+      "characterBible": "characters/byeoljubu.character_bible.json"
+    },
+    {
+      "bookId": "book.farting_daughter_in_law",
+      "slug": "farting-daughter-in-law",
+      "characterBible": "characters/farting_daughter_in_law.character_bible.json"
+    },
+    {
+      "bookId": "book.serpent_bridegroom",
+      "slug": "serpent-bridegroom",
+      "characterBible": "characters/serpent_bridegroom.character_bible.json"
+    }
+  ]
+}

@@ -1,0 +1,3091 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "book.janghwa_hongryeon",
+  "slug": "janghwa-and-hongryeon",
+  "title": {
+    "ko": "장화홍련",
+    "en": "Janghwa and Hongryeon"
+  },
+  "access": "premium",
+  "ageRange": "7-8",
+  "estimatedMinutes": 11,
+  "summary": "Sisters Janghwa and Hongryeon face household injustice, carry truth through lotus dreams, and find repair without horror.",
+  "coverAsset": "assets/books/janghwa-and-hongryeon/cover.png",
+  "coverAssetStatus": "placeholder",
+  "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+  "narrationAudioStatus": "synthetic_draft",
+  "adaptationVersions": {
+    "default": "English-first bilingual semantic-authenticity repair draft",
+    "plannedAlternate": "External editor pass after children’s editorial and Korean-language review",
+    "note": "Generated repo-local repair draft; not external human final."
+  },
+  "sensitivityNotes": [
+    "The source tale's horror is softened into mystery and grief while preserving injustice.",
+    "Repaired by repo-local semantic authenticity pass; external children’s editor, Korean-language, cultural, and child-safety review remain required before final release."
+  ],
+  "themes": [
+    "sisterhood",
+    "truth",
+    "grief",
+    "repair",
+    "lotus"
+  ],
+  "characters": [
+    "janghwa",
+    "hongryeon",
+    "pond_keeper",
+    "lotus_pond"
+  ],
+  "pages": [
+    {
+      "id": "janghwa_hongryeon_001",
+      "pageNumber": 1,
+      "text": {
+        "enLittle": "Janghwa braided hongryeon's hair where the stepmother's voice could not reach.",
+        "enStandard": "In the lotus pond house, first, Janghwa braided Hongryeon's hair where the stepmother's voice could not reach. \"I will answer carefully,\" came the reply.",
+        "koLittle": "장화와 홍련가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "장화와 홍련가 있는 옛이야기 길에서 장화와 홍련가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "장화와 홍련가 있는 옛이야기 길에서 장화와 홍련가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the lotus pond house, first, Janghwa braided Hongryeon's hair where the stepmother's voice could not reach. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "장화와 홍련가 있는 옛이야기 길에서 장화와 홍련가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "장화",
+          "en": "Janghwa",
+          "romanization": "Janghwa",
+          "definitionEn": "One of the sisters.",
+          "definitionKo": "두 자매 중 한 명이에요."
+        },
+        {
+          "ko": "연꽃",
+          "en": "lotus",
+          "romanization": "yeonkkot",
+          "definitionEn": "A flower used for truth and remembrance.",
+          "definitionKo": "진실과 기억을 나타내는 꽃이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "sisters care for each other in a tense house (sister bond)",
+        "emotion": "tender unease",
+        "pageTurnHook": "Then the next part of sister bond will ask for a braver choice, and the story moves toward unfair household.",
+        "readAloudCue": "Read with tender unease; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap lotus pond house."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/janghwa_hongryeon.character_bible.json. Page 1 for 장화홍련 / Janghwa and Hongryeon: lotus pond house; specific beat: Janghwa braided Hongryeon's hair where the stepmother's voice could not reach; emotional tone: tender unease; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/janghwa-and-hongryeon/page-001.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with tender unease; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/janghwa-and-hongryeon/ko/page-001.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/janghwa-and-hongryeon/ambient/ambient-loop.wav",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_001/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_001/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_001/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_001/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_001/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_001/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "janghwa_hongryeon_002",
+      "pageNumber": 2,
+      "text": {
+        "enLittle": "Their father mistook quiet for peace.",
+        "enStandard": "In the lotus pond house, next, their father mistook quiet for peace. \"Then walk gently,\" the elder said.",
+        "koLittle": "연꽃 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "장화와 홍련가 있는 옛이야기 길에서 연꽃 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "장화와 홍련가 있는 옛이야기 길에서 연꽃 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the lotus pond house, next, their father mistook quiet for peace. \"Then walk gently,\" the elder said.",
+      "narrationScript": "장화와 홍련가 있는 옛이야기 길에서 연꽃 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "홍련",
+          "en": "Hongryeon",
+          "romanization": "Hongryeon",
+          "definitionEn": "One of the sisters.",
+          "definitionKo": "두 자매 중 한 명이에요."
+        },
+        {
+          "ko": "진실",
+          "en": "truth",
+          "romanization": "jinsil",
+          "definitionEn": "What really happened.",
+          "definitionKo": "정말 있었던 일이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "sisters care for each other in a tense house (sister bond)",
+        "emotion": "tender unease",
+        "pageTurnHook": "Then the next part of sister bond will ask for a braver choice, and the story moves toward unfair household.",
+        "readAloudCue": "Read with tender unease; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace lotus pond house."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/janghwa_hongryeon.character_bible.json. Page 2 for 장화홍련 / Janghwa and Hongryeon: lotus pond house; specific beat: their father mistook quiet for peace; emotional tone: tender unease; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/janghwa-and-hongryeon/page-002.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with tender unease; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/janghwa-and-hongryeon/ko/page-002.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/janghwa-and-hongryeon/ambient/ambient-loop.wav",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_002/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_002/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_002/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_002/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_002/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_002/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "janghwa_hongryeon_003",
+      "pageNumber": 3,
+      "text": {
+        "enLittle": "Lotus leaves tapped the pond like small warnings.",
+        "enStandard": "In the lotus pond house, quietly, lotus leaves tapped the pond like small warnings. \"I am still learning,\" the child answered.",
+        "koLittle": "장화를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "장화와 홍련가 있는 옛이야기 길에서 장화를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "장화와 홍련가 있는 옛이야기 길에서 장화를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the lotus pond house, quietly, lotus leaves tapped the pond like small warnings. \"I am still learning,\" the child answered.",
+      "narrationScript": "장화와 홍련가 있는 옛이야기 길에서 장화를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "연꽃",
+          "en": "lotus",
+          "romanization": "yeonkkot",
+          "definitionEn": "A flower used for truth and remembrance.",
+          "definitionKo": "진실과 기억을 나타내는 꽃이에요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "sisters care for each other in a tense house (sister bond)",
+        "emotion": "tender unease",
+        "pageTurnHook": "Then the next part of sister bond will ask for a braver choice, and the story moves toward unfair household.",
+        "readAloudCue": "Read with tender unease; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count lotus pond house."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/janghwa_hongryeon.character_bible.json. Page 3 for 장화홍련 / Janghwa and Hongryeon: lotus pond house; specific beat: lotus leaves tapped the pond like small warnings; emotional tone: tender unease; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/janghwa-and-hongryeon/page-003.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with tender unease; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/janghwa-and-hongryeon/ko/page-003.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/janghwa-and-hongryeon/ambient/ambient-loop.wav",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_003/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_003/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_003/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_003/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_003/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_003/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "janghwa_hongryeon_004",
+      "pageNumber": 4,
+      "text": {
+        "enLittle": "The sisters kept a shared ribbon under the floor mat.",
+        "enStandard": "In the lotus pond house, with the moon high, the sisters kept a shared ribbon under the floor mat. \"Tell me the truth,\" someone said.",
+        "koLittle": "진실의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "장화와 홍련가 있는 옛이야기 길에서 진실의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "장화와 홍련가 있는 옛이야기 길에서 진실의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the lotus pond house, with the moon high, the sisters kept a shared ribbon under the floor mat. \"Tell me the truth,\" someone said.",
+      "narrationScript": "장화와 홍련가 있는 옛이야기 길에서 진실의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "진실",
+          "en": "truth",
+          "romanization": "jinsil",
+          "definitionEn": "What really happened.",
+          "definitionKo": "정말 있었던 일이에요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "sisters care for each other in a tense house (sister bond)",
+        "emotion": "tender unease",
+        "pageTurnHook": "Then the next part of sister bond will ask for a braver choice, and the story moves toward unfair household.",
+        "readAloudCue": "Read with tender unease; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold lotus pond house."
+      },
+      "refrain": "Sisters hold the truth.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/janghwa_hongryeon.character_bible.json. Page 4 for 장화홍련 / Janghwa and Hongryeon: lotus pond house; specific beat: the sisters kept a shared ribbon under the floor mat; emotional tone: tender unease; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/janghwa-and-hongryeon/page-004.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with tender unease; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/janghwa-and-hongryeon/ko/page-004.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/janghwa-and-hongryeon/ambient/ambient-loop.wav",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_004/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_004/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_004/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_004/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_004/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_004/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "자매는 진실을 지켜."
+    },
+    {
+      "id": "janghwa_hongryeon_005",
+      "pageNumber": 5,
+      "text": {
+        "enLittle": "Janghwa braided hongryeon's hair where the stepmother's voice could not reach.",
+        "enStandard": "In the lotus pond house, before dawn, Janghwa braided Hongryeon's hair where the stepmother's voice could not reach. \"I will answer carefully,\" came the reply.",
+        "koLittle": "장화와 홍련가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "장화와 홍련가 있는 옛이야기 길에서 장화와 홍련가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "장화와 홍련가 있는 옛이야기 길에서 장화와 홍련가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the lotus pond house, before dawn, Janghwa braided Hongryeon's hair where the stepmother's voice could not reach. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "장화와 홍련가 있는 옛이야기 길에서 장화와 홍련가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "sisters care for each other in a tense house (sister bond)",
+        "emotion": "tender unease",
+        "pageTurnHook": "Then the next part of sister bond will ask for a braver choice, and the story moves toward unfair household.",
+        "readAloudCue": "Read with tender unease; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe lotus pond house."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/janghwa_hongryeon.character_bible.json. Page 5 for 장화홍련 / Janghwa and Hongryeon: lotus pond house; specific beat: Janghwa braided Hongryeon's hair where the stepmother's voice could not reach; emotional tone: tender unease; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/janghwa-and-hongryeon/page-005.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with tender unease; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/janghwa-and-hongryeon/ko/page-005.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/janghwa-and-hongryeon/ambient/ambient-loop.wav",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_005/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_005/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_005/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_005/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_005/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_005/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "janghwa_hongryeon_006",
+      "pageNumber": 6,
+      "text": {
+        "enLittle": "Rice spilled where no sister had walked.",
+        "enStandard": "In the hanok courtyard, first, rice spilled where no sister had walked. \"I am still learning,\" the child answered.",
+        "koLittle": "홍련와 연꽃가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "홍련와 연꽃가 있는 옛이야기 길에서 홍련와 연꽃가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "홍련와 연꽃가 있는 옛이야기 길에서 홍련와 연꽃가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the hanok courtyard, first, rice spilled where no sister had walked. \"I am still learning,\" the child answered.",
+      "narrationScript": "홍련와 연꽃가 있는 옛이야기 길에서 홍련와 연꽃가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "unjust tasks and false blame grow (unfair household)",
+        "emotion": "worried injustice",
+        "pageTurnHook": "Then the next part of unfair household will ask for a braver choice, and the story moves toward lotus dream.",
+        "readAloudCue": "Read with worried injustice; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open hanok courtyard."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/janghwa_hongryeon.character_bible.json. Page 6 for 장화홍련 / Janghwa and Hongryeon: hanok courtyard; specific beat: rice spilled where no sister had walked; emotional tone: worried injustice; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/janghwa-and-hongryeon/page-006.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with worried injustice; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/janghwa-and-hongryeon/ko/page-006.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/janghwa-and-hongryeon/ambient/ambient-loop.wav",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_006/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_006/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_006/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_006/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_006/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_006/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "janghwa_hongryeon_007",
+      "pageNumber": 7,
+      "text": {
+        "enLittle": "A harsh accusation entered before breakfast steam faded.",
+        "enStandard": "In the hanok courtyard, next, a harsh accusation entered before breakfast steam faded. \"Tell me the truth,\" someone said.",
+        "koLittle": "진실 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "홍련와 연꽃가 있는 옛이야기 길에서 진실 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "홍련와 연꽃가 있는 옛이야기 길에서 진실 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the hanok courtyard, next, a harsh accusation entered before breakfast steam faded. \"Tell me the truth,\" someone said.",
+      "narrationScript": "홍련와 연꽃가 있는 옛이야기 길에서 진실 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "unjust tasks and false blame grow (unfair household)",
+        "emotion": "worried injustice",
+        "pageTurnHook": "Then the next part of unfair household will ask for a braver choice, and the story moves toward lotus dream.",
+        "readAloudCue": "Read with worried injustice; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose hanok courtyard."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/janghwa_hongryeon.character_bible.json. Page 7 for 장화홍련 / Janghwa and Hongryeon: hanok courtyard; specific beat: a harsh accusation entered before breakfast steam faded; emotional tone: worried injustice; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/janghwa-and-hongryeon/page-007.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with worried injustice; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/janghwa-and-hongryeon/ko/page-007.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/janghwa-and-hongryeon/ambient/ambient-loop.wav",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_007/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_007/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_007/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_007/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_007/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_007/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "janghwa_hongryeon_008",
+      "pageNumber": 8,
+      "text": {
+        "enLittle": "Hongryeon held janghwa's sleeve instead of answering with anger.",
+        "enStandard": "In the hanok courtyard, quietly, Hongryeon held Janghwa's sleeve instead of answering with anger. \"I will answer carefully,\" came the reply.",
+        "koLittle": "홍련를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "홍련와 연꽃가 있는 옛이야기 길에서 홍련를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "홍련와 연꽃가 있는 옛이야기 길에서 홍련를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the hanok courtyard, quietly, Hongryeon held Janghwa's sleeve instead of answering with anger. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "홍련와 연꽃가 있는 옛이야기 길에서 홍련를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "unjust tasks and false blame grow (unfair household)",
+        "emotion": "worried injustice",
+        "pageTurnHook": "Then the next part of unfair household will ask for a braver choice, and the story moves toward lotus dream.",
+        "readAloudCue": "Read with worried injustice; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag hanok courtyard."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/janghwa_hongryeon.character_bible.json. Page 8 for 장화홍련 / Janghwa and Hongryeon: hanok courtyard; specific beat: Hongryeon held Janghwa's sleeve instead of answering with anger; emotional tone: worried injustice; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/janghwa-and-hongryeon/page-008.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with worried injustice; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/janghwa-and-hongryeon/ko/page-008.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/janghwa-and-hongryeon/ambient/ambient-loop.wav",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_008/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_008/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_008/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_008/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_008/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_008/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "janghwa_hongryeon_009",
+      "pageNumber": 9,
+      "text": {
+        "enLittle": "The house felt colder than the rain outside.",
+        "enStandard": "In the hanok courtyard, with the moon high, the house felt colder than the rain outside. \"Then walk gently,\" the elder said.",
+        "koLittle": "장화의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "홍련와 연꽃가 있는 옛이야기 길에서 장화의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "홍련와 연꽃가 있는 옛이야기 길에서 장화의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the hanok courtyard, with the moon high, the house felt colder than the rain outside. \"Then walk gently,\" the elder said.",
+      "narrationScript": "홍련와 연꽃가 있는 옛이야기 길에서 장화의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "장화",
+          "en": "Janghwa",
+          "romanization": "Janghwa",
+          "definitionEn": "One of the sisters.",
+          "definitionKo": "두 자매 중 한 명이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "unjust tasks and false blame grow (unfair household)",
+        "emotion": "worried injustice",
+        "pageTurnHook": "Then the next part of unfair household will ask for a braver choice, and the story moves toward lotus dream.",
+        "readAloudCue": "Read with worried injustice; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap hanok courtyard."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/janghwa_hongryeon.character_bible.json. Page 9 for 장화홍련 / Janghwa and Hongryeon: hanok courtyard; specific beat: the house felt colder than the rain outside; emotional tone: worried injustice; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/janghwa-and-hongryeon/page-009.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with worried injustice; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/janghwa-and-hongryeon/ko/page-009.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/janghwa-and-hongryeon/ambient/ambient-loop.wav",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_009/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_009/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_009/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_009/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_009/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_009/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "janghwa_hongryeon_010",
+      "pageNumber": 10,
+      "text": {
+        "enLittle": "Rice spilled where no sister had walked.",
+        "enStandard": "In the hanok courtyard, before dawn, rice spilled where no sister had walked. \"I am still learning,\" the child answered.",
+        "koLittle": "홍련와 연꽃가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "홍련와 연꽃가 있는 옛이야기 길에서 홍련와 연꽃가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "홍련와 연꽃가 있는 옛이야기 길에서 홍련와 연꽃가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the hanok courtyard, before dawn, rice spilled where no sister had walked. \"I am still learning,\" the child answered.",
+      "narrationScript": "홍련와 연꽃가 있는 옛이야기 길에서 홍련와 연꽃가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "홍련",
+          "en": "Hongryeon",
+          "romanization": "Hongryeon",
+          "definitionEn": "One of the sisters.",
+          "definitionKo": "두 자매 중 한 명이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "unjust tasks and false blame grow (unfair household)",
+        "emotion": "worried injustice",
+        "pageTurnHook": "Then the next part of unfair household will ask for a braver choice, and the story moves toward lotus dream.",
+        "readAloudCue": "Read with worried injustice; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace hanok courtyard."
+      },
+      "refrain": "Sisters hold the truth.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/janghwa_hongryeon.character_bible.json. Page 10 for 장화홍련 / Janghwa and Hongryeon: hanok courtyard; specific beat: rice spilled where no sister had walked; emotional tone: worried injustice; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/janghwa-and-hongryeon/page-010.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with worried injustice; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/janghwa-and-hongryeon/ko/page-010.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/janghwa-and-hongryeon/ambient/ambient-loop.wav",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_010/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_010/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_010/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_010/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_010/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_010/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "자매는 진실을 지켜."
+    },
+    {
+      "id": "janghwa_hongryeon_011",
+      "pageNumber": 11,
+      "text": {
+        "enLittle": "Janghwa dreamed a lotus opening with a red thread inside.",
+        "enStandard": "In the rainy lotus pond, first, Janghwa dreamed a lotus opening with a red thread inside. \"I will answer carefully,\" came the reply.",
+        "koLittle": "연꽃와 진실가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "연꽃와 진실가 있는 옛이야기 길에서 연꽃와 진실가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "연꽃와 진실가 있는 옛이야기 길에서 연꽃와 진실가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the rainy lotus pond, first, Janghwa dreamed a lotus opening with a red thread inside. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "연꽃와 진실가 있는 옛이야기 길에서 연꽃와 진실가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "장화",
+          "en": "Janghwa",
+          "romanization": "Janghwa",
+          "definitionEn": "One of the sisters.",
+          "definitionKo": "두 자매 중 한 명이에요."
+        },
+        {
+          "ko": "연꽃",
+          "en": "lotus",
+          "romanization": "yeonkkot",
+          "definitionEn": "A flower used for truth and remembrance.",
+          "definitionKo": "진실과 기억을 나타내는 꽃이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "truth appears through dreamlike lotus imagery (lotus dream)",
+        "emotion": "mysterious sorrow",
+        "pageTurnHook": "Then the next part of lotus dream will ask for a braver choice, and the story moves toward seeking witness.",
+        "readAloudCue": "Read with mysterious sorrow; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count rainy lotus pond."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/janghwa_hongryeon.character_bible.json. Page 11 for 장화홍련 / Janghwa and Hongryeon: rainy lotus pond; specific beat: Janghwa dreamed a lotus opening with a red thread inside; emotional tone: mysterious sorrow; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/janghwa-and-hongryeon/page-011.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with mysterious sorrow; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/janghwa-and-hongryeon/ko/page-011.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/janghwa-and-hongryeon/ambient/ambient-loop.wav",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_011/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_011/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_011/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_011/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_011/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_011/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "janghwa_hongryeon_012",
+      "pageNumber": 12,
+      "text": {
+        "enLittle": "Hongryeon woke with the same raindrop on her palm.",
+        "enStandard": "In the rainy lotus pond, next, Hongryeon woke with the same raindrop on her palm. \"Then walk gently,\" the elder said.",
+        "koLittle": "장화 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "연꽃와 진실가 있는 옛이야기 길에서 장화 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "연꽃와 진실가 있는 옛이야기 길에서 장화 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the rainy lotus pond, next, Hongryeon woke with the same raindrop on her palm. \"Then walk gently,\" the elder said.",
+      "narrationScript": "연꽃와 진실가 있는 옛이야기 길에서 장화 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "홍련",
+          "en": "Hongryeon",
+          "romanization": "Hongryeon",
+          "definitionEn": "One of the sisters.",
+          "definitionKo": "두 자매 중 한 명이에요."
+        },
+        {
+          "ko": "진실",
+          "en": "truth",
+          "romanization": "jinsil",
+          "definitionEn": "What really happened.",
+          "definitionKo": "정말 있었던 일이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "truth appears through dreamlike lotus imagery (lotus dream)",
+        "emotion": "mysterious sorrow",
+        "pageTurnHook": "Then the next part of lotus dream will ask for a braver choice, and the story moves toward seeking witness.",
+        "readAloudCue": "Read with mysterious sorrow; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold rainy lotus pond."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/janghwa_hongryeon.character_bible.json. Page 12 for 장화홍련 / Janghwa and Hongryeon: rainy lotus pond; specific beat: Hongryeon woke with the same raindrop on her palm; emotional tone: mysterious sorrow; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/janghwa-and-hongryeon/page-012.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with mysterious sorrow; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/janghwa-and-hongryeon/ko/page-012.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/janghwa-and-hongryeon/ambient/ambient-loop.wav",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_012/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_012/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_012/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_012/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_012/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_012/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "janghwa_hongryeon_013",
+      "pageNumber": 13,
+      "text": {
+        "enLittle": "The pond keeper listened when adults would not.",
+        "enStandard": "In the rainy lotus pond, quietly, the pond keeper listened when adults would not. \"I am still learning,\" the child answered.",
+        "koLittle": "연꽃를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "연꽃와 진실가 있는 옛이야기 길에서 연꽃를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "연꽃와 진실가 있는 옛이야기 길에서 연꽃를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the rainy lotus pond, quietly, the pond keeper listened when adults would not. \"I am still learning,\" the child answered.",
+      "narrationScript": "연꽃와 진실가 있는 옛이야기 길에서 연꽃를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "연꽃",
+          "en": "lotus",
+          "romanization": "yeonkkot",
+          "definitionEn": "A flower used for truth and remembrance.",
+          "definitionKo": "진실과 기억을 나타내는 꽃이에요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "truth appears through dreamlike lotus imagery (lotus dream)",
+        "emotion": "mysterious sorrow",
+        "pageTurnHook": "Then the next part of lotus dream will ask for a braver choice, and the story moves toward seeking witness.",
+        "readAloudCue": "Read with mysterious sorrow; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe rainy lotus pond."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/janghwa_hongryeon.character_bible.json. Page 13 for 장화홍련 / Janghwa and Hongryeon: rainy lotus pond; specific beat: the pond keeper listened when adults would not; emotional tone: mysterious sorrow; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/janghwa-and-hongryeon/page-013.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with mysterious sorrow; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/janghwa-and-hongryeon/ko/page-013.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/janghwa-and-hongryeon/ambient/ambient-loop.wav",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_013/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_013/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_013/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_013/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_013/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_013/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "janghwa_hongryeon_014",
+      "pageNumber": 14,
+      "text": {
+        "enLittle": "Moonlight showed footprints turning away from the truth.",
+        "enStandard": "In the rainy lotus pond, with the moon high, moonlight showed footprints turning away from the truth. \"Tell me the truth,\" someone said.",
+        "koLittle": "홍련의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "연꽃와 진실가 있는 옛이야기 길에서 홍련의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "연꽃와 진실가 있는 옛이야기 길에서 홍련의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the rainy lotus pond, with the moon high, moonlight showed footprints turning away from the truth. \"Tell me the truth,\" someone said.",
+      "narrationScript": "연꽃와 진실가 있는 옛이야기 길에서 홍련의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "진실",
+          "en": "truth",
+          "romanization": "jinsil",
+          "definitionEn": "What really happened.",
+          "definitionKo": "정말 있었던 일이에요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "truth appears through dreamlike lotus imagery (lotus dream)",
+        "emotion": "mysterious sorrow",
+        "pageTurnHook": "Then the next part of lotus dream will ask for a braver choice, and the story moves toward seeking witness.",
+        "readAloudCue": "Read with mysterious sorrow; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open rainy lotus pond."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/janghwa_hongryeon.character_bible.json. Page 14 for 장화홍련 / Janghwa and Hongryeon: rainy lotus pond; specific beat: moonlight showed footprints turning away from the truth; emotional tone: mysterious sorrow; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/janghwa-and-hongryeon/page-014.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with mysterious sorrow; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/janghwa-and-hongryeon/ko/page-014.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/janghwa-and-hongryeon/ambient/ambient-loop.wav",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_014/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_014/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_014/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_014/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_014/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_014/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "janghwa_hongryeon_015",
+      "pageNumber": 15,
+      "text": {
+        "enLittle": "Janghwa dreamed a lotus opening with a red thread inside.",
+        "enStandard": "In the rainy lotus pond, before dawn, Janghwa dreamed a lotus opening with a red thread inside. \"I will answer carefully,\" came the reply.",
+        "koLittle": "연꽃와 진실가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "연꽃와 진실가 있는 옛이야기 길에서 연꽃와 진실가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "연꽃와 진실가 있는 옛이야기 길에서 연꽃와 진실가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the rainy lotus pond, before dawn, Janghwa dreamed a lotus opening with a red thread inside. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "연꽃와 진실가 있는 옛이야기 길에서 연꽃와 진실가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "truth appears through dreamlike lotus imagery (lotus dream)",
+        "emotion": "mysterious sorrow",
+        "pageTurnHook": "Then the next part of lotus dream will ask for a braver choice, and the story moves toward seeking witness.",
+        "readAloudCue": "Read with mysterious sorrow; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose rainy lotus pond."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/janghwa_hongryeon.character_bible.json. Page 15 for 장화홍련 / Janghwa and Hongryeon: rainy lotus pond; specific beat: Janghwa dreamed a lotus opening with a red thread inside; emotional tone: mysterious sorrow; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/janghwa-and-hongryeon/page-015.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with mysterious sorrow; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/janghwa-and-hongryeon/ko/page-015.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/janghwa-and-hongryeon/ambient/ambient-loop.wav",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_015/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_015/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_015/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_015/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_015/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_015/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "janghwa_hongryeon_016",
+      "pageNumber": 16,
+      "text": {
+        "enLittle": "They carried the ribbon.",
+        "enStandard": "In the village office path, first, they carried the ribbon, the rice grains, and their shaking voices together. \"I am still learning,\" the child answered.",
+        "koLittle": "진실와 장화가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "진실와 장화가 있는 옛이야기 길에서 진실와 장화가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "진실와 장화가 있는 옛이야기 길에서 진실와 장화가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the village office path, first, they carried the ribbon, the rice grains, and their shaking voices together. \"I am still learning,\" the child answered.",
+      "narrationScript": "진실와 장화가 있는 옛이야기 길에서 진실와 장화가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "the sisters bring clues to a just listener (seeking witness)",
+        "emotion": "brave clarity",
+        "pageTurnHook": "Then the next part of seeking witness will ask for a braver choice, and the story moves toward truth heard.",
+        "readAloudCue": "Read with brave clarity; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag village office path."
+      },
+      "refrain": "Sisters hold the truth.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/janghwa_hongryeon.character_bible.json. Page 16 for 장화홍련 / Janghwa and Hongryeon: village office path; specific beat: they carried the ribbon, the rice grains, and their shaking voices together; emotional tone: brave clarity; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/janghwa-and-hongryeon/page-016.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with brave clarity; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/janghwa-and-hongryeon/ko/page-016.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/janghwa-and-hongryeon/ambient/ambient-loop.wav",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_016/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_016/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_016/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_016/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_016/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_016/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "자매는 진실을 지켜."
+    },
+    {
+      "id": "janghwa_hongryeon_017",
+      "pageNumber": 17,
+      "text": {
+        "enLittle": "The magistrate put away his brush until he had truly listened.",
+        "enStandard": "In the village office path, next, the magistrate put away his brush until he had truly listened. \"Tell me the truth,\" someone said.",
+        "koLittle": "홍련 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "진실와 장화가 있는 옛이야기 길에서 홍련 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "진실와 장화가 있는 옛이야기 길에서 홍련 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the village office path, next, the magistrate put away his brush until he had truly listened. \"Tell me the truth,\" someone said.",
+      "narrationScript": "진실와 장화가 있는 옛이야기 길에서 홍련 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "the sisters bring clues to a just listener (seeking witness)",
+        "emotion": "brave clarity",
+        "pageTurnHook": "Then the next part of seeking witness will ask for a braver choice, and the story moves toward truth heard.",
+        "readAloudCue": "Read with brave clarity; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap village office path."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/janghwa_hongryeon.character_bible.json. Page 17 for 장화홍련 / Janghwa and Hongryeon: village office path; specific beat: the magistrate put away his brush until he had truly listened; emotional tone: brave clarity; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/janghwa-and-hongryeon/page-017.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with brave clarity; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/janghwa-and-hongryeon/ko/page-017.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/janghwa-and-hongryeon/ambient/ambient-loop.wav",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_017/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_017/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_017/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_017/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_017/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_017/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "janghwa_hongryeon_018",
+      "pageNumber": 18,
+      "text": {
+        "enLittle": "The pond keeper named what the lotus had shown.",
+        "enStandard": "In the village office path, quietly, the pond keeper named what the lotus had shown. \"I will answer carefully,\" came the reply.",
+        "koLittle": "진실를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "진실와 장화가 있는 옛이야기 길에서 진실를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "진실와 장화가 있는 옛이야기 길에서 진실를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the village office path, quietly, the pond keeper named what the lotus had shown. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "진실와 장화가 있는 옛이야기 길에서 진실를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "the sisters bring clues to a just listener (seeking witness)",
+        "emotion": "brave clarity",
+        "pageTurnHook": "Then the next part of seeking witness will ask for a braver choice, and the story moves toward truth heard.",
+        "readAloudCue": "Read with brave clarity; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace village office path."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/janghwa_hongryeon.character_bible.json. Page 18 for 장화홍련 / Janghwa and Hongryeon: village office path; specific beat: the pond keeper named what the lotus had shown; emotional tone: brave clarity; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/janghwa-and-hongryeon/page-018.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with brave clarity; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/janghwa-and-hongryeon/ko/page-018.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/janghwa-and-hongryeon/ambient/ambient-loop.wav",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_018/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_018/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_018/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_018/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_018/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_018/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "janghwa_hongryeon_019",
+      "pageNumber": 19,
+      "text": {
+        "enLittle": "False blame began to loosen like wet paper.",
+        "enStandard": "In the village office path, with the moon high, false blame began to loosen like wet paper. \"Then walk gently,\" the elder said.",
+        "koLittle": "연꽃의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "진실와 장화가 있는 옛이야기 길에서 연꽃의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "진실와 장화가 있는 옛이야기 길에서 연꽃의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the village office path, with the moon high, false blame began to loosen like wet paper. \"Then walk gently,\" the elder said.",
+      "narrationScript": "진실와 장화가 있는 옛이야기 길에서 연꽃의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "장화",
+          "en": "Janghwa",
+          "romanization": "Janghwa",
+          "definitionEn": "One of the sisters.",
+          "definitionKo": "두 자매 중 한 명이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "the sisters bring clues to a just listener (seeking witness)",
+        "emotion": "brave clarity",
+        "pageTurnHook": "Then the next part of seeking witness will ask for a braver choice, and the story moves toward truth heard.",
+        "readAloudCue": "Read with brave clarity; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count village office path."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/janghwa_hongryeon.character_bible.json. Page 19 for 장화홍련 / Janghwa and Hongryeon: village office path; specific beat: false blame began to loosen like wet paper; emotional tone: brave clarity; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/janghwa-and-hongryeon/page-019.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with brave clarity; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/janghwa-and-hongryeon/ko/page-019.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/janghwa-and-hongryeon/ambient/ambient-loop.wav",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_019/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_019/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_019/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_019/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_019/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_019/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "janghwa_hongryeon_020",
+      "pageNumber": 20,
+      "text": {
+        "enLittle": "They carried the ribbon.",
+        "enStandard": "In the village office path, before dawn, they carried the ribbon, the rice grains, and their shaking voices together. \"I am still learning,\" the child answered.",
+        "koLittle": "진실와 장화가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "진실와 장화가 있는 옛이야기 길에서 진실와 장화가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "진실와 장화가 있는 옛이야기 길에서 진실와 장화가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the village office path, before dawn, they carried the ribbon, the rice grains, and their shaking voices together. \"I am still learning,\" the child answered.",
+      "narrationScript": "진실와 장화가 있는 옛이야기 길에서 진실와 장화가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "홍련",
+          "en": "Hongryeon",
+          "romanization": "Hongryeon",
+          "definitionEn": "One of the sisters.",
+          "definitionKo": "두 자매 중 한 명이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "the sisters bring clues to a just listener (seeking witness)",
+        "emotion": "brave clarity",
+        "pageTurnHook": "Then the next part of seeking witness will ask for a braver choice, and the story moves toward truth heard.",
+        "readAloudCue": "Read with brave clarity; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold village office path."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/janghwa_hongryeon.character_bible.json. Page 20 for 장화홍련 / Janghwa and Hongryeon: village office path; specific beat: they carried the ribbon, the rice grains, and their shaking voices together; emotional tone: brave clarity; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/janghwa-and-hongryeon/page-020.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with brave clarity; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/janghwa-and-hongryeon/ko/page-020.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/janghwa-and-hongryeon/ambient/ambient-loop.wav",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_020/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_020/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_020/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_020/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_020/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_020/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "janghwa_hongryeon_021",
+      "pageNumber": 21,
+      "text": {
+        "enLittle": "Their father bowed his head when truth reached him at last.",
+        "enStandard": "In the courtyard gathering, first, their father bowed his head when truth reached him at last. \"I will answer carefully,\" came the reply.",
+        "koLittle": "장화와 홍련가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "장화와 홍련가 있는 옛이야기 길에서 장화와 홍련가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "장화와 홍련가 있는 옛이야기 길에서 장화와 홍련가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the courtyard gathering, first, their father bowed his head when truth reached him at last. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "장화와 홍련가 있는 옛이야기 길에서 장화와 홍련가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "장화",
+          "en": "Janghwa",
+          "romanization": "Janghwa",
+          "definitionEn": "One of the sisters.",
+          "definitionKo": "두 자매 중 한 명이에요."
+        },
+        {
+          "ko": "연꽃",
+          "en": "lotus",
+          "romanization": "yeonkkot",
+          "definitionEn": "A flower used for truth and remembrance.",
+          "definitionKo": "진실과 기억을 나타내는 꽃이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "the household injustice is named (truth heard)",
+        "emotion": "solemn relief",
+        "pageTurnHook": "Then the next part of truth heard will ask for a braver choice, and the story moves toward repair pond.",
+        "readAloudCue": "Read with solemn relief; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe courtyard gathering."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/janghwa_hongryeon.character_bible.json. Page 21 for 장화홍련 / Janghwa and Hongryeon: courtyard gathering; specific beat: their father bowed his head when truth reached him at last; emotional tone: solemn relief; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/janghwa-and-hongryeon/page-021.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with solemn relief; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/janghwa-and-hongryeon/ko/page-021.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/janghwa-and-hongryeon/ambient/ambient-loop.wav",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_021/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_021/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_021/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_021/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_021/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_021/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "janghwa_hongryeon_022",
+      "pageNumber": 22,
+      "text": {
+        "enLittle": "The stepmother's anger shrank under the clear morning.",
+        "enStandard": "In the courtyard gathering, next, the stepmother's anger shrank under the clear morning. \"Then walk gently,\" the elder said.",
+        "koLittle": "연꽃 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "장화와 홍련가 있는 옛이야기 길에서 연꽃 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "장화와 홍련가 있는 옛이야기 길에서 연꽃 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the courtyard gathering, next, the stepmother's anger shrank under the clear morning. \"Then walk gently,\" the elder said.",
+      "narrationScript": "장화와 홍련가 있는 옛이야기 길에서 연꽃 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "홍련",
+          "en": "Hongryeon",
+          "romanization": "Hongryeon",
+          "definitionEn": "One of the sisters.",
+          "definitionKo": "두 자매 중 한 명이에요."
+        },
+        {
+          "ko": "진실",
+          "en": "truth",
+          "romanization": "jinsil",
+          "definitionEn": "What really happened.",
+          "definitionKo": "정말 있었던 일이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "the household injustice is named (truth heard)",
+        "emotion": "solemn relief",
+        "pageTurnHook": "Then the next part of truth heard will ask for a braver choice, and the story moves toward repair pond.",
+        "readAloudCue": "Read with solemn relief; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open courtyard gathering."
+      },
+      "refrain": "Sisters hold the truth.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/janghwa_hongryeon.character_bible.json. Page 22 for 장화홍련 / Janghwa and Hongryeon: courtyard gathering; specific beat: the stepmother's anger shrank under the clear morning; emotional tone: solemn relief; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/janghwa-and-hongryeon/page-022.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with solemn relief; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/janghwa-and-hongryeon/ko/page-022.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/janghwa-and-hongryeon/ambient/ambient-loop.wav",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_022/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_022/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_022/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_022/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_022/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_022/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "자매는 진실을 지켜."
+    },
+    {
+      "id": "janghwa_hongryeon_023",
+      "pageNumber": 23,
+      "text": {
+        "enLittle": "No one shouted triumph because grief still sat nearby.",
+        "enStandard": "In the courtyard gathering, quietly, no one shouted triumph because grief still sat nearby. \"I am still learning,\" the child answered.",
+        "koLittle": "장화를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "장화와 홍련가 있는 옛이야기 길에서 장화를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "장화와 홍련가 있는 옛이야기 길에서 장화를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the courtyard gathering, quietly, no one shouted triumph because grief still sat nearby. \"I am still learning,\" the child answered.",
+      "narrationScript": "장화와 홍련가 있는 옛이야기 길에서 장화를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "연꽃",
+          "en": "lotus",
+          "romanization": "yeonkkot",
+          "definitionEn": "A flower used for truth and remembrance.",
+          "definitionKo": "진실과 기억을 나타내는 꽃이에요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "the household injustice is named (truth heard)",
+        "emotion": "solemn relief",
+        "pageTurnHook": "Then the next part of truth heard will ask for a braver choice, and the story moves toward repair pond.",
+        "readAloudCue": "Read with solemn relief; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose courtyard gathering."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/janghwa_hongryeon.character_bible.json. Page 23 for 장화홍련 / Janghwa and Hongryeon: courtyard gathering; specific beat: no one shouted triumph because grief still sat nearby; emotional tone: solemn relief; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/janghwa-and-hongryeon/page-023.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with solemn relief; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/janghwa-and-hongryeon/ko/page-023.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/janghwa-and-hongryeon/ambient/ambient-loop.wav",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_023/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_023/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_023/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_023/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_023/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_023/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "janghwa_hongryeon_024",
+      "pageNumber": 24,
+      "text": {
+        "enLittle": "The sisters stood shoulder to shoulder.",
+        "enStandard": "In the courtyard gathering, with the moon high, the sisters stood shoulder to shoulder. \"Tell me the truth,\" someone said.",
+        "koLittle": "진실의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "장화와 홍련가 있는 옛이야기 길에서 진실의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "장화와 홍련가 있는 옛이야기 길에서 진실의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the courtyard gathering, with the moon high, the sisters stood shoulder to shoulder. \"Tell me the truth,\" someone said.",
+      "narrationScript": "장화와 홍련가 있는 옛이야기 길에서 진실의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "진실",
+          "en": "truth",
+          "romanization": "jinsil",
+          "definitionEn": "What really happened.",
+          "definitionKo": "정말 있었던 일이에요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "the household injustice is named (truth heard)",
+        "emotion": "solemn relief",
+        "pageTurnHook": "Then the next part of truth heard will ask for a braver choice, and the story moves toward repair pond.",
+        "readAloudCue": "Read with solemn relief; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag courtyard gathering."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/janghwa_hongryeon.character_bible.json. Page 24 for 장화홍련 / Janghwa and Hongryeon: courtyard gathering; specific beat: the sisters stood shoulder to shoulder; emotional tone: solemn relief; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/janghwa-and-hongryeon/page-024.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with solemn relief; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/janghwa-and-hongryeon/ko/page-024.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/janghwa-and-hongryeon/ambient/ambient-loop.wav",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_024/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_024/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_024/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_024/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_024/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_024/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "janghwa_hongryeon_025",
+      "pageNumber": 25,
+      "text": {
+        "enLittle": "Their father bowed his head when truth reached him at last.",
+        "enStandard": "In the courtyard gathering, before dawn, their father bowed his head when truth reached him at last. \"I will answer carefully,\" came the reply.",
+        "koLittle": "장화와 홍련가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "장화와 홍련가 있는 옛이야기 길에서 장화와 홍련가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "장화와 홍련가 있는 옛이야기 길에서 장화와 홍련가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the courtyard gathering, before dawn, their father bowed his head when truth reached him at last. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "장화와 홍련가 있는 옛이야기 길에서 장화와 홍련가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "the household injustice is named (truth heard)",
+        "emotion": "solemn relief",
+        "pageTurnHook": "Then the next part of truth heard will ask for a braver choice, and the story moves toward repair pond.",
+        "readAloudCue": "Read with solemn relief; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap courtyard gathering."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/janghwa_hongryeon.character_bible.json. Page 25 for 장화홍련 / Janghwa and Hongryeon: courtyard gathering; specific beat: their father bowed his head when truth reached him at last; emotional tone: solemn relief; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/janghwa-and-hongryeon/page-025.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with solemn relief; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/janghwa-and-hongryeon/ko/page-025.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/janghwa-and-hongryeon/ambient/ambient-loop.wav",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_025/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_025/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_025/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_025/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_025/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_025/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "janghwa_hongryeon_026",
+      "pageNumber": 26,
+      "text": {
+        "enLittle": "The stepmother's anger shrank under the clear morning.",
+        "enStandard": "In the courtyard gathering, after a pause, the stepmother's anger shrank under the clear morning. \"Then walk gently,\" the elder said.",
+        "koLittle": "연꽃 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "장화와 홍련가 있는 옛이야기 길에서 연꽃 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "장화와 홍련가 있는 옛이야기 길에서 연꽃 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the courtyard gathering, after a pause, the stepmother's anger shrank under the clear morning. \"Then walk gently,\" the elder said.",
+      "narrationScript": "장화와 홍련가 있는 옛이야기 길에서 연꽃 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "the household injustice is named (truth heard)",
+        "emotion": "solemn relief",
+        "pageTurnHook": "Then the next part of truth heard will ask for a braver choice, and the story moves toward repair pond.",
+        "readAloudCue": "Read with solemn relief; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace courtyard gathering."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/janghwa_hongryeon.character_bible.json. Page 26 for 장화홍련 / Janghwa and Hongryeon: courtyard gathering; specific beat: the stepmother's anger shrank under the clear morning; emotional tone: solemn relief; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/janghwa-and-hongryeon/page-026.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with solemn relief; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/janghwa-and-hongryeon/ko/page-026.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/janghwa-and-hongryeon/ambient/ambient-loop.wav",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_026/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_026/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_026/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_026/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_026/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_026/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "janghwa_hongryeon_027",
+      "pageNumber": 27,
+      "text": {
+        "enLittle": "Two lotus flowers opened where the sisters had once whispered.",
+        "enStandard": "In the lotus pond at dawn, first, two lotus flowers opened where the sisters had once whispered. \"Tell me the truth,\" someone said.",
+        "koLittle": "홍련와 연꽃가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "홍련와 연꽃가 있는 옛이야기 길에서 홍련와 연꽃가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "홍련와 연꽃가 있는 옛이야기 길에서 홍련와 연꽃가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the lotus pond at dawn, first, two lotus flowers opened where the sisters had once whispered. \"Tell me the truth,\" someone said.",
+      "narrationScript": "홍련와 연꽃가 있는 옛이야기 길에서 홍련와 연꽃가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve with remembrance and protection (repair pond)",
+        "emotion": "soft healing",
+        "pageTurnHook": "Then the next part of repair pond will ask for a braver choice, and the story moves toward repair pond.",
+        "readAloudCue": "Read with soft healing; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count lotus pond at dawn."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/janghwa_hongryeon.character_bible.json. Page 27 for 장화홍련 / Janghwa and Hongryeon: lotus pond at dawn; specific beat: two lotus flowers opened where the sisters had once whispered; emotional tone: soft healing; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/janghwa-and-hongryeon/page-027.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with soft healing; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/janghwa-and-hongryeon/ko/page-027.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/janghwa-and-hongryeon/ambient/ambient-loop.wav",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_027/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_027/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_027/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_027/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_027/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_027/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "janghwa_hongryeon_028",
+      "pageNumber": 28,
+      "text": {
+        "enLittle": "The household changed its rules so children would be believed sooner.",
+        "enStandard": "In the lotus pond at dawn, next, the household changed its rules so children would be believed sooner. \"I will answer carefully,\" came the reply.",
+        "koLittle": "진실 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "홍련와 연꽃가 있는 옛이야기 길에서 진실 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "홍련와 연꽃가 있는 옛이야기 길에서 진실 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the lotus pond at dawn, next, the household changed its rules so children would be believed sooner. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "홍련와 연꽃가 있는 옛이야기 길에서 진실 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve with remembrance and protection (repair pond)",
+        "emotion": "soft healing",
+        "pageTurnHook": "Then the next part of repair pond will ask for a braver choice, and the story moves toward repair pond.",
+        "readAloudCue": "Read with soft healing; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold lotus pond at dawn."
+      },
+      "refrain": "Sisters hold the truth.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/janghwa_hongryeon.character_bible.json. Page 28 for 장화홍련 / Janghwa and Hongryeon: lotus pond at dawn; specific beat: the household changed its rules so children would be believed sooner; emotional tone: soft healing; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/janghwa-and-hongryeon/page-028.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with soft healing; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/janghwa-and-hongryeon/ko/page-028.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/janghwa-and-hongryeon/ambient/ambient-loop.wav",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_028/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_028/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_028/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_028/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_028/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_028/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "자매는 진실을 지켜."
+    },
+    {
+      "id": "janghwa_hongryeon_029",
+      "pageNumber": 29,
+      "text": {
+        "enLittle": "Janghwa and hongryeon tied their ribbon to the pond rail.",
+        "enStandard": "In the lotus pond at dawn, quietly, Janghwa and Hongryeon tied their ribbon to the pond rail. \"Then walk gently,\" the elder said.",
+        "koLittle": "홍련를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요",
+        "koStandard": "홍련와 연꽃가 있는 옛이야기 길에서 홍련를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요."
+      },
+      "koreanText": "홍련와 연꽃가 있는 옛이야기 길에서 홍련를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "englishText": "In the lotus pond at dawn, quietly, Janghwa and Hongryeon tied their ribbon to the pond rail. \"Then walk gently,\" the elder said.",
+      "narrationScript": "홍련와 연꽃가 있는 옛이야기 길에서 홍련를 바라보는 작은 행동 하나가 길의 방향을 바꾸었어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "장화",
+          "en": "Janghwa",
+          "romanization": "Janghwa",
+          "definitionEn": "One of the sisters.",
+          "definitionKo": "두 자매 중 한 명이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve with remembrance and protection (repair pond)",
+        "emotion": "soft healing",
+        "pageTurnHook": "Then the next part of repair pond will ask for a braver choice, and the story moves toward repair pond.",
+        "readAloudCue": "Read with soft healing; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe lotus pond at dawn."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/janghwa_hongryeon.character_bible.json. Page 29 for 장화홍련 / Janghwa and Hongryeon: lotus pond at dawn; specific beat: Janghwa and Hongryeon tied their ribbon to the pond rail; emotional tone: soft healing; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/janghwa-and-hongryeon/page-029.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with soft healing; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/janghwa-and-hongryeon/ko/page-029.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/janghwa-and-hongryeon/ambient/ambient-loop.wav",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_029/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_029/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_029/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_029/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_029/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_029/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "janghwa_hongryeon_030",
+      "pageNumber": 30,
+      "text": {
+        "enLittle": "Rain returned as a lullaby.",
+        "enStandard": "In the lotus pond at dawn, with the moon high, rain returned as a lullaby, not a warning. \"I am still learning,\" the child answered.",
+        "koLittle": "장화의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요",
+        "koStandard": "홍련와 연꽃가 있는 옛이야기 길에서 장화의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요."
+      },
+      "koreanText": "홍련와 연꽃가 있는 옛이야기 길에서 장화의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "englishText": "In the lotus pond at dawn, with the moon high, rain returned as a lullaby, not a warning. \"I am still learning,\" the child answered.",
+      "narrationScript": "홍련와 연꽃가 있는 옛이야기 길에서 장화의 마음은 흔들렸지만 진실을 숨기지 않으려 애썼어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "홍련",
+          "en": "Hongryeon",
+          "romanization": "Hongryeon",
+          "definitionEn": "One of the sisters.",
+          "definitionKo": "두 자매 중 한 명이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve with remembrance and protection (repair pond)",
+        "emotion": "soft healing",
+        "pageTurnHook": "Then the next part of repair pond will ask for a braver choice, and the story moves toward repair pond.",
+        "readAloudCue": "Read with soft healing; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open lotus pond at dawn."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/janghwa_hongryeon.character_bible.json. Page 30 for 장화홍련 / Janghwa and Hongryeon: lotus pond at dawn; specific beat: rain returned as a lullaby, not a warning; emotional tone: soft healing; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/janghwa-and-hongryeon/page-030.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with soft healing; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/janghwa-and-hongryeon/ko/page-030.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/janghwa-and-hongryeon/ambient/ambient-loop.wav",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_030/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_030/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_030/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_030/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_030/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_030/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "janghwa_hongryeon_031",
+      "pageNumber": 31,
+      "text": {
+        "enLittle": "Two lotus flowers opened where the sisters had once whispered.",
+        "enStandard": "In the lotus pond at dawn, before dawn, two lotus flowers opened where the sisters had once whispered. \"Tell me the truth,\" someone said.",
+        "koLittle": "홍련와 연꽃가 조용히 마주 보며 다음 선택을 생각했어요",
+        "koStandard": "홍련와 연꽃가 있는 옛이야기 길에서 홍련와 연꽃가 조용히 마주 보며 다음 선택을 생각했어요."
+      },
+      "koreanText": "홍련와 연꽃가 있는 옛이야기 길에서 홍련와 연꽃가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "englishText": "In the lotus pond at dawn, before dawn, two lotus flowers opened where the sisters had once whispered. \"Tell me the truth,\" someone said.",
+      "narrationScript": "홍련와 연꽃가 있는 옛이야기 길에서 홍련와 연꽃가 조용히 마주 보며 다음 선택을 생각했어요.",
+      "vocabulary": [
+        {
+          "ko": "장화",
+          "en": "Janghwa",
+          "romanization": "Janghwa",
+          "definitionEn": "One of the sisters.",
+          "definitionKo": "두 자매 중 한 명이에요."
+        },
+        {
+          "ko": "연꽃",
+          "en": "lotus",
+          "romanization": "yeonkkot",
+          "definitionEn": "A flower used for truth and remembrance.",
+          "definitionKo": "진실과 기억을 나타내는 꽃이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve with remembrance and protection (repair pond)",
+        "emotion": "soft healing",
+        "pageTurnHook": "Then the next part of repair pond will ask for a braver choice, and the story moves toward repair pond.",
+        "readAloudCue": "Read with soft healing; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose lotus pond at dawn."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/janghwa_hongryeon.character_bible.json. Page 31 for 장화홍련 / Janghwa and Hongryeon: lotus pond at dawn; specific beat: two lotus flowers opened where the sisters had once whispered; emotional tone: soft healing; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/janghwa-and-hongryeon/page-031.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with soft healing; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/janghwa-and-hongryeon/ko/page-031.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/janghwa-and-hongryeon/ambient/ambient-loop.wav",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_031/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_031/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_031/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_031/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_031/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_031/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "janghwa_hongryeon_032",
+      "pageNumber": 32,
+      "text": {
+        "enLittle": "The household changed its rules so children would be believed sooner.",
+        "enStandard": "In the lotus pond at dawn, after a pause, the household changed its rules so children would be believed sooner. \"I will answer carefully,\" came the reply.",
+        "koLittle": "진실 곁에서 오래된 약속과 마음의 무게가 드러났어요",
+        "koStandard": "홍련와 연꽃가 있는 옛이야기 길에서 진실 곁에서 오래된 약속과 마음의 무게가 드러났어요."
+      },
+      "koreanText": "홍련와 연꽃가 있는 옛이야기 길에서 진실 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "englishText": "In the lotus pond at dawn, after a pause, the household changed its rules so children would be believed sooner. \"I will answer carefully,\" came the reply.",
+      "narrationScript": "홍련와 연꽃가 있는 옛이야기 길에서 진실 곁에서 오래된 약속과 마음의 무게가 드러났어요.",
+      "vocabulary": [
+        {
+          "ko": "홍련",
+          "en": "Hongryeon",
+          "romanization": "Hongryeon",
+          "definitionEn": "One of the sisters.",
+          "definitionKo": "두 자매 중 한 명이에요."
+        },
+        {
+          "ko": "진실",
+          "en": "truth",
+          "romanization": "jinsil",
+          "definitionEn": "What really happened.",
+          "definitionKo": "정말 있었던 일이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve with remembrance and protection (repair pond)",
+        "emotion": "soft healing",
+        "pageTurnHook": "Then the next part of repair pond will ask for a braver choice, and the story moves toward repair pond.",
+        "readAloudCue": "Read with soft healing; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag lotus pond at dawn."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/janghwa_hongryeon.character_bible.json. Page 32 for 장화홍련 / Janghwa and Hongryeon: lotus pond at dawn; specific beat: the household changed its rules so children would be believed sooner; emotional tone: soft healing; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/janghwa-and-hongryeon/page-032.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with soft healing; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/janghwa-and-hongryeon/ko/page-032.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/janghwa-and-hongryeon/ambient/ambient-loop.wav",
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_032/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_032/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_032/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_032/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_032/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/janghwa-and-hongryeon/janghwa_hongryeon_032/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    }
+  ]
+}

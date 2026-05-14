@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.0.0",
+  "bookId": "book.heungbu_nolbu",
+  "slug": "heungbu-and-nolbu",
+  "title": {
+    "ko": "흥부와 놀부",
+    "en": "Heungbu and Nolbu"
+  },
+  "characterSheetPrompt": "Create a production character sheet for Heungbu and Nolbu in premium Korean watercolor, gouache, and soft ink. Show kind Heungbu, proud Nolbu, Heungbu's family, the grateful swallow, gourd vine, magical gourds, and village home details. Keep the moral comedy warm and reparative.",
+  "mainCharacterDescriptions": [
+    {
+      "id": "heungbu",
+      "description": "Kind younger brother with generous eyes, gentle shoulders, and careful hands. He looks tired sometimes but never defeated.",
+      "recurringOutfitAndColors": "Plain warm ivory jeogori, muted jade sash, soft brown pants.",
+      "continuityNotes": "His hands often cradle, repair, share, or support."
+    },
+    {
+      "id": "nolbu",
+      "description": "Older brother with expressive eyebrows, tidy but stiff clothing, comic greed, and a visible path toward apology.",
+      "recurringOutfitAndColors": "Deep indigo robe, persimmon trim, slightly too-neat hat.",
+      "continuityNotes": "Posture changes from puffed-up and closed to humbled and open."
+    },
+    {
+      "id": "swallow",
+      "description": "Small swallow with glossy blue-black feathers, white belly, bright eyes, and graceful wing shapes.",
+      "recurringOutfitAndColors": "Blue-black, ivory belly, tiny warm beak.",
+      "continuityNotes": "One leg is gently bandaged in care scenes; never graphic."
+    },
+    {
+      "id": "family",
+      "description": "Heungbu's family is loving and resourceful, shown as a warm group rather than separate named leads.",
+      "recurringOutfitAndColors": "Ivory, jade, faded lotus pink, patched but clean clothes.",
+      "continuityNotes": "Family scenes emphasize shared bowls, blankets, and closeness."
+    },
+    {
+      "id": "gourd_vine",
+      "description": "Magical gourd vine with rounded leaves and warm yellow gourds, generous and lively.",
+      "recurringOutfitAndColors": "Jade vine, lantern-gold gourds, ivory blossoms.",
+      "continuityNotes": "Use the same vine curl shape as it grows through the story."
+    }
+  ],
+  "styleRules": [
+    "Keep poverty gentle and dignified, not bleak.",
+    "The swallow injury is tender and non-graphic.",
+    "Magic should feel abundant but not flashy.",
+    "Nolbu is comic and flawed, not monstrous.",
+    "Final apology must be sincere and visually softened."
+  ],
+  "forbiddenVisualElements": [
+    "Graphic animal injury",
+    "Cruel poverty imagery",
+    "Scary punishment",
+    "Gold piles as the main emotional focus",
+    "Modern housing",
+    "Mean caricature faces"
+  ],
+  "sceneContinuityNotes": [
+    "The swallow's bandage appears only during healing pages.",
+    "The gourd vine should be recognizable from seed to full vine.",
+    "Heungbu's family stays visually close and warm.",
+    "Nolbu's costume remains tidy while his posture changes.",
+    "The final sharing scene should echo early family closeness."
+  ],
+  "promptPrefix": "Global style bible shared-content/style/moonjar_style_bible.json. Reference character bible shared-content/characters/heungbu_nolbu.character_bible.json. Maintain exact character designs, outfit colors, recurring objects, child-safe tone, and scene continuity for Heungbu and Nolbu.",
+  "styleBible": "style/moonjar_style_bible.json",
+  "masterArtStylePrompt": "Illustrate 흥부와 놀부 / Heungbu and Nolbu as a premium Korean watercolor, gouache, and soft ink picture book with hanji texture, warm lantern light, deep indigo, moon ivory, persimmon, jade, lotus pink, and muted gold. Keep the mood culturally respectful, cozy, and bedtime-safe.",
+  "perCharacterVisualIdentity": [
+    {
+      "id": "heungbu",
+      "identityLock": "Kind younger brother with generous eyes, gentle shoulders, and careful hands. He looks tired sometimes but never defeated.",
+      "recurringOutfitAndColors": "Plain warm ivory jeogori, muted jade sash, soft brown pants.",
+      "continuityAnchor": "His hands often cradle, repair, share, or support."
+    },
+    {
+      "id": "nolbu",
+      "identityLock": "Older brother with expressive eyebrows, tidy but stiff clothing, comic greed, and a visible path toward apology.",
+      "recurringOutfitAndColors": "Deep indigo robe, persimmon trim, slightly too-neat hat.",
+      "continuityAnchor": "Posture changes from puffed-up and closed to humbled and open."
+    },
+    {
+      "id": "swallow",
+      "identityLock": "Small swallow with glossy blue-black feathers, white belly, bright eyes, and graceful wing shapes.",
+      "recurringOutfitAndColors": "Blue-black, ivory belly, tiny warm beak.",
+      "continuityAnchor": "One leg is gently bandaged in care scenes; never graphic."
+    },
+    {
+      "id": "family",
+      "identityLock": "Heungbu's family is loving and resourceful, shown as a warm group rather than separate named leads.",
+      "recurringOutfitAndColors": "Ivory, jade, faded lotus pink, patched but clean clothes.",
+      "continuityAnchor": "Family scenes emphasize shared bowls, blankets, and closeness."
+    },
+    {
+      "id": "gourd_vine",
+      "identityLock": "Magical gourd vine with rounded leaves and warm yellow gourds, generous and lively.",
+      "recurringOutfitAndColors": "Jade vine, lantern-gold gourds, ivory blossoms.",
+      "continuityAnchor": "Use the same vine curl shape as it grows through the story."
+    }
+  ],
+  "outfitRules": [
+    "Never change a main character outfit color within the same book unless the story explicitly calls for a transformation.",
+    "Use historically inspired Korean clothing shapes without turning them into costume caricature.",
+    "Children should keep the same hair shape, face shape, and outfit palette from scene to scene."
+  ],
+  "colorPalette": [
+    "deep indigo ink",
+    "moon ivory",
+    "warm hanji cream",
+    "persimmon",
+    "jade leaf",
+    "lotus pink",
+    "muted lantern gold"
+  ],
+  "facialExpressionRules": [
+    "Children can look curious, brave, surprised, sleepy, or relieved, but never terrified.",
+    "Adults should read as warm, practical, or gently concerned rather than panicked.",
+    "Tigers and magical figures should use round, comic, readable expressions for ages 3-8."
+  ],
+  "ageBodyProportionRules": [
+    "Children have childlike proportions: round cheeks, shorter limbs, smaller shoulders, and age-appropriate posture.",
+    "Adults have calm, grounded proportions and never glamour poses.",
+    "Animal characters should be soft-edged and expressive, not anatomically threatening."
+  ],
+  "doNotChangeRules": [
+    "Do not change recurring outfit colors, hair shapes, face shapes, or key props.",
+    "Do not introduce modern objects, logos, printed text, or Western fantasy costumes.",
+    "Do not make the visual tone darker than the child-safe retelling."
+  ],
+  "recurringObjectRules": [
+    "Keep important story props visually consistent after first appearance.",
+    "Use props as continuity anchors between scenes and in cover art.",
+    "When a prop becomes animated, preserve its color, scale, and silhouette."
+  ],
+  "negativePrompt": "photorealism, horror lighting, blood, injury, sharp claws, teeth emphasis, weapons, modern architecture, modern logos, text, watermark, distorted hands, inconsistent outfits, adult-like children",
+  "characterSheetAsset": "assets/generated-draft/images/character-sheets/heungbu-and-nolbu.png",
+  "characterArtManifest": "assets/manifests/character_art_manifest.json",
+  "characterConsistencyStatus": "generated_reviewed_story_specific_internal_demo",
+  "productionCharacterPackStatus": "generated_reviewed_internal_demo_not_commissioned_final",
+  "visualAnchorEvidence": {
+    "characterSheetAsset": "assets/generated-draft/images/character-sheets/heungbu-and-nolbu.png",
+    "sceneArtRenderer": "local_story_specific_svg_renderer",
+    "sceneArtModel": "moonjar_story_specific_painterly_svg_v3",
+    "storySpecificArt": true,
+    "placeholderLike": false
+  },
+  "characterDesignLocks": {
+    "figures": [
+      "younger_man",
+      "older_man",
+      "magpie"
+    ],
+    "recurringProp": "gourd",
+    "environment": "gourd_roof_village",
+    "palette": [
+      "#28385b",
+      "#4b8b62",
+      "#e2c36a",
+      "#c95036",
+      "#f4dfa7"
+    ],
+    "doNotChange": [
+      "Keep figure silhouettes, palette, recurring prop, and environment motif stable across the book.",
+      "Do not replace story-specific art with abstract stripe/block placeholders.",
+      "Do not mark generated internal-demo art as commissioned_final."
+    ]
+  }
+}

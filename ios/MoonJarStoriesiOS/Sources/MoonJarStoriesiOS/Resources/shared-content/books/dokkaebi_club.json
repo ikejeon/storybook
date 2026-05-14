@@ -1,0 +1,2711 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "book.dokkaebi_club",
+  "slug": "dokkaebi-club",
+  "title": {
+    "ko": "도깨비 방망이",
+    "en": "The Dokkaebi Club"
+  },
+  "access": "premium",
+  "ageRange": "3-8",
+  "estimatedMinutes": 9,
+  "summary": "A kind wood gatherer shares song and food with playful dokkaebi, receives a magic club, and watches greedy imitation turn into harmless comic trouble.",
+  "coverAsset": "assets/books/dokkaebi-club/cover.png",
+  "coverAssetStatus": "placeholder",
+  "characterBible": "characters/dokkaebi_club.character_bible.json",
+  "narrationAudioStatus": "synthetic_draft",
+  "adaptationVersions": {
+    "default": "English-first bilingual semantic-authenticity repair draft",
+    "plannedAlternate": "External editor pass after children’s editorial and Korean-language review",
+    "note": "Generated repo-local repair draft; not external human final."
+  },
+  "sensitivityNotes": [
+    "Dokkaebi are mischievous and magical, not horror monsters; greed consequences remain slapstick.",
+    "Repaired by repo-local semantic authenticity pass; external children’s editor, Korean-language, cultural, and child-safety review remain required before final release."
+  ],
+  "themes": [
+    "sharing",
+    "magic",
+    "humor",
+    "respect",
+    "generosity"
+  ],
+  "characters": [
+    "wood_gatherer",
+    "dokkaebi",
+    "neighbor",
+    "pine_clearing"
+  ],
+  "pages": [
+    {
+      "id": "dokkaebi_club_001",
+      "pageNumber": 1,
+      "text": {
+        "enLittle": "The wood gatherer saved the straightest sticks for an old neighbor's cold room.",
+        "enStandard": "On a pine mountain path, first, the wood gatherer saved the straightest sticks for an old neighbor's cold room. \"Who drums in the trees?\" he wondered.",
+        "koLittle": "나무꾼은 추운 이웃 방을 위해 곧은 장작을 남겼어요",
+        "koStandard": "소나무 산길에서 나무꾼은 추운 이웃 방을 위해 곧은 장작을 남겼어요."
+      },
+      "koreanText": "소나무 산길에서 나무꾼은 추운 이웃 방을 위해 곧은 장작을 남겼어요.",
+      "englishText": "On a pine mountain path, first, the wood gatherer saved the straightest sticks for an old neighbor's cold room. \"Who drums in the trees?\" he wondered.",
+      "narrationScript": "소나무 산길에서 나무꾼은 추운 이웃 방을 위해 곧은 장작을 남겼어요.",
+      "vocabulary": [
+        {
+          "ko": "도깨비",
+          "en": "dokkaebi",
+          "romanization": "dokkaebi",
+          "definitionEn": "A playful Korean goblin-like spirit.",
+          "definitionKo": "장난스럽고 신비한 한국 이야기의 존재예요."
+        },
+        {
+          "ko": "장작",
+          "en": "firewood",
+          "romanization": "jangjak",
+          "definitionEn": "Wood gathered for warmth.",
+          "definitionKo": "불을 피우려고 모은 나무예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "show the wood gatherer's ordinary kindness (kind errand)",
+        "emotion": "warm diligence",
+        "pageTurnHook": "Then the pine clearing will answer with dancing feet, and the story moves toward dokkaebi feast.",
+        "readAloudCue": "Read with warm diligence; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap the rice cake."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dokkaebi_club.character_bible.json. Page 1 for 도깨비 방망이 / The Dokkaebi Club: kind wood gatherer carrying firewood, rice cake bundle, moonlit pine clearing ahead; specific beat: the wood gatherer saved the straightest sticks for an old neighbor's cold room; emotional tone: warm diligence; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dokkaebi-club/page-001.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with warm diligence; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dokkaebi-club/ko/page-001.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dokkaebi-club/ambient/ambient-loop.wav",
+      "characterBible": "characters/dokkaebi_club.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_001/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_001/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_001/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_001/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_001/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_001/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dokkaebi_club_002",
+      "pageNumber": 2,
+      "text": {
+        "enLittle": "He left one rice cake on a flat stone for whoever might be hungry.",
+        "enStandard": "On a pine mountain path, next, he left one rice cake on a flat stone for whoever might be hungry. \"Only the moon knows,\" he laughed.",
+        "koLittle": "그는 배고픈 누군가를 위해 떡 하나를 바위 위에 두었어요",
+        "koStandard": "소나무 산길에서 그는 배고픈 누군가를 위해 떡 하나를 바위 위에 두었어요."
+      },
+      "koreanText": "소나무 산길에서 그는 배고픈 누군가를 위해 떡 하나를 바위 위에 두었어요.",
+      "englishText": "On a pine mountain path, next, he left one rice cake on a flat stone for whoever might be hungry. \"Only the moon knows,\" he laughed.",
+      "narrationScript": "소나무 산길에서 그는 배고픈 누군가를 위해 떡 하나를 바위 위에 두었어요.",
+      "vocabulary": [
+        {
+          "ko": "방망이",
+          "en": "club",
+          "romanization": "bangmangi",
+          "definitionEn": "A stick with magic power in this tale.",
+          "definitionKo": "이 이야기에서 마법 힘이 있는 막대예요."
+        },
+        {
+          "ko": "소나무",
+          "en": "pine tree",
+          "romanization": "sonamu",
+          "definitionEn": "An evergreen tree common in Korean mountain scenes.",
+          "definitionKo": "한국 산에서 자주 보이는 늘푸른 나무예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "show the wood gatherer's ordinary kindness (kind errand)",
+        "emotion": "warm diligence",
+        "pageTurnHook": "Then the pine clearing will answer with dancing feet, and the story moves toward dokkaebi feast.",
+        "readAloudCue": "Read with warm diligence; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace the rice cake."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dokkaebi_club.character_bible.json. Page 2 for 도깨비 방망이 / The Dokkaebi Club: kind wood gatherer carrying firewood, rice cake bundle, moonlit pine clearing ahead; specific beat: he left one rice cake on a flat stone for whoever might be hungry; emotional tone: warm diligence; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dokkaebi-club/page-002.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with warm diligence; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dokkaebi-club/ko/page-002.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dokkaebi-club/ambient/ambient-loop.wav",
+      "characterBible": "characters/dokkaebi_club.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_002/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_002/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_002/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_002/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_002/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_002/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dokkaebi_club_003",
+      "pageNumber": 3,
+      "text": {
+        "enLittle": "Pine wind moved through his empty pack like a small flute.",
+        "enStandard": "On a pine mountain path, quietly, pine wind moved through his empty pack like a small flute. \"I brought enough to share,\" he called.",
+        "koLittle": "빈 지게 사이로 솔바람이 피리처럼 지나갔어요",
+        "koStandard": "소나무 산길에서 빈 지게 사이로 솔바람이 피리처럼 지나갔어요."
+      },
+      "koreanText": "소나무 산길에서 빈 지게 사이로 솔바람이 피리처럼 지나갔어요.",
+      "englishText": "On a pine mountain path, quietly, pine wind moved through his empty pack like a small flute. \"I brought enough to share,\" he called.",
+      "narrationScript": "소나무 산길에서 빈 지게 사이로 솔바람이 피리처럼 지나갔어요.",
+      "vocabulary": [
+        {
+          "ko": "장작",
+          "en": "firewood",
+          "romanization": "jangjak",
+          "definitionEn": "Wood gathered for warmth.",
+          "definitionKo": "불을 피우려고 모은 나무예요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "show the wood gatherer's ordinary kindness (kind errand)",
+        "emotion": "warm diligence",
+        "pageTurnHook": "Then the pine clearing will answer with dancing feet, and the story moves toward dokkaebi feast.",
+        "readAloudCue": "Read with warm diligence; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count the rice cake."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dokkaebi_club.character_bible.json. Page 3 for 도깨비 방망이 / The Dokkaebi Club: kind wood gatherer carrying firewood, rice cake bundle, moonlit pine clearing ahead; specific beat: pine wind moved through his empty pack like a small flute; emotional tone: warm diligence; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dokkaebi-club/page-003.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with warm diligence; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dokkaebi-club/ko/page-003.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dokkaebi-club/ambient/ambient-loop.wav",
+      "characterBible": "characters/dokkaebi_club.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_003/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_003/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_003/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_003/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_003/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_003/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dokkaebi_club_004",
+      "pageNumber": 4,
+      "text": {
+        "enLittle": "He heard drums where no village festival should be.",
+        "enStandard": "On a pine mountain path, with the moon high, he heard drums where no village festival should be. \"A path is warmer when shared,\" he said.",
+        "koLittle": "마을잔치가 없는데 북소리가 들렸어요",
+        "koStandard": "소나무 산길에서 마을잔치가 없는데 북소리가 들렸어요."
+      },
+      "koreanText": "소나무 산길에서 마을잔치가 없는데 북소리가 들렸어요.",
+      "englishText": "On a pine mountain path, with the moon high, he heard drums where no village festival should be. \"A path is warmer when shared,\" he said.",
+      "narrationScript": "소나무 산길에서 마을잔치가 없는데 북소리가 들렸어요.",
+      "vocabulary": [
+        {
+          "ko": "소나무",
+          "en": "pine tree",
+          "romanization": "sonamu",
+          "definitionEn": "An evergreen tree common in Korean mountain scenes.",
+          "definitionKo": "한국 산에서 자주 보이는 늘푸른 나무예요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "show the wood gatherer's ordinary kindness (kind errand)",
+        "emotion": "warm diligence",
+        "pageTurnHook": "Then the pine clearing will answer with dancing feet, and the story moves toward dokkaebi feast.",
+        "readAloudCue": "Read with warm diligence; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold the rice cake."
+      },
+      "refrain": "Tap once, share twice.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dokkaebi_club.character_bible.json. Page 4 for 도깨비 방망이 / The Dokkaebi Club: kind wood gatherer carrying firewood, rice cake bundle, moonlit pine clearing ahead; specific beat: he heard drums where no village festival should be; emotional tone: warm diligence; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dokkaebi-club/page-004.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with warm diligence; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dokkaebi-club/ko/page-004.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dokkaebi-club/ambient/ambient-loop.wav",
+      "characterBible": "characters/dokkaebi_club.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_004/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_004/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_004/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_004/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_004/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_004/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "한 번 두드리고, 두 번 나누자."
+    },
+    {
+      "id": "dokkaebi_club_005",
+      "pageNumber": 5,
+      "text": {
+        "enLittle": "The wood gatherer saved the straightest sticks for an old neighbor's cold room.",
+        "enStandard": "On a pine mountain path, before dawn, the wood gatherer saved the straightest sticks for an old neighbor's cold room. \"Who drums in the trees?\" he wondered.",
+        "koLittle": "나무꾼은 추운 이웃 방을 위해 곧은 장작을 남겼어요",
+        "koStandard": "소나무 산길에서 나무꾼은 추운 이웃 방을 위해 곧은 장작을 남겼어요."
+      },
+      "koreanText": "소나무 산길에서 나무꾼은 추운 이웃 방을 위해 곧은 장작을 남겼어요.",
+      "englishText": "On a pine mountain path, before dawn, the wood gatherer saved the straightest sticks for an old neighbor's cold room. \"Who drums in the trees?\" he wondered.",
+      "narrationScript": "소나무 산길에서 나무꾼은 추운 이웃 방을 위해 곧은 장작을 남겼어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "show the wood gatherer's ordinary kindness (kind errand)",
+        "emotion": "warm diligence",
+        "pageTurnHook": "Then the pine clearing will answer with dancing feet, and the story moves toward dokkaebi feast.",
+        "readAloudCue": "Read with warm diligence; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe the rice cake."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dokkaebi_club.character_bible.json. Page 5 for 도깨비 방망이 / The Dokkaebi Club: kind wood gatherer carrying firewood, rice cake bundle, moonlit pine clearing ahead; specific beat: the wood gatherer saved the straightest sticks for an old neighbor's cold room; emotional tone: warm diligence; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dokkaebi-club/page-005.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with warm diligence; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dokkaebi-club/ko/page-005.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dokkaebi-club/ambient/ambient-loop.wav",
+      "characterBible": "characters/dokkaebi_club.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_005/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_005/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_005/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_005/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_005/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_005/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dokkaebi_club_006",
+      "pageNumber": 6,
+      "text": {
+        "enLittle": "Dokkaebi leapt from behind pine trunks with hats crooked and bells jingling.",
+        "enStandard": "In the moonlit clearing, first, dokkaebi leapt from behind pine trunks with hats crooked and bells jingling. \"Only if my old knees may be slow,\" he said.",
+        "koLittle": "도깨비들이 삐뚤어진 모자를 쓰고 종을 울리며 튀어나왔어요",
+        "koStandard": "달빛 숲속 공터에서 도깨비들이 삐뚤어진 모자를 쓰고 종을 울리며 튀어나왔어요."
+      },
+      "koreanText": "달빛 숲속 공터에서 도깨비들이 삐뚤어진 모자를 쓰고 종을 울리며 튀어나왔어요.",
+      "englishText": "In the moonlit clearing, first, dokkaebi leapt from behind pine trunks with hats crooked and bells jingling. \"Only if my old knees may be slow,\" he said.",
+      "narrationScript": "달빛 숲속 공터에서 도깨비들이 삐뚤어진 모자를 쓰고 종을 울리며 튀어나왔어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "introduce playful dokkaebi magic (dokkaebi feast)",
+        "emotion": "silly wonder",
+        "pageTurnHook": "Then one magic club will choose a careful hand, and the story moves toward magic club gift.",
+        "readAloudCue": "Read with silly wonder; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open the drumbeat."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dokkaebi_club.character_bible.json. Page 6 for 도깨비 방망이 / The Dokkaebi Club: round dokkaebi dancing with drums and lanterns, friendly but uncanny magic; specific beat: dokkaebi leapt from behind pine trunks with hats crooked and bells jingling; emotional tone: silly wonder; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dokkaebi-club/page-006.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with silly wonder; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dokkaebi-club/ko/page-006.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dokkaebi-club/ambient/ambient-loop.wav",
+      "characterBible": "characters/dokkaebi_club.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_006/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_006/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_006/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_006/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_006/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_006/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dokkaebi_club_007",
+      "pageNumber": 7,
+      "text": {
+        "enLittle": "They sniffed the rice cake and bowed as if it were royal treasure.",
+        "enStandard": "In the moonlit clearing, next, they sniffed the rice cake and bowed as if it were royal treasure. \"Share?\" asked the smallest dokkaebi.",
+        "koLittle": "도깨비들은 떡 냄새를 맡고 보물처럼 절했어요",
+        "koStandard": "달빛 숲속 공터에서 도깨비들은 떡 냄새를 맡고 보물처럼 절했어요."
+      },
+      "koreanText": "달빛 숲속 공터에서 도깨비들은 떡 냄새를 맡고 보물처럼 절했어요.",
+      "englishText": "In the moonlit clearing, next, they sniffed the rice cake and bowed as if it were royal treasure. \"Share?\" asked the smallest dokkaebi.",
+      "narrationScript": "달빛 숲속 공터에서 도깨비들은 떡 냄새를 맡고 보물처럼 절했어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "introduce playful dokkaebi magic (dokkaebi feast)",
+        "emotion": "silly wonder",
+        "pageTurnHook": "Then one magic club will choose a careful hand, and the story moves toward magic club gift.",
+        "readAloudCue": "Read with silly wonder; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose the drumbeat."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dokkaebi_club.character_bible.json. Page 7 for 도깨비 방망이 / The Dokkaebi Club: round dokkaebi dancing with drums and lanterns, friendly but uncanny magic; specific beat: they sniffed the rice cake and bowed as if it were royal treasure; emotional tone: silly wonder; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dokkaebi-club/page-007.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with silly wonder; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dokkaebi-club/ko/page-007.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dokkaebi-club/ambient/ambient-loop.wav",
+      "characterBible": "characters/dokkaebi_club.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_007/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_007/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_007/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_007/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_007/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_007/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dokkaebi_club_008",
+      "pageNumber": 8,
+      "text": {
+        "enLittle": "One dokkaebi tried to scare him.",
+        "enStandard": "In the moonlit clearing, quietly, one dokkaebi tried to scare him, then hiccuped sparks instead. \"Share,\" said the wood gatherer.",
+        "koLittle": "한 도깨비는 겁주려다 불꽃 딸꾹질을 했어요",
+        "koStandard": "달빛 숲속 공터에서 한 도깨비는 겁주려다 불꽃 딸꾹질을 했어요."
+      },
+      "koreanText": "달빛 숲속 공터에서 한 도깨비는 겁주려다 불꽃 딸꾹질을 했어요.",
+      "englishText": "In the moonlit clearing, quietly, one dokkaebi tried to scare him, then hiccuped sparks instead. \"Share,\" said the wood gatherer.",
+      "narrationScript": "달빛 숲속 공터에서 한 도깨비는 겁주려다 불꽃 딸꾹질을 했어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "introduce playful dokkaebi magic (dokkaebi feast)",
+        "emotion": "silly wonder",
+        "pageTurnHook": "Then one magic club will choose a careful hand, and the story moves toward magic club gift.",
+        "readAloudCue": "Read with silly wonder; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag the drumbeat."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dokkaebi_club.character_bible.json. Page 8 for 도깨비 방망이 / The Dokkaebi Club: round dokkaebi dancing with drums and lanterns, friendly but uncanny magic; specific beat: one dokkaebi tried to scare him, then hiccuped sparks instead; emotional tone: silly wonder; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dokkaebi-club/page-008.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with silly wonder; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dokkaebi-club/ko/page-008.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dokkaebi-club/ambient/ambient-loop.wav",
+      "characterBible": "characters/dokkaebi_club.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_008/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_008/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_008/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_008/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_008/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_008/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dokkaebi_club_009",
+      "pageNumber": 9,
+      "text": {
+        "enLittle": "The wood gatherer clapped the rhythm without laughing at their horns.",
+        "enStandard": "In the moonlit clearing, with the moon high, the wood gatherer clapped the rhythm without laughing at their horns. \"Then dance!\" they shouted.",
+        "koLittle": "나무꾼은 뿔을 비웃지 않고 장단을 맞췄어요",
+        "koStandard": "달빛 숲속 공터에서 나무꾼은 뿔을 비웃지 않고 장단을 맞췄어요."
+      },
+      "koreanText": "달빛 숲속 공터에서 나무꾼은 뿔을 비웃지 않고 장단을 맞췄어요.",
+      "englishText": "In the moonlit clearing, with the moon high, the wood gatherer clapped the rhythm without laughing at their horns. \"Then dance!\" they shouted.",
+      "narrationScript": "달빛 숲속 공터에서 나무꾼은 뿔을 비웃지 않고 장단을 맞췄어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "도깨비",
+          "en": "dokkaebi",
+          "romanization": "dokkaebi",
+          "definitionEn": "A playful Korean goblin-like spirit.",
+          "definitionKo": "장난스럽고 신비한 한국 이야기의 존재예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "introduce playful dokkaebi magic (dokkaebi feast)",
+        "emotion": "silly wonder",
+        "pageTurnHook": "Then one magic club will choose a careful hand, and the story moves toward magic club gift.",
+        "readAloudCue": "Read with silly wonder; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap the drumbeat."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dokkaebi_club.character_bible.json. Page 9 for 도깨비 방망이 / The Dokkaebi Club: round dokkaebi dancing with drums and lanterns, friendly but uncanny magic; specific beat: the wood gatherer clapped the rhythm without laughing at their horns; emotional tone: silly wonder; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dokkaebi-club/page-009.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with silly wonder; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dokkaebi-club/ko/page-009.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dokkaebi-club/ambient/ambient-loop.wav",
+      "characterBible": "characters/dokkaebi_club.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_009/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_009/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_009/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_009/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_009/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_009/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dokkaebi_club_010",
+      "pageNumber": 10,
+      "text": {
+        "enLittle": "Dokkaebi leapt from behind pine trunks with hats crooked and bells jingling.",
+        "enStandard": "In the moonlit clearing, before dawn, dokkaebi leapt from behind pine trunks with hats crooked and bells jingling. \"Only if my old knees may be slow,\" he said.",
+        "koLittle": "도깨비들이 삐뚤어진 모자를 쓰고 종을 울리며 튀어나왔어요",
+        "koStandard": "달빛 숲속 공터에서 도깨비들이 삐뚤어진 모자를 쓰고 종을 울리며 튀어나왔어요."
+      },
+      "koreanText": "달빛 숲속 공터에서 도깨비들이 삐뚤어진 모자를 쓰고 종을 울리며 튀어나왔어요.",
+      "englishText": "In the moonlit clearing, before dawn, dokkaebi leapt from behind pine trunks with hats crooked and bells jingling. \"Only if my old knees may be slow,\" he said.",
+      "narrationScript": "달빛 숲속 공터에서 도깨비들이 삐뚤어진 모자를 쓰고 종을 울리며 튀어나왔어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "방망이",
+          "en": "club",
+          "romanization": "bangmangi",
+          "definitionEn": "A stick with magic power in this tale.",
+          "definitionKo": "이 이야기에서 마법 힘이 있는 막대예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "introduce playful dokkaebi magic (dokkaebi feast)",
+        "emotion": "silly wonder",
+        "pageTurnHook": "Then one magic club will choose a careful hand, and the story moves toward magic club gift.",
+        "readAloudCue": "Read with silly wonder; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace the drumbeat."
+      },
+      "refrain": "Tap once, share twice.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dokkaebi_club.character_bible.json. Page 10 for 도깨비 방망이 / The Dokkaebi Club: round dokkaebi dancing with drums and lanterns, friendly but uncanny magic; specific beat: dokkaebi leapt from behind pine trunks with hats crooked and bells jingling; emotional tone: silly wonder; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dokkaebi-club/page-010.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with silly wonder; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dokkaebi-club/ko/page-010.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dokkaebi-club/ambient/ambient-loop.wav",
+      "characterBible": "characters/dokkaebi_club.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_010/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_010/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_010/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_010/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_010/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_010/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "한 번 두드리고, 두 번 나누자."
+    },
+    {
+      "id": "dokkaebi_club_011",
+      "pageNumber": 11,
+      "text": {
+        "enLittle": "The chief dokkaebi tapped the club and a bowl of warm rice appeared.",
+        "enStandard": "Beside the dokkaebi fire, first, the chief dokkaebi tapped the club and a bowl of warm rice appeared. \"Share twice,\" he answered.",
+        "koLittle": "도깨비 대장이 방망이를 두드리자 따뜻한 밥그릇이 나타났어요",
+        "koStandard": "도깨비불 곁에서 도깨비 대장이 방망이를 두드리자 따뜻한 밥그릇이 나타났어요."
+      },
+      "koreanText": "도깨비불 곁에서 도깨비 대장이 방망이를 두드리자 따뜻한 밥그릇이 나타났어요.",
+      "englishText": "Beside the dokkaebi fire, first, the chief dokkaebi tapped the club and a bowl of warm rice appeared. \"Share twice,\" he answered.",
+      "narrationScript": "도깨비불 곁에서 도깨비 대장이 방망이를 두드리자 따뜻한 밥그릇이 나타났어요.",
+      "vocabulary": [
+        {
+          "ko": "도깨비",
+          "en": "dokkaebi",
+          "romanization": "dokkaebi",
+          "definitionEn": "A playful Korean goblin-like spirit.",
+          "definitionKo": "장난스럽고 신비한 한국 이야기의 존재예요."
+        },
+        {
+          "ko": "장작",
+          "en": "firewood",
+          "romanization": "jangjak",
+          "definitionEn": "Wood gathered for warmth.",
+          "definitionKo": "불을 피우려고 모은 나무예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "show the club as a sharing tool (magic club gift)",
+        "emotion": "delighted caution",
+        "pageTurnHook": "Then the village will wake to quiet help, and the story moves toward village sharing.",
+        "readAloudCue": "Read with delighted caution; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count the glowing club."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dokkaebi_club.character_bible.json. Page 11 for 도깨비 방망이 / The Dokkaebi Club: dokkaebi club glowing, wood gatherer receiving it with two hands; specific beat: the chief dokkaebi tapped the club and a bowl of warm rice appeared; emotional tone: delighted caution; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dokkaebi-club/page-011.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with delighted caution; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dokkaebi-club/ko/page-011.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dokkaebi-club/ambient/ambient-loop.wav",
+      "characterBible": "characters/dokkaebi_club.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_011/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_011/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_011/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_011/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_011/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_011/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dokkaebi_club_012",
+      "pageNumber": 12,
+      "text": {
+        "enLittle": "The wood gatherer asked whether magic could mend roofs before filling pockets.",
+        "enStandard": "Beside the dokkaebi fire, next, the wood gatherer asked whether magic could mend roofs before filling pockets. \"No greedy tapping,\" warned the smallest.",
+        "koLittle": "나무꾼은 주머니보다 지붕을 먼저 고칠 수 있냐고 물었어요",
+        "koStandard": "도깨비불 곁에서 나무꾼은 주머니보다 지붕을 먼저 고칠 수 있냐고 물었어요."
+      },
+      "koreanText": "도깨비불 곁에서 나무꾼은 주머니보다 지붕을 먼저 고칠 수 있냐고 물었어요.",
+      "englishText": "Beside the dokkaebi fire, next, the wood gatherer asked whether magic could mend roofs before filling pockets. \"No greedy tapping,\" warned the smallest.",
+      "narrationScript": "도깨비불 곁에서 나무꾼은 주머니보다 지붕을 먼저 고칠 수 있냐고 물었어요.",
+      "vocabulary": [
+        {
+          "ko": "방망이",
+          "en": "club",
+          "romanization": "bangmangi",
+          "definitionEn": "A stick with magic power in this tale.",
+          "definitionKo": "이 이야기에서 마법 힘이 있는 막대예요."
+        },
+        {
+          "ko": "소나무",
+          "en": "pine tree",
+          "romanization": "sonamu",
+          "definitionEn": "An evergreen tree common in Korean mountain scenes.",
+          "definitionKo": "한국 산에서 자주 보이는 늘푸른 나무예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "show the club as a sharing tool (magic club gift)",
+        "emotion": "delighted caution",
+        "pageTurnHook": "Then the village will wake to quiet help, and the story moves toward village sharing.",
+        "readAloudCue": "Read with delighted caution; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold the glowing club."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dokkaebi_club.character_bible.json. Page 12 for 도깨비 방망이 / The Dokkaebi Club: dokkaebi club glowing, wood gatherer receiving it with two hands; specific beat: the wood gatherer asked whether magic could mend roofs before filling pockets; emotional tone: delighted caution; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dokkaebi-club/page-012.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with delighted caution; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dokkaebi-club/ko/page-012.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dokkaebi-club/ambient/ambient-loop.wav",
+      "characterBible": "characters/dokkaebi_club.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_012/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_012/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_012/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_012/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_012/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_012/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dokkaebi_club_013",
+      "pageNumber": 13,
+      "text": {
+        "enLittle": "The dokkaebi liked that question so much their ears wiggled.",
+        "enStandard": "Beside the dokkaebi fire, quietly, the dokkaebi liked that question so much their ears wiggled. \"My hands remember,\" he said.",
+        "koLittle": "도깨비들은 그 질문이 좋아 귀를 흔들었어요",
+        "koStandard": "도깨비불 곁에서 도깨비들은 그 질문이 좋아 귀를 흔들었어요."
+      },
+      "koreanText": "도깨비불 곁에서 도깨비들은 그 질문이 좋아 귀를 흔들었어요.",
+      "englishText": "Beside the dokkaebi fire, quietly, the dokkaebi liked that question so much their ears wiggled. \"My hands remember,\" he said.",
+      "narrationScript": "도깨비불 곁에서 도깨비들은 그 질문이 좋아 귀를 흔들었어요.",
+      "vocabulary": [
+        {
+          "ko": "장작",
+          "en": "firewood",
+          "romanization": "jangjak",
+          "definitionEn": "Wood gathered for warmth.",
+          "definitionKo": "불을 피우려고 모은 나무예요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "show the club as a sharing tool (magic club gift)",
+        "emotion": "delighted caution",
+        "pageTurnHook": "Then the village will wake to quiet help, and the story moves toward village sharing.",
+        "readAloudCue": "Read with delighted caution; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe the glowing club."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dokkaebi_club.character_bible.json. Page 13 for 도깨비 방망이 / The Dokkaebi Club: dokkaebi club glowing, wood gatherer receiving it with two hands; specific beat: the dokkaebi liked that question so much their ears wiggled; emotional tone: delighted caution; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dokkaebi-club/page-013.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with delighted caution; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dokkaebi-club/ko/page-013.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dokkaebi-club/ambient/ambient-loop.wav",
+      "characterBible": "characters/dokkaebi_club.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_013/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_013/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_013/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_013/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_013/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_013/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dokkaebi_club_014",
+      "pageNumber": 14,
+      "text": {
+        "enLittle": "He promised to tap only for need and sharing.",
+        "enStandard": "Beside the dokkaebi fire, with the moon high, he promised to tap only for need and sharing. \"Tap once,\" said the chief.",
+        "koLittle": "그는 필요한 만큼만 나누겠다고 약속했어요",
+        "koStandard": "도깨비불 곁에서 그는 필요한 만큼만 나누겠다고 약속했어요."
+      },
+      "koreanText": "도깨비불 곁에서 그는 필요한 만큼만 나누겠다고 약속했어요.",
+      "englishText": "Beside the dokkaebi fire, with the moon high, he promised to tap only for need and sharing. \"Tap once,\" said the chief.",
+      "narrationScript": "도깨비불 곁에서 그는 필요한 만큼만 나누겠다고 약속했어요.",
+      "vocabulary": [
+        {
+          "ko": "소나무",
+          "en": "pine tree",
+          "romanization": "sonamu",
+          "definitionEn": "An evergreen tree common in Korean mountain scenes.",
+          "definitionKo": "한국 산에서 자주 보이는 늘푸른 나무예요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "show the club as a sharing tool (magic club gift)",
+        "emotion": "delighted caution",
+        "pageTurnHook": "Then the village will wake to quiet help, and the story moves toward village sharing.",
+        "readAloudCue": "Read with delighted caution; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open the glowing club."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dokkaebi_club.character_bible.json. Page 14 for 도깨비 방망이 / The Dokkaebi Club: dokkaebi club glowing, wood gatherer receiving it with two hands; specific beat: he promised to tap only for need and sharing; emotional tone: delighted caution; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dokkaebi-club/page-014.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with delighted caution; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dokkaebi-club/ko/page-014.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dokkaebi-club/ambient/ambient-loop.wav",
+      "characterBible": "characters/dokkaebi_club.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_014/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_014/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_014/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_014/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_014/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_014/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dokkaebi_club_015",
+      "pageNumber": 15,
+      "text": {
+        "enLittle": "The chief dokkaebi tapped the club and a bowl of warm rice appeared.",
+        "enStandard": "Beside the dokkaebi fire, before dawn, the chief dokkaebi tapped the club and a bowl of warm rice appeared. \"Share twice,\" he answered.",
+        "koLittle": "도깨비 대장이 방망이를 두드리자 따뜻한 밥그릇이 나타났어요",
+        "koStandard": "도깨비불 곁에서 도깨비 대장이 방망이를 두드리자 따뜻한 밥그릇이 나타났어요."
+      },
+      "koreanText": "도깨비불 곁에서 도깨비 대장이 방망이를 두드리자 따뜻한 밥그릇이 나타났어요.",
+      "englishText": "Beside the dokkaebi fire, before dawn, the chief dokkaebi tapped the club and a bowl of warm rice appeared. \"Share twice,\" he answered.",
+      "narrationScript": "도깨비불 곁에서 도깨비 대장이 방망이를 두드리자 따뜻한 밥그릇이 나타났어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "show the club as a sharing tool (magic club gift)",
+        "emotion": "delighted caution",
+        "pageTurnHook": "Then the village will wake to quiet help, and the story moves toward village sharing.",
+        "readAloudCue": "Read with delighted caution; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose the glowing club."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dokkaebi_club.character_bible.json. Page 15 for 도깨비 방망이 / The Dokkaebi Club: dokkaebi club glowing, wood gatherer receiving it with two hands; specific beat: the chief dokkaebi tapped the club and a bowl of warm rice appeared; emotional tone: delighted caution; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dokkaebi-club/page-015.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with delighted caution; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dokkaebi-club/ko/page-015.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dokkaebi-club/ambient/ambient-loop.wav",
+      "characterBible": "characters/dokkaebi_club.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_015/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_015/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_015/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_015/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_015/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_015/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dokkaebi_club_016",
+      "pageNumber": 16,
+      "text": {
+        "enLittle": "One tap mended the neighbor's leaking roof before rain.",
+        "enStandard": "Back in the village, first, one tap mended the neighbor's leaking roof before rain. \"The best kind can,\" he said.",
+        "koLittle": "한 번 두드리자 비 새는 이웃 지붕이 고쳐졌어요",
+        "koStandard": "마을로 돌아와 한 번 두드리자 비 새는 이웃 지붕이 고쳐졌어요."
+      },
+      "koreanText": "마을로 돌아와 한 번 두드리자 비 새는 이웃 지붕이 고쳐졌어요.",
+      "englishText": "Back in the village, first, one tap mended the neighbor's leaking roof before rain. \"The best kind can,\" he said.",
+      "narrationScript": "마을로 돌아와 한 번 두드리자 비 새는 이웃 지붕이 고쳐졌어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "use magic for humble repairs (village sharing)",
+        "emotion": "generous joy",
+        "pageTurnHook": "Then greedy eyes will notice the quiet cloth, and the story moves toward greedy imitation.",
+        "readAloudCue": "Read with generous joy; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag the repaired roof."
+      },
+      "refrain": "Tap once, share twice.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dokkaebi_club.character_bible.json. Page 16 for 도깨비 방망이 / The Dokkaebi Club: repaired roofs, warm bowls, children watching magic kept modest; specific beat: one tap mended the neighbor's leaking roof before rain; emotional tone: generous joy; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dokkaebi-club/page-016.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with generous joy; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dokkaebi-club/ko/page-016.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dokkaebi-club/ambient/ambient-loop.wav",
+      "characterBible": "characters/dokkaebi_club.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_016/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_016/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_016/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_016/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_016/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_016/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "한 번 두드리고, 두 번 나누자."
+    },
+    {
+      "id": "dokkaebi_club_017",
+      "pageNumber": 17,
+      "text": {
+        "enLittle": "Another tap filled a basket for a family with no supper.",
+        "enStandard": "Back in the village, next, another tap filled a basket for a family with no supper. \"Who fixed this?\" asked the neighbor.",
+        "koLittle": "또 한 번에는 저녁 없는 집 바구니가 채워졌어요",
+        "koStandard": "마을로 돌아와 또 한 번에는 저녁 없는 집 바구니가 채워졌어요."
+      },
+      "koreanText": "마을로 돌아와 또 한 번에는 저녁 없는 집 바구니가 채워졌어요.",
+      "englishText": "Back in the village, next, another tap filled a basket for a family with no supper. \"Who fixed this?\" asked the neighbor.",
+      "narrationScript": "마을로 돌아와 또 한 번에는 저녁 없는 집 바구니가 채워졌어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "use magic for humble repairs (village sharing)",
+        "emotion": "generous joy",
+        "pageTurnHook": "Then greedy eyes will notice the quiet cloth, and the story moves toward greedy imitation.",
+        "readAloudCue": "Read with generous joy; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap the repaired roof."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dokkaebi_club.character_bible.json. Page 17 for 도깨비 방망이 / The Dokkaebi Club: repaired roofs, warm bowls, children watching magic kept modest; specific beat: another tap filled a basket for a family with no supper; emotional tone: generous joy; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dokkaebi-club/page-017.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with generous joy; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dokkaebi-club/ko/page-017.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dokkaebi-club/ambient/ambient-loop.wav",
+      "characterBible": "characters/dokkaebi_club.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_017/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_017/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_017/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_017/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_017/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_017/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dokkaebi_club_018",
+      "pageNumber": 18,
+      "text": {
+        "enLittle": "He hid the club under plain cloth so praise would not grow too loud.",
+        "enStandard": "Back in the village, quietly, he hid the club under plain cloth so praise would not grow too loud. \"Maybe the moon was handy,\" he smiled.",
+        "koLittle": "그는 칭찬이 커지지 않게 방망이를 수수한 천으로 덮었어요",
+        "koStandard": "마을로 돌아와 그는 칭찬이 커지지 않게 방망이를 수수한 천으로 덮었어요."
+      },
+      "koreanText": "마을로 돌아와 그는 칭찬이 커지지 않게 방망이를 수수한 천으로 덮었어요.",
+      "englishText": "Back in the village, quietly, he hid the club under plain cloth so praise would not grow too loud. \"Maybe the moon was handy,\" he smiled.",
+      "narrationScript": "마을로 돌아와 그는 칭찬이 커지지 않게 방망이를 수수한 천으로 덮었어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "use magic for humble repairs (village sharing)",
+        "emotion": "generous joy",
+        "pageTurnHook": "Then greedy eyes will notice the quiet cloth, and the story moves toward greedy imitation.",
+        "readAloudCue": "Read with generous joy; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace the repaired roof."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dokkaebi_club.character_bible.json. Page 18 for 도깨비 방망이 / The Dokkaebi Club: repaired roofs, warm bowls, children watching magic kept modest; specific beat: he hid the club under plain cloth so praise would not grow too loud; emotional tone: generous joy; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dokkaebi-club/page-018.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with generous joy; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dokkaebi-club/ko/page-018.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dokkaebi-club/ambient/ambient-loop.wav",
+      "characterBible": "characters/dokkaebi_club.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_018/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_018/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_018/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_018/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_018/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_018/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dokkaebi_club_019",
+      "pageNumber": 19,
+      "text": {
+        "enLittle": "Children noticed kindness arriving before anyone claimed it.",
+        "enStandard": "Back in the village, with the moon high, children noticed kindness arriving before anyone claimed it. \"Can magic be quiet?\" a child asked.",
+        "koLittle": "아이들은 누가 말하기 전 도착한 다정함을 보았어요",
+        "koStandard": "마을로 돌아와 아이들은 누가 말하기 전 도착한 다정함을 보았어요."
+      },
+      "koreanText": "마을로 돌아와 아이들은 누가 말하기 전 도착한 다정함을 보았어요.",
+      "englishText": "Back in the village, with the moon high, children noticed kindness arriving before anyone claimed it. \"Can magic be quiet?\" a child asked.",
+      "narrationScript": "마을로 돌아와 아이들은 누가 말하기 전 도착한 다정함을 보았어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "도깨비",
+          "en": "dokkaebi",
+          "romanization": "dokkaebi",
+          "definitionEn": "A playful Korean goblin-like spirit.",
+          "definitionKo": "장난스럽고 신비한 한국 이야기의 존재예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "use magic for humble repairs (village sharing)",
+        "emotion": "generous joy",
+        "pageTurnHook": "Then greedy eyes will notice the quiet cloth, and the story moves toward greedy imitation.",
+        "readAloudCue": "Read with generous joy; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count the repaired roof."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dokkaebi_club.character_bible.json. Page 19 for 도깨비 방망이 / The Dokkaebi Club: repaired roofs, warm bowls, children watching magic kept modest; specific beat: children noticed kindness arriving before anyone claimed it; emotional tone: generous joy; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dokkaebi-club/page-019.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with generous joy; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dokkaebi-club/ko/page-019.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dokkaebi-club/ambient/ambient-loop.wav",
+      "characterBible": "characters/dokkaebi_club.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_019/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_019/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_019/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_019/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_019/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_019/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dokkaebi_club_020",
+      "pageNumber": 20,
+      "text": {
+        "enLittle": "One tap mended the neighbor's leaking roof before rain.",
+        "enStandard": "Back in the village, before dawn, one tap mended the neighbor's leaking roof before rain. \"The best kind can,\" he said.",
+        "koLittle": "한 번 두드리자 비 새는 이웃 지붕이 고쳐졌어요",
+        "koStandard": "마을로 돌아와 한 번 두드리자 비 새는 이웃 지붕이 고쳐졌어요."
+      },
+      "koreanText": "마을로 돌아와 한 번 두드리자 비 새는 이웃 지붕이 고쳐졌어요.",
+      "englishText": "Back in the village, before dawn, one tap mended the neighbor's leaking roof before rain. \"The best kind can,\" he said.",
+      "narrationScript": "마을로 돌아와 한 번 두드리자 비 새는 이웃 지붕이 고쳐졌어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "방망이",
+          "en": "club",
+          "romanization": "bangmangi",
+          "definitionEn": "A stick with magic power in this tale.",
+          "definitionKo": "이 이야기에서 마법 힘이 있는 막대예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "use magic for humble repairs (village sharing)",
+        "emotion": "generous joy",
+        "pageTurnHook": "Then greedy eyes will notice the quiet cloth, and the story moves toward greedy imitation.",
+        "readAloudCue": "Read with generous joy; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold the repaired roof."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dokkaebi_club.character_bible.json. Page 20 for 도깨비 방망이 / The Dokkaebi Club: repaired roofs, warm bowls, children watching magic kept modest; specific beat: one tap mended the neighbor's leaking roof before rain; emotional tone: generous joy; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dokkaebi-club/page-020.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with generous joy; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dokkaebi-club/ko/page-020.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dokkaebi-club/ambient/ambient-loop.wav",
+      "characterBible": "characters/dokkaebi_club.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_020/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_020/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_020/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_020/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_020/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_020/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dokkaebi_club_021",
+      "pageNumber": 21,
+      "text": {
+        "enLittle": "The neighbor snatched the club and shouted for gold before saying thank you.",
+        "enStandard": "At the neighbor's shed, first, the neighbor snatched the club and shouted for gold before saying thank you. \"Say share,\" whispered a dokkaebi.",
+        "koLittle": "이웃은 고맙다는 말도 없이 금을 달라고 외쳤어요",
+        "koStandard": "이웃의 헛간에서 이웃은 고맙다는 말도 없이 금을 달라고 외쳤어요."
+      },
+      "koreanText": "이웃의 헛간에서 이웃은 고맙다는 말도 없이 금을 달라고 외쳤어요.",
+      "englishText": "At the neighbor's shed, first, the neighbor snatched the club and shouted for gold before saying thank you. \"Say share,\" whispered a dokkaebi.",
+      "narrationScript": "이웃의 헛간에서 이웃은 고맙다는 말도 없이 금을 달라고 외쳤어요.",
+      "vocabulary": [
+        {
+          "ko": "도깨비",
+          "en": "dokkaebi",
+          "romanization": "dokkaebi",
+          "definitionEn": "A playful Korean goblin-like spirit.",
+          "definitionKo": "장난스럽고 신비한 한국 이야기의 존재예요."
+        },
+        {
+          "ko": "장작",
+          "en": "firewood",
+          "romanization": "jangjak",
+          "definitionEn": "Wood gathered for warmth.",
+          "definitionKo": "불을 피우려고 모은 나무예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "neighbor steals or imitates and gets comic trouble (greedy imitation)",
+        "emotion": "comic tension",
+        "pageTurnHook": "Then the mess will need ordinary hands, and the story moves toward repair and return.",
+        "readAloudCue": "Read with comic tension; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe the flying brooms."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dokkaebi_club.character_bible.json. Page 21 for 도깨비 방망이 / The Dokkaebi Club: greedy neighbor grabbing club, dokkaebi shadows watching, harmless puff of magic; specific beat: the neighbor snatched the club and shouted for gold before saying thank you; emotional tone: comic tension; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dokkaebi-club/page-021.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with comic tension; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dokkaebi-club/ko/page-021.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dokkaebi-club/ambient/ambient-loop.wav",
+      "characterBible": "characters/dokkaebi_club.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_021/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_021/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_021/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_021/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_021/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_021/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dokkaebi_club_022",
+      "pageNumber": 22,
+      "text": {
+        "enLittle": "Bowls bounced out.",
+        "enStandard": "At the neighbor's shed, next, bowls bounced out, then brooms, then one very offended pumpkin. \"Share!\" he squeaked.",
+        "koLittle": "그릇과 빗자루와 화난 호박이 튀어나왔어요",
+        "koStandard": "이웃의 헛간에서 그릇과 빗자루와 화난 호박이 튀어나왔어요."
+      },
+      "koreanText": "이웃의 헛간에서 그릇과 빗자루와 화난 호박이 튀어나왔어요.",
+      "englishText": "At the neighbor's shed, next, bowls bounced out, then brooms, then one very offended pumpkin. \"Share!\" he squeaked.",
+      "narrationScript": "이웃의 헛간에서 그릇과 빗자루와 화난 호박이 튀어나왔어요.",
+      "vocabulary": [
+        {
+          "ko": "방망이",
+          "en": "club",
+          "romanization": "bangmangi",
+          "definitionEn": "A stick with magic power in this tale.",
+          "definitionKo": "이 이야기에서 마법 힘이 있는 막대예요."
+        },
+        {
+          "ko": "소나무",
+          "en": "pine tree",
+          "romanization": "sonamu",
+          "definitionEn": "An evergreen tree common in Korean mountain scenes.",
+          "definitionKo": "한국 산에서 자주 보이는 늘푸른 나무예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "neighbor steals or imitates and gets comic trouble (greedy imitation)",
+        "emotion": "comic tension",
+        "pageTurnHook": "Then the mess will need ordinary hands, and the story moves toward repair and return.",
+        "readAloudCue": "Read with comic tension; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open the flying brooms."
+      },
+      "refrain": "Tap once, share twice.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dokkaebi_club.character_bible.json. Page 22 for 도깨비 방망이 / The Dokkaebi Club: greedy neighbor grabbing club, dokkaebi shadows watching, harmless puff of magic; specific beat: bowls bounced out, then brooms, then one very offended pumpkin; emotional tone: comic tension; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dokkaebi-club/page-022.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with comic tension; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dokkaebi-club/ko/page-022.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dokkaebi-club/ambient/ambient-loop.wav",
+      "characterBible": "characters/dokkaebi_club.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_022/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_022/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_022/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_022/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_022/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_022/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "한 번 두드리고, 두 번 나누자."
+    },
+    {
+      "id": "dokkaebi_club_023",
+      "pageNumber": 23,
+      "text": {
+        "enLittle": "Dokkaebi laughter rolled over the roof tiles like acorns.",
+        "enStandard": "At the neighbor's shed, quietly, dokkaebi laughter rolled over the roof tiles like acorns. \"Better,\" said the club.",
+        "koLittle": "도깨비 웃음이 지붕 기와 위로 굴렀어요",
+        "koStandard": "이웃의 헛간에서 도깨비 웃음이 지붕 기와 위로 굴렀어요."
+      },
+      "koreanText": "이웃의 헛간에서 도깨비 웃음이 지붕 기와 위로 굴렀어요.",
+      "englishText": "At the neighbor's shed, quietly, dokkaebi laughter rolled over the roof tiles like acorns. \"Better,\" said the club.",
+      "narrationScript": "이웃의 헛간에서 도깨비 웃음이 지붕 기와 위로 굴렀어요.",
+      "vocabulary": [
+        {
+          "ko": "장작",
+          "en": "firewood",
+          "romanization": "jangjak",
+          "definitionEn": "Wood gathered for warmth.",
+          "definitionKo": "불을 피우려고 모은 나무예요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "neighbor steals or imitates and gets comic trouble (greedy imitation)",
+        "emotion": "comic tension",
+        "pageTurnHook": "Then the mess will need ordinary hands, and the story moves toward repair and return.",
+        "readAloudCue": "Read with comic tension; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose the flying brooms."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dokkaebi_club.character_bible.json. Page 23 for 도깨비 방망이 / The Dokkaebi Club: greedy neighbor grabbing club, dokkaebi shadows watching, harmless puff of magic; specific beat: dokkaebi laughter rolled over the roof tiles like acorns; emotional tone: comic tension; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dokkaebi-club/page-023.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with comic tension; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dokkaebi-club/ko/page-023.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dokkaebi-club/ambient/ambient-loop.wav",
+      "characterBible": "characters/dokkaebi_club.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_023/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_023/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_023/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_023/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_023/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_023/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dokkaebi_club_024",
+      "pageNumber": 24,
+      "text": {
+        "enLittle": "The neighbor ran in circles while rice cakes stuck to his sleeves.",
+        "enStandard": "At the neighbor's shed, with the moon high, the neighbor ran in circles while rice cakes stuck to his sleeves. \"Stop, stop!\" the neighbor cried.",
+        "koLittle": "이웃은 소매에 떡이 붙은 채 빙빙 돌았어요",
+        "koStandard": "이웃의 헛간에서 이웃은 소매에 떡이 붙은 채 빙빙 돌았어요."
+      },
+      "koreanText": "이웃의 헛간에서 이웃은 소매에 떡이 붙은 채 빙빙 돌았어요.",
+      "englishText": "At the neighbor's shed, with the moon high, the neighbor ran in circles while rice cakes stuck to his sleeves. \"Stop, stop!\" the neighbor cried.",
+      "narrationScript": "이웃의 헛간에서 이웃은 소매에 떡이 붙은 채 빙빙 돌았어요.",
+      "vocabulary": [
+        {
+          "ko": "소나무",
+          "en": "pine tree",
+          "romanization": "sonamu",
+          "definitionEn": "An evergreen tree common in Korean mountain scenes.",
+          "definitionKo": "한국 산에서 자주 보이는 늘푸른 나무예요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "neighbor steals or imitates and gets comic trouble (greedy imitation)",
+        "emotion": "comic tension",
+        "pageTurnHook": "Then the mess will need ordinary hands, and the story moves toward repair and return.",
+        "readAloudCue": "Read with comic tension; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag the flying brooms."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dokkaebi_club.character_bible.json. Page 24 for 도깨비 방망이 / The Dokkaebi Club: greedy neighbor grabbing club, dokkaebi shadows watching, harmless puff of magic; specific beat: the neighbor ran in circles while rice cakes stuck to his sleeves; emotional tone: comic tension; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dokkaebi-club/page-024.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with comic tension; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dokkaebi-club/ko/page-024.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dokkaebi-club/ambient/ambient-loop.wav",
+      "characterBible": "characters/dokkaebi_club.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_024/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_024/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_024/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_024/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_024/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_024/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dokkaebi_club_025",
+      "pageNumber": 25,
+      "text": {
+        "enLittle": "The neighbor swept until the courtyard looked kinder than before.",
+        "enStandard": "In the swept courtyard, first, the neighbor swept until the courtyard looked kinder than before. \"Tap once, share twice,\" sang the dokkaebi.",
+        "koLittle": "이웃은 마당이 전보다 다정해질 때까지 쓸었어요",
+        "koStandard": "쓸어 낸 마당에서 이웃은 마당이 전보다 다정해질 때까지 쓸었어요."
+      },
+      "koreanText": "쓸어 낸 마당에서 이웃은 마당이 전보다 다정해질 때까지 쓸었어요.",
+      "englishText": "In the swept courtyard, first, the neighbor swept until the courtyard looked kinder than before. \"Tap once, share twice,\" sang the dokkaebi.",
+      "narrationScript": "쓸어 낸 마당에서 이웃은 마당이 전보다 다정해질 때까지 쓸었어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve with apology and restored sharing (repair and return)",
+        "emotion": "playful repair",
+        "pageTurnHook": "Then the clearing will stay mischievous and kind, and the story moves toward repair and return.",
+        "readAloudCue": "Read with playful repair; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap the swept path."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dokkaebi_club.character_bible.json. Page 25 for 도깨비 방망이 / The Dokkaebi Club: neighbor apologizing, wood gatherer returning club to dokkaebi under pine moon; specific beat: the neighbor swept until the courtyard looked kinder than before; emotional tone: playful repair; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dokkaebi-club/page-025.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with playful repair; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dokkaebi-club/ko/page-025.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dokkaebi-club/ambient/ambient-loop.wav",
+      "characterBible": "characters/dokkaebi_club.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_025/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_025/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_025/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_025/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_025/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_025/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dokkaebi_club_026",
+      "pageNumber": 26,
+      "text": {
+        "enLittle": "He carried rice to the old neighbor without asking magic to do it.",
+        "enStandard": "In the swept courtyard, next, he carried rice to the old neighbor without asking magic to do it. \"And bring rice cakes,\" added the smallest.",
+        "koLittle": "그는 마법 없이 어르신 댁에 쌀을 가져갔어요",
+        "koStandard": "쓸어 낸 마당에서 그는 마법 없이 어르신 댁에 쌀을 가져갔어요."
+      },
+      "koreanText": "쓸어 낸 마당에서 그는 마법 없이 어르신 댁에 쌀을 가져갔어요.",
+      "englishText": "In the swept courtyard, next, he carried rice to the old neighbor without asking magic to do it. \"And bring rice cakes,\" added the smallest.",
+      "narrationScript": "쓸어 낸 마당에서 그는 마법 없이 어르신 댁에 쌀을 가져갔어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve with apology and restored sharing (repair and return)",
+        "emotion": "playful repair",
+        "pageTurnHook": "Then the clearing will stay mischievous and kind, and the story moves toward repair and return.",
+        "readAloudCue": "Read with playful repair; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace the swept path."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dokkaebi_club.character_bible.json. Page 26 for 도깨비 방망이 / The Dokkaebi Club: neighbor apologizing, wood gatherer returning club to dokkaebi under pine moon; specific beat: he carried rice to the old neighbor without asking magic to do it; emotional tone: playful repair; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dokkaebi-club/page-026.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with playful repair; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dokkaebi-club/ko/page-026.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dokkaebi-club/ambient/ambient-loop.wav",
+      "characterBible": "characters/dokkaebi_club.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_026/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_026/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_026/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_026/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_026/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_026/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dokkaebi_club_027",
+      "pageNumber": 27,
+      "text": {
+        "enLittle": "The wood gatherer returned the club to the pine clearing before pride could settle in it.",
+        "enStandard": "In the swept courtyard, quietly, the wood gatherer returned the club to the pine clearing before pride could settle in it. \"I was greedy,\" the neighbor said.",
+        "koLittle": "나무꾼은 자랑이 붙기 전 방망이를 숲에 돌려주었어요",
+        "koStandard": "쓸어 낸 마당에서 나무꾼은 자랑이 붙기 전 방망이를 숲에 돌려주었어요."
+      },
+      "koreanText": "쓸어 낸 마당에서 나무꾼은 자랑이 붙기 전 방망이를 숲에 돌려주었어요.",
+      "englishText": "In the swept courtyard, quietly, the wood gatherer returned the club to the pine clearing before pride could settle in it. \"I was greedy,\" the neighbor said.",
+      "narrationScript": "쓸어 낸 마당에서 나무꾼은 자랑이 붙기 전 방망이를 숲에 돌려주었어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve with apology and restored sharing (repair and return)",
+        "emotion": "playful repair",
+        "pageTurnHook": "Then the clearing will stay mischievous and kind, and the story moves toward repair and return.",
+        "readAloudCue": "Read with playful repair; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count the swept path."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dokkaebi_club.character_bible.json. Page 27 for 도깨비 방망이 / The Dokkaebi Club: neighbor apologizing, wood gatherer returning club to dokkaebi under pine moon; specific beat: the wood gatherer returned the club to the pine clearing before pride could settle in it; emotional tone: playful repair; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dokkaebi-club/page-027.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with playful repair; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dokkaebi-club/ko/page-027.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dokkaebi-club/ambient/ambient-loop.wav",
+      "characterBible": "characters/dokkaebi_club.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_027/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_027/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_027/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_027/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_027/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_027/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "dokkaebi_club_028",
+      "pageNumber": 28,
+      "text": {
+        "enLittle": "Dokkaebi bells rang once.",
+        "enStandard": "In the swept courtyard, with the moon high, dokkaebi bells rang once, which meant they approved or wanted snacks. \"Then repair twice,\" the wood gatherer replied.",
+        "koLittle": "도깨비 종이 한 번 울렸고 허락인지 간식 신호인지 알 수 없었어요",
+        "koStandard": "쓸어 낸 마당에서 도깨비 종이 한 번 울렸고 허락인지 간식 신호인지 알 수 없었어요."
+      },
+      "koreanText": "쓸어 낸 마당에서 도깨비 종이 한 번 울렸고 허락인지 간식 신호인지 알 수 없었어요.",
+      "englishText": "In the swept courtyard, with the moon high, dokkaebi bells rang once, which meant they approved or wanted snacks. \"Then repair twice,\" the wood gatherer replied.",
+      "narrationScript": "쓸어 낸 마당에서 도깨비 종이 한 번 울렸고 허락인지 간식 신호인지 알 수 없었어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve with apology and restored sharing (repair and return)",
+        "emotion": "playful repair",
+        "pageTurnHook": "Then the clearing will stay mischievous and kind, and the story moves toward repair and return.",
+        "readAloudCue": "Read with playful repair; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold the swept path."
+      },
+      "refrain": "Tap once, share twice.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/dokkaebi_club.character_bible.json. Page 28 for 도깨비 방망이 / The Dokkaebi Club: neighbor apologizing, wood gatherer returning club to dokkaebi under pine moon; specific beat: dokkaebi bells rang once, which meant they approved or wanted snacks; emotional tone: playful repair; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/dokkaebi-club/page-028.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with playful repair; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/dokkaebi-club/ko/page-028.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/dokkaebi-club/ambient/ambient-loop.wav",
+      "characterBible": "characters/dokkaebi_club.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_028/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_028/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_028/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_028/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_028/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/dokkaebi-club/dokkaebi_club_028/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "한 번 두드리고, 두 번 나누자."
+    }
+  ]
+}

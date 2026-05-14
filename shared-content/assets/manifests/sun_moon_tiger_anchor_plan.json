@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1.0.0",
+  "storyId": "book.sun_moon",
+  "storySlug": "sun-and-moon",
+  "purpose": "Approval gate for revised Sun and Moon tiger art direction before bulk scene regeneration.",
+  "status": "approval_anchors_generated_reviewed_for_bulk_draft_regeneration",
+  "bulkGenerationAllowed": true,
+  "instruction": "Review the seven generated approval anchors first. Do not mark all 32 Sun and Moon scenes as reviewed/final until the antagonist tiger design, child designs, cover mood, and scene tension are externally approved.",
+  "styleBible": "style/moonjar_style_bible.json",
+  "characterBible": "characters/sun_moon.character_bible.json",
+  "negativePromptSource": "characters/sun_moon.character_bible.json#negativePrompt",
+  "outputDirectory": "assets/generated-draft/images/approval/sun-and-moon/",
+  "approvalCriteria": [
+    "Tiger feels cunning, hungry, watchful, mature, and dangerous through posture, eyes, shadow, and framing.",
+    "Tension comes from eyes, posture, shadows, framing, and lighting.",
+    "No blood, gore, injury, exposed teeth emphasis, horror anatomy, jump scare, or graphic punishment.",
+    "Premium Korean watercolor/gouache/ink style with hanji texture is preserved.",
+    "Children remain protected by framing and never look traumatized.",
+    "The tiger design can stay consistent across all 32 scenes."
+  ],
+  "anchors": [
+    {
+      "pageNumber": 3,
+      "sceneId": "sun_moon_003",
+      "phase": "phase_1_mysterious_forest_presence",
+      "goal": "Establish the first approved tiger face, eyes, silhouette, fur palette, and watchful forest presence.",
+      "targetOutputFile": "assets/generated-draft/images/approval/sun-and-moon/forest-scene.png",
+      "status": "generated_reviewed_for_draft_regeneration",
+      "reviewDate": "2026-05-07T15:54:40Z",
+      "reviewer": "Codex visual QA"
+    },
+    {
+      "pageNumber": 4,
+      "sceneId": "sun_moon_004",
+      "phase": "phase_2_deceptive_and_watchful",
+      "goal": "Approve the tiger pretending restraint near the mother while still feeling hungry and calculating.",
+      "targetOutputFile": "assets/generated-draft/images/anchors/sun-and-moon/page-004-anchor.png",
+      "status": "not_generated_for_this_pass",
+      "notes": "The seven-image approval set generated this pass covers app hero, cover, tiger sheet, child sheet, forest, house/night, and chase/tension. This legacy anchor remains for later if the reviewer requests more tiger phases."
+    },
+    {
+      "pageNumber": 7,
+      "sceneId": "sun_moon_007",
+      "phase": "phase_3_disguised_unsettling_house",
+      "goal": "Approve the disguised-at-the-door silhouette, eye slit, shadow, and child-safe suspense level.",
+      "targetOutputFile": "assets/generated-draft/images/approval/sun-and-moon/house-night-scene.png",
+      "status": "generated_reviewed_for_draft_regeneration",
+      "reviewDate": "2026-05-07T15:54:40Z",
+      "reviewer": "Codex visual QA"
+    },
+    {
+      "pageNumber": 11,
+      "sceneId": "sun_moon_011",
+      "phase": "phase_4_threatening_chase_child_safe",
+      "goal": "Approve pursuit posture and danger level at the persimmon tree while keeping safe distance.",
+      "targetOutputFile": "assets/generated-draft/images/approval/sun-and-moon/chase-tension-scene.png",
+      "status": "generated_reviewed_for_draft_regeneration",
+      "reviewDate": "2026-05-07T15:54:40Z",
+      "reviewer": "Codex visual QA"
+    },
+    {
+      "pageNumber": 16,
+      "sceneId": "sun_moon_016",
+      "phase": "phase_5_defeated_resolved",
+      "goal": "Approve defeated/resolved tiger treatment without graphic punishment, injury, or silly plush comedy.",
+      "targetOutputFile": "assets/generated-draft/images/anchors/sun-and-moon/page-016-anchor.png",
+      "status": "not_generated_for_this_pass",
+      "notes": "The seven-image approval set generated this pass covers app hero, cover, tiger sheet, child sheet, forest, house/night, and chase/tension. This legacy anchor remains for later if the reviewer requests more tiger phases."
+    }
+  ],
+  "reviewFieldsRequiredForApproval": [
+    "reviewer",
+    "reviewDate",
+    "notes",
+    "culturalReviewStatus",
+    "childSafetyReviewStatus",
+    "productionApprovalStatus"
+  ],
+  "approvalJobManifest": "assets/manifests/art_approval_jobs.json",
+  "approvalAnchorSet": [
+    "sun_moon_app_hero_style",
+    "sun_moon_cover_concept",
+    "sun_moon_tiger_character_sheet",
+    "sun_moon_child_character_sheet",
+    "sun_moon_forest_scene",
+    "sun_moon_house_night_scene",
+    "sun_moon_chase_tension_scene"
+  ],
+  "updatedAt": "2026-05-07T15:54:40Z",
+  "reviewer": "Codex visual QA",
+  "reviewDate": "2026-05-07T15:54:40Z",
+  "reviewNotes": "Seven approval anchors passed Codex visual QA for draft art direction: tiger is cunning/watchful rather than plush; no gore/horror; Korean picture-book mood is strong. Human creative/cultural review still required before final production."
+}

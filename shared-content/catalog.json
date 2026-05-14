@@ -1,0 +1,349 @@
+{
+  "schemaVersion": "1.0.0",
+  "libraryVersion": "2026.05-launch",
+  "monetization": {
+    "freeBooks": 5,
+    "monthlyUsd": 4.99,
+    "annualUsd": 39.99,
+    "lifetimeUsdRange": "79.99-99.99",
+    "individualBookUsd": 3.99
+  },
+  "books": [
+    {
+      "id": "book.sun_moon",
+      "slug": "sun-and-moon",
+      "title": {
+        "ko": "해님 달님",
+        "en": "The Sun and the Moon"
+      },
+      "access": "free",
+      "status": "complete",
+      "ageRange": "3-8",
+      "pageTarget": 32,
+      "bookPath": "books/sun_moon.json",
+      "sensitivity": "Tiger chase softened; no graphic danger."
+    },
+    {
+      "id": "book.gold_silver_axe",
+      "slug": "gold-axe-silver-axe",
+      "title": {
+        "ko": "금도끼 은도끼",
+        "en": "The Gold Axe and Silver Axe"
+      },
+      "access": "free",
+      "status": "complete",
+      "ageRange": "3-8",
+      "pageTarget": 24,
+      "bookPath": "books/gold_silver_axe.json",
+      "sensitivity": "Gentle honesty story; no danger."
+    },
+    {
+      "id": "book.tiger_persimmon",
+      "slug": "tiger-and-persimmon",
+      "title": {
+        "ko": "호랑이와 곶감",
+        "en": "The Tiger and the Persimmon"
+      },
+      "access": "free",
+      "status": "complete",
+      "ageRange": "3-8",
+      "pageTarget": 24,
+      "bookPath": "books/tiger_persimmon.json",
+      "sensitivity": "Comic fear; tiger is silly, not frightening."
+    },
+    {
+      "id": "book.heungbu_nolbu",
+      "slug": "heungbu-and-nolbu",
+      "title": {
+        "ko": "흥부와 놀부",
+        "en": "Heungbu and Nolbu"
+      },
+      "access": "free",
+      "status": "complete",
+      "ageRange": "4-8",
+      "pageTarget": 32,
+      "bookPath": "books/heungbu_nolbu.json",
+      "sensitivity": "Sibling conflict softened; slapstick consequences only."
+    },
+    {
+      "id": "book.red_bean_grandma",
+      "slug": "red-bean-porridge-grandma",
+      "title": {
+        "ko": "팥죽 할멈과 호랑이",
+        "en": "The Red Bean Porridge Grandma and the Tiger"
+      },
+      "access": "free",
+      "status": "complete",
+      "ageRange": "3-8",
+      "pageTarget": 26,
+      "bookPath": "books/red_bean_grandma.json",
+      "sensitivity": "Threatening tiger reframed as boastful and harmless."
+    },
+    {
+      "id": "book.simcheong",
+      "slug": "simcheong",
+      "title": {
+        "ko": "심청전",
+        "en": "The Tale of Simcheong"
+      },
+      "access": "premium",
+      "status": "complete",
+      "ageRange": "5-8",
+      "pageTarget": 38,
+      "sensitivity": "Younger, kinder adaptation; sacrifice reframed as brave journey.",
+      "bookPath": "books/simcheong.json"
+    },
+    {
+      "id": "book.rabbit_turtle",
+      "slug": "rabbit-and-turtle",
+      "title": {
+        "ko": "토끼와 자라",
+        "en": "The Rabbit and the Turtle"
+      },
+      "access": "premium",
+      "status": "complete",
+      "ageRange": "4-8",
+      "pageTarget": 30,
+      "sensitivity": "Court intrigue simplified; no body-harm detail.",
+      "bookPath": "books/rabbit_turtle.json"
+    },
+    {
+      "id": "book.dokkaebi_club",
+      "slug": "dokkaebi-club",
+      "title": {
+        "ko": "도깨비 방망이",
+        "en": "The Dokkaebi Club"
+      },
+      "access": "premium",
+      "status": "complete",
+      "ageRange": "3-8",
+      "pageTarget": 28,
+      "sensitivity": "Dokkaebi are magical, silly, and non-scary.",
+      "bookPath": "books/dokkaebi_club.json"
+    },
+    {
+      "id": "book.dangun",
+      "slug": "dangun-story",
+      "title": {
+        "ko": "단군 이야기",
+        "en": "The Story of Dangun"
+      },
+      "access": "premium",
+      "status": "complete",
+      "ageRange": "5-8",
+      "pageTarget": 30,
+      "sensitivity": "Mythic transformation handled gently.",
+      "bookPath": "books/dangun.json"
+    },
+    {
+      "id": "book.grateful_magpie",
+      "slug": "grateful-magpie",
+      "title": {
+        "ko": "은혜 갚은 까치",
+        "en": "The Grateful Magpie"
+      },
+      "access": "premium",
+      "status": "complete",
+      "ageRange": "4-8",
+      "pageTarget": 28,
+      "sensitivity": "Danger softened; gratitude centered.",
+      "bookPath": "books/grateful_magpie.json"
+    },
+    {
+      "id": "book.kongjwi_patjwi",
+      "slug": "kongjwi-and-patjwi",
+      "title": {
+        "ko": "콩쥐팥쥐",
+        "en": "Kongjwi and Patjwi"
+      },
+      "access": "premium",
+      "status": "complete",
+      "ageRange": "5-8",
+      "pageTarget": 34,
+      "sensitivity": "Bullying softened; no cruel punishment.",
+      "bookPath": "books/kongjwi_patjwi.json"
+    },
+    {
+      "id": "book.geumgang_tiger",
+      "slug": "geumgang-mountain-tiger",
+      "title": {
+        "ko": "금강산 호랑이",
+        "en": "The Tiger of Geumgang Mountain"
+      },
+      "access": "premium",
+      "status": "complete",
+      "ageRange": "4-8",
+      "pageTarget": 28,
+      "sensitivity": "Adventure tone; tiger is majestic but gentle.",
+      "bookPath": "books/geumgang_tiger.json"
+    },
+    {
+      "id": "book.lump_old_man",
+      "slug": "lump-old-man",
+      "title": {
+        "ko": "혹부리 영감",
+        "en": "The Old Man With a Lump"
+      },
+      "access": "premium",
+      "status": "complete",
+      "ageRange": "4-8",
+      "pageTarget": 30,
+      "sensitivity": "Physical difference treated respectfully.",
+      "bookPath": "books/lump_old_man.json"
+    },
+    {
+      "id": "book.gyeonwu_jiknyeo",
+      "slug": "gyeonwu-and-jiknyeo",
+      "title": {
+        "ko": "견우와 직녀",
+        "en": "Gyeonwu and Jiknyeo"
+      },
+      "access": "premium",
+      "status": "complete",
+      "ageRange": "4-8",
+      "pageTarget": 32,
+      "sensitivity": "Longing handled as tender seasonal myth.",
+      "bookPath": "books/gyeonwu_jiknyeo.json"
+    },
+    {
+      "id": "book.bari_princess_part_1",
+      "slug": "bari-princess-part-1",
+      "title": {
+        "ko": "바리공주 1",
+        "en": "Princess Bari Part 1"
+      },
+      "access": "premium",
+      "status": "complete",
+      "ageRange": "6-8",
+      "pageTarget": 26,
+      "sensitivity": "Abandonment themes softened and carefully framed.",
+      "bookPath": "books/bari_princess_part_1.json"
+    },
+    {
+      "id": "book.bari_princess_part_2",
+      "slug": "bari-princess-part-2",
+      "title": {
+        "ko": "바리공주 2",
+        "en": "Princess Bari Part 2"
+      },
+      "access": "premium",
+      "status": "complete",
+      "ageRange": "6-8",
+      "pageTarget": 26,
+      "sensitivity": "Healing journey centered; no graphic underworld imagery.",
+      "bookPath": "books/bari_princess_part_2.json"
+    },
+    {
+      "id": "book.snail_bride",
+      "slug": "snail-bride",
+      "title": {
+        "ko": "우렁각시",
+        "en": "The Snail Bride"
+      },
+      "access": "premium",
+      "status": "complete",
+      "ageRange": "5-8",
+      "pageTarget": 30,
+      "sensitivity": "Agency-forward retelling.",
+      "bookPath": "books/snail_bride.json"
+    },
+    {
+      "id": "book.janghwa_hongryeon",
+      "slug": "janghwa-and-hongryeon",
+      "title": {
+        "ko": "장화홍련",
+        "en": "Janghwa and Hongryeon"
+      },
+      "access": "premium",
+      "status": "complete",
+      "ageRange": "7-8",
+      "pageTarget": 32,
+      "sensitivity": "Heavily softened; mystery without horror.",
+      "bookPath": "books/janghwa_hongryeon.json"
+    },
+    {
+      "id": "book.fairy_woodcutter",
+      "slug": "fairy-and-woodcutter",
+      "title": {
+        "ko": "선녀와 나무꾼",
+        "en": "The Fairy and the Woodcutter"
+      },
+      "access": "premium",
+      "status": "complete",
+      "ageRange": "6-8",
+      "pageTarget": 32,
+      "sensitivity": "Consent-forward rewrite with clear agency.",
+      "bookPath": "books/fairy_woodcutter.json"
+    },
+    {
+      "id": "book.green_frog",
+      "slug": "green-frog",
+      "title": {
+        "ko": "청개구리 이야기",
+        "en": "The Green Frog"
+      },
+      "access": "premium",
+      "status": "complete",
+      "ageRange": "3-8",
+      "pageTarget": 24,
+      "sensitivity": "Grief handled gently.",
+      "bookPath": "books/green_frog.json"
+    },
+    {
+      "id": "book.kind_brothers",
+      "slug": "kind-brothers",
+      "title": {
+        "ko": "의좋은 형제",
+        "en": "The Kind Brothers"
+      },
+      "access": "premium",
+      "status": "complete",
+      "ageRange": "3-8",
+      "pageTarget": 24,
+      "sensitivity": "Warm sibling generosity story.",
+      "bookPath": "books/kind_brothers.json"
+    },
+    {
+      "id": "book.byeoljubu",
+      "slug": "byeoljubu",
+      "title": {
+        "ko": "별주부전",
+        "en": "The Turtle Envoy"
+      },
+      "access": "premium",
+      "status": "complete",
+      "ageRange": "4-8",
+      "pageTarget": 32,
+      "sensitivity": "Same safe adaptation lane as Rabbit and Turtle.",
+      "bookPath": "books/byeoljubu.json"
+    },
+    {
+      "id": "book.farting_daughter_in_law",
+      "slug": "farting-daughter-in-law",
+      "title": {
+        "ko": "방귀쟁이 며느리",
+        "en": "The Farting Daughter-in-Law"
+      },
+      "access": "premium",
+      "status": "complete",
+      "ageRange": "3-8",
+      "pageTarget": 24,
+      "sensitivity": "Comic body humor; shame removed.",
+      "bookPath": "books/farting_daughter_in_law.json"
+    },
+    {
+      "id": "book.serpent_bridegroom",
+      "slug": "serpent-bridegroom",
+      "title": {
+        "ko": "구렁덩덩 신선비",
+        "en": "The Gentle Serpent Scholar"
+      },
+      "access": "premium",
+      "status": "complete",
+      "ageRange": "6-8",
+      "pageTarget": 32,
+      "sensitivity": "Carefully adapted for consent, trust, and transformation.",
+      "bookPath": "books/serpent_bridegroom.json"
+    }
+  ]
+}

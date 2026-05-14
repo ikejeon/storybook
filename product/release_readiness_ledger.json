@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedOn": "2026-05-11",
+  "status": "repo_owned_non_human_artifacts_added_external_blockers_remain",
+  "criteria": [
+    {
+      "category": "Concept score",
+      "repoOwnedArtifacts": [
+        "product/market-validation/market_validation_plan.json",
+        "product/market-validation/source_backed_positioning.md"
+      ],
+      "remainingBlockers": [
+        "target_parent_customer_testing",
+        "pricing_validation",
+        "willingness_to_pay_signal",
+        "retention_or_conversion_signal"
+      ]
+    },
+    {
+      "category": "Content/story readiness",
+      "repoOwnedArtifacts": [
+        "shared-content/catalog.json",
+        "shared-content/books/*.json",
+        "shared-content/reviews/cultural_authenticity_review.json"
+      ],
+      "remainingBlockers": [
+        "external_childrens_editor_signoff",
+        "external_korean_language_review",
+        "external_korean_cultural_review",
+        "external_child_safety_review"
+      ]
+    },
+    {
+      "category": "Visual/art readiness",
+      "repoOwnedArtifacts": [
+        "shared-content/assets/manifests/image_manifest.json",
+        "shared-content/assets/manifests/asset_ownership_ledger.json",
+        "shared-content/reviews/visual_art_readiness_review.json",
+        "shared-content/characters/index.json"
+      ],
+      "remainingBlockers": [
+        "commissioned_final_scene_art",
+        "commissioned_final_covers",
+        "external_creative_cultural_child_safety_art_approval",
+        "final_character_pack",
+        "production_ownership_licensing_legal_signoff"
+      ]
+    },
+    {
+      "category": "Audio readiness",
+      "repoOwnedArtifacts": [
+        "shared-content/audio/manifests/audio_manifest.json",
+        "shared-content/audio/manifests/voice_bakeoff_manifest.json"
+      ],
+      "remainingBlockers": [
+        "1396_narration_entries_synthetic_draft",
+        "provider_samples_reviewed",
+        "mastered_final_audio",
+        "device_mix_qa"
+      ]
+    },
+    {
+      "category": "Payment readiness",
+      "repoOwnedArtifacts": [
+        "store/product_configuration_manifest.json",
+        "docs/entitlement_rules.md",
+        "ios/MoonJarStoriesiOS/Sources/MoonJarStoriesiOS/EntitlementStore.swift",
+        "android/MoonJarStoriesAndroid/src/main/java/com/moonjar/stories/billing/EntitlementManager.kt"
+      ],
+      "remainingBlockers": [
+        "app_store_connect_products",
+        "google_play_console_products",
+        "sandbox_purchase_restore_transcripts",
+        "backend_receipt_token_verification"
+      ]
+    },
+    {
+      "category": "Backend readiness",
+      "repoOwnedArtifacts": [
+        "backend/openapi.yaml",
+        "backend/service_stub.py",
+        "backend/deployment_readiness_manifest.json",
+        "backend/receipt_verification_contract.json"
+      ],
+      "remainingBlockers": [
+        "deployed_backend_url",
+        "durable_database_migrations",
+        "production_auth_rbac",
+        "monitoring_alerts_backups"
+      ]
+    },
+    {
+      "category": "Compliance readiness",
+      "repoOwnedArtifacts": [
+        "shared-content/compliance/app_behavior_flags.json",
+        "shared-content/compliance/data_flow_map.json",
+        "docs/privacy_policy_draft.md",
+        "store/privacy_labels_draft.json",
+        "store/accessibility_qa_checklist.json"
+      ],
+      "remainingBlockers": [
+        "final_privacy_policy",
+        "legal_privacy_signoff",
+        "apple_kids_category_review",
+        "google_play_families_review",
+        "real_device_accessibility_qa"
+      ]
+    },
+    {
+      "category": "Store readiness",
+      "repoOwnedArtifacts": [
+        "store/app_store_metadata_draft.json",
+        "store/google_play_metadata_draft.json",
+        "store/release_assets_manifest.json",
+        "store/product_configuration_manifest.json"
+      ],
+      "remainingBlockers": [
+        "real_bundle_ids_and_signing_evidence",
+        "final_store_screenshots",
+        "submitted_metadata",
+        "testflight_or_internal_track_evidence"
+      ]
+    }
+  ],
+  "updatedAt": "2026-05-11T12:00:00Z",
+  "contentStory": {
+    "status": "all_catalog_books_complete_internal_demo",
+    "remainingExternalBlockers": [
+      "External children’s editor signoff",
+      "External Korean-language reviewer signoff",
+      "External Korean cultural authenticity approval",
+      "External child-safety adaptation approval"
+    ]
+  },
+  "visualArt": {
+    "status": "generated_reviewed_internal_demo_not_final",
+    "remainingExternalBlockers": [
+      "Commissioned/final character-consistent art",
+      "External creative/cultural/child-safety art approval",
+      "Final production character pack",
+      "Commercial production licensing/legal proof"
+    ]
+  }
+}

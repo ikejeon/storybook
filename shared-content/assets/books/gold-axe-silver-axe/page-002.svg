@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="768" viewBox="0 0 1024 768">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#263a55"/>
+      <stop offset="58%" stop-color="#387e69"/>
+      <stop offset="100%" stop-color="#f3d36a"/>
+    </linearGradient>
+    <filter id="paper" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="2" seed="21" result="noise"/>
+      <feColorMatrix type="saturate" values="0.18"/>
+      <feBlend in="SourceGraphic" in2="noise" mode="multiply"/>
+    </filter>
+    <radialGradient id="jar" cx="50%" cy="42%" r="58%">
+      <stop offset="0%" stop-color="#fffaf0" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#fff1ce" stop-opacity="0.24"/>
+    </radialGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#sky)"/>
+  <rect width="100%" height="100%" fill="#fff4dd" opacity="0.14" filter="url(#paper)"/>
+  <circle cx="512" cy="325" r="238" fill="url(#jar)" opacity="0.24"/>
+  <circle cx="512" cy="325" r="176" fill="none" stroke="#fff6df" stroke-width="18" opacity="0.5"/>
+  <circle cx="758" cy="169" r="94" fill="#fff3d1" opacity="0.88"/>
+<path d="M-120 768 L80 353 L330 768 Z" fill="#1f294f" opacity="0.18"/>
+<path d="M110 768 L310 389 L560 768 Z" fill="#1f294f" opacity="0.21"/>
+<path d="M340 768 L540 425 L790 768 Z" fill="#1f294f" opacity="0.25"/>
+<path d="M570 768 L770 353 L1020 768 Z" fill="#1f294f" opacity="0.29"/>
+<path d="M800 768 L1000 389 L1250 768 Z" fill="#1f294f" opacity="0.32"/>
+<path d="M1030 768 L1230 425 L1480 768 Z" fill="#1f294f" opacity="0.35"/>
+<ellipse cx="184" cy="105" rx="74" ry="22" fill="#fff8e4" opacity="0.28"/>
+<ellipse cx="444" cy="147" rx="79" ry="25" fill="#fff8e4" opacity="0.28"/>
+<ellipse cx="704" cy="189" rx="84" ry="28" fill="#fff8e4" opacity="0.28"/>
+
+        <ellipse cx="500" cy="545" rx="190" ry="54" fill="#7fb7b0" opacity="0.62"/>
+        <path d="M420 506 L606 584" stroke="#d9b23d" stroke-width="18" stroke-linecap="round"/>
+        <path d="M580 472 L722 564" stroke="#ccd6dc" stroke-width="18" stroke-linecap="round"/>
+        <circle cx="320" cy="500" r="34" fill="#f3c7a8"/>
+        <path d="M270 628 Q322 492 374 628 Z" fill="#386b59"/>
+        
+  <rect x="48" y="46" width="300" height="64" rx="32" fill="#fff8e8" opacity="0.82"/>
+  <text x="84" y="87" fill="#263a55" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="27" font-weight="800">금도끼 은도끼</text>
+  <rect x="700" y="52" width="276" height="46" rx="23" fill="#c8d8de" opacity="0.78"/>
+  <text x="838" y="83" fill="#fff8e8" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle">Scene 02 · leafSwirl</text>
+  <rect x="70" y="632" width="884" height="86" rx="28" fill="#fff9eb" opacity="0.82"/>
+  <text x="104" y="669" fill="#263a55" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="22" font-weight="600" text-anchor="start">He used the axe only for fallen branches and trees</text>
+<text x="104" y="697" fill="#263a55" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="22" font-weight="600" text-anchor="start">already ready to give wood. “Take only what you need,”</text>
+<text x="104" y="725" fill="#263a55" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="22" font-weight="600" text-anchor="start">he told the forest.</text>
+  <text x="104" y="602" fill="#fff8e8" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="24" font-weight="700">The Gold Axe and Silver Axe</text>
+</svg>

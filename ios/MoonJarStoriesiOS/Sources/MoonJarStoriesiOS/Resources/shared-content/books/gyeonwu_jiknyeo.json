@@ -1,0 +1,3091 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "book.gyeonwu_jiknyeo",
+  "slug": "gyeonwu-and-jiknyeo",
+  "title": {
+    "ko": "견우와 직녀",
+    "en": "Gyeonwu and Jiknyeo"
+  },
+  "access": "premium",
+  "ageRange": "4-8",
+  "estimatedMinutes": 11,
+  "summary": "Weaver Jiknyeo and herder Gyeonwu love each other, neglect their duties, are separated by the star river, and meet once a year on the magpie bridge.",
+  "coverAsset": "assets/books/gyeonwu-and-jiknyeo/cover.png",
+  "coverAssetStatus": "placeholder",
+  "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+  "narrationAudioStatus": "synthetic_draft",
+  "adaptationVersions": {
+    "default": "English-first bilingual semantic-authenticity repair draft",
+    "plannedAlternate": "External editor pass after children’s editorial and Korean-language review",
+    "note": "Generated repo-local repair draft; not external human final."
+  },
+  "sensitivityNotes": [
+    "Longing remains tender and bittersweet; reunion is precious because separation is real.",
+    "Repaired by repo-local semantic authenticity pass; external children’s editor, Korean-language, cultural, and child-safety review remain required before final release."
+  ],
+  "themes": [
+    "love",
+    "separation",
+    "stars",
+    "seasons",
+    "patience"
+  ],
+  "characters": [
+    "jiknyeo",
+    "gyeonwu",
+    "magpies",
+    "star_river"
+  ],
+  "pages": [
+    {
+      "id": "gyeonwu_jiknyeo_001",
+      "pageNumber": 1,
+      "text": {
+        "enLittle": "Jiknyeo wove cloud cloth until her fingers shone with moon dust.",
+        "enStandard": "Beside the star river, first, Jiknyeo wove cloud cloth until her fingers shone with moon dust. \"Who bells the oxen so gently?\" Jiknyeo asked.",
+        "koLittle": "직녀는 손끝에 달가루가 빛날 만큼 구름천을 짰어요",
+        "koStandard": "별강 곁에서 직녀는 손끝에 달가루가 빛날 만큼 구름천을 짰어요."
+      },
+      "koreanText": "별강 곁에서 직녀는 손끝에 달가루가 빛날 만큼 구름천을 짰어요.",
+      "englishText": "Beside the star river, first, Jiknyeo wove cloud cloth until her fingers shone with moon dust. \"Who bells the oxen so gently?\" Jiknyeo asked.",
+      "narrationScript": "별강 곁에서 직녀는 손끝에 달가루가 빛날 만큼 구름천을 짰어요.",
+      "vocabulary": [
+        {
+          "ko": "직녀",
+          "en": "Jiknyeo",
+          "romanization": "Jiknyeo",
+          "definitionEn": "The star weaver.",
+          "definitionKo": "별빛을 짜는 여인이에요."
+        },
+        {
+          "ko": "오작교",
+          "en": "magpie bridge",
+          "romanization": "ojakgyo",
+          "definitionEn": "A bridge made by magpies and crows.",
+          "definitionKo": "까치와 까마귀가 놓는 다리예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "introduce their duties and loneliness (star work)",
+        "emotion": "quiet longing",
+        "pageTurnHook": "Then their first meeting will brighten the river, and the story moves toward falling in love.",
+        "readAloudCue": "Read with quiet longing; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap the loom thread."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/gyeonwu_jiknyeo.character_bible.json. Page 1 for 견우와 직녀 / Gyeonwu and Jiknyeo: Jiknyeo weaving, Gyeonwu herding across the Milky Way; specific beat: Jiknyeo wove cloud cloth until her fingers shone with moon dust; emotional tone: quiet longing; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/gyeonwu-and-jiknyeo/page-001.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with quiet longing; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/gyeonwu-and-jiknyeo/ko/page-001.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/gyeonwu-and-jiknyeo/ambient/ambient-loop.wav",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_001/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_001/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_001/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_001/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_001/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_001/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gyeonwu_jiknyeo_002",
+      "pageNumber": 2,
+      "text": {
+        "enLittle": "Gyeonwu guided tired oxen along the blue edge of the milky way.",
+        "enStandard": "Beside the star river, next, Gyeonwu guided tired oxen along the blue edge of the Milky Way. \"Across the stars,\" called a magpie.",
+        "koLittle": "견우는 은하수 푸른 가장자리에서 소를 돌보았어요",
+        "koStandard": "별강 곁에서 견우는 은하수 푸른 가장자리에서 소를 돌보았어요."
+      },
+      "koreanText": "별강 곁에서 견우는 은하수 푸른 가장자리에서 소를 돌보았어요.",
+      "englishText": "Beside the star river, next, Gyeonwu guided tired oxen along the blue edge of the Milky Way. \"Across the stars,\" called a magpie.",
+      "narrationScript": "별강 곁에서 견우는 은하수 푸른 가장자리에서 소를 돌보았어요.",
+      "vocabulary": [
+        {
+          "ko": "견우",
+          "en": "Gyeonwu",
+          "romanization": "Gyeonwu",
+          "definitionEn": "The star herder.",
+          "definitionKo": "별길의 목동이에요."
+        },
+        {
+          "ko": "은하수",
+          "en": "Milky Way",
+          "romanization": "eunhasu",
+          "definitionEn": "The star river in the sky.",
+          "definitionKo": "하늘에 흐르는 별의 강이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "introduce their duties and loneliness (star work)",
+        "emotion": "quiet longing",
+        "pageTurnHook": "Then their first meeting will brighten the river, and the story moves toward falling in love.",
+        "readAloudCue": "Read with quiet longing; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace the loom thread."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/gyeonwu_jiknyeo.character_bible.json. Page 2 for 견우와 직녀 / Gyeonwu and Jiknyeo: Jiknyeo weaving, Gyeonwu herding across the Milky Way; specific beat: Gyeonwu guided tired oxen along the blue edge of the Milky Way; emotional tone: quiet longing; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/gyeonwu-and-jiknyeo/page-002.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with quiet longing; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/gyeonwu-and-jiknyeo/ko/page-002.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/gyeonwu-and-jiknyeo/ambient/ambient-loop.wav",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_002/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_002/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_002/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_002/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_002/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_002/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gyeonwu_jiknyeo_003",
+      "pageNumber": 3,
+      "text": {
+        "enLittle": "Each heard the other's work before seeing a face.",
+        "enStandard": "Beside the star river, quietly, each heard the other's work before seeing a face. \"Across,\" she whispered.",
+        "koLittle": "둘은 얼굴보다 일하는 소리를 먼저 들었어요",
+        "koStandard": "별강 곁에서 둘은 얼굴보다 일하는 소리를 먼저 들었어요."
+      },
+      "koreanText": "별강 곁에서 둘은 얼굴보다 일하는 소리를 먼저 들었어요.",
+      "englishText": "Beside the star river, quietly, each heard the other's work before seeing a face. \"Across,\" she whispered.",
+      "narrationScript": "별강 곁에서 둘은 얼굴보다 일하는 소리를 먼저 들었어요.",
+      "vocabulary": [
+        {
+          "ko": "오작교",
+          "en": "magpie bridge",
+          "romanization": "ojakgyo",
+          "definitionEn": "A bridge made by magpies and crows.",
+          "definitionKo": "까치와 까마귀가 놓는 다리예요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "introduce their duties and loneliness (star work)",
+        "emotion": "quiet longing",
+        "pageTurnHook": "Then their first meeting will brighten the river, and the story moves toward falling in love.",
+        "readAloudCue": "Read with quiet longing; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count the loom thread."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/gyeonwu_jiknyeo.character_bible.json. Page 3 for 견우와 직녀 / Gyeonwu and Jiknyeo: Jiknyeo weaving, Gyeonwu herding across the Milky Way; specific beat: each heard the other's work before seeing a face; emotional tone: quiet longing; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/gyeonwu-and-jiknyeo/page-003.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with quiet longing; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/gyeonwu-and-jiknyeo/ko/page-003.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/gyeonwu-and-jiknyeo/ambient/ambient-loop.wav",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_003/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_003/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_003/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_003/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_003/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_003/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gyeonwu_jiknyeo_004",
+      "pageNumber": 4,
+      "text": {
+        "enLittle": "Magpies carried tiny rumors between loom and pasture.",
+        "enStandard": "Beside the star river, with the moon high, magpies carried tiny rumors between loom and pasture. \"Who sings near the loom?\" Gyeonwu wondered.",
+        "koLittle": "까치들이 베틀과 들판 사이 소문을 물었어요",
+        "koStandard": "별강 곁에서 까치들이 베틀과 들판 사이 소문을 물었어요."
+      },
+      "koreanText": "별강 곁에서 까치들이 베틀과 들판 사이 소문을 물었어요.",
+      "englishText": "Beside the star river, with the moon high, magpies carried tiny rumors between loom and pasture. \"Who sings near the loom?\" Gyeonwu wondered.",
+      "narrationScript": "별강 곁에서 까치들이 베틀과 들판 사이 소문을 물었어요.",
+      "vocabulary": [
+        {
+          "ko": "은하수",
+          "en": "Milky Way",
+          "romanization": "eunhasu",
+          "definitionEn": "The star river in the sky.",
+          "definitionKo": "하늘에 흐르는 별의 강이에요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "introduce their duties and loneliness (star work)",
+        "emotion": "quiet longing",
+        "pageTurnHook": "Then their first meeting will brighten the river, and the story moves toward falling in love.",
+        "readAloudCue": "Read with quiet longing; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold the loom thread."
+      },
+      "refrain": "Across the stars, remember.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/gyeonwu_jiknyeo.character_bible.json. Page 4 for 견우와 직녀 / Gyeonwu and Jiknyeo: Jiknyeo weaving, Gyeonwu herding across the Milky Way; specific beat: magpies carried tiny rumors between loom and pasture; emotional tone: quiet longing; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/gyeonwu-and-jiknyeo/page-004.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with quiet longing; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/gyeonwu-and-jiknyeo/ko/page-004.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/gyeonwu-and-jiknyeo/ambient/ambient-loop.wav",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_004/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_004/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_004/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_004/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_004/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_004/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "별을 건너, 기억하자."
+    },
+    {
+      "id": "gyeonwu_jiknyeo_005",
+      "pageNumber": 5,
+      "text": {
+        "enLittle": "Jiknyeo wove cloud cloth until her fingers shone with moon dust.",
+        "enStandard": "Beside the star river, before dawn, Jiknyeo wove cloud cloth until her fingers shone with moon dust. \"Who bells the oxen so gently?\" Jiknyeo asked.",
+        "koLittle": "직녀는 손끝에 달가루가 빛날 만큼 구름천을 짰어요",
+        "koStandard": "별강 곁에서 직녀는 손끝에 달가루가 빛날 만큼 구름천을 짰어요."
+      },
+      "koreanText": "별강 곁에서 직녀는 손끝에 달가루가 빛날 만큼 구름천을 짰어요.",
+      "englishText": "Beside the star river, before dawn, Jiknyeo wove cloud cloth until her fingers shone with moon dust. \"Who bells the oxen so gently?\" Jiknyeo asked.",
+      "narrationScript": "별강 곁에서 직녀는 손끝에 달가루가 빛날 만큼 구름천을 짰어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "introduce their duties and loneliness (star work)",
+        "emotion": "quiet longing",
+        "pageTurnHook": "Then their first meeting will brighten the river, and the story moves toward falling in love.",
+        "readAloudCue": "Read with quiet longing; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe the loom thread."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/gyeonwu_jiknyeo.character_bible.json. Page 5 for 견우와 직녀 / Gyeonwu and Jiknyeo: Jiknyeo weaving, Gyeonwu herding across the Milky Way; specific beat: Jiknyeo wove cloud cloth until her fingers shone with moon dust; emotional tone: quiet longing; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/gyeonwu-and-jiknyeo/page-005.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with quiet longing; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/gyeonwu-and-jiknyeo/ko/page-005.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/gyeonwu-and-jiknyeo/ambient/ambient-loop.wav",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_005/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_005/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_005/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_005/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_005/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_005/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gyeonwu_jiknyeo_006",
+      "pageNumber": 6,
+      "text": {
+        "enLittle": "They met where a comet had brushed silver over the path.",
+        "enStandard": "On a narrow star path, first, they met where a comet had brushed silver over the path. \"So are the oxen,\" sighed another.",
+        "koLittle": "혜성이 은빛을 묻힌 길에서 둘은 만났어요",
+        "koStandard": "좁은 별길에서 혜성이 은빛을 묻힌 길에서 둘은 만났어요."
+      },
+      "koreanText": "좁은 별길에서 혜성이 은빛을 묻힌 길에서 둘은 만났어요.",
+      "englishText": "On a narrow star path, first, they met where a comet had brushed silver over the path. \"So are the oxen,\" sighed another.",
+      "narrationScript": "좁은 별길에서 혜성이 은빛을 묻힌 길에서 둘은 만났어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "show love growing and duties slipping (falling in love)",
+        "emotion": "joy with warning",
+        "pageTurnHook": "Then the heavenly court will notice the unfinished work, and the story moves toward separation decree.",
+        "readAloudCue": "Read with joy with warning; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open the resting shuttle."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/gyeonwu_jiknyeo.character_bible.json. Page 6 for 견우와 직녀 / Gyeonwu and Jiknyeo: Jiknyeo and Gyeonwu meeting, oxen and weaving shuttle resting; specific beat: they met where a comet had brushed silver over the path; emotional tone: joy with warning; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/gyeonwu-and-jiknyeo/page-006.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with joy with warning; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/gyeonwu-and-jiknyeo/ko/page-006.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/gyeonwu-and-jiknyeo/ambient/ambient-loop.wav",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_006/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_006/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_006/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_006/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_006/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_006/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gyeonwu_jiknyeo_007",
+      "pageNumber": 7,
+      "text": {
+        "enLittle": "Jiknyeo laughed.",
+        "enStandard": "On a narrow star path, next, Jiknyeo laughed, and the unfinished cloth slipped from the loom. \"Stay one more moment,\" he said.",
+        "koLittle": "직녀가 웃자 다 짜지 못한 천이 베틀에서 미끄러졌어요",
+        "koStandard": "좁은 별길에서 직녀가 웃자 다 짜지 못한 천이 베틀에서 미끄러졌어요."
+      },
+      "koreanText": "좁은 별길에서 직녀가 웃자 다 짜지 못한 천이 베틀에서 미끄러졌어요.",
+      "englishText": "On a narrow star path, next, Jiknyeo laughed, and the unfinished cloth slipped from the loom. \"Stay one more moment,\" he said.",
+      "narrationScript": "좁은 별길에서 직녀가 웃자 다 짜지 못한 천이 베틀에서 미끄러졌어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "show love growing and duties slipping (falling in love)",
+        "emotion": "joy with warning",
+        "pageTurnHook": "Then the heavenly court will notice the unfinished work, and the story moves toward separation decree.",
+        "readAloudCue": "Read with joy with warning; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose the resting shuttle."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/gyeonwu_jiknyeo.character_bible.json. Page 7 for 견우와 직녀 / Gyeonwu and Jiknyeo: Jiknyeo and Gyeonwu meeting, oxen and weaving shuttle resting; specific beat: Jiknyeo laughed, and the unfinished cloth slipped from the loom; emotional tone: joy with warning; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/gyeonwu-and-jiknyeo/page-007.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with joy with warning; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/gyeonwu-and-jiknyeo/ko/page-007.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/gyeonwu-and-jiknyeo/ambient/ambient-loop.wav",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_007/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_007/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_007/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_007/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_007/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_007/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gyeonwu_jiknyeo_008",
+      "pageNumber": 8,
+      "text": {
+        "enLittle": "Gyeonwu forgot to count the oxen because every star seemed to count for him.",
+        "enStandard": "On a narrow star path, quietly, Gyeonwu forgot to count the oxen because every star seemed to count for him. \"Only one,\" she smiled.",
+        "koLittle": "견우는 별들이 대신 세어 주는 듯 소를 잊었어요",
+        "koStandard": "좁은 별길에서 견우는 별들이 대신 세어 주는 듯 소를 잊었어요."
+      },
+      "koreanText": "좁은 별길에서 견우는 별들이 대신 세어 주는 듯 소를 잊었어요.",
+      "englishText": "On a narrow star path, quietly, Gyeonwu forgot to count the oxen because every star seemed to count for him. \"Only one,\" she smiled.",
+      "narrationScript": "좁은 별길에서 견우는 별들이 대신 세어 주는 듯 소를 잊었어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "show love growing and duties slipping (falling in love)",
+        "emotion": "joy with warning",
+        "pageTurnHook": "Then the heavenly court will notice the unfinished work, and the story moves toward separation decree.",
+        "readAloudCue": "Read with joy with warning; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag the resting shuttle."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/gyeonwu_jiknyeo.character_bible.json. Page 8 for 견우와 직녀 / Gyeonwu and Jiknyeo: Jiknyeo and Gyeonwu meeting, oxen and weaving shuttle resting; specific beat: Gyeonwu forgot to count the oxen because every star seemed to count for him; emotional tone: joy with warning; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/gyeonwu-and-jiknyeo/page-008.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with joy with warning; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/gyeonwu-and-jiknyeo/ko/page-008.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/gyeonwu-and-jiknyeo/ambient/ambient-loop.wav",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_008/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_008/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_008/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_008/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_008/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_008/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gyeonwu_jiknyeo_009",
+      "pageNumber": 9,
+      "text": {
+        "enLittle": "Their joy was real.",
+        "enStandard": "On a narrow star path, with the moon high, their joy was real, but the sky work began to fray. \"The loom is waiting,\" a star warned.",
+        "koLittle": "기쁨은 진짜였지만 하늘일은 흐트러졌어요",
+        "koStandard": "좁은 별길에서 기쁨은 진짜였지만 하늘일은 흐트러졌어요."
+      },
+      "koreanText": "좁은 별길에서 기쁨은 진짜였지만 하늘일은 흐트러졌어요.",
+      "englishText": "On a narrow star path, with the moon high, their joy was real, but the sky work began to fray. \"The loom is waiting,\" a star warned.",
+      "narrationScript": "좁은 별길에서 기쁨은 진짜였지만 하늘일은 흐트러졌어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "직녀",
+          "en": "Jiknyeo",
+          "romanization": "Jiknyeo",
+          "definitionEn": "The star weaver.",
+          "definitionKo": "별빛을 짜는 여인이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "show love growing and duties slipping (falling in love)",
+        "emotion": "joy with warning",
+        "pageTurnHook": "Then the heavenly court will notice the unfinished work, and the story moves toward separation decree.",
+        "readAloudCue": "Read with joy with warning; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap the resting shuttle."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/gyeonwu_jiknyeo.character_bible.json. Page 9 for 견우와 직녀 / Gyeonwu and Jiknyeo: Jiknyeo and Gyeonwu meeting, oxen and weaving shuttle resting; specific beat: their joy was real, but the sky work began to fray; emotional tone: joy with warning; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/gyeonwu-and-jiknyeo/page-009.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with joy with warning; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/gyeonwu-and-jiknyeo/ko/page-009.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/gyeonwu-and-jiknyeo/ambient/ambient-loop.wav",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_009/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_009/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_009/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_009/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_009/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_009/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gyeonwu_jiknyeo_010",
+      "pageNumber": 10,
+      "text": {
+        "enLittle": "They met where a comet had brushed silver over the path.",
+        "enStandard": "On a narrow star path, before dawn, they met where a comet had brushed silver over the path. \"So are the oxen,\" sighed another.",
+        "koLittle": "혜성이 은빛을 묻힌 길에서 둘은 만났어요",
+        "koStandard": "좁은 별길에서 혜성이 은빛을 묻힌 길에서 둘은 만났어요."
+      },
+      "koreanText": "좁은 별길에서 혜성이 은빛을 묻힌 길에서 둘은 만났어요.",
+      "englishText": "On a narrow star path, before dawn, they met where a comet had brushed silver over the path. \"So are the oxen,\" sighed another.",
+      "narrationScript": "좁은 별길에서 혜성이 은빛을 묻힌 길에서 둘은 만났어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "견우",
+          "en": "Gyeonwu",
+          "romanization": "Gyeonwu",
+          "definitionEn": "The star herder.",
+          "definitionKo": "별길의 목동이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "show love growing and duties slipping (falling in love)",
+        "emotion": "joy with warning",
+        "pageTurnHook": "Then the heavenly court will notice the unfinished work, and the story moves toward separation decree.",
+        "readAloudCue": "Read with joy with warning; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace the resting shuttle."
+      },
+      "refrain": "Across the stars, remember.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/gyeonwu_jiknyeo.character_bible.json. Page 10 for 견우와 직녀 / Gyeonwu and Jiknyeo: Jiknyeo and Gyeonwu meeting, oxen and weaving shuttle resting; specific beat: they met where a comet had brushed silver over the path; emotional tone: joy with warning; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/gyeonwu-and-jiknyeo/page-010.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with joy with warning; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/gyeonwu-and-jiknyeo/ko/page-010.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/gyeonwu-and-jiknyeo/ambient/ambient-loop.wav",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_010/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_010/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_010/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_010/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_010/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_010/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "별을 건너, 기억하자."
+    },
+    {
+      "id": "gyeonwu_jiknyeo_011",
+      "pageNumber": 11,
+      "text": {
+        "enLittle": "The heavenly elders did not shout; that made the decree heavier.",
+        "enStandard": "At the heavenly court, first, the heavenly elders did not shout; that made the decree heavier. \"Must the river be so wide?\" Gyeonwu asked.",
+        "koLittle": "하늘 어른들은 소리치지 않았고 그래서 더 무거웠어요",
+        "koStandard": "하늘 궁전에서 하늘 어른들은 소리치지 않았고 그래서 더 무거웠어요."
+      },
+      "koreanText": "하늘 궁전에서 하늘 어른들은 소리치지 않았고 그래서 더 무거웠어요.",
+      "englishText": "At the heavenly court, first, the heavenly elders did not shout; that made the decree heavier. \"Must the river be so wide?\" Gyeonwu asked.",
+      "narrationScript": "하늘 궁전에서 하늘 어른들은 소리치지 않았고 그래서 더 무거웠어요.",
+      "vocabulary": [
+        {
+          "ko": "직녀",
+          "en": "Jiknyeo",
+          "romanization": "Jiknyeo",
+          "definitionEn": "The star weaver.",
+          "definitionKo": "별빛을 짜는 여인이에요."
+        },
+        {
+          "ko": "오작교",
+          "en": "magpie bridge",
+          "romanization": "ojakgyo",
+          "definitionEn": "A bridge made by magpies and crows.",
+          "definitionKo": "까치와 까마귀가 놓는 다리예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "separate them across the star river (separation decree)",
+        "emotion": "sorrowful consequence",
+        "pageTurnHook": "Then a yearly promise will keep hope alive, and the story moves toward year of waiting.",
+        "readAloudCue": "Read with sorrowful consequence; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count the widening river."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/gyeonwu_jiknyeo.character_bible.json. Page 11 for 견우와 직녀 / Gyeonwu and Jiknyeo: star river widening between lovers, elders solemn, no villainy; specific beat: the heavenly elders did not shout; that made the decree heavier; emotional tone: sorrowful consequence; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/gyeonwu-and-jiknyeo/page-011.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with sorrowful consequence; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/gyeonwu-and-jiknyeo/ko/page-011.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/gyeonwu-and-jiknyeo/ambient/ambient-loop.wav",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_011/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_011/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_011/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_011/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_011/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_011/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gyeonwu_jiknyeo_012",
+      "pageNumber": 12,
+      "text": {
+        "enLittle": "The star river widened until their hands held only light.",
+        "enStandard": "At the heavenly court, next, the star river widened until their hands held only light. \"Until you learn patience,\" came the answer.",
+        "koLittle": "별강이 넓어져 두 손에는 빛만 남았어요",
+        "koStandard": "하늘 궁전에서 별강이 넓어져 두 손에는 빛만 남았어요."
+      },
+      "koreanText": "하늘 궁전에서 별강이 넓어져 두 손에는 빛만 남았어요.",
+      "englishText": "At the heavenly court, next, the star river widened until their hands held only light. \"Until you learn patience,\" came the answer.",
+      "narrationScript": "하늘 궁전에서 별강이 넓어져 두 손에는 빛만 남았어요.",
+      "vocabulary": [
+        {
+          "ko": "견우",
+          "en": "Gyeonwu",
+          "romanization": "Gyeonwu",
+          "definitionEn": "The star herder.",
+          "definitionKo": "별길의 목동이에요."
+        },
+        {
+          "ko": "은하수",
+          "en": "Milky Way",
+          "romanization": "eunhasu",
+          "definitionEn": "The star river in the sky.",
+          "definitionKo": "하늘에 흐르는 별의 강이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "separate them across the star river (separation decree)",
+        "emotion": "sorrowful consequence",
+        "pageTurnHook": "Then a yearly promise will keep hope alive, and the story moves toward year of waiting.",
+        "readAloudCue": "Read with sorrowful consequence; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold the widening river."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/gyeonwu_jiknyeo.character_bible.json. Page 12 for 견우와 직녀 / Gyeonwu and Jiknyeo: star river widening between lovers, elders solemn, no villainy; specific beat: the star river widened until their hands held only light; emotional tone: sorrowful consequence; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/gyeonwu-and-jiknyeo/page-012.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with sorrowful consequence; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/gyeonwu-and-jiknyeo/ko/page-012.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/gyeonwu-and-jiknyeo/ambient/ambient-loop.wav",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_012/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_012/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_012/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_012/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_012/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_012/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gyeonwu_jiknyeo_013",
+      "pageNumber": 13,
+      "text": {
+        "enLittle": "Magpies cried from both banks.",
+        "enStandard": "At the heavenly court, quietly, magpies cried from both banks, unable to bridge it yet. \"I will weave and wait,\" Jiknyeo said.",
+        "koLittle": "까치들은 아직 다리를 놓지 못해 양쪽에서 울었어요",
+        "koStandard": "하늘 궁전에서 까치들은 아직 다리를 놓지 못해 양쪽에서 울었어요."
+      },
+      "koreanText": "하늘 궁전에서 까치들은 아직 다리를 놓지 못해 양쪽에서 울었어요.",
+      "englishText": "At the heavenly court, quietly, magpies cried from both banks, unable to bridge it yet. \"I will weave and wait,\" Jiknyeo said.",
+      "narrationScript": "하늘 궁전에서 까치들은 아직 다리를 놓지 못해 양쪽에서 울었어요.",
+      "vocabulary": [
+        {
+          "ko": "오작교",
+          "en": "magpie bridge",
+          "romanization": "ojakgyo",
+          "definitionEn": "A bridge made by magpies and crows.",
+          "definitionKo": "까치와 까마귀가 놓는 다리예요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "separate them across the star river (separation decree)",
+        "emotion": "sorrowful consequence",
+        "pageTurnHook": "Then a yearly promise will keep hope alive, and the story moves toward year of waiting.",
+        "readAloudCue": "Read with sorrowful consequence; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe the widening river."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/gyeonwu_jiknyeo.character_bible.json. Page 13 for 견우와 직녀 / Gyeonwu and Jiknyeo: star river widening between lovers, elders solemn, no villainy; specific beat: magpies cried from both banks, unable to bridge it yet; emotional tone: sorrowful consequence; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/gyeonwu-and-jiknyeo/page-013.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with sorrowful consequence; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/gyeonwu-and-jiknyeo/ko/page-013.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/gyeonwu-and-jiknyeo/ambient/ambient-loop.wav",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_013/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_013/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_013/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_013/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_013/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_013/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gyeonwu_jiknyeo_014",
+      "pageNumber": 14,
+      "text": {
+        "enLittle": "Jiknyeo gathered her thread with tears she did not hide.",
+        "enStandard": "At the heavenly court, with the moon high, Jiknyeo gathered her thread with tears she did not hide. \"Work and love must both be tended,\" said the elder.",
+        "koLittle": "직녀는 눈물을 숨기지 않고 실을 모았어요",
+        "koStandard": "하늘 궁전에서 직녀는 눈물을 숨기지 않고 실을 모았어요."
+      },
+      "koreanText": "하늘 궁전에서 직녀는 눈물을 숨기지 않고 실을 모았어요.",
+      "englishText": "At the heavenly court, with the moon high, Jiknyeo gathered her thread with tears she did not hide. \"Work and love must both be tended,\" said the elder.",
+      "narrationScript": "하늘 궁전에서 직녀는 눈물을 숨기지 않고 실을 모았어요.",
+      "vocabulary": [
+        {
+          "ko": "은하수",
+          "en": "Milky Way",
+          "romanization": "eunhasu",
+          "definitionEn": "The star river in the sky.",
+          "definitionKo": "하늘에 흐르는 별의 강이에요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "separate them across the star river (separation decree)",
+        "emotion": "sorrowful consequence",
+        "pageTurnHook": "Then a yearly promise will keep hope alive, and the story moves toward year of waiting.",
+        "readAloudCue": "Read with sorrowful consequence; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open the widening river."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/gyeonwu_jiknyeo.character_bible.json. Page 14 for 견우와 직녀 / Gyeonwu and Jiknyeo: star river widening between lovers, elders solemn, no villainy; specific beat: Jiknyeo gathered her thread with tears she did not hide; emotional tone: sorrowful consequence; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/gyeonwu-and-jiknyeo/page-014.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with sorrowful consequence; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/gyeonwu-and-jiknyeo/ko/page-014.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/gyeonwu-and-jiknyeo/ambient/ambient-loop.wav",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_014/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_014/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_014/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_014/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_014/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_014/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gyeonwu_jiknyeo_015",
+      "pageNumber": 15,
+      "text": {
+        "enLittle": "The heavenly elders did not shout; that made the decree heavier.",
+        "enStandard": "At the heavenly court, before dawn, the heavenly elders did not shout; that made the decree heavier. \"Must the river be so wide?\" Gyeonwu asked.",
+        "koLittle": "하늘 어른들은 소리치지 않았고 그래서 더 무거웠어요",
+        "koStandard": "하늘 궁전에서 하늘 어른들은 소리치지 않았고 그래서 더 무거웠어요."
+      },
+      "koreanText": "하늘 궁전에서 하늘 어른들은 소리치지 않았고 그래서 더 무거웠어요.",
+      "englishText": "At the heavenly court, before dawn, the heavenly elders did not shout; that made the decree heavier. \"Must the river be so wide?\" Gyeonwu asked.",
+      "narrationScript": "하늘 궁전에서 하늘 어른들은 소리치지 않았고 그래서 더 무거웠어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "separate them across the star river (separation decree)",
+        "emotion": "sorrowful consequence",
+        "pageTurnHook": "Then a yearly promise will keep hope alive, and the story moves toward year of waiting.",
+        "readAloudCue": "Read with sorrowful consequence; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose the widening river."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/gyeonwu_jiknyeo.character_bible.json. Page 15 for 견우와 직녀 / Gyeonwu and Jiknyeo: star river widening between lovers, elders solemn, no villainy; specific beat: the heavenly elders did not shout; that made the decree heavier; emotional tone: sorrowful consequence; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/gyeonwu-and-jiknyeo/page-015.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with sorrowful consequence; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/gyeonwu-and-jiknyeo/ko/page-015.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/gyeonwu-and-jiknyeo/ambient/ambient-loop.wav",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_015/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_015/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_015/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_015/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_015/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_015/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gyeonwu_jiknyeo_016",
+      "pageNumber": 16,
+      "text": {
+        "enLittle": "Spring found jiknyeo weaving green cloud hems for rain.",
+        "enStandard": "Through four seasons of stars, first, spring found Jiknyeo weaving green cloud hems for rain. \"I remember,\" he said in winter.",
+        "koLittle": "봄에는 직녀가 비를 위한 초록 구름단을 짰어요",
+        "koStandard": "사계절 별빛 속에서 봄에는 직녀가 비를 위한 초록 구름단을 짰어요."
+      },
+      "koreanText": "사계절 별빛 속에서 봄에는 직녀가 비를 위한 초록 구름단을 짰어요.",
+      "englishText": "Through four seasons of stars, first, spring found Jiknyeo weaving green cloud hems for rain. \"I remember,\" he said in winter.",
+      "narrationScript": "사계절 별빛 속에서 봄에는 직녀가 비를 위한 초록 구름단을 짰어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "show seasonal longing (year of waiting)",
+        "emotion": "patient ache",
+        "pageTurnHook": "Then magpies will begin gathering above the river, and the story moves toward magpie bridge.",
+        "readAloudCue": "Read with patient ache; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag the seasonal stars."
+      },
+      "refrain": "Across the stars, remember.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/gyeonwu_jiknyeo.character_bible.json. Page 16 for 견우와 직녀 / Gyeonwu and Jiknyeo: split composition: loom, pasture, seasonal constellations; specific beat: spring found Jiknyeo weaving green cloud hems for rain; emotional tone: patient ache; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/gyeonwu-and-jiknyeo/page-016.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with patient ache; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/gyeonwu-and-jiknyeo/ko/page-016.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/gyeonwu-and-jiknyeo/ambient/ambient-loop.wav",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_016/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_016/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_016/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_016/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_016/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_016/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "별을 건너, 기억하자."
+    },
+    {
+      "id": "gyeonwu_jiknyeo_017",
+      "pageNumber": 17,
+      "text": {
+        "enLittle": "Summer found gyeonwu cooling the oxen under meteor shade.",
+        "enStandard": "Through four seasons of stars, next, summer found Gyeonwu cooling the oxen under meteor shade. \"Are you there?\" she called in spring.",
+        "koLittle": "여름에는 견우가 별똥별 그늘 아래 소를 쉬게 했어요",
+        "koStandard": "사계절 별빛 속에서 여름에는 견우가 별똥별 그늘 아래 소를 쉬게 했어요."
+      },
+      "koreanText": "사계절 별빛 속에서 여름에는 견우가 별똥별 그늘 아래 소를 쉬게 했어요.",
+      "englishText": "Through four seasons of stars, next, summer found Gyeonwu cooling the oxen under meteor shade. \"Are you there?\" she called in spring.",
+      "narrationScript": "사계절 별빛 속에서 여름에는 견우가 별똥별 그늘 아래 소를 쉬게 했어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "show seasonal longing (year of waiting)",
+        "emotion": "patient ache",
+        "pageTurnHook": "Then magpies will begin gathering above the river, and the story moves toward magpie bridge.",
+        "readAloudCue": "Read with patient ache; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap the seasonal stars."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/gyeonwu_jiknyeo.character_bible.json. Page 17 for 견우와 직녀 / Gyeonwu and Jiknyeo: split composition: loom, pasture, seasonal constellations; specific beat: summer found Gyeonwu cooling the oxen under meteor shade; emotional tone: patient ache; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/gyeonwu-and-jiknyeo/page-017.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with patient ache; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/gyeonwu-and-jiknyeo/ko/page-017.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/gyeonwu-and-jiknyeo/ambient/ambient-loop.wav",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_017/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_017/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_017/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_017/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_017/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_017/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gyeonwu_jiknyeo_018",
+      "pageNumber": 18,
+      "text": {
+        "enLittle": "Autumn laid persimmon-colored stars along the river bank.",
+        "enStandard": "Through four seasons of stars, quietly, autumn laid persimmon-colored stars along the river bank. \"I am working,\" he answered in summer.",
+        "koLittle": "가을에는 감빛 별들이 강가에 놓였어요",
+        "koStandard": "사계절 별빛 속에서 가을에는 감빛 별들이 강가에 놓였어요."
+      },
+      "koreanText": "사계절 별빛 속에서 가을에는 감빛 별들이 강가에 놓였어요.",
+      "englishText": "Through four seasons of stars, quietly, autumn laid persimmon-colored stars along the river bank. \"I am working,\" he answered in summer.",
+      "narrationScript": "사계절 별빛 속에서 가을에는 감빛 별들이 강가에 놓였어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "show seasonal longing (year of waiting)",
+        "emotion": "patient ache",
+        "pageTurnHook": "Then magpies will begin gathering above the river, and the story moves toward magpie bridge.",
+        "readAloudCue": "Read with patient ache; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace the seasonal stars."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/gyeonwu_jiknyeo.character_bible.json. Page 18 for 견우와 직녀 / Gyeonwu and Jiknyeo: split composition: loom, pasture, seasonal constellations; specific beat: autumn laid persimmon-colored stars along the river bank; emotional tone: patient ache; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/gyeonwu-and-jiknyeo/page-018.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with patient ache; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/gyeonwu-and-jiknyeo/ko/page-018.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/gyeonwu-and-jiknyeo/ambient/ambient-loop.wav",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_018/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_018/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_018/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_018/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_018/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_018/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gyeonwu_jiknyeo_019",
+      "pageNumber": 19,
+      "text": {
+        "enLittle": "Winter made their breath look close while their hands stayed far.",
+        "enStandard": "Through four seasons of stars, with the moon high, winter made their breath look close while their hands stayed far. \"I am waiting,\" she said in autumn.",
+        "koLittle": "겨울 숨결은 가까워 보여도 손은 멀었어요",
+        "koStandard": "사계절 별빛 속에서 겨울 숨결은 가까워 보여도 손은 멀었어요."
+      },
+      "koreanText": "사계절 별빛 속에서 겨울 숨결은 가까워 보여도 손은 멀었어요.",
+      "englishText": "Through four seasons of stars, with the moon high, winter made their breath look close while their hands stayed far. \"I am waiting,\" she said in autumn.",
+      "narrationScript": "사계절 별빛 속에서 겨울 숨결은 가까워 보여도 손은 멀었어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "직녀",
+          "en": "Jiknyeo",
+          "romanization": "Jiknyeo",
+          "definitionEn": "The star weaver.",
+          "definitionKo": "별빛을 짜는 여인이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "show seasonal longing (year of waiting)",
+        "emotion": "patient ache",
+        "pageTurnHook": "Then magpies will begin gathering above the river, and the story moves toward magpie bridge.",
+        "readAloudCue": "Read with patient ache; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count the seasonal stars."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/gyeonwu_jiknyeo.character_bible.json. Page 19 for 견우와 직녀 / Gyeonwu and Jiknyeo: split composition: loom, pasture, seasonal constellations; specific beat: winter made their breath look close while their hands stayed far; emotional tone: patient ache; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/gyeonwu-and-jiknyeo/page-019.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with patient ache; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/gyeonwu-and-jiknyeo/ko/page-019.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/gyeonwu-and-jiknyeo/ambient/ambient-loop.wav",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_019/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_019/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_019/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_019/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_019/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_019/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gyeonwu_jiknyeo_020",
+      "pageNumber": 20,
+      "text": {
+        "enLittle": "Spring found jiknyeo weaving green cloud hems for rain.",
+        "enStandard": "Through four seasons of stars, before dawn, spring found Jiknyeo weaving green cloud hems for rain. \"I remember,\" he said in winter.",
+        "koLittle": "봄에는 직녀가 비를 위한 초록 구름단을 짰어요",
+        "koStandard": "사계절 별빛 속에서 봄에는 직녀가 비를 위한 초록 구름단을 짰어요."
+      },
+      "koreanText": "사계절 별빛 속에서 봄에는 직녀가 비를 위한 초록 구름단을 짰어요.",
+      "englishText": "Through four seasons of stars, before dawn, spring found Jiknyeo weaving green cloud hems for rain. \"I remember,\" he said in winter.",
+      "narrationScript": "사계절 별빛 속에서 봄에는 직녀가 비를 위한 초록 구름단을 짰어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "견우",
+          "en": "Gyeonwu",
+          "romanization": "Gyeonwu",
+          "definitionEn": "The star herder.",
+          "definitionKo": "별길의 목동이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "show seasonal longing (year of waiting)",
+        "emotion": "patient ache",
+        "pageTurnHook": "Then magpies will begin gathering above the river, and the story moves toward magpie bridge.",
+        "readAloudCue": "Read with patient ache; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold the seasonal stars."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/gyeonwu_jiknyeo.character_bible.json. Page 20 for 견우와 직녀 / Gyeonwu and Jiknyeo: split composition: loom, pasture, seasonal constellations; specific beat: spring found Jiknyeo weaving green cloud hems for rain; emotional tone: patient ache; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/gyeonwu-and-jiknyeo/page-020.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with patient ache; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/gyeonwu-and-jiknyeo/ko/page-020.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/gyeonwu-and-jiknyeo/ambient/ambient-loop.wav",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_020/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_020/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_020/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_020/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_020/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_020/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gyeonwu_jiknyeo_021",
+      "pageNumber": 21,
+      "text": {
+        "enLittle": "Magpies flew up first.",
+        "enStandard": "On Chilseok night, first, magpies flew up first, then crows, wing beside wing. \"I have waited all year,\" he said.",
+        "koLittle": "까치가 먼저 오르고 까마귀가 날개를 맞댔어요",
+        "koStandard": "칠석 밤에 까치가 먼저 오르고 까마귀가 날개를 맞댔어요."
+      },
+      "koreanText": "칠석 밤에 까치가 먼저 오르고 까마귀가 날개를 맞댔어요.",
+      "englishText": "On Chilseok night, first, magpies flew up first, then crows, wing beside wing. \"I have waited all year,\" he said.",
+      "narrationScript": "칠석 밤에 까치가 먼저 오르고 까마귀가 날개를 맞댔어요.",
+      "vocabulary": [
+        {
+          "ko": "직녀",
+          "en": "Jiknyeo",
+          "romanization": "Jiknyeo",
+          "definitionEn": "The star weaver.",
+          "definitionKo": "별빛을 짜는 여인이에요."
+        },
+        {
+          "ko": "오작교",
+          "en": "magpie bridge",
+          "romanization": "ojakgyo",
+          "definitionEn": "A bridge made by magpies and crows.",
+          "definitionKo": "까치와 까마귀가 놓는 다리예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "build the bridge for reunion (magpie bridge)",
+        "emotion": "trembling hope",
+        "pageTurnHook": "Then morning will make the bridge lift away, and the story moves toward bittersweet reunion.",
+        "readAloudCue": "Read with trembling hope; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe the bird bridge."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/gyeonwu_jiknyeo.character_bible.json. Page 21 for 견우와 직녀 / Gyeonwu and Jiknyeo: magpies and crows forming bridge over star river, lovers approaching carefully; specific beat: magpies flew up first, then crows, wing beside wing; emotional tone: trembling hope; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/gyeonwu-and-jiknyeo/page-021.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with trembling hope; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/gyeonwu-and-jiknyeo/ko/page-021.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/gyeonwu-and-jiknyeo/ambient/ambient-loop.wav",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_021/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_021/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_021/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_021/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_021/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_021/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gyeonwu_jiknyeo_022",
+      "pageNumber": 22,
+      "text": {
+        "enLittle": "Their backs made a dark bridge stitched with starlight.",
+        "enStandard": "On Chilseok night, next, their backs made a dark bridge stitched with starlight. \"Then walk gently,\" Jiknyeo answered.",
+        "koLittle": "새들의 등이 별빛으로 수놓은 검은 다리가 되었어요",
+        "koStandard": "칠석 밤에 새들의 등이 별빛으로 수놓은 검은 다리가 되었어요."
+      },
+      "koreanText": "칠석 밤에 새들의 등이 별빛으로 수놓은 검은 다리가 되었어요.",
+      "englishText": "On Chilseok night, next, their backs made a dark bridge stitched with starlight. \"Then walk gently,\" Jiknyeo answered.",
+      "narrationScript": "칠석 밤에 새들의 등이 별빛으로 수놓은 검은 다리가 되었어요.",
+      "vocabulary": [
+        {
+          "ko": "견우",
+          "en": "Gyeonwu",
+          "romanization": "Gyeonwu",
+          "definitionEn": "The star herder.",
+          "definitionKo": "별길의 목동이에요."
+        },
+        {
+          "ko": "은하수",
+          "en": "Milky Way",
+          "romanization": "eunhasu",
+          "definitionEn": "The star river in the sky.",
+          "definitionKo": "하늘에 흐르는 별의 강이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "build the bridge for reunion (magpie bridge)",
+        "emotion": "trembling hope",
+        "pageTurnHook": "Then morning will make the bridge lift away, and the story moves toward bittersweet reunion.",
+        "readAloudCue": "Read with trembling hope; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open the bird bridge."
+      },
+      "refrain": "Across the stars, remember.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/gyeonwu_jiknyeo.character_bible.json. Page 22 for 견우와 직녀 / Gyeonwu and Jiknyeo: magpies and crows forming bridge over star river, lovers approaching carefully; specific beat: their backs made a dark bridge stitched with starlight; emotional tone: trembling hope; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/gyeonwu-and-jiknyeo/page-022.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with trembling hope; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/gyeonwu-and-jiknyeo/ko/page-022.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/gyeonwu-and-jiknyeo/ambient/ambient-loop.wav",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_022/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_022/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_022/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_022/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_022/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_022/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "별을 건너, 기억하자."
+    },
+    {
+      "id": "gyeonwu_jiknyeo_023",
+      "pageNumber": 23,
+      "text": {
+        "enLittle": "Jiknyeo stepped onto the bridge as if stepping onto a held breath.",
+        "enStandard": "On Chilseok night, quietly, Jiknyeo stepped onto the bridge as if stepping onto a held breath. \"Gently,\" he promised.",
+        "koLittle": "직녀는 숨결 위를 걷듯 다리에 올랐어요",
+        "koStandard": "칠석 밤에 직녀는 숨결 위를 걷듯 다리에 올랐어요."
+      },
+      "koreanText": "칠석 밤에 직녀는 숨결 위를 걷듯 다리에 올랐어요.",
+      "englishText": "On Chilseok night, quietly, Jiknyeo stepped onto the bridge as if stepping onto a held breath. \"Gently,\" he promised.",
+      "narrationScript": "칠석 밤에 직녀는 숨결 위를 걷듯 다리에 올랐어요.",
+      "vocabulary": [
+        {
+          "ko": "오작교",
+          "en": "magpie bridge",
+          "romanization": "ojakgyo",
+          "definitionEn": "A bridge made by magpies and crows.",
+          "definitionKo": "까치와 까마귀가 놓는 다리예요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "build the bridge for reunion (magpie bridge)",
+        "emotion": "trembling hope",
+        "pageTurnHook": "Then morning will make the bridge lift away, and the story moves toward bittersweet reunion.",
+        "readAloudCue": "Read with trembling hope; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose the bird bridge."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/gyeonwu_jiknyeo.character_bible.json. Page 23 for 견우와 직녀 / Gyeonwu and Jiknyeo: magpies and crows forming bridge over star river, lovers approaching carefully; specific beat: Jiknyeo stepped onto the bridge as if stepping onto a held breath; emotional tone: trembling hope; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/gyeonwu-and-jiknyeo/page-023.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with trembling hope; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/gyeonwu-and-jiknyeo/ko/page-023.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/gyeonwu-and-jiknyeo/ambient/ambient-loop.wav",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_023/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_023/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_023/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_023/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_023/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_023/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gyeonwu_jiknyeo_024",
+      "pageNumber": 24,
+      "text": {
+        "enLittle": "Gyeonwu bowed to every bird before reaching for her hand.",
+        "enStandard": "On Chilseok night, with the moon high, Gyeonwu bowed to every bird before reaching for her hand. \"Do not hurry,\" the magpies cried.",
+        "koLittle": "견우는 손을 내밀기 전 모든 새에게 절했어요",
+        "koStandard": "칠석 밤에 견우는 손을 내밀기 전 모든 새에게 절했어요."
+      },
+      "koreanText": "칠석 밤에 견우는 손을 내밀기 전 모든 새에게 절했어요.",
+      "englishText": "On Chilseok night, with the moon high, Gyeonwu bowed to every bird before reaching for her hand. \"Do not hurry,\" the magpies cried.",
+      "narrationScript": "칠석 밤에 견우는 손을 내밀기 전 모든 새에게 절했어요.",
+      "vocabulary": [
+        {
+          "ko": "은하수",
+          "en": "Milky Way",
+          "romanization": "eunhasu",
+          "definitionEn": "The star river in the sky.",
+          "definitionKo": "하늘에 흐르는 별의 강이에요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "build the bridge for reunion (magpie bridge)",
+        "emotion": "trembling hope",
+        "pageTurnHook": "Then morning will make the bridge lift away, and the story moves toward bittersweet reunion.",
+        "readAloudCue": "Read with trembling hope; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag the bird bridge."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/gyeonwu_jiknyeo.character_bible.json. Page 24 for 견우와 직녀 / Gyeonwu and Jiknyeo: magpies and crows forming bridge over star river, lovers approaching carefully; specific beat: Gyeonwu bowed to every bird before reaching for her hand; emotional tone: trembling hope; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/gyeonwu-and-jiknyeo/page-024.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with trembling hope; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/gyeonwu-and-jiknyeo/ko/page-024.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/gyeonwu-and-jiknyeo/ambient/ambient-loop.wav",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_024/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_024/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_024/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_024/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_024/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_024/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gyeonwu_jiknyeo_025",
+      "pageNumber": 25,
+      "text": {
+        "enLittle": "Magpies flew up first.",
+        "enStandard": "On Chilseok night, before dawn, magpies flew up first, then crows, wing beside wing. \"I have waited all year,\" he said.",
+        "koLittle": "까치가 먼저 오르고 까마귀가 날개를 맞댔어요",
+        "koStandard": "칠석 밤에 까치가 먼저 오르고 까마귀가 날개를 맞댔어요."
+      },
+      "koreanText": "칠석 밤에 까치가 먼저 오르고 까마귀가 날개를 맞댔어요.",
+      "englishText": "On Chilseok night, before dawn, magpies flew up first, then crows, wing beside wing. \"I have waited all year,\" he said.",
+      "narrationScript": "칠석 밤에 까치가 먼저 오르고 까마귀가 날개를 맞댔어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "build the bridge for reunion (magpie bridge)",
+        "emotion": "trembling hope",
+        "pageTurnHook": "Then morning will make the bridge lift away, and the story moves toward bittersweet reunion.",
+        "readAloudCue": "Read with trembling hope; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap the bird bridge."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/gyeonwu_jiknyeo.character_bible.json. Page 25 for 견우와 직녀 / Gyeonwu and Jiknyeo: magpies and crows forming bridge over star river, lovers approaching carefully; specific beat: magpies flew up first, then crows, wing beside wing; emotional tone: trembling hope; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/gyeonwu-and-jiknyeo/page-025.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with trembling hope; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/gyeonwu-and-jiknyeo/ko/page-025.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/gyeonwu-and-jiknyeo/ambient/ambient-loop.wav",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_025/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_025/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_025/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_025/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_025/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_025/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gyeonwu_jiknyeo_026",
+      "pageNumber": 26,
+      "text": {
+        "enLittle": "Their backs made a dark bridge stitched with starlight.",
+        "enStandard": "On Chilseok night, after a pause, their backs made a dark bridge stitched with starlight. \"Then walk gently,\" Jiknyeo answered.",
+        "koLittle": "새들의 등이 별빛으로 수놓은 검은 다리가 되었어요",
+        "koStandard": "칠석 밤에 새들의 등이 별빛으로 수놓은 검은 다리가 되었어요."
+      },
+      "koreanText": "칠석 밤에 새들의 등이 별빛으로 수놓은 검은 다리가 되었어요.",
+      "englishText": "On Chilseok night, after a pause, their backs made a dark bridge stitched with starlight. \"Then walk gently,\" Jiknyeo answered.",
+      "narrationScript": "칠석 밤에 새들의 등이 별빛으로 수놓은 검은 다리가 되었어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "build the bridge for reunion (magpie bridge)",
+        "emotion": "trembling hope",
+        "pageTurnHook": "Then morning will make the bridge lift away, and the story moves toward bittersweet reunion.",
+        "readAloudCue": "Read with trembling hope; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace the bird bridge."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/gyeonwu_jiknyeo.character_bible.json. Page 26 for 견우와 직녀 / Gyeonwu and Jiknyeo: magpies and crows forming bridge over star river, lovers approaching carefully; specific beat: their backs made a dark bridge stitched with starlight; emotional tone: trembling hope; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/gyeonwu-and-jiknyeo/page-026.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with trembling hope; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/gyeonwu-and-jiknyeo/ko/page-026.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/gyeonwu-and-jiknyeo/ambient/ambient-loop.wav",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_026/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_026/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_026/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_026/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_026/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_026/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gyeonwu_jiknyeo_027",
+      "pageNumber": 27,
+      "text": {
+        "enLittle": "They spoke until the last star paled behind the river.",
+        "enStandard": "At dawn after Chilseok, first, they spoke until the last star paled behind the river. \"Until next year,\" she said.",
+        "koLittle": "마지막 별이 흐려질 때까지 둘은 말했어요",
+        "koStandard": "칠석 뒤 새벽에 마지막 별이 흐려질 때까지 둘은 말했어요."
+      },
+      "koreanText": "칠석 뒤 새벽에 마지막 별이 흐려질 때까지 둘은 말했어요.",
+      "englishText": "At dawn after Chilseok, first, they spoke until the last star paled behind the river. \"Until next year,\" she said.",
+      "narrationScript": "칠석 뒤 새벽에 마지막 별이 흐려질 때까지 둘은 말했어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve with annual meeting and rain tears (bittersweet reunion)",
+        "emotion": "tender bittersweet",
+        "pageTurnHook": "Then the seasons will keep their promise, and the story moves toward bittersweet reunion.",
+        "readAloudCue": "Read with tender bittersweet; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count the first rain."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/gyeonwu_jiknyeo.character_bible.json. Page 27 for 견우와 직녀 / Gyeonwu and Jiknyeo: lovers parting with hands still warm, rain over villages below; specific beat: they spoke until the last star paled behind the river; emotional tone: tender bittersweet; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/gyeonwu-and-jiknyeo/page-027.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with tender bittersweet; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/gyeonwu-and-jiknyeo/ko/page-027.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/gyeonwu-and-jiknyeo/ambient/ambient-loop.wav",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_027/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_027/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_027/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_027/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_027/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_027/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gyeonwu_jiknyeo_028",
+      "pageNumber": 28,
+      "text": {
+        "enLittle": "When the birds shook out their tired wings.",
+        "enStandard": "At dawn after Chilseok, next, when the birds shook out their tired wings, the bridge became sky again. \"Across the stars,\" he answered.",
+        "koLittle": "새들이 지친 날개를 털자 다리는 다시 하늘이 되었어요",
+        "koStandard": "칠석 뒤 새벽에 새들이 지친 날개를 털자 다리는 다시 하늘이 되었어요."
+      },
+      "koreanText": "칠석 뒤 새벽에 새들이 지친 날개를 털자 다리는 다시 하늘이 되었어요.",
+      "englishText": "At dawn after Chilseok, next, when the birds shook out their tired wings, the bridge became sky again. \"Across the stars,\" he answered.",
+      "narrationScript": "칠석 뒤 새벽에 새들이 지친 날개를 털자 다리는 다시 하늘이 되었어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve with annual meeting and rain tears (bittersweet reunion)",
+        "emotion": "tender bittersweet",
+        "pageTurnHook": "Then the seasons will keep their promise, and the story moves toward bittersweet reunion.",
+        "readAloudCue": "Read with tender bittersweet; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold the first rain."
+      },
+      "refrain": "Across the stars, remember.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/gyeonwu_jiknyeo.character_bible.json. Page 28 for 견우와 직녀 / Gyeonwu and Jiknyeo: lovers parting with hands still warm, rain over villages below; specific beat: when the birds shook out their tired wings, the bridge became sky again; emotional tone: tender bittersweet; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/gyeonwu-and-jiknyeo/page-028.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with tender bittersweet; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/gyeonwu-and-jiknyeo/ko/page-028.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/gyeonwu-and-jiknyeo/ambient/ambient-loop.wav",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_028/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_028/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_028/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_028/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_028/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_028/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "별을 건너, 기억하자."
+    },
+    {
+      "id": "gyeonwu_jiknyeo_029",
+      "pageNumber": 29,
+      "text": {
+        "enLittle": "Rain fell below.",
+        "enStandard": "At dawn after Chilseok, quietly, rain fell below, and elders said it was joy and parting mixed together. \"Remember,\" called the magpies.",
+        "koLittle": "아래에는 기쁨과 이별이 섞인 비가 내렸어요",
+        "koStandard": "칠석 뒤 새벽에 아래에는 기쁨과 이별이 섞인 비가 내렸어요."
+      },
+      "koreanText": "칠석 뒤 새벽에 아래에는 기쁨과 이별이 섞인 비가 내렸어요.",
+      "englishText": "At dawn after Chilseok, quietly, rain fell below, and elders said it was joy and parting mixed together. \"Remember,\" called the magpies.",
+      "narrationScript": "칠석 뒤 새벽에 아래에는 기쁨과 이별이 섞인 비가 내렸어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "직녀",
+          "en": "Jiknyeo",
+          "romanization": "Jiknyeo",
+          "definitionEn": "The star weaver.",
+          "definitionKo": "별빛을 짜는 여인이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve with annual meeting and rain tears (bittersweet reunion)",
+        "emotion": "tender bittersweet",
+        "pageTurnHook": "Then the seasons will keep their promise, and the story moves toward bittersweet reunion.",
+        "readAloudCue": "Read with tender bittersweet; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe the first rain."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/gyeonwu_jiknyeo.character_bible.json. Page 29 for 견우와 직녀 / Gyeonwu and Jiknyeo: lovers parting with hands still warm, rain over villages below; specific beat: rain fell below, and elders said it was joy and parting mixed together; emotional tone: tender bittersweet; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/gyeonwu-and-jiknyeo/page-029.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with tender bittersweet; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/gyeonwu-and-jiknyeo/ko/page-029.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/gyeonwu-and-jiknyeo/ambient/ambient-loop.wav",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_029/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_029/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_029/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_029/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_029/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_029/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gyeonwu_jiknyeo_030",
+      "pageNumber": 30,
+      "text": {
+        "enLittle": "Jiknyeo returned to the loom.",
+        "enStandard": "At dawn after Chilseok, with the moon high, Jiknyeo returned to the loom, Gyeonwu to the pasture, each carrying the other's warmth. \"Always,\" they said together.",
+        "koLittle": "직녀와 견우는 서로의 온기를 품고 일터로 돌아갔어요",
+        "koStandard": "칠석 뒤 새벽에 직녀와 견우는 서로의 온기를 품고 일터로 돌아갔어요."
+      },
+      "koreanText": "칠석 뒤 새벽에 직녀와 견우는 서로의 온기를 품고 일터로 돌아갔어요.",
+      "englishText": "At dawn after Chilseok, with the moon high, Jiknyeo returned to the loom, Gyeonwu to the pasture, each carrying the other's warmth. \"Always,\" they said together.",
+      "narrationScript": "칠석 뒤 새벽에 직녀와 견우는 서로의 온기를 품고 일터로 돌아갔어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "견우",
+          "en": "Gyeonwu",
+          "romanization": "Gyeonwu",
+          "definitionEn": "The star herder.",
+          "definitionKo": "별길의 목동이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve with annual meeting and rain tears (bittersweet reunion)",
+        "emotion": "tender bittersweet",
+        "pageTurnHook": "Then the seasons will keep their promise, and the story moves toward bittersweet reunion.",
+        "readAloudCue": "Read with tender bittersweet; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open the first rain."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/gyeonwu_jiknyeo.character_bible.json. Page 30 for 견우와 직녀 / Gyeonwu and Jiknyeo: lovers parting with hands still warm, rain over villages below; specific beat: Jiknyeo returned to the loom, Gyeonwu to the pasture, each carrying the other's warmth; emotional tone: tender bittersweet; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/gyeonwu-and-jiknyeo/page-030.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with tender bittersweet; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/gyeonwu-and-jiknyeo/ko/page-030.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/gyeonwu-and-jiknyeo/ambient/ambient-loop.wav",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_030/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_030/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_030/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_030/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_030/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_030/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gyeonwu_jiknyeo_031",
+      "pageNumber": 31,
+      "text": {
+        "enLittle": "They spoke until the last star paled behind the river.",
+        "enStandard": "At dawn after Chilseok, before dawn, they spoke until the last star paled behind the river. \"Until next year,\" she said.",
+        "koLittle": "마지막 별이 흐려질 때까지 둘은 말했어요",
+        "koStandard": "칠석 뒤 새벽에 마지막 별이 흐려질 때까지 둘은 말했어요."
+      },
+      "koreanText": "칠석 뒤 새벽에 마지막 별이 흐려질 때까지 둘은 말했어요.",
+      "englishText": "At dawn after Chilseok, before dawn, they spoke until the last star paled behind the river. \"Until next year,\" she said.",
+      "narrationScript": "칠석 뒤 새벽에 마지막 별이 흐려질 때까지 둘은 말했어요.",
+      "vocabulary": [
+        {
+          "ko": "직녀",
+          "en": "Jiknyeo",
+          "romanization": "Jiknyeo",
+          "definitionEn": "The star weaver.",
+          "definitionKo": "별빛을 짜는 여인이에요."
+        },
+        {
+          "ko": "오작교",
+          "en": "magpie bridge",
+          "romanization": "ojakgyo",
+          "definitionEn": "A bridge made by magpies and crows.",
+          "definitionKo": "까치와 까마귀가 놓는 다리예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve with annual meeting and rain tears (bittersweet reunion)",
+        "emotion": "tender bittersweet",
+        "pageTurnHook": "Then the seasons will keep their promise, and the story moves toward bittersweet reunion.",
+        "readAloudCue": "Read with tender bittersweet; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose the first rain."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/gyeonwu_jiknyeo.character_bible.json. Page 31 for 견우와 직녀 / Gyeonwu and Jiknyeo: lovers parting with hands still warm, rain over villages below; specific beat: they spoke until the last star paled behind the river; emotional tone: tender bittersweet; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/gyeonwu-and-jiknyeo/page-031.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with tender bittersweet; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/gyeonwu-and-jiknyeo/ko/page-031.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/gyeonwu-and-jiknyeo/ambient/ambient-loop.wav",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_031/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_031/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_031/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_031/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_031/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_031/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gyeonwu_jiknyeo_032",
+      "pageNumber": 32,
+      "text": {
+        "enLittle": "When the birds shook out their tired wings.",
+        "enStandard": "At dawn after Chilseok, after a pause, when the birds shook out their tired wings, the bridge became sky again. \"Across the stars,\" he answered.",
+        "koLittle": "새들이 지친 날개를 털자 다리는 다시 하늘이 되었어요",
+        "koStandard": "칠석 뒤 새벽에 새들이 지친 날개를 털자 다리는 다시 하늘이 되었어요."
+      },
+      "koreanText": "칠석 뒤 새벽에 새들이 지친 날개를 털자 다리는 다시 하늘이 되었어요.",
+      "englishText": "At dawn after Chilseok, after a pause, when the birds shook out their tired wings, the bridge became sky again. \"Across the stars,\" he answered.",
+      "narrationScript": "칠석 뒤 새벽에 새들이 지친 날개를 털자 다리는 다시 하늘이 되었어요.",
+      "vocabulary": [
+        {
+          "ko": "견우",
+          "en": "Gyeonwu",
+          "romanization": "Gyeonwu",
+          "definitionEn": "The star herder.",
+          "definitionKo": "별길의 목동이에요."
+        },
+        {
+          "ko": "은하수",
+          "en": "Milky Way",
+          "romanization": "eunhasu",
+          "definitionEn": "The star river in the sky.",
+          "definitionKo": "하늘에 흐르는 별의 강이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve with annual meeting and rain tears (bittersweet reunion)",
+        "emotion": "tender bittersweet",
+        "pageTurnHook": "Then the seasons will keep their promise, and the story moves toward bittersweet reunion.",
+        "readAloudCue": "Read with tender bittersweet; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag the first rain."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/gyeonwu_jiknyeo.character_bible.json. Page 32 for 견우와 직녀 / Gyeonwu and Jiknyeo: lovers parting with hands still warm, rain over villages below; specific beat: when the birds shook out their tired wings, the bridge became sky again; emotional tone: tender bittersweet; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/gyeonwu-and-jiknyeo/page-032.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with tender bittersweet; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/gyeonwu-and-jiknyeo/ko/page-032.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/gyeonwu-and-jiknyeo/ambient/ambient-loop.wav",
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_032/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_032/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_032/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_032/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_032/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/gyeonwu-and-jiknyeo/gyeonwu_jiknyeo_032/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    }
+  ]
+}

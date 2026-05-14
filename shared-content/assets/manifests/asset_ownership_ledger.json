@@ -1,0 +1,272 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-05-11T12:00:00Z",
+  "status": "repo_local_asset_source_documented_not_final_legal_signoff",
+  "externalLegalReviewRequiredBeforeProduction": true,
+  "entries": [
+    {
+      "bookId": "book.sun_moon",
+      "slug": "sun-and-moon",
+      "sceneCount": 32,
+      "coverCount": 1,
+      "runtimeStatus": "generated_reviewed",
+      "assetSource": "local deterministic renderer or previously imported generated draft promoted by internal repo visual QA",
+      "commercialProductionLicenseStatus": "not_final_legal_reviewed",
+      "productionOwnershipProofRequiredBeforeRelease": true,
+      "notes": "This ledger documents repo-local asset source and internal demo status only; it is not legal/licensing signoff for app-store release."
+    },
+    {
+      "bookId": "book.gold_silver_axe",
+      "slug": "gold-axe-silver-axe",
+      "sceneCount": 24,
+      "coverCount": 1,
+      "runtimeStatus": "generated_reviewed",
+      "assetSource": "local deterministic renderer or previously imported generated draft promoted by internal repo visual QA",
+      "commercialProductionLicenseStatus": "not_final_legal_reviewed",
+      "productionOwnershipProofRequiredBeforeRelease": true,
+      "notes": "This ledger documents repo-local asset source and internal demo status only; it is not legal/licensing signoff for app-store release."
+    },
+    {
+      "bookId": "book.tiger_persimmon",
+      "slug": "tiger-and-persimmon",
+      "sceneCount": 24,
+      "coverCount": 1,
+      "runtimeStatus": "generated_reviewed",
+      "assetSource": "local deterministic renderer or previously imported generated draft promoted by internal repo visual QA",
+      "commercialProductionLicenseStatus": "not_final_legal_reviewed",
+      "productionOwnershipProofRequiredBeforeRelease": true,
+      "notes": "This ledger documents repo-local asset source and internal demo status only; it is not legal/licensing signoff for app-store release."
+    },
+    {
+      "bookId": "book.heungbu_nolbu",
+      "slug": "heungbu-and-nolbu",
+      "sceneCount": 32,
+      "coverCount": 1,
+      "runtimeStatus": "generated_reviewed",
+      "assetSource": "local deterministic renderer or previously imported generated draft promoted by internal repo visual QA",
+      "commercialProductionLicenseStatus": "not_final_legal_reviewed",
+      "productionOwnershipProofRequiredBeforeRelease": true,
+      "notes": "This ledger documents repo-local asset source and internal demo status only; it is not legal/licensing signoff for app-store release."
+    },
+    {
+      "bookId": "book.red_bean_grandma",
+      "slug": "red-bean-porridge-grandma",
+      "sceneCount": 26,
+      "coverCount": 1,
+      "runtimeStatus": "generated_reviewed",
+      "assetSource": "local deterministic renderer or previously imported generated draft promoted by internal repo visual QA",
+      "commercialProductionLicenseStatus": "not_final_legal_reviewed",
+      "productionOwnershipProofRequiredBeforeRelease": true,
+      "notes": "This ledger documents repo-local asset source and internal demo status only; it is not legal/licensing signoff for app-store release."
+    },
+    {
+      "bookId": "book.simcheong",
+      "slug": "simcheong",
+      "sceneCount": 38,
+      "coverCount": 1,
+      "runtimeStatus": "generated_reviewed",
+      "assetSource": "local deterministic renderer or previously imported generated draft promoted by internal repo visual QA",
+      "commercialProductionLicenseStatus": "not_final_legal_reviewed",
+      "productionOwnershipProofRequiredBeforeRelease": true,
+      "notes": "This ledger documents repo-local asset source and internal demo status only; it is not legal/licensing signoff for app-store release."
+    },
+    {
+      "bookId": "book.rabbit_turtle",
+      "slug": "rabbit-and-turtle",
+      "sceneCount": 30,
+      "coverCount": 1,
+      "runtimeStatus": "generated_reviewed",
+      "assetSource": "local deterministic renderer or previously imported generated draft promoted by internal repo visual QA",
+      "commercialProductionLicenseStatus": "not_final_legal_reviewed",
+      "productionOwnershipProofRequiredBeforeRelease": true,
+      "notes": "This ledger documents repo-local asset source and internal demo status only; it is not legal/licensing signoff for app-store release."
+    },
+    {
+      "bookId": "book.dokkaebi_club",
+      "slug": "dokkaebi-club",
+      "sceneCount": 28,
+      "coverCount": 1,
+      "runtimeStatus": "generated_reviewed",
+      "assetSource": "local deterministic renderer or previously imported generated draft promoted by internal repo visual QA",
+      "commercialProductionLicenseStatus": "not_final_legal_reviewed",
+      "productionOwnershipProofRequiredBeforeRelease": true,
+      "notes": "This ledger documents repo-local asset source and internal demo status only; it is not legal/licensing signoff for app-store release."
+    },
+    {
+      "bookId": "book.dangun",
+      "slug": "dangun-story",
+      "sceneCount": 30,
+      "coverCount": 1,
+      "runtimeStatus": "generated_reviewed",
+      "assetSource": "local deterministic renderer or previously imported generated draft promoted by internal repo visual QA",
+      "commercialProductionLicenseStatus": "not_final_legal_reviewed",
+      "productionOwnershipProofRequiredBeforeRelease": true,
+      "notes": "This ledger documents repo-local asset source and internal demo status only; it is not legal/licensing signoff for app-store release."
+    },
+    {
+      "bookId": "book.grateful_magpie",
+      "slug": "grateful-magpie",
+      "sceneCount": 28,
+      "coverCount": 1,
+      "runtimeStatus": "generated_reviewed",
+      "assetSource": "local deterministic renderer or previously imported generated draft promoted by internal repo visual QA",
+      "commercialProductionLicenseStatus": "not_final_legal_reviewed",
+      "productionOwnershipProofRequiredBeforeRelease": true,
+      "notes": "This ledger documents repo-local asset source and internal demo status only; it is not legal/licensing signoff for app-store release."
+    },
+    {
+      "bookId": "book.kongjwi_patjwi",
+      "slug": "kongjwi-and-patjwi",
+      "sceneCount": 34,
+      "coverCount": 1,
+      "runtimeStatus": "generated_reviewed",
+      "assetSource": "local deterministic renderer or previously imported generated draft promoted by internal repo visual QA",
+      "commercialProductionLicenseStatus": "not_final_legal_reviewed",
+      "productionOwnershipProofRequiredBeforeRelease": true,
+      "notes": "This ledger documents repo-local asset source and internal demo status only; it is not legal/licensing signoff for app-store release."
+    },
+    {
+      "bookId": "book.geumgang_tiger",
+      "slug": "geumgang-mountain-tiger",
+      "sceneCount": 28,
+      "coverCount": 1,
+      "runtimeStatus": "generated_reviewed",
+      "assetSource": "local deterministic renderer or previously imported generated draft promoted by internal repo visual QA",
+      "commercialProductionLicenseStatus": "not_final_legal_reviewed",
+      "productionOwnershipProofRequiredBeforeRelease": true,
+      "notes": "This ledger documents repo-local asset source and internal demo status only; it is not legal/licensing signoff for app-store release."
+    },
+    {
+      "bookId": "book.lump_old_man",
+      "slug": "lump-old-man",
+      "sceneCount": 30,
+      "coverCount": 1,
+      "runtimeStatus": "generated_reviewed",
+      "assetSource": "local deterministic renderer or previously imported generated draft promoted by internal repo visual QA",
+      "commercialProductionLicenseStatus": "not_final_legal_reviewed",
+      "productionOwnershipProofRequiredBeforeRelease": true,
+      "notes": "This ledger documents repo-local asset source and internal demo status only; it is not legal/licensing signoff for app-store release."
+    },
+    {
+      "bookId": "book.gyeonwu_jiknyeo",
+      "slug": "gyeonwu-and-jiknyeo",
+      "sceneCount": 32,
+      "coverCount": 1,
+      "runtimeStatus": "generated_reviewed",
+      "assetSource": "local deterministic renderer or previously imported generated draft promoted by internal repo visual QA",
+      "commercialProductionLicenseStatus": "not_final_legal_reviewed",
+      "productionOwnershipProofRequiredBeforeRelease": true,
+      "notes": "This ledger documents repo-local asset source and internal demo status only; it is not legal/licensing signoff for app-store release."
+    },
+    {
+      "bookId": "book.bari_princess_part_1",
+      "slug": "bari-princess-part-1",
+      "sceneCount": 26,
+      "coverCount": 1,
+      "runtimeStatus": "generated_reviewed",
+      "assetSource": "local deterministic renderer or previously imported generated draft promoted by internal repo visual QA",
+      "commercialProductionLicenseStatus": "not_final_legal_reviewed",
+      "productionOwnershipProofRequiredBeforeRelease": true,
+      "notes": "This ledger documents repo-local asset source and internal demo status only; it is not legal/licensing signoff for app-store release."
+    },
+    {
+      "bookId": "book.bari_princess_part_2",
+      "slug": "bari-princess-part-2",
+      "sceneCount": 26,
+      "coverCount": 1,
+      "runtimeStatus": "generated_reviewed",
+      "assetSource": "local deterministic renderer or previously imported generated draft promoted by internal repo visual QA",
+      "commercialProductionLicenseStatus": "not_final_legal_reviewed",
+      "productionOwnershipProofRequiredBeforeRelease": true,
+      "notes": "This ledger documents repo-local asset source and internal demo status only; it is not legal/licensing signoff for app-store release."
+    },
+    {
+      "bookId": "book.snail_bride",
+      "slug": "snail-bride",
+      "sceneCount": 30,
+      "coverCount": 1,
+      "runtimeStatus": "generated_reviewed",
+      "assetSource": "local deterministic renderer or previously imported generated draft promoted by internal repo visual QA",
+      "commercialProductionLicenseStatus": "not_final_legal_reviewed",
+      "productionOwnershipProofRequiredBeforeRelease": true,
+      "notes": "This ledger documents repo-local asset source and internal demo status only; it is not legal/licensing signoff for app-store release."
+    },
+    {
+      "bookId": "book.janghwa_hongryeon",
+      "slug": "janghwa-and-hongryeon",
+      "sceneCount": 32,
+      "coverCount": 1,
+      "runtimeStatus": "generated_reviewed",
+      "assetSource": "local deterministic renderer or previously imported generated draft promoted by internal repo visual QA",
+      "commercialProductionLicenseStatus": "not_final_legal_reviewed",
+      "productionOwnershipProofRequiredBeforeRelease": true,
+      "notes": "This ledger documents repo-local asset source and internal demo status only; it is not legal/licensing signoff for app-store release."
+    },
+    {
+      "bookId": "book.fairy_woodcutter",
+      "slug": "fairy-and-woodcutter",
+      "sceneCount": 32,
+      "coverCount": 1,
+      "runtimeStatus": "generated_reviewed",
+      "assetSource": "local deterministic renderer or previously imported generated draft promoted by internal repo visual QA",
+      "commercialProductionLicenseStatus": "not_final_legal_reviewed",
+      "productionOwnershipProofRequiredBeforeRelease": true,
+      "notes": "This ledger documents repo-local asset source and internal demo status only; it is not legal/licensing signoff for app-store release."
+    },
+    {
+      "bookId": "book.green_frog",
+      "slug": "green-frog",
+      "sceneCount": 24,
+      "coverCount": 1,
+      "runtimeStatus": "generated_reviewed",
+      "assetSource": "local deterministic renderer or previously imported generated draft promoted by internal repo visual QA",
+      "commercialProductionLicenseStatus": "not_final_legal_reviewed",
+      "productionOwnershipProofRequiredBeforeRelease": true,
+      "notes": "This ledger documents repo-local asset source and internal demo status only; it is not legal/licensing signoff for app-store release."
+    },
+    {
+      "bookId": "book.kind_brothers",
+      "slug": "kind-brothers",
+      "sceneCount": 24,
+      "coverCount": 1,
+      "runtimeStatus": "generated_reviewed",
+      "assetSource": "local deterministic renderer or previously imported generated draft promoted by internal repo visual QA",
+      "commercialProductionLicenseStatus": "not_final_legal_reviewed",
+      "productionOwnershipProofRequiredBeforeRelease": true,
+      "notes": "This ledger documents repo-local asset source and internal demo status only; it is not legal/licensing signoff for app-store release."
+    },
+    {
+      "bookId": "book.byeoljubu",
+      "slug": "byeoljubu",
+      "sceneCount": 32,
+      "coverCount": 1,
+      "runtimeStatus": "generated_reviewed",
+      "assetSource": "local deterministic renderer or previously imported generated draft promoted by internal repo visual QA",
+      "commercialProductionLicenseStatus": "not_final_legal_reviewed",
+      "productionOwnershipProofRequiredBeforeRelease": true,
+      "notes": "This ledger documents repo-local asset source and internal demo status only; it is not legal/licensing signoff for app-store release."
+    },
+    {
+      "bookId": "book.farting_daughter_in_law",
+      "slug": "farting-daughter-in-law",
+      "sceneCount": 24,
+      "coverCount": 1,
+      "runtimeStatus": "generated_reviewed",
+      "assetSource": "local deterministic renderer or previously imported generated draft promoted by internal repo visual QA",
+      "commercialProductionLicenseStatus": "not_final_legal_reviewed",
+      "productionOwnershipProofRequiredBeforeRelease": true,
+      "notes": "This ledger documents repo-local asset source and internal demo status only; it is not legal/licensing signoff for app-store release."
+    },
+    {
+      "bookId": "book.serpent_bridegroom",
+      "slug": "serpent-bridegroom",
+      "sceneCount": 32,
+      "coverCount": 1,
+      "runtimeStatus": "generated_reviewed",
+      "assetSource": "local deterministic renderer or previously imported generated draft promoted by internal repo visual QA",
+      "commercialProductionLicenseStatus": "not_final_legal_reviewed",
+      "productionOwnershipProofRequiredBeforeRelease": true,
+      "notes": "This ledger documents repo-local asset source and internal demo status only; it is not legal/licensing signoff for app-store release."
+    }
+  ]
+}

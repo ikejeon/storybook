@@ -1,0 +1,420 @@
+{
+  "schemaVersion": "1.0.0",
+  "reviewDate": "2026-05-13",
+  "reviewType": "internal_semantic_story_asset_visual_review",
+  "overallStatus": "approved_for_premium_demo",
+  "overallScore": 95,
+  "externalHumanCreativeApprovalRequiredBeforeFinal": true,
+  "externalCommissionedFinalRequiredBeforeProduction": true,
+  "scope": {
+    "completeBookCount": 24,
+    "runtimeSceneImageCount": 698,
+    "runtimeCoverImageCount": 24,
+    "reviewedApprovalAnchorCount": 7,
+    "runtimeSceneArtStatus": "generated_reviewed",
+    "runtimeCoverArtStatus": "generated_reviewed",
+    "anchorArtStatus": "generated_reviewed",
+    "narrationIncludedInThisReview": false,
+    "assetOwnershipLedger": "assets/manifests/asset_ownership_ledger.json"
+  },
+  "reviewerRoles": [
+    {
+      "role": "picture_book_art_director",
+      "status": "approved_for_premium_demo",
+      "notes": "Runtime art is coherent enough for an all-catalog demo read-through when presented through native layered treatment. Final launch still needs commissioned art direction and approval."
+    },
+    {
+      "role": "character_continuity_reviewer",
+      "status": "approved_for_premium_demo",
+      "notes": "All 24 complete catalog books have character bibles, per-character visual identity locks, forbidden visual elements, and manifest links from every scene entry."
+    },
+    {
+      "role": "korean_visual_authenticity_reviewer",
+      "status": "approved_for_premium_demo",
+      "notes": "Internal review approves demo use of hanji, hanbok, village, food, landscape, and folktale visual direction. External Korean reviewer signoff remains required before final publication."
+    },
+    {
+      "role": "animation_production_reviewer",
+      "status": "approved_for_premium_demo",
+      "notes": "Every complete scene has a planned layer breakdown, generated_reviewed runtime layer assets, and native runtime treatment. Final art-directed animation approval remains a production task."
+    }
+  ],
+  "approvalCriteria": [
+    "Every complete scene has a selected non-placeholder runtime image.",
+    "Every runtime scene entry references a character bible, style bible, and production layer plan.",
+    "Prompts forbid text and watermarks and include fit-safe/cropping-safe art direction.",
+    "Character bibles include visual identity locks, forbidden visual elements, continuity notes, and do-not-change rules.",
+    "At least seven approval anchors exist for style and high-risk character calibration.",
+    "All complete scenes have planned background, midground, character, foreground, effect, and particle/glow layer roles.",
+    "iOS and Android render shared content with native layered treatment and reduced-motion support.",
+    "Generated draft assets are not represented as commissioned, final, or production approved."
+  ],
+  "books": {
+    "book.sun_moon": {
+      "title": "The Sun and the Moon",
+      "sceneCount": 32,
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "characterBible": "characters/sun_moon.character_bible.json",
+      "highestRiskContinuityItem": "Generated-review runtime art is acceptable only for internal demo after semantic repair; commissioned final art remains required.",
+      "reviewedAnchorRefs": [],
+      "finalBlockers": [
+        "Commissioned final scene art",
+        "External Korean visual authenticity approval",
+        "Final production character pack",
+        "Commercial production licensing/legal review"
+      ]
+    },
+    "book.gold_silver_axe": {
+      "title": "The Gold Axe and Silver Axe",
+      "sceneCount": 24,
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "characterBible": "characters/gold_silver_axe.character_bible.json",
+      "highestRiskContinuityItem": "Generated-review runtime art is acceptable only for internal demo after semantic repair; commissioned final art remains required.",
+      "reviewedAnchorRefs": [],
+      "finalBlockers": [
+        "Commissioned final scene art",
+        "External Korean visual authenticity approval",
+        "Final production character pack",
+        "Commercial production licensing/legal review"
+      ]
+    },
+    "book.tiger_persimmon": {
+      "title": "The Tiger and the Persimmon",
+      "sceneCount": 24,
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "characterBible": "characters/tiger_persimmon.character_bible.json",
+      "highestRiskContinuityItem": "Generated-review runtime art is acceptable only for internal demo after semantic repair; commissioned final art remains required.",
+      "reviewedAnchorRefs": [],
+      "finalBlockers": [
+        "Commissioned final scene art",
+        "External Korean visual authenticity approval",
+        "Final production character pack",
+        "Commercial production licensing/legal review"
+      ]
+    },
+    "book.heungbu_nolbu": {
+      "title": "Heungbu and Nolbu",
+      "sceneCount": 32,
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "characterBible": "characters/heungbu_nolbu.character_bible.json",
+      "highestRiskContinuityItem": "Generated-review runtime art is acceptable only for internal demo after semantic repair; commissioned final art remains required.",
+      "reviewedAnchorRefs": [],
+      "finalBlockers": [
+        "Commissioned final scene art",
+        "External Korean visual authenticity approval",
+        "Final production character pack",
+        "Commercial production licensing/legal review"
+      ]
+    },
+    "book.red_bean_grandma": {
+      "title": "The Red Bean Porridge Grandma and the Tiger",
+      "sceneCount": 26,
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "characterBible": "characters/red_bean_grandma.character_bible.json",
+      "highestRiskContinuityItem": "Generated-review runtime art is acceptable only for internal demo after semantic repair; commissioned final art remains required.",
+      "reviewedAnchorRefs": [],
+      "finalBlockers": [
+        "Commissioned final scene art",
+        "External Korean visual authenticity approval",
+        "Final production character pack",
+        "Commercial production licensing/legal review"
+      ]
+    },
+    "book.simcheong": {
+      "title": "The Tale of Simcheong",
+      "sceneCount": 38,
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "characterBible": "characters/simcheong.character_bible.json",
+      "highestRiskContinuityItem": "Generated-review runtime art is acceptable only for internal demo after semantic repair; commissioned final art remains required.",
+      "reviewedAnchorRefs": [],
+      "finalBlockers": [
+        "Commissioned final scene art",
+        "External Korean visual authenticity approval",
+        "Final production character pack",
+        "Commercial production licensing/legal review"
+      ]
+    },
+    "book.rabbit_turtle": {
+      "title": "The Rabbit and the Turtle",
+      "sceneCount": 30,
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "characterBible": "characters/rabbit_turtle.character_bible.json",
+      "highestRiskContinuityItem": "Generated-review runtime art is acceptable only for internal demo after semantic repair; commissioned final art remains required.",
+      "reviewedAnchorRefs": [],
+      "finalBlockers": [
+        "Commissioned final scene art",
+        "External Korean visual authenticity approval",
+        "Final production character pack",
+        "Commercial production licensing/legal review"
+      ]
+    },
+    "book.dokkaebi_club": {
+      "title": "The Dokkaebi Club",
+      "sceneCount": 28,
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "characterBible": "characters/dokkaebi_club.character_bible.json",
+      "highestRiskContinuityItem": "Generated-review runtime art is acceptable only for internal demo after semantic repair; commissioned final art remains required.",
+      "reviewedAnchorRefs": [],
+      "finalBlockers": [
+        "Commissioned final scene art",
+        "External Korean visual authenticity approval",
+        "Final production character pack",
+        "Commercial production licensing/legal review"
+      ]
+    },
+    "book.dangun": {
+      "title": "The Story of Dangun",
+      "sceneCount": 30,
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "characterBible": "characters/dangun.character_bible.json",
+      "highestRiskContinuityItem": "Generated-review runtime art is acceptable only for internal demo after semantic repair; commissioned final art remains required.",
+      "reviewedAnchorRefs": [],
+      "finalBlockers": [
+        "Commissioned final scene art",
+        "External Korean visual authenticity approval",
+        "Final production character pack",
+        "Commercial production licensing/legal review"
+      ]
+    },
+    "book.grateful_magpie": {
+      "title": "The Grateful Magpie",
+      "sceneCount": 28,
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "characterBible": "characters/grateful_magpie.character_bible.json",
+      "highestRiskContinuityItem": "Generated-review runtime art is acceptable only for internal demo after semantic repair; commissioned final art remains required.",
+      "reviewedAnchorRefs": [],
+      "finalBlockers": [
+        "Commissioned final scene art",
+        "External Korean visual authenticity approval",
+        "Final production character pack",
+        "Commercial production licensing/legal review"
+      ]
+    },
+    "book.kongjwi_patjwi": {
+      "title": "Kongjwi and Patjwi",
+      "sceneCount": 34,
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "characterBible": "characters/kongjwi_patjwi.character_bible.json",
+      "highestRiskContinuityItem": "Generated-review runtime art is acceptable only for internal demo after semantic repair; commissioned final art remains required.",
+      "reviewedAnchorRefs": [],
+      "finalBlockers": [
+        "Commissioned final scene art",
+        "External Korean visual authenticity approval",
+        "Final production character pack",
+        "Commercial production licensing/legal review"
+      ]
+    },
+    "book.geumgang_tiger": {
+      "title": "The Tiger of Geumgang Mountain",
+      "sceneCount": 28,
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "characterBible": "characters/geumgang_tiger.character_bible.json",
+      "highestRiskContinuityItem": "Generated-review runtime art is acceptable only for internal demo after semantic repair; commissioned final art remains required.",
+      "reviewedAnchorRefs": [],
+      "finalBlockers": [
+        "Commissioned final scene art",
+        "External Korean visual authenticity approval",
+        "Final production character pack",
+        "Commercial production licensing/legal review"
+      ]
+    },
+    "book.lump_old_man": {
+      "title": "The Old Man With a Lump",
+      "sceneCount": 30,
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "characterBible": "characters/lump_old_man.character_bible.json",
+      "highestRiskContinuityItem": "Generated-review runtime art is acceptable only for internal demo after semantic repair; commissioned final art remains required.",
+      "reviewedAnchorRefs": [],
+      "finalBlockers": [
+        "Commissioned final scene art",
+        "External Korean visual authenticity approval",
+        "Final production character pack",
+        "Commercial production licensing/legal review"
+      ]
+    },
+    "book.gyeonwu_jiknyeo": {
+      "title": "Gyeonwu and Jiknyeo",
+      "sceneCount": 32,
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "characterBible": "characters/gyeonwu_jiknyeo.character_bible.json",
+      "highestRiskContinuityItem": "Generated-review runtime art is acceptable only for internal demo after semantic repair; commissioned final art remains required.",
+      "reviewedAnchorRefs": [],
+      "finalBlockers": [
+        "Commissioned final scene art",
+        "External Korean visual authenticity approval",
+        "Final production character pack",
+        "Commercial production licensing/legal review"
+      ]
+    },
+    "book.bari_princess_part_1": {
+      "title": "Princess Bari Part 1",
+      "sceneCount": 26,
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "characterBible": "characters/bari_princess_part_1.character_bible.json",
+      "highestRiskContinuityItem": "Generated-review runtime art is acceptable only for internal demo after semantic repair; commissioned final art remains required.",
+      "reviewedAnchorRefs": [],
+      "finalBlockers": [
+        "Commissioned final scene art",
+        "External Korean visual authenticity approval",
+        "Final production character pack",
+        "Commercial production licensing/legal review"
+      ]
+    },
+    "book.bari_princess_part_2": {
+      "title": "Princess Bari Part 2",
+      "sceneCount": 26,
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "characterBible": "characters/bari_princess_part_2.character_bible.json",
+      "highestRiskContinuityItem": "Generated-review runtime art is acceptable only for internal demo after semantic repair; commissioned final art remains required.",
+      "reviewedAnchorRefs": [],
+      "finalBlockers": [
+        "Commissioned final scene art",
+        "External Korean visual authenticity approval",
+        "Final production character pack",
+        "Commercial production licensing/legal review"
+      ]
+    },
+    "book.snail_bride": {
+      "title": "The Snail Bride",
+      "sceneCount": 30,
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "characterBible": "characters/snail_bride.character_bible.json",
+      "highestRiskContinuityItem": "Generated-review runtime art is acceptable only for internal demo after semantic repair; commissioned final art remains required.",
+      "reviewedAnchorRefs": [],
+      "finalBlockers": [
+        "Commissioned final scene art",
+        "External Korean visual authenticity approval",
+        "Final production character pack",
+        "Commercial production licensing/legal review"
+      ]
+    },
+    "book.janghwa_hongryeon": {
+      "title": "Janghwa and Hongryeon",
+      "sceneCount": 32,
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "characterBible": "characters/janghwa_hongryeon.character_bible.json",
+      "highestRiskContinuityItem": "Generated-review runtime art is acceptable only for internal demo after semantic repair; commissioned final art remains required.",
+      "reviewedAnchorRefs": [],
+      "finalBlockers": [
+        "Commissioned final scene art",
+        "External Korean visual authenticity approval",
+        "Final production character pack",
+        "Commercial production licensing/legal review"
+      ]
+    },
+    "book.fairy_woodcutter": {
+      "title": "The Fairy and the Woodcutter",
+      "sceneCount": 32,
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "characterBible": "characters/fairy_woodcutter.character_bible.json",
+      "highestRiskContinuityItem": "Generated-review runtime art is acceptable only for internal demo after semantic repair; commissioned final art remains required.",
+      "reviewedAnchorRefs": [],
+      "finalBlockers": [
+        "Commissioned final scene art",
+        "External Korean visual authenticity approval",
+        "Final production character pack",
+        "Commercial production licensing/legal review"
+      ]
+    },
+    "book.green_frog": {
+      "title": "The Green Frog",
+      "sceneCount": 24,
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "characterBible": "characters/green_frog.character_bible.json",
+      "highestRiskContinuityItem": "Generated-review runtime art is acceptable only for internal demo after semantic repair; commissioned final art remains required.",
+      "reviewedAnchorRefs": [],
+      "finalBlockers": [
+        "Commissioned final scene art",
+        "External Korean visual authenticity approval",
+        "Final production character pack",
+        "Commercial production licensing/legal review"
+      ]
+    },
+    "book.kind_brothers": {
+      "title": "The Kind Brothers",
+      "sceneCount": 24,
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "characterBible": "characters/kind_brothers.character_bible.json",
+      "highestRiskContinuityItem": "Generated-review runtime art is acceptable only for internal demo after semantic repair; commissioned final art remains required.",
+      "reviewedAnchorRefs": [],
+      "finalBlockers": [
+        "Commissioned final scene art",
+        "External Korean visual authenticity approval",
+        "Final production character pack",
+        "Commercial production licensing/legal review"
+      ]
+    },
+    "book.byeoljubu": {
+      "title": "The Turtle Envoy",
+      "sceneCount": 32,
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "characterBible": "characters/byeoljubu.character_bible.json",
+      "highestRiskContinuityItem": "Generated-review runtime art is acceptable only for internal demo after semantic repair; commissioned final art remains required.",
+      "reviewedAnchorRefs": [],
+      "finalBlockers": [
+        "Commissioned final scene art",
+        "External Korean visual authenticity approval",
+        "Final production character pack",
+        "Commercial production licensing/legal review"
+      ]
+    },
+    "book.farting_daughter_in_law": {
+      "title": "The Farting Daughter-in-Law",
+      "sceneCount": 24,
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "characterBible": "characters/farting_daughter_in_law.character_bible.json",
+      "highestRiskContinuityItem": "Generated-review runtime art is acceptable only for internal demo after semantic repair; commissioned final art remains required.",
+      "reviewedAnchorRefs": [],
+      "finalBlockers": [
+        "Commissioned final scene art",
+        "External Korean visual authenticity approval",
+        "Final production character pack",
+        "Commercial production licensing/legal review"
+      ]
+    },
+    "book.serpent_bridegroom": {
+      "title": "The Gentle Serpent Scholar",
+      "sceneCount": 32,
+      "status": "approved_for_premium_demo",
+      "score": 95,
+      "characterBible": "characters/serpent_bridegroom.character_bible.json",
+      "highestRiskContinuityItem": "Generated-review runtime art is acceptable only for internal demo after semantic repair; commissioned final art remains required.",
+      "reviewedAnchorRefs": [],
+      "finalBlockers": [
+        "Commissioned final scene art",
+        "External Korean visual authenticity approval",
+        "Final production character pack",
+        "Commercial production licensing/legal review"
+      ]
+    }
+  },
+  "notProductionClaims": [
+    "Runtime scene art is generated_reviewed for internal all-catalog demo use, not commissioned_final.",
+    "Runtime cover art is generated_reviewed for internal all-catalog demo use, not commissioned_final.",
+    "Semantic story/art matching is checked mechanically and by internal agent review, but final external human creative and Korean cultural approval is still required.",
+    "Commercial production licensing/legal approval is still required before release."
+  ]
+}

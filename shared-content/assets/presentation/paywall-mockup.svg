@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1366" height="1024" viewBox="0 0 1366 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#faf3de"/>
+      <stop offset="100%" stop-color="#e7d09d"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+  <text x="76" y="88" fill="#1f294f" font-size="54" font-weight="850" font-family="-apple-system, Helvetica">Moon Jar Stories · Paywall</text>
+  
+          <rect x="360" y="190" width="646" height="650" rx="34" fill="#fff9eb" opacity="0.94"/>
+          <circle cx="683" cy="330" r="96" fill="none" stroke="#307f6b" stroke-width="18"/>
+          <text x="683" y="490" fill="#1f294f" font-size="48" font-weight="850" text-anchor="middle" font-family="-apple-system, Helvetica">Premium Korean Library</text>
+          <rect x="440" y="550" width="486" height="76" rx="18" fill="#1f294f" opacity="0.08"/>
+          <text x="478" y="600" fill="#1f294f" font-size="30" font-weight="750" font-family="-apple-system, Helvetica">Monthly</text>
+          <text x="878" y="600" fill="#1f294f" font-size="30" font-weight="750" text-anchor="end" font-family="-apple-system, Helvetica">$4.99</text>
+          <rect x="440" y="646" width="486" height="76" rx="18" fill="#1f294f" opacity="0.08"/>
+          <text x="478" y="696" fill="#1f294f" font-size="30" font-weight="750" font-family="-apple-system, Helvetica">Annual</text>
+          <text x="878" y="696" fill="#1f294f" font-size="30" font-weight="750" text-anchor="end" font-family="-apple-system, Helvetica">$39.99</text>
+          <rect x="440" y="754" width="486" height="70" rx="35" fill="#d04f2e"/>
+          <text x="683" y="800" fill="#fff8e8" font-size="29" font-weight="800" text-anchor="middle" font-family="-apple-system, Helvetica">Parent Check</text>
+        
+</svg>

@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedOn": "2026-05-11",
+  "status": "planned_not_configured_in_store_consoles",
+  "bundleIds": {
+    "ios": {
+      "bundleId": "com.moonjar.stories.demo",
+      "status": "placeholder_or_demo_not_verified_in_app_store_connect"
+    },
+    "android": {
+      "applicationId": "com.moonjar.stories",
+      "status": "debug_build_id_not_verified_in_play_console"
+    }
+  },
+  "baseProducts": [
+    {
+      "productId": "com.moonjarstories.subscription.monthly",
+      "type": "subscription",
+      "priceUsdHypothesis": 4.99,
+      "storeConfigured": false,
+      "sandboxTested": false
+    },
+    {
+      "productId": "com.moonjarstories.subscription.annual",
+      "type": "subscription",
+      "priceUsdHypothesis": 39.99,
+      "storeConfigured": false,
+      "sandboxTested": false
+    },
+    {
+      "productId": "com.moonjarstories.lifetime.korean_library",
+      "type": "non_consumable",
+      "priceUsdHypothesisRange": "79.99-99.99",
+      "storeConfigured": false,
+      "sandboxTested": false
+    }
+  ],
+  "individualBookProductPattern": "com.moonjarstories.book.<book_id_without_book_prefix>",
+  "individualProductsGeneratedFromCatalog": true,
+  "storeEvidence": {
+    "appStoreConnectProducts": "missing_external",
+    "googlePlayConsoleProducts": "missing_external",
+    "storekitConfigurationFile": "missing",
+    "googlePlayProductExport": "missing_external",
+    "sandboxPurchaseTranscript": "missing_external"
+  },
+  "nonEvidenceWarning": "This manifest aligns planned product IDs with source code. It is not proof of configured store products."
+}

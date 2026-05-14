@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1366" height="1024" viewBox="0 0 1366 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#faf3de"/>
+      <stop offset="100%" stop-color="#e7d09d"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+  <text x="76" y="88" fill="#1f294f" font-size="54" font-weight="850" font-family="-apple-system, Helvetica">Moon Jar Stories · Reader</text>
+  
+          <rect x="76" y="132" width="1214" height="640" rx="28" fill="#fff4dd" opacity="0.32"/>
+          <image href="../books/sun-and-moon/page-001.png" x="112" y="168" width="1142" height="520" preserveAspectRatio="xMidYMid slice"/>
+          <rect x="112" y="708" width="1142" height="130" rx="22" fill="#fff9eb" opacity="0.94"/>
+          <text x="152" y="760" fill="#1f294f" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" text-anchor="start">In a deep mountain village, two siblings helped Mother wrap warm rice cakes</text>
+<text x="152" y="798" fill="#1f294f" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" text-anchor="start">before market day. Steam curled around the room, and every cake smelled like</text>
+<text x="152" y="836" fill="#1f294f" font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" font-size="30" font-weight="700" text-anchor="start">home.</text>
+          <circle cx="683" cy="902" r="42" fill="#d04f2e"/><text x="683" y="914" fill="#fff8e8" font-size="38" text-anchor="middle" font-family="-apple-system, Helvetica">▶</text>
+        
+</svg>

@@ -1,0 +1,2711 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "book.geumgang_tiger",
+  "slug": "geumgang-mountain-tiger",
+  "title": {
+    "ko": "금강산 호랑이",
+    "en": "The Tiger of Geumgang Mountain"
+  },
+  "access": "premium",
+  "ageRange": "4-8",
+  "estimatedMinutes": 9,
+  "summary": "A mountain child meets the majestic Tiger of Geumgang Mountain and learns respectful courage through cliffs, pine paths, and shared stewardship.",
+  "coverAsset": "assets/books/geumgang-mountain-tiger/cover.png",
+  "coverAssetStatus": "placeholder",
+  "characterBible": "characters/geumgang_tiger.character_bible.json",
+  "narrationAudioStatus": "synthetic_draft",
+  "adaptationVersions": {
+    "default": "English-first bilingual semantic-authenticity repair draft",
+    "plannedAlternate": "External editor pass after children’s editorial and Korean-language review",
+    "note": "Generated repo-local repair draft; not external human final."
+  },
+  "sensitivityNotes": [
+    "This tiger is majestic and gentle, clearly distinct from the Sun/Moon antagonist.",
+    "Repaired by repo-local semantic authenticity pass; external children’s editor, Korean-language, cultural, and child-safety review remain required before final release."
+  ],
+  "themes": [
+    "respect",
+    "courage",
+    "mountains",
+    "friendship",
+    "stewardship"
+  ],
+  "characters": [
+    "mountain_child",
+    "geumgang_tiger",
+    "grandmother",
+    "pine_cliffs"
+  ],
+  "pages": [
+    {
+      "id": "geumgang_tiger_001",
+      "pageNumber": 1,
+      "text": {
+        "enLittle": "Grandmother taught the child to greet the mountain before gathering pine cones.",
+        "enStandard": "Below bright Geumgang cliffs, first, Grandmother taught the child to greet the mountain before gathering pine cones. \"To whom?\" asked the child.",
+        "koLittle": "할머니는 솔방울을 줍기 전 산에 인사하라 가르쳤어요",
+        "koStandard": "밝은 금강산 바위 아래에서 할머니는 솔방울을 줍기 전 산에 인사하라 가르쳤어요."
+      },
+      "koreanText": "밝은 금강산 바위 아래에서 할머니는 솔방울을 줍기 전 산에 인사하라 가르쳤어요.",
+      "englishText": "Below bright Geumgang cliffs, first, Grandmother taught the child to greet the mountain before gathering pine cones. \"To whom?\" asked the child.",
+      "narrationScript": "밝은 금강산 바위 아래에서 할머니는 솔방울을 줍기 전 산에 인사하라 가르쳤어요.",
+      "vocabulary": [
+        {
+          "ko": "금강산",
+          "en": "Geumgang Mountain",
+          "romanization": "Geumgangsan",
+          "definitionEn": "A famous Korean mountain landscape.",
+          "definitionKo": "한국의 아름다운 산 이름이에요."
+        },
+        {
+          "ko": "소나무",
+          "en": "pine",
+          "romanization": "sonamu",
+          "definitionEn": "A sturdy evergreen tree.",
+          "definitionKo": "늘푸른 튼튼한 나무예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "child learns mountain manners (cliff village)",
+        "emotion": "curious respect",
+        "pageTurnHook": "Then a striped guardian will appear, and the story moves toward tiger meeting.",
+        "readAloudCue": "Read with curious respect; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap the paw print."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/geumgang_tiger.character_bible.json. Page 1 for 금강산 호랑이 / The Tiger of Geumgang Mountain: child with grandmother, pine cliffs, tiger paw prints far away; specific beat: Grandmother taught the child to greet the mountain before gathering pine cones; emotional tone: curious respect; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/geumgang-mountain-tiger/page-001.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with curious respect; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/geumgang-mountain-tiger/ko/page-001.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/geumgang-mountain-tiger/ambient/ambient-loop.wav",
+      "characterBible": "characters/geumgang_tiger.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_001/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_001/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_001/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_001/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_001/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_001/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "geumgang_tiger_002",
+      "pageNumber": 2,
+      "text": {
+        "enLittle": "Mist lifted from the cliffs like a curtain.",
+        "enStandard": "Below bright Geumgang cliffs, next, mist lifted from the cliffs like a curtain. \"To the mountain and all who live here,\" she answered.",
+        "koLittle": "안개가 장막처럼 바위에서 올라왔어요",
+        "koStandard": "밝은 금강산 바위 아래에서 안개가 장막처럼 바위에서 올라왔어요."
+      },
+      "koreanText": "밝은 금강산 바위 아래에서 안개가 장막처럼 바위에서 올라왔어요.",
+      "englishText": "Below bright Geumgang cliffs, next, mist lifted from the cliffs like a curtain. \"To the mountain and all who live here,\" she answered.",
+      "narrationScript": "밝은 금강산 바위 아래에서 안개가 장막처럼 바위에서 올라왔어요.",
+      "vocabulary": [
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful striped animal.",
+          "definitionKo": "줄무늬가 있는 힘센 동물이에요."
+        },
+        {
+          "ko": "공경",
+          "en": "respect",
+          "romanization": "gonggyeong",
+          "definitionEn": "Careful honor for someone or something.",
+          "definitionKo": "소중히 여기고 조심하는 마음이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "child learns mountain manners (cliff village)",
+        "emotion": "curious respect",
+        "pageTurnHook": "Then a striped guardian will appear, and the story moves toward tiger meeting.",
+        "readAloudCue": "Read with curious respect; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace the paw print."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/geumgang_tiger.character_bible.json. Page 2 for 금강산 호랑이 / The Tiger of Geumgang Mountain: child with grandmother, pine cliffs, tiger paw prints far away; specific beat: mist lifted from the cliffs like a curtain; emotional tone: curious respect; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/geumgang-mountain-tiger/page-002.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with curious respect; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/geumgang-mountain-tiger/ko/page-002.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/geumgang-mountain-tiger/ambient/ambient-loop.wav",
+      "characterBible": "characters/geumgang_tiger.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_002/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_002/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_002/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_002/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_002/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_002/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "geumgang_tiger_003",
+      "pageNumber": 3,
+      "text": {
+        "enLittle": "A paw print filled with rainwater reflected the child's surprised face.",
+        "enStandard": "Below bright Geumgang cliffs, quietly, a paw print filled with rainwater reflected the child's surprised face. \"Even the tiger?\"",
+        "koLittle": "빗물 고인 발자국에 아이 얼굴이 비쳤어요",
+        "koStandard": "밝은 금강산 바위 아래에서 빗물 고인 발자국에 아이 얼굴이 비쳤어요."
+      },
+      "koreanText": "밝은 금강산 바위 아래에서 빗물 고인 발자국에 아이 얼굴이 비쳤어요.",
+      "englishText": "Below bright Geumgang cliffs, quietly, a paw print filled with rainwater reflected the child's surprised face. \"Even the tiger?\"",
+      "narrationScript": "밝은 금강산 바위 아래에서 빗물 고인 발자국에 아이 얼굴이 비쳤어요.",
+      "vocabulary": [
+        {
+          "ko": "소나무",
+          "en": "pine",
+          "romanization": "sonamu",
+          "definitionEn": "A sturdy evergreen tree.",
+          "definitionKo": "늘푸른 튼튼한 나무예요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "child learns mountain manners (cliff village)",
+        "emotion": "curious respect",
+        "pageTurnHook": "Then a striped guardian will appear, and the story moves toward tiger meeting.",
+        "readAloudCue": "Read with curious respect; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count the paw print."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/geumgang_tiger.character_bible.json. Page 3 for 금강산 호랑이 / The Tiger of Geumgang Mountain: child with grandmother, pine cliffs, tiger paw prints far away; specific beat: a paw print filled with rainwater reflected the child's surprised face; emotional tone: curious respect; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/geumgang-mountain-tiger/page-003.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with curious respect; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/geumgang-mountain-tiger/ko/page-003.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/geumgang-mountain-tiger/ambient/ambient-loop.wav",
+      "characterBible": "characters/geumgang_tiger.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_003/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_003/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_003/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_003/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_003/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_003/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "geumgang_tiger_004",
+      "pageNumber": 4,
+      "text": {
+        "enLittle": "The path smelled of pine.",
+        "enStandard": "Below bright Geumgang cliffs, with the moon high, the path smelled of pine, stone, and cold morning. \"Bow first,\" Grandmother said.",
+        "koLittle": "길에서는 소나무와 돌과 찬 아침 냄새가 났어요",
+        "koStandard": "밝은 금강산 바위 아래에서 길에서는 소나무와 돌과 찬 아침 냄새가 났어요."
+      },
+      "koreanText": "밝은 금강산 바위 아래에서 길에서는 소나무와 돌과 찬 아침 냄새가 났어요.",
+      "englishText": "Below bright Geumgang cliffs, with the moon high, the path smelled of pine, stone, and cold morning. \"Bow first,\" Grandmother said.",
+      "narrationScript": "밝은 금강산 바위 아래에서 길에서는 소나무와 돌과 찬 아침 냄새가 났어요.",
+      "vocabulary": [
+        {
+          "ko": "공경",
+          "en": "respect",
+          "romanization": "gonggyeong",
+          "definitionEn": "Careful honor for someone or something.",
+          "definitionKo": "소중히 여기고 조심하는 마음이에요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "child learns mountain manners (cliff village)",
+        "emotion": "curious respect",
+        "pageTurnHook": "Then a striped guardian will appear, and the story moves toward tiger meeting.",
+        "readAloudCue": "Read with curious respect; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold the paw print."
+      },
+      "refrain": "Bow to the mountain, walk bravely.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/geumgang_tiger.character_bible.json. Page 4 for 금강산 호랑이 / The Tiger of Geumgang Mountain: child with grandmother, pine cliffs, tiger paw prints far away; specific beat: the path smelled of pine, stone, and cold morning; emotional tone: curious respect; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/geumgang-mountain-tiger/page-004.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with curious respect; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/geumgang-mountain-tiger/ko/page-004.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/geumgang-mountain-tiger/ambient/ambient-loop.wav",
+      "characterBible": "characters/geumgang_tiger.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_004/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_004/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_004/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_004/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_004/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_004/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "산에 인사하고, 용감히 걷자."
+    },
+    {
+      "id": "geumgang_tiger_005",
+      "pageNumber": 5,
+      "text": {
+        "enLittle": "Grandmother taught the child to greet the mountain before gathering pine cones.",
+        "enStandard": "Below bright Geumgang cliffs, before dawn, Grandmother taught the child to greet the mountain before gathering pine cones. \"To whom?\" asked the child.",
+        "koLittle": "할머니는 솔방울을 줍기 전 산에 인사하라 가르쳤어요",
+        "koStandard": "밝은 금강산 바위 아래에서 할머니는 솔방울을 줍기 전 산에 인사하라 가르쳤어요."
+      },
+      "koreanText": "밝은 금강산 바위 아래에서 할머니는 솔방울을 줍기 전 산에 인사하라 가르쳤어요.",
+      "englishText": "Below bright Geumgang cliffs, before dawn, Grandmother taught the child to greet the mountain before gathering pine cones. \"To whom?\" asked the child.",
+      "narrationScript": "밝은 금강산 바위 아래에서 할머니는 솔방울을 줍기 전 산에 인사하라 가르쳤어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "child learns mountain manners (cliff village)",
+        "emotion": "curious respect",
+        "pageTurnHook": "Then a striped guardian will appear, and the story moves toward tiger meeting.",
+        "readAloudCue": "Read with curious respect; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe the paw print."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/geumgang_tiger.character_bible.json. Page 5 for 금강산 호랑이 / The Tiger of Geumgang Mountain: child with grandmother, pine cliffs, tiger paw prints far away; specific beat: Grandmother taught the child to greet the mountain before gathering pine cones; emotional tone: curious respect; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/geumgang-mountain-tiger/page-005.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with curious respect; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/geumgang-mountain-tiger/ko/page-005.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/geumgang-mountain-tiger/ambient/ambient-loop.wav",
+      "characterBible": "characters/geumgang_tiger.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_005/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_005/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_005/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_005/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_005/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_005/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "geumgang_tiger_006",
+      "pageNumber": 6,
+      "text": {
+        "enLittle": "The tiger stepped onto the rock as quietly as falling mist.",
+        "enStandard": "On a narrow pine path, first, the tiger stepped onto the rock as quietly as falling mist. \"Many,\" said the tiger.",
+        "koLittle": "호랑이는 안개처럼 조용히 바위 위로 올라왔어요",
+        "koStandard": "좁은 소나무 길에서 호랑이는 안개처럼 조용히 바위 위로 올라왔어요."
+      },
+      "koreanText": "좁은 소나무 길에서 호랑이는 안개처럼 조용히 바위 위로 올라왔어요.",
+      "englishText": "On a narrow pine path, first, the tiger stepped onto the rock as quietly as falling mist. \"Many,\" said the tiger.",
+      "narrationScript": "좁은 소나무 길에서 호랑이는 안개처럼 조용히 바위 위로 올라왔어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "introduce majestic tiger without threat (tiger meeting)",
+        "emotion": "awe with caution",
+        "pageTurnHook": "Then the mountain rules will be tested, and the story moves toward rules of respect.",
+        "readAloudCue": "Read with awe with caution; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open the tiger's tail."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/geumgang_tiger.character_bible.json. Page 6 for 금강산 호랑이 / The Tiger of Geumgang Mountain: large calm tiger watching from rock, child bowing, no chase; specific beat: the tiger stepped onto the rock as quietly as falling mist; emotional tone: awe with caution; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/geumgang-mountain-tiger/page-006.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with awe with caution; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/geumgang-mountain-tiger/ko/page-006.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/geumgang-mountain-tiger/ambient/ambient-loop.wav",
+      "characterBible": "characters/geumgang_tiger.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_006/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_006/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_006/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_006/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_006/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_006/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "geumgang_tiger_007",
+      "pageNumber": 7,
+      "text": {
+        "enLittle": "His eyes were old.",
+        "enStandard": "On a narrow pine path, next, his eyes were old, bright, and not hungry for the child. \"I am only gathering what has fallen,\" the child said.",
+        "koLittle": "그 눈은 오래되고 밝았지만 아이를 먹잇감으로 보지 않았어요",
+        "koStandard": "좁은 소나무 길에서 그 눈은 오래되고 밝았지만 아이를 먹잇감으로 보지 않았어요."
+      },
+      "koreanText": "좁은 소나무 길에서 그 눈은 오래되고 밝았지만 아이를 먹잇감으로 보지 않았어요.",
+      "englishText": "On a narrow pine path, next, his eyes were old, bright, and not hungry for the child. \"I am only gathering what has fallen,\" the child said.",
+      "narrationScript": "좁은 소나무 길에서 그 눈은 오래되고 밝았지만 아이를 먹잇감으로 보지 않았어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "introduce majestic tiger without threat (tiger meeting)",
+        "emotion": "awe with caution",
+        "pageTurnHook": "Then the mountain rules will be tested, and the story moves toward rules of respect.",
+        "readAloudCue": "Read with awe with caution; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose the tiger's tail."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/geumgang_tiger.character_bible.json. Page 7 for 금강산 호랑이 / The Tiger of Geumgang Mountain: large calm tiger watching from rock, child bowing, no chase; specific beat: his eyes were old, bright, and not hungry for the child; emotional tone: awe with caution; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/geumgang-mountain-tiger/page-007.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with awe with caution; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/geumgang-mountain-tiger/ko/page-007.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/geumgang-mountain-tiger/ambient/ambient-loop.wav",
+      "characterBible": "characters/geumgang_tiger.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_007/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_007/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_007/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_007/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_007/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_007/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "geumgang_tiger_008",
+      "pageNumber": 8,
+      "text": {
+        "enLittle": "The child bowed so low a pine needle slid from their hair.",
+        "enStandard": "On a narrow pine path, quietly, the child bowed so low a pine needle slid from their hair. \"Then you know one rule,\" the tiger rumbled.",
+        "koLittle": "아이는 머리에서 솔잎이 떨어질 만큼 깊이 절했어요",
+        "koStandard": "좁은 소나무 길에서 아이는 머리에서 솔잎이 떨어질 만큼 깊이 절했어요."
+      },
+      "koreanText": "좁은 소나무 길에서 아이는 머리에서 솔잎이 떨어질 만큼 깊이 절했어요.",
+      "englishText": "On a narrow pine path, quietly, the child bowed so low a pine needle slid from their hair. \"Then you know one rule,\" the tiger rumbled.",
+      "narrationScript": "좁은 소나무 길에서 아이는 머리에서 솔잎이 떨어질 만큼 깊이 절했어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "introduce majestic tiger without threat (tiger meeting)",
+        "emotion": "awe with caution",
+        "pageTurnHook": "Then the mountain rules will be tested, and the story moves toward rules of respect.",
+        "readAloudCue": "Read with awe with caution; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag the tiger's tail."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/geumgang_tiger.character_bible.json. Page 8 for 금강산 호랑이 / The Tiger of Geumgang Mountain: large calm tiger watching from rock, child bowing, no chase; specific beat: the child bowed so low a pine needle slid from their hair; emotional tone: awe with caution; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/geumgang-mountain-tiger/page-008.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with awe with caution; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/geumgang-mountain-tiger/ko/page-008.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/geumgang-mountain-tiger/ambient/ambient-loop.wav",
+      "characterBible": "characters/geumgang_tiger.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_008/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_008/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_008/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_008/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_008/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_008/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "geumgang_tiger_009",
+      "pageNumber": 9,
+      "text": {
+        "enLittle": "The tiger's tail moved once.",
+        "enStandard": "On a narrow pine path, with the moon high, the tiger's tail moved once, like a question. \"Are there more?\" asked the child.",
+        "koLittle": "호랑이 꼬리가 질문처럼 한 번 움직였어요",
+        "koStandard": "좁은 소나무 길에서 호랑이 꼬리가 질문처럼 한 번 움직였어요."
+      },
+      "koreanText": "좁은 소나무 길에서 호랑이 꼬리가 질문처럼 한 번 움직였어요.",
+      "englishText": "On a narrow pine path, with the moon high, the tiger's tail moved once, like a question. \"Are there more?\" asked the child.",
+      "narrationScript": "좁은 소나무 길에서 호랑이 꼬리가 질문처럼 한 번 움직였어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "금강산",
+          "en": "Geumgang Mountain",
+          "romanization": "Geumgangsan",
+          "definitionEn": "A famous Korean mountain landscape.",
+          "definitionKo": "한국의 아름다운 산 이름이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "introduce majestic tiger without threat (tiger meeting)",
+        "emotion": "awe with caution",
+        "pageTurnHook": "Then the mountain rules will be tested, and the story moves toward rules of respect.",
+        "readAloudCue": "Read with awe with caution; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap the tiger's tail."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/geumgang_tiger.character_bible.json. Page 9 for 금강산 호랑이 / The Tiger of Geumgang Mountain: large calm tiger watching from rock, child bowing, no chase; specific beat: the tiger's tail moved once, like a question; emotional tone: awe with caution; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/geumgang-mountain-tiger/page-009.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with awe with caution; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/geumgang-mountain-tiger/ko/page-009.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/geumgang-mountain-tiger/ambient/ambient-loop.wav",
+      "characterBible": "characters/geumgang_tiger.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_009/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_009/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_009/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_009/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_009/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_009/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "geumgang_tiger_010",
+      "pageNumber": 10,
+      "text": {
+        "enLittle": "The tiger stepped onto the rock as quietly as falling mist.",
+        "enStandard": "On a narrow pine path, before dawn, the tiger stepped onto the rock as quietly as falling mist. \"Many,\" said the tiger.",
+        "koLittle": "호랑이는 안개처럼 조용히 바위 위로 올라왔어요",
+        "koStandard": "좁은 소나무 길에서 호랑이는 안개처럼 조용히 바위 위로 올라왔어요."
+      },
+      "koreanText": "좁은 소나무 길에서 호랑이는 안개처럼 조용히 바위 위로 올라왔어요.",
+      "englishText": "On a narrow pine path, before dawn, the tiger stepped onto the rock as quietly as falling mist. \"Many,\" said the tiger.",
+      "narrationScript": "좁은 소나무 길에서 호랑이는 안개처럼 조용히 바위 위로 올라왔어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful striped animal.",
+          "definitionKo": "줄무늬가 있는 힘센 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "introduce majestic tiger without threat (tiger meeting)",
+        "emotion": "awe with caution",
+        "pageTurnHook": "Then the mountain rules will be tested, and the story moves toward rules of respect.",
+        "readAloudCue": "Read with awe with caution; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace the tiger's tail."
+      },
+      "refrain": "Bow to the mountain, walk bravely.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/geumgang_tiger.character_bible.json. Page 10 for 금강산 호랑이 / The Tiger of Geumgang Mountain: large calm tiger watching from rock, child bowing, no chase; specific beat: the tiger stepped onto the rock as quietly as falling mist; emotional tone: awe with caution; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/geumgang-mountain-tiger/page-010.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with awe with caution; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/geumgang-mountain-tiger/ko/page-010.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/geumgang-mountain-tiger/ambient/ambient-loop.wav",
+      "characterBible": "characters/geumgang_tiger.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_010/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_010/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_010/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_010/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_010/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_010/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "산에 인사하고, 용감히 걷자."
+    },
+    {
+      "id": "geumgang_tiger_011",
+      "pageNumber": 11,
+      "text": {
+        "enLittle": "The tiger showed where birds nested low after a storm.",
+        "enStandard": "Among pine roots and streams, first, the tiger showed where birds nested low after a storm. \"Only the fallen ones,\" the child answered.",
+        "koLittle": "호랑이는 폭풍 뒤 낮은 둥지를 보여 주었어요",
+        "koStandard": "솔뿌리와 시냇물 사이에서 호랑이는 폭풍 뒤 낮은 둥지를 보여 주었어요."
+      },
+      "koreanText": "솔뿌리와 시냇물 사이에서 호랑이는 폭풍 뒤 낮은 둥지를 보여 주었어요.",
+      "englishText": "Among pine roots and streams, first, the tiger showed where birds nested low after a storm. \"Only the fallen ones,\" the child answered.",
+      "narrationScript": "솔뿌리와 시냇물 사이에서 호랑이는 폭풍 뒤 낮은 둥지를 보여 주었어요.",
+      "vocabulary": [
+        {
+          "ko": "금강산",
+          "en": "Geumgang Mountain",
+          "romanization": "Geumgangsan",
+          "definitionEn": "A famous Korean mountain landscape.",
+          "definitionKo": "한국의 아름다운 산 이름이에요."
+        },
+        {
+          "ko": "소나무",
+          "en": "pine",
+          "romanization": "sonamu",
+          "definitionEn": "A sturdy evergreen tree.",
+          "definitionKo": "늘푸른 튼튼한 나무예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "teach stewardship through tasks (rules of respect)",
+        "emotion": "attentive courage",
+        "pageTurnHook": "Then a careless hunter's noise will shake the valley, and the story moves toward valley danger.",
+        "readAloudCue": "Read with attentive courage; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count the clear spring."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/geumgang_tiger.character_bible.json. Page 11 for 금강산 호랑이 / The Tiger of Geumgang Mountain: tiger guiding child around nests and spring water; specific beat: the tiger showed where birds nested low after a storm; emotional tone: attentive courage; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/geumgang-mountain-tiger/page-011.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with attentive courage; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/geumgang-mountain-tiger/ko/page-011.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/geumgang-mountain-tiger/ambient/ambient-loop.wav",
+      "characterBible": "characters/geumgang_tiger.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_011/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_011/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_011/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_011/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_011/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_011/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "geumgang_tiger_012",
+      "pageNumber": 12,
+      "text": {
+        "enLittle": "He nudged a broken branch away from the spring.",
+        "enStandard": "Among pine roots and streams, next, he nudged a broken branch away from the spring. \"Do not muddy the spring,\" he said.",
+        "koLittle": "그는 샘물에서 부러진 가지를 밀어냈어요",
+        "koStandard": "솔뿌리와 시냇물 사이에서 그는 샘물에서 부러진 가지를 밀어냈어요."
+      },
+      "koreanText": "솔뿌리와 시냇물 사이에서 그는 샘물에서 부러진 가지를 밀어냈어요.",
+      "englishText": "Among pine roots and streams, next, he nudged a broken branch away from the spring. \"Do not muddy the spring,\" he said.",
+      "narrationScript": "솔뿌리와 시냇물 사이에서 그는 샘물에서 부러진 가지를 밀어냈어요.",
+      "vocabulary": [
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful striped animal.",
+          "definitionKo": "줄무늬가 있는 힘센 동물이에요."
+        },
+        {
+          "ko": "공경",
+          "en": "respect",
+          "romanization": "gonggyeong",
+          "definitionEn": "Careful honor for someone or something.",
+          "definitionKo": "소중히 여기고 조심하는 마음이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "teach stewardship through tasks (rules of respect)",
+        "emotion": "attentive courage",
+        "pageTurnHook": "Then a careless hunter's noise will shake the valley, and the story moves toward valley danger.",
+        "readAloudCue": "Read with attentive courage; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold the clear spring."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/geumgang_tiger.character_bible.json. Page 12 for 금강산 호랑이 / The Tiger of Geumgang Mountain: tiger guiding child around nests and spring water; specific beat: he nudged a broken branch away from the spring; emotional tone: attentive courage; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/geumgang-mountain-tiger/page-012.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with attentive courage; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/geumgang-mountain-tiger/ko/page-012.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/geumgang-mountain-tiger/ambient/ambient-loop.wav",
+      "characterBible": "characters/geumgang_tiger.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_012/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_012/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_012/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_012/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_012/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_012/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "geumgang_tiger_013",
+      "pageNumber": 13,
+      "text": {
+        "enLittle": "The child learned that courage could be quiet hands.",
+        "enStandard": "Among pine roots and streams, quietly, the child learned that courage could be quiet hands. \"Clear water first,\" said the child.",
+        "koLittle": "아이는 용기가 조용한 손일 수도 있음을 배웠어요",
+        "koStandard": "솔뿌리와 시냇물 사이에서 아이는 용기가 조용한 손일 수도 있음을 배웠어요."
+      },
+      "koreanText": "솔뿌리와 시냇물 사이에서 아이는 용기가 조용한 손일 수도 있음을 배웠어요.",
+      "englishText": "Among pine roots and streams, quietly, the child learned that courage could be quiet hands. \"Clear water first,\" said the child.",
+      "narrationScript": "솔뿌리와 시냇물 사이에서 아이는 용기가 조용한 손일 수도 있음을 배웠어요.",
+      "vocabulary": [
+        {
+          "ko": "소나무",
+          "en": "pine",
+          "romanization": "sonamu",
+          "definitionEn": "A sturdy evergreen tree.",
+          "definitionKo": "늘푸른 튼튼한 나무예요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "teach stewardship through tasks (rules of respect)",
+        "emotion": "attentive courage",
+        "pageTurnHook": "Then a careless hunter's noise will shake the valley, and the story moves toward valley danger.",
+        "readAloudCue": "Read with attentive courage; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe the clear spring."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/geumgang_tiger.character_bible.json. Page 13 for 금강산 호랑이 / The Tiger of Geumgang Mountain: tiger guiding child around nests and spring water; specific beat: the child learned that courage could be quiet hands; emotional tone: attentive courage; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/geumgang-mountain-tiger/page-013.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with attentive courage; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/geumgang-mountain-tiger/ko/page-013.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/geumgang-mountain-tiger/ambient/ambient-loop.wav",
+      "characterBible": "characters/geumgang_tiger.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_013/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_013/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_013/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_013/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_013/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_013/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "geumgang_tiger_014",
+      "pageNumber": 14,
+      "text": {
+        "enLittle": "Together they returned a fallen charm ribbon to the shrine stone.",
+        "enStandard": "Among pine roots and streams, with the moon high, together they returned a fallen charm ribbon to the shrine stone. \"Do not take the green cones,\" said the tiger.",
+        "koLittle": "둘은 떨어진 리본을 산신돌에 돌려놓았어요",
+        "koStandard": "솔뿌리와 시냇물 사이에서 둘은 떨어진 리본을 산신돌에 돌려놓았어요."
+      },
+      "koreanText": "솔뿌리와 시냇물 사이에서 둘은 떨어진 리본을 산신돌에 돌려놓았어요.",
+      "englishText": "Among pine roots and streams, with the moon high, together they returned a fallen charm ribbon to the shrine stone. \"Do not take the green cones,\" said the tiger.",
+      "narrationScript": "솔뿌리와 시냇물 사이에서 둘은 떨어진 리본을 산신돌에 돌려놓았어요.",
+      "vocabulary": [
+        {
+          "ko": "공경",
+          "en": "respect",
+          "romanization": "gonggyeong",
+          "definitionEn": "Careful honor for someone or something.",
+          "definitionKo": "소중히 여기고 조심하는 마음이에요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "teach stewardship through tasks (rules of respect)",
+        "emotion": "attentive courage",
+        "pageTurnHook": "Then a careless hunter's noise will shake the valley, and the story moves toward valley danger.",
+        "readAloudCue": "Read with attentive courage; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open the clear spring."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/geumgang_tiger.character_bible.json. Page 14 for 금강산 호랑이 / The Tiger of Geumgang Mountain: tiger guiding child around nests and spring water; specific beat: together they returned a fallen charm ribbon to the shrine stone; emotional tone: attentive courage; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/geumgang-mountain-tiger/page-014.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with attentive courage; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/geumgang-mountain-tiger/ko/page-014.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/geumgang-mountain-tiger/ambient/ambient-loop.wav",
+      "characterBible": "characters/geumgang_tiger.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_014/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_014/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_014/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_014/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_014/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_014/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "geumgang_tiger_015",
+      "pageNumber": 15,
+      "text": {
+        "enLittle": "The tiger showed where birds nested low after a storm.",
+        "enStandard": "Among pine roots and streams, before dawn, the tiger showed where birds nested low after a storm. \"Only the fallen ones,\" the child answered.",
+        "koLittle": "호랑이는 폭풍 뒤 낮은 둥지를 보여 주었어요",
+        "koStandard": "솔뿌리와 시냇물 사이에서 호랑이는 폭풍 뒤 낮은 둥지를 보여 주었어요."
+      },
+      "koreanText": "솔뿌리와 시냇물 사이에서 호랑이는 폭풍 뒤 낮은 둥지를 보여 주었어요.",
+      "englishText": "Among pine roots and streams, before dawn, the tiger showed where birds nested low after a storm. \"Only the fallen ones,\" the child answered.",
+      "narrationScript": "솔뿌리와 시냇물 사이에서 호랑이는 폭풍 뒤 낮은 둥지를 보여 주었어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "teach stewardship through tasks (rules of respect)",
+        "emotion": "attentive courage",
+        "pageTurnHook": "Then a careless hunter's noise will shake the valley, and the story moves toward valley danger.",
+        "readAloudCue": "Read with attentive courage; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose the clear spring."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/geumgang_tiger.character_bible.json. Page 15 for 금강산 호랑이 / The Tiger of Geumgang Mountain: tiger guiding child around nests and spring water; specific beat: the tiger showed where birds nested low after a storm; emotional tone: attentive courage; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/geumgang-mountain-tiger/page-015.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with attentive courage; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/geumgang-mountain-tiger/ko/page-015.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/geumgang-mountain-tiger/ambient/ambient-loop.wav",
+      "characterBible": "characters/geumgang_tiger.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_015/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_015/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_015/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_015/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_015/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_015/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "geumgang_tiger_016",
+      "pageNumber": 16,
+      "text": {
+        "enLittle": "A stranger's shout cracked across the valley.",
+        "enStandard": "Near a cliff echo, first, a stranger's shout cracked across the valley. \"Only warning,\" rumbled the tiger.",
+        "koLittle": "낯선 외침이 골짜기를 갈랐어요",
+        "koStandard": "메아리 치는 바위 곁에서 낯선 외침이 골짜기를 갈랐어요."
+      },
+      "koreanText": "메아리 치는 바위 곁에서 낯선 외침이 골짜기를 갈랐어요.",
+      "englishText": "Near a cliff echo, first, a stranger's shout cracked across the valley. \"Only warning,\" rumbled the tiger.",
+      "narrationScript": "메아리 치는 바위 곁에서 낯선 외침이 골짜기를 갈랐어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "protect mountain without violence (valley danger)",
+        "emotion": "protective tension",
+        "pageTurnHook": "Then the stranger will learn why the mountain is not empty, and the story moves toward shared apology.",
+        "readAloudCue": "Read with protective tension; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag the red scarf."
+      },
+      "refrain": "Bow to the mountain, walk bravely.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/geumgang_tiger.character_bible.json. Page 16 for 금강산 호랑이 / The Tiger of Geumgang Mountain: distant hunter noise, tiger and child warning animals safely; specific beat: a stranger's shout cracked across the valley; emotional tone: protective tension; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/geumgang-mountain-tiger/page-016.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with protective tension; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/geumgang-mountain-tiger/ko/page-016.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/geumgang-mountain-tiger/ambient/ambient-loop.wav",
+      "characterBible": "characters/geumgang_tiger.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_016/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_016/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_016/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_016/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_016/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_016/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "산에 인사하고, 용감히 걷자."
+    },
+    {
+      "id": "geumgang_tiger_017",
+      "pageNumber": 17,
+      "text": {
+        "enLittle": "The tiger did not bare his teeth; he stood tall enough for the echo to think twice.",
+        "enStandard": "Near a cliff echo, next, the tiger did not bare his teeth; he stood tall enough for the echo to think twice. \"Loud feet break small homes,\" the tiger said.",
+        "koLittle": "호랑이는 이빨을 보이지 않고 메아리가 멈출 만큼 크게 섰어요",
+        "koStandard": "메아리 치는 바위 곁에서 호랑이는 이빨을 보이지 않고 메아리가 멈출 만큼 크게 섰어요."
+      },
+      "koreanText": "메아리 치는 바위 곁에서 호랑이는 이빨을 보이지 않고 메아리가 멈출 만큼 크게 섰어요.",
+      "englishText": "Near a cliff echo, next, the tiger did not bare his teeth; he stood tall enough for the echo to think twice. \"Loud feet break small homes,\" the tiger said.",
+      "narrationScript": "메아리 치는 바위 곁에서 호랑이는 이빨을 보이지 않고 메아리가 멈출 만큼 크게 섰어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "protect mountain without violence (valley danger)",
+        "emotion": "protective tension",
+        "pageTurnHook": "Then the stranger will learn why the mountain is not empty, and the story moves toward shared apology.",
+        "readAloudCue": "Read with protective tension; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap the red scarf."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/geumgang_tiger.character_bible.json. Page 17 for 금강산 호랑이 / The Tiger of Geumgang Mountain: distant hunter noise, tiger and child warning animals safely; specific beat: the tiger did not bare his teeth; he stood tall enough for the echo to think twice; emotional tone: protective tension; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/geumgang-mountain-tiger/page-017.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with protective tension; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/geumgang-mountain-tiger/ko/page-017.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/geumgang-mountain-tiger/ambient/ambient-loop.wav",
+      "characterBible": "characters/geumgang_tiger.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_017/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_017/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_017/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_017/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_017/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_017/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "geumgang_tiger_018",
+      "pageNumber": 18,
+      "text": {
+        "enLittle": "The child waved a red scarf to send goats away from the loose stones.",
+        "enStandard": "Near a cliff echo, quietly, the child waved a red scarf to send goats away from the loose stones. \"This way!\" called the child.",
+        "koLittle": "아이는 붉은 천을 흔들어 염소들을 물렸어요",
+        "koStandard": "메아리 치는 바위 곁에서 아이는 붉은 천을 흔들어 염소들을 물렸어요."
+      },
+      "koreanText": "메아리 치는 바위 곁에서 아이는 붉은 천을 흔들어 염소들을 물렸어요.",
+      "englishText": "Near a cliff echo, quietly, the child waved a red scarf to send goats away from the loose stones. \"This way!\" called the child.",
+      "narrationScript": "메아리 치는 바위 곁에서 아이는 붉은 천을 흔들어 염소들을 물렸어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "protect mountain without violence (valley danger)",
+        "emotion": "protective tension",
+        "pageTurnHook": "Then the stranger will learn why the mountain is not empty, and the story moves toward shared apology.",
+        "readAloudCue": "Read with protective tension; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace the red scarf."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/geumgang_tiger.character_bible.json. Page 18 for 금강산 호랑이 / The Tiger of Geumgang Mountain: distant hunter noise, tiger and child warning animals safely; specific beat: the child waved a red scarf to send goats away from the loose stones; emotional tone: protective tension; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/geumgang-mountain-tiger/page-018.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with protective tension; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/geumgang-mountain-tiger/ko/page-018.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/geumgang-mountain-tiger/ambient/ambient-loop.wav",
+      "characterBible": "characters/geumgang_tiger.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_018/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_018/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_018/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_018/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_018/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_018/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "geumgang_tiger_019",
+      "pageNumber": 19,
+      "text": {
+        "enLittle": "Rocks rattled down where no one stood because warning arrived in time.",
+        "enStandard": "Near a cliff echo, with the moon high, rocks rattled down where no one stood because warning arrived in time. \"No harm,\" Grandmother shouted from below.",
+        "koLittle": "제때 알린 덕에 아무도 없는 곳으로 돌이 굴렀어요",
+        "koStandard": "메아리 치는 바위 곁에서 제때 알린 덕에 아무도 없는 곳으로 돌이 굴렀어요."
+      },
+      "koreanText": "메아리 치는 바위 곁에서 제때 알린 덕에 아무도 없는 곳으로 돌이 굴렀어요.",
+      "englishText": "Near a cliff echo, with the moon high, rocks rattled down where no one stood because warning arrived in time. \"No harm,\" Grandmother shouted from below.",
+      "narrationScript": "메아리 치는 바위 곁에서 제때 알린 덕에 아무도 없는 곳으로 돌이 굴렀어요.",
+      "vocabulary": [
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        },
+        {
+          "ko": "금강산",
+          "en": "Geumgang Mountain",
+          "romanization": "Geumgangsan",
+          "definitionEn": "A famous Korean mountain landscape.",
+          "definitionKo": "한국의 아름다운 산 이름이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "protect mountain without violence (valley danger)",
+        "emotion": "protective tension",
+        "pageTurnHook": "Then the stranger will learn why the mountain is not empty, and the story moves toward shared apology.",
+        "readAloudCue": "Read with protective tension; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count the red scarf."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/geumgang_tiger.character_bible.json. Page 19 for 금강산 호랑이 / The Tiger of Geumgang Mountain: distant hunter noise, tiger and child warning animals safely; specific beat: rocks rattled down where no one stood because warning arrived in time; emotional tone: protective tension; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/geumgang-mountain-tiger/page-019.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with protective tension; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/geumgang-mountain-tiger/ko/page-019.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/geumgang-mountain-tiger/ambient/ambient-loop.wav",
+      "characterBible": "characters/geumgang_tiger.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_019/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_019/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_019/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_019/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_019/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_019/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "geumgang_tiger_020",
+      "pageNumber": 20,
+      "text": {
+        "enLittle": "A stranger's shout cracked across the valley.",
+        "enStandard": "Near a cliff echo, before dawn, a stranger's shout cracked across the valley. \"Only warning,\" rumbled the tiger.",
+        "koLittle": "낯선 외침이 골짜기를 갈랐어요",
+        "koStandard": "메아리 치는 바위 곁에서 낯선 외침이 골짜기를 갈랐어요."
+      },
+      "koreanText": "메아리 치는 바위 곁에서 낯선 외침이 골짜기를 갈랐어요.",
+      "englishText": "Near a cliff echo, before dawn, a stranger's shout cracked across the valley. \"Only warning,\" rumbled the tiger.",
+      "narrationScript": "메아리 치는 바위 곁에서 낯선 외침이 골짜기를 갈랐어요.",
+      "vocabulary": [
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        },
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful striped animal.",
+          "definitionKo": "줄무늬가 있는 힘센 동물이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "protect mountain without violence (valley danger)",
+        "emotion": "protective tension",
+        "pageTurnHook": "Then the stranger will learn why the mountain is not empty, and the story moves toward shared apology.",
+        "readAloudCue": "Read with protective tension; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold the red scarf."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/geumgang_tiger.character_bible.json. Page 20 for 금강산 호랑이 / The Tiger of Geumgang Mountain: distant hunter noise, tiger and child warning animals safely; specific beat: a stranger's shout cracked across the valley; emotional tone: protective tension; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/geumgang-mountain-tiger/page-020.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with protective tension; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/geumgang-mountain-tiger/ko/page-020.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/geumgang-mountain-tiger/ambient/ambient-loop.wav",
+      "characterBible": "characters/geumgang_tiger.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_020/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_020/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_020/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_020/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_020/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_020/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "geumgang_tiger_021",
+      "pageNumber": 21,
+      "text": {
+        "enLittle": "The stranger bowed with both hands open.",
+        "enStandard": "At the shrine stone, first, the stranger bowed with both hands open. \"Paths are borrowed,\" Grandmother answered.",
+        "koLittle": "낯선 이는 두 손을 펴고 절했어요",
+        "koStandard": "산신돌 앞에서 낯선 이는 두 손을 펴고 절했어요."
+      },
+      "koreanText": "산신돌 앞에서 낯선 이는 두 손을 펴고 절했어요.",
+      "englishText": "At the shrine stone, first, the stranger bowed with both hands open. \"Paths are borrowed,\" Grandmother answered.",
+      "narrationScript": "산신돌 앞에서 낯선 이는 두 손을 펴고 절했어요.",
+      "vocabulary": [
+        {
+          "ko": "금강산",
+          "en": "Geumgang Mountain",
+          "romanization": "Geumgangsan",
+          "definitionEn": "A famous Korean mountain landscape.",
+          "definitionKo": "한국의 아름다운 산 이름이에요."
+        },
+        {
+          "ko": "소나무",
+          "en": "pine",
+          "romanization": "sonamu",
+          "definitionEn": "A sturdy evergreen tree.",
+          "definitionKo": "늘푸른 튼튼한 나무예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve human carelessness (shared apology)",
+        "emotion": "relieved repair",
+        "pageTurnHook": "Then the child will carry the rule home, and the story moves toward mountain friendship.",
+        "readAloudCue": "Read with relieved repair; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Swipe the water bowl."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/geumgang_tiger.character_bible.json. Page 21 for 금강산 호랑이 / The Tiger of Geumgang Mountain: villagers, tiger in respectful distance, offerings of water and pine cones; specific beat: the stranger bowed with both hands open; emotional tone: relieved repair; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/geumgang-mountain-tiger/page-021.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with relieved repair; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/geumgang-mountain-tiger/ko/page-021.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/geumgang-mountain-tiger/ambient/ambient-loop.wav",
+      "characterBible": "characters/geumgang_tiger.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_021/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_021/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_021/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_021/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_021/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_021/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "geumgang_tiger_022",
+      "pageNumber": 22,
+      "text": {
+        "enLittle": "Villagers cleared the path and left the nests untouched.",
+        "enStandard": "At the shrine stone, next, villagers cleared the path and left the nests untouched. \"Borrow gently,\" said the child.",
+        "koLittle": "마을 사람들은 둥지를 건드리지 않고 길을 치웠어요",
+        "koStandard": "산신돌 앞에서 마을 사람들은 둥지를 건드리지 않고 길을 치웠어요."
+      },
+      "koreanText": "산신돌 앞에서 마을 사람들은 둥지를 건드리지 않고 길을 치웠어요.",
+      "englishText": "At the shrine stone, next, villagers cleared the path and left the nests untouched. \"Borrow gently,\" said the child.",
+      "narrationScript": "산신돌 앞에서 마을 사람들은 둥지를 건드리지 않고 길을 치웠어요.",
+      "vocabulary": [
+        {
+          "ko": "호랑이",
+          "en": "tiger",
+          "romanization": "horangi",
+          "definitionEn": "A powerful striped animal.",
+          "definitionKo": "줄무늬가 있는 힘센 동물이에요."
+        },
+        {
+          "ko": "공경",
+          "en": "respect",
+          "romanization": "gonggyeong",
+          "definitionEn": "Careful honor for someone or something.",
+          "definitionKo": "소중히 여기고 조심하는 마음이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve human carelessness (shared apology)",
+        "emotion": "relieved repair",
+        "pageTurnHook": "Then the child will carry the rule home, and the story moves toward mountain friendship.",
+        "readAloudCue": "Read with relieved repair; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Open the water bowl."
+      },
+      "refrain": "Bow to the mountain, walk bravely.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/geumgang_tiger.character_bible.json. Page 22 for 금강산 호랑이 / The Tiger of Geumgang Mountain: villagers, tiger in respectful distance, offerings of water and pine cones; specific beat: villagers cleared the path and left the nests untouched; emotional tone: relieved repair; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/geumgang-mountain-tiger/page-022.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with relieved repair; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/geumgang-mountain-tiger/ko/page-022.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/geumgang-mountain-tiger/ambient/ambient-loop.wav",
+      "characterBible": "characters/geumgang_tiger.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_022/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_022/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_022/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_022/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_022/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_022/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "산에 인사하고, 용감히 걷자."
+    },
+    {
+      "id": "geumgang_tiger_023",
+      "pageNumber": 23,
+      "text": {
+        "enLittle": "Grandmother poured clean water beside the shrine stone.",
+        "enStandard": "At the shrine stone, quietly, Grandmother poured clean water beside the shrine stone. \"Remember,\" the tiger's eyes seemed to say.",
+        "koLittle": "할머니는 산신돌 곁에 맑은 물을 부었어요",
+        "koStandard": "산신돌 앞에서 할머니는 산신돌 곁에 맑은 물을 부었어요."
+      },
+      "koreanText": "산신돌 앞에서 할머니는 산신돌 곁에 맑은 물을 부었어요.",
+      "englishText": "At the shrine stone, quietly, Grandmother poured clean water beside the shrine stone. \"Remember,\" the tiger's eyes seemed to say.",
+      "narrationScript": "산신돌 앞에서 할머니는 산신돌 곁에 맑은 물을 부었어요.",
+      "vocabulary": [
+        {
+          "ko": "소나무",
+          "en": "pine",
+          "romanization": "sonamu",
+          "definitionEn": "A sturdy evergreen tree.",
+          "definitionKo": "늘푸른 튼튼한 나무예요."
+        },
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve human carelessness (shared apology)",
+        "emotion": "relieved repair",
+        "pageTurnHook": "Then the child will carry the rule home, and the story moves toward mountain friendship.",
+        "readAloudCue": "Read with relieved repair; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Choose the water bowl."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/geumgang_tiger.character_bible.json. Page 23 for 금강산 호랑이 / The Tiger of Geumgang Mountain: villagers, tiger in respectful distance, offerings of water and pine cones; specific beat: Grandmother poured clean water beside the shrine stone; emotional tone: relieved repair; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/geumgang-mountain-tiger/page-023.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with relieved repair; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/geumgang-mountain-tiger/ko/page-023.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/geumgang-mountain-tiger/ambient/ambient-loop.wav",
+      "characterBible": "characters/geumgang_tiger.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_023/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_023/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_023/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_023/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_023/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_023/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "geumgang_tiger_024",
+      "pageNumber": 24,
+      "text": {
+        "enLittle": "The tiger watched from shadow.",
+        "enStandard": "At the shrine stone, with the moon high, the tiger watched from shadow, majestic as dusk. \"I walked as if I owned the path,\" the stranger said.",
+        "koLittle": "호랑이는 저녁처럼 장엄하게 그늘에서 지켜보았어요",
+        "koStandard": "산신돌 앞에서 호랑이는 저녁처럼 장엄하게 그늘에서 지켜보았어요."
+      },
+      "koreanText": "산신돌 앞에서 호랑이는 저녁처럼 장엄하게 그늘에서 지켜보았어요.",
+      "englishText": "At the shrine stone, with the moon high, the tiger watched from shadow, majestic as dusk. \"I walked as if I owned the path,\" the stranger said.",
+      "narrationScript": "산신돌 앞에서 호랑이는 저녁처럼 장엄하게 그늘에서 지켜보았어요.",
+      "vocabulary": [
+        {
+          "ko": "공경",
+          "en": "respect",
+          "romanization": "gonggyeong",
+          "definitionEn": "Careful honor for someone or something.",
+          "definitionKo": "소중히 여기고 조심하는 마음이에요."
+        },
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "resolve human carelessness (shared apology)",
+        "emotion": "relieved repair",
+        "pageTurnHook": "Then the child will carry the rule home, and the story moves toward mountain friendship.",
+        "readAloudCue": "Read with relieved repair; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Drag the water bowl."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/geumgang_tiger.character_bible.json. Page 24 for 금강산 호랑이 / The Tiger of Geumgang Mountain: villagers, tiger in respectful distance, offerings of water and pine cones; specific beat: the tiger watched from shadow, majestic as dusk; emotional tone: relieved repair; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/geumgang-mountain-tiger/page-024.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with relieved repair; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/geumgang-mountain-tiger/ko/page-024.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/geumgang-mountain-tiger/ambient/ambient-loop.wav",
+      "characterBible": "characters/geumgang_tiger.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_024/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_024/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_024/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_024/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_024/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_024/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "geumgang_tiger_025",
+      "pageNumber": 25,
+      "text": {
+        "enLittle": "The child kept a fallen pine cone as a reminder.",
+        "enStandard": "At sunrise on Geumgang Mountain, first, the child kept a fallen pine cone as a reminder, not a prize. \"That is better,\" she smiled.",
+        "koLittle": "아이는 떨어진 솔방울을 상이 아니라 기억으로 간직했어요",
+        "koStandard": "금강산 해돋이에 아이는 떨어진 솔방울을 상이 아니라 기억으로 간직했어요."
+      },
+      "koreanText": "금강산 해돋이에 아이는 떨어진 솔방울을 상이 아니라 기억으로 간직했어요.",
+      "englishText": "At sunrise on Geumgang Mountain, first, the child kept a fallen pine cone as a reminder, not a prize. \"That is better,\" she smiled.",
+      "narrationScript": "금강산 해돋이에 아이는 떨어진 솔방울을 상이 아니라 기억으로 간직했어요.",
+      "vocabulary": [
+        {
+          "ko": "등불",
+          "en": "lantern",
+          "romanization": "deungbul",
+          "definitionEn": "A warm light carried or hung at night.",
+          "definitionKo": "밤에 들거나 걸어 두는 따뜻한 빛이에요."
+        },
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "close with respectful coexistence (mountain friendship)",
+        "emotion": "majestic warmth",
+        "pageTurnHook": "Then the mountain will remember careful feet, and the story moves toward mountain friendship.",
+        "readAloudCue": "Read with majestic warmth; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Tap the fallen pine cone."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/geumgang_tiger.character_bible.json. Page 25 for 금강산 호랑이 / The Tiger of Geumgang Mountain: child and grandmother viewing cliffs, tiger silhouette on high ridge; specific beat: the child kept a fallen pine cone as a reminder, not a prize; emotional tone: majestic warmth; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/geumgang-mountain-tiger/page-025.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with majestic warmth; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/geumgang-mountain-tiger/ko/page-025.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/geumgang-mountain-tiger/ambient/ambient-loop.wav",
+      "characterBible": "characters/geumgang_tiger.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_025/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_025/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_025/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_025/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_025/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_025/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "geumgang_tiger_026",
+      "pageNumber": 26,
+      "text": {
+        "enLittle": "When dawn touched the cliffs.",
+        "enStandard": "At sunrise on Geumgang Mountain, next, when dawn touched the cliffs, stripes of light crossed the stone. \"Bow to the mountain,\" whispered the wind.",
+        "koLittle": "새벽빛이 바위에 줄무늬처럼 지나갔어요",
+        "koStandard": "금강산 해돋이에 새벽빛이 바위에 줄무늬처럼 지나갔어요."
+      },
+      "koreanText": "금강산 해돋이에 새벽빛이 바위에 줄무늬처럼 지나갔어요.",
+      "englishText": "At sunrise on Geumgang Mountain, next, when dawn touched the cliffs, stripes of light crossed the stone. \"Bow to the mountain,\" whispered the wind.",
+      "narrationScript": "금강산 해돋이에 새벽빛이 바위에 줄무늬처럼 지나갔어요.",
+      "vocabulary": [
+        {
+          "ko": "한지",
+          "en": "hanji paper",
+          "romanization": "hanji",
+          "definitionEn": "Traditional Korean paper used in doors and crafts.",
+          "definitionKo": "문과 공예에 쓰이는 한국의 전통 종이예요."
+        },
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "close with respectful coexistence (mountain friendship)",
+        "emotion": "majestic warmth",
+        "pageTurnHook": "Then the mountain will remember careful feet, and the story moves toward mountain friendship.",
+        "readAloudCue": "Read with majestic warmth; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Trace the fallen pine cone."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/geumgang_tiger.character_bible.json. Page 26 for 금강산 호랑이 / The Tiger of Geumgang Mountain: child and grandmother viewing cliffs, tiger silhouette on high ridge; specific beat: when dawn touched the cliffs, stripes of light crossed the stone; emotional tone: majestic warmth; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/geumgang-mountain-tiger/page-026.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with majestic warmth; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/geumgang-mountain-tiger/ko/page-026.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/geumgang-mountain-tiger/ambient/ambient-loop.wav",
+      "characterBible": "characters/geumgang_tiger.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_026/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_026/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_026/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_026/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_026/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_026/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "geumgang_tiger_027",
+      "pageNumber": 27,
+      "text": {
+        "enLittle": "The tiger bowed once from a high ridge.",
+        "enStandard": "At sunrise on Geumgang Mountain, quietly, the tiger bowed once from a high ridge. \"Did you make a friend?\" Grandmother asked.",
+        "koLittle": "호랑이는 높은 능선에서 한 번 고개를 숙였어요",
+        "koStandard": "금강산 해돋이에 호랑이는 높은 능선에서 한 번 고개를 숙였어요."
+      },
+      "koreanText": "금강산 해돋이에 호랑이는 높은 능선에서 한 번 고개를 숙였어요.",
+      "englishText": "At sunrise on Geumgang Mountain, quietly, the tiger bowed once from a high ridge. \"Did you make a friend?\" Grandmother asked.",
+      "narrationScript": "금강산 해돋이에 호랑이는 높은 능선에서 한 번 고개를 숙였어요.",
+      "vocabulary": [
+        {
+          "ko": "마을",
+          "en": "village",
+          "romanization": "maeul",
+          "definitionEn": "A small community of homes.",
+          "definitionKo": "여러 집이 모여 사는 곳이에요."
+        },
+        {
+          "ko": "산",
+          "en": "mountain",
+          "romanization": "san",
+          "definitionEn": "A high place of stone, trees, and paths.",
+          "definitionKo": "돌과 나무와 길이 있는 높은 곳이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "close with respectful coexistence (mountain friendship)",
+        "emotion": "majestic warmth",
+        "pageTurnHook": "Then the mountain will remember careful feet, and the story moves toward mountain friendship.",
+        "readAloudCue": "Read with majestic warmth; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Count the fallen pine cone."
+      },
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/geumgang_tiger.character_bible.json. Page 27 for 금강산 호랑이 / The Tiger of Geumgang Mountain: child and grandmother viewing cliffs, tiger silhouette on high ridge; specific beat: the tiger bowed once from a high ridge; emotional tone: majestic warmth; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/geumgang-mountain-tiger/page-027.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with majestic warmth; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/geumgang-mountain-tiger/ko/page-027.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/geumgang-mountain-tiger/ambient/ambient-loop.wav",
+      "characterBible": "characters/geumgang_tiger.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_027/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_027/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_027/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_027/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_027/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_027/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "geumgang_tiger_028",
+      "pageNumber": 28,
+      "text": {
+        "enLittle": "The mountain felt full of neighbors.",
+        "enStandard": "At sunrise on Geumgang Mountain, with the moon high, the mountain felt full of neighbors, seen and unseen. \"I learned a neighbor,\" said the child.",
+        "koLittle": "산은 보이는 이웃과 보이지 않는 이웃으로 가득했어요",
+        "koStandard": "금강산 해돋이에 산은 보이는 이웃과 보이지 않는 이웃으로 가득했어요."
+      },
+      "koreanText": "금강산 해돋이에 산은 보이는 이웃과 보이지 않는 이웃으로 가득했어요.",
+      "englishText": "At sunrise on Geumgang Mountain, with the moon high, the mountain felt full of neighbors, seen and unseen. \"I learned a neighbor,\" said the child.",
+      "narrationScript": "금강산 해돋이에 산은 보이는 이웃과 보이지 않는 이웃으로 가득했어요.",
+      "vocabulary": [
+        {
+          "ko": "약속",
+          "en": "promise",
+          "romanization": "yaksok",
+          "definitionEn": "Words someone tries to keep with care.",
+          "definitionKo": "지키려고 마음먹은 말이에요."
+        },
+        {
+          "ko": "강",
+          "en": "river",
+          "romanization": "gang",
+          "definitionEn": "A long flowing body of water.",
+          "definitionKo": "길게 흐르는 물길이에요."
+        }
+      ],
+      "storyBeat": {
+        "purpose": "close with respectful coexistence (mountain friendship)",
+        "emotion": "majestic warmth",
+        "pageTurnHook": "Then the mountain will remember careful feet, and the story moves toward mountain friendship.",
+        "readAloudCue": "Read with majestic warmth; keep the folktale stakes clear, culturally grounded, and child-safe with musical pauses.",
+        "childInteraction": "Hold the fallen pine cone."
+      },
+      "refrain": "Bow to the mountain, walk bravely.",
+      "imagePrompt": "Global style bible: shared-content/style/moonjar_style_bible.json. Book character bible: shared-content/characters/geumgang_tiger.character_bible.json. Page 28 for 금강산 호랑이 / The Tiger of Geumgang Mountain: child and grandmother viewing cliffs, tiger silhouette on high ridge; specific beat: the mountain felt full of neighbors, seen and unseen; emotional tone: majestic warmth; include key props and roles from the story, child-safe adaptation boundaries, and Korean folktale setting. Premium Korean watercolor, gouache, soft ink, hanji paper texture, child-safe ages 3-8, fit-safe composition, generous safe margins, no cropped faces or hands, no text, no letters, no watermark.",
+      "imageAsset": "assets/books/geumgang-mountain-tiger/page-028.png",
+      "imageAssetStatus": "placeholder",
+      "audioPrompt": "English-first warm professional picture-book narration with majestic warmth; Korean optional narration should sound natural, musical, and culturally grounded. Read-aloud cue: keep the folktale stakes clear without horror.",
+      "narrationAudio": "audio/synthetic-draft/narration/geumgang-mountain-tiger/ko/page-028.wav",
+      "narrationAudioStatus": "synthetic_draft",
+      "narrationVoice": "Grandma (Korean (South Korea))",
+      "audioGenerationTool": "offline_synthetic_stub",
+      "ambientAudio": "audio/synthetic-draft/books/geumgang-mountain-tiger/ambient/ambient-loop.wav",
+      "characterBible": "characters/geumgang_tiger.character_bible.json",
+      "animation": {
+        "type": "characterBreathing",
+        "loopDuration": 3.2,
+        "motionSafety": "subtle only, no flashing",
+        "layers": [
+          {
+            "name": "background",
+            "motion": "none or very slow parallax",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_028/background.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "midground",
+            "motion": "subtle drift or sway where useful",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_028/midground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "character",
+            "motion": "subtle breathing, blink, small gesture",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_028/character.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "foreground",
+            "motion": "tiny sway or none",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_028/foreground.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "effect",
+            "motion": "warm lantern and moon jar glow",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_028/effect.png",
+            "status": "generated_reviewed"
+          },
+          {
+            "name": "particle_glow",
+            "motion": "opacity pulse or slow particle drift",
+            "intensity": "low",
+            "outputFile": "assets/generated-draft/images/layers/geumgang-mountain-tiger/geumgang_tiger_028/particle-glow.png",
+            "status": "generated_reviewed"
+          }
+        ]
+      },
+      "refrainKo": "산에 인사하고, 용감히 걷자."
+    }
+  ]
+}

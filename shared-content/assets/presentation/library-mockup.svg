@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1366" height="1024" viewBox="0 0 1366 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#faf3de"/>
+      <stop offset="100%" stop-color="#e7d09d"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+  <text x="76" y="88" fill="#1f294f" font-size="54" font-weight="850" font-family="-apple-system, Helvetica">Moon Jar Stories · Library</text>
+  
+              <rect x="86" y="230" width="320" height="250" rx="18" fill="#fff9eb" opacity="0.92"/>
+              <rect x="104" y="248" width="284" height="130" rx="14" fill="#2f806c"/>
+              <circle cx="246" cy="312" r="42" fill="none" stroke="#fff8e8" stroke-width="10"/>
+              <text x="114" y="418" fill="#1f294f" font-size="30" font-weight="800" font-family="-apple-system, Helvetica">해님 달님</text>
+              <text x="114" y="454" fill="#1f294f" font-size="19" font-weight="600" opacity="0.65" font-family="-apple-system, Helvetica">The Sun and the Moon</text>
+            
+
+              <rect x="480" y="230" width="320" height="250" rx="18" fill="#fff9eb" opacity="0.92"/>
+              <rect x="498" y="248" width="284" height="130" rx="14" fill="#387e69"/>
+              <circle cx="640" cy="312" r="42" fill="none" stroke="#fff8e8" stroke-width="10"/>
+              <text x="508" y="418" fill="#1f294f" font-size="30" font-weight="800" font-family="-apple-system, Helvetica">금도끼 은도끼</text>
+              <text x="508" y="454" fill="#1f294f" font-size="19" font-weight="600" opacity="0.65" font-family="-apple-system, Helvetica">The Gold Axe and Silver Axe</text>
+            
+
+              <rect x="874" y="230" width="320" height="250" rx="18" fill="#fff9eb" opacity="0.92"/>
+              <rect x="892" y="248" width="284" height="130" rx="14" fill="#d85c2f"/>
+              <circle cx="1034" cy="312" r="42" fill="none" stroke="#fff8e8" stroke-width="10"/>
+              <text x="902" y="418" fill="#1f294f" font-size="30" font-weight="800" font-family="-apple-system, Helvetica">호랑이와 곶감</text>
+              <text x="902" y="454" fill="#1f294f" font-size="19" font-weight="600" opacity="0.65" font-family="-apple-system, Helvetica">The Tiger and the Persimmon</text>
+            
+
+              <rect x="86" y="560" width="320" height="250" rx="18" fill="#fff9eb" opacity="0.92"/>
+              <rect x="104" y="578" width="284" height="130" rx="14" fill="#4b8b62"/>
+              <circle cx="246" cy="642" r="42" fill="none" stroke="#fff8e8" stroke-width="10"/>
+              <text x="114" y="748" fill="#1f294f" font-size="30" font-weight="800" font-family="-apple-system, Helvetica">흥부와 놀부</text>
+              <text x="114" y="784" fill="#1f294f" font-size="19" font-weight="600" opacity="0.65" font-family="-apple-system, Helvetica">Heungbu and Nolbu</text>
+            
+
+              <rect x="480" y="560" width="320" height="250" rx="18" fill="#fff9eb" opacity="0.92"/>
+              <rect x="498" y="578" width="284" height="130" rx="14" fill="#9c3144"/>
+              <circle cx="640" cy="642" r="42" fill="none" stroke="#fff8e8" stroke-width="10"/>
+              <text x="508" y="748" fill="#1f294f" font-size="30" font-weight="800" font-family="-apple-system, Helvetica">팥죽 할멈과 호랑이</text>
+              <text x="508" y="784" fill="#1f294f" font-size="19" font-weight="600" opacity="0.65" font-family="-apple-system, Helvetica">The Red Bean Porridge Grandm</text>
+            
+</svg>

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "1.0.0",
+  "reviewDate": "2026-05-11",
+  "status": "approved_for_premium_demo",
+  "score": 100,
+  "externalSeparatedLayerAssetsRequiredBeforeProduction": false,
+  "scope": {
+    "completeSceneCount": 698,
+    "sourceLayerPlan": "animation/layer_manifest.json",
+    "currentRuntimeMode": "full_scene_image_with_separated_runtime_layer_assets",
+    "futureProductionMode": "separated_background_midground_character_foreground_effect_particle_layers",
+    "runtimeLayerAssetStatus": "generated_reviewed",
+    "runtimeLayerAssetCount": 4188,
+    "layerAssetRoot": "assets/generated-draft/images/layers/"
+  },
+  "runtimeSupports": [
+    "fit-safe full-scene image presentation",
+    "native depth, glow, shadow, and texture overlays",
+    "scene-type-specific motion cues from shared page animation metadata",
+    "two-page Real Book spread treatment",
+    "single-page phone fallback",
+    "reduced-motion and bedtime-safe motion dampening",
+    "per-scene separated runtime layer PNG assets"
+  ],
+  "plannedLayerRoles": [
+    "background",
+    "midground",
+    "character",
+    "foreground",
+    "effect",
+    "particle_glow"
+  ],
+  "nativeImplementationSignals": {
+    "ios": {
+      "file": "ios/MoonJarStoriesiOS/Sources/MoonJarStoriesiOS/Views.swift",
+      "requiredSymbols": [
+        "LayeredSceneTreatment",
+        "LivingSceneEffects",
+        "OpenBookStage",
+        "PageTurnSheet",
+        "reduceMotion"
+      ]
+    },
+    "android": {
+      "file": "android/MoonJarStoriesAndroid/src/main/java/com/moonjar/stories/ui/MoonJarApp.kt",
+      "requiredSymbols": [
+        "LayeredSceneTreatment",
+        "AnimatedScene",
+        "RealBookSpread",
+        "PageTurnSheet",
+        "reducedMotion"
+      ]
+    }
+  },
+  "productionBlockers": [
+    "Replace generated-review runtime layers with final art-directed production layers if release quality requires it.",
+    "Approve final animation layer timing with a human art/animation reviewer.",
+    "Run device smoke after production layer assets are imported."
+  ],
+  "notProductionClaims": [
+    "Current separated runtime layer assets are generated_reviewed procedural overlays, not final commissioned animation art.",
+    "This file does not claim physics-perfect page curl.",
+    "This file does not claim human art/animation reviewer approval."
+  ],
+  "externalFinalLayerApprovalRequiredBeforeProduction": true
+}

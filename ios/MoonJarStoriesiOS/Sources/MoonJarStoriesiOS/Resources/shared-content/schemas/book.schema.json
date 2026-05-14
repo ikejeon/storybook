@@ -1,0 +1,173 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://moonjarstories.example/schemas/book.schema.json",
+  "title": "Moon Jar Stories Book",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "id",
+    "slug",
+    "title",
+    "access",
+    "ageRange",
+    "summary",
+    "coverAsset",
+    "coverAssetStatus",
+    "characterBible",
+    "narrationAudioStatus",
+    "themes",
+    "characters",
+    "pages"
+  ],
+  "properties": {
+    "schemaVersion": { "type": "string" },
+    "id": { "type": "string" },
+    "slug": { "type": "string" },
+    "title": {
+      "type": "object",
+      "required": ["ko", "en"],
+      "properties": {
+        "ko": { "type": "string" },
+        "en": { "type": "string" },
+        "romanization": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "access": { "enum": ["free", "premium"] },
+    "ageRange": { "type": "string" },
+    "estimatedMinutes": { "type": "integer", "minimum": 1 },
+    "summary": { "type": "string" },
+    "coverAsset": { "type": "string" },
+    "coverAssetStatus": {
+      "enum": ["placeholder", "generated_draft", "generated_reviewed", "commissioned_draft", "commissioned_reviewed", "commissioned_final", "rejected"]
+    },
+    "characterBible": { "type": "string" },
+    "narrationAudioStatus": {
+      "enum": ["placeholder", "synthetic_draft", "synthetic_reviewed", "human_recorded_draft", "human_recorded_reviewed", "human_recorded_final", "rejected"]
+    },
+    "adaptationVersions": {
+      "type": "object",
+      "properties": {
+        "default": { "type": "string" },
+        "plannedAlternate": { "type": "string" },
+        "note": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "sensitivityNotes": { "type": "array", "items": { "type": "string" } },
+    "themes": { "type": "array", "items": { "type": "string" } },
+    "characters": { "type": "array", "items": { "type": "string" } },
+    "pages": {
+      "type": "array",
+      "minItems": 20,
+      "maxItems": 40,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "pageNumber",
+          "text",
+          "koreanText",
+          "englishText",
+          "narrationScript",
+          "vocabulary",
+          "storyBeat",
+          "imagePrompt",
+          "audioPrompt",
+          "animation"
+        ],
+        "properties": {
+          "id": { "type": "string" },
+          "pageNumber": { "type": "integer", "minimum": 1 },
+          "koreanText": { "type": "string" },
+          "englishText": { "type": "string" },
+          "text": {
+            "type": "object",
+            "required": ["enLittle", "enStandard", "koLittle", "koStandard"],
+            "properties": {
+              "enLittle": { "type": "string" },
+              "enStandard": { "type": "string" },
+              "koLittle": { "type": "string" },
+              "koStandard": { "type": "string" }
+            },
+            "additionalProperties": false
+          },
+          "narrationScript": { "type": "string" },
+          "vocabulary": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["ko", "en", "definitionEn", "definitionKo"],
+              "properties": {
+                "ko": { "type": "string" },
+                "en": { "type": "string" },
+                "romanization": { "type": "string" },
+                "definitionEn": { "type": "string" },
+                "definitionKo": { "type": "string" },
+                "tapAudio": { "type": "string" }
+              },
+              "additionalProperties": false
+            }
+          },
+          "storyBeat": {
+            "type": "object",
+            "required": ["purpose", "emotion", "pageTurnHook", "readAloudCue", "childInteraction"],
+            "properties": {
+              "purpose": { "type": "string" },
+              "emotion": { "type": "string" },
+              "pageTurnHook": { "type": "string" },
+              "readAloudCue": { "type": "string" },
+              "childInteraction": { "type": "string" }
+            },
+            "additionalProperties": false
+          },
+          "refrain": { "type": "string" },
+          "imagePrompt": { "type": "string" },
+          "imageAsset": { "type": "string" },
+          "imageAssetStatus": {
+            "enum": ["placeholder", "generated_draft", "generated_reviewed", "commissioned_draft", "commissioned_reviewed", "commissioned_final", "rejected"]
+          },
+          "imageSource": { "type": "string" },
+          "audioPrompt": { "type": "string" },
+          "narrationAudio": { "type": "string" },
+          "narrationAudioStatus": {
+            "enum": ["placeholder", "synthetic_draft", "synthetic_reviewed", "human_recorded_draft", "human_recorded_reviewed", "human_recorded_final", "rejected"]
+          },
+          "narrationVoice": { "type": "string" },
+          "audioGenerationTool": { "type": "string" },
+          "ambientAudio": { "type": "string" },
+          "characterBible": { "type": "string" },
+          "animation": {
+            "type": "object",
+            "required": ["type", "loopDuration", "layers"],
+            "properties": {
+              "type": { "type": "string" },
+              "loopDuration": { "type": "number", "minimum": 0 },
+              "motionSafety": { "type": "string" },
+              "layers": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["name", "motion"],
+                  "properties": {
+                    "name": { "type": "string" },
+                    "motion": { "type": "string" },
+                    "intensity": { "type": "string" },
+                    "outputFile": { "type": "string" },
+                    "status": {
+                      "enum": ["generated_reviewed", "commissioned_reviewed", "commissioned_final"]
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
