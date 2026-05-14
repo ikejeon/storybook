@@ -1,6 +1,6 @@
 # Story-Specific Art Upgrade Report
 
-Generated: 2026-05-14T01:12:22+00:00
+Generated: 2026-05-14T18:35:35+00:00
 
 This report records current repo artifacts created by `tools/generate_story_specific_catalog_art.py`.
 

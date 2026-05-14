@@ -3,7 +3,7 @@
 - Premium covers checked: 19
 - Premium scenes checked: 560
 - Source sheet renderer checked: `built_in_image_gen_sheet_importer`
-- Selected runtime renderer accepted: per-page `local_story_specific_svg_renderer`, selected `built_in_image_gen_story_specific_scene` exceptions, or explicit `built_in_image_gen_sheet_importer` sheet crops when another validator confirms page-level fit
+- Selected runtime renderer accepted: per-page `local_story_specific_svg_renderer`, selected `built_in_image_gen_story_specific_scene` exceptions, or explicit `built_in_image_gen_sheet_importer` sheet variants when another validator confirms page-level fit
 - Minimum selected panel size: 180000 bytes
 
 | Story | Scenes checked | Source sheet |

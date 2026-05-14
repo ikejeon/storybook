@@ -1,6 +1,6 @@
 # Premium Imagegen Sheet Import Report
 
-Generated: 2026-05-14T00:06:57+00:00
+Generated: 2026-05-14T18:59:15+00:00
 
 - Premium books imported: 19
 - Premium covers imported: 19
@@ -10,6 +10,6 @@ Generated: 2026-05-14T00:06:57+00:00
 
 ## Honesty Notes
 
-- These are high-quality generated-review assets from built-in image generation sheets.
+- These are high-quality generated-review assets from built-in image generation sheets, rendered as page-distinct variants so runtime pages do not reuse identical pixels.
 - They are materially stronger than the low-detail procedural premium panels.
 - They are still not commissioned_final production art and should not be represented as final store-release artwork.

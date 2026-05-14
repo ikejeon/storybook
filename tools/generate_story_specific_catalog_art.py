@@ -782,7 +782,6 @@ def premium_scene_svg(book: dict[str, Any], page: dict[str, Any], spec: dict[str
 <g clip-path="url(#premiumPanelClip{seed})">
   {environment_svg(spec, page_number, seed)}
   {painterly_texture_underlay(seed, 0.24)}
-  {story_sheet_panel_underlay(book["slug"], page_number, seed, 0.88)}
   {painterly_strokes(seed + 1, palette, count=82, y_min=46, y_max=570, opacity=0.050)}
   <rect width="{WIDTH}" height="{HEIGHT}" fill="url(#premiumLamp{seed})" opacity="0.72"/>
   {premium_environment_details(spec, page_number, seed)}

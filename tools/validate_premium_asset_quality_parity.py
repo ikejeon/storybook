@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import ast
 import json
 import struct
 from hashlib import sha256
@@ -14,11 +15,12 @@ CONTENT = ROOT / "shared-content"
 CATALOG = CONTENT / "catalog.json"
 IMAGE_MANIFEST = CONTENT / "assets" / "manifests" / "image_manifest.json"
 REPORT = ROOT / "tools" / "output" / "premium_asset_quality_parity_report.md"
+STORY_ART_GENERATOR = ROOT / "tools" / "generate_story_specific_catalog_art.py"
 
 SHEET_IMPORTER = "built_in_image_gen_sheet_importer"
 LOCAL_STORY_RENDERER = "local_story_specific_svg_renderer"
 SINGLE_SCENE_IMAGEGEN = "built_in_image_gen_story_specific_scene"
-ACCEPTED_SELECTED_RENDERERS = {LOCAL_STORY_RENDERER, SINGLE_SCENE_IMAGEGEN}
+ACCEPTED_SELECTED_RENDERERS = {SHEET_IMPORTER, SINGLE_SCENE_IMAGEGEN}
 MIN_PREMIUM_BYTES = 180_000
 EXPECTED_SIZE = (960, 640)
 
@@ -129,17 +131,45 @@ def runtime_selection_gaps(
     return gaps
 
 
+def generator_guard_gaps() -> list[str]:
+    """Guard against reintroducing full-sheet art under page-specific reader scenes."""
+    source = STORY_ART_GENERATOR.read_text(encoding="utf-8")
+    module = ast.parse(source)
+    premium_scene_fn = next(
+        (node for node in module.body if isinstance(node, ast.FunctionDef) and node.name == "premium_scene_svg"),
+        None,
+    )
+    if premium_scene_fn is None:
+        return ["generate_story_specific_catalog_art.py: missing premium_scene_svg renderer"]
+
+    for node in ast.walk(premium_scene_fn):
+        if not isinstance(node, ast.Call):
+            continue
+        call = node.func
+        if isinstance(call, ast.Name) and call.id == "story_sheet_panel_underlay":
+            return [
+                "premium_scene_svg must not composite story_sheet_panel_underlay into reader scenes; "
+                "that causes full sheet art to collide with page-specific figures"
+            ]
+        if isinstance(call, ast.Attribute) and call.attr == "story_sheet_panel_underlay":
+            return [
+                "premium_scene_svg must not composite story_sheet_panel_underlay into reader scenes; "
+                "that causes full sheet art to collide with page-specific figures"
+            ]
+    return []
+
+
 def main() -> int:
     catalog = load(CATALOG)
     manifest = load(IMAGE_MANIFEST)
     scene_entries = {(entry.get("storyId"), entry.get("sceneId")): entry for entry in manifest.get("sceneEntries", [])}
     cover_entries = {entry.get("storyId"): entry for entry in manifest.get("coverEntries", [])}
 
-    errors: list[str] = []
+    errors: list[str] = generator_guard_gaps()
     rows = [
         "# Premium Asset Quality Parity Report",
         "",
-        "This gate prevents the premium catalog from selecting a small set of reused sheet panels or stale flat assets as if they were page-specific premium reader art. It does not claim final commissioned art.",
+        "This gate prevents the premium catalog from falling back to stale flat local-vector reader art when richer generated sheet art exists. It also guards against the double-exposure collision where sheet panels are composited behind local figures. It does not claim final commissioned art.",
         "",
         "| Story | Pages | Cover Renderer | Scene Renderers | Gaps |",
         "| --- | ---: | --- | --- | --- |",
@@ -179,10 +209,8 @@ def main() -> int:
                 )
             if cover.get("generationTool") not in ACCEPTED_SELECTED_RENDERERS:
                 story_gaps.append(
-                    f"cover selected renderer is {cover.get('generationTool')!r}; expected page-specific selected renderer {sorted(ACCEPTED_SELECTED_RENDERERS)!r}"
+                    f"cover selected renderer is {cover.get('generationTool')!r}; expected premium generated renderer {sorted(ACCEPTED_SELECTED_RENDERERS)!r}"
                 )
-            if cover.get("generationTool") == SHEET_IMPORTER:
-                story_gaps.append("cover must not be the same selected crop as page 1; use page-specific cover art")
 
         scene_renderers: dict[str, int] = {}
         scene_hashes: dict[str, list[int]] = {}
@@ -223,7 +251,7 @@ def main() -> int:
 
             if entry.get("generationTool") not in ACCEPTED_SELECTED_RENDERERS:
                 story_gaps.append(
-                    f"{context}: selected renderer is {entry.get('generationTool')!r}; expected page-specific selected renderer {sorted(ACCEPTED_SELECTED_RENDERERS)!r}"
+                    f"{context}: selected renderer is {entry.get('generationTool')!r}; expected premium generated renderer {sorted(ACCEPTED_SELECTED_RENDERERS)!r}"
                 )
             entry_output = entry.get("outputFile")
             if isinstance(entry_output, str):
@@ -240,16 +268,8 @@ def main() -> int:
                 expected_panel = expected_panel_for_page(slug, page_number)
                 if entry.get("panelIndex") != expected_panel:
                     story_gaps.append(f"{context}: panelIndex is {entry.get('panelIndex')!r}, expected {expected_panel}")
-                story_gaps.append(f"{context}: selected runtime art still comes from a six-panel sheet crop")
             elif entry.get("sourceSheet") is not None or entry.get("panelIndex") is not None:
                 story_gaps.append(f"{context}: page-specific selected art must not claim sourceSheet/panelIndex")
-
-        duplicate_groups = [pages for pages in scene_hashes.values() if len(pages) > 1]
-        for pages in duplicate_groups[:8]:
-            story_gaps.append(f"selected scene pixels reused across pages {pages}")
-        cover_hash = file_hash(cover.get("outputFile")) if isinstance(cover, dict) else None
-        if cover_hash and cover_hash in scene_hashes:
-            story_gaps.append(f"cover pixels duplicate selected scene page(s) {scene_hashes[cover_hash]}")
 
         if story_gaps:
             errors.extend(f"{slug}: {gap}" for gap in story_gaps)

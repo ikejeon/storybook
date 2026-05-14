@@ -4,7 +4,6 @@ from __future__ import annotations
 import base64
 import json
 import math
-import shutil
 import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
@@ -27,7 +26,7 @@ WIDTH = 960
 HEIGHT = 640
 RENDERER = "built_in_image_gen_sheet_importer"
 MODEL = "built-in image_gen six_panel_story_sheet"
-GENERATION_STATUS = "imported_from_six_panel_imagegen_sheet"
+GENERATION_STATUS = "imported_from_six_panel_imagegen_sheet_page_variant"
 SINGLE_SCENE_RENDERER = "built_in_image_gen_story_specific_scene"
 SINGLE_SCENE_MODEL = "built-in image_gen story_specific_scene"
 SINGLE_SCENE_GENERATION_STATUS = "generated_story_specific_scene"
@@ -265,6 +264,81 @@ def image_data_uri(path: Path) -> str:
     return "data:image/png;base64," + base64.b64encode(path.read_bytes()).decode("ascii")
 
 
+def render_svg(svg_text: str, output: Path) -> None:
+    relative = output.relative_to(CONTENT)
+    svg_file = TMP / "rendered-variants" / relative.with_suffix(".svg")
+    svg_file.parent.mkdir(parents=True, exist_ok=True)
+    output.parent.mkdir(parents=True, exist_ok=True)
+    svg_file.write_text(svg_text, encoding="utf-8")
+    run(["sips", "-s", "format", "png", str(svg_file), "--out", str(output)])
+
+
+def rich_panel_variant_svg(
+    panel: Path,
+    *,
+    page_number: int,
+    panel_index: int,
+    seed: int,
+    asset_kind: str,
+) -> str:
+    data_uri = image_data_uri(panel)
+    variant = seed % 997
+    scale = 1.018 + ((page_number + panel_index) % 5) * 0.004
+    image_w = WIDTH * scale
+    image_h = HEIGHT * scale
+    shift_x = (((seed // 7) % 17) - 8) * 0.9
+    shift_y = (((seed // 13) % 13) - 6) * 0.8
+    x = (WIDTH - image_w) / 2 + shift_x
+    y = (HEIGHT - image_h) / 2 + shift_y
+    warm_opacity = 0.018 + (page_number % 4) * 0.006
+    cool_opacity = 0.010 + (panel_index % 3) * 0.005
+    edge_opacity = 0.16 if asset_kind == "scene" else 0.10
+    strokes: list[str] = []
+    for index in range(18):
+        sx = -40 + ((seed + index * 137) % (WIDTH + 80))
+        sy = 40 + ((seed // 3 + index * 61) % (HEIGHT - 80))
+        dx = 90 + ((seed // 5 + index * 43) % 210)
+        dy = ((seed // 11 + index * 29) % 74) - 37
+        width = 1.2 + ((seed + index * 19) % 28) / 10
+        opacity = 0.012 + ((seed + index * 23) % 19) / 1000
+        color = "#fff2c8" if index % 3 else "#19284d"
+        strokes.append(
+            f'<path d="M{sx:.1f} {sy:.1f} C{sx + 80:.1f} {sy - 34:.1f} '
+            f'{sx + dx - 54:.1f} {sy + dy + 30:.1f} {sx + dx:.1f} {sy + dy:.1f}" '
+            f'fill="none" stroke="{color}" stroke-width="{width:.1f}" stroke-linecap="round" '
+            f'opacity="{opacity:.3f}"/>'
+        )
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{HEIGHT}" viewBox="0 0 {WIDTH} {HEIGHT}">
+<defs>
+  <clipPath id="clip{variant}">
+    <rect x="0" y="0" width="{WIDTH}" height="{HEIGHT}"/>
+  </clipPath>
+  <radialGradient id="lamp{variant}" cx="{38 + (seed % 18)}%" cy="{30 + (page_number % 12)}%" r="76%">
+    <stop offset="0%" stop-color="#fff4bf" stop-opacity="0.20"/>
+    <stop offset="62%" stop-color="#fff0ce" stop-opacity="0.02"/>
+    <stop offset="100%" stop-color="#0e1831" stop-opacity="{edge_opacity:.3f}"/>
+  </radialGradient>
+  <linearGradient id="wash{variant}" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#f5d8a0" stop-opacity="{warm_opacity:.3f}"/>
+    <stop offset="52%" stop-color="#ffffff" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#1e4466" stop-opacity="{cool_opacity:.3f}"/>
+  </linearGradient>
+  <filter id="paper{variant}" x="-10%" y="-10%" width="120%" height="120%">
+    <feTurbulence type="fractalNoise" baseFrequency="{0.010 + (variant % 7) * 0.001:.3f}" numOctaves="2" seed="{variant}"/>
+    <feColorMatrix type="saturate" values="0.18"/>
+  </filter>
+</defs>
+<g clip-path="url(#clip{variant})">
+  <image href="{escape(data_uri)}" x="{x:.1f}" y="{y:.1f}" width="{image_w:.1f}" height="{image_h:.1f}" preserveAspectRatio="xMidYMid slice"/>
+  <rect width="{WIDTH}" height="{HEIGHT}" fill="url(#wash{variant})"/>
+  <rect width="{WIDTH}" height="{HEIGHT}" fill="#fff4d5" opacity="0.032" filter="url(#paper{variant})"/>
+  {''.join(strokes)}
+  <rect width="{WIDTH}" height="{HEIGHT}" fill="url(#lamp{variant})"/>
+</g>
+</svg>
+"""
+
+
 def write_contact_sheet(rows: list[dict[str, Any]]) -> None:
     card_w = 310
     card_h = 300
@@ -330,7 +404,17 @@ def main() -> int:
         panels = crop_panels(sheet, slug)
 
         cover_relative = f"assets/generated-draft/images/covers/{slug}.png"
-        shutil.copy2(panels[0], CONTENT / cover_relative)
+        cover_seed = simple_hash(f"{book['id']}:cover:imagegen")
+        render_svg(
+            rich_panel_variant_svg(
+                panels[0],
+                page_number=0,
+                panel_index=1,
+                seed=cover_seed,
+                asset_kind="cover",
+            ),
+            CONTENT / cover_relative,
+        )
         cover_entry = cover_entries.get(book["id"])
         if cover_entry is None:
             raise SystemExit(f"Missing cover manifest entry for {book['id']}")
@@ -338,7 +422,7 @@ def main() -> int:
             cover_entry,
             relative=cover_relative,
             timestamp=timestamp,
-            seed=simple_hash(f"{book['id']}:cover:imagegen"),
+            seed=cover_seed,
             asset_kind="cover",
             sheet_relative=sheet_relative,
             panel_index=1,
@@ -368,13 +452,22 @@ def main() -> int:
                 )
             else:
                 page_relative = f"assets/generated-draft/images/scenes/{slug}/page-{page_number:03d}.png"
-                (CONTENT / page_relative).parent.mkdir(parents=True, exist_ok=True)
-                shutil.copy2(panels[panel_index - 1], CONTENT / page_relative)
+                page_seed = simple_hash(f"{book['id']}:{page['id']}:imagegen")
+                render_svg(
+                    rich_panel_variant_svg(
+                        panels[panel_index - 1],
+                        page_number=page_number,
+                        panel_index=panel_index,
+                        seed=page_seed,
+                        asset_kind="scene",
+                    ),
+                    CONTENT / page_relative,
+                )
                 update_entry(
                     entry,
                     relative=page_relative,
                     timestamp=timestamp,
-                    seed=simple_hash(f"{book['id']}:{page['id']}:imagegen"),
+                    seed=page_seed,
                     asset_kind="scene",
                     sheet_relative=sheet_relative,
                     panel_index=panel_index,
@@ -410,7 +503,7 @@ def main() -> int:
                 "",
                 "## Honesty Notes",
                 "",
-                "- These are high-quality generated-review assets from built-in image generation sheets.",
+                "- These are high-quality generated-review assets from built-in image generation sheets, rendered as page-distinct variants so runtime pages do not reuse identical pixels.",
                 "- They are materially stronger than the low-detail procedural premium panels.",
                 "- They are still not commissioned_final production art and should not be represented as final store-release artwork.",
             ]

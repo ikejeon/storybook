@@ -16,6 +16,8 @@ REPORT = ROOT / "tools" / "output" / "premium_imagegen_sheet_validation_report.m
 
 RENDERER = "built_in_image_gen_sheet_importer"
 GENERATION_STATUS = "imported_from_six_panel_imagegen_sheet"
+GENERATION_STATUS_PAGE_VARIANT = "imported_from_six_panel_imagegen_sheet_page_variant"
+GENERATION_STATUSES = {GENERATION_STATUS, GENERATION_STATUS_PAGE_VARIANT}
 MODEL = "built-in image_gen six_panel_story_sheet"
 LOCAL_RENDERER = "local_story_specific_svg_renderer"
 LOCAL_GENERATION_STATUS = "rendered_story_specific_painterly_panel"
@@ -85,8 +87,11 @@ def image_ok(entry: dict[str, Any], *, expected_sheet: str, expected_panels: set
     if renderer == RENDERER:
         if entry.get("generationModel") != MODEL:
             errors.append(f"{label}: generationModel is {entry.get('generationModel')!r}, expected {MODEL!r}")
-        if entry.get("generationStatus") != GENERATION_STATUS:
-            errors.append(f"{label}: generationStatus is {entry.get('generationStatus')!r}, expected {GENERATION_STATUS!r}")
+        if entry.get("generationStatus") not in GENERATION_STATUSES:
+            errors.append(
+                f"{label}: generationStatus is {entry.get('generationStatus')!r}, "
+                f"expected one of {sorted(GENERATION_STATUSES)!r}"
+            )
         if entry.get("sourceSheet") != expected_sheet:
             errors.append(f"{label}: sourceSheet is {entry.get('sourceSheet')!r}, expected {expected_sheet!r}")
         if not isinstance(panel_index, int) or panel_index not in expected_panels:
@@ -208,7 +213,7 @@ def main() -> int:
                 f"- Premium covers checked: {total_covers}",
                 f"- Premium scenes checked: {total_scenes}",
                 f"- Source sheet renderer checked: `{RENDERER}`",
-                f"- Selected runtime renderer accepted: per-page `{LOCAL_RENDERER}`, selected `{SINGLE_SCENE_RENDERER}` exceptions, or explicit `{RENDERER}` sheet crops when another validator confirms page-level fit",
+                f"- Selected runtime renderer accepted: per-page `{LOCAL_RENDERER}`, selected `{SINGLE_SCENE_RENDERER}` exceptions, or explicit `{RENDERER}` sheet variants when another validator confirms page-level fit",
                 f"- Minimum selected panel size: {MIN_PANEL_BYTES} bytes",
                 "",
                 "| Story | Scenes checked | Source sheet |",
